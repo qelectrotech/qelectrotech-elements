@@ -1,2 +1,2 @@
-# qelectrotech-elements#
-official elements collection for QElectroTech.
+# qelectrotech-elements:
+Official elements collection for QElectroTech.
