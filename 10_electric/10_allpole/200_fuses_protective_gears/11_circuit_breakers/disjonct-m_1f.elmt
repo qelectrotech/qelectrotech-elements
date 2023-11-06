@@ -1,16 +1,16 @@
-<definition height="60" version="0.90" width="20" hotspot_y="34" link_type="master" type="element" hotspot_x="10">
-    <uuid uuid="{aa6c05bc-a070-4165-8742-e23486dbdd49}"/>
+<definition type="element" link_type="master" width="20" version="0.100.0" hotspot_y="34" hotspot_x="10" height="60">
+    <uuid uuid="{7119e684-dd0a-4c4a-a406-6dd52e930b70}"/>
     <names>
         <name lang="hu">Kismegszakító 1 pólusú</name>
-        <name lang="pl">Wyłącznik</name>
         <name lang="de">Leitungsschutzschalter LS 1P</name>
-        <name lang="cs">Dvoupólový jistič 1 pól chránící</name>
-        <name lang="ar">قاطع ثنائي القطبية - 1 قطب محمي</name>
-        <name lang="es">Disyuntor termico magnetico en polo P</name>
-        <name lang="fr">Disjoncteur bipolaire 1 pole protege</name>
-        <name lang="it">Int. Aut. Magneto-termico 1P</name>
-        <name lang="en">Circuit-breaker</name>
         <name lang="nl">Lastscheider 1P</name>
+        <name lang="it">Int. Aut. Magneto-termico 1P</name>
+        <name lang="pl">Wyłącznik</name>
+        <name lang="es">Disyuntor termico magnetico en polo P</name>
+        <name lang="cs">Dvoupólový jistič 1 pól chránící</name>
+        <name lang="en">Circuit-breaker</name>
+        <name lang="ar">قاطع ثنائي القطبية - 1 قطب محمي</name>
+        <name lang="fr">Disjoncteur bipolaire 1 pole protege</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
@@ -19,17 +19,18 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="0" x1="0" y1="15.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" length2="1.5" end1="none"/>
-        <arc height="5" width="8" x="-4" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" start="90" y="10.5"/>
-        <polygon y3="8" x2="0" y5="3" x1="0" x3="5" y1="10.5" y6="0" closed="false" x4="5" x7="-5" antialias="true" y4="3" style="line-style:normal;line-weight:normal;filling:none;color:black" x6="0" y2="8" x5="0" y7="-20"/>
-        <line x2="0" x1="0" y1="-30" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" length2="1.5" end1="none"/>
-        <line x2="-2" x1="2" y1="-22" length1="1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-18" length2="1.5" end1="none"/>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" x="10" z="6" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" rotation="0" y="-17.5" uuid="{b3b0aba4-6a49-4225-9525-4a3fb043d24e}">
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" x1="0" y1="15.5" end2="none" y2="20" length1="1.5"/>
+        <arc x="-4" angle="-180" width="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="10.5" start="90" height="5"/>
+        <polygon x6="0" y4="3" x5="0" y5="3" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="-5" x2="0" x4="5" antialias="true" y3="8" y7="-20" y6="0" x1="0" x3="5" y1="10.5" y2="8"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" x1="0" y1="-30" end2="none" y2="-20" length1="1.5"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-2" antialias="true" length2="1.5" x1="2" y1="-25" end2="none" y2="-21" length1="1.5"/>
+        <dynamic_text x="10" text_from="ElementInfo" rotation="0" uuid="{b3b0aba4-6a49-4225-9525-4a3fb043d24e}" Valignment="AlignTop" z="6" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-17.5" text_width="-1" frame="false">
             <text>-F1</text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="2" x1="-2" y1="-22" length1="1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-18" length2="1.5" end1="none"/>
-        <terminal name="OUT.2" x="0" type="Generic" orientation="s" y="20" uuid="{43b1df3a-c1d0-4947-ae97-f224c1fe15e5}"/>
-        <terminal name="IN.1" x="0" type="Generic" orientation="n" y="-30" uuid="{4bc9f11b-af63-4db3-86fa-e39aed2097cb}"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" antialias="true" length2="1.5" x1="-2" y1="-25" end2="none" y2="-21" length1="1.5"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" antialias="false" length2="1.5" x1="-2" y1="-19" end2="none" y2="-19" length1="1.5"/>
+        <terminal x="0" uuid="{4bc9f11b-af63-4db3-86fa-e39aed2097cb}" type="Generic" name="IN.1" orientation="n" y="-30"/>
+        <terminal x="0" uuid="{43b1df3a-c1d0-4947-ae97-f224c1fe15e5}" type="Generic" name="OUT.2" orientation="s" y="20"/>
     </description>
 </definition>
