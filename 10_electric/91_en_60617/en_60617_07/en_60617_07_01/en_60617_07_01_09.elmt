@@ -1,18 +1,22 @@
-<definition type="element" width="50" height="50" hotspot_y="25" hotspot_x="25" version="0.70" link_type="simple">
-    <uuid uuid="{6352cf68-21aa-43cb-8b7d-7356e2b69205}"/>
+<definition type="element" width="50" hotspot_x="25" height="50" hotspot_y="25" version="0.100.0" link_type="simple">
+    <uuid uuid="{ada01e79-fa12-4144-bd79-d27afe3f46cd}"/>
     <names>
-        <name lang="de">zwangsläufige Betätigung eines Schalters </name>
         <name lang="fr">Manœuvre positive d'un interrupteur</name>
+        <name lang="de">zwangsläufige Betätigung eines Schalters </name>
         <name lang="cs">Zaručená činnost spínače</name>
         <name lang="en">Positive operation of a switch</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <ellipse antialias="false" width="42" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" x="-21"/>
-        <line antialias="false" x1="-15" y1="0" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="15" y1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="4" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="15" y1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
+        <dynamic_text frame="false" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" uuid="{b76d8117-d333-43e8-b216-f99144a3e81a}" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_width="-1" y="12.5" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse width="42" antialias="false" height="40" x="-21" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20"/>
+        <line length2="1.5" x2="15" antialias="false" length1="1.5" end2="none" x1="-15" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="0"/>
+        <line length2="1.5" x2="10" antialias="false" length1="1.5" end2="none" x1="15" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="4"/>
+        <line length2="1.5" x2="10" antialias="false" length1="1.5" end2="none" x1="15" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-5"/>
     </description>
 </definition>

@@ -1,24 +1,28 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="20" hotspot_y="2">
-    <uuid uuid="{2c964aeb-f85b-4888-b7ea-23f53dad397b}"/>
+<definition version="0.100.0" width="50" height="20" hotspot_y="2" link_type="simple" hotspot_x="24" type="element">
+    <uuid uuid="{f8617d46-2a63-4c23-8d29-c183b7516ca8}"/>
     <names>
-        <name lang="cs">Podzemní kabel</name>
         <name lang="it">Linea sotteranea</name>
         <name lang="pl">Linia podziemna</name>
         <name lang="en">Underground line</name>
-        <name lang="nl">Ondergronds lijn</name>
         <name lang="de">Leiter im Erdreich, Erdkabel</name>
+        <name lang="el">Υπόγεια γραμμή</name>
+        <name lang="cs">Podzemní kabel</name>
         <name lang="ar">خط تحت أرضي</name>
         <name lang="fr">Ligne souterraine</name>
-        <name lang="el">Υπόγεια γραμμή</name>
+        <name lang="nl">Ondergronds lijn</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-03-01</informations>
     <description>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="6" antialias="false" length2="1.5" end1="none" length1="1.5" y1="6" x1="-2" x2="2"/>
-        <input tagg="label" rotate="true" size="9" y="10.55" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="8" antialias="false" length2="1.5" end1="none" length1="1.5" y1="8" x1="-1" x2="1"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" x1="-20" x2="20"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="4" x1="-4" x2="4"/>
-        <terminal y="10" x="-20" orientation="w"/>
-        <terminal y="10" x="20" orientation="e"/>
+        <line length1="1.5" x1="-2" y1="6" x2="2" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="6" length2="1.5" end1="none"/>
+        <dynamic_text text_from="ElementInfo" uuid="{d351782d-66fe-4551-96b7-aa7c2e51cfef}" Halignment="AlignLeft" y="-1.95" frame="false" x="-7" Valignment="AlignTop" text_width="-1" keep_visual_rotation="false" z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" x1="-1" y1="8" x2="1" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="8" length2="1.5" end1="none"/>
+        <line length1="1.5" x1="-20" y1="10" x2="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="10" length2="1.5" end1="none"/>
+        <line length1="1.5" x1="-4" y1="4" x2="4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="4" length2="1.5" end1="none"/>
+        <terminal uuid="{80e7d077-6f59-4d73-8c94-03992aa5f6ba}" name="" y="10" orientation="w" x="-20" type="Generic"/>
+        <terminal uuid="{1b1e4cbd-1763-4195-ae5c-57440d9eec84}" name="" y="10" orientation="e" x="20" type="Generic"/>
     </description>
 </definition>

@@ -1,20 +1,24 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="125" width="130" hotspot_y="45">
-    <uuid uuid="{c34e2693-601d-4112-8ca8-ce33d6dedb4a}"/>
+<definition height="50" width="130" version="0.100.0" hotspot_x="125" link_type="simple" hotspot_y="45" type="element">
+    <uuid uuid="{e0228303-a26f-471c-9f83-676170c97cfc}"/>
     <names>
-        <name lang="de">Verkehrszeichen,
-Wegweiser, allgemein</name>
         <name lang="fr">Plaque d'avertissement
 Panneau de guidage, symbole général</name>
         <name lang="cs">Výstražný návěstní znak
 Návěstní znak pro vedení</name>
         <name lang="en">Warning sign, general symbol; Guidance sign, general symbol</name>
+        <name lang="de">Verkehrszeichen,
+Wegweiser, allgemein</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <rect y="-40" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-40" height="40" antialias="false" x="-80" width="40" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
-        <rect y="-40" height="40" antialias="false" x="-120" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text uuid="{05c302a2-3df6-40b1-bf44-371b52a0ccf8}" frame="false" z="1" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo" keep_visual_rotation="false" text_width="-1" rotation="0" y="12.5" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="40" rx="0" width="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" x="-40" ry="0"/>
+        <rect height="40" rx="0" width="40" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" y="-40" x="-80" ry="0"/>
+        <rect height="40" rx="0" width="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" x="-120" ry="0"/>
     </description>
 </definition>

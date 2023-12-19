@@ -1,25 +1,30 @@
-<definition width="70" version="0.3" hotspot_x="35" hotspot_y="35" height="70" type="element">
-<uuid uuid="{3979F03E-5FE8-4344-B829-50DA5C13749D}"/><names>
-        <name lang="en">Fixed Displacement hydraulic pump</name>
-        <name lang="es">Bomba hidráulica de desplazamiento fijo</name>
-        <name lang="fr">Pompe debit fixe</name>
+<definition type="element" height="60" hotspot_y="30" hotspot_x="33" link_type="simple" width="60" version="0.100.0">
+    <uuid uuid="{a21bb442-6fa4-4dd5-85aa-fc9b54d85a6c}"/>
+    <names>
         <name lang="pl">Pompa o stałej wydajności i jednym kierunku tłoczenia</name>
+        <name lang="en">Fixed Displacement hydraulic pump</name>
+        <name lang="nl">Pomp vast</name>
         <name lang="cs">Vodní čerpadlo se stálým výkonem</name>
         <name lang="ar">مضخّة بتدفق ثابت</name>
+        <name lang="es">Bomba hidráulica de desplazamiento fijo</name>
+        <name lang="fr">Pompe debit fixe</name>
         <name lang="it">Pompa a portata fissa</name>
-        <name lang="nl">Pomp vast</name>
     </names>
-    <informations>Author: The QElectroTech team
+    <elementInformations/>
+    <informations>Author: The QElectroTech team&#xd;
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="24" y="-13.6667" size="8" rotate="true" text="_" tagg="label"/>
-        <circle x="-20" y="-20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40"/>
-        <polygon x4="4.1633" y5="-19.459" x5="4.1633" y6="-19.459" x6="4.1633" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-19.9336" x1="0.2373" y2="-15.0095" x2="-2.2543" y3="-15.0095" x3="2.2543" y4="-19.5776"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="0" y2="24.5" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20.4" x1="0" y2="-24.5" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-20.5" y2="0" x2="-24.5"/>
-        <terminal x="0" y="-24.4" orientation="n"/>
-        <terminal x="0" y="24.4" orientation="s"/>
-        <terminal x="-24.4" y="0" orientation="w"/>
+        <dynamic_text Valignment="AlignTop" x="24" y="-25.6667" font="Sans Serif,8,-1,5,50,0,0,0,0,0" text_width="-1" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" z="1" Halignment="AlignLeft" uuid="{cfedc832-563a-4583-b5f2-9b6ae26eef11}" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" antialias="true" x="-20" y="-20"/>
+        <polygon y3="-15.0095" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" x4="4.1633" y5="-19.459" x2="-2.2543" x5="4.1633" x1="0.2373" y1="-19.9336" y6="-19.459" y2="-15.0095" x3="2.2543" x6="4.1633" y4="-19.5776"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" x2="0" end1="none" x1="0" y1="20" y2="24.5" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" x2="0" end1="none" x1="0" y1="-20.4" y2="-24.5" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" x2="-24.5" end1="none" x1="-20.5" y1="0" y2="0" length1="1.5"/>
+        <terminal type="Generic" x="0" y="-24.4" orientation="n" name="" uuid="{b11326c0-7650-4dda-806b-5794ace51800}"/>
+        <terminal type="Generic" x="0" y="24.4" orientation="s" name="" uuid="{f4e4285a-9743-44e9-a878-a9beb471e6ab}"/>
+        <terminal type="Generic" x="-24.4" y="0" orientation="w" name="" uuid="{1a13ab02-6fec-4fe3-b01a-cc654aa2978f}"/>
     </description>
 </definition>

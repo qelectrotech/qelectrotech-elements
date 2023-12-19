@@ -1,20 +1,24 @@
-<definition link_type="simple" type="element" width="40" hotspot_y="10" height="20" version="0.70" hotspot_x="29">
-    <uuid uuid="{8ed642df-b9a8-4333-917c-71538b2adc13}"/>
+<definition hotspot_y="10" width="40" height="20" version="0.100.0" hotspot_x="29" link_type="simple" type="element">
+    <uuid uuid="{aaf5465d-0d5a-4401-947c-6f47454dcfdc}"/>
     <names>
-        <name lang="fr">Commande par volant</name>
-        <name lang="es">Accionado por volante</name>
         <name lang="de">Betätigung durch Handrad</name>
-        <name lang="cs">Ovládání řídícím kolem</name>
+        <name lang="es">Accionado por volante</name>
         <name lang="en">Actuator (operated by handwheel)</name>
+        <name lang="fr">Commande par volant</name>
+        <name lang="cs">Ovládání řídícím kolem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
-        <line x2="6" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-14" y2="0" length2="1.5"/>
-        <line x2="-19" antialias="false" y1="-5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" y2="0" length2="1.5"/>
-        <circle antialias="false" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-24" y="-5"/>
-        <line x2="-22" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" y2="4" length2="1.5"/>
-        <line x2="-16" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" y2="3" length2="1.5"/>
+        <dynamic_text keep_visual_rotation="false" x="5" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" z="1" frame="false" y="2.5" uuid="{a351ff75-9635-47d8-999b-f9033bfb69a8}" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="6" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-14" antialias="false" y2="0" length1="1.5" y1="0" end1="none" end2="none"/>
+        <line x2="-19" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" antialias="false" y2="0" length1="1.5" y1="-5" end1="none" end2="none"/>
+        <circle x="-24" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-5"/>
+        <line x2="-22" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" antialias="false" y2="4" length1="1.5" y1="0" end1="none" end2="none"/>
+        <line x2="-16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" antialias="false" y2="3" length1="1.5" y1="0" end1="none" end2="none"/>
     </description>
 </definition>

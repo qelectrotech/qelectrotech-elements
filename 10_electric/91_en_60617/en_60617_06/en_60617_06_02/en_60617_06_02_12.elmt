@@ -1,18 +1,22 @@
-<definition link_type="simple" hotspot_x="20" hotspot_y="25" version="0.70" width="30" type="element" height="30">
-    <uuid uuid="{cede6b8a-96e2-454b-b78f-0550e8588ff2}"/>
+<definition hotspot_y="25" link_type="simple" height="30" hotspot_x="20" version="0.100.0" type="element" width="30">
+    <uuid uuid="{900d77b1-9469-4768-86a0-b03b66774c6e}"/>
     <names>
-        <name lang="fr">Enroulement hexaphasé, en étoile</name>
         <name lang="de">Sechsphasenwicklung, Sternschaltung</name>
-        <name lang="cs">Šestifázové vinutí do hvězdy</name>
         <name lang="en">Six-phase winding, star</name>
+        <name lang="fr">Enroulement hexaphasé, en étoile</name>
+        <name lang="cs">Šestifázové vinutí do hvězdy</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="15" text="_" tagg="label" size="9"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-5" x2="-5" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-15" end1="none" length1="1.5" x1="-15" x2="5" end2="none" antialias="false" y2="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-5" end1="none" length1="1.5" x1="-15" x2="5" end2="none" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-7.5" y="-12.5" antialias="false" diameter="5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <dynamic_text text_width="-1" frame="false" x="5" uuid="{7aa4a952-f44b-4b14-b549-059a2b675b51}" rotation="0" y="2.5" z="1" text_from="ElementInfo" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" x1="-5" y1="-20" length1="1.5" y2="0" x2="-5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="-15" y1="-15" length1="1.5" y2="-5" x2="5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="-15" y1="-5" length1="1.5" y2="-15" x2="5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-7.5" diameter="5" y="-12.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
     </description>
 </definition>

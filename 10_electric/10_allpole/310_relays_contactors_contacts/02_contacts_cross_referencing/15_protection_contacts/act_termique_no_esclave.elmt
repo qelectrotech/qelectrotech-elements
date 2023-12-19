@@ -1,31 +1,39 @@
-<definition width="30" version="0.4" hotspot_x="23" hotspot_y="25" height="50" link_type="slave" type="element">
-<uuid uuid="{7D9A0CF9-ED6E-4906-AA18-3139898236E6}"/><names>
-        <name lang="de">Schliesser thermisch betätigt</name>
-        <name lang="el">Θερμικό, ανοικτό</name>
-        <name lang="en">Thermal relay NO</name>
+<definition hotspot_x="23" version="0.100.0" width="30" height="50" link_type="slave" type="element" hotspot_y="24">
+    <uuid uuid="{4235a435-dc8f-445d-afc7-ba75875570dc}"/>
+    <names>
         <name lang="es">Relé termico NA</name>
-        <name lang="it">Azionato da relè termico (NO)</name>
+        <name lang="en">Thermal relay NO</name>
+        <name lang="cs">Tepelné relé (NO)</name>
         <name lang="fr">Actionné par un dispositif thermique NO</name>
         <name lang="pl">Zestyk zwierny przekaźnika cieplnego</name>
         <name lang="nl">Thermisch bediend contact (NO)</name>
-        <name lang="cs">Tepelné relé (NO)</name>
+        <name lang="el">Θερμικό, ανοικτό</name>
+        <name lang="de">Schliesser thermisch betätigt</name>
+        <name lang="it">Azionato da relè termico (NO)</name>
     </names>
     <kindInformations>
-        <kindInformation name="number" show="1">1</kindInformation>
-        <kindInformation name="type" show="1">simple</kindInformation>
-        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="type">simple</kindInformation>
+        <kindInformation name="state">NO</kindInformation>
+        <kindInformation name="number">1</kindInformation>
     </kindInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="-13" y5="-3" x5="-18" y6="-7" x6="-18" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" y1="7" x1="-18" y2="3" x2="-18" y3="3" x3="-13" y4="-3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-13" y2="0" x2="-3"/>
-        <input x="-13" y="16" size="4" text="14" tagg="none"/>
-        <input x="-13" y="-16" size="4" text="11" tagg="none"/>
-        <input x="1" y="0.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <terminal x="0" y="20" orientation="s"/>
-        <terminal x="0" y="-20" orientation="n"/>
+        <polygon y3="3" x6="-18" closed="false" antialias="false" x4="-13" y6="-7" y1="7" x2="-18" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-18" y2="3" y5="-3" y4="-3" x5="-18" x3="-13"/>
+        <line length2="1.5" end1="none" antialias="false" y1="0" x2="-3" style="line-style:dashed;line-weight:thin;filling:none;color:black" end2="none" x1="-13" y2="0" length1="1.5"/>
+        <dynamic_text x="-13" uuid="{92748c21-8c5d-4d0f-ba03-2576ce0c29b1}" Valignment="AlignTop" keep_visual_rotation="false" z="3" text_width="-1" text_from="UserText" rotation="0" frame="false" y="8" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft">
+            <text>14</text>
+        </dynamic_text>
+        <dynamic_text x="-13" uuid="{a6050b16-37f7-4abd-9e63-e4decee59cd0}" Valignment="AlignTop" keep_visual_rotation="false" z="4" text_width="-1" text_from="UserText" rotation="0" frame="false" y="-24" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft">
+            <text>11</text>
+        </dynamic_text>
+        <dynamic_text x="1" uuid="{4f0a4699-4daa-4090-8594-0e080170275f}" Valignment="AlignTop" keep_visual_rotation="false" z="5" text_width="-1" text_from="ElementInfo" rotation="0" frame="false" y="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y3="20" closed="false" antialias="true" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" y2="10" x3="0"/>
+        <line length2="1.5" end1="none" antialias="false" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="0" y2="-10" length1="1.5"/>
+        <terminal x="0" uuid="{3d4d0c7c-e2cf-456a-a79b-1d8bb928b06d}" orientation="s" name="" y="20" type="Generic"/>
+        <terminal x="0" uuid="{dd0471f2-dc89-4e29-ba17-3bc8a3d95a7a}" orientation="n" name="" y="-20" type="Generic"/>
     </description>
 </definition>

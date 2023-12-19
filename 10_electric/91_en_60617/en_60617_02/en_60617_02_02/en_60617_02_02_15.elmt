@@ -1,16 +1,20 @@
-<definition type="element" width="20" height="20" version="0.70" hotspot_x="10" hotspot_y="11" link_type="simple">
-    <uuid uuid="{add4681a-c9e3-45bd-a58e-10b0ecd944da}"/>
+<definition height="20" width="20" version="0.100.0" hotspot_x="10" hotspot_y="7" link_type="simple" type="element">
+    <uuid uuid="{76664943-a706-4671-9f75-4fd9e0c1a49d}"/>
     <names>
-        <name lang="fr">Conducteur neutre</name>
-        <name lang="de">Neutralleiter</name>
         <name lang="es">Neutro</name>
-        <name lang="cs">Střední vodič (neutrální)(střídavý proud)</name>
+        <name lang="fr">Conducteur neutre</name>
         <name lang="en">Neutral</name>
+        <name lang="cs">Střední vodič (neutrální)(střídavý proud)</name>
+        <name lang="de">Neutralleiter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
-        <text size="6" text="N" y="6" x="-3"/>
+        <dynamic_text text_from="ElementInfo" y="2.5" rotation="0" keep_visual_rotation="false" x="5" text_width="-1" uuid="{c0d6e901-33ae-4cbe-bc8e-6ecd106a5801}" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text text="N" y="6" rotation="0" x="-3" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
     </description>
 </definition>

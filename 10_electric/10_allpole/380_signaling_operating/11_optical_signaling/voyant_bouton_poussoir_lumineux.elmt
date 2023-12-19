@@ -1,29 +1,33 @@
-<definition type="element" width="60" height="50" version="0.3" hotspot_x="15" hotspot_y="25" orientation="dnny">
-  <uuid uuid="{0319D98A-1348-4904-A5CB-787A8D6280CD}"/>
-  <names>
-    <name lang="ar">مُؤشّر ضوئي لمفتاح ضاغط</name>
-    <name lang="el">Μπουτόν, φωτειζόμενο με LED</name>
-    <name lang="en">LED of an illuminated push-button</name>
-    <name lang="es">LED en un pulsador iluminado</name>
-    <name lang="de">Meldeleuchte eines Drucktasters</name>
-    <name lang="it">Spia luminosa a LED</name>
-    <name lang="fr">Voyant d'un bouton poussoir lumineux</name>
-    <name lang="pl">Łącznik przyciskowy podświetlony</name>
-    <name lang="cs">Prosvětlené tlačítko</name>
-    <name lang="nl">lamp van drukknop </name>
-  </names>
-  <informations>Author: The QElectroTech team
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="50" hotspot_x="15" hotspot_y="24">
+    <uuid uuid="{3906e5a1-d1fb-466e-813a-c958c5b9e07f}"/>
+    <names>
+        <name lang="fr">Voyant d'un bouton poussoir lumineux</name>
+        <name lang="en">LED of an illuminated push-button</name>
+        <name lang="de">Meldeleuchte eines Drucktasters</name>
+        <name lang="it">Spia luminosa a LED</name>
+        <name lang="pl">Łącznik przyciskowy podświetlony</name>
+        <name lang="el">Μπουτόν, φωτειζόμενο με LED</name>
+        <name lang="es">LED en un pulsador iluminado</name>
+        <name lang="nl">lamp van drukknop </name>
+        <name lang="ar">مُؤشّر ضوئي لمفتاح ضاغط</name>
+        <name lang="cs">Prosvětlené tlačítko</name>
+    </names>
+    <elementInformations/>
+    <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
-  <description>
-    <line x1="10" x2="20" y1="0" y2="0" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <polygon x1="17" x2="20" x3="20" x4="17" y1="5" y2="5" y3="-5" y4="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" antialias="false"/>
-    <circle x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="true"/>
-    <line x1="7.03" x2="-7.03" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="-7.03" x2="7.03" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="-20" y2="-10" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="10" y2="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <input x="23" y="-1.5" size="9" tagg="label" text="_" rotate="true"/>
-    <terminal x="0" y="-20" orientation="n"/>
-    <terminal x="0" y="20" orientation="s"/>
-  </description>
+    <description>
+        <line x1="10" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" y1="0" x2="20" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="0"/>
+        <polygon x1="17" x3="20" y4="-5" closed="false" antialias="false" y3="-5" x4="17" y1="5" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5"/>
+        <circle antialias="true" x="-10" diameter="20" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="7.03" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" y1="-7.03" x2="-7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
+        <line x1="-7.03" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" y1="-7.03" x2="7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
+        <line x1="0" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line x1="0" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+        <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" x="23" text_width="-1" rotation="0" uuid="{f07b1f4a-390c-41fc-8420-dd85e439973a}" y="-14" z="8" text_from="ElementInfo" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" orientation="n" x="0" uuid="{300bd734-d368-4ddc-b38b-a8c30269606a}" y="-20" name=""/>
+        <terminal type="Generic" orientation="s" x="0" uuid="{55151be8-806d-4008-8ea3-9f305b05c107}" y="20" name=""/>
+    </description>
 </definition>

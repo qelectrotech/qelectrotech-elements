@@ -1,25 +1,30 @@
-<definition width="80" version="0.4" hotspot_x="70" hotspot_y="58" height="90" link_type="simple" type="element">
-<uuid uuid="{F23CA2E1-4B16-4B73-9F51-13F9B201B535}"/><names>
-        <name lang="es">Captador solar inclinado</name>
+<definition height="90" type="element" hotspot_x="70" hotspot_y="58" width="80" link_type="simple" version="0.100.0">
+    <uuid uuid="{327afd69-05ac-4db2-86ea-0746cde89d88}"/>
+    <names>
         <name lang="en">Inclined solar capturator</name>
-        <name lang="ca">Captador solar inclinat</name>
         <name lang="fr">capteur solaire incliné</name>
+        <name lang="es">Captador solar inclinado</name>
+        <name lang="ca">Captador solar inclinat</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="11" x1="-64" y2="27" x2="-36"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="-67" y2="24" x2="-39"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-52" x1="-28" y2="-36" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-52" x1="-28" y2="8" x2="-67"/>
-        <polygon x4="3" y5="-36" x5="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-36" x1="0" y2="24" x2="-39" y3="24" x3="-35" y4="-36"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-36" x1="3" y2="-52" x2="-25" y3="-52" x3="-28"/>
-        <polygon x4="-28" y5="8" x5="-65" antialias="false" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="8" x1="-65" y2="22" x2="-40" y3="-35" x3="-3" y4="-49"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="11" x1="-64" y2="10" x2="-64"/>
-        <input x="-19" y="-51.5" size="6" rotate="true" text="_" tagg="label"/>
-        <terminal x="-33" y="23" orientation="e"/>
-        <terminal x="-65" y="6" orientation="w"/>
-        <terminal x="-29" y="-51" orientation="w"/>
-        <terminal x="4" y="-35" orientation="e"/>
+        <line antialias="false" end1="none" y1="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-36" x1="-64" y2="27" end2="none"/>
+        <line antialias="false" end1="none" y1="8" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-39" x1="-67" y2="24" end2="none"/>
+        <line antialias="false" end1="none" y1="-52" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" x1="-28" y2="-36" end2="none"/>
+        <line antialias="false" end1="none" y1="-52" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-67" x1="-28" y2="8" end2="none"/>
+        <polygon closed="false" antialias="false" y1="-36" y3="24" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-35" y5="-36" x4="3" x2="-39" x5="0" x1="0" y2="24" y4="-36"/>
+        <polygon closed="false" antialias="false" y1="-36" y3="-52" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-28" x2="-25" x1="3" y2="-52"/>
+        <polygon antialias="false" y1="8" y3="-35" style="line-style:normal;line-weight:thin;filling:black;color:black" x3="-3" y5="8" x4="-28" x2="-40" x5="-65" x1="-65" y2="22" y4="-49"/>
+        <line antialias="false" end1="none" y1="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-64" x1="-64" y2="10" end2="none"/>
+        <dynamic_text z="9" text_width="-1" rotation="0" uuid="{f2020bcd-a804-4d61-89d2-94b1627bf36e}" Halignment="AlignLeft" x="-19" keep_visual_rotation="false" y="-61.5" text_from="ElementInfo" Valignment="AlignTop" frame="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="e" uuid="{6594537d-f92f-44c4-8897-c30e56f8e58a}" name="" x="-33" type="Generic" y="23"/>
+        <terminal orientation="w" uuid="{4164c8d1-b8f3-4c1c-b48a-a54644f59836}" name="" x="-65" type="Generic" y="6"/>
+        <terminal orientation="w" uuid="{275b4356-065a-4cb9-9312-392da01c937b}" name="" x="-29" type="Generic" y="-51"/>
+        <terminal orientation="e" uuid="{654cd54f-301d-4bd6-be8f-f2dc4ea619a0}" name="" x="4" type="Generic" y="-35"/>
     </description>
 </definition>

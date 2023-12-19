@@ -1,24 +1,28 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="20" hotspot_y="11">
-    <uuid uuid="{53074485-fe71-4c9e-9760-4db8a131d48a}"/>
+<definition link_type="simple" hotspot_x="18" width="40" height="20" version="0.100.0" type="element" hotspot_y="10">
+    <uuid uuid="{e4e65035-efa5-4027-a1e5-eae82c1272fe}"/>
     <names>
-        <name lang="cs">Přípojka studené vody</name>
-        <name lang="it">Entrata acqua calda</name>
-        <name lang="pl">Przyłącze zimnej wody</name>
-        <name lang="en">Cold water supply</name>
         <name lang="nl">Koud water toevoer</name>
-        <name lang="ar">إمداد بالمياه الباردة</name>
+        <name lang="en">Cold water supply</name>
         <name lang="fr">Arrivée d'eau froide</name>
-        <name lang="es">Entrada agua fría</name>
+        <name lang="ar">إمداد بالمياه الباردة</name>
         <name lang="el">Παροχή κρύου νερού</name>
+        <name lang="it">Entrata acqua calda</name>
+        <name lang="cs">Přípojka studené vody</name>
+        <name lang="pl">Przyłącze zimnej wody</name>
+        <name lang="es">Entrada agua fría</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-1.45" x="11" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-6" x2="-10"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x4="4" antialias="true" y1="-5" x1="4" x3="-6" y3="0" y4="-5" x2="4"/>
-        <text rotation="-90" size="5" y="5" x="11" text="E.F."/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="1" y="-0.5" x="-10.5"/>
-        <terminal y="0" x="-10" orientation="w"/>
+        <dynamic_text z="1" uuid="{99c8662b-ffcd-49ec-ac12-a6f659c8076d}" y="-13.95" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" keep_visual_rotation="false" frame="false" x="11" text_from="ElementInfo" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" y1="0" x1="-6" y2="0" x2="-10" end1="none" antialias="false"/>
+        <polygon x3="-6" x4="4" y4="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="4" y2="5" x2="4" antialias="true" y3="0"/>
+        <text y="5" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="-90" text="E.F." x="11"/>
+        <circle y="-0.5" diameter="1" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10.5" antialias="true"/>
+        <terminal uuid="{ed209c6d-e941-4537-9a6a-658eeb135bdc}" y="0" orientation="w" name="" x="-10" type="Generic"/>
     </description>
 </definition>

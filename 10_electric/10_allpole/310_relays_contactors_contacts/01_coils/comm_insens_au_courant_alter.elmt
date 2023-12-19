@@ -1,31 +1,40 @@
-<definition width="60" version="0.3" hotspot_x="20" hotspot_y="30" height="60" type="element" link_type="master">
-<uuid uuid="{A28D3DBE-8169-4255-AC27-4857F690D837}"/><names>
-        <name lang="en">Relay insensitive to AC</name>
-        <name lang="de">Relais Wechselstrom-unempfindlich</name>
-        <name lang="it">Relè insensibile alla CA</name>
-        <name lang="fr">Relais insensible au courant alternatif</name>
-        <name lang="pl">Przekaźnik niewrażliwy na prąd przemienny</name>
-        <name lang="cs">Relé necitlivé na střídavý proud</name>
+<definition version="0.100.0" height="50" link_type="master" hotspot_x="20" hotspot_y="24" type="element" width="40">
+    <uuid uuid="{15e240f0-1770-429f-b119-c1d03b75ad22}"/>
+    <names>
         <name lang="es"> Relé insensible a la CA</name>
-        <name lang="nl">relais ongevoelig voor wisselspanning</name>
+        <name lang="de">Relais Wechselstrom-unempfindlich</name>
         <name lang="el">Ρελέ με αντοχή σε AC</name>
-        <name lang="hu">AC-ra érzéketlen relé</name>
+        <name lang="cs">Relé necitlivé na střídavý proud</name>
         <name lang="be">Relais ongevoelig voor AC (wisselspanning)</name>
+        <name lang="pl">Przekaźnik niewrażliwy na prąd przemienny</name>
+        <name lang="it">Relè insensibile alla CA</name>
+        <name lang="nl">relais ongevoelig voor wisselspanning</name>
+        <name lang="en">Relay insensitive to AC</name>
+        <name lang="hu">AC-ra érzéketlen relé</name>
+        <name lang="fr">Relais insensible au courant alternatif</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="30" x="-15" y="6" antialias="false" height="4" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <rect width="30" x="-15" y="-10" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect width="30" x="-15" y="-10" antialias="false" height="4" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <input x="-14" y="18" size="4" text="A2"/>
-        <input x="-14" y="-17" size="4" text="A1"/>
-        <input x="16" y="0.5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <rect rx="0" height="4" antialias="false" x="-15" y="6" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" width="30"/>
+        <rect rx="0" height="20" antialias="false" x="-15" y="-10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30"/>
+        <rect rx="0" height="4" antialias="false" x="-15" y="-10" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" width="30"/>
+        <line y1="20" x2="0" antialias="false" length2="1.5" x1="0" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="10"/>
+        <line y1="-20" x2="0" antialias="false" length2="1.5" x1="0" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-10"/>
+        <dynamic_text Halignment="AlignLeft" text_from="UserText" rotation="0" x="-14" text_width="-1" y="10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" z="6" frame="false" keep_visual_rotation="false" Valignment="AlignTop" uuid="{0bc032e7-49aa-403a-bfdc-fdc6bb8d37d4}">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" text_from="UserText" rotation="0" x="-14" text_width="-1" y="-25" font="Sans Serif,4,-1,5,25,0,0,0,0,0" z="7" frame="false" keep_visual_rotation="false" Valignment="AlignTop" uuid="{f4130a6b-0988-471c-997c-40cb05fe1eb8}">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" text_from="ElementInfo" rotation="0" x="16" text_width="-1" y="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="8" frame="false" keep_visual_rotation="false" Valignment="AlignTop" uuid="{2614e8da-8f4b-4df6-95ae-431858127424}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="" x="0" y="-20" orientation="n" type="Generic" uuid="{c2cc0652-aa3a-44c3-a528-553606bd4065}"/>
+        <terminal name="" x="0" y="20" orientation="s" type="Generic" uuid="{77a07107-1c0b-4c28-a62b-9fa39f4b2897}"/>
     </description>
 </definition>

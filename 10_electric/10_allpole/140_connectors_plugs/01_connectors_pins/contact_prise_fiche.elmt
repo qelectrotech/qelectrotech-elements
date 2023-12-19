@@ -1,22 +1,27 @@
-<definition width="10" version="0.3" hotspot_x="5" hotspot_y="10" height="20" type="element">
-<uuid uuid="{58685DC3-B284-4884-93E1-34D1E4529C04}"/><names>
-        <name lang="ar">قابس ذكري</name>
+<definition hotspot_x="4" width="10" hotspot_y="13" version="0.100.0" link_type="simple" type="element" height="30">
+    <uuid uuid="{22640347-ebc2-4006-a6ab-71611b239ddf}"/>
+    <names>
+        <name lang="pl">Wtyk</name>
+        <name lang="es">Enchufe macho</name>
         <name lang="de">Steckverbindung Stecker</name>
         <name lang="en">plug male</name>
         <name lang="it">Contatto maschio</name>
-        <name lang="fr">Contact mâle fiche</name>
-        <name lang="pl">Wtyk</name>
-        <name lang="es">Enchufe macho</name>
+        <name lang="hu">Apa csatlakozó</name>
         <name lang="cs">Kontakt zástrčka</name>
         <name lang="nl">Steker</name>
-        <name lang="hu">Apa csatlakozó</name>
+        <name lang="fr">Contact mâle fiche</name>
+        <name lang="ar">قابس ذكري</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 03-03-03</informations>
     <description>
-        <input x="1" y="2" size="8" rotate="true" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="-1" y2="-1" x2="-1"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="1" y2="-1" x2="1"/>
-        <terminal x="0" y="10" orientation="s"/>
+        <dynamic_text x="1" y="-10" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" uuid="{c0e81e51-b03b-4b47-94f1-7c365c57e453}" font="Sans Serif,8,-1,5,50,0,0,0,0,0" text_width="-1" z="1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-1" y2="-1" x2="-1" antialias="false" end2="none" y1="-8" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none"/>
+        <line x1="0" y2="10" x2="0" antialias="false" end2="none" y1="-8" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none"/>
+        <line x1="1" y2="-1" x2="1" antialias="false" end2="none" y1="-8" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none"/>
+        <terminal x="0" y="10" uuid="{b5256d77-30d6-4dbb-9192-96782a5c43f5}" orientation="s" name="" type="Generic"/>
     </description>
 </definition>

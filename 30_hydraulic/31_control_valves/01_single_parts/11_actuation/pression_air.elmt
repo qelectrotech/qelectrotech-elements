@@ -1,22 +1,26 @@
-<definition version="0.5" hotspot_x="10" hotspot_y="0" width="40" height="10" link_type="simple" type="element">
-    <uuid uuid="{edc1dda1-52db-4634-ac93-7e6478f84780}"/>
+<definition version="0.100.0" type="element" link_type="simple" height="10" width="40" hotspot_x="20" hotspot_y="0">
+    <uuid uuid="{38c0c5a9-3200-4ad2-b7d6-fab7503330d9}"/>
     <names>
         <name lang="en">Control air pressure</name>
-        <name lang="es">Control de presión de aire</name>
-        <name lang="nl">Luchtdruk</name>
         <name lang="fr">Commande pression de l'air</name>
         <name lang="pl">Sterowane za pomocą ciśnienia</name>
         <name lang="it">Comando a pressione d'aria</name>
+        <name lang="nl">Luchtdruk</name>
         <name lang="cs">Řízeno pomocí tlaku</name>
         <name lang="ar">تحكّم ضغط هوائي</name>
+        <name lang="es">Control de presión de aire</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-27" rotate="true" tagg="label" y="0.55" text="_"/>
-        <line antialias="false" x1="12" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="17"/>
-        <line antialias="false" x1="4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="9"/>
-        <line antialias="false" x1="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="0"/>
-        <line antialias="false" x1="21" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="25"/>
+        <dynamic_text uuid="{a2011b6d-28f2-4a47-b95f-14b036271000}" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-11.95" frame="false" rotation="0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" x="-37" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="7" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" end2="none" x1="2" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-1" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" end2="none" x1="-6" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" end2="none" x1="-15" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15" length1="1.5" length2="1.5" end1="none" y1="5" y2="5" end2="none" x1="11" antialias="false"/>
     </description>
 </definition>

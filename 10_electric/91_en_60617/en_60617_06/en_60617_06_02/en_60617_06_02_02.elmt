@@ -1,16 +1,20 @@
-<definition link_type="simple" hotspot_x="25" hotspot_y="17" version="0.70" width="30" type="element" height="20">
-    <uuid uuid="{cca21743-ea04-4eb8-aa7a-7f610afaa82f}"/>
+<definition hotspot_y="17" link_type="simple" height="20" type="element" width="30" version="0.100.0" hotspot_x="25">
+    <uuid uuid="{cdc95d69-71fb-47de-8b7e-aba03a13f59d}"/>
     <names>
         <name lang="fr">Enroulement triphasé partiel, en V (60°)</name>
         <name lang="de">Dreiphasenwicklung, V-Schaltung (60°)</name>
         <name lang="cs">Trojfázové vinutí spojené do neúplného trojúhelníka V (60°)</name>
         <name lang="en">Three-phase winding, V (60°)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="15" text="_" tagg="label" size="9"/>
-        <line y1="-15" end1="none" length1="1.5" x1="-20" x2="-10" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="-10" x2="0" end2="none" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" y="2.5" frame="false" keep_visual_rotation="false" z="1" x="5" Halignment="AlignLeft" uuid="{cbaeee4a-8c61-4081-b4ad-7802f7c01d44}" text_from="ElementInfo" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" end2="none" x2="-10" length1="1.5" y1="-15" y2="0" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5"/>
+        <line end1="none" end2="none" x2="0" length1="1.5" y1="0" y2="-15" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5"/>
     </description>
 </definition>

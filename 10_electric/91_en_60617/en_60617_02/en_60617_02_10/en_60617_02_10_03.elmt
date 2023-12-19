@@ -1,26 +1,30 @@
-<definition hotspot_x="24" version="0.70" height="30" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{6bce70ca-75fa-47c6-ab46-db10c884c99f}"/>
+<definition hotspot_y="15" height="30" version="0.100.0" type="element" width="50" hotspot_x="24" link_type="simple">
+    <uuid uuid="{63b6b9cc-fb80-465a-83e7-44e4d8cab39e}"/>
     <names>
-        <name lang="fr">Impulsion de courant alternatif</name>
-        <name lang="es">Impulso de corriente alterna</name>
         <name lang="de">Wechselstrom-Impuls</name>
+        <name lang="es">Impulso de corriente alterna</name>
+        <name lang="fr">Impulsion de courant alternatif</name>
         <name lang="cs">Impulzy střídavého proudu</name>
         <name lang="en">Pulse, alternating current</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="-15" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15"/>
-        <arc y="0" x="-4" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" start="180"/>
-        <arc y="-10" x="-13" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" start="0"/>
-        <arc y="-10" x="5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" start="0"/>
-        <line x2="-13" y2="-6" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-15"/>
-        <line x2="-4" y2="5" y1="-6" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <line x2="5" y2="-5" y1="5" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="4"/>
-        <line x2="15" y2="0" y1="-6" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="13"/>
-        <terminal y="0" x="20" orientation="e"/>
-        <terminal y="0" x="-20" orientation="w"/>
+        <dynamic_text text_width="-1" Valignment="AlignTop" text_from="ElementInfo" uuid="{1cb4b6e4-a242-4a5e-b00b-b98456875388}" rotation="0" x="5" z="1" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" Halignment="AlignLeft" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x1="-20" length2="1.5" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-15" length1="1.5" y2="0" antialias="false"/>
+        <line end2="none" x1="15" length2="1.5" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" length1="1.5" y2="0" antialias="false"/>
+        <arc start="180" angle="180" height="10" width="8" x="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" y="0" antialias="true"/>
+        <arc start="0" angle="180" height="10" width="8" x="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" antialias="true"/>
+        <arc start="0" angle="180" height="10" width="8" x="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" antialias="true"/>
+        <line end2="none" x1="-15" length2="1.5" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-13" length1="1.5" y2="-6" antialias="false"/>
+        <line end2="none" x1="-5" length2="1.5" end1="none" y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" length1="1.5" y2="5" antialias="false"/>
+        <line end2="none" x1="4" length2="1.5" end1="none" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5" length1="1.5" y2="-5" antialias="false"/>
+        <line end2="none" x1="13" length2="1.5" end1="none" y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15" length1="1.5" y2="0" antialias="false"/>
+        <terminal orientation="e" uuid="{4f1fdfd7-9d00-4b6b-932d-bd99ff367651}" type="Generic" x="20" name="" y="0"/>
+        <terminal orientation="w" uuid="{117395e1-4cf5-485c-a6fa-9c1ee69f007d}" type="Generic" x="-20" name="" y="0"/>
     </description>
 </definition>

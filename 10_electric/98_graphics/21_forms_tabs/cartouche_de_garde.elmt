@@ -1,27 +1,43 @@
-<definition width="400" link_type="simple" version="0.5" hotspot_x="15" height="100" hotspot_y="34" type="element">
-    <uuid uuid="{36fae55a-5576-4f93-804d-a404bdebc6cb}"/>
+<definition type="element" hotspot_x="15" width="400" hotspot_y="34" height="100" version="0.100.0" link_type="simple">
+    <uuid uuid="{f23d02c2-de48-4bb2-bf79-92fa34cbc1b2}"/>
     <names>
-        <name lang="de">Deckblatt</name>
-        <name lang="pl">Tabliczka rysunkowa</name>
         <name lang="it">cartiglio della protezione</name>
         <name lang="fr">cartouche de garde</name>
         <name lang="en">Form cover sheet</name>
+        <name lang="pl">Tabliczka rysunkowa</name>
+        <name lang="de">Deckblatt</name>
         <name lang="cs">Formulář krycí list</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <rect x="185" width="195" antialias="false" y="-31" height="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="-7" y="-49.45" tagg="label" size="9" rotate="true" text="_"/>
-        <rect x="-10" width="195" antialias="false" y="-31" height="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="288" width="92" antialias="false" y="-10" height="73" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-10" width="93" antialias="false" y="-10" height="73" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="83" width="205" antialias="false" y="-10" height="18" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="83" width="205" antialias="false" y="8" height="55" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="144" y="2.5" tagg="none" size="8" rotate="true" text="LOCALISATION"/>
-        <input x="87" y="29.5" tagg="none" size="12" rotate="true" text="DESIGNATION"/>
-        <input x="-3" y="28.5" tagg="none" size="8" rotate="true" text="SITE"/>
-        <input x="291" y="31" tagg="none" size="8" rotate="true" text="EMPLACEMENT"/>
-        <input x="28" y="-16.5" tagg="none" size="8" rotate="true" text="DEPART D'ORIGINE"/>
-        <input x="223" y="-16.5" tagg="none" size="8" rotate="true" text="TENSION D'ALIMENTATION"/>
+        <rect x="185" style="line-style:normal;line-weight:normal;filling:none;color:black" width="195" y="-31" ry="0" rx="0" height="21" antialias="false"/>
+        <dynamic_text x="-7" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{ecc3a4d3-e11c-43bd-a43e-322b453952d2}" text_from="ElementInfo" y="-61.95" z="2" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="195" y="-31" ry="0" rx="0" height="21" antialias="false"/>
+        <rect x="288" style="line-style:normal;line-weight:normal;filling:none;color:black" width="92" y="-10" ry="0" rx="0" height="73" antialias="false"/>
+        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="93" y="-10" ry="0" rx="0" height="73" antialias="false"/>
+        <rect x="83" style="line-style:normal;line-weight:normal;filling:none;color:black" width="205" y="-10" ry="0" rx="0" height="18" antialias="false"/>
+        <rect x="83" style="line-style:normal;line-weight:normal;filling:none;color:black" width="205" y="8" ry="0" rx="0" height="55" antialias="false"/>
+        <dynamic_text x="144" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{874c95ce-bba3-434d-bb20-6b85882f866e}" text_from="UserText" y="-9.5" z="8" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>LOCALISATION</text>
+        </dynamic_text>
+        <dynamic_text x="87" text_width="-1" font="Sans Serif,12,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{621d22f0-b611-4b0e-ae66-a84d6db4414a}" text_from="UserText" y="14" z="9" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>DESIGNATION</text>
+        </dynamic_text>
+        <dynamic_text x="-3" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{a78fe7ea-27da-4aae-96bd-497992e88730}" text_from="UserText" y="16.5" z="10" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>SITE</text>
+        </dynamic_text>
+        <dynamic_text x="291" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{7e210a0a-b48d-453a-b501-4504dc4557b8}" text_from="UserText" y="19" z="11" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>EMPLACEMENT</text>
+        </dynamic_text>
+        <dynamic_text x="28" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{3a2e1414-217e-4a55-be33-32a68c992b01}" text_from="UserText" y="-28.5" z="12" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>DEPART D'ORIGINE</text>
+        </dynamic_text>
+        <dynamic_text x="223" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" uuid="{c5079fc5-86bb-4d8b-9af7-437c6a0da861}" text_from="UserText" y="-28.5" z="13" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0">
+            <text>TENSION D'ALIMENTATION</text>
+        </dynamic_text>
     </description>
 </definition>

@@ -1,15 +1,25 @@
-<definition height="20" hotspot_x="23" hotspot_y="10" version="0.51" link_type="terminal" width="40" type="element">
-    <uuid uuid="{e3d250b3-d61c-4cdc-8a37-d02bb378aa6b}"/>
+<definition type="element" version="0.100.0" hotspot_x="23" width="40" link_type="terminal" hotspot_y="10" height="20">
+    <uuid uuid="{7c820b14-4cc0-4062-ac6b-ffd8407cbf71}"/>
     <names>
         <name lang="fr">Tube PER BAO</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41</informations>
     <description>
-        <polygon x1="-18" antialias="false" y6="-5" y1="-5" x2="12" y4="5" x6="-18" x4="-20" x5="-18" x3="12" y3="5" y5="-5" style="line-style:normal;line-weight:normal;filling:gray;color:gray" y2="-5"/>
-        <input y="17" text="_" tagg="label" rotate="true" x="-14" size="9"/>
-        <text y="3" text="PER" x="-15" size="5"/>
-        <input y="0" text="16" tagg="none" rotate="true" x="-5" size="5"/>
-        <terminal orientation="e" y="0" x="12"/>
-        <terminal orientation="w" y="0" x="-19"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:gray;color:gray" y3="5" y5="-5" x1="-18" x5="-18" antialias="false" x3="12" x4="-20" x6="-18" x2="12" y6="-5" y2="-5" y1="-5" y4="5"/>
+        <dynamic_text x="-14" keep_visual_rotation="false" y="4.5" rotation="0" z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{9e22cba7-b032-485c-9287-4fef4c273876}" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-15" text="PER" y="3" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <dynamic_text x="-5" keep_visual_rotation="false" y="-9.5" rotation="0" z="4" font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" text_from="UserText" Halignment="AlignLeft" uuid="{e29c4e5d-b0e1-4f2b-94ec-b01ee660ff70}" text_width="-1" Valignment="AlignTop">
+            <text>16</text>
+        </dynamic_text>
+        <terminal x="12" orientation="e" type="Generic" y="0" uuid="{1500604e-1b28-4ca9-b9af-c2aeab396746}" name=""/>
+        <terminal x="-19" orientation="w" type="Generic" y="0" uuid="{c92533ff-555f-41d4-a3d2-8466e4da742e}" name=""/>
     </description>
 </definition>

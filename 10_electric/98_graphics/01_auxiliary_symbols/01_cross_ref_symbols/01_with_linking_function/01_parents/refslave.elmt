@@ -1,20 +1,22 @@
-<definition width="40" version="0.4" hotspot_x="0" hotspot_y="10" height="20" type="element" ic="true" link_type="next_report">
-<uuid uuid="{98626512-5462-42B0-BC0C-903735A5C23A}"/><names>
-        <name lang="ar">الصفحة التالية</name>
-        <name lang="de">Refaus</name>
+<definition hotspot_y="7" width="10" type="element" hotspot_x="4" version="0.100.0" height="20" link_type="next_report">
+    <uuid uuid="{2933aff2-8fe0-4a5c-a5d5-2307983c46c0}"/>
+    <names>
         <name lang="el">Επόμενη σελίδα</name>
-        <name lang="en">reference next</name>
-        <name lang="it">Foglio successivo</name>
-        <name lang="fr">Refout</name>
+        <name lang="cs">Výstup adresy</name>
         <name lang="pl">Wyjście adresowe</name>
         <name lang="es">Folio siguiente</name>
-        <name lang="cs">Výstup adresy</name>
+        <name lang="fr">Refout</name>
+        <name lang="it">Foglio successivo</name>
         <name lang="nl">Referentie volgend</name>
+        <name lang="ar">الصفحة التالية</name>
+        <name lang="en">reference next</name>
+        <name lang="de">Refaus</name>
     </names>
     <informations>Author: Computer Shooter
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" y="0" size="5" rotate="true" text="/"/>
-
+        <dynamic_text keep_visual_rotation="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="5" text_from="UserText" Valignment="AlignTop" uuid="{7d99ecc4-7882-4e4a-a9dd-5303ff4c86ca}" rotation="0" frame="false" z="1" y="-9.5" text_width="-1" Halignment="AlignLeft">
+            <text>/</text>
+        </dynamic_text>
     </description>
 </definition>

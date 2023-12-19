@@ -1,18 +1,22 @@
-<definition hotspot_x="14" version="0.70" height="30" hotspot_y="14" width="30" type="element" link_type="simple">
-    <uuid uuid="{945048be-2a49-4e12-929c-592723b9bf64}"/>
+<definition version="0.100.0" width="30" hotspot_y="14" height="30" type="element" hotspot_x="14" link_type="simple">
+    <uuid uuid="{39718771-fbe5-4f15-8b8f-7baa1c455d84}"/>
     <names>
-        <name lang="fr">Fonction échelon négative</name>
-        <name lang="es">Función de paso negativo</name>
         <name lang="de">negative Schrittfunktion</name>
-        <name lang="cs">Záporná stupňovitá funkce</name>
         <name lang="en">Step function, negative going</name>
+        <name lang="fr">Fonction échelon négative</name>
+        <name lang="cs">Záporná stupňovitá funkce</name>
+        <name lang="es">Función de paso negativo</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <polygon x2="0" y2="-10" y1="-10" x3="0" x4="10" y4="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="10" x1="-10"/>
-        <terminal y="10" x="10" orientation="e"/>
-        <terminal y="-10" x="-10" orientation="w"/>
+        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" rotation="0" y="2.5" frame="false" uuid="{05d34ff4-514b-454d-bf91-55229678bcaa}" Halignment="AlignLeft" z="1" keep_visual_rotation="false" x="5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y1="-10" x1="-10" x3="0" y3="10" x4="10" closed="false" y4="10" antialias="false" x2="0" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="e" y="10" name="" uuid="{c9a5b800-4339-4356-af61-b8a32993f01b}" type="Generic" x="10"/>
+        <terminal orientation="w" y="-10" name="" uuid="{09657409-3688-4e1c-928e-0d76ed777ee6}" type="Generic" x="-10"/>
     </description>
 </definition>

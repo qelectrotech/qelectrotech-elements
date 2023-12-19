@@ -1,21 +1,25 @@
-<definition hotspot_x="15" hotspot_y="26" height="40" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{6c18a57b-7d55-4c7d-935e-6042aa1e6344}"/>
+<definition hotspot_x="15" hotspot_y="26" link_type="simple" width="30" version="0.100.0" type="element" height="30">
+    <uuid uuid="{2b275c0d-ed72-4941-af7e-fb7e312e574a}"/>
     <names>
-        <name lang="fr">Socle de prise de courant</name>
-        <name lang="pl">Gniazdo pojedyncze</name>
-        <name lang="cs">Zásuvka, obecný symbol</name>
-        <name lang="ar">قاعدة مقبس تيّار (رمز عام)</name>
-        <name lang="el">Ρευματοδότης απλός</name>
         <name lang="it">Presa, segno graﬁco generale</name>
-        <name lang="de">Steckdose</name>
+        <name lang="fr">Socle de prise de courant</name>
         <name lang="en">Socket outlet (power), general symbol</name>
+        <name lang="cs">Zásuvka, obecný symbol</name>
+        <name lang="el">Ρευματοδότης απλός</name>
+        <name lang="ar">قاعدة مقبس تيّار (رمز عام)</name>
+        <name lang="de">Steckdose</name>
+        <name lang="pl">Gniazdo pojedyncze</name>
         <name lang="nl">Contactdoos</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-13-01</informations>
     <description>
-        <arc x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="true" start="-180" y="-10" angle="-180" width="20"/>
-        <input x="-1" rotate="true" size="9" text="_" y="-20.5" tagg="label"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false" y2="-20" end1="none" x2="0" length1="1.5" x1="0"/>
-        <terminal x="0" orientation="n" y="-20"/>
+        <arc y="-10" width="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" height="20" start="-180" angle="-180"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{816ea350-5b7b-4d68-bd5f-b9017a278e08}" text_from="ElementInfo" y="-33" Valignment="AlignTop" x="-1" Halignment="AlignLeft" frame="false" rotation="0" z="2" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" length1="1.5" y1="-10" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="0" x2="0" end1="none"/>
+        <terminal name="" uuid="{4f7ad344-e2b0-4dff-a3e3-175fe3c86c65}" y="-20" x="0" type="Generic" orientation="n"/>
     </description>
 </definition>

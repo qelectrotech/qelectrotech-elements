@@ -1,5 +1,5 @@
-<definition width="50" height="70" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="65">
-    <uuid uuid="{6952cba8-c4a7-4f28-afca-83954a9641b9}"/>
+<definition version="0.100.0" hotspot_y="65" type="element" width="50" hotspot_x="25" height="70" link_type="simple">
+    <uuid uuid="{ab997ecb-df39-497e-ba32-d714ca4733ce}"/>
     <names>
         <name lang="de">Wattstundenzähler, der nur die zur
 Sammelschiene fließende Energie zählt</name>
@@ -7,15 +7,19 @@ Sammelschiene fließende Energie zählt</name>
         <name lang="cs">Watthodinový měřič pro energii do sběrnice</name>
         <name lang="en">Watt-hour meter, counting the energy flow towards the busbars</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="Wh" x="-8" y="-16"/>
-        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
-        <line y2="-50" length1="1.5" y1="-50" length2="1.5" x1="-15" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-48" length1="1.5" y1="-52" length2="1.5" x1="-16" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon y3="-50" x4="4" y2="-52" y1="-48" x1="4" x2="4" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-48" x3="-4" antialias="false"/>
+        <dynamic_text rotation="0" uuid="{d2a13fc6-5f52-4705-a134-7b2fe19dd39a}" Halignment="AlignLeft" y="12.5" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="5" Valignment="AlignTop" z="1" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" y="-40" width="40" rx="0" x="-20" height="40" antialias="false"/>
+        <text rotation="0" y="-16" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-8" color="#000000" text="Wh"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" y="-60" width="40" rx="0" x="-20" height="20" antialias="false"/>
+        <line x2="15" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-50" length1="1.5" antialias="false" y1="-50" x1="-15" end1="none"/>
+        <line x2="-16" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-48" length1="1.5" antialias="false" y1="-52" x1="-16" end1="none"/>
+        <polygon x2="4" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-50" y2="-52" y4="-48" x3="-4" x4="4" antialias="false" y1="-48" x1="4"/>
     </description>
 </definition>

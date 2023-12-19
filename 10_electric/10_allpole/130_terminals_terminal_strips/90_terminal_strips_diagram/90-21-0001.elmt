@@ -1,20 +1,25 @@
-<definition version="0.51" width="30" height="80" type="element" hotspot_x="15" link_type="simple" hotspot_y="13">
-    <uuid uuid="{dfdbecfd-e99b-4f8f-ae0d-038e657bae8d}"/>
+<definition hotspot_y="13" hotspot_x="15" width="30" version="0.100.0" link_type="simple" height="80" type="element">
+    <uuid uuid="{928830f2-a9b3-4423-86f5-c572d18ec817}"/>
     <names>
-        <name lang="fr">Appareil (connexion en haut)</name>
         <name lang="de">Gerät (Anschluss oben)</name>
+        <name lang="it">Dispositivo (connessione in alto)</name>
+        <name lang="hu">Eszköz (felső csatlakozás)</name>
+        <name lang="fr">Appareil (connexion en haut)</name>
         <name lang="en">Device (connection on top)</name>
         <name lang="es">Dispositivo (conexión por encima)</name>
-        <name lang="it">Dispositivo (connessione in alto)</name>
         <name lang="cs">Zařízení (připojení shora)</name>
-        <name lang="hu">Eszköz (felső csatlakozás)</name>
     </names>
-    <informations/>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <input y="15" text="_" rotation="270" tagg="none" x="0" size="6" rotate="true"/>
-        <input y="60" text="-" rotation="270" tagg="none" x="0" size="9" rotate="true"/>
-        <rect y="0" width="20" height="60" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line length1="1.5" x2="0" length2="1.5" y1="-4" y2="0" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal orientation="n" y="-4" x="0"/>
+        <dynamic_text rotation="270" text_width="-1" keep_visual_rotation="false" y="15" frame="false" x="-10" Valignment="AlignTop" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_from="UserText" z="1" uuid="{d17e247d-6b98-4dd5-86b8-e847215ea411}">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text rotation="270" text_width="-1" keep_visual_rotation="false" y="60" frame="false" x="-12.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_from="UserText" z="2" uuid="{9ca89678-922f-44ad-b37d-1d73b09b5aa8}">
+            <text>-</text>
+        </dynamic_text>
+        <rect y="0" width="20" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" antialias="false" rx="0" ry="0"/>
+        <line y1="-4" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" end2="none" x2="0" end1="none" x1="0"/>
+        <terminal name="" y="-4" orientation="n" x="0" type="Generic" uuid="{26625056-abab-4a13-a32c-9ce2910735af}"/>
     </description>
 </definition>

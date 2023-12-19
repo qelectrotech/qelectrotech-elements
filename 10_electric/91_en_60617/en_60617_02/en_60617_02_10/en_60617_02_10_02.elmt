@@ -1,18 +1,22 @@
-<definition hotspot_x="24" version="0.70" height="30" hotspot_y="6" width="40" type="element" link_type="simple">
-    <uuid uuid="{ab6ccfb1-ddc6-4dc0-a88a-361209e5d6c4}"/>
+<definition height="30" width="40" hotspot_y="6" link_type="simple" hotspot_x="24" type="element" version="0.100.0">
+    <uuid uuid="{51f86502-82b7-469f-94d5-94a7fa52ab13}"/>
     <names>
         <name lang="fr">Impulsion négative</name>
-        <name lang="es">Impulso negativo</name>
-        <name lang="de">negativer Impuls</name>
-        <name lang="cs">Záporný impuls</name>
         <name lang="en">Pulse, negative-going</name>
+        <name lang="cs">Záporný impuls</name>
+        <name lang="de">negativer Impuls</name>
+        <name lang="es">Impulso negativo</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <polygon x2="-10" x5="0" y2="0" y1="0" x3="-10" x4="0" y4="20" y6="0" antialias="false" y5="0" x6="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="20" x1="-20"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-20" orientation="w"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" z="1" keep_visual_rotation="false" text_from="ElementInfo" y="2.5" rotation="0" x="5" uuid="{ebb11438-129b-4078-ae58-2cc1af6d501b}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x3="-10" x5="0" x4="0" y6="0" x1="-20" x6="10" closed="false" x2="-10" y3="20" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="0" y2="0" antialias="false" y4="20"/>
+        <terminal y="0" x="10" orientation="e" uuid="{4a4b6491-3bb9-41c5-bc67-5d76b5d7a974}" type="Generic" name=""/>
+        <terminal y="0" x="-20" orientation="w" uuid="{97ff9996-7309-4f5c-bfef-6b5c54c1c5d8}" type="Generic" name=""/>
     </description>
 </definition>

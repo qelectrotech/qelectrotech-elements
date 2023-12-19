@@ -1,24 +1,28 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="20" hotspot_y="10">
-    <uuid uuid="{5e78bb1c-5e22-4a18-b759-689ab8636291}"/>
+<definition link_type="simple" width="40" hotspot_x="19" version="0.100.0" hotspot_y="10" type="element" height="20">
+    <uuid uuid="{994da8d7-6738-4ecd-97d7-e8e83751b90d}"/>
     <names>
         <name lang="cs">Kuličkový ventil</name>
-        <name lang="it">Valvola a sfera</name>
         <name lang="pl">Zawór kulowy</name>
-        <name lang="en">Ball valve</name>
-        <name lang="nl">Kogelklep</name>
         <name lang="ar">صمام الكرة</name>
-        <name lang="fr">Vanne à boisseau</name>
+        <name lang="it">Valvola a sfera</name>
         <name lang="el">Σφαιροειδής βαλβίδα</name>
+        <name lang="nl">Kogelklep</name>
+        <name lang="en">Ball valve</name>
+        <name lang="fr">Vanne à boisseau</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="2.55" x="-6" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="10" x2="11"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="-11"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:white;color:black" y2="5" x4="-10" antialias="true" y5="-4" y1="-5" x1="-10" x3="10" y3="-5" y4="5" x2="10" x5="-10"/>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="8" y="-4" x="-4"/>
-        <terminal y="0" x="-11" orientation="w"/>
-        <terminal y="0" x="11" orientation="e"/>
+        <dynamic_text Valignment="AlignTop" z="1" x="-6" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{67d904f2-6e47-4d42-abd0-067cb6610ff7}" text_from="ElementInfo" y="-9.95" frame="false" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" length1="1.5" x2="11" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="0" x1="10" end2="none" length2="1.5"/>
+        <line y2="0" length1="1.5" x2="-11" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="0" x1="-10" end2="none" length2="1.5"/>
+        <polygon y2="5" x2="10" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" y1="-5" x5="-10" x1="-10" y3="-5" y4="5" x4="-10" x3="10" y5="-4"/>
+        <circle diameter="8" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-4" antialias="true" y="-4"/>
+        <terminal orientation="w" name="" x="-11" uuid="{ab0ac2b8-b678-4a32-9afd-2f369054cb92}" y="0" type="Generic"/>
+        <terminal orientation="e" name="" x="11" uuid="{7777d3e6-1488-46da-bd6e-180359e0d140}" y="0" type="Generic"/>
     </description>
 </definition>

@@ -1,28 +1,32 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="144" width="200" hotspot_y="5">
-    <uuid uuid="{5e7b8a5a-93ae-47f2-a3bd-3db72ed04b6a}"/>
+<definition version="0.100.0" hotspot_x="144" link_type="simple" width="200" type="element" height="50" hotspot_y="5">
+    <uuid uuid="{6f38f8d4-3421-4b90-8cb8-69820fe5acf6}"/>
     <names>
-        <name lang="de">Gerader Elektro-Installationskanal mit
-mehreren Abzweigen</name>
         <name lang="fr">Élément droit avec plusieurs dérivations</name>
         <name lang="cs">Přímý díl s více odbočkami</name>
+        <name lang="de">Gerader Elektro-Installationskanal mit
+mehreren Abzweigen</name>
         <name lang="en">Straight section with several tap-offs</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="55" tagg="label" size="9" x="55" text="_"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="-140" length2="1.5" antialias="false" x1="-140" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="50" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="10" antialias="false" x="0" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="20" y2="20" x2="-140" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="10" antialias="false" x="-40" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="10" antialias="false" x="-80" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="10" antialias="false" x="-120" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="30" y2="40" x2="10" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="30" y2="40" x2="-70" length2="1.5" antialias="false" x1="-70" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="0" x2="-30" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="0" x2="-110" length2="1.5" antialias="false" x1="-110" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="20" x="-140"/>
-        <terminal orientation="e" y="20" x="50"/>
+        <dynamic_text rotation="0" frame="false" x="55" text_width="-1" text_from="ElementInfo" y="42.5" z="1" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{588b0370-a4f5-4985-acac-54c53b351877}" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-140" y2="25" end1="none" length1="1.5" end2="none" antialias="false" x1="-140" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="15"/>
+        <line x2="50" y2="25" end1="none" length1="1.5" end2="none" antialias="false" x1="50" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="15"/>
+        <circle x="0" y="10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-140" y2="20" end1="none" length1="1.5" end2="none" antialias="false" x1="50" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="20"/>
+        <circle x="-40" y="10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-80" y="10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-120" y="10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="10" y2="40" end1="none" length1="1.5" end2="none" antialias="false" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="30"/>
+        <line x2="-70" y2="40" end1="none" length1="1.5" end2="none" antialias="false" x1="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="30"/>
+        <line x2="-30" y2="0" end1="none" length1="1.5" end2="none" antialias="false" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="10"/>
+        <line x2="-110" y2="0" end1="none" length1="1.5" end2="none" antialias="false" x1="-110" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="10"/>
+        <terminal name="" x="-140" y="20" orientation="w" uuid="{03a25e00-4ca8-4129-acf0-6996ff41ddd0}" type="Generic"/>
+        <terminal name="" x="50" y="20" orientation="e" uuid="{513cb52c-8d15-469e-9066-d711d659b914}" type="Generic"/>
     </description>
 </definition>

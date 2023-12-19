@@ -1,24 +1,28 @@
-<definition width="20" link_type="simple" version="0.5" hotspot_x="10" height="30" hotspot_y="4" type="element">
-    <uuid uuid="{c7f07d5d-c604-414b-8e65-aa36655c8111}"/>
+<definition height="30" hotspot_x="10" type="element" width="20" hotspot_y="4" link_type="simple" version="0.100.0">
+    <uuid uuid="{c1ca8520-8906-4349-ad7a-07407153bb43}"/>
     <names>
-        <name lang="pt">Terminal de saída</name>
+        <name lang="pl">Gniazdo</name>
+        <name lang="cs">Výstupní svorka</name>
+        <name lang="ar">طرف خرج</name>
         <name lang="el">Ακροδέκτης εξόδου</name>
+        <name lang="ru">Гнездо (стар.)</name>
+        <name lang="fr">contact femelle</name>
+        <name lang="de">Steckverbindung Buchse</name>
         <name lang="es">Terminal de salida</name>
         <name lang="nl">Contact vrouw</name>
-        <name lang="de">Steckverbindung Buchse</name>
-        <name lang="cs">Výstupní svorka</name>
-        <name lang="pl">Gniazdo</name>
+        <name lang="pt">Terminal de saída</name>
         <name lang="it">Terminale di uscita</name>
-        <name lang="ar">طرف خرج</name>
         <name lang="en">Female contact</name>
-        <name lang="fr">contact femelle</name>
-        <name lang="ru">Гнездо (стар.)</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 03-03-02</informations>
     <description>
-        <polygon antialias="true" x2="0" x1="-4" x3="4" y2="5" y3="-1" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-1"/>
-        <input x="5" y="-0.45" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5.5"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <polygon antialias="true" x2="0" x1="-4" y1="-1" x3="4" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" closed="false" y3="-1"/>
+        <dynamic_text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" text_width="-1" frame="false" Valignment="AlignTop" Halignment="AlignLeft" uuid="{1556ab36-8975-4faf-a926-ceab473f1b8b}" text_from="ElementInfo" y="-12.95" keep_visual_rotation="false" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" x2="0" x1="0" end2="none" y1="5.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" length1="1.5"/>
+        <terminal name="" orientation="s" type="Generic" uuid="{dfc2e046-3c1a-4e8b-a5a1-24adb4ef7db0}" y="21" x="0"/>
     </description>
 </definition>

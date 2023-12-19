@@ -1,22 +1,26 @@
-<definition width="50" hotspot_x="30" type="element" link_type="simple" version="0.5" height="10" hotspot_y="5">
-    <uuid uuid="{68078a89-e38f-4c1e-a0a2-982841e85043}"/>
+<definition version="0.100.0" type="element" height="10" width="50" hotspot_x="30" link_type="simple" hotspot_y="5">
+    <uuid uuid="{df052b3d-5029-43be-aa4c-5327220e1fd2}"/>
     <names>
         <name lang="cs">Směr průtoku kapaliny</name>
-        <name lang="pl">Kierunek przepływu cieczy</name>
-        <name lang="it">Direzione</name>
-        <name lang="de">Flussrichtung (2)</name>
         <name lang="en">Sense fluid 2</name>
-        <name lang="es">Sentido del fluido 2</name>
-        <name lang="nl">vloeistof richting</name>
+        <name lang="de">Flussrichtung (2)</name>
         <name lang="ar">اتجاه سائل</name>
+        <name lang="pl">Kierunek przepływu cieczy</name>
+        <name lang="es">Sentido del fluido 2</name>
         <name lang="fr">Sens fluide</name>
+        <name lang="it">Direzione</name>
+        <name lang="nl">vloeistof richting</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-9.45" x="-17" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="true" length2="1.5" end1="none" length1="1.5" y1="3" x1="1" x2="14"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-3" x1="1" x2="14"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-25" x2="14"/>
+        <dynamic_text frame="false" x="-17" y="-21.95" Halignment="AlignLeft" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" rotation="0" uuid="{1e22c41d-ebda-408d-b5f9-bce4e37cfb09}" keep_visual_rotation="false" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" y1="3" x2="14" y2="0" length1="1.5" end2="none" x1="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="true"/>
+        <line length2="1.5" y1="-3" x2="14" y2="0" length1="1.5" end2="none" x1="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="true"/>
+        <line length2="1.5" y1="0" x2="14" y2="0" length1="1.5" end2="none" x1="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
     </description>
 </definition>

@@ -1,25 +1,30 @@
-<definition link_type="simple" hotspot_x="15" hotspot_y="26" type="element" height="30" version="0.5" width="30">
-<uuid uuid="{8F6E31C3-6278-47A5-B494-C153B29775D0}"/><names>
-        <name lang="pt">Lâmpada</name>
-        <name lang="de">Leuchte</name>
-        <name lang="it">Lampada</name>
-        <name lang="cs">Světlo</name>
-        <name lang="el">Λάμπα</name>
-        <name lang="ar">مصباح</name>
+<definition hotspot_x="15" hotspot_y="26" width="30" type="element" height="30" version="0.100.0" link_type="simple">
+    <uuid uuid="{bf609720-e8ab-4248-b028-9e9acedc7fbd}"/>
+    <names>
         <name lang="pl">Lampa</name>
+        <name lang="pt">Lâmpada</name>
+        <name lang="ar">مصباح</name>
+        <name lang="el">Λάμπα</name>
         <name lang="en">Light</name>
-        <name lang="fr">Lampe</name>
+        <name lang="cs">Světlo</name>
         <name lang="ru">Лампа</name>
-        <name lang="es">Lámpara</name>
         <name lang="nl">Lamp</name>
+        <name lang="it">Lampada</name>
+        <name lang="de">Leuchte</name>
+        <name lang="es">Lámpara</name>
+        <name lang="fr">Lampe</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-15-03
 </informations>
     <description>
-        <circle antialias="true" x="-10" y="-20" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" end1="none" length1="1.5" end2="none" y1="-17.03" length2="1.5" y2="-2.97" x1="7.03" x2="-7.03" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" end1="none" length1="1.5" end2="none" y1="-17.03" length2="1.5" y2="-2.97" x1="-7.03" x2="7.03" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input text="_" tagg="label" x="10" y="-10" rotate="true" size="8"/>
-        <terminal x="0" y="-20" orientation="n"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-20" diameter="20" antialias="true"/>
+        <line x1="7.03" y1="-17.03" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-2.97" x2="-7.03" length1="1.5" end2="none" antialias="false"/>
+        <line x1="-7.03" y1="-17.03" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-2.97" x2="7.03" length1="1.5" end2="none" antialias="false"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" x="10" y="-22" frame="false" keep_visual_rotation="false" text_width="-1" rotation="0" uuid="{c8731cab-c843-45ba-960b-a50652b53b4c}" z="4" text_from="ElementInfo" font="Sans Serif,8,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" y="-20" uuid="{0c828731-e8b0-4b55-9334-a4a9428f771f}" name="" type="Generic" orientation="n"/>
     </description>
 </definition>

@@ -1,19 +1,23 @@
-<definition hotspot_x="35" version="0.70" height="40" hotspot_y="15" width="60" type="element" link_type="simple">
-    <uuid uuid="{482f3f0b-cebf-49cd-a3a0-33eda73baae4}"/>
+<definition link_type="simple" width="60" hotspot_x="35" type="element" version="0.100.0" hotspot_y="15" height="40">
+    <uuid uuid="{ce4c1657-8fb4-47a1-9923-b4ae8d7bd98c}"/>
     <names>
         <name lang="fr">Engrenage</name>
-        <name lang="es">Engranajes</name>
         <name lang="de">Getriebe</name>
-        <name lang="cs">Ozubený převod</name>
         <name lang="en">Gearing</name>
+        <name lang="cs">Ozubený převod</name>
+        <name lang="es">Engranajes</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="0"/>
-        <circle y="-10" x="-20" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <circle y="10" x="-15" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="10"/>
-        <line x2="-15" y2="15" y1="15" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-30"/>
+        <dynamic_text text_width="-1" text_from="ElementInfo" x="5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e2db6ca2-c340-4564-a447-58bbb4bd3eda}" frame="false" Halignment="AlignLeft" z="1" Valignment="AlignTop" rotation="0" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" end2="none" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="20" x1="0" end1="none" antialias="false" y2="0" length1="1.5"/>
+        <circle x="-20" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="20" antialias="false" y="-10"/>
+        <circle x="-15" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="10" antialias="false" y="10"/>
+        <line y1="15" end2="none" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-15" x1="-30" end1="none" antialias="false" y2="15" length1="1.5"/>
     </description>
 </definition>

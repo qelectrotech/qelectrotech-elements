@@ -1,20 +1,24 @@
-<definition width="30" height="30" type="element" hotspot_x="15" version="0.70" link_type="simple" hotspot_y="25">
-    <uuid uuid="{e0091b2d-45b2-48cd-925f-7724aa617802}"/>
+<definition link_type="simple" height="30" version="0.100.0" width="30" hotspot_x="15" hotspot_y="25" type="element">
+    <uuid uuid="{6fda6de8-3f11-49aa-8ff1-24ffc76eab95}"/>
     <names>
+        <name lang="en">Indicator, electromechanical; annunciator element</name>
+        <name lang="cs">Elektromechanický indikátor</name>
         <name lang="de">Stellungsanzeiger, elektromechanisch </name>
         <name lang="fr">Indicateur électromécanique de position</name>
-        <name lang="cs">Elektromechanický indikátor</name>
-        <name lang="en">Indicator, electromechanical; annunciator element</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-20" antialias="false"/>
-        <line y2="-16" length1="1.5" y1="-16" length2="1.5" x1="-9" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:white" end1="none" end2="none" antialias="false"/>
-        <line y2="-15" length1="1.5" y1="-15" length2="1.5" x1="9" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:white" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-5" length2="1.5" x1="-9" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:white" end1="none" end2="none" antialias="false"/>
-        <line y2="-4" length1="1.5" y1="-4" length2="1.5" x1="9" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:white" end1="none" end2="none" antialias="false"/>
-        <circle diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
+        <dynamic_text uuid="{5d4df3a2-07de-4b43-a8f7-dd4c4817fd8e}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" Halignment="AlignLeft" z="1" rotation="0" x="5" text_from="ElementInfo" y="12.5" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="20" x="-10" antialias="false" y="-20" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line end2="none" y2="-16" length1="1.5" x1="-9" y1="-16" length2="1.5" antialias="false" end1="none" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:white"/>
+        <line end2="none" y2="-15" length1="1.5" x1="9" y1="-15" length2="1.5" antialias="false" end1="none" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:white"/>
+        <line end2="none" y2="-5" length1="1.5" x1="-9" y1="-5" length2="1.5" antialias="false" end1="none" x2="9" style="line-style:normal;line-weight:normal;filling:none;color:white"/>
+        <line end2="none" y2="-4" length1="1.5" x1="9" y1="-4" length2="1.5" antialias="false" end1="none" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:white"/>
+        <circle diameter="20" x="-10" antialias="false" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

@@ -1,27 +1,31 @@
-<definition width="60" version="0.3" hotspot_x="15" hotspot_y="25" height="40" type="element" orientation="dnnn">
-<uuid uuid="{276662F1-CE89-4C9A-91B3-D6276A6EF30E}"/><names>
-        <name lang="ar">مُولد</name>
-        <name lang="de">Generator</name>
+<definition link_type="simple" hotspot_y="29" width="30" type="element" hotspot_x="15" version="0.100.0" height="50">
+    <uuid uuid="{3606964e-08b7-466c-ab8c-a6948a6ef6ba}"/>
+    <names>
         <name lang="ru">Генератор</name>
-        <name lang="pt">Gerador</name>
         <name lang="el">Γεννήτρια</name>
-        <name lang="en">Generator</name>
-        <name lang="it">Generatore</name>
-        <name lang="fr">Génératrice</name>
-        <name lang="pl">Generator</name>
-        <name lang="es">Generador</name>
-        <name lang="cs">Generátor</name>
-        <name lang="nl">Generator AC1</name>
+        <name lang="pt">Gerador</name>
         <name lang="be">Generator AC1</name>
+        <name lang="fr">Génératrice</name>
+        <name lang="en">Generator</name>
+        <name lang="cs">Generátor</name>
+        <name lang="it">Generatore</name>
+        <name lang="de">Generator</name>
+        <name lang="es">Generador</name>
+        <name lang="nl">Generator AC1</name>
+        <name lang="ar">مُولد</name>
+        <name lang="pl">Generator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="18" y="0" size="9" rotate="true" text="G_"/>
-        <circle x="-10.5" y="-10.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="21"/>
-        <circle x="-13" y="-13" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="26"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" x1="0" y2="-20" x2="0"/>
-        <text x="-8.25" y="7" size="14" text="G"/>
-        <terminal x="0" y="-21" orientation="n"/>
+        <dynamic_text uuid="{c54a3ccb-6df3-4ec3-bf2f-a62563f4273c}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-12.5" text_width="-1" z="1" x="18" Valignment="AlignTop" rotation="0" text_from="UserText" Halignment="AlignLeft" frame="false" keep_visual_rotation="false">
+            <text>G_</text>
+        </dynamic_text>
+        <circle antialias="true" y="-10.5" diameter="21" x="-10.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" y="-13" diameter="26" x="-13" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" end1="none" antialias="false" length2="1.5" y1="-13" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" end2="none"/>
+        <text font="Sans Serif,14,-1,5,50,0,0,0,0,0" y="7" x="-8.25" rotation="0" color="#000000" text="G"/>
+        <terminal uuid="{2db08ec8-ef3e-4fdc-b716-9d430a62a8dd}" y="-21" x="0" type="Generic" name="" orientation="n"/>
     </description>
 </definition>

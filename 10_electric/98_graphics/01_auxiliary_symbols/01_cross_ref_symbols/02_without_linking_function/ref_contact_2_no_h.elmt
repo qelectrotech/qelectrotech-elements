@@ -1,20 +1,24 @@
-<definition height="10" hotspot_x="3" width="20" type="element" version="0.5" hotspot_y="-1" link_type="simple">
-    <uuid uuid="{c3c664cf-9fae-4099-97d2-bf72eb6ef6d8}"/>
+<definition type="element" height="10" hotspot_y="-1" width="20" link_type="simple" version="0.100.0" hotspot_x="3">
+    <uuid uuid="{550b0ade-08f3-45ef-ab91-11fcc16c2154}"/>
     <names>
-        <name lang="fr">Reference contact NO h</name>
-        <name lang="ar">مرجع مُلامس NO  (أفقي)</name>
-        <name lang="en">Reference contact NO (horizontal)</name>
-        <name lang="it">Rif. contatto NO / (orizzontale)</name>
-        <name lang="cs">Odkaz kontakt NO (vodorovně)</name>
         <name lang="nl">Referentie contact (NO)</name>
+        <name lang="it">Rif. contatto NO / (orizzontale)</name>
+        <name lang="ar">مرجع مُلامس NO  (أفقي)</name>
+        <name lang="fr">Reference contact NO h</name>
         <name lang="pl">Odsyłacz - zestyk zwierny (poziomo)</name>
+        <name lang="cs">Odkaz kontakt NO (vodorovně)</name>
         <name lang="es">Contacto NA horizontal</name>
+        <name lang="en">Reference contact NO (horizontal)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="2" y1="7" antialias="true" x3="13" y2="5" y3="5" x2="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="5" antialias="false" end2="none" y2="5" end1="none" length2="1.5" x2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="12" text="/" size="5" y="4.5" tagg="label" rotate="true"/>
+        <polygon y2="5" x1="2" y1="7" y3="5" x2="10" antialias="true" x3="13" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
+        <line y2="5" length2="1.5" x1="0" y1="5" x2="2" antialias="false" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <dynamic_text uuid="{8b7fe2b8-c9d7-4352-8f9c-402fdd21ba80}" z="3" y="-5" Valignment="AlignTop" Halignment="AlignLeft" x="12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" text_from="ElementInfo" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

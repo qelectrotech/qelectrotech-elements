@@ -1,26 +1,50 @@
-<definition width="40" hotspot_x="20" type="element" link_type="simple" version="0.5" height="70" hotspot_y="35">
-    <uuid uuid="{ea73da5f-bda2-4589-8d60-e63b19d46670}"/>
+<definition hotspot_x="20" height="70" hotspot_y="35" width="40" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{e07f0807-7352-4aa9-81ef-d753666c3791}"/>
     <names>
+        <name lang="fr">Repère des contacts par 4</name>
         <name lang="pl">Lokalizacja zestyków</name>
         <name lang="it">Riferimento contatti per 4</name>
         <name lang="de">Kreuz für Kontaktspiegel</name>
-        <name lang="fr">Repère des contacts par 4</name>
         <name lang="cs">Pozice kontaktů</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="40.55" x="-7" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="27.3333" x="-14" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="14.3333" x="-14" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="1.33339" x="-14" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="-11.6667" x="-14" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="32" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-33" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-20" x1="-14" x2="14"/>
-        <input tagg="none" rotate="true" size="5" y="-23.6667" x="3" text="F"/>
-        <input tagg="none" rotate="true" size="5" y="-11.6667" x="3" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="27.3333" x="3" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="14.3333" x="3" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="1.33339" x="3" text="_"/>
-        <input tagg="none" rotate="true" size="5" y="-23.6667" x="-15" text="O"/>
+        <dynamic_text y="28.05" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-7" text_from="ElementInfo" frame="false" uuid="{477170cd-3b2d-47b7-9988-b928ee95d82d}" z="1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text y="17.8333" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-14" text_from="UserText" frame="false" uuid="{e1881e04-6753-4ba6-b852-9734ac684790}" z="2" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="4.8333" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-14" text_from="UserText" frame="false" uuid="{9cbfe122-2d82-405b-a047-ea499b28918e}" z="3" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="-8.16661" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-14" text_from="UserText" frame="false" uuid="{94aec707-2f90-47ce-8187-96589affe2f8}" z="4" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="-21.1667" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-14" text_from="UserText" frame="false" uuid="{2ca252c4-da46-48e3-8890-362ecd3a7cee}" z="5" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="32" x2="0" y1="-33" end1="none" x1="0" end2="none" length2="1.5" antialias="false" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" x2="14" y1="-20" end1="none" x1="-14" end2="none" length2="1.5" antialias="false" length1="1.5"/>
+        <dynamic_text y="-33.1667" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="3" text_from="UserText" frame="false" uuid="{f79b804a-7d76-4acd-b729-010cfbc37086}" z="8" keep_visual_rotation="false">
+            <text>F</text>
+        </dynamic_text>
+        <dynamic_text y="-21.1667" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="3" text_from="UserText" frame="false" uuid="{e133c914-6fd1-4d21-b46e-84d099930a05}" z="9" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="17.8333" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="3" text_from="UserText" frame="false" uuid="{b7d7d25b-2787-443d-9e58-a19f94e4d378}" z="10" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="4.8333" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="3" text_from="UserText" frame="false" uuid="{739bba82-3ca2-48d4-8839-e857d755cba6}" z="11" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="-8.16661" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="3" text_from="UserText" frame="false" uuid="{65423c3b-d4e5-4d05-bfa5-cd1470ba18b3}" z="12" keep_visual_rotation="false">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text y="-33.1667" Valignment="AlignTop" rotation="0" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="-15" text_from="UserText" frame="false" uuid="{c15cedf4-406d-4b97-b188-75fec01afeb6}" z="13" keep_visual_rotation="false">
+            <text>O</text>
+        </dynamic_text>
     </description>
 </definition>

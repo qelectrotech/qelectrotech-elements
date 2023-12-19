@@ -1,29 +1,33 @@
-<definition height="60" version="0.5" link_type="simple" width="20" hotspot_x="9" hotspot_y="29" type="element">
-    <uuid uuid="{b6508245-c8ec-4ba2-b898-5623bd9ff8c3}"/>
+<definition width="10" link_type="simple" type="element" height="60" hotspot_x="4" version="0.100.0" hotspot_y="29">
+    <uuid uuid="{57524fcb-3065-4886-acd8-9619cfb06bb8}"/>
     <names>
-        <name lang="ru">Индуктивность</name>
+        <name lang="fr">Inductance</name>
         <name lang="de">Induktivität</name>
         <name lang="pl">Cewka</name>
-        <name lang="ar">حثّ</name>
-        <name lang="es">Inductor</name>
-        <name lang="it">Induttanza</name>
-        <name lang="en">Inductor</name>
-        <name lang="cs">Cívka</name>
-        <name lang="pt">Inductância</name>
-        <name lang="fr">Inductance</name>
         <name lang="nl">Inductor</name>
+        <name lang="ru">Индуктивность</name>
+        <name lang="it">Induttanza</name>
+        <name lang="cs">Cívka</name>
+        <name lang="es">Inductor</name>
+        <name lang="pt">Inductância</name>
+        <name lang="ar">حثّ</name>
+        <name lang="en">Inductor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" y="-0.45" size="9" rotate="true" text="_" x="5"/>
-        <arc style="line-style:dashed;line-weight:thin;filling:none;color:black" height="5" y="-10" angle="-180" antialias="true" start="90" width="7" x="-3.5"/>
-        <arc style="line-style:dashed;line-weight:thin;filling:none;color:black" height="5" y="0" angle="-180" antialias="true" start="90" width="7" x="-3.5"/>
-        <arc style="line-style:dashed;line-weight:thin;filling:none;color:black" height="5" y="5" angle="-180" antialias="true" start="90" width="7" x="-3.5"/>
-        <arc style="line-style:dashed;line-weight:thin;filling:none;color:black" height="5" y="-5" angle="-180" antialias="true" start="90" width="7" x="-3.5"/>
-        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="20"/>
-        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="-10"/>
-        <terminal y="-21" orientation="n" x="0"/>
-        <terminal y="21" orientation="s" x="0"/>
+        <dynamic_text frame="false" uuid="{c7250ace-7bb4-4c5b-b596-53192749698c}" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" x="5" y="-12.95" keep_visual_rotation="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc width="7" start="90" x="-3.5" y="-10" height="5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true" angle="-180"/>
+        <arc width="7" start="90" x="-3.5" y="0" height="5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true" angle="-180"/>
+        <arc width="7" start="90" x="-3.5" y="5" height="5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true" angle="-180"/>
+        <arc width="7" start="90" x="-3.5" y="-5" height="5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true" angle="-180"/>
+        <line end2="none" length2="1.5" length1="1.5" y1="10" x1="0" y2="20" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="0" antialias="false"/>
+        <line end2="none" length2="1.5" length1="1.5" y1="-20" x1="0" y2="-10" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="0" antialias="false"/>
+        <terminal uuid="{9c425282-e54b-47e8-a726-75410a61dd10}" orientation="n" x="0" y="-21" type="Generic" name=""/>
+        <terminal uuid="{8a2be8f0-bab4-4186-9d58-831cdbd4ebe7}" orientation="s" x="0" y="21" type="Generic" name=""/>
     </description>
 </definition>

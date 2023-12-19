@@ -1,24 +1,28 @@
-<definition hotspot_x="19" version="0.70" height="40" hotspot_y="30" width="60" type="element" link_type="simple">
-    <uuid uuid="{34375118-4069-4df2-aea2-e8912a5c75a5}"/>
+<definition type="element" hotspot_y="22" version="0.100.0" link_type="simple" width="60" height="30" hotspot_x="19">
+    <uuid uuid="{a1e38da4-59b8-4464-9c59-0a3cec48823a}"/>
     <names>
         <name lang="fr">Fiche et prise de connecteur, par exemple
 cavalier, mâle-mâle avec prise de dérivation</name>
+        <name lang="en">Plug and socket-type connector, male-male with socket access</name>
         <name lang="de">Stecker verbunden, z. B. U-Stecker: - mit Abzweigbuchse</name>
         <name lang="cs">Zásuvková spojka s vyvedenou zdířkou</name>
-        <name lang="en">Plug and socket-type connector, male-male with socket access</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-3" x="0" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <line x2="35" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="25"/>
-        <line x2="-15" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <arc y="-5" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90"/>
-        <arc y="-5" x="15" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="270"/>
-        <arc y="-25" x="5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="180"/>
-        <line x2="10" y2="-3" y1="-15" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10"/>
-        <terminal y="0" x="-15" orientation="w"/>
-        <terminal y="0" x="35" orientation="e"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" x="5" uuid="{f239a837-fb20-431a-a276-d3f9ea7b4d53}" Halignment="AlignLeft" y="2.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="1" frame="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect style="line-style:normal;line-weight:normal;filling:black;color:black" ry="0" rx="0" x="0" width="20" y="-3" height="6" antialias="false"/>
+        <line x1="25" x2="35" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" length1="1.5" y1="0" end1="none" antialias="false" end2="none"/>
+        <line x1="-5" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" length1="1.5" y1="0" end1="none" antialias="false" end2="none"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" angle="180" x="-5" width="10" y="-5" height="10" antialias="true"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="270" angle="180" x="15" width="10" y="-5" height="10" antialias="true"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="180" angle="180" x="5" width="10" y="-25" height="10" antialias="true"/>
+        <line x1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-3" length1="1.5" y1="-15" end1="none" antialias="false" end2="none"/>
+        <terminal name="" type="Generic" x="-15" uuid="{e9fcd837-2b23-4be0-9e20-ad0d7418ce2c}" orientation="w" y="0"/>
+        <terminal name="" type="Generic" x="35" uuid="{7c124c23-f2fb-46ff-99ca-4d5210f2df8f}" orientation="e" y="0"/>
     </description>
 </definition>

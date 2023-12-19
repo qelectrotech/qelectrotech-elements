@@ -1,22 +1,27 @@
-<definition width="50" link_type="thumbnail" version="0.5" hotspot_x="25" height="50" hotspot_y="25" type="element">
-    <uuid uuid="{c221dbd4-8298-474d-99c7-ae13796e50fc}"/>
+<definition type="element" height="50" width="50" hotspot_x="25" version="0.100.0" hotspot_y="25" link_type="thumbnail">
+    <uuid uuid="{fcdddb5c-5b2b-43ea-9f94-f6b1111b22ff}"/>
     <names>
-        <name lang="el">Λάμπα</name>
         <name lang="nl">Lamp</name>
         <name lang="de">Meldeleuchte</name>
-        <name lang="cs">SKontrolka</name>
-        <name lang="pl">Lampka sygnalizacyjna</name>
+        <name lang="el">Λάμπα</name>
         <name lang="it">Lampada spia</name>
         <name lang="ar">مُؤشّر ضوئي</name>
+        <name lang="pl">Lampka sygnalizacyjna</name>
         <name lang="en">Light</name>
+        <name lang="cs">SKontrolka</name>
         <name lang="fr">Voyant</name>
     </names>
+    <kindInformations/>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-7" y="-34.5" tagg="label" size="9" rotate="true" text="_"/>
-        <arc x="-14" width="28" antialias="true" y="-14" angle="-270" height="28" style="line-style:normal;line-weight:thin;filling:none;color:black" start="0"/>
-        <circle x="-20" antialias="true" y="-20" diameter="40" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <circle x="-22" antialias="true" y="-22" diameter="44" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="-47" text_from="ElementInfo" z="1" x="-7" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{236d3656-81d0-4172-a56a-dc3ac78cf6d8}" frame="false" rotation="0" Valignment="AlignTop" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc y="-14" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-14" height="28" width="28" antialias="true" angle="-270" start="0"/>
+        <circle y="-20" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-20" antialias="true" diameter="40"/>
+        <circle y="-22" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-22" antialias="true" diameter="44"/>
     </description>
 </definition>

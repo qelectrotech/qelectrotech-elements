@@ -1,21 +1,25 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="50" hotspot_y="25">
-    <uuid uuid="{13fb14cd-0028-4e4e-8e93-519612a0d906}"/>
+<definition hotspot_x="14" version="0.100.0" link_type="simple" width="30" hotspot_y="25" type="element" height="50">
+    <uuid uuid="{19c7f904-0e6e-4e95-9883-30eded0c60c6}"/>
     <names>
-        <name lang="cs">Filtr vzduchu</name>
         <name lang="it">Filtro aria</name>
+        <name lang="fr">Filtre d'air</name>
+        <name lang="nl">Luchtfilter</name>
         <name lang="pl">Filtr powietrza</name>
         <name lang="en">Air filter</name>
-        <name lang="nl">Luchtfilter</name>
-        <name lang="fr">Filtre d'air</name>
+        <name lang="cs">Filtr vzduchu</name>
         <name lang="el">Φίλτρο αέρα</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x4="10" antialias="true" y5="20" y1="-20" x1="-10" closed="false" x3="-10" y3="0" y4="10" x2="10" x5="-10"/>
-        <input tagg="label" rotate="true" size="9" y="-29.45" x="-7" text="_"/>
-        <rect width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-20" x="-10" height="40"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <polygon x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="10" x2="10" y2="-10" y3="0" y5="20" antialias="true" closed="false" x3="-10" y4="10" y1="-20" x5="-10"/>
+        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{8fdd77ee-7cc1-4c84-a4c3-a6f77ecf669e}" text_from="ElementInfo" frame="false" y="-41.95" z="2" keep_visual_rotation="false" Halignment="AlignLeft" Valignment="AlignTop" x="-7" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" rx="0" antialias="false" y="-20" ry="0" x="-10" height="40"/>
+        <terminal name="" uuid="{787d429f-3abc-45ea-b54c-9a79fdb4912f}" orientation="w" y="0" type="Generic" x="-10"/>
+        <terminal name="" uuid="{2e719398-e4b6-45a3-b61e-9679facadc85}" orientation="e" y="0" type="Generic" x="10"/>
     </description>
 </definition>

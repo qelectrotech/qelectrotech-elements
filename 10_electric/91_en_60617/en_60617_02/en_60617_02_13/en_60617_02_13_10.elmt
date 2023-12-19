@@ -1,18 +1,22 @@
-<definition link_type="simple" type="element" width="40" hotspot_y="10" height="20" version="0.70" hotspot_x="27">
-    <uuid uuid="{844d5793-1630-4cf9-b04f-762ddecd219a}"/>
+<definition hotspot_y="10" height="20" hotspot_x="27" link_type="simple" type="element" version="0.100.0" width="40">
+    <uuid uuid="{1ca1a7ac-25bc-4605-b51d-c5055cf0bd19}"/>
     <names>
         <name lang="fr">Commande par pédale</name>
         <name lang="es">Accionado por pedal</name>
+        <name lang="en">Actuator (operated by pedal)</name>
         <name lang="de">Betätigung durch Pedal</name>
         <name lang="cs">Ovládání pedálem</name>
-        <name lang="en">Actuator (operated by pedal)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
-        <line x2="8" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-16" y2="0" length2="1.5"/>
-        <line x2="-19" antialias="false" y1="-5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-14" y2="5" length2="1.5"/>
-        <line x2="-22" antialias="false" y1="5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" y2="3" length2="1.5"/>
+        <dynamic_text Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{3103e24c-4df3-4b3e-b33f-1ee2162c2a19}" text_width="-1" text_from="ElementInfo" z="1" y="2.5" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-16" x2="8" length1="1.5" y2="0" length2="1.5" y1="0"/>
+        <line antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-14" x2="-19" length1="1.5" y2="5" length2="1.5" y1="-5"/>
+        <line antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" x2="-22" length1="1.5" y2="3" length2="1.5" y1="5"/>
     </description>
 </definition>

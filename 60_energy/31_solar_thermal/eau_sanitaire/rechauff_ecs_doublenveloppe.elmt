@@ -1,41 +1,44 @@
-<definition width="100" hotspot_x="30" type="element" link_type="simple" version="0.5" height="70" hotspot_y="35">
-    <uuid uuid="{7018bb20-31a7-43da-90ae-091006c43a63}"/>
+<definition height="70" link_type="simple" hotspot_x="31" type="element" hotspot_y="35" version="0.100.0" width="100">
+    <uuid uuid="{7ea4ac1d-2181-47c3-aeed-74afe68e8de8}"/>
     <names>
-        <name lang="cs">Ohřívač s dvojitým pláštěm ECS</name>
-        <name lang="pl">Zasobnik z płaszczem CWU</name>
         <name lang="it">Riscaldatore ACS</name>
         <name lang="en">ECS heater jacket</name>
-        <name lang="nl">Tank met interne tank wisselaar</name>
         <name lang="ar">سخّان ECS  بغلاف مزدوج</name>
         <name lang="fr">Réchauffeur ECS double enveloppe</name>
         <name lang="es">Calentador ECS con doble cubierta</name>
-
+        <name lang="pl">Zasobnik z płaszczem CWU</name>
+        <name lang="nl">Tank met interne tank wisselaar</name>
+        <name lang="cs">Ohřívač s dvojitým pláštěm ECS</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="35.55" x="-7" text="_"/>
-        <text size="4" y="-22" x="12" text="EF"/>
-        <text size="4" y="-24" x="-10" text="ECS"/>
-        <line end2="triangle" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" length2="1.5" end1="none" length1="1.5" y1="20" x1="-17" x2="-25"/>
-        <line end2="triangle" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-20" x1="-24" x2="-16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="18" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-31" x1="10" x2="10"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-18" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-31" x1="-10" x2="-10"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-18" x1="-15" x2="-15"/>
-        <text size="4" y="20" x="25" text="réchauffeur ecs"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-18" x1="15" x2="15"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="27" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-24" x1="-20" x2="-20"/>
-        <arc width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-21.5" x="-15" height="6"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="26" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-25" x1="20" x2="20"/>
-        <arc width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-180" y="16.5" x="-15" height="6"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="-21" x="-21"/>
-        <arc width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-29.5" x="-20" height="8"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="23" x="19"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="19" x="-21"/>
-        <arc width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-180" y="22.5" x="-20" height="8"/>
-        <terminal y="-20" x="-24" orientation="w"/>
-        <terminal y="20" x="-24" orientation="w"/>
-        <terminal y="-30" x="10" orientation="n"/>
-        <terminal y="-30" x="-10" orientation="n"/>
+        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" z="1" rotation="0" uuid="{2c21f051-d1f5-4752-b25e-9f45405c3c6f}" y="23.05" text_width="-1" frame="false" Valignment="AlignTop" x="-7" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="EF" color="#000000" rotation="0" y="-22" x="12"/>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="ECS" color="#000000" rotation="0" y="-24" x="-10"/>
+        <line x2="-25" y1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="-17" end2="triangle" antialias="false" end1="none" length1="1.5"/>
+        <line x2="-16" y1="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" x1="-24" end2="triangle" antialias="false" end1="none" length1="1.5"/>
+        <line x2="10" y1="-31" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="18" x1="10" end2="none" antialias="false" end1="none" length1="1.5"/>
+        <line x2="-10" y1="-31" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-18" x1="-10" end2="none" antialias="false" end1="none" length1="1.5"/>
+        <line x2="-15" y1="-18" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" x1="-15" end2="none" antialias="false" end1="none" length1="1.5"/>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="réchauffeur ecs" color="#000000" rotation="0" y="20" x="25"/>
+        <line x2="15" y1="-18" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="19" x1="15" end2="none" antialias="false" end1="none" length1="1.5"/>
+        <line x2="-20" y1="-24" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="27" x1="-20" end2="none" antialias="true" end1="none" length1="1.5"/>
+        <arc height="6" start="-180" y="-21.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" x="-15" angle="-180" antialias="true"/>
+        <line x2="20" y1="-25" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="26" x1="20" end2="none" antialias="true" end1="none" length1="1.5"/>
+        <arc height="6" start="0" y="16.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" x="-15" angle="-180" antialias="true"/>
+        <circle y="-21" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" x="-21" antialias="true"/>
+        <arc height="8" start="-180" y="-29.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" x="-20" angle="-180" antialias="true"/>
+        <circle y="23" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" x="19" antialias="true"/>
+        <circle y="19" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" x="-21" antialias="true"/>
+        <arc height="8" start="0" y="22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" x="-20" angle="-180" antialias="true"/>
+        <terminal uuid="{d33bdf3f-31fc-41b4-9496-74fbed49dfac}" y="-20" orientation="w" type="Generic" x="-24" name=""/>
+        <terminal uuid="{8ff34279-d6a2-43a7-bdf0-5fea7860d17d}" y="20" orientation="w" type="Generic" x="-24" name=""/>
+        <terminal uuid="{7dc8cdf7-1eac-4b00-a60b-41116188dbd8}" y="-30" orientation="n" type="Generic" x="10" name=""/>
+        <terminal uuid="{9856c4ad-bc81-494a-8371-862b6ba28d54}" y="-30" orientation="n" type="Generic" x="-10" name=""/>
     </description>
 </definition>

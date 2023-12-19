@@ -1,18 +1,22 @@
-<definition height="80" version="0.70" width="50" hotspot_x="45" type="element" hotspot_y="75" link_type="simple">
-    <uuid uuid="{cf35f063-3c7c-449b-b985-1d65f5ceae53}"/>
+<definition version="0.100.0" width="50" hotspot_y="75" link_type="simple" height="80" hotspot_x="45" type="element">
+    <uuid uuid="{f3ecd4fb-91b8-43cc-a609-b4efdad83038}"/>
     <names>
-        <name lang="fr">Cathode chaude, à chauffage direct</name>
         <name lang="de">heiße Kathode, direkt geheizt</name>
         <name lang="cs">Přímo žhavená katoda,
 žhavicí vlákno nepřímo žhavené katody</name>
         <name lang="en">Hot cathode, directly heated; Heater for hot cathode, indirectly heated; Heater</name>
+        <name lang="fr">Cathode chaude, à chauffage direct</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <arc y="-70" height="40" width="40" angle="180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" start="0"/>
-        <line x2="-40" y1="-50" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" x1="-40"/>
-        <line x2="0" y1="-50" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" x1="0"/>
+        <dynamic_text rotation="0" text_from="ElementInfo" frame="false" text_width="-1" z="1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{86510d93-016b-4934-b42b-87dd2b57b2f5}" keep_visual_rotation="false" Valignment="AlignTop" x="5" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc start="0" width="40" angle="180" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-40" y="-70"/>
+        <line end1="none" x1="-40" end2="none" length1="1.5" length2="1.5" y1="-50" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0"/>
+        <line end1="none" x1="0" end2="none" length1="1.5" length2="1.5" y1="-50" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0"/>
     </description>
 </definition>

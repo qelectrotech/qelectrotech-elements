@@ -1,27 +1,36 @@
-<definition width="50" version="0.3" hotspot_x="17" hotspot_y="30" height="60" type="element" link_type="master">
-<uuid uuid="{C5EDC75F-E640-44AB-9E21-DDE1F73B1724}"/><names>
-        <name lang="el">Θερμικό ρελέ υπερφόρτωσης</name>
-        <name lang="en">Thermal overload relay</name>
-        <name lang="de">Überstromrelais</name>
+<definition type="element" width="40" link_type="master" version="0.100.0" height="50" hotspot_x="20" hotspot_y="24">
+    <uuid uuid="{6c190d34-ee79-47fb-9dea-21c28a34e8c5}"/>
+    <names>
         <name lang="it">Relè termico</name>
-        <name lang="fr">Organe de commande d'un relais thermique</name>
-        <name lang="pl">Przekaźnik nadprądowy cieplny</name>
-        <name lang="es">Relé de sobrecarga termica</name>
         <name lang="cs">Tepelné relé</name>
-        <name lang="nl">Thermisch relais</name>
         <name lang="hu">Thermikus túlterhelés védelmi relé</name>
+        <name lang="de">Überstromrelais</name>
+        <name lang="es">Relé de sobrecarga termica</name>
+        <name lang="nl">Thermisch relais</name>
+        <name lang="el">Θερμικό ρελέ υπερφόρτωσης</name>
+        <name lang="fr">Organe de commande d'un relais thermique</name>
+        <name lang="en">Thermal overload relay</name>
+        <name lang="pl">Przekaźnik nadprądowy cieplny</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="30" x="-15" y="-10" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x4="-8" y5="4" x5="0" y6="20" x6="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-20" x1="0" y2="-5" x2="0" y3="-5" x3="-8" y4="4"/>
-        <input x="-14" y="18" size="4" text="A2"/>
-        <input x="-14" y="-17" size="4" text="A1"/>
-        <input x="16" y="0.5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <rect y="-10" width="30" ry="0" antialias="false" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" rx="0"/>
+        <polygon y2="-5" x3="-8" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-20" x2="0" y5="4" x5="0" y6="20" y3="-5" y4="4" x4="-8" closed="false" x6="0"/>
+        <dynamic_text y="10" z="3" Halignment="AlignLeft" text_width="-1" x="-14" frame="false" text_from="UserText" rotation="0" keep_visual_rotation="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{f976ff9b-f5e4-44b9-b958-24f81d8063ca}" Valignment="AlignTop">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text y="-25" z="4" Halignment="AlignLeft" text_width="-1" x="-14" frame="false" text_from="UserText" rotation="0" keep_visual_rotation="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{34050870-086f-46e7-b9f0-565ca2570c3d}" Valignment="AlignTop">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text y="-12" z="5" Halignment="AlignLeft" text_width="-1" x="16" frame="false" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e423fa8b-9051-4e15-919d-e75cd1f7a943}" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-20" type="Generic" x="0" name="" orientation="n" uuid="{16758df2-f423-45c9-bbfd-b27311a2ee60}"/>
+        <terminal y="20" type="Generic" x="0" name="" orientation="s" uuid="{ff34902a-9038-4d07-9a97-7722a4c50868}"/>
     </description>
 </definition>

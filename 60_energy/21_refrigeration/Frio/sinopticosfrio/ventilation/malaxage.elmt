@@ -1,20 +1,24 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="50" hotspot_y="25">
-    <uuid uuid="{8f727eb4-d460-479e-b98a-448f16efae09}"/>
+<definition type="element" height="50" hotspot_x="14" version="0.100.0" link_type="simple" hotspot_y="25" width="30">
+    <uuid uuid="{b204d5a0-fe38-4acf-a7be-393e251cba36}"/>
     <names>
-        <name lang="cs">Smíchávací komora</name>
-        <name lang="it">Box di miscelazione</name>
-        <name lang="pl">Komora mieszania</name>
         <name lang="en">Mixing box</name>
+        <name lang="it">Box di miscelazione</name>
+        <name lang="cs">Smíchávací komora</name>
         <name lang="nl">Mengkast</name>
-        <name lang="fr">Boîte malaxage</name>
         <name lang="el">Κιβώτιο μίξης</name>
+        <name lang="pl">Komora mieszania</name>
+        <name lang="fr">Boîte malaxage</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-20" x="-10" height="40"/>
-        <input tagg="label" rotate="true" size="9" y="-29.45" x="-7" text="_"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-10" orientation="w"/>
+        <rect x="-10" height="40" width="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-20" ry="0"/>
+        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" x="-7" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" rotation="0" Halignment="AlignLeft" frame="false" text_width="-1" y="-41.95" uuid="{72bdc050-10c1-444f-9f6e-f32b7218638e}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="10" type="Generic" name="" orientation="e" y="0" uuid="{4fca3913-ba0f-4a17-a6a2-c9bfe06ded0d}"/>
+        <terminal x="-10" type="Generic" name="" orientation="w" y="0" uuid="{e656aa78-1b23-4dbf-8b44-3a9b4b328be2}"/>
     </description>
 </definition>

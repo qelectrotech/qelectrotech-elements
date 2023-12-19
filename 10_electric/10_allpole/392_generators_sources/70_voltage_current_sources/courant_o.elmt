@@ -1,29 +1,34 @@
-<definition width="50" version="0.4" hotspot_x="16" hotspot_y="25" height="50" type="element" ic="true">
-<uuid uuid="{48B8BA88-10CB-40AD-9175-1AEFA4BF9D95}"/><names>
-        <name lang="ar">مصدر تيّار (قديم)</name>
-        <name lang="de">Stromquelle (alt)</name>
-        <name lang="ru">Источник тока (старый)</name>
+<definition hotspot_x="15" height="60" type="element" link_type="simple" version="0.100.0" hotspot_y="29" width="30">
+    <uuid uuid="{09a430be-0dce-4b66-ac20-e10a5641b8d5}"/>
+    <names>
         <name lang="pt">Fonte de corrente (antigo)</name>
-        <name lang="el">Παροχή έντασης (παλιό)</name>
+        <name lang="ar">مصدر تيّار (قديم)</name>
+        <name lang="cs">Zdroj proudu (starý)</name>
+        <name lang="ru">Источник тока (старый)</name>
+        <name lang="pl">Źródło prądu (stary)</name>
         <name lang="en">Current source (old)</name>
         <name lang="it">Generatore di corrente (vecchio)</name>
-        <name lang="fr">Source de courant (vieux)</name>
-        <name lang="pl">Źródło prądu (stary)</name>
         <name lang="es">Fuente de corriente (antiguo)</name>
+        <name lang="el">Παροχή έντασης (παλιό)</name>
+        <name lang="fr">Source de courant (vieux)</name>
         <name lang="nl">Stroombron oud</name>
-        <name lang="cs">Zdroj proudu (starý)</name>
+        <name lang="de">Stromquelle (alt)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-10" y="-15" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-8" x1="-3" y2="-12" x2="0" y3="-8" x3="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="0" y2="12" x2="0"/>
-        <circle x="-10" y="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="0" y2="15" x2="0"/>
-        <input x="12.75" y="3" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-15" x2="0"/>
-        <terminal x="0" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="21" nameHidden="0" number="" name="" orientation="s"/>
+        <circle y="-15" antialias="true" diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-3" y1="-8" y3="-8" antialias="true" x3="3" style="line-style:normal;line-weight:thin;filling:black;color:black" x2="0" y2="-12"/>
+        <line x1="0" length1="1.5" y1="-9" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="12" length2="1.5" end1="none"/>
+        <circle y="-5" antialias="true" diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" length1="1.5" y1="20" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="15" length2="1.5" end1="none"/>
+        <dynamic_text uuid="{bf6cbaac-15fc-4f10-9390-ad2be0989868}" Halignment="AlignLeft" z="6" y="-9.5" keep_visual_rotation="false" x="12.75" Valignment="AlignTop" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" length1="1.5" y1="-20" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-15" length2="1.5" end1="none"/>
+        <terminal uuid="{a6d338bf-83ac-4f7d-835e-fa30fe6865a1}" y="-21" type="Generic" name="" orientation="n" x="0"/>
+        <terminal uuid="{4f3d7e63-5e71-4a47-86bc-86fc69fc4034}" y="21" type="Generic" name="" orientation="s" x="0"/>
     </description>
 </definition>

@@ -1,30 +1,34 @@
-<definition width="40" version="0.3" hotspot_x="13" hotspot_y="53" height="80" type="element" ic="true">
-<uuid uuid="{45FE38C0-52E9-4EF1-9E2A-ADE61242DECA}"/><names>
-        <name lang="en">Current transformer, two cores with a secondary winding on each core</name>
+<definition hotspot_y="44" type="element" width="40" link_type="simple" height="70" version="0.100.0" hotspot_x="13">
+    <uuid uuid="{b6eb4cdd-927d-4d04-8c21-ea3a4ededef3}"/>
+    <names>
         <name lang="de">Stromwandler 2 Kerne</name>
+        <name lang="en">Current transformer, two cores with a secondary winding on each core</name>
+        <name lang="nl">Stroomtrafo dubbel</name>
+        <name lang="pl">Przekładnik (forma 2)</name>
         <name lang="fr">Transformateur de courant, à deux noyaux avec un enroulement secondaire sur chaque noyau</name>
         <name lang="it">Trasformatore d'impulso o di corrente, 2 secondari nuclei separati</name>
-        <name lang="pl">Przekładnik (forma 2)</name>
         <name lang="cs">Dvoujádrový proudový transformátor</name>
-        <name lang="nl">Stroomtrafo dubbel</name>
-
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="11" y2="-25" x2="16"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="11" y2="-5" x2="16"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="13" y2="-25" x2="18"/>
-        <input x="7" y="-37" size="9" rotate="true" text="_" tagg="label"/>
-        <circle x="-8" y="-28" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="16"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="13" y2="-5" x2="18"/>
-        <circle x="-8" y="-8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="16"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="8" y2="0" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="8" y2="-20" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" x1="0" y2="20" x2="0"/>
-        <terminal x="0" y="-40" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="20" nameHidden="0" number="" name="" orientation="s"/>
-        <terminal x="20" y="0" nameHidden="0" number="" name="" orientation="e"/>
-        <terminal x="20" y="-20" nameHidden="0" number="" name="" orientation="e"/>
+        <line x1="11" y1="-15" y2="-25" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="16" antialias="true" end1="none" length1="1.5"/>
+        <line x1="11" y1="5" y2="-5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="16" antialias="true" end1="none" length1="1.5"/>
+        <line x1="13" y1="-15" y2="-25" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="18" antialias="true" end1="none" length1="1.5"/>
+        <dynamic_text uuid="{c3c477ec-604f-47b1-bd48-670edcb71fbe}" text_width="-1" rotation="0" Valignment="AlignTop" x="7" frame="false" z="4" Halignment="AlignLeft" keep_visual_rotation="false" y="-49.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-8" antialias="true" y="-28" diameter="16"/>
+        <line x1="13" y1="5" y2="-5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="18" antialias="true" end1="none" length1="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-8" antialias="true" y="-8" diameter="16"/>
+        <line x1="8" y1="0" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="20" antialias="false" end1="none" length1="1.5"/>
+        <line x1="8" y1="-20" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="20" antialias="false" end1="none" length1="1.5"/>
+        <line x1="0" y1="-40" y2="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0" antialias="false" end1="none" length1="1.5"/>
+        <terminal uuid="{8022a561-01ab-4d89-9e47-39792c08d78a}" name="" orientation="n" type="Generic" x="0" y="-40"/>
+        <terminal uuid="{1c40843f-3aef-4e56-bcc4-37b9d7990b8c}" name="" orientation="s" type="Generic" x="0" y="20"/>
+        <terminal uuid="{7279ea3d-6c4b-44d5-a0c3-39fe01b4712c}" name="" orientation="e" type="Generic" x="20" y="0"/>
+        <terminal uuid="{9937b39b-2540-4926-b420-6b5caf9f2159}" name="" orientation="e" type="Generic" x="20" y="-20"/>
     </description>
 </definition>

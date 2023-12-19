@@ -1,23 +1,31 @@
-<definition width="50" link_type="thumbnail" version="0.5" hotspot_x="25" height="50" hotspot_y="25" type="element">
-    <uuid uuid="{40a9935f-de80-4aea-b6da-c94b053dda20}"/>
+<definition width="50" hotspot_y="25" hotspot_x="25" height="50" version="0.100.0" type="element" link_type="thumbnail">
+    <uuid uuid="{c39f9818-c2d0-4d60-9abc-39e4ff03fe36}"/>
     <names>
-        <name lang="el">Μπουτόν</name>
-        <name lang="nl">Drukknop</name>
-        <name lang="cs">Tlačítko</name>
-        <name lang="pl">Przycisk</name>
-        <name lang="it">Pulsante</name>
         <name lang="ar">مفتاح ضاغط</name>
+        <name lang="nl">Drukknop</name>
         <name lang="en">Pushbutton</name>
         <name lang="fr">Bouton poussoir rouge</name>
+        <name lang="pl">Przycisk</name>
+        <name lang="cs">Tlačítko</name>
+        <name lang="el">Μπουτόν</name>
+        <name lang="it">Pulsante</name>
     </names>
+    <kindInformations/>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-6" y="-35.5" tagg="label" size="9" rotate="true" text="_"/>
-        <circle x="-22" antialias="true" y="-22" diameter="44" style="line-style:normal;line-weight:normal;filling:red;color:black"/>
-        <circle x="-14" antialias="true" y="-14" diameter="28" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <circle x="-20" antialias="true" y="-20" diameter="40" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <input x="-17" y="42.5" tagg="label" size="3" rotate="true" text="_"/>
-        <text x="-7" y="10" size="20" text="0"/>
+        <dynamic_text uuid="{d2bddd8c-96ae-41b8-9179-cea8510cb1b4}" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" x="-6" y="-48" frame="false" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="44" x="-22" y="-22" style="line-style:normal;line-weight:normal;filling:red;color:black" antialias="true"/>
+        <circle diameter="28" x="-14" y="-14" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <circle diameter="40" x="-20" y="-20" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <dynamic_text uuid="{613d0e14-5b57-4dd6-abb4-111ffdffa78f}" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" x="-17" y="35" frame="false" z="5" rotation="0" font="Sans Serif,3,-1,5,25,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text color="#000000" text="0" x="-7" y="10" font="Sans Serif,20,-1,5,50,0,0,0,0,0" rotation="0"/>
     </description>
 </definition>

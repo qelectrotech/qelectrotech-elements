@@ -1,40 +1,47 @@
-<definition width="40" version="0.4" hotspot_x="18" hotspot_y="24" height="50" link_type="master" type="element">
-<uuid uuid="{687262D2-B8A1-4CD6-B56F-4547577EFD01}"/><names>
-        <name lang="ar">قاطع أحادي الوجه</name>
+<definition height="50" width="40" hotspot_x="19" type="element" hotspot_y="25" version="0.100.0" link_type="master">
+    <uuid uuid="{34464f09-0d7b-44ff-b2f4-46ba221b7c0f}"/>
+    <names>
         <name lang="de">Lastschalter 2P</name>
         <name lang="en">Circuit-breaker</name>
-        <name lang="it">Sezionatore 2P</name>
-        <name lang="fr">Disjoncteur mono</name>
+        <name lang="cs">Dvoupólový jistič</name>
         <name lang="pl">Wyłącznik</name>
         <name lang="es">Disyuntor 2P</name>
         <name lang="hu">Terheléskapcsoló 2 pólusú</name>
         <name lang="nl">Lastscheider 2</name>
-        <name lang="cs">Dvoupólový jistič</name>
+        <name lang="ar">قاطع أحادي الوجه</name>
+        <name lang="it">Sezionatore 2P</name>
+        <name lang="fr">Disjoncteur mono</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="5" y5="-10" x5="5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="10" y2="10" x2="10" y3="-10" x3="5" y4="-10"/>
-        <text x="-8" y="18" size="4" text="2"/>
-        <text x="12" y="18" size="4" text="4"/>
-        <text x="13" y="-15" size="4" text="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
-        <polygon x4="-15" y5="-10" x5="-15" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="-10" y2="10" x2="-10" y3="-10" x3="-15" y4="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-10" x2="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="12" y2="-12" x2="8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="-8" y2="-12" x2="-12"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="12" y2="-8" x2="8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="-8" y2="-8" x2="-12"/>
-        <input x="17" y="5" size="4" text="Calibre __A" tagg="none"/>
-        <input x="16" y="-6.6666" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-12" y2="0" x2="7"/>
-        <text x="-8" y="-15" size="4" text="1"/>
-        <terminal x="-10" y="-20" orientation="n"/>
-        <terminal x="-10" y="20" orientation="s"/>
-        <terminal x="10" y="-20" orientation="n"/>
-        <terminal x="10" y="20" orientation="s"/>
+        <polygon y2="10" x4="5" antialias="true" x1="10" x2="10" y3="-10" x3="5" y5="-10" y4="-10" closed="false" y1="20" x5="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="-8" y="18" rotation="0" color="#000000" text="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text x="12" y="18" rotation="0" color="#000000" text="4" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text x="13" y="-15" rotation="0" color="#000000" text="3" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line y2="-10" antialias="false" x1="10" x2="10" length1="1.5" end2="none" end1="none" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <polygon y2="10" x4="-15" antialias="true" x1="-10" x2="-10" y3="-10" x3="-15" y5="-10" y4="-10" closed="false" y1="20" x5="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-10" antialias="false" x1="-10" x2="-10" length1="1.5" end2="none" end1="none" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line y2="-12" antialias="false" x1="12" x2="8" length1="1.5" end2="none" end1="none" y1="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line y2="-12" antialias="false" x1="-8" x2="-12" length1="1.5" end2="none" end1="none" y1="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line y2="-8" antialias="false" x1="12" x2="8" length1="1.5" end2="none" end1="none" y1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line y2="-8" antialias="false" x1="-8" x2="-12" length1="1.5" end2="none" end1="none" y1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <dynamic_text Valignment="AlignTop" x="17" z="12" frame="false" uuid="{36bade25-fa9d-445e-939f-c193a48bf7ff}" text_width="-1" keep_visual_rotation="false" y="-3" rotation="0" Halignment="AlignLeft" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0">
+            <text>Calibre __A</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignTop" x="16" z="13" frame="false" uuid="{e8d541ac-abd7-4686-a6d6-44e329e8d328}" text_width="-1" keep_visual_rotation="false" y="-19.1666" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" antialias="false" x1="-12" x2="7" length1="1.5" end2="none" end1="none" y1="0" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <text x="-8" y="-15" rotation="0" color="#000000" text="1" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <terminal x="-10" uuid="{ef52246c-5c97-4e2a-9c3a-e7a6d2b46489}" y="-20" name="" orientation="n" type="Generic"/>
+        <terminal x="-10" uuid="{0acea09a-fb69-45ab-81ad-04b6d451fe6f}" y="20" name="" orientation="s" type="Generic"/>
+        <terminal x="10" uuid="{8e110285-865b-400d-9b81-42b8c67b7f83}" y="-20" name="" orientation="n" type="Generic"/>
+        <terminal x="10" uuid="{e992b8e5-994f-4b0c-9478-e3ce20d7dfaa}" y="20" name="" orientation="s" type="Generic"/>
     </description>
 </definition>

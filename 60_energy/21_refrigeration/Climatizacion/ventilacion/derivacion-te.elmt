@@ -1,16 +1,21 @@
-<definition height="20" hotspot_y="14" type="element" hotspot_x="15" link_type="simple" width="30" version="0.4">
-<uuid uuid="{F64A145F-AC63-40D4-885F-8E4D3CA89F17}"/><names>
+<definition type="element" width="30" hotspot_y="14" hotspot_x="14" version="0.100.0" height="20" link_type="simple">
+    <uuid uuid="{405498d7-b772-4c4b-b4ce-30d9c092396c}"/>
+    <names>
         <name lang="es">Derivación-Te</name>
         <name lang="ca">Derivació-Te</name>
     </names>
-    <informations/>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <input y="8" rotate="true" tagg="label" text="Te" x="-1" size="6"/>
-        <circle y="-3" diameter="6" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-3" antialias="false"/>
-        <line length2="1.5" end1="none" length1="1.5" y2="0" end2="none" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" antialias="false"/>
-        <line length2="1.5" end1="none" length1="1.5" y2="0" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="10" antialias="false"/>
-        <terminal y="-10" x="0" orientation="n"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-10" orientation="w"/>
+        <dynamic_text y="-2" z="1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4f39402a-dbd8-44b7-a41b-75813dd51dcc}" rotation="0" x="-1" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-3" antialias="false" diameter="6"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" x1="0" x2="0" y1="-10" y2="0" end1="none" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" x1="-10" x2="10" y1="0" y2="0" end1="none" antialias="false"/>
+        <terminal type="Generic" y="-10" name="" orientation="n" uuid="{49473a7a-8df2-4fab-98e2-a12ea0e222bb}" x="0"/>
+        <terminal type="Generic" y="0" name="" orientation="e" uuid="{9b36a6a1-f8eb-4aea-b06d-3174d386076c}" x="10"/>
+        <terminal type="Generic" y="0" name="" orientation="w" uuid="{bdc76df6-eff9-4d98-b9d9-ea1b95f67cf3}" x="-10"/>
     </description>
 </definition>

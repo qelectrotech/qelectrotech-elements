@@ -1,21 +1,25 @@
-<definition type="element" width="150" version="0.70" hotspot_y="24" height="30" link_type="simple" hotspot_x="144">
-    <uuid uuid="{558d7aec-b150-4f6c-bcbc-ca5ee574d906}"/>
+<definition height="30" version="0.100.0" hotspot_y="24" width="150" type="element" hotspot_x="144" link_type="simple">
+    <uuid uuid="{b2519b78-f00e-4abf-985e-339a71926aa2}"/>
     <names>
         <name lang="fr">Ligne avec point de raccordement enterré</name>
         <name lang="de">Erdkabel mit Verbindungsstelle </name>
-        <name lang="cs">Vedení v zemi se spojkou</name>
         <name lang="en">Line with buried joint</name>
+        <name lang="cs">Vedení v zemi se spojkou</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <line x2="-65" end2="none" antialias="false" end1="none" length2="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-75" y1="-10" length1="1.5"/>
-        <line x2="-60" end2="none" antialias="false" end1="none" length2="1.5" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-80" y1="-15" length1="1.5"/>
-        <line x2="-55" end2="none" antialias="false" end1="none" length2="1.5" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-85" y1="-20" length1="1.5"/>
-        <circle antialias="false" diameter="5" x="-72.5" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-2.5"/>
-        <terminal x="0" orientation="e" y="0"/>
-        <terminal x="-140" orientation="w" y="0"/>
+        <dynamic_text z="1" x="5" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e1620e14-2a6b-4578-bebd-ff0206576434}" Halignment="AlignLeft" Valignment="AlignTop" y="12.5" keep_visual_rotation="false" text_width="-1" frame="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" x2="-140" end2="none" antialias="false" y1="0" x1="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line length1="1.5" x2="-65" end2="none" antialias="false" y1="-10" x1="-75" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line length1="1.5" x2="-60" end2="none" antialias="false" y1="-15" x1="-80" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line length1="1.5" x2="-55" end2="none" antialias="false" y1="-20" x1="-85" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <circle x="-72.5" antialias="false" diameter="5" y="-2.5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal name="" x="0" uuid="{f11ed040-c9a8-4847-962b-4bbfedaf56e7}" type="Generic" orientation="e" y="0"/>
+        <terminal name="" x="-140" uuid="{4cb79da5-7430-4345-b31d-d1abb5411ccf}" type="Generic" orientation="w" y="0"/>
     </description>
 </definition>

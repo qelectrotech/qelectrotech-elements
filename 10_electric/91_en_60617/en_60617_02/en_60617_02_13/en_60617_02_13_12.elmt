@@ -1,17 +1,21 @@
-<definition link_type="simple" type="element" width="40" hotspot_y="10" height="20" version="0.70" hotspot_x="28">
-    <uuid uuid="{afe370b8-8988-44c7-8254-6613c032af4d}"/>
+<definition hotspot_x="28" height="20" type="element" hotspot_y="10" width="40" version="0.100.0" link_type="simple">
+    <uuid uuid="{4e73d85e-fbfe-41fb-947f-c1740b85bd30}"/>
     <names>
-        <name lang="fr">Commande manuelle amovible</name>
+        <name lang="en">Actuator (operated by removable handle)</name>
         <name lang="es">Accionado por mango extraíble</name>
+        <name lang="fr">Commande manuelle amovible</name>
         <name lang="de">Betätigung durch abnehmbaren Griff</name>
         <name lang="cs">Ovládání snímatelnou rukojetí</name>
-        <name lang="en">Actuator (operated by removable handle)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
-        <line x2="7" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-10" y2="0" length2="1.5"/>
-        <polygon x2="-17" antialias="false" x5="-24" y1="0" y5="0" x3="-10" x4="-17" y4="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-24" closed="false" y2="7" y3="0"/>
+        <dynamic_text uuid="{34473b70-1925-41ca-8fa1-8c2a8333c659}" frame="false" y="2.5" keep_visual_rotation="false" x="5" Valignment="AlignTop" text_from="ElementInfo" rotation="0" text_width="-1" Halignment="AlignLeft" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" x1="-10" y1="0" length1="1.5" end2="none" length2="1.5" antialias="false" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="7"/>
+        <polygon y2="7" x1="-24" y1="0" x4="-17" antialias="false" y3="0" y5="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-10" x2="-17" y4="-7" x5="-24"/>
     </description>
 </definition>

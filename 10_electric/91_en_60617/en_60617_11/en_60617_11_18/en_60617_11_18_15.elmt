@@ -1,20 +1,24 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="45" width="50" hotspot_y="45">
-    <uuid uuid="{d2ed26e6-2457-4cc6-8a0e-ec22ce4e7a67}"/>
+<definition hotspot_x="45" link_type="simple" hotspot_y="45" type="element" version="0.100.0" width="50" height="50">
+    <uuid uuid="{c2bfdecd-db56-4c79-8bfd-01e88d37785d}"/>
     <names>
-        <name lang="de">Anfluggleitwinkelfeuer, weiss/rot, einseitig
-strahlend</name>
         <name lang="fr">Indicateur de trajectoire d'approche de
 précision, faisceau unidirectionnel blanc/rouge</name>
         <name lang="cs">Návěstní znak pro přesnou přibližovací dráhu,
 bílý/červený jednosměrný svazek</name>
         <name lang="en">Precision approach path indicator white/red uni-directional beam</name>
+        <name lang="de">Anfluggleitwinkelfeuer, weiss/rot, einseitig
+strahlend</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <rect y="-40" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="0" y2="-20" y3="-20" x2="-40" antialias="false" x1="0" x4="0" y4="0" x3="0" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <polygon y1="-20" y2="-20" y3="-40" closed="false" x2="-40" antialias="false" x1="0" x4="0" y4="-20" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" text_from="ElementInfo" uuid="{d24991fa-0ecc-49f8-967b-c2384c2a1df5}" keep_visual_rotation="false" x="5" z="1" Halignment="AlignLeft" y="12.5" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" y="-40" ry="0" antialias="false" width="40" height="40"/>
+        <polygon y2="-20" x1="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y3="-20" x2="-40" x4="0" y1="0" x3="0" y4="0"/>
+        <polygon y2="-20" x1="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y3="-40" x2="-40" x4="0" y1="-20" x3="0" y4="-20"/>
     </description>
 </definition>

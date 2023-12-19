@@ -1,24 +1,28 @@
-<definition hotspot_x="15" hotspot_y="29" height="40" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{7f6e837b-6407-44ed-9768-4f3f852c5463}"/>
+<definition hotspot_y="29" width="30" version="0.100.0" hotspot_x="15" type="element" height="40" link_type="simple">
+    <uuid uuid="{9e3e7160-3c42-478f-b152-9ea93e86ebfa}"/>
     <names>
+        <name lang="nl">Stappenmotor</name>
+        <name lang="ar">مُحرّك خطوة-خطوة</name>
         <name lang="fr">Moteur pas à pas</name>
+        <name lang="de">Schrittmotor</name>
+        <name lang="it">Motore passo-passo</name>
+        <name lang="el">Βηματικός κινητήρας</name>
+        <name lang="en">Stepping motor</name>
         <name lang="pl">Silnik krokowy</name>
         <name lang="cs">Krokový motor</name>
-        <name lang="ar">مُحرّك خطوة-خطوة</name>
-        <name lang="el">Βηματικός κινητήρας</name>
-        <name lang="it">Motore passo-passo</name>
-        <name lang="de">Schrittmotor</name>
-        <name lang="en">Stepping motor</name>
-        <name lang="nl">Stappenmotor</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 06-04-03</informations>
     <description>
-        <input x="-7" rotate="true" size="9" text="_" y="2.55" tagg="label"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" antialias="false" y2="-6" end1="none" x2="6" length1="1.5" x1="6"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" antialias="false" y2="-1" end1="none" x2="-6" length1="1.5" x1="-6"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" antialias="false" y2="-3" end1="none" x2="6" length1="1.5" x1="-6"/>
-        <circle x="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="24" antialias="true" y="-20"/>
-        <text x="-4.5" size="8" text="M" y="-6"/>
-        <terminal x="0" orientation="n" y="-20"/>
+        <dynamic_text z="1" Halignment="AlignLeft" uuid="{1db0c5f1-a5ca-4da0-944c-c9e9255c6b4e}" x="-7" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" text_from="ElementInfo" y="-9.95" frame="false" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-6" antialias="false" length2="1.5" x1="6" y1="-3" length1="1.5" end2="none" end1="none" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-1" antialias="false" length2="1.5" x1="-6" y1="-3" length1="1.5" end2="none" end1="none" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-3" antialias="false" length2="1.5" x1="-6" y1="-3" length1="1.5" end2="none" end1="none" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" x="-12" diameter="24" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text color="#000000" x="-4.5" font="Sans Serif,8,-1,5,50,0,0,0,0,0" text="M" y="-6" rotation="0"/>
+        <terminal uuid="{94ffbe9c-8b4e-47c4-9ca9-7511d0698aa2}" x="0" orientation="n" y="-20" type="Generic" name=""/>
     </description>
 </definition>

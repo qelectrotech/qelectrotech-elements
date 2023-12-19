@@ -1,30 +1,34 @@
-<definition width="110" hotspot_x="53" type="element" link_type="simple" version="0.5" height="180" hotspot_y="87">
-    <uuid uuid="{5a48f359-0b98-4e2a-bc86-338a963f5743}"/>
+<definition hotspot_y="87" type="element" width="110" link_type="simple" hotspot_x="53" version="0.100.0" height="180">
+    <uuid uuid="{992ad0a3-14ad-4c21-b591-4acbef23bbad}"/>
     <names>
-        <name lang="cs">Elektrický zásobnik ECS</name>
         <name lang="pl">Zasobnik elektryczny CWU</name>
-        <name lang="it">Scambiatore elettrico ACS</name>
-        <name lang="en">Electric DHW</name>
         <name lang="nl">Boiler Electrisch</name>
-        <name lang="ar">سخّان ماء كهربائي</name>
+        <name lang="it">Scambiatore elettrico ACS</name>
         <name lang="fr">ballon ECS electrique</name>
+        <name lang="en">Electric DHW</name>
         <name lang="es">balón eléctrico ECS</name>
+        <name lang="cs">Elektrický zásobnik ECS</name>
+        <name lang="ar">سخّان ماء كهربائي</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="90.55" x="-7" text="_"/>
-        <text size="9" y="-24" x="-37" text="Ballon&#xa; ECS"/>
-        <polygon y3="65" x7="10" y9="35" closed="false" y8="40" x8="-11" x12="2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="30" x6="-10" x9="10" y4="60" x1="0" x4="-10" y10="30" y6="50" x5="10" y5="56" y2="70" x2="-10" x3="9" x11="2" y11="30" y7="45" y1="82" x10="-10"/>
-        <rect width="11" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="10" x="41" height="1"/>
-        <rect width="1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="60" x="-31" height="25"/>
-        <rect width="1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-80" x="29" height="20"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="70" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-60" x1="50" x2="50"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="70" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-59" x1="-50" x2="-50"/>
-        <arc width="100" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-180" y="57.5" x="-50" height="25"/>
-        <arc width="100" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-72.5" x="-50" height="25"/>
-        <terminal y="10" x="51" orientation="e"/>
-        <terminal y="-80" x="29" orientation="n"/>
-        <terminal y="84" x="-31" orientation="s"/>
+        <dynamic_text Valignment="AlignTop" x="-7" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" rotation="0" uuid="{344f577f-54c8-4d20-a7b6-0bd529eedaa8}" text_from="ElementInfo" z="1" Halignment="AlignLeft" keep_visual_rotation="false" y="78.05" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-37" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text="Ballon&#xa; ECS" color="#000000" y="-24"/>
+        <polygon x9="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x11="2" y1="82" y11="30" antialias="false" y8="40" x6="-10" x2="-10" y9="35" x10="-10" y12="30" x5="10" y6="50" x1="0" y5="56" x8="-11" y3="65" y2="70" y10="30" x4="-10" y7="45" x12="2" closed="false" x7="10" x3="9" y4="60"/>
+        <rect rx="0" x="41" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="11" antialias="false" height="1" y="10"/>
+        <rect rx="0" x="-31" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="1" antialias="false" height="25" y="60"/>
+        <rect rx="0" x="29" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="1" antialias="false" height="20" y="-80"/>
+        <line x2="50" length2="1.5" y1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="70" end2="none" end1="none" x1="50" length1="1.5" antialias="false"/>
+        <line x2="-50" length2="1.5" y1="-59" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="70" end2="none" end1="none" x1="-50" length1="1.5" antialias="false"/>
+        <arc start="0" x="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" width="100" antialias="true" height="25" y="57.5"/>
+        <arc start="-180" x="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" width="100" antialias="true" height="25" y="-72.5"/>
+        <terminal x="51" orientation="e" uuid="{506af44f-6d9a-41eb-81a0-f9aa17ef67ec}" name="" type="Generic" y="10"/>
+        <terminal x="29" orientation="n" uuid="{04dda813-ce39-46cc-84a6-764abf2bf506}" name="" type="Generic" y="-80"/>
+        <terminal x="-31" orientation="s" uuid="{3b54f206-1075-41f6-9571-6e726b98bad9}" name="" type="Generic" y="84"/>
     </description>
 </definition>

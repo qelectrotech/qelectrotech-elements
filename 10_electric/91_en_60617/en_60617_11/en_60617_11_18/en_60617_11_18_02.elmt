@@ -1,15 +1,19 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="45" width="50" hotspot_y="45">
-    <uuid uuid="{268f619d-235f-4d1f-a472-b49a4fb36a04}"/>
+<definition height="50" type="element" hotspot_y="45" link_type="simple" hotspot_x="45" width="50" version="0.100.0">
+    <uuid uuid="{dde28f8b-8209-46ec-9000-ea4ae4ecfc1b}"/>
     <names>
-        <name lang="de">Flugplatzfeuer, Unterflur, allgemein</name>
-        <name lang="fr">Feu aéronautique au sol, en surface</name>
         <name lang="cs">Letecké pozemnísvětelné návěstidlo, povrchové</name>
+        <name lang="fr">Feu aéronautique au sol, en surface</name>
         <name lang="en">Aeronautical ground light, surface, general symbol</name>
+        <name lang="de">Flugplatzfeuer, Unterflur, allgemein</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <circle y="-40" antialias="false" x="-40" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_from="ElementInfo" rotation="0" frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" y="12.5" z="1" uuid="{042335c0-648b-4fb8-93c6-e607796ad271}" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="40" antialias="false" x="-40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

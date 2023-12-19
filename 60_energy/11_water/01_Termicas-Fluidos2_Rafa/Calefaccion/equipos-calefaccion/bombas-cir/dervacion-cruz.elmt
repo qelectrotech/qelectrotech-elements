@@ -1,21 +1,26 @@
-<definition width="30" version="0.4" hotspot_x="15" hotspot_y="15" height="30" link_type="simple" type="element">
-<uuid uuid="{26C75C0B-37A3-4358-A8FA-643028F20658}"/><names>
-        <name lang="es">Derivación-cruz</name>
-        <name lang="en">Cross branch</name>
+<definition hotspot_y="14" version="0.100.0" hotspot_x="14" width="30" link_type="simple" height="30" type="element">
+    <uuid uuid="{d0b05f5b-7f16-482d-9045-b54974f920a1}"/>
+    <names>
         <name lang="ca">Derivació-creu</name>
         <name lang="it">Derivazione a croce (4 vie)</name>
+        <name lang="en">Cross branch</name>
+        <name lang="es">Derivación-cruz</name>
         <name lang="fr">Dérivation en croix</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <input x="1" y="8.65563" size="4" rotate="true" text="cruz" tagg="label"/>
-        <circle x="-3" y="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="6"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="0" y2="0" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-10" y2="0" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="0" y2="10" x2="0"/>
-        <terminal x="0" y="-10" orientation="n"/>
-        <terminal x="10" y="0" orientation="e"/>
-        <terminal x="-10" y="0" orientation="w"/>
-        <terminal x="0" y="10" orientation="s"/>
+        <dynamic_text rotation="0" y="0.65563" text_width="-1" x="1" uuid="{b030c9a7-c233-4f8d-bddc-a979bfcba1b1}" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,4,-1,5,25,0,0,0,0,0" z="1" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-3" x="-3" antialias="false" diameter="6" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line end2="none" y2="0" end1="none" length2="1.5" antialias="false" y1="-10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="0"/>
+        <line end2="none" y2="0" end1="none" length2="1.5" antialias="false" y1="0" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="10"/>
+        <line end2="none" y2="10" end1="none" length2="1.5" antialias="false" y1="0" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="0"/>
+        <terminal y="-10" x="0" uuid="{44c897e9-1657-4b07-b1ad-21e41efe5740}" name="" orientation="n" type="Generic"/>
+        <terminal y="0" x="10" uuid="{3ca4798c-0c4c-4be3-bc1f-1103af4d718e}" name="" orientation="e" type="Generic"/>
+        <terminal y="0" x="-10" uuid="{f1b81e7d-78f9-467b-a2ac-1a61e4c6307a}" name="" orientation="w" type="Generic"/>
+        <terminal y="10" x="0" uuid="{678f7e2f-a4e9-4cff-8ec3-f1a3e6a77648}" name="" orientation="s" type="Generic"/>
     </description>
 </definition>

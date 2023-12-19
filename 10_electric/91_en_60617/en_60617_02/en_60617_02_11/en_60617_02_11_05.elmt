@@ -1,17 +1,21 @@
-<definition hotspot_x="20" version="0.70" height="20" hotspot_y="10" width="40" type="element" link_type="simple">
-    <uuid uuid="{52a895c2-b8cc-4a19-a1e5-0f4ec9454643}"/>
+<definition hotspot_x="20" height="20" hotspot_y="10" version="0.100.0" link_type="simple" width="40" type="element">
+    <uuid uuid="{cc4d58e1-f302-4a30-87cc-0744f4df8628}"/>
     <names>
-        <name lang="fr">Clavier</name>
-        <name lang="es">teclado</name>
         <name lang="de">Tastatur </name>
-        <name lang="cs">Klávesnice</name>
+        <name lang="es">teclado</name>
         <name lang="en">Keyboard</name>
+        <name lang="fr">Clavier</name>
+        <name lang="cs">Klávesnice</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <circle y="-4" x="-14" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="8"/>
-        <circle y="-4" x="6" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="8"/>
+        <dynamic_text frame="false" rotation="0" keep_visual_rotation="false" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" uuid="{8671f8bf-3a20-43b3-a041-c47894854069}" z="1" text_from="ElementInfo" y="2.5" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="8" x="-14" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y="-4"/>
+        <circle diameter="8" x="6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y="-4"/>
     </description>
 </definition>

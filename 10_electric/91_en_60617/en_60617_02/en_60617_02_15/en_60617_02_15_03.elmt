@@ -1,22 +1,26 @@
-<definition version="0.70" width="50" type="element" hotspot_y="21" link_type="simple" hotspot_x="25" height="60">
-    <uuid uuid="{73060add-5e3d-422c-997d-7f4d4eb5e479}"/>
+<definition type="element" link_type="simple" width="50" height="60" hotspot_y="21" hotspot_x="25" version="0.100.0">
+    <uuid uuid="{4ab3cac8-a086-43e6-89d5-01de23ed36ed}"/>
     <names>
+        <name lang="cs">Ochranné uzemnění</name>
+        <name lang="en">Protective earthing; Protective grounding (US)</name>
         <name lang="fr">Terre de protection</name>
         <name lang="es">Tierra de protección</name>
         <name lang="de">Schutzerde</name>
-        <name lang="cs">Ochranné uzemnění</name>
-        <name lang="en">Protective earthing; Protective grounding (US)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="35" text="_" size="9" rotate="true" tagg="label" y="25"/>
-        <line x2="10" y2="0" length2="1.5" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <line x2="0" y2="0" length2="1.5" length1="1.5" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="7" y2="5" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-7" end2="none" antialias="false"/>
-        <line x2="4" y2="10" length2="1.5" length1="1.5" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-4" end2="none" antialias="false"/>
-        <line x2="-0.5" y2="15" length2="1.5" length1="1.5" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0.5" end2="none" antialias="false"/>
-        <arc angle="360" width="40" x="-20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" y="-5" antialias="true"/>
-        <terminal orientation="n" x="0" y="-15"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="35" rotation="0" text_width="-1" uuid="{355abe88-831f-4b91-9188-7182d60515e5}" y="12.5" Halignment="AlignLeft" Valignment="AlignTop" z="1" keep_visual_rotation="false" text_from="ElementInfo" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-10" y2="0" antialias="false" end2="none" y1="0" length2="1.5" end1="none" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y2="0" antialias="false" end2="none" y1="-15" length2="1.5" end1="none" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-7" y2="5" antialias="false" end2="none" y1="5" length2="1.5" end1="none" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-4" y2="10" antialias="false" end2="none" y1="10" length2="1.5" end1="none" x2="4" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0.5" y2="15" antialias="false" end2="none" y1="15" length2="1.5" end1="none" x2="-0.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-20" antialias="true" start="0" y="-5" width="40" height="40" angle="360" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="0" type="Generic" name="" uuid="{24b6bc99-093f-4bef-a400-e5a69888291f}" y="-15" orientation="n"/>
     </description>
 </definition>

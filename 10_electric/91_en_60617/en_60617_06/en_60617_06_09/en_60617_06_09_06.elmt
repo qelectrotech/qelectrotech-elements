@@ -1,20 +1,24 @@
-<definition link_type="simple" hotspot_x="81" hotspot_y="137" version="0.70" width="110" type="element" height="170">
-    <uuid uuid="{feb5205b-f916-4b24-823b-27b263219504}"/>
+<definition type="element" width="110" height="160" hotspot_x="80" version="0.100.0" hotspot_y="137" link_type="simple">
+    <uuid uuid="{e153bf3a-ad9a-4ac8-b77e-d20878a0f7de}"/>
     <names>
+        <name lang="cs">Autotransformátor</name>
         <name lang="fr">Autotransformateur</name>
         <name lang="de">Spartransformator</name>
-        <name lang="cs">Autotransformátor</name>
         <name lang="en">Auto-transformer, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-110" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-90" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-74" y="-120" text="Form 1 / Forme 1" size="9"/>
-        <line y1="0" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-60" start="0" angle="90" y="-90" antialias="true" width="60" height="120" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-30" orientation="n" y="-110"/>
+        <dynamic_text z="1" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" uuid="{ff4d89ba-82f8-46a4-9b09-e08bbe21d71e}" y="12.5" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-60" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="60"/>
+        <line length2="1.5" length1="1.5" x2="-30" end1="none" end2="none" y2="-90" y1="-110" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-30"/>
+        <text text="Form 1 / Forme 1" rotation="0" y="-120" color="#000000" x="-74" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <line length2="1.5" length1="1.5" x2="-30" end1="none" end2="none" y2="20" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-30"/>
+        <arc width="60" angle="90" height="120" y="-90" start="0" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal name="" type="Generic" uuid="{5b8f37be-10e4-4e2a-80da-2582a4857e68}" y="-110" orientation="n" x="-30"/>
     </description>
 </definition>

@@ -1,19 +1,23 @@
-<definition link_type="simple" version="0.70" hotspot_x="15" hotspot_y="44" type="element" height="50" width="30">
-    <uuid uuid="{1fb6f333-160d-49bd-b996-3f75a2c24ca8}"/>
+<definition version="0.100.0" width="30" hotspot_x="15" height="50" link_type="simple" type="element" hotspot_y="44">
+    <uuid uuid="{576189e8-32d8-4a31-a7b1-8ee8f328a8e3}"/>
     <names>
         <name lang="fr">Diode à semiconducteur (symbole général)</name>
-        <name lang="de">Halbleiterdiode, allgemein</name>
         <name lang="cs">Dioda s teplotní závislostí</name>
+        <name lang="de">Halbleiterdiode, allgemein</name>
         <name lang="en">Temperature sensing diode</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <terminal orientation="s" y="0" x="0"/>
-        <terminal orientation="n" y="-40" x="0"/>
+        <dynamic_text y="2.5" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" frame="false" uuid="{536b3ee9-61e0-4378-a6bc-44e1ab41c12d}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" z="1" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" y1="-40" x1="0" length1="1.5" end2="none" antialias="false" y2="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <line length2="1.5" y1="-10" x1="-10" length1="1.5" end2="none" antialias="false" y2="-10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <polygon y1="-30" x3="0" y3="-10" x1="-10" closed="false" y4="-30" antialias="false" x4="-10" y2="-30" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="s" y="0" name="" uuid="{dd89957d-5183-49ca-9e78-2727894afc8f}" x="0" type="Generic"/>
+        <terminal orientation="n" y="-40" name="" uuid="{c93bb4cb-e506-4307-925f-f43ba391ca4b}" x="0" type="Generic"/>
     </description>
 </definition>

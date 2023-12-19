@@ -1,16 +1,20 @@
-<definition hotspot_x="25" version="0.70" height="30" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{85b1d9c4-659c-49de-abcc-b067e93a62b0}"/>
+<definition link_type="simple" width="50" height="30" hotspot_y="15" version="0.100.0" type="element" hotspot_x="25">
+    <uuid uuid="{99d31c27-2208-468e-843f-e07ed01d1b2e}"/>
     <names>
+        <name lang="cs">Tisk stránky</name>
+        <name lang="de">Drucken auf Blatt</name>
+        <name lang="en">Printing, page</name>
         <name lang="fr">Impression sur page</name>
         <name lang="es">Imprimir en la página</name>
-        <name lang="de">Drucken auf Blatt</name>
-        <name lang="cs">Tisk stránky</name>
-        <name lang="en">Printing, page</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-10" x="-20" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40"/>
+        <dynamic_text keep_visual_rotation="false" text_from="ElementInfo" z="1" rotation="0" frame="false" text_width="-1" Halignment="AlignLeft" x="5" y="2.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e8cfa9ee-9156-4fe0-a9c0-7bd08d0378ef}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect rx="0" width="40" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" y="-10" antialias="false" ry="0"/>
     </description>
 </definition>

@@ -1,25 +1,29 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="30" hotspot_y="13">
-    <uuid uuid="{cfaa1659-de56-4627-9c1e-aec6562cb90f}"/>
+<definition height="30" link_type="simple" version="0.100.0" width="40" hotspot_y="13" hotspot_x="19" type="element">
+    <uuid uuid="{0c36a2b1-e516-4df3-8cc1-fee55004e0de}"/>
     <names>
-        <name lang="cs">Pumpa</name>
-        <name lang="de">Pumpe</name>
-        <name lang="it">Pompa</name>
-        <name lang="pl">Pompa</name>
-        <name lang="en">Pump</name>
         <name lang="es">Bomba</name>
         <name lang="nl">Pomp</name>
+        <name lang="el">Αντλία</name>
+        <name lang="cs">Pumpa</name>
+        <name lang="de">Pumpe</name>
+        <name lang="pl">Pompa</name>
+        <name lang="en">Pump</name>
+        <name lang="it">Pompa</name>
         <name lang="ar">مضخة</name>
         <name lang="fr">Pompe</name>
-        <name lang="el">Αντλία</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" size="7" y="-17" x="-10" text="P1"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" x4="8" antialias="true" y1="0" x1="8" x3="-4" y3="7" y4="0" x2="-4"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="20.5913" y="-10.2956" x="-10.2956"/>
-        <terminal y="0" x="-11" orientation="w"/>
-        <terminal y="0" x="11" orientation="e"/>
-        <terminal y="10" x="0" orientation="s"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" z="1" text_from="ElementInfo" rotation="0" frame="false" text_width="-1" keep_visual_rotation="false" x="-10" font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-27.5" uuid="{fa07b39b-a7a9-4589-b58a-6fa9afc33562}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x3="-4" y1="0" x2="-4" antialias="true" x4="8" x1="8" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="7" y4="0" y2="-7"/>
+        <circle antialias="true" diameter="20.5913" x="-10.2956" y="-10.2956" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" orientation="w" x="-11" y="0" uuid="{66807ec1-159f-4068-b8c9-b436a001ac9f}" type="Generic"/>
+        <terminal name="" orientation="e" x="11" y="0" uuid="{99a51196-44ac-44c1-a25b-c4a1a15ae76f}" type="Generic"/>
+        <terminal name="" orientation="s" x="0" y="10" uuid="{7d260fe1-720b-4606-995e-97aedd26646f}" type="Generic"/>
     </description>
 </definition>

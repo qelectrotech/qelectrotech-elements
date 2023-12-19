@@ -1,28 +1,32 @@
-<definition type="element" width="50" height="60" version="0.5" hotspot_x="16" hotspot_y="29" link_type="simple">
-  <uuid uuid="{b023f4b0-b88f-4fb9-9aa1-49826bd42be1}"/>
-  <names>
-    <name lang="fr">Voyant avec transformateur</name>
-    <name lang="de">Meldeleuchte mit Transformator</name>
-    <name lang="it">Luce con trasformatore</name>
-    <name lang="ar">مصباح بمُحوّل</name>
-    <name lang="el">Λυχνία με μετασχηματιστή</name>
-    <name lang="cs">Kontrolka s transformátorem</name>
-    <name lang="en">Light with transformer</name>
-    <name lang="es">Lampara con transformador</name>
-    <name lang="pl">Wskaźnik optyczny transformatorowy</name>
-    <name lang="nl">Lamp met transformator</name>
-  </names>
-  <informations>Author: The QElectroTech team
+<definition type="element" height="50" link_type="simple" width="50" hotspot_y="24" hotspot_x="16" version="0.100.0">
+    <uuid uuid="{85f7b46f-0b22-4eb5-b115-af3e6c8ae31e}"/>
+    <names>
+        <name lang="ar">مصباح بمُحوّل</name>
+        <name lang="de">Meldeleuchte mit Transformator</name>
+        <name lang="it">Luce con trasformatore</name>
+        <name lang="en">Light with transformer</name>
+        <name lang="fr">Voyant avec transformateur</name>
+        <name lang="cs">Kontrolka s transformátorem</name>
+        <name lang="el">Λυχνία με μετασχηματιστή</name>
+        <name lang="nl">Lamp met transformator</name>
+        <name lang="es">Lampara con transformador</name>
+        <name lang="pl">Wskaźnik optyczny transformatorowy</name>
+    </names>
+    <elementInformations/>
+    <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
-  <description>
-    <circle x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="true"/>
-    <input x="33" y="0.55" size="9" tagg="label" text="_" rotate="true"/>
-    <circle x="7" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="true"/>
-    <line x1="24.03" x2="9.97" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="9.97" x2="24.03" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="-20" y2="-10" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="10" y2="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <terminal x="0" y="-20" orientation="n"/>
-    <terminal x="0" y="20" orientation="s"/>
-  </description>
+    <description>
+        <circle x="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" y="-10"/>
+        <dynamic_text x="33" frame="false" Halignment="AlignLeft" Valignment="AlignTop" z="2" uuid="{718ed258-a338-4502-b468-59927509190e}" rotation="0" y="-11.95" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" y="-10"/>
+        <line antialias="false" end1="none" length1="1.5" y2="7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="9.97" y1="-7.03" x1="24.03" end2="none" length2="1.5"/>
+        <line antialias="false" end1="none" length1="1.5" y2="7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="24.03" y1="-7.03" x1="9.97" end2="none" length2="1.5"/>
+        <line antialias="false" end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="-20" x1="0" end2="none" length2="1.5"/>
+        <line antialias="false" end1="none" length1="1.5" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="10" x1="0" end2="none" length2="1.5"/>
+        <terminal x="0" orientation="n" name="" type="Generic" uuid="{eee2b1d3-14cc-472d-ba4c-a4ba6da3fd10}" y="-20"/>
+        <terminal x="0" orientation="s" name="" type="Generic" uuid="{c33a8887-7c63-4fd5-af40-8e85943941a9}" y="20"/>
+    </description>
 </definition>

@@ -1,34 +1,38 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{f9b1efaa-eedc-4856-af0d-99c59a63fb79}"/>
+<definition height="40" version="0.100.0" hotspot_x="20" width="40" hotspot_y="20" type="element" link_type="simple">
+    <uuid uuid="{35f8e1f5-29a3-4f04-a953-26779aad4706}"/>
     <names>
-        <name lang="cs">Termostatický uzávěr ECS</name>
-        <name lang="pl">Zawór termostatyczny CWU</name>
         <name lang="it">Valvola miscelatrice termostatica</name>
-        <name lang="en">Thermostatic mixing valve ECS</name>
+        <name lang="pl">Zawór termostatyczny CWU</name>
         <name lang="nl">Mengklep thermostatisch</name>
         <name lang="ar">صمّام خلط ترموستاتي ECS</name>
-        <name lang="fr">Mitigeur thermostatique ECS</name>
+        <name lang="cs">Termostatický uzávěr ECS</name>
+        <name lang="en">Thermostatic mixing valve ECS</name>
         <name lang="es">Válvula termostática de mezcla ECS</name>
+        <name lang="fr">Mitigeur thermostatique ECS</name>
     </names>
+    <elementInformations/>
     <informations>Le mitigeur thermostatique posé en sortie de ballon permet de distribuer l'eau chaude sanitaire à une température constante.</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="26" y="-13" x="-13"/>
-        <input tagg="label" rotate="true" size="9" y="-26.45" x="-7" text="_"/>
-        <arc width="14" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-221" antialias="true" angle="-97" y="-9" x="-7" height="16"/>
-        <text size="4" y="-2" x="-4" text="°C"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-8" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-6" x1="5" x2="6"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-6" x1="-5" x2="-6"/>
-        <text size="4" y="-10" x="12" text="EF"/>
-        <text size="4" y="-10" x="-17" text="EC"/>
-        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-1" x="13" height="2"/>
-        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="13" x="-1" height="2"/>
-        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-1" x="-15" height="2"/>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" y2="10" x4="0" antialias="true" y1="1" x1="0" x3="6" y3="10" y4="1" x2="-6"/>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" y2="6" x4="10" antialias="true" y1="-5" x1="10" x3="1" y3="0" y4="-5" x2="10"/>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" y2="6" x4="-10" antialias="true" y1="-6" x1="-10" x3="-1" y3="0" y4="-6" x2="-10"/>
-        <terminal y="0" x="14" orientation="e"/>
-        <terminal y="14" x="0" orientation="s"/>
-        <terminal y="0" x="-14" orientation="w"/>
+        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-13" y="-13" diameter="26"/>
+        <dynamic_text uuid="{dd1c9431-ba51-4a3e-b685-2c1ff459b936}" z="2" x="-7" rotation="0" keep_visual_rotation="false" text_width="-1" y="-38.95" Halignment="AlignLeft" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc angle="-97" height="16" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-7" width="14" y="-9" start="-221"/>
+        <text text="°C" x="-4" rotation="0" color="#000000" y="-2" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x2="0" end2="none" length1="1.5" x1="0" length2="1.5" end1="none" y2="-10"/>
+        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" x2="6" end2="none" length1="1.5" x1="5" length2="1.5" end1="none" y2="-7"/>
+        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" x2="-6" end2="none" length1="1.5" x1="-5" length2="1.5" end1="none" y2="-7"/>
+        <text text="EF" x="12" rotation="0" color="#000000" y="-10" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text text="EC" x="-17" rotation="0" color="#000000" y="-10" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <rect height="2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="13" width="2" ry="0" y="-1" rx="0"/>
+        <rect height="2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-1" width="2" ry="0" y="13" rx="0"/>
+        <rect height="2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" width="2" ry="0" y="-1" rx="0"/>
+        <polygon x4="0" x3="6" y3="10" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="1" x2="-6" x1="0" y4="1" y2="10"/>
+        <polygon x4="10" x3="1" y3="0" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-5" x2="10" x1="10" y4="-5" y2="6"/>
+        <polygon x4="-10" x3="-1" y3="0" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-6" x2="-10" x1="-10" y4="-6" y2="6"/>
+        <terminal uuid="{da57db10-2e8c-4072-a6fe-ea525b1b750b}" orientation="e" x="14" name="" type="Generic" y="0"/>
+        <terminal uuid="{6a3f64ff-00e9-4594-8407-73aaaa748b3b}" orientation="s" x="0" name="" type="Generic" y="14"/>
+        <terminal uuid="{20b5f0d7-2b20-4e3d-bd7c-e6f74f8880d1}" orientation="w" x="-14" name="" type="Generic" y="0"/>
     </description>
 </definition>

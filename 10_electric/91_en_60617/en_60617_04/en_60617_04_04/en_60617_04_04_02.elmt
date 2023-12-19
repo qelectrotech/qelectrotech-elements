@@ -1,17 +1,21 @@
-<definition width="50" height="40" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="33">
-    <uuid uuid="{6396b423-aadc-4e16-89ab-abf5a565cdb0}"/>
+<definition hotspot_x="25" height="40" version="0.100.0" link_type="simple" hotspot_y="32" type="element" width="50">
+    <uuid uuid="{46dd8ea7-57b2-4963-a770-5c4dcebe24b8}"/>
     <names>
         <name lang="de">Fluß-Strom-Richtungskennzeichen</name>
+        <name lang="en">Flux/current direction indicator</name>
         <name lang="fr">Indicateur de direction flux/courant</name>
         <name lang="cs">Vinutí feritového jádra</name>
-        <name lang="en">Flux/current direction indicator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="-30" length1="1.5" y1="-20" length2="1.5" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <text size="9" text="ou / or" x="-20" y="0"/>
-        <line y2="-20" length1="1.5" y1="-30" length2="1.5" x1="10" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <dynamic_text y="12.5" x="5" rotation="0" keep_visual_rotation="false" frame="false" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" uuid="{091e6d2f-be25-4dd6-8573-85402e2c1932}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-20" y2="-30" length1="1.5" y1="-20" x2="-10" length2="1.5"/>
+        <text color="#000000" y="0" x="-20" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="ou / or"/>
+        <line end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="10" y2="-20" length1="1.5" y1="-30" x2="20" length2="1.5"/>
     </description>
 </definition>

@@ -1,22 +1,28 @@
-<definition width="70" version="0.4" hotspot_x="33" hotspot_y="16" height="30" type="element" ic="true" link_type="previous_report">
-<uuid uuid="{55DB3BDC-F4B6-4328-BDD9-44A963131B2B}"/><names>
-        <name lang="ar">مرجع مُلامس NC  (أفقي)</name>
+<definition type="element" height="20" link_type="previous_report" width="20" hotspot_x="13" version="0.100.0" hotspot_y="7">
+    <uuid uuid="{66a422ee-aab0-47e4-b5b3-9d72081c7f89}"/>
+    <names>
         <name lang="en">Reference contact NC (horizontal)</name>
+        <name lang="ar">مرجع مُلامس NC  (أفقي)</name>
+        <name lang="nl">Referentie vorig contact (NC)</name>
+        <name lang="pl">Odsyłacz - zestyk rozwierny (poziomo)</name>
         <name lang="it">Rif. contatto NC / (orizzontale)</name>
         <name lang="fr">Reference contact NC h</name>
-        <name lang="pl">Odsyłacz - zestyk rozwierny (poziomo)</name>
         <name lang="cs">Odkaz - kontakt NC (vodorovně)</name>
-        <name lang="nl">Referentie vorig contact (NC)</name>
     </names>
     <informations>Author: Computer Shooter
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-2" x1="-8" y2="0" x2="0" y3="0" x3="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" x1="-8" y2="-1" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-10" y2="0" x2="-8"/>
-        <input x="22" y="-1.5" size="5" rotate="true" text="/"/>
-        <input x="-30" y="-0.5" size="5" rotate="true" text="11"/>
-        <input x="5" y="-0.5" size="5" rotate="true" text="12"/>
-        </description>
+        <polygon y1="-2" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x2="0" x3="3" y3="0" x1="-8" closed="false"/>
+        <line y1="-2" y2="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-8" end1="none" end2="none" length2="1.5" x1="-8" length1="1.5"/>
+        <line y1="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-8" end1="none" end2="none" length2="1.5" x1="-10" length1="1.5"/>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false" uuid="{4a60b1ee-34ae-4c77-a180-1e1cb1993e65}" text_from="UserText" frame="false" y="-11" x="22" text_width="-1" z="4">
+            <text>/</text>
+        </dynamic_text>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false" uuid="{0953fd53-cb31-49df-9635-c6011597e17a}" text_from="UserText" frame="false" y="-10" x="-30" text_width="-1" z="5">
+            <text>11</text>
+        </dynamic_text>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false" uuid="{2bbe8e2e-0ec2-426d-bcbc-d37e1ec00044}" text_from="UserText" frame="false" y="-10" x="5" text_width="-1" z="6">
+            <text>12</text>
+        </dynamic_text>
+    </description>
 </definition>

@@ -1,20 +1,24 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="9" width="50" type="element" link_type="simple">
-    <uuid uuid="{e209a402-41de-443a-b5fb-d397d311708f}"/>
+<definition type="element" hotspot_x="25" link_type="simple" hotspot_y="9" width="50" height="20" version="0.100.0">
+    <uuid uuid="{c6ad606f-b8fa-47ee-a743-c21cb150f51c}"/>
     <names>
+        <name lang="en">Mechanical interlock; Interlock, mechanical</name>
         <name lang="fr">Verrouillage mécanique entre deux appareils</name>
-        <name lang="es">Enclavamiento mecánico entre dos dispositivos</name>
         <name lang="de">mechanische Verriegelung zweier
 Einrichtungen</name>
+        <name lang="es">Enclavamiento mecánico entre dos dispositivos</name>
         <name lang="cs">Mechanické blokování
 mezi dvěma zařízeními</name>
-        <name lang="en">Mechanical interlock; Interlock, mechanical</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="2" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <polygon x2="10" y2="-3" y1="-3" x3="5" x4="0" y4="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="5" x1="0"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="8"/>
+        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" rotation="0" frame="false" y="2.5" uuid="{eb599cd4-e460-46d2-be17-b413e5accfec}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" text_width="-1" keep_visual_rotation="false" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" x1="-20" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="2" y1="0" y2="0" end2="none"/>
+        <polygon closed="false" x3="5" y3="5" antialias="false" x1="0" y4="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="0" x2="10" y1="-3" y2="-3"/>
+        <line antialias="false" x1="8" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y1="0" y2="0" end2="none"/>
     </description>
 </definition>

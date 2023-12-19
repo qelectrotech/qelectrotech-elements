@@ -1,24 +1,28 @@
-<definition hotspot_x="20" hotspot_y="28" height="50" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{8054da18-8ba7-409e-8cf4-0e57a026884c}"/>
+<definition height="50" hotspot_y="28" width="40" hotspot_x="20" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{bab5b5f1-e548-4e40-8495-eb1032dedeb0}"/>
     <names>
-        <name lang="fr">Compteur horaire</name>
+        <name lang="it">Conta tempo</name>
         <name lang="pl">Licznik godzin</name>
-        <name lang="cs">Měřič provozních hodin</name>
+        <name lang="en">Hour counter</name>
+        <name lang="de">Betriebsstundenzähler</name>
+        <name lang="nl">Bedrijfsurenteller</name>
         <name lang="ar">عدّاد زمني</name>
         <name lang="el">Ωρόμετρο</name>
-        <name lang="it">Conta tempo</name>
-        <name lang="de">Betriebsstundenzähler</name>
-        <name lang="en">Hour counter</name>
-        <name lang="nl">Bedrijfsurenteller</name>
+        <name lang="fr">Compteur horaire</name>
+        <name lang="cs">Měřič provozních hodin</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-3" size="9" text="h" y="2.3333"/>
-        <input x="18" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="22" antialias="false" y="-11" width="30"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-19" width="30"/>
-        <terminal x="0" orientation="n" y="-23"/>
-        <terminal x="0" orientation="s" y="15"/>
+        <text color="#000000" y="2.3333" text="h" x="-3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <dynamic_text Halignment="AlignLeft" y="-21.95" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2a457720-6244-4de8-adc8-cc80e51e4195}" frame="false" Valignment="AlignTop" x="18" z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="22" y="-11" ry="0" antialias="false" width="30" x="-15" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="8" y="-19" ry="0" antialias="false" width="30" x="-15" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="-23" name="" uuid="{7524f06e-60f0-490f-b04b-7fc7a46ec405}" x="0" type="Generic" orientation="n"/>
+        <terminal y="15" name="" uuid="{5a888283-8436-4cac-9f40-5bdfa95b6307}" x="0" type="Generic" orientation="s"/>
     </description>
 </definition>

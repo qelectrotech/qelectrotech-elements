@@ -1,22 +1,26 @@
-<definition link_type="simple" type="element" width="30" hotspot_y="44" height="70" version="0.70" hotspot_x="24">
-    <uuid uuid="{ea375583-381d-4731-bc74-be8f4f7ba4f5}"/>
+<definition hotspot_x="24" hotspot_y="44" link_type="simple" height="70" type="element" version="0.100.0" width="30">
+    <uuid uuid="{ac9c2429-47fb-47bc-816b-0e1512b97b57}"/>
     <names>
-        <name lang="fr">Contact à deux directions sans chevauchement</name>
         <name lang="de">Wechsler mit Unterbrechung,</name>
-        <name lang="cs">Přepínací kontakt v klidové poloze sepnutý</name>
         <name lang="en">Change-over break before make contact</name>
+        <name lang="fr">Contact à deux directions sans chevauchement</name>
+        <name lang="cs">Přepínací kontakt v klidové poloze sepnutý</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="0" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-40" length2="1.5"/>
-        <line x2="0" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" length2="1.5"/>
-        <line x2="-8" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-23" length2="1.5"/>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="25"/>
-        <line x2="-20" antialias="false" y1="-40" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y2="-20" length2="1.5"/>
-        <line x2="-5" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y2="-20" length2="1.5"/>
-        <terminal orientation="n" x="0" y="-40"/>
-        <terminal orientation="n" x="-20" y="-40"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="0" length2="1.5" x1="0" y1="-20" y2="-40" end1="none" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="0" length2="1.5" x1="0" y1="0" y2="20" end1="none" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-8" length2="1.5" x1="0" y1="0" y2="-23" end1="none" length1="1.5"/>
+        <dynamic_text z="4" uuid="{9e22cb1a-9319-459e-a649-cfc67cef3a2c}" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" y="12.5" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-20" length2="1.5" x1="-20" y1="-40" y2="-20" end1="none" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-5" length2="1.5" x1="-20" y1="-20" y2="-20" end1="none" length1="1.5"/>
+        <terminal uuid="{ae91bc8d-c41d-44e7-91cd-f714240c43d3}" orientation="n" type="Generic" y="-40" name="" x="0"/>
+        <terminal uuid="{a4f0ee29-cf9e-4046-8712-1b56a1cc02c3}" orientation="n" type="Generic" y="-40" name="" x="-20"/>
+        <terminal uuid="{1d933f20-a744-4fc3-8a4a-2f63c5b4f07c}" orientation="s" type="Generic" y="20" name="" x="0"/>
     </description>
 </definition>

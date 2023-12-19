@@ -1,27 +1,31 @@
-<definition hotspot_y="15" type="element" height="30" width="60" hotspot_x="29" link_type="simple" version="0.5">
-    <uuid uuid="{0f708ead-9e6a-4f84-a04e-c4b44452f308}"/>
+<definition version="0.100.0" height="30" hotspot_x="29" width="60" hotspot_y="15" link_type="simple" type="element">
+    <uuid uuid="{e8a60a4c-6098-4bec-b776-923001a35dd4}"/>
     <names>
         <name lang="cs">Galvanometr, vodorovný</name>
-        <name lang="nl">Galvanometer</name>
-        <name lang="it">Galvanometro orizzontale</name>
-        <name lang="pt">Galvanómetro horizontal</name>
-        <name lang="de">Galvanometer waagerecht</name>
         <name lang="el">Γαλβανόμετρο οριζόντιο</name>
-        <name lang="en">Galvanometer h</name>
         <name lang="fr">Galvanomètre horizontal</name>
-        <name lang="es">Galvanómetro horizontal</name>
-        <name lang="pl">Galwanomert (poziomo)</name>
+        <name lang="de">Galvanometer waagerecht</name>
+        <name lang="nl">Galvanometer</name>
         <name lang="ar">جلفانومتر أفقي</name>
+        <name lang="it">Galvanometro orizzontale</name>
+        <name lang="pl">Galwanomert (poziomo)</name>
+        <name lang="pt">Galvanómetro horizontal</name>
+        <name lang="es">Galvanómetro horizontal</name>
+        <name lang="en">Galvanometer h</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" rotate="true" y="-12.5" size="9" x="8" tagg="label"/>
-        <circle diameter="20" antialias="true" y="-10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="simple" length2="3" length1="1.5" antialias="false" x1="0" y2="-8" end1="none" y1="7" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="10" y2="0" end1="none" y1="0" x2="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-21" y2="0" end1="none" y1="0" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="0" orientation="e" x="21"/>
-        <terminal y="0" orientation="w" x="-21"/>
+        <dynamic_text uuid="{c26e6fe4-8447-4615-ad98-693ce88b5275}" y="-25" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" z="1" Valignment="AlignTop" x="8">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
+        <line end1="none" length1="1.5" end2="simple" antialias="false" x1="0" x2="0" length2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7" y2="-8"/>
+        <line end1="none" length1="1.5" end2="none" antialias="false" x1="10" x2="21" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0"/>
+        <line end1="none" length1="1.5" end2="none" antialias="false" x1="-21" x2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0"/>
+        <terminal uuid="{badcc14b-f01c-4729-84d0-88df4ad4155d}" y="0" orientation="e" type="Generic" name="" x="21"/>
+        <terminal uuid="{a4f420d7-8883-456a-8d86-37c7b3b0852a}" y="0" orientation="w" type="Generic" name="" x="-21"/>
     </description>
 </definition>

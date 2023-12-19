@@ -1,17 +1,21 @@
-<definition hotspot_x="25" version="0.70" height="30" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{6442efa5-38e1-454b-a502-879d5a03d501}"/>
+<definition hotspot_y="15" version="0.100.0" height="30" type="element" width="50" hotspot_x="25" link_type="simple">
+    <uuid uuid="{63467362-6f69-4704-901e-e3732dc42c5f}"/>
     <names>
+        <name lang="cs">Fax</name>
+        <name lang="de">Fernkopieren</name>
         <name lang="fr">Télécopie</name>
         <name lang="es">fax</name>
-        <name lang="de">Fernkopieren</name>
-        <name lang="cs">Fax</name>
         <name lang="en">Facsimile</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-10" x="-20" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20"/>
-        <rect y="-10" x="0" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
+        <dynamic_text z="1" text_width="-1" text_from="ElementInfo" x="5" frame="false" keep_visual_rotation="false" y="2.5" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{5a50700e-d473-40a7-a30e-5e43f0ffe331}" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" ry="0" width="20" y="-10" rx="0" antialias="false"/>
+        <rect height="20" style="line-style:normal;line-weight:normal;filling:black;color:black" x="0" ry="0" width="20" y="-10" rx="0" antialias="false"/>
     </description>
 </definition>

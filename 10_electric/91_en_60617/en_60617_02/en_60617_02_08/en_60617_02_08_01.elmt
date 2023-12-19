@@ -1,22 +1,26 @@
-<definition version="0.70" width="20" type="element" hotspot_y="14" link_type="simple" hotspot_x="7" height="30">
-    <uuid uuid="{3a40fd6e-9b58-4707-9943-eb0594de484b}"/>
+<definition hotspot_y="14" height="30" link_type="simple" hotspot_x="7" type="element" width="20" version="0.100.0">
+    <uuid uuid="{e35989ab-1d9c-402d-9e89-c4583eddea3a}"/>
     <names>
         <name lang="fr">Effet thermique</name>
-        <name lang="es">Efecto térmico</name>
-        <name lang="de">thermische Wirkung</name>
         <name lang="cs">Tepelný účinek</name>
         <name lang="en">Thermal effect</name>
+        <name lang="es">Efecto térmico</name>
+        <name lang="de">thermische Wirkung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
-        <line x2="0" y2="-4" length2="1.5" length1="1.5" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="8" y2="-4" length2="1.5" length1="1.5" y1="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="8" y2="4" length2="1.5" length1="1.5" y1="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="8" end2="none" antialias="false"/>
-        <line x2="0" y2="4" length2="1.5" length1="1.5" y1="4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="8" end2="none" antialias="false"/>
-        <line x2="0" y2="10" length2="1.5" length1="1.5" y1="4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <terminal orientation="s" x="0" y="10"/>
-        <terminal orientation="n" x="0" y="-10"/>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{274c723a-827e-4aa3-87d9-64f20141a7f5}" frame="false" z="1" Halignment="AlignLeft" text_width="-1" text_from="ElementInfo" rotation="0" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-4" y1="-10" end2="none" x1="0" length2="1.5" length1="1.5" x2="0"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-4" y1="-4" end2="none" x1="0" length2="1.5" length1="1.5" x2="8"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="4" y1="-4" end2="none" x1="8" length2="1.5" length1="1.5" x2="8"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="4" y1="4" end2="none" x1="8" length2="1.5" length1="1.5" x2="0"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="10" y1="4" end2="none" x1="0" length2="1.5" length1="1.5" x2="0"/>
+        <terminal orientation="s" y="10" name="" uuid="{f213ae3e-0a5e-4deb-ad23-51df9a1f0fe9}" x="0" type="Generic"/>
+        <terminal orientation="n" y="-10" name="" uuid="{3620bdae-5951-4207-ac30-b97dc5b33a59}" x="0" type="Generic"/>
     </description>
 </definition>

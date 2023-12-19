@@ -1,18 +1,23 @@
-<definition width="30" version="0.4" hotspot_x="5" hotspot_y="15" height="30" link_type="simple" type="element" ic="true">
-<uuid uuid="{EB762991-6B12-4454-AA9F-18999CB683F8}"/><names>
-        <name lang="es">Ventilador Helicoidal</name>
+<definition type="element" hotspot_x="5" link_type="simple" height="30" version="0.100.0" hotspot_y="15" width="30">
+    <uuid uuid="{d72ea498-ff7a-40da-b0d3-cd2eea96daf8}"/>
+    <names>
         <name lang="ca">Ventilador Helicoidal</name>
+        <name lang="es">Ventilador Helicoidal</name>
         <name lang="fr">Ventilateur hélicoiale</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <ellipse width="4" x="15" y="0" antialias="true" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <ellipse width="8" x="5" y="-3.64534" antialias="true" height="7.40545" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <ellipse width="4" x="15" y="-10" antialias="true" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="13.3684" y2="0" x2="16.6842"/>
-        <text x="7" y="2" size="4" text="V"/>
-        <input x="4" y="-8.5" size="4" rotate="true" text="_" tagg="label"/>
-        <terminal x="2" y="0" orientation="w"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" x="15" y="0" antialias="true" width="4"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" height="7.40545" x="5" y="-3.64534" antialias="true" width="8"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" x="15" y="-10" antialias="true" width="4"/>
+        <line y1="0" x1="13.3684" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" length1="1.5" x2="16.6842" length2="1.5" antialias="false" end1="none"/>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" x="7" y="2" text="V" rotation="0"/>
+        <dynamic_text z="6" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1" x="4" y="-16.5" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" frame="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{3aa48ab2-f084-4017-96ff-e9d8a582c4b6}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" x="2" y="0" orientation="w" uuid="{6d752758-84c1-42c6-812e-868ad7e08447}" name=""/>
     </description>
 </definition>

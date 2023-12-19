@@ -1,30 +1,34 @@
-<definition link_type="simple" type="element" hotspot_x="47" hotspot_y="70" version="0.70" width="110" height="150">
-    <uuid uuid="{4e3733ff-6d15-45fe-8d94-b1fe9d1870a7}"/>
+<definition hotspot_y="70" version="0.100.0" type="element" width="110" height="150" hotspot_x="47" link_type="simple">
+    <uuid uuid="{d0ed6c15-4fed-4ea8-8c68-e44cf79cbbc9}"/>
     <names>
         <name lang="de">Stromwandler mit zwei Sekundärwickungen auf
 einem Kern</name>
         <name lang="fr">Transformateur de courant, à deux
 enroulements secondaires sur un circuit
 magnétique commun</name>
+        <name lang="en">Current transformer with two secondary windings on one core</name>
         <name lang="cs">Transformátor proudu
 se dvěma sekundárními vinutími na jednom jádru</name>
-        <name lang="en">Current transformer with two secondary windings on one core</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" x="35" text="_" size="9" y="135" rotate="true"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" x="-20" y="-19" antialias="false"/>
-        <line x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="70" x2="0" end1="none" length1="1.5" y1="-40" antialias="false"/>
-        <text x="-44" text="Form 1 / Forme 1" size="9" y="-50"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" x="-20" y="10" antialias="false"/>
-        <line x1="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" x2="60" end1="none" length1="1.5" y1="0" antialias="false"/>
-        <line x1="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="30" x2="60" end1="none" length1="1.5" y1="30" antialias="false"/>
-        <line x1="35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" x2="45" end1="none" length1="1.5" y1="10" antialias="false"/>
-        <line x1="40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" x2="50" end1="none" length1="1.5" y1="10" antialias="false"/>
-        <line x1="35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="20" x2="45" end1="none" length1="1.5" y1="40" antialias="false"/>
-        <line x1="40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="20" x2="50" end1="none" length1="1.5" y1="40" antialias="false"/>
-        <terminal x="-0.125" orientation="s" y="71"/>
-        <terminal x="0" orientation="n" y="-40"/>
+        <dynamic_text text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" x="35" uuid="{4582b906-9b1f-404a-a2a6-6e8a10904377}" rotation="0" z="1" Halignment="AlignLeft" frame="false" y="122.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-19"/>
+        <line length2="1.5" x1="0" end1="none" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="70" antialias="false" length1="1.5" x2="0"/>
+        <text text="Form 1 / Forme 1" color="#000000" x="-44" rotation="0" y="-50" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="10"/>
+        <line length2="1.5" x1="20" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" antialias="false" length1="1.5" x2="60"/>
+        <line length2="1.5" x1="20" end1="none" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" antialias="false" length1="1.5" x2="60"/>
+        <line length2="1.5" x1="35" end1="none" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" antialias="false" length1="1.5" x2="45"/>
+        <line length2="1.5" x1="40" end1="none" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" antialias="false" length1="1.5" x2="50"/>
+        <line length2="1.5" x1="35" end1="none" y1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" antialias="false" length1="1.5" x2="45"/>
+        <line length2="1.5" x1="40" end1="none" y1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" antialias="false" length1="1.5" x2="50"/>
+        <terminal orientation="s" type="Generic" x="-0.125" uuid="{b2f231f0-0a4f-4cd6-8fbb-f54388684b43}" name="" y="71"/>
+        <terminal orientation="n" type="Generic" x="0" uuid="{9c96c282-b057-414e-8c4d-b8c800fbc30a}" name="" y="-40"/>
     </description>
 </definition>

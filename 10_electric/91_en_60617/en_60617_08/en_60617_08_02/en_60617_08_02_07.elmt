@@ -1,16 +1,20 @@
-<definition type="element" width="50" height="50" link_type="simple" hotspot_y="45" hotspot_x="25" version="0.70">
-    <uuid uuid="{157ac7c5-50df-444c-9de6-bd3ac7917078}"/>
+<definition height="50" type="element" hotspot_y="45" width="50" hotspot_x="25" version="0.100.0" link_type="simple">
+    <uuid uuid="{51f23f6f-61e6-4593-ad1a-55d034d2423b}"/>
     <names>
-        <name lang="de">Frequenzmeßgerät, anzeigend </name>
         <name lang="fr">Fréquencemètre</name>
-        <name lang="cs">Kmitoměr</name>
         <name lang="en">Frequency meter</name>
+        <name lang="de">Frequenzmeßgerät, anzeigend </name>
+        <name lang="cs">Kmitoměr</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" rotate="true" y="25" x="5"/>
-        <circle diameter="40" antialias="false" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
-        <text size="9" text="Hz" y="-16" x="-8"/>
+        <dynamic_text y="12.5" frame="false" keep_visual_rotation="false" Valignment="AlignTop" x="5" z="1" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" rotation="0" uuid="{9b290387-afef-4790-a8fe-8a8a1efbc2c4}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-20" diameter="40"/>
+        <text y="-16" x="-8" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text="Hz"/>
     </description>
 </definition>

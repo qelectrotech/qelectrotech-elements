@@ -1,19 +1,23 @@
-<definition version="0.70" width="20" hotspot_x="10" type="element" link_type="simple" height="20" hotspot_y="10">
-    <uuid uuid="{592797f0-933d-41a3-918f-1dfa2ae25b4b}"/>
+<definition type="element" version="0.100.0" height="10" width="20" link_type="simple" hotspot_y="-2" hotspot_x="10">
+    <uuid uuid="{6840d9f5-34bf-4b54-bffb-2f223708208c}"/>
     <names>
-        <name lang="de">bidirektionale kreisförmige Bewegung bidirektionale Drehung bidirektionales Drehmoment</name>
         <name lang="es">Par bidireccional de rotación bidireccional Rotación bidireccional</name>
         <name lang="fr">Mouvement circulaire bidirectionnel Rotation bidirectionnelle Couple bidirectionnel</name>
+        <name lang="de">bidirektionale kreisförmige Bewegung bidirektionale Drehung bidirektionales Drehmoment</name>
         <name lang="cs">Obousměrný otáčivý pohyb, 
 obousměrné otáčení, obousměrný točivý moment</name>
         <name lang="en">Circular motion; Rotation; Torque (bidirectional)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" width="10" angle="90" start="45" antialias="true" height="10" x="-5"/>
-        <input tagg="label" rotate="true" y="15" x="5" text="_" size="9"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:black;color:black" x3="-6" x1="-5" y4="-4" x4="-5" antialias="false" x2="-3" y3="-1" y1="-4" y2="-2"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:black;color:black" x3="6" x1="3" y4="-2" x4="3" antialias="false" x2="5" y3="-1" y1="-2" y2="-4"/>
+        <arc y="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-5" height="10" width="10" angle="90" start="45"/>
+        <dynamic_text y="12.5" x="5" rotation="0" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{4c1d4194-8677-4af5-9a6e-7db4448b4e96}" keep_visual_rotation="false" Halignment="AlignLeft" z="2" text_width="-1" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x3="-6" y4="6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y1="6" y3="9" x4="-5" x2="-3" x1="-5" y2="8"/>
+        <polygon x3="6" y4="8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y1="8" y3="9" x4="3" x2="5" x1="3" y2="6"/>
     </description>
 </definition>

@@ -1,20 +1,28 @@
-<definition width="40" height="20" hotspot_x="30" version="0.51" hotspot_y="10" type="element" link_type="terminal">
-    <uuid uuid="{d97af948-ae0b-4ef2-afa0-afd15b1204a4}"/>
+<definition hotspot_y="10" width="40" hotspot_x="30" type="element" version="0.100.0" height="20" link_type="terminal">
+    <uuid uuid="{e82846d8-9fe2-4060-ad12-0149f4653dd3}"/>
     <names>
         <name lang="fr">Tube Cuivre Wicu</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <text text="Wicu" x="-17" y="2" size="5"/>
-        <input rotate="true" text="_" x="-3" tagg="label" y="-34" size="5"/>
-        <line antialias="false" end1="none" end2="none" y1="-4" y2="4" x1="3" x2="3" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line antialias="false" end1="none" end2="none" y1="-5" y2="-5" x1="-19" x2="3" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line antialias="false" end1="none" end2="none" y1="5" y2="5" x1="-26" x2="3" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line antialias="false" end1="none" end2="none" y1="-5" y2="5" x1="-19" x2="-26" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5"/>
-        <rect width="16" height="2" antialias="false" x="-19" y="-8" style="line-style:normal;line-weight:hight;filling:gray;color:gray"/>
-        <rect width="23" height="2" antialias="false" x="-26" y="6" style="line-style:normal;line-weight:hight;filling:gray;color:gray"/>
-        <terminal x="3" y="0" orientation="e"/>
-        <terminal x="-22" y="0" orientation="w"/>
+        <text text="Wicu" y="2" x="-17" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <dynamic_text uuid="{b14dc3d4-6539-4dc5-9bd1-8aaebf3f9dda}" text_width="-1" z="2" y="-43.5" x="-3" frame="false" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x1="3" y1="-4" y2="4" length2="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" length1="1.5"/>
+        <line end2="none" x1="-19" y1="-5" y2="-5" length2="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" length1="1.5"/>
+        <line end2="none" x1="-26" y1="5" y2="5" length2="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" length1="1.5"/>
+        <line end2="none" x1="-19" y1="-5" y2="5" length2="1.5" antialias="false" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-26" length1="1.5"/>
+        <rect ry="0" rx="0" width="16" y="-8" x="-19" antialias="false" height="2" style="line-style:normal;line-weight:hight;filling:gray;color:gray"/>
+        <rect ry="0" rx="0" width="23" y="6" x="-26" antialias="false" height="2" style="line-style:normal;line-weight:hight;filling:gray;color:gray"/>
+        <terminal uuid="{094f4276-5039-4625-a538-1027937cf063}" orientation="e" y="0" x="3" type="Generic" name=""/>
+        <terminal uuid="{c96647a1-080b-4cfb-b674-fa2bd8596da9}" orientation="w" y="0" x="-22" type="Generic" name=""/>
     </description>
 </definition>

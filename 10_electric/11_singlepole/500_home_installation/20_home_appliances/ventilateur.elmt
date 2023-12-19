@@ -1,23 +1,27 @@
-<definition hotspot_x="16" hotspot_y="25" height="30" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{f708f28c-ccc6-4992-9f5b-ca0164930877}"/>
+<definition height="30" width="40" hotspot_y="25" hotspot_x="16" version="0.100.0" link_type="simple" type="element">
+    <uuid uuid="{603d5ce7-f133-4989-a81e-5e885311f56e}"/>
     <names>
-        <name lang="fr">Ventilateur</name>
-        <name lang="pl">Wentylator</name>
-        <name lang="cs">Větrák</name>
-        <name lang="ar">مروحة</name>
-        <name lang="el">Ανεμιστήρας</name>
-        <name lang="it">Ventilatore</name>
         <name lang="de">Lüfter</name>
         <name lang="en">Fan</name>
         <name lang="nl">Ventilator</name>
+        <name lang="pl">Wentylator</name>
+        <name lang="cs">Větrák</name>
+        <name lang="ar">مروحة</name>
+        <name lang="it">Ventilatore</name>
+        <name lang="fr">Ventilateur</name>
+        <name lang="el">Ανεμιστήρας</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-16-02</informations>
     <description>
-        <input x="3" rotate="true" size="9" text="_" y="2.5" tagg="label"/>
-        <rect x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false" y="-20" width="20"/>
-        <ellipse x="3" style="line-style:normal;line-weight:normal;filling:none;color:black" height="4.5" antialias="true" y="-12.25" width="7"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false" y2="-10" end1="none" x2="0" length1="1.5" x1="-10"/>
-        <ellipse x="10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="4.5" antialias="true" y="-12.25" width="7"/>
-        <terminal x="-10" orientation="w" y="-10"/>
+        <dynamic_text Halignment="AlignLeft" uuid="{51702b29-617f-4179-ae3c-87d566dc6449}" y="-10" x="3" text_width="-1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" frame="false" text_from="ElementInfo" Valignment="AlignTop" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" y="-20" x="0" height="20" width="20" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse y="-12.25" height="4.5" x="3" width="7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y2="-10" x1="-10" length1="1.5" antialias="false" x2="0" y1="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <ellipse y="-12.25" height="4.5" x="10" width="7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{9947e4cc-1dbd-4542-97c9-623cbe7cda94}" name="" y="-10" orientation="w" x="-10" type="Generic"/>
     </description>
 </definition>

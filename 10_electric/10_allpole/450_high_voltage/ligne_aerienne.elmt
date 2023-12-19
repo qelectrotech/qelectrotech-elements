@@ -1,22 +1,26 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="20" hotspot_y="10">
-    <uuid uuid="{212fa737-aa12-4022-8350-817aa5c25c50}"/>
+<definition version="0.100.0" hotspot_y="10" type="element" link_type="simple" height="20" width="50" hotspot_x="24">
+    <uuid uuid="{3e5e4972-ed87-4809-9d97-af76f1b76051}"/>
     <names>
+        <name lang="de">Leiter, oberirdisch, Freileitung</name>
+        <name lang="fr">Ligne aérienne</name>
+        <name lang="ar">خط هوائي</name>
         <name lang="cs">Vzdušné vedení</name>
+        <name lang="en">Air line</name>
+        <name lang="el">Εναέρια γραμμή</name>
         <name lang="it">Linea aerea</name>
         <name lang="pl">Linia napowietrzna</name>
-        <name lang="en">Air line</name>
         <name lang="nl">Lucht lijn </name>
-        <name lang="de">Leiter, oberirdisch, Freileitung</name>
-        <name lang="ar">خط هوائي</name>
-        <name lang="fr">Ligne aérienne</name>
-        <name lang="el">Εναέρια γραμμή</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-03-03</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8" y="-4" x="-4"/>
-        <input tagg="label" rotate="true" size="9" y="5.55" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-20" x2="20"/>
-        <terminal y="0" x="-20" orientation="w"/>
-        <terminal y="0" x="20" orientation="e"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-4" diameter="8" x="-4" antialias="true"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="2" uuid="{5563cc2d-2444-450d-a331-15532108bdb1}" frame="false" rotation="0" y="-6.95" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" text_from="ElementInfo" x="-7">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="20" y2="0" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y1="0" length1="1.5" antialias="false"/>
+        <terminal orientation="w" uuid="{b57f6307-dd9b-493e-90d2-4c932ccd6bff}" type="Generic" y="0" name="" x="-20"/>
+        <terminal orientation="e" uuid="{6ca7690d-b3f5-4dbc-8e25-b4785a3167f4}" type="Generic" y="0" name="" x="20"/>
     </description>
 </definition>

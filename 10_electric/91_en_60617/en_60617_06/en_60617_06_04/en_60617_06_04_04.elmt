@@ -1,19 +1,23 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="65" version="0.70" width="100" type="element" height="70">
-    <uuid uuid="{aecd300f-78bf-499d-a2b6-8890464e0eba}"/>
+<definition height="70" hotspot_y="65" link_type="simple" version="0.100.0" hotspot_x="65" width="100" type="element">
+    <uuid uuid="{bd90e09e-bc43-4157-9e6e-986bd2125fb4}"/>
     <names>
-        <name lang="fr">Générateur à commande manuelle</name>
         <name lang="de">Handgenerator
 Kurbelinduktor</name>
-        <name lang="cs">Ruční generátor (magneto, induktor)</name>
+        <name lang="fr">Générateur à commande manuelle</name>
         <name lang="en">Hand-generator (magneto caller)</name>
+        <name lang="cs">Ruční generátor (magneto, induktor)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-35" y="-25" text="G" size="9"/>
-        <rect x="0" y="-32" antialias="false" width="10" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-28" x1="10" x2="10" antialias="false" x3="30" y2="-20" y3="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
+        <dynamic_text text_from="ElementInfo" frame="false" x="5" text_width="-1" y="12.5" Valignment="AlignTop" Halignment="AlignLeft" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{def5504a-92c5-4fb1-9c5a-b877ccfe1244}" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" diameter="60" antialias="false"/>
+        <text x="-35" y="-25" text="G" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" color="#000000"/>
+        <rect height="4" x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-32" rx="0" ry="0" width="10" antialias="false"/>
+        <polygon y3="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x1="10" x2="10" x3="30" antialias="false" y1="-28" y2="-20"/>
     </description>
 </definition>

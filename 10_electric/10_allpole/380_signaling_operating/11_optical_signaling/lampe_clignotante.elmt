@@ -1,30 +1,34 @@
-<definition type="element" width="30" height="60" version="0.5" hotspot_x="13" hotspot_y="29" link_type="simple">
-  <uuid uuid="{5a60adde-9bf3-4aa6-9927-597956ad0db3}"/>
-  <names>
-    <name lang="fr">Lampe clignotante</name>
-    <name lang="de">Blinkleuchte</name>
-    <name lang="it">Luce intermittente</name>
-    <name lang="es">Luz intermitente</name>
-    <name lang="ar">مصباح رفّاف</name>
-    <name lang="ru">Проблесковый маяк</name>
-    <name lang="el">Λυχνία με παλλόμενο φως</name>
-    <name lang="pt">Luz intermitente</name>
-    <name lang="cs">Blikající světlo</name>
-    <name lang="en">Flashing light</name>
-    <name lang="pl">Lampa sygnalizacyjna o świetle migowym</name>
-    <name lang="nl">Knipperlamp</name>
-  </names>
-  <informations>Author: The QElectroTech team
+<definition hotspot_y="24" width="30" type="element" version="0.100.0" height="50" hotspot_x="13" link_type="simple">
+    <uuid uuid="{8eb08ce9-e900-48df-97ae-d163e5a357c2}"/>
+    <names>
+        <name lang="it">Luce intermittente</name>
+        <name lang="el">Λυχνία με παλλόμενο φως</name>
+        <name lang="cs">Blikající světlo</name>
+        <name lang="es">Luz intermitente</name>
+        <name lang="pt">Luz intermitente</name>
+        <name lang="pl">Lampa sygnalizacyjna o świetle migowym</name>
+        <name lang="fr">Lampe clignotante</name>
+        <name lang="nl">Knipperlamp</name>
+        <name lang="de">Blinkleuchte</name>
+        <name lang="ar">مصباح رفّاف</name>
+        <name lang="ru">Проблесковый маяк</name>
+        <name lang="en">Flashing light</name>
+    </names>
+    <elementInformations/>
+    <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
-  <description>
-    <polygon x1="5" x2="7" x3="7" x4="12" x5="12" x6="14" y1="20" y2="20" y3="15" y4="15" y5="20" y6="20" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" antialias="false"/>
-    <circle x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="true"/>
-    <line x1="7.03" x2="-7.03" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="-7.03" x2="7.03" y1="-7.03" y2="7.03" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="-20" y2="-10" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <line x1="0" x2="0" y1="10" y2="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false"/>
-    <input x="15" y="3" size="9" tagg="label" text="H_"/>
-    <terminal x="0" y="-20" orientation="n"/>
-    <terminal x="0" y="20" orientation="s"/>
-  </description>
+    <description>
+        <polygon x6="14" y1="20" x1="5" y4="15" y5="20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y3="15" y6="20" x2="7" x3="7" y2="20" x5="12" x4="12"/>
+        <circle y="-10" x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line length1="1.5" length2="1.5" y1="-7.03" x1="7.03" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-7.03" y2="7.03" end2="none"/>
+        <line length1="1.5" length2="1.5" y1="-7.03" x1="-7.03" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="7.03" y2="7.03" end2="none"/>
+        <line length1="1.5" length2="1.5" y1="-20" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" y2="-10" end2="none"/>
+        <line length1="1.5" length2="1.5" y1="10" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" y2="20" end2="none"/>
+        <dynamic_text y="-9.5" frame="false" rotation="0" x="15" Halignment="AlignLeft" uuid="{4fb507c0-751a-4a52-b493-76d5ca2575d2}" text_from="ElementInfo" keep_visual_rotation="false" z="7" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-20" name="" x="0" uuid="{5657a6df-1cca-4c2f-abc0-f6a3e32486c7}" type="Generic" orientation="n"/>
+        <terminal y="20" name="" x="0" uuid="{6515e0c2-3d5c-461c-af81-0f7095306653}" type="Generic" orientation="s"/>
+    </description>
 </definition>

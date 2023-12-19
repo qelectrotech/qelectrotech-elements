@@ -1,20 +1,24 @@
-<definition hotspot_x="35" type="element" width="50" hotspot_y="34" version="0.70" height="50" link_type="simple">
-    <uuid uuid="{29f8fb28-5cb1-4307-93bb-ad750fbdd6ce}"/>
+<definition hotspot_y="34" version="0.100.0" width="50" height="50" type="element" link_type="simple" hotspot_x="35">
+    <uuid uuid="{63f24355-166d-4575-9e80-30208b2e05c2}"/>
     <names>
-        <name lang="fr">Sonnerie</name>
         <name lang="de">Wecker, Klingel</name>
         <name lang="cs">Zvonek</name>
         <name lang="en">Bell</name>
+        <name lang="fr">Sonnerie</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" rotate="true" x="5" tagg="label" y="25"/>
-        <line y1="-10" x1="-30" length2="1.5" antialias="false" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end2="none" end1="none"/>
-        <arc width="40" start="0" angle="180" antialias="true" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30" height="40"/>
-        <line y1="-10" x1="-20" length2="1.5" antialias="false" x2="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none" end1="none"/>
-        <line y1="-10" x1="0" length2="1.5" antialias="false" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none" end1="none"/>
-        <terminal x="-20" orientation="s" y="10"/>
-        <terminal x="0" orientation="s" y="10"/>
+        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_from="ElementInfo" uuid="{be1f6c17-aee1-48d5-ba86-51ae2f30f2fa}" Halignment="AlignLeft" rotation="0" frame="false" keep_visual_rotation="false" Valignment="AlignTop" y="12.5" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="10" end2="none" antialias="false" y2="-10" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" y1="-10"/>
+        <arc angle="180" x="-30" width="40" height="40" antialias="true" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30"/>
+        <line x2="-20" end2="none" antialias="false" y2="10" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y1="-10"/>
+        <line x2="0" end2="none" antialias="false" y2="10" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-10"/>
+        <terminal x="-20" name="" type="Generic" uuid="{715d3245-89a4-4b3c-a574-adb58f8e1ab4}" orientation="s" y="10"/>
+        <terminal x="0" name="" type="Generic" uuid="{3545b06b-fa57-40df-99bf-c7c53ed8d1c6}" orientation="s" y="10"/>
     </description>
 </definition>

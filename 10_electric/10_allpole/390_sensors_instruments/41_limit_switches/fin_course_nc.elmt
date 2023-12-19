@@ -1,26 +1,31 @@
-<definition width="20" version="0.4" hotspot_x="9" hotspot_y="25" height="50" link_type="simple" type="element" ic="true">
-<uuid uuid="{4F06EDB7-C47D-48F5-B5CD-C0A5701664F0}"/><names>
-        <name lang="ar">مفتاح نهاية مشوار (NC)</name>
-        <name lang="de">Endschalter Öffner</name>
-        <name lang="ru">Концевой контакт (НЗ)</name>
-        <name lang="pt">Fim de curso (NC)</name>
-        <name lang="en">Limitswitch (NC)</name>
-        <name lang="it">Finecorsa (NC)</name>
+<definition version="0.100.0" height="60" link_type="simple" width="20" hotspot_x="9" type="element" hotspot_y="29">
+    <uuid uuid="{276c1200-476e-4d61-b1b1-245013dd82b9}"/>
+    <names>
+        <name lang="cs">Koncový spínač NC</name>
         <name lang="fr">Fin de course (NF)</name>
-        <name lang="pl">Łącznik krańcowy (zestyk rozwierny)</name>
         <name lang="es">Final de carrera (NC)</name>
         <name lang="nl">Eindschakelaar (NC)</name>
-        <name lang="cs">Koncový spínač NC</name>
+        <name lang="it">Finecorsa (NC)</name>
+        <name lang="en">Limitswitch (NC)</name>
+        <name lang="ru">Концевой контакт (НЗ)</name>
+        <name lang="ar">مفتاح نهاية مشوار (NC)</name>
+        <name lang="de">Endschalter Öffner</name>
+        <name lang="pl">Łącznik krańcowy (zestyk rozwierny)</name>
+        <name lang="pt">Fim de curso (NC)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="0" y2="-9" x2="6"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-9" x2="0"/>
-        <input x="5.75" y="3" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="6" x1="0.529794" y2="-5" x2="-4.41062" y3="-5" x3="3"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <polygon x1="5" x3="0" y1="-10" closed="false" x2="0" y3="20" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="-9" end1="none" x2="6" length2="1.5" y2="-9" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <line x1="0" y1="-20" end1="none" x2="0" length2="1.5" y2="-9" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" frame="false" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo" text_width="-1" y="-9.5" uuid="{c38ac4e6-984d-4aeb-8447-1c632d3ee569}" x="5.75" z="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="0.529794" x3="3" y1="6" closed="false" x2="-4.41062" y3="-5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal name="" orientation="n" y="-21" uuid="{da42fd3b-d162-4724-b7f4-94861b559b37}" type="Generic" x="0"/>
+        <terminal name="" orientation="s" y="21" uuid="{a6f1b024-898f-4a47-b912-001a6811979f}" type="Generic" x="0"/>
     </description>
 </definition>

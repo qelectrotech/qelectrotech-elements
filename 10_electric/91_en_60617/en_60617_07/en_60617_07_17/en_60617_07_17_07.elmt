@@ -1,18 +1,22 @@
-<definition hotspot_x="65" hotspot_y="85" height="90" link_type="simple" version="0.70" type="element" width="70">
-    <uuid uuid="{ff4a357f-034d-4b75-a353-1a1bb2b6a06b}"/>
+<definition link_type="simple" hotspot_y="85" height="90" version="0.100.0" type="element" width="70" hotspot_x="65">
+    <uuid uuid="{9986d57c-b25a-4c9a-abc5-16f9eb3b0a65}"/>
     <names>
         <name lang="de">Unterspannungsrelais</name>
+        <name lang="en">Undervoltage relay</name>
         <name lang="fr">Relais à minimum de tension</name>
         <name lang="cs">Podpěťové relé</name>
-        <name lang="en">Undervoltage relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <rect y="-80" height="80" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="60" antialias="false"/>
-        <text y="-15" size="9" text="130 %" x="-49"/>
-        <text y="-40" size="9" text="50...80 V" x="-55"/>
-        <text y="-61" size="9" text="U &lt;" x="-41"/>
+        <dynamic_text keep_visual_rotation="false" x="5" text_from="ElementInfo" Valignment="AlignTop" y="12.5" text_width="-1" uuid="{4c6402a9-cf72-4c7d-af5e-2d542c4b44f6}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" z="1" rotation="0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-60" y="-80" height="80" rx="0" antialias="false" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="60"/>
+        <text x="-49" text="130 %" color="#000000" y="-15" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="-55" text="50...80 V" color="#000000" y="-40" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="-41" text="U &lt;" color="#000000" y="-61" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
     </description>
 </definition>

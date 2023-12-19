@@ -1,15 +1,19 @@
-<definition type="element" width="20" height="10" hotspot_y="5" hotspot_x="10" version="0.70" link_type="simple">
-    <uuid uuid="{22c144a5-bb9f-468f-918f-26250bd84950}"/>
+<definition type="element" hotspot_y="5" version="0.100.0" link_type="simple" height="10" width="20" hotspot_x="10">
+    <uuid uuid="{301fbf1f-c58f-45ce-8fe4-10d8ed0dbc6e}"/>
     <names>
         <name lang="de">Trennschalter-Funktion</name>
-        <name lang="fr">Fonction sectionneur</name>
         <name lang="cs">Funkce odpojovače</name>
         <name lang="en">Disconnector (isolator) function</name>
+        <name lang="fr">Fonction sectionneur</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="-5" y1="0" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x2="5" end1="none" y2="0" length1="1.5" y1="0" x1="-5" antialias="false" length2="1.5"/>
+        <dynamic_text x="5" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" y="12.5" z="2" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{8a976c1f-248c-40c7-9f41-92a4e3fad115}" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

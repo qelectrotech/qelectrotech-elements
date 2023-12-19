@@ -1,27 +1,31 @@
-<definition width="40" version="0.3" hotspot_x="13" hotspot_y="33" height="60" type="element" ic="true">
-<uuid uuid="{7E18636C-5D66-42ED-B3FD-35A9626BE547}"/><names>
-        <name lang="en">Transformer or current pulse, with three through primary conductors</name>
-        <name lang="de">Stromwandler, Impulswandler</name>
+<definition hotspot_y="24" hotspot_x="13" version="0.100.0" height="50" width="40" link_type="simple" type="element">
+    <uuid uuid="{66c74790-811a-4580-b3f4-e9c597bcd1ee}"/>
+    <names>
         <name lang="fr">Transformateur d'impulsion ou de courant, avec trois conducteurs primaires traversants</name>
-	<name lang="it">Trasformatore d'impulso o di corrente, 3 conduttori primari</name>
+        <name lang="it">Trasformatore d'impulso o di corrente, 3 conduttori primari</name>
         <name lang="pl">Przekładnik (forma 1)</name>
-        <name lang="cs">Proudový transformátor se třemi primáry</name>
+        <name lang="de">Stromwandler, Impulswandler</name>
+        <name lang="en">Transformer or current pulse, with three through primary conductors</name>
         <name lang="nl">Stroomtrafo 3 geleiders</name>
-
+        <name lang="cs">Proudový transformátor se třemi primáry</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="1.95" x1="-5.05" y2="-2.05" x2="4.95"/>
-        <input x="6" y="-16" size="9" rotate="true" text="_" tagg="label"/>
-        <circle x="-8" y="-8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="16"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="20" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="10" y2="-5" x2="15"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="12" y2="-5" x2="17"/>
-        <text x="1" y="6" size="5" text="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="8" y2="0" x2="20"/>
-        <terminal x="0" y="-20" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="20" nameHidden="0" number="" name="" orientation="s"/>
-        <terminal x="20" y="0" nameHidden="0" number="" name="" orientation="e"/>
+        <line y1="1.95" end1="none" antialias="true" end2="none" length2="1.5" length1="1.5" x2="4.95" y2="-2.05" x1="-5.05" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_from="ElementInfo" frame="false" x="6" z="2" y="-28.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" uuid="{41a0e23a-733e-42c6-9f6a-fb6ff59c4733}" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-8" antialias="true" y="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="16"/>
+        <line y1="-20" end1="none" antialias="false" end2="none" length2="1.5" length1="1.5" x2="0" y2="20" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="5" end1="none" antialias="true" end2="none" length2="1.5" length1="1.5" x2="15" y2="-5" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="5" end1="none" antialias="true" end2="none" length2="1.5" length1="1.5" x2="17" y2="-5" x1="12" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="1" y="6" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" text="3" color="#000000"/>
+        <line y1="0" end1="none" antialias="false" end2="none" length2="1.5" length1="1.5" x2="20" y2="0" x1="8" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" x="0" y="-20" orientation="n" uuid="{41c8a153-b2e6-4f3f-b1d7-3cb730a781fc}" type="Generic"/>
+        <terminal name="" x="0" y="20" orientation="s" uuid="{5c70ba6b-f581-495f-a088-4c37bc93e969}" type="Generic"/>
+        <terminal name="" x="20" y="0" orientation="e" uuid="{11c73bc1-b6a5-48f1-95c3-ddb64208c1cd}" type="Generic"/>
     </description>
 </definition>

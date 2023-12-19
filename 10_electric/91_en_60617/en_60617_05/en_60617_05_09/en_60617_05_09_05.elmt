@@ -1,17 +1,21 @@
-<definition type="element" link_type="simple" height="90" width="60" version="0.70" hotspot_x="45" hotspot_y="85">
-    <uuid uuid="{34d79b3b-e54a-4fcf-9564-5cd2ec102aaa}"/>
+<definition width="60" type="element" link_type="simple" hotspot_y="85" height="90" hotspot_x="45" version="0.100.0">
+    <uuid uuid="{b6af18ea-9374-48dd-b249-e15da54d5fc0}"/>
     <names>
-        <name lang="fr">Sole émissive</name>
-        <name lang="de">Sohle, emittierend</name>
         <name lang="cs">Emitující uspořádání</name>
+        <name lang="fr">Sole émissive</name>
         <name lang="en">Emitting sole</name>
+        <name lang="de">Sohle, emittierend</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" tagg="label" y="15" x="5" rotate="true"/>
-        <line antialias="false" x1="0" y2="0" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40"/>
-        <line antialias="false" x1="0" y2="-80" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <polygon closed="false" antialias="false" y3="-30" x1="-10" y2="-40" x3="10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
+        <dynamic_text uuid="{3eb69793-c46a-48d6-9dbc-8bd3089846c1}" z="1" y="2.5" text_width="-1" Halignment="AlignLeft" rotation="0" text_from="ElementInfo" x="5" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-40" y1="0" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length1="1.5" x1="0" end1="none" end2="none"/>
+        <line x2="0" y1="0" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-80" length1="1.5" x1="0" end1="none" end2="none"/>
+        <polygon x2="0" closed="false" y1="-30" y3="-30" x3="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40" x1="-10"/>
     </description>
 </definition>

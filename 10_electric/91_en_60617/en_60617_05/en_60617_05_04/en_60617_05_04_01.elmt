@@ -1,20 +1,24 @@
-<definition link_type="simple" version="0.70" hotspot_x="15" hotspot_y="44" type="element" height="50" width="30">
-    <uuid uuid="{a80ff565-00bd-4407-9277-47c56cc6a95c}"/>
+<definition type="element" version="0.100.0" height="50" hotspot_y="44" width="30" hotspot_x="15" link_type="simple">
+    <uuid uuid="{0fff5405-e235-42e1-96b5-5032ebf439b2}"/>
     <names>
-        <name lang="fr">Diode, thyristor, bloqué en inverse</name>
         <name lang="de">Thyristordiode, rückwärts sperrend</name>
         <name lang="cs">Diodový zpětně závěrný tyristor</name>
+        <name lang="fr">Diode, thyristor, bloqué en inverse</name>
         <name lang="en">Reverse blocking diode thyristor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="none" x1="10" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-10" y2="-20" antialias="false"/>
-        <terminal orientation="s" y="0" x="0"/>
-        <terminal orientation="n" y="-40" x="0"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" text_from="ElementInfo" z="1" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{31cbd6a7-200b-4c8e-aec1-8ba201b90252}" text_width="-1" frame="false" Halignment="AlignLeft" Valignment="AlignTop" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-40" length1="1.5" y2="0" antialias="false" end2="none" length2="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0"/>
+        <line y1="-10" length1="1.5" y2="-10" antialias="false" end2="none" length2="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10"/>
+        <polygon y1="-30" y4="-30" y2="-30" antialias="false" x4="-10" closed="false" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" x1="-10" x3="0"/>
+        <line y1="-20" length1="1.5" y2="-20" antialias="false" end2="none" length2="1.5" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="10"/>
+        <terminal type="Generic" name="" x="0" uuid="{a4afe93a-23c3-492e-95c5-99a8881bd503}" orientation="s" y="0"/>
+        <terminal type="Generic" name="" x="0" uuid="{ffd76ef9-b3c8-444d-9210-8608a5e87cb1}" orientation="n" y="-40"/>
     </description>
 </definition>

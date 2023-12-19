@@ -1,19 +1,23 @@
-<definition width="20" version="0.3" hotspot_x="7" hotspot_y="13" height="30" type="element" ic="true" link_type="previous_report">
-<uuid uuid="{16AB4F2C-48D4-4BAA-B9F9-BA3AE6A32939}"/><names>
-        <name lang="ar">مرجع مُؤشر ضوئي </name>
-        <name lang="en">reference light</name>
+<definition version="0.100.0" hotspot_x="6" height="20" link_type="previous_report" hotspot_y="10" type="element" width="20">
+    <uuid uuid="{b978fa8e-3689-40fc-8734-c059e8771a41}"/>
+    <names>
         <name lang="it">Rif. spia luminosa / (verticale)</name>
-        <name lang="fr">Reference voyant</name>
-        <name lang="pl">Odsyłacz 3 (pionowo)</name>      
         <name lang="cs">Odkaz_3 - Kontrolka (svisle)</name>
         <name lang="nl">referentie vorig lamp</name>
+        <name lang="fr">Reference voyant</name>
+        <name lang="en">reference light</name>
+        <name lang="ar">مرجع مُؤشر ضوئي </name>
+        <name lang="pl">Odsyłacz 3 (pionowo)</name>
     </names>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" x1="3" y2="-7" x2="7"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7" x1="3" y2="-3" x2="7"/>
-        <circle x="1.5" y="-8.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="7"/>
-        <input x="-4" y="2.5" size="5" rotate="true" text="_" tagg="label"/>
+        <line antialias="false" y2="-7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" x2="7" x1="3" y1="-3"/>
+        <line antialias="false" y2="-3" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" x2="7" x1="3" y1="-7"/>
+        <circle antialias="true" y="-8.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="1.5" diameter="7"/>
+        <dynamic_text z="4" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="-7" uuid="{2589a2d9-a295-4e83-97d1-372b6f713712}" text_width="-1" x="-4" frame="false" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

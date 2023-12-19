@@ -1,23 +1,28 @@
-<definition width="40" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" orientation="dnny">
-<uuid uuid="{E7A6C637-25FF-49BE-9E0F-5CF214769091}"/><names>
-        <name lang="ar">دايود شوكلي</name>
-        <name lang="de">Shockley Diode</name>
-        <name lang="en">Shockley diode</name>
-        <name lang="fr">Diode Shockley</name>
-        <name lang="pl">Dynistor</name>
+<definition hotspot_y="24" type="element" width="20" link_type="simple" height="50" version="0.100.0" hotspot_x="9">
+    <uuid uuid="{10192e38-f8d0-43fa-b20c-0fa20ad2a392}"/>
+    <names>
         <name lang="cs">Shockleyova dioda (Dynistor)</name>
+        <name lang="fr">Diode Shockley</name>
         <name lang="it">Diodo Shockley</name>
         <name lang="nl">Diode Shockley</name>
+        <name lang="de">Shockley Diode</name>
+        <name lang="ar">دايود شوكلي</name>
+        <name lang="pl">Dynistor</name>
+        <name lang="en">Shockley diode</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="10" y2="-20" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="10" y2="20" x2="10"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-5" x1="5" y2="-5" x2="16" y3="5" x3="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="5" y2="5" x2="15"/>
-        <input x="18" y="4.6666" size="9" text="_" tagg="label"/>
-        <terminal x="10" y="-20" orientation="n"/>
-        <terminal x="10" y="20" orientation="s"/>
+        <line end1="none" length1="1.5" antialias="false" end2="none" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-20" x2="0" length2="1.5"/>
+        <line end1="none" length1="1.5" antialias="false" end2="none" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" x2="0" length2="1.5"/>
+        <polygon y3="5" antialias="false" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" closed="false" y2="-5" x2="6" x3="0"/>
+        <line end1="none" length1="1.5" antialias="false" end2="none" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" y2="5" x2="5" length2="1.5"/>
+        <dynamic_text Valignment="AlignTop" frame="false" y="-7.8334" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="8" uuid="{be868dda-0aac-4ca5-93a6-c15698f48b53}" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" z="5" keep_visual_rotation="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" name="" orientation="n" y="-20" x="0" uuid="{dcd4c1fb-4357-40b0-a9b6-6476302a1463}"/>
+        <terminal type="Generic" name="" orientation="s" y="20" x="0" uuid="{4f63e87e-5f66-4536-8d9b-5d261920a904}"/>
     </description>
 </definition>

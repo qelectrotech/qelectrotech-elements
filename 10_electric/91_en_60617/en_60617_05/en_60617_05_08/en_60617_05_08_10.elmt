@@ -1,18 +1,22 @@
-<definition height="50" version="0.70" width="90" hotspot_x="85" type="element" hotspot_y="35" link_type="simple">
-    <uuid uuid="{7fcdaef6-3ae1-4466-b290-8688cf41f5dc}"/>
+<definition version="0.100.0" hotspot_y="35" hotspot_x="85" link_type="simple" width="90" type="element" height="50">
+    <uuid uuid="{8692b6df-f7e5-419a-a7f9-8cb365be5ca0}"/>
     <names>
-        <name lang="fr">Électrode de déviation radiale</name>
         <name lang="de">radiale Ablenkelektrode</name>
         <name lang="cs">Radiální vychylovací elektrody</name>
         <name lang="en">Radial deflecting electrodes</name>
+        <name lang="fr">Électrode de déviation radiale</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <line x2="-20" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="0"/>
-        <line x2="-80" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="-60"/>
-        <rect y="-30" height="40" width="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60"/>
-        <rect y="-25" height="30" width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-55"/>
+        <dynamic_text keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" Valignment="AlignTop" z="1" rotation="0" text_width="-1" y="2.5" frame="false" uuid="{db01d436-32e3-48b7-b7bd-2494b15b3124}" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" end2="none" x1="0" x2="-20" end1="none" length1="1.5" y1="-10"/>
+        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" end2="none" x1="-60" x2="-80" end1="none" length1="1.5" y1="-10"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" rx="0" x="-60" y="-30" width="40" height="40"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" rx="0" x="-55" y="-25" width="30" height="30"/>
     </description>
 </definition>

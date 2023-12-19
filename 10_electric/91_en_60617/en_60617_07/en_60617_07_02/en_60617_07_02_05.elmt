@@ -1,23 +1,27 @@
-<definition version="0.70" width="30" type="element" hotspot_y="44" link_type="simple" hotspot_x="14" height="70">
-    <uuid uuid="{cab8cba1-0908-4b67-a21e-ea3592c27d38}"/>
+<definition version="0.100.0" hotspot_y="44" height="70" type="element" link_type="simple" width="30" hotspot_x="14">
+    <uuid uuid="{a84789dc-a695-434e-9423-2044da552292}"/>
     <names>
-        <name lang="fr">Contact à deux directions avec position
-médiane de coupure</name>
         <name lang="de">Wechsler mit Mittelstellung "Aus"</name>
         <name lang="cs">Přepínací kontakt se střední klidovou polohou</name>
         <name lang="en">Change-over contact with off-position</name>
+        <name lang="fr">Contact à deux directions avec position
+médiane de coupure</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="10" y2="-40" length2="1.5" length1="1.5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="10" end2="none" antialias="false"/>
-        <line x2="0" y2="20" length2="1.5" length1="1.5" y1="2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="0" y2="-23" length2="1.5" length1="1.5" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <input x="5" text="_" size="9" rotate="true" tagg="label" y="25"/>
-        <circle x="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="4" y="-2" antialias="false"/>
-        <line x2="-10" y2="-20" length2="1.5" length1="1.5" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <terminal orientation="n" x="-10" y="-40"/>
-        <terminal orientation="s" x="0" y="20"/>
-        <terminal orientation="n" x="10" y="-40"/>
+        <line x1="10" y1="-20" y2="-40" x2="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="0" y1="2" y2="20" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="0" y1="-2" y2="-23" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" length1="1.5"/>
+        <dynamic_text y="12.5" rotation="0" Halignment="AlignLeft" uuid="{31667e01-6fb4-4fce-86ef-465e4ae92f47}" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" x="5" z="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2" diameter="4"/>
+        <line x1="-10" y1="-40" y2="-20" x2="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" end1="none" length1="1.5"/>
+        <terminal name="" y="-40" uuid="{f4da8b25-dfba-4cc0-8f85-adfad659a032}" type="Generic" orientation="n" x="-10"/>
+        <terminal name="" y="20" uuid="{1171527d-c6de-4d21-b72b-1a11b8706fac}" type="Generic" orientation="s" x="0"/>
+        <terminal name="" y="-40" uuid="{79528eb4-b3f3-4cfe-a847-dc303ca1fcd9}" type="Generic" orientation="n" x="10"/>
     </description>
 </definition>

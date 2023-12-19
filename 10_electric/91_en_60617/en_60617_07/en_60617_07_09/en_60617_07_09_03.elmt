@@ -1,22 +1,26 @@
-<definition link_type="simple" type="element" width="50" hotspot_y="44" height="70" version="0.70" hotspot_x="35">
-    <uuid uuid="{10cf4395-c743-4bd1-b2b9-063bcd72fff7}"/>
+<definition hotspot_y="44" link_type="simple" width="50" height="70" hotspot_x="35" version="0.100.0" type="element">
+    <uuid uuid="{eeb0291c-cce0-4af6-a4ea-971a808deb29}"/>
     <names>
+        <name lang="de">Öffner mit selbsttätiger thermischer Betätigung</name>
         <name lang="fr">Interrupteur agissant par effet thermique direct
 (par exemple bilame), contact à ouverture</name>
-        <name lang="de">Öffner mit selbsttätiger thermischer Betätigung</name>
-        <name lang="cs">Samočinný teplotní spínač, vypínací kontakt</name>
         <name lang="en">Thermal switch, self-operating, break contact</name>
+        <name lang="cs">Samočinný teplotní spínač, vypínací kontakt</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="0" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-40" length2="1.5"/>
-        <line x2="0" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" length2="1.5"/>
-        <line x2="8" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-23" length2="1.5"/>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="25"/>
-        <line x2="10" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-20" length2="1.5"/>
-        <polygon x2="-20" antialias="false" x5="-10" y1="-10" y5="-10" y6="-10" x3="-20" x6="3" x4="-10" y4="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" closed="false" y2="-10" y3="-20"/>
-        <terminal orientation="n" x="0" y="-40"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-40" length2="1.5" end1="none" x1="0" y1="-20" length1="1.5" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="20" length2="1.5" end1="none" x1="0" y1="0" length1="1.5" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-23" length2="1.5" end1="none" x1="0" y1="0" length1="1.5" x2="8"/>
+        <dynamic_text keep_visual_rotation="false" z="4" x="5" y="12.5" uuid="{ef84b112-d787-458c-8ab7-f50bcfc9904b}" text_from="ElementInfo" Valignment="AlignTop" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-20" length2="1.5" end1="none" x1="0" y1="-20" length1="1.5" x2="10"/>
+        <polygon x5="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-10" x3="-20" y3="-20" y4="-20" x1="-30" x4="-10" y6="-10" closed="false" y1="-10" x6="3" x2="-20" y5="-10"/>
+        <terminal name="" x="0" y="-40" uuid="{3b88752f-ec5f-497f-b333-cbdc3ebfca91}" orientation="n" type="Generic"/>
+        <terminal name="" x="0" y="20" uuid="{3469bfa2-d35d-42e8-8661-1baa25cdad97}" orientation="s" type="Generic"/>
     </description>
 </definition>

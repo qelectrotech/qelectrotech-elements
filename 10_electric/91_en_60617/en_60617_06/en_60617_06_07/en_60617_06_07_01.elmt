@@ -1,29 +1,33 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="86" version="0.70" width="70" type="element" height="110">
-    <uuid uuid="{4dbfd3c0-7fbf-4480-b58f-affadfc442a5}"/>
+<definition width="70" hotspot_x="65" link_type="simple" version="0.100.0" type="element" height="110" hotspot_y="86">
+    <uuid uuid="{8eff427f-a230-4c51-89ec-5175abd83397}"/>
     <names>
+        <name lang="en">Synchronous generator, three-phase with permanent magnet</name>
         <name lang="fr">Alternateur synchrone à aimant permanent,
 triphasé</name>
         <name lang="de">Drehstrom-Synchrongenerator mit
 Dauermagneterregung</name>
         <name lang="cs">Trojfázový synchronní generátor
 s buzením permanentním magnetem</name>
-        <name lang="en">Synchronous generator, three-phase with permanent magnet</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-34" y="-32" text="M" size="9"/>
-        <text x="-45" y="-15" text="3" size="9"/>
-        <arc x="-35" start="0" angle="180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-25" start="0" angle="-180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-50" x2="-50" end2="none" antialias="false" y2="-53" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-10" x2="-10" end2="none" antialias="false" y2="-53" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="10" x4="-10" y9="10" y2="10" y5="10" x1="-40" x7="-20" x5="-10" y4="20" x2="-50" y3="20" y7="15" x3="-50" x9="-40" x6="-20" y8="15" antialias="false" x8="-40" style="line-style:normal;line-weight:normal;filling:black;color:black" y6="10"/>
-        <terminal x="-10" orientation="n" y="-80"/>
-        <terminal x="-50" orientation="n" y="-80"/>
-        <terminal x="-30" orientation="n" y="-80"/>
+        <dynamic_text uuid="{d64a9ec0-385b-467b-af66-67ed817494b8}" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" text_from="ElementInfo" y="12.5" rotation="0" frame="false" x="5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-60" antialias="false" diameter="60" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text y="-32" text="M" rotation="0" color="#000000" x="-34" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text y="-15" text="3" rotation="0" color="#000000" x="-45" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <arc width="10" y="-22.5" start="0" antialias="true" angle="180" x="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5"/>
+        <arc width="10" y="-22.5" start="0" antialias="true" angle="-180" x="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5"/>
+        <line end1="none" y1="-80" antialias="false" y2="-60" x2="-30" length2="1.5" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none"/>
+        <line end1="none" y1="-80" antialias="false" y2="-53" x2="-50" length2="1.5" x1="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none"/>
+        <line end1="none" y1="-80" antialias="false" y2="-53" x2="-10" length2="1.5" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none"/>
+        <polygon y7="15" x9="-40" x4="-10" x8="-40" x5="-10" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="20" antialias="false" x3="-50" x6="-20" y5="10" y2="10" y9="10" y8="15" y6="10" x7="-20" x2="-50" x1="-40" y1="10" y4="20"/>
+        <terminal uuid="{45db0fad-514d-4b26-8b0e-0d5aebeb42b8}" orientation="n" y="-80" name="" x="-10" type="Generic"/>
+        <terminal uuid="{440ed546-fb82-4de9-88ec-f0ee1fd42d27}" orientation="n" y="-80" name="" x="-50" type="Generic"/>
+        <terminal uuid="{91c8f67b-82d7-4a08-8daf-a62caa4a35c1}" orientation="n" y="-80" name="" x="-30" type="Generic"/>
     </description>
 </definition>

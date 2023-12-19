@@ -1,22 +1,26 @@
-<definition width="150" height="170" hotspot_y="145" hotspot_x="85" link_type="simple" type="element" version="0.70">
-    <uuid uuid="{7c1fd115-2b29-4df4-b4fc-610ae29b2329}"/>
+<definition width="150" hotspot_y="145" height="170" hotspot_x="85" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{2c2e57a5-c5bd-43fb-9d56-d3290a954bf9}"/>
     <names>
         <name lang="de">Triode, Kathode direkt geheizt</name>
-        <name lang="fr">Triode, avec cathode à chauffage direct</name>
         <name lang="cs">Trioda s přímo žhavenou katodou</name>
         <name lang="en">Triode, with directly heated cathode</name>
+        <name lang="fr">Triode, avec cathode à chauffage direct</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="45" size="9" tagg="label" text="_" x="35" rotate="true"/>
-        <circle y="-120" antialias="false" diameter="120" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-140" length1="1.5" x1="0" antialias="false" x2="0" y2="-100" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-100" length1="1.5" x1="-20" antialias="false" x2="20" y2="-100" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-60" length1="1.5" x1="-80" antialias="false" x2="-30" y2="-60" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-60" length1="1.5" x1="-30" antialias="false" x2="20" y2="-60" length2="1.5" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
-        <arc y="-20" angle="180" width="40" height="40" start="0" antialias="true" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="0" length1="1.5" x1="-20" antialias="false" x2="-20" y2="20" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="0" length1="1.5" x1="20" antialias="false" x2="20" y2="20" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{fbecc525-2cd1-420f-a390-f1cc84737c80}" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" x="35" y="32.5" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="120" antialias="false" x="-60" y="-120" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-100" antialias="false" end1="none" x1="0" end2="none" length2="1.5" y1="-140" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line y2="-100" antialias="false" end1="none" x1="-20" end2="none" length2="1.5" y1="-100" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line y2="-60" antialias="false" end1="none" x1="-80" end2="none" length2="1.5" y1="-60" x2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line y2="-60" antialias="false" end1="none" x1="-30" end2="none" length2="1.5" y1="-60" x2="20" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <arc width="40" angle="180" height="40" antialias="true" start="0" x="-20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="20" antialias="false" end1="none" x1="-20" end2="none" length2="1.5" y1="0" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line y2="20" antialias="false" end1="none" x1="20" end2="none" length2="1.5" y1="0" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
     </description>
 </definition>

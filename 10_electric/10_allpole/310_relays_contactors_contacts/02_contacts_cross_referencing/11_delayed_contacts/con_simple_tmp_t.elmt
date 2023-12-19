@@ -1,33 +1,36 @@
-<definition link_type="slave" hotspot_y="24" type="element" version="0.5" hotspot_x="21" width="30" height="50">
-    <uuid uuid="{899a0057-0d4d-4eb3-b712-12fb7ea16235}"/>
+<definition height="50" type="element" link_type="slave" width="30" hotspot_x="21" version="0.100.0" hotspot_y="24">
+    <uuid uuid="{916bc665-7a72-4777-91b2-0aa0e6e5cdec}"/>
     <names>
-        <name lang="el">Ανοικτή επαφή, καθυστέρηση ενεργοποίησης</name>
-        <name lang="en">Simple contact (switch-on delay timer)</name>
-        <name lang="cs">Kontakt NO zpožděný přítah</name>
-        <name lang="pl">Zestyk zwierny działający z opóźnieniem</name>
+        <name lang="ru">Контакт с задержкой при срабатывании (НР)</name>
+        <name lang="ar">مُلامس وصل يُغلق متأخرا</name>
         <name lang="pt">Contacto simples (tempo retardado de ligado)</name>
-        <name lang="it">Contatto NO ritardato alla chiusura</name>
         <name lang="es">Contactor simple (tiempo retardado de encendido)</name>
         <name lang="fr">Contact simple (tempo travail)</name>
-        <name lang="ru">Контакт с задержкой при срабатывании (НР)</name>
+        <name lang="pl">Zestyk zwierny działający z opóźnieniem</name>
+        <name lang="it">Contatto NO ritardato alla chiusura</name>
+        <name lang="cs">Kontakt NO zpožděný přítah</name>
         <name lang="de">Schliesser ansprechverzögert</name>
-        <name lang="ar">مُلامس وصل يُغلق متأخرا</name>
+        <name lang="el">Ανοικτή επαφή, καθυστέρηση ενεργοποίησης</name>
+        <name lang="en">Simple contact (switch-on delay timer)</name>
     </names>
     <kindInformations>
-        <kindInformation show="1" name="type">delayOn</kindInformation>
-        <kindInformation show="1" name="state">NO</kindInformation>
-        <kindInformation show="1" name="number">1</kindInformation>
+        <kindInformation name="type">delayOn</kindInformation>
+        <kindInformation name="state">NO</kindInformation>
+        <kindInformation name="number">1</kindInformation>
     </kindInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y2="10" closed="false" y3="20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x2="0" x1="-5" x3="0"/>
-        <line y2="1.5" end2="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" end1="none" y1="1.5" x2="-3" x1="-14.8"/>
-        <line y2="-1.5" end2="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" end1="none" y1="-1.5" x2="-3" x1="-14.8"/>
-        <arc antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" width="10" height="10" start="-90" x="-15" y="-5" angle="-180"/>
-        <input size="9" text="_" x="2.75" y="3" tagg="label"/>
-        <line y2="-10" end2="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" y1="-20" x2="0" x1="0"/>
-        <terminal orientation="n" x="0" y="-20"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <polygon x3="0" y1="-10" x1="-5" x2="0" y2="10" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y1="1.5" length2="1.5" x1="-14.8" x2="-3" y2="1.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none"/>
+        <line end1="none" y1="-1.5" length2="1.5" x1="-14.8" x2="-3" y2="-1.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none"/>
+        <arc start="-90" y="-5" angle="-180" height="10" x="-15" width="10" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <dynamic_text Valignment="AlignTop" rotation="0" y="-9.5" Halignment="AlignLeft" keep_visual_rotation="false" x="2.75" text_width="-1" z="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{28905cb6-8848-4bc8-b268-f0976e972306}" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" y1="-20" length2="1.5" x1="0" x2="0" y2="-10" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <terminal y="-20" name="" orientation="n" type="Generic" x="0" uuid="{dc11afe9-eea9-4555-9e85-e8391a698ac8}"/>
+        <terminal y="20" name="" orientation="s" type="Generic" x="0" uuid="{c760ee52-234a-4e9d-9180-fe2356035a4a}"/>
     </description>
 </definition>

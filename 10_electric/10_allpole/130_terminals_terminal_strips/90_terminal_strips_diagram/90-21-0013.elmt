@@ -1,20 +1,25 @@
-<definition version="0.51" width="30" height="80" type="element" hotspot_x="15" link_type="simple" hotspot_y="13">
-    <uuid uuid="{4aea9d8c-0dc6-4be7-b988-7ee87ae439fc}"/>
+<definition width="30" hotspot_y="13" version="0.100.0" link_type="simple" type="element" height="80" hotspot_x="15">
+    <uuid uuid="{32657c9a-70d3-4e90-8b20-40c661f81b97}"/>
     <names>
-        <name lang="fr">Appareil (connexion en haut) - fin</name>
         <name lang="de">Gerät (Anschluss oben) - Ende</name>
+        <name lang="fr">Appareil (connexion en haut) - fin</name>
+        <name lang="cs">Zařízení (připojení shora) – konec</name>
         <name lang="en">Device (connection on top) - end</name>
+        <name lang="hu">Eszköz (felső csatlakozás) záró tag</name>
         <name lang="es">Dispositivo (conexión por encima) final</name>
         <name lang="it">Dispositivo (connessione in alto) finale</name>
-        <name lang="cs">Zařízení (připojení shora) – konec</name>
-        <name lang="hu">Eszköz (felső csatlakozás) záró tag</name>
     </names>
-    <informations/>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <input y="15" text="_" rotation="270" tagg="none" x="0" size="6" rotate="true"/>
-        <input y="60" text="-" rotation="270" tagg="none" x="0" size="9" rotate="true"/>
-        <line length1="1.5" x2="0" length2="1.5" y1="-4" y2="0" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x2="10" y4="60" y1="0" y2="0" x3="10" y3="60" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" closed="false" antialias="false"/>
-        <terminal orientation="n" y="-4" x="0"/>
+        <dynamic_text z="1" text_from="UserText" x="-10" text_width="-1" keep_visual_rotation="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" uuid="{2040cd47-7439-4ba9-8047-bc698bd86b14}" frame="false" y="15" rotation="270">
+            <text>_</text>
+        </dynamic_text>
+        <dynamic_text z="2" text_from="UserText" x="-12.5" text_width="-1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" uuid="{de890c45-24c4-4b33-baab-2204608f3b90}" frame="false" y="60" rotation="270">
+            <text>-</text>
+        </dynamic_text>
+        <line length1="1.5" y2="0" length2="1.5" end1="none" end2="none" x1="0" y1="-4" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="false" y2="0" x4="-10" x1="-10" y3="60" y4="60" y1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x3="10"/>
+        <terminal orientation="n" x="0" name="" type="Generic" uuid="{ccda4bd7-4b52-4c3d-9a3a-bd910349abb6}" y="-4"/>
     </description>
 </definition>

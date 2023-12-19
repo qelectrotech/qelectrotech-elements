@@ -1,5 +1,5 @@
-<definition type="element" width="50" height="50" hotspot_y="25" hotspot_x="25" version="0.70" link_type="simple">
-    <uuid uuid="{366cf72b-d6b8-40d7-af2d-e0d12dad407c}"/>
+<definition link_type="simple" height="50" type="element" hotspot_x="25" hotspot_y="25" width="50" version="0.100.0">
+    <uuid uuid="{002e7d51-794d-4c7d-a23c-4df14de6ff9a}"/>
     <names>
         <name lang="de">selbsttätige Wiedereinschalt-Einrichtung,
 KU-Relais</name>
@@ -8,17 +8,21 @@ Relais de réenclenchement automatique</name>
         <name lang="cs">Zařízení automatického opětného zapínání</name>
         <name lang="en">Device for auto-reclosing; Auto-reclose relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <rect antialias="false" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" x="-20"/>
-        <circle antialias="false" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-18"/>
-        <line antialias="false" x1="15" y1="-15" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-15" y1="5" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="15" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="15" y1="5" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="15" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-15" y1="10" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-5" y1="-10" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <polygon y4="-8" antialias="false" x1="4" y1="-8" x2="4" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-12" x4="4" x3="10" y3="-10"/>
+        <dynamic_text z="1" rotation="0" uuid="{b87838e1-770a-4d90-a505-ecdea3822137}" x="5" y="12.5" text_from="ElementInfo" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="40" rx="0" x="-20" y="-20" ry="0"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-18" y="-15" diameter="10"/>
+        <line x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length2="1.5" antialias="false" y1="-15" x1="15" y2="-5" length1="1.5"/>
+        <line x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length2="1.5" antialias="false" y1="5" x1="-15" y2="15" length1="1.5"/>
+        <line x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length2="1.5" antialias="false" y1="5" x1="15" y2="15" length1="1.5"/>
+        <line x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length2="1.5" antialias="false" y1="10" x1="-15" y2="10" length1="1.5"/>
+        <line x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length2="1.5" antialias="false" y1="-10" x1="-5" y2="-10" length1="1.5"/>
+        <polygon x2="4" y4="-8" x4="4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x3="10" y1="-8" x1="4" y2="-12" y3="-10"/>
     </description>
 </definition>

@@ -1,16 +1,20 @@
-<definition hotspot_x="65" type="element" width="70" hotspot_y="45" version="0.70" height="50" link_type="simple">
-    <uuid uuid="{bfa60c5b-9f75-4e82-a5eb-4c51ce86e38a}"/>
+<definition hotspot_x="65" width="70" height="50" link_type="simple" hotspot_y="45" version="0.100.0" type="element">
+    <uuid uuid="{a6ed8bcc-6894-4108-8392-a86fb4ac0bfc}"/>
     <names>
-        <name lang="fr">Relais à minimum de puissance active</name>
-        <name lang="de">Minimalwirkleistungsrelais</name>
         <name lang="cs">Relé na pokles výkonu</name>
         <name lang="en">Underpower relay</name>
+        <name lang="fr">Relais à minimum de puissance active</name>
+        <name lang="de">Minimalwirkleistungsrelais</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" rotate="true" x="5" tagg="label" y="25"/>
-        <rect width="60" antialias="false" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" height="40"/>
-        <text text="P  &lt;" size="9" x="-42" y="-15"/>
+        <dynamic_text x="5" text_from="ElementInfo" frame="false" y="12.5" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" rotation="0" Valignment="AlignTop" uuid="{35710810-05f5-4e65-a486-f955f057e5e1}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-60" ry="0" antialias="false" y="-40" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="60" height="40"/>
+        <text x="-42" text="P  &lt;" y="-15" color="#000000" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
     </description>
 </definition>

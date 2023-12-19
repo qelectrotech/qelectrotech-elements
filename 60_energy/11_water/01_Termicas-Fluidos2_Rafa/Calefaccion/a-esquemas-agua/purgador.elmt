@@ -1,17 +1,22 @@
-<definition link_type="simple" ic="true" height="30" width="20" version="0.4" hotspot_y="15" type="element" hotspot_x="10">
-<uuid uuid="{02020332-4504-4157-BF95-C3945F51D383}"/><names>
-        <name lang="es">Purgador</name>
-        <name lang="ca">Purgador</name>
+<definition type="element" width="20" height="40" version="0.100.0" hotspot_x="10" hotspot_y="20" link_type="simple">
+    <uuid uuid="{65d645ec-7f1e-46c6-b06d-dddaf4d895d5}"/>
+    <names>
         <name lang="en">Purger</name>
+        <name lang="es">Purgador</name>
         <name lang="fr">Purgeur</name>
+        <name lang="ca">Purgador</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="-8" antialias="true" height="15" width="16" y="-11"/>
-        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none" x2="0" antialias="false" y1="4" x1="0" length1="1.5"/>
-        <text text="V" x="-4" size="9" y="1"/>
-        <input text="_" x="-5" tagg="label" size="4" y="-13.5" rotate="true"/>
-        <terminal x="0" y="10" orientation="s"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-11" width="16" height="15" x="-8"/>
+        <line length2="1.5" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="4" y2="10" end1="none" x1="0" end2="none"/>
+        <text rotation="0" y="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="V" color="#000000" x="-4"/>
+        <dynamic_text uuid="{476e284d-f8cd-491d-b705-9893599dc8ae}" rotation="0" y="-21.5" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" z="4" font="Sans Serif,4,-1,5,25,0,0,0,0,0" frame="false" text_from="ElementInfo" x="-5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{6c8fce75-67a4-41c5-88e2-38dce8906831}" type="Generic" name="" y="10" orientation="s" x="0"/>
     </description>
 </definition>

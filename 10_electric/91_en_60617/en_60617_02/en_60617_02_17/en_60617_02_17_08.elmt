@@ -1,18 +1,22 @@
-<definition hotspot_x="10" version="0.70" height="20" hotspot_y="15" width="20" type="element" link_type="simple">
-    <uuid uuid="{eb96dcaa-5801-465a-9212-619ae538bcd8}"/>
+<definition version="0.100.0" hotspot_x="10" link_type="simple" width="20" hotspot_y="15" type="element" height="20">
+    <uuid uuid="{03330e20-fe2f-4707-bed7-6fd653ac5046}"/>
     <names>
-        <name lang="fr">Analogique</name>
         <name lang="de">analog</name>
         <name lang="es">análogo</name>
         <name lang="cs">Spojité (analogové) signály</name>
         <name lang="en">Analogue</name>
+        <name lang="fr">Analogique</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <arc y="-10" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="0"/>
-        <line x2="-5" y2="-5" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <line x2="5" y2="-5" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5"/>
+        <dynamic_text frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="1" uuid="{b88a2f6b-8039-4879-b217-e4d161a20814}" text_width="-1" Halignment="AlignLeft" x="5" keep_visual_rotation="false" y="2.5" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" width="10" angle="180" x="-5" antialias="true" y="-10" height="10"/>
+        <line x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-5" x1="-5" y1="0" end2="none" end1="none" antialias="false" length1="1.5"/>
+        <line x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-5" x1="5" y1="0" end2="none" end1="none" antialias="false" length1="1.5"/>
     </description>
 </definition>

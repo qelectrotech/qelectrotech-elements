@@ -1,27 +1,31 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="85" version="0.70" width="90" type="element" height="90">
-    <uuid uuid="{c80a6bf5-9811-472e-9088-4f05cc7db35b}"/>
+<definition version="0.100.0" type="element" hotspot_y="85" link_type="simple" hotspot_x="65" width="90" height="90">
+    <uuid uuid="{6630e5bd-e346-4636-938f-3b4479d40968}"/>
     <names>
+        <name lang="en">Induction motor, single-phase, squirrel-cage</name>
+        <name lang="cs">Jednofázový asynchronní motor 
+s kotvou nakrátko s pomocnou/rozběhovou fází</name>
+        <name lang="de">Asynchronmotor, einphasig, mit Käfigläufer,
+Enden für eine Anlaufwicklung herausgeführt</name>
         <name lang="fr">Moteur asynchrone monophasé, à rotor en
 court-circuit et à phase auxiliaire à extrémités
 sorties</name>
-        <name lang="de">Asynchronmotor, einphasig, mit Käfigläufer,
-Enden für eine Anlaufwicklung herausgeführt</name>
-        <name lang="cs">Jednofázový asynchronní motor 
-s kotvou nakrátko s pomocnou/rozběhovou fází</name>
-        <name lang="en">Induction motor, single-phase, squirrel-cage</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-34" y="-32" text="M" size="9"/>
-        <text x="-45" y="-15" text="1" size="9"/>
-        <arc x="-35" start="0" angle="180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-25" start="0" angle="-180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-40" x2="-40" end2="none" antialias="false" y2="-59" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-20" x2="-20" end2="none" antialias="false" y2="-59" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-40" end1="none" length1="1.5" x1="20" x2="-1" end2="none" antialias="false" y2="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="20" x2="-1" end2="none" antialias="false" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{d05dc513-f43d-479d-a496-8ae201d5c671}" z="1" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" x="5" Valignment="AlignTop" text_from="ElementInfo" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-60" y="-60"/>
+        <text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="M" color="#000000" x="-34" y="-32"/>
+        <text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="1" color="#000000" x="-45" y="-15"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" antialias="true" x="-35" width="10" height="5" y="-22.5" start="0"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" antialias="true" x="-25" width="10" height="5" y="-22.5" start="0"/>
+        <line y1="-80" y2="-59" end2="none" x2="-40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" end1="none" x1="-40"/>
+        <line y1="-80" y2="-59" end2="none" x2="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" end1="none" x1="-20"/>
+        <line y1="-40" y2="-40" end2="none" x2="-1" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" end1="none" x1="20"/>
+        <line y1="-20" y2="-20" end2="none" x2="-1" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" end1="none" x1="20"/>
     </description>
 </definition>

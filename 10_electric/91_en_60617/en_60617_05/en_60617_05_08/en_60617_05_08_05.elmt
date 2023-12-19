@@ -1,5 +1,5 @@
-<definition height="60" version="0.70" width="110" hotspot_x="45" type="element" hotspot_y="42" link_type="simple">
-    <uuid uuid="{aab25bf6-776f-44cf-80b1-044325f98c5c}"/>
+<definition type="element" height="60" hotspot_x="45" link_type="simple" width="110" hotspot_y="42" version="0.100.0">
+    <uuid uuid="{89903ca2-1cf2-4268-8650-b8ef4ec50ef6}"/>
     <names>
         <name lang="fr">Électrode de division du faisceau, relié
 intérieurment à la dernière électrode de
@@ -9,14 +9,18 @@ concentration à diaphragme du canon à
         <name lang="cs">Elektroda dělící paprsky</name>
         <name lang="en">Beam-splitting electrode</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="35" rotate="true" size="9" tagg="label" x="65" text="_"/>
-        <line x2="-40" y1="10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" x1="0"/>
-        <rect y="5" height="10" width="20" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x="40"/>
-        <rect y="5" height="10" width="20" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x="0"/>
-        <polygon x2="-20" y1="10" x3="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-10" x1="-20" y3="-10"/>
-        <line x2="30" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-40" x1="30"/>
+        <dynamic_text y="22.5" uuid="{6873948e-16e9-47fb-94fd-2c99d859aa7d}" text_from="ElementInfo" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="65" rotation="0" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" x2="-40" length2="1.5" y2="10" x1="0" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5"/>
+        <rect ry="0" antialias="false" y="5" style="line-style:normal;line-weight:normal;filling:black;color:black" height="10" rx="0" x="40" width="20"/>
+        <rect ry="0" antialias="false" y="5" style="line-style:normal;line-weight:normal;filling:black;color:black" height="10" rx="0" x="0" width="20"/>
+        <polygon antialias="false" x2="-20" y2="-10" x1="-20" y1="10" x3="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" closed="false"/>
+        <line antialias="false" x2="30" length2="1.5" y2="-40" x1="30" y1="-10" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5"/>
     </description>
 </definition>

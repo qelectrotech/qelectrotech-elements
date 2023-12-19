@@ -1,18 +1,22 @@
-<definition hotspot_x="15" type="element" width="30" hotspot_y="25" version="0.70" height="30" link_type="simple">
-    <uuid uuid="{1ff0241f-1ced-43bd-8cc1-d3a91501e4cb}"/>
+<definition type="element" link_type="simple" hotspot_x="15" version="0.100.0" width="30" height="30" hotspot_y="25">
+    <uuid uuid="{98fa64a5-06c3-4f6e-9f19-2c0b72afc656}"/>
     <names>
         <name lang="en">Lamp, general symbol</name>
-        <name lang="fr">Lampe de signalisation, symbole général</name>
-        <name lang="de">Lampe. Leuchtmelder, allgemein</name>
         <name lang="cs">Zdroj světla
     Signální zdroj světla</name>
+        <name lang="fr">Lampe de signalisation, symbole général</name>
+        <name lang="de">Lampe. Leuchtmelder, allgemein</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" rotate="true" x="5" tagg="label" y="25"/>
-        <circle diameter="20" antialias="false" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20"/>
-        <line y1="-3" x1="-7" length2="1.5" antialias="false" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-17" end2="none" end1="none"/>
-        <line y1="-17" x1="-7" length2="1.5" antialias="false" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3" end2="none" end1="none"/>
+        <dynamic_text text_from="ElementInfo" frame="false" Halignment="AlignLeft" uuid="{d0e7c463-470c-40d3-8741-d124b0390eed}" z="1" y="12.5" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" antialias="false" x="-10"/>
+        <line x1="-7" end2="none" y2="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-3" length2="1.5" antialias="false" x2="7"/>
+        <line x1="-7" end2="none" y2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-17" length2="1.5" antialias="false" x2="7"/>
     </description>
 </definition>

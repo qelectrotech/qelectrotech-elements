@@ -1,29 +1,38 @@
-<definition type="element" link_type="master" hotspot_x="28" hotspot_y="24" version="0.5" width="50" height="50">
-<uuid uuid="{8190EFBE-72AC-4065-BD1B-1DD4ABED5057}"/><names>
-        <name lang="en">Relay delay rest</name>
-        <name lang="fr">Relais à mise au repos retardée</name>
+<definition height="50" link_type="master" width="50" hotspot_x="28" hotspot_y="24" type="element" version="0.100.0">
+    <uuid uuid="{41a1949f-04d2-45ce-8e41-6049258f793e}"/>
+    <names>
         <name lang="es">Relé con retardo de apertura</name>
-        <name lang="nl">spoel afvalvertraagd</name>
-        <name lang="hu">Nyugvó (elejtés) késleltetésű relé</name>
-        <name lang="cs">Relé se zpožděným vypnutím</name>
-        <name lang="de">Relais rückfallverzögert</name>
         <name lang="it">Relè ritardato all'apertura</name>
-        <name lang="el">Πηνίο Χρονικού, καθυστέρηση απενεργοποίησης</name>
+        <name lang="de">Relais rückfallverzögert</name>
+        <name lang="hu">Nyugvó (elejtés) késleltetésű relé</name>
+        <name lang="fr">Relais à mise au repos retardée</name>
+        <name lang="en">Relay delay rest</name>
+        <name lang="nl">spoel afvalvertraagd</name>
         <name lang="pl">Przekaźnik działający ze zwłoką przy odwzbudzeniu</name>
+        <name lang="cs">Relé se zpožděným vypnutím</name>
+        <name lang="el">Πηνίο Χρονικού, καθυστέρηση απενεργοποίησης</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-15" y="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" height="20"/>
-        <rect x="-22" y="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" width="7" height="20"/>
-        <line x1="0" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" y2="10"/>
-        <line x1="0" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10"/>
-        <input x="-14" tagg="none" y="18" size="4" text="A2"/>
-        <input x="-14" tagg="none" y="-17" size="4" text="A1"/>
-        <input x="16" tagg="label" y="0.5" size="9" text="_"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <rect height="20" y="-10" ry="0" width="30" x="-15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0"/>
+        <rect height="20" y="-10" ry="0" width="7" x="-22" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" rx="0"/>
+        <line end2="none" length2="1.5" x1="0" y1="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" y2="10" end1="none"/>
+        <line end2="none" length2="1.5" x1="0" y1="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" y2="-10" end1="none"/>
+        <dynamic_text frame="false" text_width="-1" Valignment="AlignTop" y="10" Halignment="AlignLeft" x="-14" uuid="{4846ac27-fc78-4d12-8c72-6af3e41f931d}" font="Sans Serif,4,-1,5,25,0,0,0,0,0" rotation="0" keep_visual_rotation="false" z="5" text_from="UserText">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text frame="false" text_width="-1" Valignment="AlignTop" y="-25" Halignment="AlignLeft" x="-14" uuid="{6bc1733f-fe21-4ee1-b61c-7a1f4765d52f}" font="Sans Serif,4,-1,5,25,0,0,0,0,0" rotation="0" keep_visual_rotation="false" z="6" text_from="UserText">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text frame="false" text_width="-1" Valignment="AlignTop" y="-12" Halignment="AlignLeft" x="16" uuid="{acd52cab-a996-4ce0-b941-303f2ab1edeb}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" keep_visual_rotation="false" z="7" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="" y="-20" x="0" uuid="{31202422-a436-41a2-a34c-fac5d8c6fbbf}" type="Generic" orientation="n"/>
+        <terminal name="" y="20" x="0" uuid="{b24b9fcd-c2c4-4b47-8d3c-1031b8557f0b}" type="Generic" orientation="s"/>
     </description>
 </definition>

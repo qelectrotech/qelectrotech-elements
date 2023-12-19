@@ -1,17 +1,21 @@
-<definition height="50" version="0.70" width="130" hotspot_x="125" type="element" hotspot_y="35" link_type="simple">
-    <uuid uuid="{650c5157-bfa0-4a1d-b4b9-1bd9519b4ed2}"/>
+<definition hotspot_y="35" height="50" version="0.100.0" width="130" link_type="simple" type="element" hotspot_x="125">
+    <uuid uuid="{ec2e6417-bea6-4c25-bac6-926b1fb9c3f0}"/>
     <names>
         <name lang="fr">Électrode de déviation radiale</name>
-        <name lang="de">radiale Ablenkelektrode</name>
         <name lang="cs">Mřížka se sekundární emisí</name>
+        <name lang="de">radiale Ablenkelektrode</name>
         <name lang="en">Grid with secondary emission</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <line x2="-50" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="0"/>
-        <line x2="-120" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="-50"/>
-        <arc y="-30" height="40" width="40" angle="180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-70" start="90"/>
+        <dynamic_text frame="false" x="5" y="2.5" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" uuid="{959a0f26-8920-4616-a0bc-74a9b8e4273b}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-50" end1="none" end2="none" antialias="false" y2="-10" y1="-10" length2="1.5" x1="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line x2="-120" end1="none" end2="none" antialias="false" y2="-10" y1="-10" length2="1.5" x1="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <arc x="-70" height="40" y="-30" angle="180" antialias="true" width="40" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

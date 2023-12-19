@@ -1,23 +1,27 @@
-<definition hotspot_x="15" hotspot_y="6" height="20" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{c008c558-6460-4fae-81d0-4bbe68ceb2ca}"/>
+<definition type="element" hotspot_y="6" width="40" height="20" hotspot_x="15" version="0.100.0" link_type="simple">
+    <uuid uuid="{0eef1422-7999-44b1-859d-d1c7c23b0665}"/>
     <names>
         <name lang="fr">Gâche électrique</name>
-        <name lang="pl">Zamek elektryczny</name>
-        <name lang="cs">Elektrický zámek</name>
         <name lang="ar">قفل كهربائي</name>
-        <name lang="el">Ηλεκτρική κλειδαριά</name>
         <name lang="it">Serratura elettrica</name>
+        <name lang="nl">Electrisch slot</name>
+        <name lang="cs">Elektrický zámek</name>
+        <name lang="el">Ηλεκτρική κλειδαριά</name>
+        <name lang="pl">Zamek elektryczny</name>
         <name lang="de">Türöffner</name>
         <name lang="en">Electric lock</name>
-        <name lang="nl">Electrisch slot</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-16-04</informations>
     <description>
-        <input x="-10" rotate="true" size="9" text="_" y="10.55" tagg="label"/>
-        <polygon y3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" antialias="true" y2="10" x3="10" x2="20" x1="10"/>
-        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" antialias="false" y="0" width="20"/>
-        <arc x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" antialias="true" start="-180" y="3.5" angle="-180" width="5"/>
-        <arc x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" antialias="true" start="-180" y="3.5" angle="-180" width="5"/>
-        <terminal x="0" orientation="n" y="0"/>
+        <dynamic_text rotation="0" uuid="{7c95a883-8eb3-4c4d-ab85-aeae8940bd73}" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="-10" z="1" keep_visual_rotation="false" y="-1.95" Halignment="AlignLeft" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x3="10" y2="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="20" y3="0" y1="10"/>
+        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" height="10" rx="0" x="-10" y="0" ry="0"/>
+        <arc start="-180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="5" x="-5" angle="-180" y="3.5"/>
+        <arc start="-180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="5" x="0" angle="-180" y="3.5"/>
+        <terminal uuid="{629984bb-5839-41cb-a650-89a32d06aab1}" orientation="n" type="Generic" name="" x="0" y="0"/>
     </description>
 </definition>

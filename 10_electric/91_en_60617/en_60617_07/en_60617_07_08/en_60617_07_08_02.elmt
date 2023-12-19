@@ -1,21 +1,25 @@
-<definition link_type="simple" type="element" width="20" hotspot_y="44" height="70" version="0.70" hotspot_x="6">
-    <uuid uuid="{83b5c5be-d193-4d5d-a780-a39c559b7826}"/>
+<definition height="70" link_type="simple" hotspot_x="6" version="0.100.0" width="20" type="element" hotspot_y="44">
+    <uuid uuid="{d66f1129-a568-48f7-b3cb-febe6f1b1e50}"/>
     <names>
         <name lang="fr">Interrupteur de position, contact à ouverture</name>
-        <name lang="de">Endschalter, Öffner</name>
         <name lang="cs">Polohový spínač, vypínací kontakt</name>
+        <name lang="de">Endschalter, Öffner</name>
         <name lang="en">Position switch, break contact</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="0" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-40" length2="1.5"/>
-        <line x2="0" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" length2="1.5"/>
-        <line x2="8" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-23" length2="1.5"/>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="25"/>
-        <line x2="10" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-20" length2="1.5"/>
-        <polygon x2="3" antialias="false" y1="-10" x3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="3" closed="false" y2="-16" y3="-16"/>
-        <terminal orientation="n" x="0" y="-40"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <line length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" antialias="false" y2="-40" y1="-20" x2="0"/>
+        <line length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" antialias="false" y2="20" y1="0" x2="0"/>
+        <line length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" antialias="false" y2="-23" y1="0" x2="8"/>
+        <dynamic_text uuid="{e748a8f2-8a21-428e-9eae-2453b5691f25}" rotation="0" text_from="ElementInfo" x="5" z="4" frame="false" Halignment="AlignLeft" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" antialias="false" y2="-20" y1="-20" x2="10"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="3" antialias="false" y3="-16" closed="false" y2="-16" y1="-10" x3="5" x2="3"/>
+        <terminal uuid="{33b3fba2-bcbd-4feb-93cc-9322d4220819}" orientation="n" x="0" y="-40" type="Generic" name=""/>
+        <terminal uuid="{4ab86927-8eb6-471c-a209-80d08d5d41f6}" orientation="s" x="0" y="20" type="Generic" name=""/>
     </description>
 </definition>

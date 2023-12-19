@@ -1,34 +1,43 @@
-<definition width="90" version="0.3" hotspot_x="20" hotspot_y="30" height="60" type="element" link_type="master">
-<uuid uuid="{9B67FD6A-14B9-4C0D-9EE1-54C568973CDF}"/><names>
+<definition hotspot_x="17" link_type="master" width="40" version="0.100.0" type="element" hotspot_y="29" height="60">
+    <uuid uuid="{8d2cb2c6-1853-46d7-9fe6-5ccc243199be}"/>
+    <names>
+        <name lang="pl">Cewka przekaźnika remanencyjnego</name>
         <name lang="ar">ملف KA  بمحتفظ مغناطيسي</name>
+        <name lang="be">Spoel KA remanent</name>
         <name lang="de">Remanenzrelais</name>
         <name lang="ru">Обмотка</name>
         <name lang="el">Πηνίο με μανδάλωση</name>
+        <name lang="fr">Bobine KA à rémanence</name>
+        <name lang="hu">Tekercs</name>
         <name lang="en">Coil</name>
         <name lang="it">Bobina</name>
-        <name lang="fr">Bobine KA à rémanence</name>
-        <name lang="pl">Cewka przekaźnika remanencyjnego</name>
         <name lang="es">Bobina KA de remanencia</name>
         <name lang="cs">Bistabilní remanentní relé</name>
         <name lang="nl">spoel remanent</name>
-        <name lang="be">Spoel KA remanent</name>
-        <name lang="hu">Tekercs</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="6" x="14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="14" y2="8" x2="20"/>
-        <rect width="28" x="-14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-8" x2="0"/>
-        <input x="2" y="19.3333" size="4" rotate="true" text="A2"/>
-        <input x="2" y="-16.6667" size="4" rotate="true" text="A1"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
-        <input x="30" y="3.3333" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <rect width="6" rx="0" y="-8" antialias="false" x="14" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="16"/>
+        <line y2="8" antialias="true" end1="none" x2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="14" y1="-8" length1="1.5" end2="none"/>
+        <rect width="28" rx="0" y="-8" antialias="false" x="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" height="16"/>
+        <line y2="-8" antialias="false" end1="none" x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-20" length1="1.5" end2="none"/>
+        <dynamic_text rotation="0" y="11.3333" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{5b7c992b-490c-46eb-980a-27ead8dae95c}" frame="false" Valignment="AlignTop" z="5" Halignment="AlignLeft" x="2" keep_visual_rotation="false" text_from="UserText">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text rotation="0" y="-24.6667" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{a4ac1bf2-f279-40d4-801b-f737e2342a5a}" frame="false" Valignment="AlignTop" z="6" Halignment="AlignLeft" x="2" keep_visual_rotation="false" text_from="UserText">
+            <text>A1</text>
+        </dynamic_text>
+        <line y2="20" antialias="false" end1="none" x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="8" length1="1.5" end2="none"/>
+        <dynamic_text rotation="0" y="-9.1667" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{7c112aa3-22c0-443a-a38f-33e246a9c43e}" frame="false" Valignment="AlignTop" z="8" Halignment="AlignLeft" x="30" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-21" uuid="{1e895d38-e4e5-41f2-813e-810e52ecabe8}" x="0" orientation="n" type="Generic" name=""/>
+        <terminal y="21" uuid="{71355a99-be02-4f11-aaf9-fdd7a192a43b}" x="0" orientation="s" type="Generic" name=""/>
     </description>
 </definition>

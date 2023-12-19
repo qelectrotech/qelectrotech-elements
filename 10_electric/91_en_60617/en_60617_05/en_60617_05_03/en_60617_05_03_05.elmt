@@ -1,23 +1,27 @@
-<definition link_type="simple" version="0.70" hotspot_x="15" hotspot_y="44" type="element" height="50" width="30">
-    <uuid uuid="{a6cf6863-e4a7-4a33-bb6c-97d5dd32caa7}"/>
+<definition hotspot_x="15" width="30" hotspot_y="44" link_type="simple" height="50" type="element" version="0.100.0">
+    <uuid uuid="{63470bd4-ed86-490f-8978-0ce5d2a403c6}"/>
     <names>
-        <name lang="fr">Diode tunnel
-Diode Esaki</name>
+        <name lang="cs">Tunelová (esakiho) dioda</name>
         <name lang="de">Tunneldiode
 Esaki-Diode</name>
-        <name lang="cs">Tunelová (esakiho) dioda</name>
         <name lang="en">Tunnel diode; Esaki diode</name>
+        <name lang="fr">Diode tunnel
+Diode Esaki</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-10" y2="-10" antialias="false"/>
-        <line end1="none" end2="none" x1="10" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <terminal orientation="s" y="0" x="0"/>
-        <terminal orientation="n" y="-40" x="0"/>
+        <dynamic_text z="1" Valignment="AlignTop" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" rotation="0" x="5" y="2.5" text_from="ElementInfo" uuid="{73bd84c8-ba29-4ccc-a663-da6a11346add}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x2="0" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" y1="-40" y2="0"/>
+        <line end2="none" x2="10" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" y1="-10" y2="-10"/>
+        <polygon x2="10" y4="-30" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" antialias="false" x3="0" y3="-10" y1="-30" closed="false" y2="-30"/>
+        <line end2="none" x2="-10" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" y1="-15" y2="-10"/>
+        <line end2="none" x2="10" x1="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" y1="-15" y2="-10"/>
+        <terminal name="" orientation="s" x="0" y="0" uuid="{06faaf40-7f72-431c-ba3d-f748d5b79660}" type="Generic"/>
+        <terminal name="" orientation="n" x="0" y="-40" uuid="{fdfd8f63-22a9-4c1f-858c-bbde2eff21f5}" type="Generic"/>
     </description>
 </definition>

@@ -1,29 +1,34 @@
-<definition width="70" version="0.3" hotspot_x="30" hotspot_y="35" height="50" type="element">
-<uuid uuid="{6E3C9C7F-2025-4B69-9227-99BFCAEBDA95}"/><names>
-        <name lang="ar">حسّاس حثّي NO</name>
-        <name lang="el">Επαγωγικός αισθητήρας, ανοικτή επαφή</name>
-        <name lang="en">Inductif sensor  NO</name>
-        <name lang="de">Induktiver Sensor 2-Leiter Schliesser</name>
-        <name lang="it">Sensore induttivo NO</name>
+<definition type="element" hotspot_y="34" width="40" link_type="simple" hotspot_x="25" version="0.100.0" height="50">
+    <uuid uuid="{8fc12ce2-c6dd-4221-9851-aa92242698d8}"/>
+    <names>
         <name lang="fr">Capteur inductif NO</name>
-        <name lang="pl">Czujnik indukcyjny zwierny</name>
-        <name lang="es">Sensor inductivo NA</name>
         <name lang="cs">Indukční snímač NO</name>
+        <name lang="it">Sensore induttivo NO</name>
+        <name lang="es">Sensor inductivo NA</name>
         <name lang="nl">Inductief contact 2 (NO)</name>
+        <name lang="en">Inductif sensor  NO</name>
+        <name lang="el">Επαγωγικός αισθητήρας, ανοικτή επαφή</name>
+        <name lang="de">Induktiver Sensor 2-Leiter Schliesser</name>
+        <name lang="pl">Czujnik indukcyjny zwierny</name>
+        <name lang="ar">حسّاس حثّي NO</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-20" x1="5" y2="0" x2="10" y3="10" x3="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="-12" x1="-2.6875" y2="-12" x2="9.3125"/>
-        <input x="12.75" y="-7" size="9" text="_" tagg="label"/>
-        <text x="-19" y="-15" size="4" text="e"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x1="10" y2="-20" x2="10"/>
-        <text x="-21.6875" y="-15" size="9" text="F"/>
-        <polygon x4="-12.6875" y5="-12" x5="-18.6875" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-12" x1="-18.6875" y2="-18" x2="-12.6875" y3="-12" x3="-6.6875" y4="-6"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" x1="-11.6875" y2="-8" x2="-11.6875"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" x1="-13.6875" y2="-8" x2="-13.6875"/>
-        <terminal x="10" y="-30" orientation="n"/>
-        <terminal x="10" y="10" orientation="s"/>
+        <polygon x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="0" y3="10" antialias="true" x3="10" x1="5" closed="false"/>
+        <line x2="9.3125" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="-12" end1="none" y2="-12" antialias="false" end2="none" x1="-2.6875"/>
+        <dynamic_text y="-19.5" frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="3" text_from="ElementInfo" rotation="0" x="12.75" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" uuid="{be7813c1-bd31-44e6-9e1f-952c284b79af}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text y="-15" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" x="-19" text="e" color="#000000"/>
+        <line x2="10" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" end1="none" y2="-20" antialias="false" end2="none" x1="10"/>
+        <text y="-15" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="-21.6875" text="F" color="#000000"/>
+        <polygon x5="-18.6875" y5="-12" x2="-12.6875" y4="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x4="-12.6875" y2="-18" y3="-12" antialias="true" x3="-6.6875" x1="-18.6875" closed="false"/>
+        <line x2="-11.6875" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" end1="none" y2="-8" antialias="false" end2="none" x1="-11.6875"/>
+        <line x2="-13.6875" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" end1="none" y2="-8" antialias="false" end2="none" x1="-13.6875"/>
+        <terminal type="Generic" y="-30" name="" x="10" orientation="n" uuid="{3fbba6da-07f2-4c19-984b-3e341ed803ab}"/>
+        <terminal type="Generic" y="10" name="" x="10" orientation="s" uuid="{d3cab27c-f7c3-4106-b8c3-8998f31c5921}"/>
     </description>
 </definition>
