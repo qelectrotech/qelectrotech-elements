@@ -1,26 +1,35 @@
-<definition width="20" version="0.4" hotspot_x="15" hotspot_y="15" height="20" link_type="terminal" type="element" ic="true">
-<uuid uuid="{70DF1247-B36D-4B2B-B44E-64EDFF85C45B}"/><names>
-        <name lang="ar">طرف توصيل</name>
-        <name lang="de">Klemme</name>
-        <name lang="ru">Клеммное соединение</name>
-        <name lang="pt">Terminal de combinação</name>
-        <name lang="en">Terminal block</name>
-        <name lang="it">Terminale di unione</name>
-        <name lang="fr">Borne continuité</name>
+<definition hotspot_y="14" type="element" version="0.100.0" hotspot_x="14" link_type="terminal" height="20" width="20">
+    <uuid uuid="{dbf77f10-9cbf-4997-9f1a-f7ba119ab68c}"/>
+    <names>
         <name lang="pl">Zacisk</name>
-        <name lang="es">Terminal de unión</name>
+        <name lang="fr">Borne continuité</name>
         <name lang="nl">klem doorgang</name>
         <name lang="cs">Spojovací svorka</name>
+        <name lang="ru">Клеммное соединение</name>
+        <name lang="pt">Terminal de combinação</name>
         <name lang="hu">Sorkapocs</name>
+        <name lang="it">Terminale di unione</name>
+        <name lang="es">Terminal de unión</name>
+        <name lang="de">Klemme</name>
+        <name lang="en">Terminal block</name>
+        <name lang="ar">طرف توصيل</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="0" y2="-3" x2="0"/>
-        <circle x="-2.5" y="-2.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-3" y2="0" x2="-10"/>
-        <input x="3" y="-8" size="9" rotate="true" text="_" tagg="label"/>
-        <terminal x="0" y="-10" orientation="n"/>
-        <terminal x="-10" y="0" orientation="w"/>
+        <line y1="-10" length2="1.5" x1="0" y2="-3" antialias="false" end2="none" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
+        <circle x="-2.5" y="-2.5" antialias="true" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="0" length2="1.5" x1="-3" y2="0" antialias="false" end2="none" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10"/>
+        <dynamic_text text_from="ElementInfo" frame="false" x="3" y="-20.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop" keep_visual_rotation="false" z="4" uuid="{e31bd007-e627-4718-ad8d-4d4923f53e7b}" Halignment="AlignLeft" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" x="0" y="-10" orientation="n" uuid="{6a11de07-9015-49bf-9574-1ed07b2ac68f}" name=""/>
+        <terminal type="Generic" x="-10" y="0" orientation="w" uuid="{7dfdab9a-c843-420c-9298-af774a3bb897}" name=""/>
     </description>
 </definition>

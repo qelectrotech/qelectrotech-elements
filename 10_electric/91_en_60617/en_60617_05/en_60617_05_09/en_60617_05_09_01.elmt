@@ -1,20 +1,24 @@
-<definition type="element" link_type="simple" height="70" width="70" version="0.70" hotspot_x="65" hotspot_y="65">
-    <uuid uuid="{bd15e8db-d80f-4373-8e80-715f6178f1e2}"/>
+<definition hotspot_x="65" hotspot_y="65" version="0.100.0" type="element" width="70" height="70" link_type="simple">
+    <uuid uuid="{add77a49-93af-4c3f-b37c-735a50601414}"/>
     <names>
         <name lang="fr">Ensemble d’un canon à électrons</name>
-        <name lang="de">Elektronenstrahlerzeuger (Elektronenkanone)</name>
         <name lang="cs">Elektronová tryska</name>
         <name lang="en">Electron gun assembly</name>
+        <name lang="de">Elektronenstrahlerzeuger (Elektronenkanone)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" tagg="label" y="15" x="5" rotate="true"/>
-        <arc antialias="true" height="60" width="60" start="180" y="-60" x="-60" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x1="0" y2="-30" length2="1.5" end1="none" length1="1.5" y1="-60" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <line antialias="false" x1="-60" y2="-30" length2="1.5" end1="none" length1="1.5" y1="-60" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-60"/>
-        <line antialias="false" x1="-40" y2="-20" length2="1.5" end1="none" length1="1.5" y1="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20"/>
-        <line antialias="false" x1="-20" y2="-2" length2="1.5" end1="none" length1="1.5" y1="-35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20"/>
-        <line antialias="false" x1="-40" y2="-2" length2="1.5" end1="none" length1="1.5" y1="-35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40"/>
+        <dynamic_text uuid="{f1df115b-e0a0-4c3f-a577-be6d518d253e}" keep_visual_rotation="false" y="2.5" z="1" Halignment="AlignLeft" rotation="0" frame="false" text_width="-1" Valignment="AlignTop" x="5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc y="-60" start="180" angle="180" width="60" antialias="true" height="60" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" x2="0" y2="-30" x1="0" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-60" length2="1.5"/>
+        <line length1="1.5" x2="-60" y2="-30" x1="-60" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-60" length2="1.5"/>
+        <line length1="1.5" x2="-20" y2="-20" x1="-40" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length2="1.5"/>
+        <line length1="1.5" x2="-20" y2="-2" x1="-20" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-35" length2="1.5"/>
+        <line length1="1.5" x2="-40" y2="-2" x1="-40" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-35" length2="1.5"/>
     </description>
 </definition>

@@ -1,28 +1,32 @@
-<definition height="40" version="0.5" width="40" hotspot_x="14" type="element" link_type="simple" hotspot_y="31">
-    <uuid uuid="{d60e3b83-b1fc-4388-9577-601ebb7d1906}"/>
+<definition height="40" version="0.100.0" link_type="simple" hotspot_x="14" hotspot_y="31" width="40" type="element">
+    <uuid uuid="{9f35ce58-50f8-4853-856e-7d663c1eea73}"/>
     <names>
-        <name lang="en">Calibrated valve</name>
-        <name lang="de">Ventil Kalibriert</name>
-        <name lang="pl">Odpowietrznik chwilowy o zadanej wartości</name>
         <name lang="nl">Klep gekalibreerd</name>
-        <name lang="cs">Přesně nastavený ventil</name>
         <name lang="el">Ρυθμιζόμενη βαλβίδα</name>
-        <name lang="it">Valvola tarata</name>
         <name lang="fr">Soupape tarré</name>
         <name lang="ar">صمّام معياري</name>
+        <name lang="de">Ventil Kalibriert</name>
+        <name lang="it">Valvola tarata</name>
+        <name lang="cs">Přesně nastavený ventil</name>
+        <name lang="en">Calibrated valve</name>
+        <name lang="pl">Odpowietrznik chwilowy o zadanej wartości</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="11" tagg="label" y="-13.45" rotate="true" text="_" size="7"/>
-        <line y1="-25" end2="none" length2="1.5" x1="5" end1="none" x2="5" length1="1.5" y2="-18" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-25" end2="none" length2="1.5" x1="0" end1="none" x2="10" length1="1.5" y2="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-13" closed="false" x3="10" x1="0" y3="-13" x2="5" y2="-18" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="2" y="-16" diameter="6" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" end2="none" length2="1.5" x1="5" end1="none" x2="5" length1="1.5" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="3.85" y="-1.15" diameter="2.3" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line y1="0" end2="none" length2="1.5" x1="-10" end1="none" x2="20" length1="1.5" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-10" y="0" orientation="w"/>
-        <terminal x="20" y="0" orientation="e"/>
+        <dynamic_text x="11" y="-23.95" rotation="0" frame="false" uuid="{d2252066-16f9-4752-979b-9ae16cf4b4f1}" text_from="ElementInfo" Valignment="AlignTop" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" font="Sans Serif,7,-1,5,50,0,0,0,0,0" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="5" y2="-18" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-25" length1="1.5" x1="5" antialias="false"/>
+        <line x2="10" y2="-25" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-25" length1="1.5" x1="0" antialias="false"/>
+        <polygon x2="5" x3="10" y2="-18" y3="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" x1="0" closed="false" antialias="true"/>
+        <circle x="2" y="-16" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x2="5" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-10" length1="1.5" x1="5" antialias="false"/>
+        <circle x="3.85" y="-1.15" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x2="20" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5" x1="-10" antialias="false"/>
+        <terminal x="-10" y="0" uuid="{b329d1e9-5d78-4aee-ad8f-f7b59dac2bd7}" name="" type="Generic" orientation="w"/>
+        <terminal x="20" y="0" uuid="{46f4666b-4e3c-4dfd-9b08-5fa9ad6c0060}" name="" type="Generic" orientation="e"/>
     </description>
 </definition>

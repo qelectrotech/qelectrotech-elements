@@ -1,18 +1,23 @@
-<definition width="30" version="0.4" hotspot_x="17" hotspot_y="16" height="30" link_type="simple" type="element" ic="true">
-<uuid uuid="{E48CAF38-F0CE-49E3-94A8-E06879E4FFDB}"/><names>
-        <name lang="es">Canaleta giro</name>
+<definition height="30" hotspot_x="17" hotspot_y="16" type="element" version="0.100.0" link_type="simple" width="30">
+    <uuid uuid="{68b31ba1-4b66-4be2-9a7c-075747672c42}"/>
+    <names>
         <name lang="ca">Canaleta revolta</name>
+        <name lang="es">Canaleta giro</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <arc width="10" x="-11" y="-10" antialias="true" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-90"/>
-        <arc width="20" x="-11" y="-10" antialias="true" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-90"/>
-        <polygon x4="-1" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="0" x1="9" y2="-10" x2="9" y3="-10" x3="-1" y4="-5"/>
-        <polygon x4="-6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="10" x1="-1" y2="10" x2="-11" y3="0" x3="-11" y4="0"/>
-        <input x="2" y="10.5" size="4" rotate="true" text="_" tagg="label"/>
-        <terminal x="1" y="-11" orientation="n"/>
-        <terminal x="6" y="-11" orientation="n"/>
-        <terminal x="-12" y="2" orientation="w"/>
-        <terminal x="-12" y="8" orientation="w"/>
+        <arc height="10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" width="10" x="-11" angle="-90"/>
+        <arc height="20" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" width="20" x="-11" angle="-90"/>
+        <polygon x3="-1" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-5" x2="9" closed="false" antialias="false" y2="-10" y3="-10" x4="-1" x1="9"/>
+        <polygon x3="-11" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="0" x2="-11" closed="false" antialias="false" y2="10" y3="0" x4="-6" x1="-1"/>
+        <dynamic_text text_width="-1" y="2.5" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" uuid="{2e3aa9c7-c2dd-4e10-be92-8787ecd10856}" frame="false" keep_visual_rotation="false" z="5" x="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="" y="-11" type="Generic" uuid="{08f53591-e2e2-47b6-944c-9cfee57fca21}" orientation="n" x="1"/>
+        <terminal name="" y="-11" type="Generic" uuid="{4ea74e4a-0747-48ad-a937-0e173338bec0}" orientation="n" x="6"/>
+        <terminal name="" y="2" type="Generic" uuid="{83d8f64c-0950-4da7-b23a-f4cac59aca7d}" orientation="w" x="-12"/>
+        <terminal name="" y="8" type="Generic" uuid="{18b81ab7-d5a9-48eb-9421-a174118e983f}" orientation="w" x="-12"/>
     </description>
 </definition>

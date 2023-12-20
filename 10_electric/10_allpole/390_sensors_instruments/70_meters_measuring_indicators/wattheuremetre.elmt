@@ -1,23 +1,27 @@
-<definition hotspot_y="4" type="element" height="60" width="40" hotspot_x="10" link_type="simple" version="0.5">
-    <uuid uuid="{2fd8a667-aea7-479c-aadd-2a0b91856e88}"/>
+<definition type="element" hotspot_y="4" height="60" hotspot_x="10" width="40" version="0.100.0" link_type="simple">
+    <uuid uuid="{965dbbef-46c1-4787-96b6-6653687e0d6e}"/>
     <names>
-        <name lang="cs">Činný elektroměr</name>
         <name lang="nl">Watt uur meter</name>
-        <name lang="it">Misuratore di Wh</name>
+        <name lang="pl">Licznik watogodzin</name>
         <name lang="de">Wattstundenzähler</name>
+        <name lang="ar">عدّاد طاقة فعّالة - وات ساعة متر -</name>
         <name lang="el">Μετρητής βατ/ώρα</name>
         <name lang="en">Watt hour meter</name>
         <name lang="fr">Compteur d'énergie active Wattheuremètre</name>
-        <name lang="pl">Licznik watogodzin</name>
-        <name lang="ar">عدّاد طاقة فعّالة - وات ساعة متر -</name>
+        <name lang="cs">Činný elektroměr</name>
+        <name lang="it">Misuratore di Wh</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 08-04-03</informations>
     <description>
-        <input text="_" rotate="true" y="10.5" size="9" x="28" tagg="label"/>
-        <rect height="50" antialias="false" y="0" width="32" x="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-6" y2="14" end1="none" y1="14" x2="26" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="Wh" y="35" size="10" x="0"/>
-        <terminal y="50" orientation="s" x="0"/>
-        <terminal y="50" orientation="s" x="20"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" rotation="0" frame="false" x="28" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_width="-1" y="-2" z="1" uuid="{8db41f30-87c2-4c74-8c12-2279ac0d9412}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" x="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" height="50" rx="0" antialias="false" width="32" y="0"/>
+        <line length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="14" antialias="false" end2="none" x2="26" length2="1.5" x1="-6" y2="14"/>
+        <text rotation="0" text="Wh" color="#000000" x="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" y="35"/>
+        <terminal orientation="s" type="Generic" x="0" name="" y="50" uuid="{3c7e33c5-74b4-43ee-94e1-dd195caf35f8}"/>
+        <terminal orientation="s" type="Generic" x="20" name="" y="50" uuid="{1d64247a-44ce-4c54-9896-3b64f95cf98d}"/>
     </description>
 </definition>

@@ -1,23 +1,27 @@
-<definition type="element" width="50" height="70" hotspot_y="34" hotspot_x="15" version="0.70" link_type="simple">
-    <uuid uuid="{e55bf77d-c60c-41ec-9206-c23476cb499c}"/>
+<definition version="0.100.0" hotspot_y="34" link_type="simple" hotspot_x="15" type="element" height="70" width="50">
+    <uuid uuid="{6f9f2f5b-9c83-4fab-8308-61de6bc8a037}"/>
     <names>
-        <name lang="de">Berührungssensor </name>
         <name lang="fr">Capteur sensible à l'effleurement</name>
-        <name lang="cs">Dotykové čidlo</name>
         <name lang="en">Touch sensor</name>
+        <name lang="cs">Dotykové čidlo</name>
+        <name lang="de">Berührungssensor </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
-        <polygon y4="0" antialias="false" closed="false" y5="-10" x1="0" y1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x4="10" x3="0" x5="0" y3="10"/>
-        <line antialias="false" x1="-4" y1="-6" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="4" y1="-6" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-10" y1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="10" y1="0" x2="30" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <terminal orientation="s" y="30" x="0"/>
-        <terminal orientation="n" y="-30" x="0"/>
+        <dynamic_text text_width="-1" text_from="ElementInfo" y="12.5" uuid="{65a0baaf-84d7-4de8-a648-705a698623a6}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Halignment="AlignLeft" keep_visual_rotation="false" x="5" frame="false" rotation="0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" x1="0" end2="none" y2="-10" end1="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-30"/>
+        <line length2="1.5" antialias="false" x1="0" end2="none" y2="10" end1="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="30"/>
+        <polygon y5="-10" x4="10" antialias="false" x1="0" y2="0" x3="0" x5="0" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="10" y1="-10" closed="false" y4="0"/>
+        <line length2="1.5" antialias="false" x1="-4" end2="none" y2="6" end1="none" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-6"/>
+        <line length2="1.5" antialias="false" x1="4" end2="none" y2="6" end1="none" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-6"/>
+        <line length2="1.5" antialias="false" x1="-10" end2="none" y2="10" end1="none" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-10"/>
+        <line length2="1.5" antialias="false" x1="10" end2="none" y2="0" end1="none" x2="30" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" y1="0"/>
+        <terminal y="30" uuid="{ea390195-a2b4-41aa-a936-0674e6e8ba26}" x="0" type="Generic" orientation="s" name=""/>
+        <terminal y="-30" uuid="{7ee273a4-a5dc-4334-935b-8c33c8022de5}" x="0" type="Generic" orientation="n" name=""/>
     </description>
 </definition>

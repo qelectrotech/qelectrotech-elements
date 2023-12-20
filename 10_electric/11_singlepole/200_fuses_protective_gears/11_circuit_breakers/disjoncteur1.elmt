@@ -1,31 +1,36 @@
-<definition width="20" version="0.4" hotspot_x="8" hotspot_y="24" height="50" link_type="master" type="element">
-<uuid uuid="{7601BB51-E6C1-4E45-9890-0BB52F53B94B}"/><names>
-        <name lang="ar">قاطع</name>
-        <name lang="de">Lastschalter 1P</name>
-        <name lang="ru">Выключатель</name>
-        <name lang="pt">Disjuntor</name>
-        <name lang="en">Circuit-breaker</name>
-        <name lang="it">Sezionatore 1P</name>
-        <name lang="fr">Disjoncteur</name>
+<definition hotspot_y="24" link_type="master" width="20" type="element" hotspot_x="9" version="0.100.0" height="50">
+    <uuid uuid="{fcbb2a52-e284-451d-9c96-dc25d6476fff}"/>
+    <names>
         <name lang="pl">Wyłącznik</name>
-        <name lang="es">Disyuntor</name>
+        <name lang="en">Circuit-breaker</name>
+        <name lang="fr">Disjoncteur</name>
+        <name lang="ar">قاطع</name>
         <name lang="nl">Lastscheider 1</name>
         <name lang="cs">Vypínač</name>
+        <name lang="pt">Disjuntor</name>
+        <name lang="ru">Выключатель</name>
+        <name lang="es">Disyuntor</name>
+        <name lang="de">Lastschalter 1P</name>
+        <name lang="it">Sezionatore 1P</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="2.75" y="3" size="9" text="_" tagg="label"/>
-        <polygon x4="-5" y5="-10" x5="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="0" y2="10" x2="0" y3="-10" x3="-5" y4="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="2" y2="-12" x2="-2"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="2" y2="-8" x2="-2"/>
-        <text x="2" y="-14" size="4" text="1"/>
-        <text x="3" y="18" size="4" text="2"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <dynamic_text keep_visual_rotation="false" z="1" text_from="ElementInfo" text_width="-1" x="2.75" y="-9.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{846981dc-26e0-4a99-a1e5-e04ac132b7f6}" Halignment="AlignLeft" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x2="0" x3="-5" y2="10" x4="-5" y4="-10" x5="-5" antialias="true" closed="false" x1="0" y1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" y5="-10"/>
+        <line x2="0" y2="-10" length2="1.5" antialias="false" end2="none" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5"/>
+        <line x2="-2" y2="-12" length2="1.5" antialias="false" end2="none" x1="2" y1="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5"/>
+        <line x2="-2" y2="-8" length2="1.5" antialias="false" end2="none" x1="2" y1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5"/>
+        <text color="#000000" text="1" x="2" y="-14" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text color="#000000" text="2" x="3" y="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <terminal x="0" y="-20" uuid="{fbb946b7-8863-4e81-b413-27fb71b463f9}" type="Generic" orientation="n" name=""/>
+        <terminal x="0" y="20" uuid="{516d3c16-7cdf-4f7c-924c-43057f71abcf}" type="Generic" orientation="s" name=""/>
     </description>
 </definition>

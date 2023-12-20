@@ -1,21 +1,27 @@
-<definition type="element" width="90" hotspot_x="45" hotspot_y="38" version="0.51" height="80" link_type="simple">
-    <uuid uuid="{fbb87161-8091-479c-b10f-7e1ce905046b}"/>
+<definition hotspot_x="45" type="element" height="80" hotspot_y="39" width="90" link_type="simple" version="0.100.0">
+    <uuid uuid="{528b967e-2bb3-42c8-b520-017e4aec17d3}"/>
     <names>
-        <name lang="de">S7 300 fehlersicherer Kanal 1 Klemme (Anschlüsse)</name>
         <name lang="en">S7 300 failsafe channel 1 terminal (connections)</name>
+        <name lang="de">S7 300 fehlersicherer Kanal 1 Klemme (Anschlüsse)</name>
         <name lang="fr">S7 300 canal de sécurité 1 borne (connexions)</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <text size="6" y="-15" x="-19" text="FAILSAFE"/>
-        <input size="9" y="-8" rotate="true" x="-10" tagg="label" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="27.5" antialias="false" x="-2.5" diameter="5"/>
-        <input size="6" y="21" rotate="true" x="-6" tagg="none" text="2"/>
-        <text size="6" y="-23" x="-32" text="SIEMENS S7 300"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x3="-3" closed="false" y2="30" y3="30" x1="-40" y1="-30" x2="-40"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x3="40" closed="false" y2="30" y3="-30" x1="3" y1="30" x2="40"/>
-        <line style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" end1="none" length2="1.5" end2="none" y2="-30" length1="1.5" x1="-40" y1="-30" x2="40"/>
-        <line style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" end1="none" length2="1.5" end2="none" y2="-14" length1="1.5" x1="40" y1="-14" x2="-40"/>
-        <terminal y="33" x="0" orientation="s"/>
+        <text x="-19" rotation="0" text="FAILSAFE" y="-15" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text x="-10" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" z="2" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" y="-20.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{b6160ed2-0462-4a66-a318-5d67bdb56cf9}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-2.5" y="27.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="5"/>
+        <dynamic_text x="-6" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" z="4" rotation="0" Halignment="AlignLeft" text_from="UserText" y="11" font="Sans Serif,6,-1,5,50,0,0,0,0,0" frame="false" uuid="{c6bcb7d6-0717-41ff-a0f8-bfb4a5987070}">
+            <text>2</text>
+        </dynamic_text>
+        <text x="-32" rotation="0" text="SIEMENS S7 300" y="-23" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <polygon closed="false" x3="-3" x2="-40" y3="30" antialias="false" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x1="-40"/>
+        <polygon closed="false" x3="40" x2="40" y3="-30" antialias="false" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" x1="3"/>
+        <line length1="1.5" length2="1.5" x2="40" end1="none" antialias="false" y1="-30" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none" y2="-30" x1="-40"/>
+        <line length1="1.5" length2="1.5" x2="-40" end1="none" antialias="false" y1="-14" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none" y2="-14" x1="40"/>
+        <terminal x="0" name="" type="Generic" y="33" orientation="s" uuid="{683de2dd-05e0-4e67-9f64-8d4d00d6f53e}"/>
     </description>
 </definition>

@@ -1,5 +1,5 @@
-<definition hotspot_x="65" hotspot_y="65" height="70" link_type="simple" version="0.70" type="element" width="70">
-    <uuid uuid="{8236b959-f71f-4ab4-8236-65bd9c6d30d0}"/>
+<definition link_type="simple" hotspot_x="65" width="70" type="element" hotspot_y="65" height="70" version="0.100.0">
+    <uuid uuid="{6dd67777-6620-4e1f-a8ad-3b0c88cf1489}"/>
     <names>
         <name lang="de">Überstromrelais mit zwei Meßgliedern</name>
         <name lang="fr">Relais à maximum de courant à deux éléments
@@ -8,12 +8,16 @@ de mesure</name>
 s rozsahem nastavení od 5A do 10A</name>
         <name lang="en">Overcurrent relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <rect y="-60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="60" antialias="false"/>
-        <text y="-15" size="9" text="5...10A" x="-48"/>
-        <text y="-40" size="9" text="2 ( I &gt; )" x="-50"/>
+        <dynamic_text x="5" text_from="ElementInfo" keep_visual_rotation="false" rotation="0" uuid="{3f946edf-259c-4508-816c-e213e8f7ea29}" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" frame="false" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-60" antialias="false" width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" height="60" ry="0" rx="0"/>
+        <text x="-48" text="5...10A" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-15" color="#000000"/>
+        <text x="-50" text="2 ( I > )" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-40" color="#000000"/>
     </description>
 </definition>

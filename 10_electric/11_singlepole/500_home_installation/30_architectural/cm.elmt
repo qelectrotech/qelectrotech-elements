@@ -1,17 +1,22 @@
-<definition link_type="simple" height="20" hotspot_x="5" hotspot_y="11" width="10" version="0.5" type="element">
-<uuid uuid="{99C9E881-BC31-48B6-8F8D-4C7FBC49C3CC}"/><names>
-        <name lang="fr">Contact Magnetique</name>
+<definition version="0.100.0" hotspot_y="11" height="20" link_type="simple" width="10" hotspot_x="5" type="element">
+    <uuid uuid="{b0309667-5c19-402d-b183-a00e9a643916}"/>
+    <names>
+        <name lang="cs">Magnetický kontakt</name>
         <name lang="it">Contatto magnetico</name>
+        <name lang="en">Magnetic contact</name>
+        <name lang="fr">Contact Magnetique</name>
+        <name lang="pl">Czujnik kontaktronowy</name>
         <name lang="de">Magnetkontakt</name>
         <name lang="el">Μαγνητική επαφή</name>
-        <name lang="pl">Czujnik kontaktronowy</name>
-        <name lang="en">Magnetic contact</name>
-        <name lang="cs">Magnetický kontakt</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <input x="-31" y="0.5" rotate="true" size="9" text="CM" tagg="label"/>
-        <rect x="-3" y="-6" height="12" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" width="6"/>
-        <terminal x="0" y="-6" orientation="n"/>
+        <dynamic_text text_width="-1" keep_visual_rotation="false" y="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" text_from="ElementInfo" uuid="{3d8f772f-946c-43dd-a077-46940861694f}" rotation="0" Valignment="AlignTop" x="-31" Halignment="AlignLeft" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-6" style="line-style:normal;line-weight:normal;filling:black;color:black" height="12" x="-3" width="6" antialias="false" rx="0" ry="0"/>
+        <terminal orientation="n" y="-6" uuid="{a09ad2ff-647d-4d27-8a12-b240bcb3e06d}" x="0" name="" type="Generic"/>
     </description>
 </definition>

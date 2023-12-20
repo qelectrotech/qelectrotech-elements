@@ -1,23 +1,27 @@
-<definition version="0.5" hotspot_x="20" hotspot_y="14" width="40" height="40" link_type="simple" type="element">
-    <uuid uuid="{61f3c2ac-775e-499f-a691-74b977414e3c}"/>
+<definition type="element" width="40" hotspot_y="14" height="40" hotspot_x="20" version="0.100.0" link_type="simple">
+    <uuid uuid="{05e47b5a-ea20-424e-9469-2961e2a91795}"/>
     <names>
-        <name lang="en">2 ports open directional</name>
         <name lang="es">2 puertos abiertos</name>
-        <name lang="nl">2 P -> A</name>
         <name lang="fr">2 orifices passant</name>
+        <name lang="en">2 ports open directional</name>
+        <name lang="cs">2 otvory otevřené usměrněné</name>
+        <name lang="nl">2 P -> A</name>
         <name lang="pl">2 drogi, otwarty</name>
         <name lang="it">2 porte aperte</name>
-        <name lang="cs">2 otvory otevřené usměrněné</name>
         <name lang="ar">فوهات موصلة 2</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-32" rotate="true" tagg="label" y="0.55" text="_"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-15" y="-10"/>
-        <line antialias="false" x1="-0.05" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-4.925" y1="20.075" end1="none" x2="-0.05"/>
-        <polygon antialias="true" y4="-9.875" x1="0" x4="0" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="-4.875" y1="-9.875" x3="2" x2="-2" y3="-4.875"/>
-        <terminal orientation="n" x="0" y="-10"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" x="-32" frame="false" keep_visual_rotation="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{f32c32dc-fe8d-4493-bc4f-02f85b5390f0}" y="-11.95" z="1" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" width="30" x="-15" antialias="false" height="30" y="-10" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-4.925" end1="none" length2="1.5" y1="20.075" end2="none" antialias="false" x1="-0.05" length1="1.5" x2="-0.05" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y2="-4.875" y1="-9.875" x3="2" antialias="true" x1="0" x2="-2" y4="-9.875" x4="0" y3="-4.875" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <terminal name="" type="Generic" x="0" uuid="{77543f7b-20ff-47b9-8c4f-f96a671faccb}" y="-10" orientation="n"/>
+        <terminal name="" type="Generic" x="0" uuid="{56687748-b7cc-440b-a7a0-168a9fc19d07}" y="20" orientation="s"/>
     </description>
 </definition>

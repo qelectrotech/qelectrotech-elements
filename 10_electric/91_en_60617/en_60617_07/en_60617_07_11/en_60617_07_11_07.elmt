@@ -1,29 +1,33 @@
-<definition link_type="simple" version="0.70" hotspot_x="95" hotspot_y="65" type="element" height="70" width="100">
-    <uuid uuid="{80fa3fa4-4678-4af6-babc-3213794bb7ea}"/>
+<definition width="100" height="70" version="0.100.0" type="element" hotspot_x="95" hotspot_y="65" link_type="simple">
+    <uuid uuid="{35e9dee4-572e-465c-80e2-a2f277c4c9a1}"/>
     <names>
+        <name lang="cs">Čtyřpolohový spínač ručně ovládaný,
+mající čtyři nezávislé obvody</name>
         <name lang="fr">Commutateur multipolaire à quatre positions,
 commande manuelle</name>
+        <name lang="en">Multi-position switch, independent circuits</name>
         <name lang="de">Handbetätigter Schalter mit vier
 Schaltstellungen und vier unabhängigen
 Kontaktpaaren</name>
-        <name lang="cs">Čtyřpolohový spínač ručně ovládaný,
-mající čtyři nezávislé obvody</name>
-        <name lang="en">Multi-position switch, independent circuits</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="25" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-20" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-20" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-40" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-40" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-60" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-60" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-20" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-20" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-90" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-90" y2="-20" antialias="false"/>
-        <line end1="none" end2="none" x1="-90" y1="-30" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="-30" antialias="false"/>
-        <line end1="none" end2="none" x1="-60" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="-20" antialias="false"/>
-        <line end1="none" end2="none" x1="-40" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-40" y2="0" antialias="false"/>
+        <dynamic_text frame="false" x="5" text_from="ElementInfo" Valignment="AlignTop" y="12.5" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" text_width="-1" uuid="{8c106a30-e8d4-4bb4-9f8f-af36d5240137}" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" x2="0" y2="-60" end1="none" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-20" y2="-60" end1="none" antialias="false" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-40" y2="-60" end1="none" antialias="false" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-60" y2="-60" end1="none" antialias="false" x1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-60" y2="0" end1="none" antialias="false" x1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" length2="1.5"/>
+        <line length1="1.5" x2="-20" y2="0" end1="none" antialias="false" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" length2="1.5"/>
+        <line length1="1.5" x2="0" y2="0" end1="none" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" length2="1.5"/>
+        <line length1="1.5" x2="-90" y2="-20" end1="none" antialias="false" x1="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-60" y2="-30" end1="none" antialias="false" x1="-90" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y1="-30" length2="1.5"/>
+        <line length1="1.5" x2="-60" y2="-20" end1="none" antialias="false" x1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" length2="1.5"/>
+        <line length1="1.5" x2="-40" y2="0" end1="none" antialias="false" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" length2="1.5"/>
     </description>
 </definition>

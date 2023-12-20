@@ -1,27 +1,31 @@
-<definition link_type="simple" hotspot_x="81" hotspot_y="180" version="0.70" width="110" type="element" height="200">
-    <uuid uuid="{366e2395-cd20-40a5-9519-9cd3b336b47b}"/>
+<definition hotspot_y="181" height="200" hotspot_x="80" width="110" type="element" version="0.100.0" link_type="simple">
+    <uuid uuid="{a8cf0e58-ae7e-40ae-8dd1-46829811fdbf}"/>
     <names>
+        <name lang="en">Transformer with variable coupling</name>
         <name lang="fr">Transformateur à couplage réglable</name>
         <name lang="de">Transformator mit veränderbarer Kopplung </name>
         <name lang="cs">Transformátor s měnitelnou vazbou</name>
-        <name lang="en">Transformer with variable coupling</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-120" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-150" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-120" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-74" y="-160" text="Form 1 / Forme 1" size="9"/>
-        <circle x="-60" y="-80" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-130" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-140" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-135" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-145" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="5" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-50" end1="none" length1="1.5" x1="-70" x2="10" end2="none" antialias="false" y2="-100" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-96" x4="10" x1="10" x2="6" antialias="false" x3="16" y2="-102" y4="-96" y3="-104" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal x="-30" orientation="s" y="10"/>
-        <terminal x="-30" orientation="n" y="-150"/>
+        <dynamic_text text_width="-1" y="12.5" Halignment="AlignLeft" z="1" uuid="{42270379-7cfe-40a1-9f3a-e8c19dca1eab}" x="5" keep_visual_rotation="false" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" y="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" diameter="60"/>
+        <line y1="-150" x2="-30" antialias="false" y2="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-30" end2="none" length1="1.5" end1="none"/>
+        <text y="-160" x="-74" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="Form 1 / Forme 1" rotation="0"/>
+        <circle antialias="false" y="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" diameter="60"/>
+        <line y1="-20" x2="-30" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-30" end2="none" length1="1.5" end1="none"/>
+        <line y1="-130" x2="-20" antialias="false" y2="-140" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" end2="none" length1="1.5" end1="none"/>
+        <line y1="-135" x2="-20" antialias="false" y2="-145" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" end2="none" length1="1.5" end1="none"/>
+        <line y1="0" x2="-20" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" end2="none" length1="1.5" end1="none"/>
+        <line y1="5" x2="-20" antialias="false" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-40" end2="none" length1="1.5" end1="none"/>
+        <line y1="-50" x2="10" antialias="false" y2="-100" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-70" end2="none" length1="1.5" end1="none"/>
+        <polygon y1="-96" x2="6" antialias="false" y2="-102" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-104" x4="10" x1="10" y4="-96" x3="16"/>
+        <terminal y="10" uuid="{a8115d91-caa5-4970-ae83-b62b8bb5c67b}" x="-30" orientation="s" type="Generic" name=""/>
+        <terminal y="-150" uuid="{239ec5d1-8ce9-4837-bf28-6fce3274fa00}" x="-30" orientation="n" type="Generic" name=""/>
     </description>
 </definition>

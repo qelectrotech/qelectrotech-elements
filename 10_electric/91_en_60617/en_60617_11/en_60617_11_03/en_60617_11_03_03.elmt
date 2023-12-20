@@ -1,19 +1,23 @@
-<definition type="element" width="150" version="0.70" hotspot_y="15" height="30" link_type="simple" hotspot_x="144">
-    <uuid uuid="{a046bcd3-8554-44e2-ad35-082a77c12013}"/>
+<definition version="0.100.0" type="element" hotspot_y="15" height="30" hotspot_x="144" link_type="simple" width="150">
+    <uuid uuid="{d2dde027-a38e-49f8-9ce7-0c73fb91a011}"/>
     <names>
-        <name lang="fr">Ligne aérienne</name>
         <name lang="de">Leiter, oberirdisch,
 Freileitung</name>
         <name lang="cs">Venkovní vedení na podpěrách</name>
         <name lang="en">Overhead line</name>
+        <name lang="fr">Ligne aérienne</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <circle antialias="false" diameter="20" x="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10"/>
-        <terminal x="0" orientation="e" y="0"/>
-        <terminal x="-140" orientation="w" y="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" z="1" text_from="ElementInfo" text_width="-1" x="5" uuid="{f9eebf75-1f57-45d0-841e-75794fa18d6c}" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" x2="-140" end2="none" length2="1.5" y2="0" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x1="0"/>
+        <circle y="-10" diameter="20" x="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal type="Generic" y="0" orientation="e" x="0" uuid="{314fed1d-2234-4309-abb3-6866e2b443ce}" name=""/>
+        <terminal type="Generic" y="0" orientation="w" x="-140" uuid="{5b364afc-1c40-40e5-9ca6-5aecf6531deb}" name=""/>
     </description>
 </definition>

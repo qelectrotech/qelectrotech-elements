@@ -1,17 +1,21 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="65" version="0.70" width="70" type="element" height="70">
-    <uuid uuid="{837f528f-c277-470b-bbea-a1b40318fba8}"/>
+<definition type="element" version="0.100.0" hotspot_x="65" link_type="simple" height="70" hotspot_y="65" width="70">
+    <uuid uuid="{0968c632-9a90-472b-868e-3c202d97fc0a}"/>
     <names>
-        <name lang="fr">Moteur linéaire</name>
+        <name lang="en">Linear motor, general symbol</name>
         <name lang="de">Linearmotor</name>
         <name lang="cs">Lineární motor</name>
-        <name lang="en">Linear motor, general symbol</name>
+        <name lang="fr">Moteur linéaire</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-35" y="-25" text="M" size="9"/>
-        <line y1="-10" end1="none" length1="1.5" x1="-60" x2="0" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" text_width="-1" frame="false" z="1" Valignment="AlignTop" Halignment="AlignLeft" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="12.5" uuid="{2acbda3c-a8d1-4edf-8aff-96eddf8ca78f}" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="60" antialias="false" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60"/>
+        <text rotation="0" text="M" color="#000000" x="-35" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-25"/>
+        <line x1="-60" y1="-10" x2="0" length1="1.5" end2="none" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10"/>
     </description>
 </definition>

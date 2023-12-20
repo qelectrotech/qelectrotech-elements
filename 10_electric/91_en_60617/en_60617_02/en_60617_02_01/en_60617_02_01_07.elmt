@@ -1,18 +1,22 @@
-<definition version="0.70" width="50" hotspot_x="25" type="element" link_type="simple" height="30" hotspot_y="15">
-    <uuid uuid="{c38edb8f-aa58-4602-aa55-1fd62159ae14}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" hotspot_x="25" height="30" hotspot_y="15">
+    <uuid uuid="{2c031566-82f8-4ab1-be53-2b935670f39c}"/>
     <names>
-        <name lang="de">Abschirmung Schirm</name>
         <name lang="fr">Écran Blindage</name>
-        <name lang="es">Blindage de pantalla</name>
-        <name lang="cs">Stínítko, stínění</name>
         <name lang="en">Screen; Shield</name>
+        <name lang="es">Blindage de pantalla</name>
+        <name lang="de">Abschirmung Schirm</name>
+        <name lang="cs">Stínítko, stínění</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" y="15" x="5" text="_" size="9"/>
-        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20" length1="1.5" end2="none" antialias="false" x2="-20" y1="10" y2="-10" end1="none" length2="1.5"/>
-        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20" length1="1.5" end2="none" antialias="false" x2="20" y1="-10" y2="-10" end1="none" length2="1.5"/>
-        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="20" length1="1.5" end2="none" antialias="false" x2="20" y1="-10" y2="10" end1="none" length2="1.5"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="5" z="1" text_from="ElementInfo" rotation="0" y="2.5" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e9e2148b-74d5-404a-aaad-e7cfeb8c8deb}" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" y1="10" length1="1.5" end2="none" x2="-20" length2="1.5" end1="none" y2="-10" x1="-20" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" y1="-10" length1="1.5" end2="none" x2="20" length2="1.5" end1="none" y2="-10" x1="-20" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" y1="-10" length1="1.5" end2="none" x2="20" length2="1.5" end1="none" y2="10" x1="20" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

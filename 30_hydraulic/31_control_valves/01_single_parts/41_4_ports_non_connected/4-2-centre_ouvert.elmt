@@ -1,27 +1,31 @@
-<definition version="0.5" hotspot_x="20" hotspot_y="14" width="40" height="40" link_type="simple" type="element">
-    <uuid uuid="{c946a44d-38df-4aec-9bd3-5eac7ce51275}"/>
+<definition type="element" version="0.100.0" height="40" width="40" hotspot_x="20" hotspot_y="14" link_type="simple">
+    <uuid uuid="{8dc12ff5-550f-42dc-8a6e-08cd864f4656}"/>
     <names>
-        <name lang="en">4 holes - open center</name>
-        <name lang="nl">4 midden open P - T - B - A</name>
-        <name lang="fr">4 orifices centre ouvert</name>
         <name lang="pl">4 otwory, otwarty w położeniu środkowym</name>
+        <name lang="ar">مسارات مركز مفتوح 4</name>
+        <name lang="nl">4 midden open P - T - B - A</name>
         <name lang="it">4 fori - centro aperto</name>
         <name lang="cs">4 otvory - ve středu otevřené</name>
-        <name lang="ar">مسارات مركز مفتوح 4</name>
+        <name lang="en">4 holes - open center</name>
+        <name lang="fr">4 orifices centre ouvert</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-32" rotate="true" tagg="label" y="5.55" text="_"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="10"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="-10" end1="none" x2="-10"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-15" y="-10"/>
-        <circle antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="8.85" y="3.85"/>
-        <circle antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-11.15" y="3.85"/>
-        <line antialias="false" x1="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="-10" end1="none" x2="10"/>
-        <terminal orientation="s" x="10" y="20"/>
-        <terminal orientation="s" x="-10" y="20"/>
-        <terminal orientation="n" x="-10" y="-10"/>
-        <terminal orientation="n" x="10" y="-10"/>
+        <dynamic_text uuid="{5dbeb09e-9e44-46f4-9c2e-5fd5437f7553}" Halignment="AlignLeft" z="1" y="-6.95" text_width="-1" keep_visual_rotation="false" x="-32" rotation="0" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length1="1.5" antialias="false" x1="-10" x2="10" end2="none" length2="1.5" y2="5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" antialias="false" x1="-10" x2="-10" end2="none" length2="1.5" y2="20" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="30" antialias="false" width="30" rx="0" y="-10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15"/>
+        <circle antialias="true" y="3.85" style="line-style:normal;line-weight:normal;filling:black;color:black" x="8.85" diameter="2.3"/>
+        <circle antialias="true" y="3.85" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-11.15" diameter="2.3"/>
+        <line end1="none" length1="1.5" antialias="false" x1="10" x2="10" end2="none" length2="1.5" y2="20" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal type="Generic" name="" uuid="{34f1467b-4ae9-4b59-93bb-4a6eccab820d}" orientation="s" y="20" x="10"/>
+        <terminal type="Generic" name="" uuid="{42bf52cd-1c8b-4490-9ddb-aa6147f6bf73}" orientation="s" y="20" x="-10"/>
+        <terminal type="Generic" name="" uuid="{e5b331db-25a6-461a-ac7f-d0e99f822fc4}" orientation="n" y="-10" x="-10"/>
+        <terminal type="Generic" name="" uuid="{de81c57b-1e2f-4ec5-85de-0621f23d39ed}" orientation="n" y="-10" x="10"/>
     </description>
 </definition>

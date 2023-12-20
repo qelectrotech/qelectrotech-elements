@@ -1,18 +1,22 @@
-<definition hotspot_x="25" version="0.70" height="10" hotspot_y="7" width="50" type="element" link_type="simple">
-    <uuid uuid="{c3c8ee62-90d1-40cf-82d8-1cbcc7cdc57f}"/>
+<definition hotspot_y="7" width="50" version="0.100.0" hotspot_x="25" link_type="simple" height="10" type="element">
+    <uuid uuid="{8465f99c-2b61-4259-bd7a-32bfdaf69773}"/>
     <names>
-        <name lang="fr">Dispositif de blocage</name>
-        <name lang="es">Dispositivo de bloqueo</name>
-        <name lang="de">Blockiereinrichtung</name>
         <name lang="cs">Blokovací zařízení</name>
+        <name lang="fr">Dispositif de blocage</name>
+        <name lang="de">Blockiereinrichtung</name>
         <name lang="en">Blocking device</name>
+        <name lang="es">Dispositivo de bloqueo</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="0" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <rect y="-5" x="0" antialias="false" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="10"/>
+        <dynamic_text rotation="0" uuid="{77e4cb7e-cc99-4ba2-b279-4133c8eda665}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo" y="2.5" text_width="-1" x="5" z="1" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x2="0" antialias="false" x1="-20" end2="none" end1="none" length1="1.5" length2="1.5"/>
+        <rect rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10" height="5" y="-5" x="0"/>
+        <line y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x2="20" antialias="false" x1="10" end2="none" end1="none" length1="1.5" length2="1.5"/>
     </description>
 </definition>

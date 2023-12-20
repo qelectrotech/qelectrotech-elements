@@ -1,5 +1,5 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="42" width="70" hotspot_y="45">
-    <uuid uuid="{d9a3fdcd-fb29-4231-802f-b3baec0f1fc7}"/>
+<definition version="0.100.0" height="50" hotspot_y="45" type="element" hotspot_x="42" width="70" link_type="simple">
+    <uuid uuid="{c1e7d3f8-1a10-484a-a6e7-42a27db801c7}"/>
     <names>
         <name lang="de">Flugplatzfeuer, weiss blitzend, rund strahlend</name>
         <name lang="fr">Feu aéronautique au sol, faisceau
@@ -8,12 +8,16 @@ omnidirectionnel, à éclats, blanc</name>
 bílé, zábleskové, všesměrový svazek</name>
         <name lang="en">Aeronautical ground light, white flashing omni-directional beam</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <rect y="-40" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-35" antialias="false" x="-35" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y5="-30" y1="-30" y2="-30" y3="-40" closed="false" x2="15" antialias="false" x6="25" x5="20" y6="-30" x1="10" x4="20" y4="-40" x3="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text keep_visual_rotation="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{91e87098-0491-4377-bb67-290c0f3e0710}" Valignment="AlignTop" y="12.5" z="1" x="5" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="40" rx="0" antialias="false" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" x="-40" width="40"/>
+        <circle antialias="false" y="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" x="-35"/>
+        <polygon y2="-30" closed="false" x1="10" x4="20" x3="15" x6="25" y1="-30" y4="-40" antialias="false" y6="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="-30" y3="-40" x5="20" x2="15"/>
     </description>
 </definition>

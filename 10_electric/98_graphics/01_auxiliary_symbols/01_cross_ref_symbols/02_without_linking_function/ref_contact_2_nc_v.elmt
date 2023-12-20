@@ -1,21 +1,25 @@
-<definition height="10" hotspot_x="3" width="20" type="element" version="0.5" hotspot_y="1" link_type="simple">
-    <uuid uuid="{4ec6121f-8114-4acd-b662-7d3fa010db40}"/>
+<definition hotspot_y="1" hotspot_x="3" version="0.100.0" width="20" link_type="simple" height="10" type="element">
+    <uuid uuid="{c83c1af7-8a88-436f-b153-fd515b32ced1}"/>
     <names>
-        <name lang="fr">Reference contact NC v</name>
         <name lang="ar">مرجع مُلامس NC (عمودي)</name>
-        <name lang="en">Reference contact NC (vertical)</name>
-        <name lang="it">Rif. contatto NC / (verticale)</name>
-        <name lang="cs">Odkaz kontakt NC (svisle)</name>
-        <name lang="nl">Referentie contact (NC)</name>
-        <name lang="pl">Odsyłacz - zestyk rozwierny (pionowo)</name>
         <name lang="es">Referencia contacto NC vertical</name>
+        <name lang="cs">Odkaz kontakt NC (svisle)</name>
+        <name lang="it">Rif. contatto NC / (verticale)</name>
+        <name lang="en">Reference contact NC (vertical)</name>
+        <name lang="pl">Odsyłacz - zestyk rozwierny (pionowo)</name>
+        <name lang="fr">Reference contact NC v</name>
+        <name lang="nl">Referentie contact (NC)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="2" y1="3" antialias="true" x3="13" y2="5" y3="5" x2="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="2" y1="3" antialias="false" end2="none" y2="4" end1="none" length2="1.5" x2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="5" antialias="false" end2="none" y2="5" end1="none" length2="1.5" x2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="-4" text="/" size="5" y="12.5" tagg="label" rotate="true"/>
+        <polygon y1="3" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="13" x2="10" antialias="true" closed="false" x1="2" y3="5" y2="5"/>
+        <line y1="3" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" antialias="false" length1="1.5" x1="2" length2="1.5" end2="none" end1="none" y2="4"/>
+        <line y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" antialias="false" length1="1.5" x1="0" length2="1.5" end2="none" end1="none" y2="5"/>
+        <dynamic_text z="4" text_width="-1" Valignment="AlignTop" frame="false" keep_visual_rotation="false" uuid="{b762fe92-ca2e-44e5-981d-a6ee669dde85}" text_from="ElementInfo" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-4" y="3" rotation="0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

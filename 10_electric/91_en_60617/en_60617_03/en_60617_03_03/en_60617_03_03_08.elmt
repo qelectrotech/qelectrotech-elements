@@ -1,24 +1,30 @@
-<definition hotspot_x="24" version="0.70" height="30" hotspot_y="15" width="70" type="element" link_type="simple">
-    <uuid uuid="{1988322c-7b04-43ce-8323-4236941b695b}"/>
+<definition link_type="simple" width="70" type="element" version="0.100.0" hotspot_x="24" height="30" hotspot_y="15">
+    <uuid uuid="{8b0f0807-5b8b-4eaf-b580-052738addb54}"/>
     <names>
-        <name lang="fr">Prise et fiche multipolaires, représentation
-unifilaire</name>
         <name lang="de">Buchse und Stecker vielpolig, in einpoliger
 Darstellung</name>
         <name lang="cs">Zásuvka a vidlice, vícepólová</name>
         <name lang="en">Plug and socket, multipole (single-line representation)</name>
+        <name lang="fr">Prise et fiche multipolaires, représentation
+unifilaire</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-3" x="0" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20"/>
-        <line x2="-19" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <arc y="-5" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90"/>
-        <line x2="15" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5"/>
-        <input y="-15" x="10" rotate="true" text="6" size="6" tagg="none"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="0" x="-20" orientation="w"/>
+        <dynamic_text z="1" rotation="0" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{6654b102-de23-41b6-b726-3a69ac34d2df}" y="2.5" frame="false" Valignment="AlignTop" x="5" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="20" style="line-style:normal;line-weight:normal;filling:black;color:black" rx="0" y="-3" ry="0" x="0" antialias="false" height="6"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y2="0" y1="0" antialias="false" x1="20" x2="40"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y2="0" y1="0" antialias="false" x1="-5" x2="-19"/>
+        <arc start="90" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" y="-5" x="-5" antialias="true" height="10"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y2="-10" y1="10" antialias="false" x1="5" x2="15"/>
+        <dynamic_text z="7" rotation="0" text_width="-1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{4916fc4f-c868-411d-b00e-189911abfd68}" y="-25" frame="false" Valignment="AlignTop" x="10" keep_visual_rotation="false" text_from="UserText">
+            <text>6</text>
+        </dynamic_text>
+        <terminal orientation="e" type="Generic" uuid="{bd8fdd90-ed43-4dd6-8593-c41f5adb8a07}" y="0" x="40" name=""/>
+        <terminal orientation="w" type="Generic" uuid="{c8de47d5-a8fb-41cd-9e81-c744ff882064}" y="0" x="-20" name=""/>
     </description>
 </definition>

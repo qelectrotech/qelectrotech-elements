@@ -1,31 +1,36 @@
-<definition width="20" height="60" hotspot_y="29" type="element" link_type="master" version="0.5" hotspot_x="12">
-<uuid uuid="{BC493768-9109-4014-955A-EB2E261B530B}"/><names>
-        <name lang="it">Pulsante (NC)</name>
-        <name lang="pl">Łącznik przyciskowy z powrotem samoczynnym</name>
-        <name lang="cs">Tlačítko (NC)</name>
-        <name lang="ar">زرّ ضاغط (NC)</name>
+<definition type="element" link_type="master" width="20" height="60" hotspot_x="12" hotspot_y="29" version="0.100.0">
+    <uuid uuid="{415ff9a1-72a5-46cb-ab02-fc92cde2bacf}"/>
+    <names>
+        <name lang="fr">Bouton poussoir (NF)</name>
+        <name lang="pt">Botão de pressão (NC)</name>
+        <name lang="en">Push-button (NC)</name>
         <name lang="de">Drucktaster Öffner</name>
         <name lang="ru">Кнопка (НЗ)</name>
-        <name lang="es">Pulsador (NC)</name>
         <name lang="nl">Drukknop (NC)</name>
-        <name lang="fr">Bouton poussoir (NF)</name>
+        <name lang="it">Pulsante (NC)</name>
+        <name lang="ar">زرّ ضاغط (NC)</name>
         <name lang="el">Μπουτόν, κλειστή επαφή</name>
-        <name lang="en">Push-button (NC)</name>
-        <name lang="pt">Botão de pressão (NC)</name>
+        <name lang="es">Pulsador (NC)</name>
+        <name lang="pl">Łącznik przyciskowy z powrotem samoczynnym</name>
+        <name lang="cs">Tlačítko (NC)</name>
     </names>
     <kindInformations>
-        <kindInformation show="1" name="type">commutator</kindInformation>
+        <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x2="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="20" y2="10" x1="5" y1="-10" x3="0" closed="false"/>
-        <line end2="none" end1="none" length2="1.5" x2="6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" length1="1.5" x1="0" y1="-9"/>
-        <line end2="none" end1="none" length2="1.5" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" length1="1.5" x1="0" y1="-20"/>
-        <input y="3" text="_" size="9" tagg="label" x="5.75"/>
-        <line end2="none" end1="none" length2="1.5" x2="3" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0" length1="1.5" x1="-10" y1="0"/>
-        <polygon x4="-7" x2="-10" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="5" y4="5" y2="-5" x1="-7" y1="-5" x3="-10" closed="false"/>
-        <terminal y="-21" orientation="n" x="0"/>
-        <terminal y="21" orientation="s" x="0"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" y1="-10" x2="0" y2="10" antialias="true" closed="false" x3="0" y3="20"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-9" x2="6" length2="1.5" end2="none" y2="-9" end1="none" antialias="false" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-20" x2="0" length2="1.5" end2="none" y2="-9" end1="none" antialias="false" length1="1.5"/>
+        <dynamic_text Valignment="AlignTop" uuid="{b5980ad6-b3a9-4065-898f-00a466feb4c3}" text_from="ElementInfo" x="5.75" Halignment="AlignLeft" y="-9.5" frame="false" z="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" x1="-10" y1="0" x2="3" length2="1.5" end2="none" y2="0" end1="none" antialias="false" length1="1.5"/>
+        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-7" y1="-5" x2="-10" y4="5" y2="-5" antialias="false" closed="false" x3="-10" y3="5" x4="-7"/>
+        <terminal type="Generic" uuid="{449d1623-62ea-4421-ac8d-39d0132706bb}" x="0" name="" y="-21" orientation="n"/>
+        <terminal type="Generic" uuid="{98074d2e-5478-420e-89f6-bba95c713445}" x="0" name="" y="21" orientation="s"/>
     </description>
 </definition>

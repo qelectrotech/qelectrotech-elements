@@ -1,20 +1,24 @@
-<definition link_type="simple" hotspot_x="2" hotspot_y="14" version="0.70" width="20" type="element" height="30">
-    <uuid uuid="{f0180e10-3486-43e0-bdc5-77e5900bf788}"/>
+<definition link_type="simple" hotspot_y="14" type="element" height="30" version="0.100.0" hotspot_x="2" width="20">
+    <uuid uuid="{d8277253-8869-488f-b71b-ec345fb64743}"/>
     <names>
-        <name lang="fr">Enroulement triphasé, en zigzag</name>
-        <name lang="de">Dreiphasenwicklung, Zickzackschaltung</name>
         <name lang="cs">Trojfázové vinutí do lomené hvězdy</name>
+        <name lang="de">Dreiphasenwicklung, Zickzackschaltung</name>
         <name lang="en">Three-phase winding, zigzag or interconnected star</name>
+        <name lang="fr">Enroulement triphasé, en zigzag</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="25" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <line y1="0" end1="none" length1="1.5" x1="10" x2="5" end2="none" antialias="false" y2="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="10" x2="15" end2="none" antialias="false" y2="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="5" end1="none" length1="1.5" x1="5" x2="0" end2="none" antialias="false" y2="2" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="5" end1="none" length1="1.5" x1="15" x2="15" end2="none" antialias="false" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="10" x2="10" end2="none" antialias="false" y2="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-5" end1="none" length1="1.5" x1="10" x2="15" end2="none" antialias="false" y2="-8" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="25" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" rotation="0" uuid="{30400765-d11a-486a-9734-ce1270594c0b}" frame="false" text_from="ElementInfo" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" y2="5" antialias="false" length1="1.5" x1="10" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5"/>
+        <line y1="0" y2="5" antialias="false" length1="1.5" x1="10" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15"/>
+        <line y1="5" y2="2" antialias="false" length1="1.5" x1="5" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
+        <line y1="5" y2="10" antialias="false" length1="1.5" x1="15" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15"/>
+        <line y1="0" y2="-5" antialias="false" length1="1.5" x1="10" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10"/>
+        <line y1="-5" y2="-8" antialias="false" length1="1.5" x1="10" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15"/>
     </description>
 </definition>

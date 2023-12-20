@@ -1,23 +1,27 @@
-<definition hotspot_x="20" hotspot_y="34" height="60" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{8ba6d821-3dde-4f7f-94af-ee121aa648b4}"/>
+<definition link_type="simple" hotspot_y="34" version="0.100.0" height="60" type="element" hotspot_x="20" width="40">
+    <uuid uuid="{e030a073-5b0b-41e5-95c4-c9af9c952c02}"/>
     <names>
-        <name lang="fr">Varheuremètre</name>
-        <name lang="pl">Licznik warogodzin</name>
-        <name lang="cs">Jalový elektroměr</name>
         <name lang="el">Μετρητής αέργου ισχύος (βαρόμετρο)</name>
+        <name lang="fr">Varheuremètre</name>
+        <name lang="cs">Jalový elektroměr</name>
         <name lang="it">Misuratore di varh</name>
-        <name lang="de">Blindverbrauchszähler</name>
         <name lang="en">reactive energy meter</name>
         <name lang="nl">VAr energie meter</name>
+        <name lang="de">Blindverbrauchszähler</name>
+        <name lang="pl">Licznik warogodzin</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="18" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="26" antialias="false" y="-14" width="30"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-22" width="30"/>
-        <text x="-12" size="8" text="varh" y="4"/>
-        <terminal x="0" orientation="s" y="17"/>
-        <terminal x="0" orientation="n" y="-27"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="18" y="-21.95" uuid="{3c1b9392-034f-459a-bc31-b6d14a28bf59}" Halignment="AlignLeft" Valignment="AlignTop" frame="false" text_from="ElementInfo" z="1" rotation="0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-15" antialias="false" y="-14" height="26" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" ry="0"/>
+        <rect x="-15" antialias="false" y="-22" height="8" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" ry="0"/>
+        <text font="Sans Serif,8,-1,5,50,0,0,0,0,0" text="varh" x="-12" y="4" color="#000000" rotation="0"/>
+        <terminal name="" orientation="s" x="0" y="17" uuid="{ec396baa-478e-4542-be68-379905692b0b}" type="Generic"/>
+        <terminal name="" orientation="n" x="0" y="-27" uuid="{cdaa4b9a-60d4-4e61-a587-97710ef0c05f}" type="Generic"/>
     </description>
 </definition>

@@ -1,30 +1,34 @@
-<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="50" hotspot_y="23" type="element">
-    <uuid uuid="{4288f955-7b7d-4baf-858a-5a97c21a5447}"/>
+<definition height="50" version="0.100.0" width="30" type="element" hotspot_x="15" link_type="simple" hotspot_y="23">
+    <uuid uuid="{573af666-84ec-4ea4-9799-7289f65374bc}"/>
     <names>
         <name lang="nl">Contact AC + aarde</name>
-        <name lang="de">Steckdose 3-polig</name>
         <name lang="cs">Zásuvka jednofázová</name>
-        <name lang="pl">Gniazdo wtyczkowe</name>
         <name lang="it">Presa monofase</name>
-        <name lang="ar">مقبس أحادي الوجه</name>
-        <name lang="en">Outlet 3 poles</name>
         <name lang="es">Toma corriente 3P</name>
-        <name lang="fr">PC mono</name>
+        <name lang="en">Outlet 3 poles</name>
+        <name lang="de">Steckdose 3-polig</name>
         <name lang="hu">F + N + PE csatlakozó aljzat</name>
+        <name lang="pl">Gniazdo wtyczkowe</name>
+        <name lang="fr">PC mono</name>
+        <name lang="ar">مقبس أحادي الوجه</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="13" y="-5.45" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7"/>
-        <circle x="-10.0499" antialias="true" y="-10.0499" diameter="20.0998" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="-6" end2="none" x1="-6" end1="none" y2="-14" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8"/>
-        <circle x="-6" antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-2" antialias="true" y="3" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="6" end2="none" x1="6" end1="none" y2="-14" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8"/>
-        <circle x="2" antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-6" y="-15" orientation="n"/>
-        <terminal x="6" y="-15" orientation="n"/>
-        <terminal x="0" y="17" orientation="s"/>
+        <dynamic_text z="1" frame="false" y="-17.95" x="13" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{b32aa86d-a0ab-4e62-8c1f-2b9f769f4861}" Halignment="AlignLeft" Valignment="AlignTop" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" y1="7" length2="1.5" x2="0" end1="none" antialias="false" y2="16" length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-10.0499" x="-10.0499" antialias="true" diameter="20.0998" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-8" length2="1.5" x2="-6" end1="none" antialias="false" y2="-14" length1="1.5" x1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-6" x="-6" antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="3" x="-2" antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-8" length2="1.5" x2="6" end1="none" antialias="false" y2="-14" length1="1.5" x1="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-6" x="2" antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" y="-15" x="-6" orientation="n" type="Generic" uuid="{f1c62a5e-83d1-45c0-a1ab-04493b692ef0}"/>
+        <terminal name="" y="-15" x="6" orientation="n" type="Generic" uuid="{61d4f489-aba7-4727-9538-52228c168b49}"/>
+        <terminal name="" y="17" x="0" orientation="s" type="Generic" uuid="{5c16ffef-011d-48f4-ab20-02a5e3516e06}"/>
     </description>
 </definition>

@@ -1,21 +1,25 @@
-<definition height="30" type="element" width="50" hotspot_y="25" link_type="simple" version="0.70" hotspot_x="45">
-    <uuid uuid="{a6bc24eb-d798-42cf-80d2-6ce19cef92e4}"/>
+<definition height="30" hotspot_x="45" version="0.100.0" hotspot_y="25" link_type="simple" width="50" type="element">
+    <uuid uuid="{281a7985-cae1-4eba-a34c-cd67e4f2b843}"/>
     <names>
+        <name lang="en">Inductor with magnetic core</name>
+        <name lang="cs">Indukční cívka s magnetickým jádrem</name>
         <name lang="fr">Inductance à noyau magnétique</name>
         <name lang="de">Induktivität mit Magnetkern</name>
-        <name lang="cs">Indukční cívka s magnetickým jádrem</name>
-        <name lang="en">Inductor with magnetic core</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" tagg="label" text="_" rotate="true" x="5" size="9"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-15" x="-20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-15" x="-40" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-15" x="-10" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-15" x="-30" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-20" y2="-20" x1="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-40" length1="1.5" length2="1.5" y1="-10" y2="0" x1="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-10" y2="0" x1="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" x="5" Valignment="AlignTop" frame="false" text_from="ElementInfo" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" z="1" uuid="{b4293ceb-7b15-4cb0-b106-a00d039a9a7a}" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc x="-20" height="10" start="180" antialias="true" y="-15" width="10" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-40" height="10" start="180" antialias="true" y="-15" width="10" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-10" height="10" start="180" antialias="true" y="-15" width="10" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-30" height="10" start="180" antialias="true" y="-15" width="10" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-40" length1="1.5" length2="1.5" end2="none" antialias="false" x2="0" y2="-20" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <line x1="-40" length1="1.5" length2="1.5" end2="none" antialias="false" x2="-40" y2="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <line x1="0" length1="1.5" length2="1.5" end2="none" antialias="false" x2="0" y2="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
     </description>
 </definition>

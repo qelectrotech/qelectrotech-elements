@@ -1,38 +1,43 @@
-<definition width="50" version="0.3" hotspot_x="25" hotspot_y="25" height="50" type="element" link_type="master">
-<uuid uuid="{A0235679-F59A-4611-A9B6-E140871EAC44}"/><names>
-        <name lang="ar">قاطع تفاضلي</name>
-        <name lang="de">Kombischalter</name>
+<definition hotspot_x="22" hotspot_y="24" height="50" version="0.100.0" type="element" width="30" link_type="master">
+    <uuid uuid="{17feb825-d460-41e9-9d05-efe3b682ab92}"/>
+    <names>
         <name lang="ru">Дифавтомат</name>
-        <name lang="pt">Disjunctor diferencial</name>
-        <name lang="en">Residual Circuit Breaker with Overload</name>
-        <name lang="it">Disgiuntore differenziale</name>
-        <name lang="fr">Disjoncteur différentiel</name>
         <name lang="pl">Wyłącznik różnicowoprądowy z wbudowanym zabezpieczeniem nadprądowym</name>
-        <name lang="es">Dispositivo diferenciale residual</name>
+        <name lang="it">Disgiuntore differenziale</name>
+        <name lang="de">Kombischalter</name>
         <name lang="cs">Jističochránič</name>
+        <name lang="fr">Disjoncteur différentiel</name>
         <name lang="nl">Aardlekschakelaar</name>
+        <name lang="ar">قاطع تفاضلي</name>
+        <name lang="en">Residual Circuit Breaker with Overload</name>
+        <name lang="pt">Disjunctor diferencial</name>
+        <name lang="es">Dispositivo diferenciale residual</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-14" y="9" size="6" text="I&#x394;"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="2" y2="-8" x2="-2"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="-2" y2="-8" x2="2"/>
-        <input x="1" y="0.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-4" x1="-4" y2="-4" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-4" x1="-8" y2="-8" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-8" x1="-13" y2="-8" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-8" x1="-13" y2="-4" x2="-13"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-4" x1="-16" y2="-4" x2="-13"/>
-        <arc width="5" x="-13" y="-2.5" antialias="true" height="7" style="line-style:normal;line-weight:thin;filling:none;color:black" start="-180" angle="-180"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="1" x1="-8" y2="1" x2="-2"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="1" x1="-16" y2="1" x2="-13"/>
-        <terminal x="0" y="20" orientation="s"/>
-        <terminal x="0" y="-20" orientation="n"/>
+        <text text="IΔ" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="-14" rotation="0" y="9"/>
+        <line x1="2" antialias="true" y1="-12" y2="-8" length1="1.5" end2="none" x2="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="-2" antialias="true" y1="-12" y2="-8" length1="1.5" end2="none" x2="2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" frame="false" z="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="1" uuid="{1b90a82f-14a7-4422-8afc-2d0e03f31a3d}" rotation="0" Valignment="AlignTop" y="-12" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon closed="false" x1="-5" antialias="true" y1="-10" y2="10" x3="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="20"/>
+        <line x1="0" antialias="false" y1="-20" y2="-10" length1="1.5" end2="none" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="-4" antialias="false" y1="-4" y2="-4" length1="1.5" end2="none" x2="-8" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <line x1="-8" antialias="false" y1="-4" y2="-8" length1="1.5" end2="none" x2="-8" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <line x1="-13" antialias="false" y1="-8" y2="-8" length1="1.5" end2="none" x2="-8" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <line x1="-13" antialias="false" y1="-8" y2="-4" length1="1.5" end2="none" x2="-13" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <line x1="-16" antialias="false" y1="-4" y2="-4" length1="1.5" end2="none" x2="-13" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <arc antialias="true" height="7" start="-180" angle="-180" x="-13" width="5" style="line-style:normal;line-weight:thin;filling:none;color:black" y="-2.5"/>
+        <line x1="-8" antialias="false" y1="1" y2="1" length1="1.5" end2="none" x2="-2" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <line x1="-16" antialias="false" y1="1" y2="1" length1="1.5" end2="none" x2="-13" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5"/>
+        <terminal type="Generic" x="0" uuid="{9f617caa-bc65-4bec-b8b2-ed51f7cb705d}" name="" orientation="s" y="20"/>
+        <terminal type="Generic" x="0" uuid="{2a47f7fe-a0ef-4af8-9146-347de3783619}" name="" orientation="n" y="-20"/>
     </description>
 </definition>

@@ -1,16 +1,20 @@
-<definition type="element" width="20" height="20" hotspot_y="10" hotspot_x="10" version="0.70" link_type="simple">
-    <uuid uuid="{cfa74398-85eb-4d6b-9896-66425783acc0}"/>
+<definition height="20" hotspot_x="10" version="0.100.0" type="element" width="20" hotspot_y="10" link_type="simple">
+    <uuid uuid="{1626b913-9664-42f2-b486-1be614bfb2d2}"/>
     <names>
-        <name lang="de">Leistungsschalter-Funktion </name>
-        <name lang="fr">Fonction disjoncteur</name>
         <name lang="cs">Funkce výkonového vypínače</name>
+        <name lang="fr">Fonction disjoncteur</name>
+        <name lang="de">Leistungsschalter-Funktion </name>
         <name lang="en">Circuit breaker function</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="5" y1="-5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="5" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="5" y1="5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line x1="5" length2="1.5" y2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-5" y1="-5" length1="1.5" end1="none" end2="none" antialias="false"/>
+        <line x1="5" length2="1.5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-5" y1="5" length1="1.5" end1="none" end2="none" antialias="false"/>
+        <dynamic_text z="3" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" rotation="0" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" uuid="{521a1b93-d14c-4767-8c28-3d08bd159998}" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

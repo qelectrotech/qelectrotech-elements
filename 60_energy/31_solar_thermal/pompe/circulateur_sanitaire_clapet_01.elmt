@@ -1,29 +1,33 @@
-<definition width="40" hotspot_x="14" type="element" link_type="simple" version="0.5" height="30" hotspot_y="13">
-    <uuid uuid="{6333eed4-3bb0-4c71-955b-bc281cf80990}"/>
+<definition type="element" hotspot_y="13" hotspot_x="14" width="40" link_type="simple" height="30" version="0.100.0">
+    <uuid uuid="{896373ac-c34c-43ba-8e16-76a3bd95de2a}"/>
     <names>
-        <name lang="cs">Sanitární cirkulační pumpa se zvratným uzávěrem</name>
-        <name lang="pl">Pompa cyrkulacyjna CWU z zaworem zwrotnym</name>
-        <name lang="it">Circolatore e valvola</name>
-        <name lang="en">Sanitary pump and valve</name>
-	<name lang="es">Bomba sanitaria y válvula</name>
         <name lang="nl">Pomp met terugslagklep</name>
         <name lang="de">Pumpe mit Rückschlagventil</name>
         <name lang="ar">مضخة صرف صحي بصمّام</name>
         <name lang="fr">Circulateur Sanitaire et clapet</name>
+        <name lang="cs">Sanitární cirkulační pumpa se zvratným uzávěrem</name>
+        <name lang="pl">Pompa cyrkulacyjna CWU z zaworem zwrotnym</name>
+        <name lang="en">Sanitary pump and valve</name>
+        <name lang="es">Bomba sanitaria y válvula</name>
+        <name lang="it">Circolatore e valvola</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="-7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="13" x2="20"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3" x4="8" antialias="false" y1="0" x1="8" x3="13" y3="3" y4="0" x2="13"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="6" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="8" x2="8"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" x4="4" antialias="false" y5="0" y1="0" x1="4" x3="-2" y3="4" y4="0" x2="-2" x5="4"/>
-        <line end2="simple" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" x1="-8" x2="6"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="14" y="-7" x="-7"/>
-        <input tagg="label" size="7" y="-12" x="-11" text="C1"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="20" orientation="e"/>
-        <terminal y="7" x="0" orientation="s"/>
+        <line x2="-7" end2="none" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="-10" y1="0" end1="none" length2="1.5"/>
+        <line x2="20" end2="none" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="13" y1="0" end1="none" length2="1.5"/>
+        <polygon x4="8" x2="13" y3="3" y4="0" y2="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="13" x1="8" y1="0"/>
+        <line x2="8" end2="none" y2="6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="8" y1="-5" end1="none" length2="1.5"/>
+        <polygon x4="4" x2="-2" x5="4" y3="4" y4="0" y2="-4" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-2" x1="4" y1="0" y5="0"/>
+        <line x2="6" end2="simple" y2="10" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" x1="-8" y1="10" end1="none" length2="1.5"/>
+        <circle y="-7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="14" x="-7"/>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" y="-22.5" frame="false" text_from="ElementInfo" font="Sans Serif,7,-1,5,50,0,0,0,0,0" z="8" rotation="0" uuid="{6a908322-fe14-4c7d-b681-1ac1f33b2309}" x="-11">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" y="0" uuid="{2b6ba785-3a20-4939-b62c-fe987297811c}" x="-10" name="" orientation="w"/>
+        <terminal type="Generic" y="0" uuid="{bfcb87dd-2546-4223-95e9-43424b7f2f10}" x="20" name="" orientation="e"/>
+        <terminal type="Generic" y="7" uuid="{a99b6af5-d5c8-46c5-8b86-41aee10dc0ec}" x="0" name="" orientation="s"/>
     </description>
 </definition>

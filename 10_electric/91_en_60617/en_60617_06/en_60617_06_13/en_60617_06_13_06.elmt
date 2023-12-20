@@ -1,26 +1,30 @@
-<definition link_type="simple" type="element" hotspot_x="47" hotspot_y="70" version="0.70" width="110" height="120">
-    <uuid uuid="{175f441c-889b-4096-adb8-c2302814b9cf}"/>
+<definition type="element" width="110" hotspot_x="47" hotspot_y="71" height="120" version="0.100.0" link_type="simple">
+    <uuid uuid="{44fdc01b-fa46-4ee9-8b74-2c299a58b8ce}"/>
     <names>
-        <name lang="de">Stromwandler mit einer Sekundärwicklung. Die
-Sekundärwicklung hat eine Anzapfung.</name>
         <name lang="fr">Transformateur de courant, à un enroulement
 secondaire avec une prise</name>
         <name lang="cs">Transformátor proudu
 s jedním sekundárním vinutím s jednou odbočkou</name>
         <name lang="en">Current transformer with one secondary winding with one tapping</name>
+        <name lang="de">Stromwandler mit einer Sekundärwicklung. Die
+Sekundärwicklung hat eine Anzapfung.</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" x="35" text="_" size="9" y="135" rotate="true"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" x="-20" y="-19" antialias="false"/>
-        <line x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="40" x2="0" end1="none" length1="1.5" y1="-40" antialias="false"/>
-        <text x="-44" text="Form 1 / Forme 1" size="9" y="-50"/>
-        <line x1="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" x2="60" end1="none" length1="1.5" y1="0" antialias="false"/>
-        <line x1="35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" x2="45" end1="none" length1="1.5" y1="10" antialias="false"/>
-        <line x1="40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" x2="50" end1="none" length1="1.5" y1="10" antialias="false"/>
-        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="4" x="11" y="-16" antialias="false"/>
-        <terminal x="-0.125" orientation="s" y="40"/>
-        <terminal x="0" orientation="n" y="-40"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Halignment="AlignLeft" uuid="{f6b37bf9-c483-4a88-8c2d-ff92c19529c9}" keep_visual_rotation="false" Valignment="AlignTop" y="122.5" rotation="0" text_from="ElementInfo" text_width="-1" x="35" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" y="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" x="-20"/>
+        <line end1="none" length1="1.5" length2="1.5" x2="0" y2="40" antialias="false" x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" y="-50" rotation="0" text="Form 1 / Forme 1" x="-44"/>
+        <line end1="none" length1="1.5" length2="1.5" x2="60" y2="0" antialias="false" x1="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
+        <line end1="none" length1="1.5" length2="1.5" x2="45" y2="-10" antialias="false" x1="35" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
+        <line end1="none" length1="1.5" length2="1.5" x2="50" y2="-10" antialias="false" x1="40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
+        <circle antialias="false" y="-16" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="4" x="11"/>
+        <terminal type="Generic" uuid="{eff054c2-7e5e-42f3-b8cf-3a22508e6dad}" y="40" orientation="s" x="-0.125" name=""/>
+        <terminal type="Generic" uuid="{01685c68-0b64-4ed0-bf62-2659010f3a5b}" y="-40" orientation="n" x="0" name=""/>
     </description>
 </definition>

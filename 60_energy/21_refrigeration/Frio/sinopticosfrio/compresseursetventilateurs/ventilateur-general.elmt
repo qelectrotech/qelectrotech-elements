@@ -1,33 +1,37 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{3a743a92-9336-47aa-aabd-b55243645dd7}"/>
+<definition hotspot_x="24" height="40" hotspot_y="20" width="50" link_type="simple" type="element" version="0.100.0">
+    <uuid uuid="{84d44084-d386-4649-9eb0-f4dd7efc0426}"/>
     <names>
-        <name lang="cs">Ventilátor (obecný symbol)</name>
-        <name lang="it">Ventilatore (segno generale)</name>
-        <name lang="pl">Wentylator, symbol ogólny</name>
-        <name lang="en">Fan general</name>
-        <name lang="nl">Ventilator algemeen</name>
-        <name lang="ar">مروحة (رمز عام)</name>
-        <name lang="fr">Ventilateur (général)</name>
         <name lang="el">Ανεμιστήρας, γενικό σύμβολο</name>
+        <name lang="en">Fan general</name>
+        <name lang="pl">Wentylator, symbol ogólny</name>
+        <name lang="ar">مروحة (رمز عام)</name>
+        <name lang="it">Ventilatore (segno generale)</name>
+        <name lang="nl">Ventilator algemeen</name>
+        <name lang="fr">Ventilateur (général)</name>
+        <name lang="cs">Ventilátor (obecný symbol)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="15.55" x="-7" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
-        <arc width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-90" y="-12" x="-7" height="12"/>
-        <arc width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-90" y="0" x="-7" height="12"/>
-        <arc width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-90" y="-5" x="-12" height="12"/>
-        <arc width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-90" y="5" x="-7" height="2"/>
-        <arc width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-90" y="-7" x="-12" height="12"/>
-        <arc width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-90" y="-7" x="-7" height="2"/>
-        <arc width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-90" y="-2" x="-2" height="2"/>
-        <ellipse width="9" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-2.5" x="0" height="5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-13" x1="-7" x2="13"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="13" x1="-7" x2="13"/>
-        <terminal y="0" x="16" orientation="e"/>
-        <terminal y="0" x="-16" orientation="w"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="3.05" uuid="{da7ac59c-6b4b-44a4-b88a-f1655805e831}" text_width="-1" rotation="0" x="-7" z="1" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="30" y="-15" x="-15" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
+        <arc height="12" y="-12" angle="-90" width="12" x="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-90"/>
+        <arc height="12" y="0" angle="-90" width="12" x="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-180"/>
+        <arc height="12" y="-5" angle="-90" width="12" x="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="0"/>
+        <arc height="2" y="5" angle="-90" width="2" x="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-90"/>
+        <arc height="12" y="-7" angle="-90" width="12" x="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="90"/>
+        <arc height="2" y="-7" angle="-90" width="2" x="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-180"/>
+        <arc height="2" y="-2" angle="-90" width="2" x="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="0"/>
+        <ellipse height="5" y="-2.5" width="9" x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line length1="1.5" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-15" x2="-16" antialias="false" y1="0" end1="none" y2="0"/>
+        <line length1="1.5" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" x2="16" antialias="false" y1="0" end1="none" y2="0"/>
+        <line length1="1.5" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" x2="13" antialias="true" y1="-13" end1="none" y2="-7"/>
+        <line length1="1.5" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" x2="13" antialias="true" y1="13" end1="none" y2="7"/>
+        <terminal orientation="e" y="0" uuid="{2b9debd7-7af1-4483-82ea-45c14b2d87fe}" x="16" name="" type="Generic"/>
+        <terminal orientation="w" y="0" uuid="{c6c9604d-3d44-478a-9117-c3e0a960dc4a}" x="-16" name="" type="Generic"/>
     </description>
 </definition>

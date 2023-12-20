@@ -1,16 +1,21 @@
-<definition width="10" version="0.4" hotspot_x="6" hotspot_y="15" height="30" link_type="simple" type="element" ic="true">
-<uuid uuid="{D448DE4C-5989-44DB-AC84-4F6D492E7D98}"/><names>
-        <name lang="es">Sonda de temperatura exterior</name>
-        <name lang="en">Exterior tempeture probe</name>
+<definition hotspot_y="15" height="30" hotspot_x="11" width="20" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{d5956797-bbdc-44af-a6c1-ac695bbd4139}"/>
+    <names>
         <name lang="ca">Sonda temp.exterio</name>
         <name lang="fr">Sonde température extérieur</name>
+        <name lang="es">Sonda de temperatura exterior</name>
+        <name lang="en">Exterior tempeture probe</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <rect width="6.3" x="-4" y="0.181624" antialias="false" height="10.8184" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect width="1.4" x="-0.9" y="-9.83761" antialias="false" height="10.0192" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="-0.5" y="14" size="3" rotation="270" rotate="true" text="PTC_" tagg="label"/>
-        <terminal x="0" y="-10" orientation="n"/>
+        <rect y="0.181624" antialias="false" height="10.8184" width="6.3" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" x="-4" ry="0"/>
+        <rect y="-9.83761" antialias="false" height="10.0192" width="1.4" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" x="-0.9" ry="0"/>
+        <dynamic_text y="14" frame="false" z="3" Valignment="AlignTop" font="Sans Serif,3,-1,5,25,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" uuid="{0bc9ff33-f128-4c71-933f-67a312f1437e}" rotation="270" x="-8" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-10" name="" orientation="n" type="Generic" uuid="{66676a1f-0eca-4104-ab2e-734092badce7}" x="0"/>
     </description>
 </definition>

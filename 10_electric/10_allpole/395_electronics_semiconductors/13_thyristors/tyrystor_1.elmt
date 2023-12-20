@@ -1,24 +1,28 @@
-<definition height="40" version="0.5" link_type="simple" width="20" hotspot_x="10" hotspot_y="24" type="element">
-    <uuid uuid="{102c41aa-e82c-4c4b-8775-2c353159acf6}"/>
+<definition height="40" width="20" hotspot_y="24" version="0.100.0" hotspot_x="10" type="element" link_type="simple">
+    <uuid uuid="{9576c25d-189e-4593-bdfa-e34a64b22a34}"/>
     <names>
-        <name lang="pl">Tyrystor diodowy blokujący wstecznie</name>
-        <name lang="ar">دايود ثايريستور , مكبوح في الإنحياز العكسي</name>
-        <name lang="it">Tiristore diodo bloccato nel senso inverso di conduzione</name>
-        <name lang="en"> Reverse blocking diode thyristor
-</name>
         <name lang="cs">Tyristor s reverzní blokovací diodou</name>
+        <name lang="ar">دايود ثايريستور , مكبوح في الإنحياز العكسي</name>
+        <name lang="pl">Tyrystor diodowy blokujący wstecznie</name>
         <name lang="fr">Diode, thyristor, bloqué en inverse
 </name>
+        <name lang="en"> Reverse blocking diode thyristor
+</name>
         <name lang="nl">Thyristor</name>
+        <name lang="it">Tiristore diodo bloccato nel senso inverso di conduzione</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-04-01</informations>
     <description>
-        <input tagg="label" y="-6.5" size="9" rotate="true" text="_" x="6"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" length1="1.5" antialias="false" end2="none" length2="1.5" x2="5" x1="-5" end1="none" y2="-5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="10"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="true" x3="0" y4="-10" y3="0" x2="5" x1="-5" x4="-5" y2="-10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" end2="none" length2="1.5" x2="5" x1="-5" end1="none" y2="0"/>
-        <terminal y="-20" orientation="n" x="0"/>
-        <terminal y="10" orientation="s" x="0"/>
+        <dynamic_text Halignment="AlignLeft" y="-19" uuid="{d1fe66ab-ae79-4e8e-a07e-702cab0618ad}" text_from="ElementInfo" text_width="-1" rotation="0" frame="false" keep_visual_rotation="false" Valignment="AlignTop" x="6" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-5" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" end1="none" end2="none" x2="5" x1="-5" length2="1.5"/>
+        <line y1="-20" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end1="none" end2="none" x2="0" x1="0" length2="1.5"/>
+        <polygon x3="0" y3="0" y1="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y4="-10" x2="5" x4="-5" x1="-5" closed="false"/>
+        <line y1="0" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end1="none" end2="none" x2="5" x1="-5" length2="1.5"/>
+        <terminal y="-20" uuid="{2d656d2f-7fcf-4f5c-90a6-ab10dfd8cbeb}" orientation="n" x="0" name="" type="Generic"/>
+        <terminal y="10" uuid="{01c17539-68f5-4588-8fb5-e2974ca02835}" orientation="s" x="0" name="" type="Generic"/>
     </description>
 </definition>

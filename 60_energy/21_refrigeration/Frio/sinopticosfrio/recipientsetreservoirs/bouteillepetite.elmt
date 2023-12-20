@@ -1,29 +1,33 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="30" hotspot_y="14">
-    <uuid uuid="{6bbb4b6e-c7e8-47a9-bad1-cb89d81f2212}"/>
+<definition hotspot_y="14" version="0.100.0" width="30" type="element" link_type="simple" height="30" hotspot_x="14">
+    <uuid uuid="{92ff993a-513c-4253-b90d-cdb948ed9485}"/>
     <names>
-        <name lang="cs">Malá láhev</name>
-        <name lang="it">Bottiglia piccola</name>
         <name lang="pl">Mała butla</name>
         <name lang="en">Litle bottle</name>
+        <name lang="it">Bottiglia piccola</name>
         <name lang="nl">Kleine tank</name>
+        <name lang="cs">Malá láhev</name>
+        <name lang="el">Μικρή φιάλη</name>
         <name lang="ar">قارورة صغيرة</name>
         <name lang="fr">Bouteille petite</name>
-        <name lang="el">Μικρή φιάλη</name>
     </names>
+    <elementInformations/>
     <informations>Rotation possible</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-19.45" x="-22" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="7" x1="-7" x2="7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-7" x1="-7" x2="7"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-7" x="5" height="14"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-7" x="-10" height="14"/>
-        <terminal y="7" x="-4" orientation="s"/>
-        <terminal y="-7" x="4" orientation="n"/>
-        <terminal y="7" x="4" orientation="s"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="-4" x="9" orientation="e"/>
-        <terminal y="4" x="9" orientation="e"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="-7" x="-4" orientation="n"/>
+        <dynamic_text z="1" x="-22" text_width="-1" uuid="{d7c3668c-b71c-41a6-87c0-78aaf67cce80}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" y="-31.95" Halignment="AlignLeft" rotation="0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="7" length1="1.5" length2="1.5" x1="-7" end1="none" antialias="false" y1="7" end2="none" y2="7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="7" length1="1.5" length2="1.5" x1="-7" end1="none" antialias="false" y1="-7" end2="none" y2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="5" start="90" antialias="true" width="5" angle="-180" y="-7" height="14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-10" start="-90" antialias="true" width="5" angle="-180" y="-7" height="14" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="-4" name="" uuid="{5e396dae-9b46-4142-bcf7-e74a7688dfa3}" y="7" type="Generic" orientation="s"/>
+        <terminal x="4" name="" uuid="{745dcc30-a304-430c-abe1-188a6277b55a}" y="-7" type="Generic" orientation="n"/>
+        <terminal x="4" name="" uuid="{b7408d0d-afa1-4764-b014-862d1fb1166a}" y="7" type="Generic" orientation="s"/>
+        <terminal x="10" name="" uuid="{38aa0a61-4722-4d6a-af20-1f165bd111c1}" y="0" type="Generic" orientation="e"/>
+        <terminal x="9" name="" uuid="{33e88187-4dae-4376-bfa0-6e9450b7f5c3}" y="-4" type="Generic" orientation="e"/>
+        <terminal x="9" name="" uuid="{9fa15758-6bf1-48cc-9de4-548eeb8e3ee6}" y="4" type="Generic" orientation="e"/>
+        <terminal x="-10" name="" uuid="{c0546f28-345c-43ca-a0f6-cc03436260c6}" y="0" type="Generic" orientation="w"/>
+        <terminal x="-4" name="" uuid="{eb2f543c-07bf-4618-879f-9a438c985c54}" y="-7" type="Generic" orientation="n"/>
     </description>
 </definition>

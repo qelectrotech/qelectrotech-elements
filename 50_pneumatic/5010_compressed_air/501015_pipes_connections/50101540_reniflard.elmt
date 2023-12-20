@@ -1,25 +1,29 @@
-<definition height="30" version="0.5" width="50" hotspot_x="10" type="element" link_type="simple" hotspot_y="24">
-    <uuid uuid="{e70d0373-1d06-4478-9aa7-4eccbf8f7b2e}"/>
+<definition height="30" link_type="simple" width="40" hotspot_x="4" hotspot_y="24" version="0.100.0" type="element">
+    <uuid uuid="{6d9f2b68-45f1-4a80-bbb7-2c43aa4efcb5}"/>
     <names>
+        <name lang="nl">Smoring</name>
         <name lang="en">Air drain</name>
         <name lang="de">Luftablass</name>
-        <name lang="pl">Odpowietrznik chwilowy</name>
         <name lang="cs">Větrací kanál</name>
-        <name lang="nl">Smoring</name>
         <name lang="fr">Reniflard</name>
-        <name lang="it">Scarico d'aria</name>
+        <name lang="pl">Odpowietrznik chwilowy</name>
         <name lang="ar">صرف هواء</name>
+        <name lang="it">Scarico d'aria</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="13.85" y="-1.15" diameter="2.3" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <input x="19" tagg="label" y="-12.45" rotate="true" text="_" size="7"/>
-        <arc x="-7" height="20" width="20" start="45" y="-20" angle="-90" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end2="none" length2="1.5" x1="0" end1="none" x2="30" length1="1.5" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end2="none" length2="1.5" x1="15" end1="none" x2="15" length1="1.5" y2="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="17" height="20" width="20" start="-135" y="-20" angle="-90" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="30" y="0" orientation="e"/>
-        <terminal x="0" y="0" orientation="w"/>
+        <circle y="-1.15" antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="13.85"/>
+        <dynamic_text y="-22.95" font="Sans Serif,7,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" uuid="{6af3cd9c-c556-4b5d-b622-f082d48a6237}" Valignment="AlignTop" z="2" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" x="19" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc y="-20" height="20" width="20" antialias="true" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-7" start="45"/>
+        <line x2="30" length1="1.5" antialias="false" y1="0" y2="0" length2="1.5" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <line x2="15" length1="1.5" antialias="false" y1="0" y2="-20" length2="1.5" end2="none" x1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <arc y="-20" height="20" width="20" antialias="true" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="17" start="-135"/>
+        <terminal y="0" uuid="{69d8733c-e6d5-4fa4-8df4-0281fb54b3d1}" name="" orientation="e" type="Generic" x="30"/>
+        <terminal y="0" uuid="{3cbcaad1-6862-4b22-8710-4c4bb6844f89}" name="" orientation="w" type="Generic" x="0"/>
     </description>
 </definition>

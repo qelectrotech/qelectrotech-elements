@@ -1,20 +1,24 @@
-<definition width="80" height="70" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="65">
-    <uuid uuid="{446aeea8-44cf-41bf-ac25-08810edf95cf}"/>
+<definition hotspot_y="65" height="70" type="element" link_type="simple" width="80" hotspot_x="25" version="0.100.0">
+    <uuid uuid="{c1b4b8df-efc4-48b9-bffe-5405e5143721}"/>
     <names>
         <name lang="de">Wattstundenzähler mit
 Übertragungseinrichtung</name>
-        <name lang="fr">Compteur d'énergie active avec émetteur</name>
-        <name lang="cs">Watthodinový měřič se snímačem</name>
         <name lang="en">Watt-hour meter with transmitter</name>
+        <name lang="cs">Watthodinový měřič se snímačem</name>
+        <name lang="fr">Compteur d'énergie active avec émetteur</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="Wh" x="-8" y="-16"/>
-        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
-        <line y2="-20" length1="1.5" y1="-20" length2="1.5" x1="20" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon y3="-18" y2="-20" y1="-22" x1="34" x2="40" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="34" antialias="false"/>
+        <dynamic_text y="12.5" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" x="5" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" frame="false" uuid="{fac96fad-061f-4983-a40b-287355054faa}" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-40" x="-20" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" ry="0" antialias="false" rx="0"/>
+        <text y="-16" color="#000000" x="-8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text="Wh"/>
+        <rect y="-60" x="-20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" ry="0" antialias="false" rx="0"/>
+        <line end1="none" x2="50" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" y1="-20" antialias="false" length1="1.5" y2="-20" length2="1.5"/>
+        <polygon closed="false" x2="40" y3="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="34" x3="34" y1="-22" antialias="false" y2="-20"/>
     </description>
 </definition>

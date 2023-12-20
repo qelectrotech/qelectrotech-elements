@@ -1,17 +1,21 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="10" width="50" type="element" link_type="simple">
-    <uuid uuid="{0585e84a-da53-4fa9-9fa6-08b7fd334724}"/>
+<definition link_type="simple" hotspot_x="25" type="element" version="0.100.0" hotspot_y="10" height="20" width="50">
+    <uuid uuid="{5469b240-b3d3-4856-b74c-a40fe2bdf210}"/>
     <names>
-        <name lang="fr">Retour automatique</name>
-        <name lang="de">selbsttätiger Rückgang</name>
+        <name lang="en">Automatic return; Return, automatic</name>
         <name lang="es">Retorno automático (sentido de la flecha)</name>
         <name lang="cs">Samočinný návrat</name>
-        <name lang="en">Automatic return; Return, automatic</name>
+        <name lang="fr">Retour automatique</name>
+        <name lang="de">selbsttätiger Rückgang</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <polygon x2="3" y2="5" y1="-5" x3="-3" x4="3" y4="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="0" x1="3"/>
+        <dynamic_text uuid="{92d3ebe1-2039-493a-b471-9a2a443b0186}" text_from="ElementInfo" z="1" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="5" frame="false" keep_visual_rotation="false" Valignment="AlignTop" y="2.5" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" x1="-20" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="20" y2="0" end1="none" length2="1.5" end2="none" length1="1.5" y1="0"/>
+        <polygon antialias="false" x1="3" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" y3="0" closed="false" y2="5" x4="3" y4="-5" x3="-3" y1="-5"/>
     </description>
 </definition>

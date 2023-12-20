@@ -1,20 +1,24 @@
-<definition link_type="simple" version="0.70" hotspot_x="17" hotspot_y="44" type="element" height="50" width="30">
-    <uuid uuid="{7c01af25-7f0b-4dc1-a757-fe45fb346adc}"/>
+<definition width="30" height="50" version="0.100.0" hotspot_y="44" link_type="simple" hotspot_x="17" type="element">
+    <uuid uuid="{a4c75764-703f-4fbe-a555-f7000d61ba8b}"/>
     <names>
-        <name lang="fr">Thyristor triode, type non spécifié</name>
-        <name lang="de">Thyristortriode, allgemein</name>
         <name lang="cs">Triodový tyristor</name>
+        <name lang="de">Thyristortriode, allgemein</name>
         <name lang="en">Triode thyristor, type unspecified</name>
+        <name lang="fr">Thyristor triode, type non spécifié</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="none" x1="-5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-15" y2="-20" antialias="false"/>
-        <terminal orientation="n" y="-40" x="0"/>
-        <terminal orientation="s" y="0" x="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" z="1" x="5" Halignment="AlignLeft" rotation="0" y="2.5" text_from="ElementInfo" uuid="{1aa7a700-f0b7-43cd-b361-5acf7041b7f0}" frame="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" y1="-40" end2="none" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end1="none" length2="1.5" length1="1.5"/>
+        <line x1="-10" y1="-10" end2="none" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" end1="none" length2="1.5" length1="1.5"/>
+        <polygon x1="-10" y1="-30" closed="false" y2="-30" x4="-10" y3="-10" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" y4="-30"/>
+        <line x1="-5" y1="-20" end2="none" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-15" end1="none" length2="1.5" length1="1.5"/>
+        <terminal name="" x="0" y="-40" uuid="{0257a018-e58b-4f03-a7f8-5529e978cf2b}" orientation="n" type="Generic"/>
+        <terminal name="" x="0" y="0" uuid="{04c8fc13-f081-4a3e-8c2b-72f07d1654d7}" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,5 +1,5 @@
-<definition type="element" version="0.70" height="40" link_type="simple" hotspot_x="44" width="100" hotspot_y="8">
-    <uuid uuid="{ccf309be-5603-4fdd-a019-11c9d10bc660}"/>
+<definition width="100" type="element" version="0.100.0" hotspot_x="44" link_type="simple" height="40" hotspot_y="9">
+    <uuid uuid="{4be8441b-e1b8-4aa2-a982-f2d26041ba18}"/>
     <names>
         <name lang="de">Gerader Elektro-Installationskanal, bestehend
 aus zwei Verdrahtungskanal-Systemen, A und
@@ -9,21 +9,25 @@ canalisations A et B</name>
         <name lang="cs">Přímý díl se systémy A a B</name>
         <name lang="en">Straight section consisting of two wiring systems</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" end2="none" y1="10" y2="10" x2="-40" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input rotate="true" y="55" tagg="label" size="9" x="55" text="_"/>
-        <line length1="1.5" end2="none" y1="20" y2="20" x2="-40" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="5" y2="15" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="5" y2="15" x2="50" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="50" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text y="8" size="6" x="-36" text="A"/>
-        <text y="18" size="6" x="-36" text="B"/>
-        <terminal orientation="w" y="10" x="-40"/>
-        <terminal orientation="e" y="10" x="50"/>
-        <terminal orientation="e" y="20" x="50"/>
-        <terminal orientation="w" y="20" x="-40"/>
+        <line y1="10" length1="1.5" y2="10" end1="none" x2="-40" x1="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" uuid="{f67b4629-5525-4dc1-a253-9c4c4a729270}" Halignment="AlignLeft" rotation="0" x="55" z="2" frame="false" keep_visual_rotation="false" y="42.5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="20" length1="1.5" y2="20" end1="none" x2="-40" x1="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line y1="5" length1="1.5" y2="15" end1="none" x2="-40" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line y1="15" length1="1.5" y2="25" end1="none" x2="-40" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line y1="5" length1="1.5" y2="15" end1="none" x2="50" x1="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line y1="15" length1="1.5" y2="25" end1="none" x2="50" x1="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <text text="A" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" x="-36" y="8"/>
+        <text text="B" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" x="-36" y="18"/>
+        <terminal type="Generic" name="" uuid="{a6512aa9-42b0-4b30-a96b-b8d8906ca48a}" x="-40" orientation="w" y="10"/>
+        <terminal type="Generic" name="" uuid="{c338493d-08e3-4761-9a98-72a15d342014}" x="50" orientation="e" y="10"/>
+        <terminal type="Generic" name="" uuid="{73231e95-af0e-4dbc-bb72-560ce54e9b06}" x="50" orientation="e" y="20"/>
+        <terminal type="Generic" name="" uuid="{7135f6dd-0c47-474c-9176-2b48fc1a591f}" x="-40" orientation="w" y="20"/>
     </description>
 </definition>

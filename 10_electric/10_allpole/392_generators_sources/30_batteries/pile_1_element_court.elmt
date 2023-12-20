@@ -1,29 +1,33 @@
-<definition height="30" link_type="simple" type="element" hotspot_y="14" version="0.5" hotspot_x="19" width="40">
-    <uuid uuid="{7d493874-3f26-450d-a29b-23373ef2464d}"/>
+<definition hotspot_x="19" version="0.100.0" width="40" link_type="simple" type="element" hotspot_y="14" height="30">
+    <uuid uuid="{1fb7841a-9a62-44de-8e5f-fa3fb307cae4}"/>
     <names>
         <name lang="fr">Pile 1 élément (court)</name>
-        <name lang="de">Batterie 1 Element</name>
+        <name lang="cs">Baterie 1 článek</name>
         <name lang="it">Batteria (un elemento corto)</name>
         <name lang="es">Bateria 1 elemento, terminales cortos</name>
-        <name lang="ar">بطارية خليّة واحدة (قصيرة)</name>
-        <name lang="be">Batterij een element (kort)</name>
-        <name lang="el">Μπαταρία (1 στοιχείο, κοντό)</name>
-        <name lang="cs">Baterie 1 článek</name>
-        <name lang="en">Battery one element (short)</name>
         <name lang="pl">Ogniwo elektrochemiczne</name>
+        <name lang="be">Batterij een element (kort)</name>
+        <name lang="de">Batterie 1 Element</name>
+        <name lang="en">Battery one element (short)</name>
+        <name lang="el">Μπαταρία (1 στοιχείο, κοντό)</name>
         <name lang="nl">Accu DC</name>
+        <name lang="ar">بطارية خليّة واحدة (قصيرة)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="-15.5" text="_" x="2" rotate="true" size="9" tagg="label"/>
-        <line end1="none" y2="0" antialias="false" x1="10" y1="0" length2="1.5" length1="1.5" x2="3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="0" antialias="false" x1="-3" y1="0" length2="1.5" length1="1.5" x2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="9" antialias="false" x1="-3" y1="-9" length2="1.5" length1="1.5" x2="-3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-6" height="12" x="0" antialias="false" width="3" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <text y="6.6666" text="-" x="6" size="6"/>
-        <text y="6.6666" text="+" x="-11" size="6"/>
-        <terminal y="0" x="11" orientation="e"/>
-        <terminal y="0" x="-11" orientation="w"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="2" y="-28" z="1" uuid="{57f8d49b-c912-45db-972e-eb256e4d277f}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" frame="false" text_width="-1" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" antialias="false" y1="0" x2="3" y2="0" length1="1.5" x1="10" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" antialias="false" y1="0" x2="-10" y2="0" length1="1.5" x1="-3" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" antialias="false" y1="-9" x2="-3" y2="9" length1="1.5" x1="-3" length2="1.5"/>
+        <rect style="line-style:normal;line-weight:normal;filling:black;color:black" ry="0" x="0" y="-6" antialias="false" width="3" rx="0" height="12"/>
+        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="6" y="6.6666" color="#000000" text="-" rotation="0"/>
+        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="-11" y="6.6666" color="#000000" text="+" rotation="0"/>
+        <terminal x="11" y="0" uuid="{251d1923-008f-4d87-aa80-ee7e659ddc8a}" name="" type="Generic" orientation="e"/>
+        <terminal x="-11" y="0" uuid="{fa06f681-7bce-4f3c-80af-ac97d52d932c}" name="" type="Generic" orientation="w"/>
     </description>
 </definition>

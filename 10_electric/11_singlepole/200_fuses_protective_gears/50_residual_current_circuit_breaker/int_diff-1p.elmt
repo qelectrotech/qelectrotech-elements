@@ -1,35 +1,42 @@
-<definition version="0.5" type="element" height="60" link_type="master" hotspot_x="11" hotspot_y="29" width="20">
-<uuid uuid="{77C3C8C4-D90D-419F-B444-B0251D430A54}"/><names>
-        <name lang="ar">مفتاح تفاضلي</name>
+<definition version="0.100.0" hotspot_x="11" hotspot_y="29" link_type="master" height="60" type="element" width="20">
+    <uuid uuid="{a84ddab7-38c2-4df7-bc76-f2cb0776f451}"/>
+    <names>
+        <name lang="ru">УЗО</name>
+        <name lang="es">Interruptor diferencial</name>
+        <name lang="cs">Proudový chránič</name>
+        <name lang="pt">Interruptor diferencial</name>
+        <name lang="it">Interruttore differenziale</name>
         <name lang="pl">Rozłącznik różnicowoprądowy</name>
         <name lang="en">Differential switch</name>
         <name lang="fr">Interrupteur différentiel</name>
-        <name lang="ru">УЗО</name>
-        <name lang="es">Interruptor diferencial</name>
         <name lang="nl">Aardlekschakelaar</name>
-        <name lang="pt">Interruptor diferencial</name>
         <name lang="de">Fehlerstromschutzschalter</name>
-        <name lang="it">Interruttore differenziale</name>
-        <name lang="cs">Proudový chránič</name>
+        <name lang="ar">مفتاح تفاضلي</name>
     </names>
     <kindInformations>
-        <kindInformation show="1" name="type">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y1="-20.464" y2="-12.536" length1="1.5" x1="0" length2="1.5" x2="0" end1="none" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="10" y2="20" length1="1.5" x1="0" length2="1.5" x2="0" end1="none" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" y2="10" length1="1.5" x1="-5" length2="1.5" x2="0" end1="none" end2="none" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="5" y="-3" text="_" tagg="label" size="9"/>
-        <ellipse x="-5" y="13" height="4" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <line y1="0" y2="0" length1="1.5" x1="-8" length2="1.5" x2="-3" end1="none" end2="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line y1="15" y2="15" length1="1.5" x1="-6" length2="1.5" x2="-8" end1="none" end2="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line y1="0" y2="15" length1="1.5" x1="-8" length2="1.5" x2="-8" end1="none" end2="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <input x="9" y="14" text="___mA" tagg="none" rotate="true" size="5"/>
-        <line y1="-12" y2="-12" length1="1.5" x1="-2" length2="1.5" x2="2" end1="none" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-1.25" y="-11.75" diameter="2.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <line end1="none" y1="-20.464" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-12.536" x1="0" end2="none"/>
+        <line end1="none" y1="10" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="20" x1="0" end2="none"/>
+        <line end1="none" y1="-10" length1="1.5" length2="1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="10" x1="-5" end2="none"/>
+        <dynamic_text z="4" frame="false" Valignment="AlignTop" x="5" y="-15.5" rotation="0" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b13b5150-9527-4bec-bda9-8b3e79d1d4f2}" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse x="-5" y="13" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" height="4" width="10"/>
+        <line end1="none" y1="0" length1="1.5" length2="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-3" y2="0" x1="-8" end2="none"/>
+        <line end1="none" y1="15" length1="1.5" length2="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-8" y2="15" x1="-6" end2="none"/>
+        <line end1="none" y1="0" length1="1.5" length2="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-8" y2="15" x1="-8" end2="none"/>
+        <dynamic_text z="9" frame="false" Valignment="AlignTop" x="9" y="4.5" rotation="0" text_width="-1" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" uuid="{dfd24499-4893-4c25-a499-7894e48c2782}" keep_visual_rotation="false" text_from="UserText">
+            <text>___mA</text>
+        </dynamic_text>
+        <line end1="none" y1="-12" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" y2="-12" x1="-2" end2="none"/>
+        <circle x="-1.25" y="-11.75" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2.5"/>
+        <terminal x="0" y="-21" uuid="{11c2e077-c24b-461a-af4f-64ec3c97f5b1}" name="" type="Generic" orientation="n"/>
+        <terminal x="0" y="21" uuid="{75da5075-bcea-49bd-a1e9-132012e8f7ce}" name="" type="Generic" orientation="s"/>
     </description>
 </definition>

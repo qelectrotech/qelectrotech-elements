@@ -1,19 +1,24 @@
-<definition width="30" version="0.3" hotspot_x="10" hotspot_y="10" height="30" type="element" ic="true" link_type="previous_report">
-<uuid uuid="{F65E4975-5D9D-4E79-852C-A0832B3C101E}"/><names>
-        <name lang="ar">مرجع ملف (أفقي)</name>
-        <name lang="en">Reference coil (horizontal)</name>
-        <name lang="it">Riferimento bobina / (orizzontale)</name>
+<definition link_type="previous_report" type="element" hotspot_x="5" height="20" hotspot_y="6" width="10" version="0.100.0">
+    <uuid uuid="{b2847f39-5e77-4d50-8b8e-32e676a2039f}"/>
+    <names>
         <name lang="fr">Reference bobine h</name>
-        <name lang="pl">Odsyłacz - cewka (poziomo)</name>
-        <name lang="cs">Odkaz - cívka (vodorovně)</name>
+        <name lang="ar">مرجع ملف (أفقي)</name>
         <name lang="nl">Referentie vorig spoel</name>
+        <name lang="cs">Odkaz - cívka (vodorovně)</name>
+        <name lang="it">Riferimento bobina / (orizzontale)</name>
+        <name lang="pl">Odsyłacz - cewka (poziomo)</name>
+        <name lang="en">Reference coil (horizontal)</name>
+        <name lang="de">Spule / Referenz (horizontal)</name>
     </names>
     <informations>Author: Computer Shooter
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="3" x1="0" y2="1" x2="0"/>
-        <rect width="6" x="-3" y="3" antialias="false" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="9" x2="0"/>
-        <input x="2" y="5" size="5" rotate="true" text="/"/>
+        <line x2="0" length2="1.5" y2="1" length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="3" end1="none" antialias="false"/>
+        <rect height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-3" ry="0" y="3" width="6" antialias="false" rx="0"/>
+        <line x2="0" length2="1.5" y2="9" length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="8" end1="none" antialias="false"/>
+        <dynamic_text Halignment="AlignLeft" uuid="{33b8ff65-4c02-4e03-af50-883c723f88a3}" text_width="-1" x="2" z="4" frame="false" text_from="ElementInfo" Valignment="AlignTop" y="-4.5" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text>/</text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

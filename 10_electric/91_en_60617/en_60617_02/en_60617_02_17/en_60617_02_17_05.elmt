@@ -1,17 +1,21 @@
-<definition hotspot_x="4" version="0.70" height="30" hotspot_y="14" width="10" type="element" link_type="simple">
-    <uuid uuid="{f60e93f6-ebf9-4c74-93f8-62381735a914}"/>
+<definition width="10" type="element" hotspot_y="14" link_type="simple" version="0.100.0" height="30" hotspot_x="4">
+    <uuid uuid="{f51d4bbc-8058-4e91-8fd6-03000fa8040b}"/>
     <names>
-        <name lang="fr">Indicateur de point de contrôle</name>
-        <name lang="es">Punto de control</name>
-        <name lang="de">Prüfpunkthinweis</name>
         <name lang="cs">Označení zkušebního bodu</name>
+        <name lang="de">Prüfpunkthinweis</name>
+        <name lang="fr">Indicateur de point de contrôle</name>
         <name lang="en">Test point indicator</name>
+        <name lang="es">Punto de control</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="0" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="circle" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="0"/>
-        <terminal y="10" x="0" orientation="s"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" rotation="0" keep_visual_rotation="false" x="5" frame="false" y="2.5" text_from="ElementInfo" Valignment="AlignTop" uuid="{c044bc79-a895-4c0e-891d-7a20e0daca82}" Halignment="AlignLeft" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" end2="circle" y2="-10" antialias="false" y1="10" length2="1.5" length1="1.5" x2="0"/>
+        <terminal orientation="s" type="Generic" x="0" y="10" uuid="{3ea17205-d092-4ad1-9c05-6e1614e60c21}" name=""/>
     </description>
 </definition>

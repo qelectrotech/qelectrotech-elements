@@ -1,34 +1,36 @@
-<definition width="50" version="0.3" hotspot_x="5" hotspot_y="35" height="50" type="element">
-<uuid uuid="{DB438035-65C4-4C55-854C-3A5E635C8476}"/><names>
-        <name lang="ar">مفتاح بوضعين</name>
-        <name lang="de">Wahlschalter 2 Positionen</name>
-        <name lang="ru">Переключатель 2-х позиционный</name>
-        <name lang="pt">Interruptor 2 posições</name>
-        <name lang="el">Διακόπτης 2 θέσεων</name>
+<definition link_type="simple" hotspot_x="4" hotspot_y="34" height="50" width="30" type="element" version="0.100.0">
+    <uuid uuid="{b9d026bd-11e2-483f-be49-8126116d3662}"/>
+    <names>
         <name lang="en">Switch 2 positions</name>
         <name lang="it">Interruttore a 2 posizioni</name>
-        <name lang="fr">Interrupteur 2 positions</name>
-        <name lang="pl">Zestyk przełączny przerwowy</name>
-        <name lang="es">Interruptor 2 posiciones</name>
+        <name lang="de">Wahlschalter 2 Positionen</name>
         <name lang="cs">Dvoupolohový spínač</name>
         <name lang="nl">WisselContact (NC/NO)</name>
+        <name lang="pl">Zestyk przełączny przerwowy</name>
+        <name lang="pt">Interruptor 2 posições</name>
+        <name lang="es">Interruptor 2 posiciones</name>
+        <name lang="ru">Переключатель 2-х позиционный</name>
+        <name lang="fr">Interrupteur 2 positions</name>
+        <name lang="ar">مفتاح بوضعين</name>
+        <name lang="el">Διακόπτης 2 θέσεων</name>
     </names>
-    <kindInformations>
-        <kindInformation show="1" name="type">commutator</kindInformation>
-    </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="22" y="-7" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" x1="9" y2="1" x2="2"/>
-        <circle x="18.5" y="-1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3"/>
-        <circle x="8.5" y="-16.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3"/>
-        <circle x="-1.5" y="-1.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="2" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="2" x1="20" y2="10" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-17" x1="10" y2="-30" x2="10"/>
-        <terminal x="0" y="10" orientation="s"/>
-        <terminal x="20" y="10" orientation="s"/>
-        <terminal x="10" y="-30" orientation="n"/>
+        <dynamic_text uuid="{040a002f-b2d5-4a65-98a9-ede245108678}" z="1" keep_visual_rotation="false" x="22" y="-19.5" rotation="0" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="true" end2="none" x1="9" y1="-13" y2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x2="2" length2="1.5"/>
+        <circle diameter="3" antialias="true" x="18.5" y="-1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="3" antialias="true" x="8.5" y="-16.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="3" antialias="true" x="-1.5" y="-1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" end2="none" x1="0" y1="2" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x2="0" length2="1.5"/>
+        <line antialias="false" end2="none" x1="20" y1="2" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x2="20" length2="1.5"/>
+        <line antialias="false" end2="none" x1="10" y1="-17" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x2="10" length2="1.5"/>
+        <terminal uuid="{af939a2a-63a9-4fd8-8d21-d2b4946e015a}" orientation="s" x="0" y="10" name="" type="Generic"/>
+        <terminal uuid="{24a5e1aa-63e7-43a5-a3ab-2b179e490733}" orientation="s" x="20" y="10" name="" type="Generic"/>
+        <terminal uuid="{b572ce39-b53f-4424-b781-7e8e206984f0}" orientation="n" x="10" y="-30" name="" type="Generic"/>
     </description>
 </definition>

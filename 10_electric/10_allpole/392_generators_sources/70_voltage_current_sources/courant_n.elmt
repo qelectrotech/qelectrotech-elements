@@ -1,27 +1,32 @@
-<definition width="50" version="0.4" hotspot_x="16" hotspot_y="25" height="50" type="element" ic="true">
-<uuid uuid="{B1ED9A1F-2060-4D8D-8A08-5F43BE20EEDC}"/><names>
-        <name lang="ar">مصدر تيّار (جديد)</name>
-        <name lang="de">Stromquelle (neu)</name>
+<definition hotspot_x="15" height="60" version="0.100.0" hotspot_y="29" link_type="simple" type="element" width="30">
+    <uuid uuid="{19af2ddc-135a-4716-9e03-5f9907fd4c78}"/>
+    <names>
         <name lang="ru">Источник тока (новый)</name>
-        <name lang="pt">Fonte de corrente (novo)</name>
-        <name lang="el">Παροχή έντασης (νεο)</name>
-        <name lang="en">Current source (new)</name>
         <name lang="it">Generatore di corrente (nuovo)</name>
-        <name lang="fr">Source de courant (nouveau)</name>
-        <name lang="pl">Źródło prądu (nowy)</name>
-        <name lang="es">Fuente de corriente (nuevo)</name>
+        <name lang="en">Current source (new)</name>
+        <name lang="de">Stromquelle (neu)</name>
         <name lang="nl">Stroombron new</name>
+        <name lang="pl">Źródło prądu (nowy)</name>
+        <name lang="pt">Fonte de corrente (novo)</name>
         <name lang="cs">Zdroj proudu (nový)</name>
+        <name lang="ar">مصدر تيّار (جديد)</name>
+        <name lang="es">Fuente de corriente (nuevo)</name>
+        <name lang="el">Παροχή έντασης (νεο)</name>
+        <name lang="fr">Source de courant (nouveau)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="10" y2="0" x2="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="20" x2="0"/>
-        <circle x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <input x="12.75" y="3" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-19.75" x1="0" y2="-10" x2="0"/>
-        <terminal x="0" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="21" nameHidden="0" number="" name="" orientation="s"/>
+        <line end1="none" antialias="false" x1="10" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="-10" y2="0" length2="1.5"/>
+        <line end1="none" antialias="false" x1="0" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="0" y2="20" length2="1.5"/>
+        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" diameter="20"/>
+        <dynamic_text text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="12.75" uuid="{1fa10a28-dd20-4d33-ab2a-4fd9b75f4234}" keep_visual_rotation="false" z="4" y="-9.5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" antialias="false" x1="0" y1="-19.75" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="0" y2="-10" length2="1.5"/>
+        <terminal x="0" uuid="{005de5e1-f2b0-4876-ab29-af78450e79b6}" type="Generic" y="-21" name="" orientation="n"/>
+        <terminal x="0" uuid="{f36b7f85-bee7-44a7-98fa-0e4d43764b39}" type="Generic" y="21" name="" orientation="s"/>
     </description>
 </definition>

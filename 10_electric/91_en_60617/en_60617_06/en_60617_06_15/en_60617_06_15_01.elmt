@@ -1,5 +1,5 @@
-<definition type="element" link_type="simple" height="30" width="30" version="0.70" hotspot_x="12" hotspot_y="15">
-    <uuid uuid="{1e1da2c3-2f8d-4816-93ee-6470a1dd8215}"/>
+<definition type="element" hotspot_x="12" width="30" link_type="simple" hotspot_y="15" height="30" version="0.100.0">
+    <uuid uuid="{9c386b07-31cd-460d-831d-ba3fa138f7a7}"/>
     <names>
         <name lang="fr">Élément de pile,
 Élément d'accumulateur,
@@ -8,18 +8,22 @@ Batterie pile ou accumulateurs</name>
 Sekundärzelle, -element,
 Batterie von Primär- oder Sekundärzellen,
 Akkumulator</name>
+        <name lang="en">Battery cell</name>
         <name lang="cs">Primární článek,
 Sekundární článek,
 Baterie primárních nebo sekundárních článků</name>
-        <name lang="en">Battery cell</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" tagg="label" y="95" x="25" rotate="true"/>
-        <line antialias="false" x1="-10" y2="0" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <line antialias="false" x1="0" y2="5" length2="1.5" end1="none" length1="1.5" y1="-5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <line antialias="false" x1="5" y2="10" length2="1.5" end1="none" length1="1.5" y1="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5"/>
-        <line antialias="false" x1="5" y2="0" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15"/>
+        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" uuid="{82406e81-daca-40ff-8924-77dcfda8fd58}" frame="false" rotation="0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" x="25" y="82.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" length2="1.5" length1="1.5" y2="0" x1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" end1="none"/>
+        <line antialias="false" length2="1.5" length1="1.5" y2="5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" end2="none" end1="none"/>
+        <line antialias="false" length2="1.5" length1="1.5" y2="10" x1="5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" end2="none" end1="none"/>
+        <line antialias="false" length2="1.5" length1="1.5" y2="0" x1="5" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" end1="none"/>
     </description>
 </definition>

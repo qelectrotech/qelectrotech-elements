@@ -1,22 +1,26 @@
-<definition hotspot_x="34" version="0.70" height="10" hotspot_y="5" width="50" type="element" link_type="simple">
-    <uuid uuid="{8cd700f3-289f-409d-bf1e-03c30d1f70f4}"/>
+<definition link_type="simple" type="element" height="10" hotspot_y="5" width="50" hotspot_x="34" version="0.100.0">
+    <uuid uuid="{3d7cecd4-507a-491a-9709-71b51a115e03}"/>
     <names>
+        <name lang="en">Connecting link, closed</name>
         <name lang="fr">Barrette de connexion, fermée</name>
         <name lang="de">Trennstelle, Lasche geschlossen</name>
         <name lang="cs">Spojka, uzavřená</name>
-        <name lang="en">Connecting link, closed</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <circle y="-3" x="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="6"/>
-        <circle y="-3" x="-23" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="6"/>
-        <line x2="0" y2="-3" y1="-3" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="0" y2="3" y1="3" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="10" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="3"/>
-        <line x2="-30" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-23"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-30" orientation="w"/>
+        <dynamic_text uuid="{e0b036d1-43ef-4a01-8a61-8c5c7b58b1a1}" z="1" Valignment="AlignTop" keep_visual_rotation="false" y="2.5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" rotation="0" frame="false" text_width="-1" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="6" x="-3" antialias="false"/>
+        <circle y="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="6" x="-23" antialias="false"/>
+        <line end1="none" y2="-3" length2="1.5" x1="-20" y1="-3" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" end2="none"/>
+        <line end1="none" y2="3" length2="1.5" x1="-20" y1="3" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" end2="none"/>
+        <line end1="none" y2="0" length2="1.5" x1="3" y1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" end2="none"/>
+        <line end1="none" y2="0" length2="1.5" x1="-23" y1="0" x2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" end2="none"/>
+        <terminal uuid="{701346bc-686e-4518-83c3-18e2ad84f799}" type="Generic" orientation="e" y="0" x="10" name=""/>
+        <terminal uuid="{ab3bcc53-750b-46a5-ad82-c4dd0460c412}" type="Generic" orientation="w" y="0" x="-30" name=""/>
     </description>
 </definition>

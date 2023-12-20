@@ -1,18 +1,22 @@
-<definition link_type="simple" type="element" width="50" height="90" hotspot_x="45" hotspot_y="85" version="0.70">
-    <uuid uuid="{18354d1a-d5dc-421a-a8e5-9a177b6225c0}"/>
+<definition link_type="simple" width="50" hotspot_y="85" version="0.100.0" type="element" hotspot_x="45" height="90">
+    <uuid uuid="{8a670f63-6459-4316-858c-ea5ad9c18186}"/>
     <names>
-        <name lang="de">Fernspeise-Netzgerät</name>
         <name lang="fr">Dispositif d'alimentation de ligne</name>
-        <name lang="cs">Napájecí jednotka sítě</name>
+        <name lang="de">Fernspeise-Netzgerät</name>
         <name lang="en">Line power unit</name>
+        <name lang="cs">Napájecí jednotka sítě</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" size="9" y="55" x="35" rotate="true"/>
-        <rect width="40" height="40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-40"/>
-        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-20" y1="-80" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc angle="180" width="10" height="5" y="-22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-30" start="0"/>
-        <arc angle="-180" width="10" height="5" y="-22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-20" start="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{95075972-1a1b-4963-90ff-9d571d688599}" frame="false" y="42.5" rotation="0" text_width="-1" Valignment="AlignTop" x="35" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect antialias="false" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" width="40" rx="0" height="40" x="-40"/>
+        <line length2="1.5" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40" x1="-20" x2="-20" end2="none" y1="-80"/>
+        <arc antialias="true" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-22.5" start="0" width="10" height="5" x="-30"/>
+        <arc antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-22.5" start="0" width="10" height="5" x="-20"/>
     </description>
 </definition>

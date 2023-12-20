@@ -1,25 +1,33 @@
-<definition hotspot_x="15" hotspot_y="18" width="30" link_type="simple" version="0.5" height="50" type="element">
-<uuid uuid="{3F907826-905E-4431-8781-5F1C06D7FD73}"/><names>
-        <name lang="en">Water heater</name>
-        <name lang="cs">Ohřívač vody</name>
-        <name lang="fr">Chauffe-eau</name>
+<definition height="50" hotspot_y="18" link_type="simple" width="30" hotspot_x="15" type="element" version="0.100.0">
+    <uuid uuid="{1af53ae0-f28c-441f-8b5e-bc6a7e9b2938}"/>
+    <names>
+        <name lang="it">Scalda acqua</name>
+        <name lang="nl">Water verwarmer</name>
         <name lang="el">Θερμοσίφωνας</name>
+        <name lang="fr">Chauffe-eau</name>
+        <name lang="de">Wasserkocher</name>
+        <name lang="en">Water heater</name>
         <name lang="ar">سخّان ماء</name>
         <name lang="pl">Ogrzewacz wody</name>
-        <name lang="nl">Water verwarmer</name>
-        <name lang="it">Scalda acqua</name>
-        <name lang="de">Wasserkocher</name>
+        <name lang="cs">Ohřívač vody</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc y="20" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-10" height="6" angle="180" start="180"/>
-        <line length2="1.5" x2="0" end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" y2="-1" y1="-13"/>
-        <rect y="2" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-10" height="20"/>
-        <arc y="-1" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-10" height="6" angle="180" start="0"/>
-        <rect y="26" width="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-3" height="2"/>
-        <input y="12" rotate="true" size="6" x="-5" text="" tagg="label"/>
-        <input y="-10" rotate="true" size="9" x="10" text="_" tagg="label"/>
-        <terminal y="-13" orientation="n" x="0"/>
+        <arc start="180" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" width="20" x="-10" antialias="true" y="20"/>
+        <line length2="1.5" end1="none" end2="none" x1="0" y1="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y2="-1" length1="1.5"/>
+        <rect height="20" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" x="-10" antialias="false" y="2"/>
+        <arc start="0" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" width="20" x="-10" antialias="true" y="-1"/>
+        <rect height="2" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" x="-3" antialias="false" y="26"/>
+        <dynamic_text rotation="0" uuid="{c1431684-c08e-49c8-bfe1-9df9bee5a3cf}" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,6,-1,5,50,0,0,0,0,0" frame="false" z="6" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" x="-5" y="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text rotation="0" uuid="{5829f84b-76c2-4b6f-80a6-55076066a3cc}" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" z="7" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" x="10" y="-22.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{bde171e0-0ca0-451d-b5aa-f54f48a80e8d}" name="" orientation="n" x="0" type="Generic" y="-13"/>
     </description>
 </definition>

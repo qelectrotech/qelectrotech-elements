@@ -1,16 +1,20 @@
-<definition height="100" version="0.70" width="50" hotspot_x="45" type="element" hotspot_y="95" link_type="simple">
-    <uuid uuid="{66ee22ab-6440-44fa-a180-4aa47911858e}"/>
+<definition link_type="simple" width="50" height="80" type="element" hotspot_x="45" hotspot_y="75" version="0.100.0">
+    <uuid uuid="{242c3e7d-63e1-4ae6-946b-722fe978ebb5}"/>
     <names>
         <name lang="fr">Cathode photoélectrique</name>
+        <name lang="en">Photoelectric cathode</name>
         <name lang="de">photoelektrische Kathode</name>
         <name lang="cs">Fotoelektrická katoda</name>
-        <name lang="en">Photoelectric cathode</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <arc y="-90" height="40" width="40" angle="-180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" start="0"/>
-        <line x2="-20" y1="-50" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" x1="-20"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{63bf3044-f034-42ca-8121-ea5337a3cbff}" Halignment="AlignLeft" frame="false" text_width="-1" z="1" rotation="0" text_from="ElementInfo" x="5" y="2.5" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc antialias="true" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="40" angle="-180" x="-40" y="-90"/>
+        <line x1="-20" y2="0" x2="-20" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-50" end2="none" length2="1.5"/>
     </description>
 </definition>

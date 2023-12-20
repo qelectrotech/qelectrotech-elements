@@ -1,20 +1,24 @@
-<definition version="0.70" width="30" type="element" hotspot_y="21" link_type="simple" hotspot_x="15" height="40">
-    <uuid uuid="{9b290419-a69f-47a5-8b22-b8753ee4adc6}"/>
+<definition hotspot_x="15" height="40" type="element" link_type="simple" hotspot_y="21" version="0.100.0" width="30">
+    <uuid uuid="{c1971d5b-f494-4261-a0e4-47dcce63272b}"/>
     <names>
         <name lang="fr">Equipotentialité</name>
-        <name lang="es">Equipotential</name>
         <name lang="de">Äquipotential</name>
-        <name lang="cs">Ekvipotencialita</name>
         <name lang="en">Protective equipotential bonding</name>
+        <name lang="es">Equipotential</name>
+        <name lang="cs">Ekvipotencialita</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="35" text="_" size="9" rotate="true" tagg="label" y="25"/>
-        <line x2="10" y2="0" length2="1.5" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <line x2="0" y2="0" length2="1.5" length1="1.5" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="0" y2="15" length2="1.5" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <line x2="10" y2="0" length2="1.5" length1="1.5" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <terminal orientation="n" x="0" y="-15"/>
+        <dynamic_text z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="12.5" Valignment="AlignTop" keep_visual_rotation="false" text_width="-1" x="35" rotation="0" Halignment="AlignLeft" frame="false" uuid="{9d49194f-be14-4e78-8f5b-14aa2aa4b2cf}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-10" y1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="0" end2="none" antialias="false" x2="10"/>
+        <line x1="0" y1="-15" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="0" end2="none" antialias="false" x2="0"/>
+        <line x1="-10" y1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="15" end2="none" antialias="false" x2="0"/>
+        <line x1="0" y1="15" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" y2="0" end2="none" antialias="false" x2="10"/>
+        <terminal y="-15" orientation="n" type="Generic" x="0" name="" uuid="{06c92424-04a6-4f82-9a13-a050bd984d34}"/>
     </description>
 </definition>

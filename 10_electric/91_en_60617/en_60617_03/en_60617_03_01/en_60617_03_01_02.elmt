@@ -1,20 +1,24 @@
-<definition hotspot_x="44" version="0.70" height="30" hotspot_y="15" width="90" type="element" link_type="simple">
-    <uuid uuid="{81ea324b-c358-4a63-86ea-a9f5b443f403}"/>
+<definition type="element" hotspot_y="15" link_type="simple" height="30" width="90" version="0.100.0" hotspot_x="44">
+    <uuid uuid="{4141997f-d338-4abd-aa88-6bdd0fbc15bc}"/>
     <names>
-        <name lang="fr">Groupe de liaisons, pour exemple trois</name>
-        <name lang="de">Gruppe von Verbindungen, z.B. dre</name>
-        <name lang="cs">Skupina vodičů, např tři</name>
         <name lang="en">Group of connections (number of connections indicated)</name>
+        <name lang="cs">Skupina vodičů, např tři</name>
+        <name lang="de">Gruppe von Verbindungen, z.B. dre</name>
+        <name lang="fr">Groupe de liaisons, pour exemple trois</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="5" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <line x2="0" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <line x2="10" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="0" x="-40" orientation="w"/>
+        <dynamic_text Valignment="AlignTop" uuid="{258ceaba-6c21-4aca-9cef-2ed97c51fe83}" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" rotation="0" x="5" text_from="ElementInfo" frame="false" keep_visual_rotation="false" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="40" length2="1.5" end1="none" length1="1.5" x1="-40" y1="0" antialias="false" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="5" length2="1.5" end1="none" length1="1.5" x1="-5" y1="10" antialias="false" y2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="0" length2="1.5" end1="none" length1="1.5" x1="-10" y1="10" antialias="false" y2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="10" length2="1.5" end1="none" length1="1.5" x1="0" y1="10" antialias="false" y2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{c101a7a4-16d4-47b3-be22-8d5b6beddaa4}" type="Generic" orientation="e" x="40" name="" y="0"/>
+        <terminal uuid="{d8a28513-2734-4ae8-9893-2e5f1955cc85}" type="Generic" orientation="w" x="-40" name="" y="0"/>
     </description>
 </definition>

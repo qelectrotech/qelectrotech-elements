@@ -1,26 +1,34 @@
-<definition width="100" version="0.3" hotspot_x="60" hotspot_y="10" height="40" type="element">
+<definition version="0.100.0" link_type="simple" width="80" hotspot_x="36" height="20" hotspot_y="3" type="element">
+    <uuid uuid="{fb2c488f-31e5-4c42-9b86-d6c6245f917c}"/>
     <names>
-        <name lang="ar">كايبل بطورين و تأريض</name>
-        <name lang="de">Kabel 3G</name>
-        <name lang="ru">Кабель 2 жилы + PE</name>
-        <name lang="it">Cavo 2 fasi + terra</name>
+        <name lang="hu">Kábel 2 + PE</name>
         <name lang="fr">Cable 2 phases+terre</name>
         <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
-        <name lang="es">Cable 2 fases+tierra</name>
         <name lang="cs">Kabel 3G</name>
-        <name lang="hu">Kábel 2 + PE</name>
+        <name lang="ar">كايبل بطورين و تأريض</name>
+        <name lang="it">Cavo 2 fasi + terra</name>
+        <name lang="de">Kabel 3G</name>
+        <name lang="ru">Кабель 2 жилы + PE</name>
+        <name lang="es">Cable 2 fases+tierra</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7.95" x1="17.95" y2="11.95" x2="21.95"/>
-        <text x="2" y="9" size="4" text="2"/>
-        <text x="23" y="9" size="4" text="GNYE"/>
-        <input x="-58" y="17" size="3" rotate="true" text="210007&#xa;4G1,5 mm²&#xa;               4m"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7.95" x1="-2.05" y2="11.95" x2="1.95"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="-30.2509" y2="10" x2="27.2717"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="-22" y2="12" x2="-18"/>
-        <text x="-18" y="9" size="4" text="1"/>
-        <input x="-51" y="1" size="5" rotate="true" text="+"/>
+        <line antialias="true" x2="21.95" x1="17.95" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" end2="none" y1="7.95" y2="11.95" length2="1.5"/>
+        <text x="2" text="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="9" rotation="0"/>
+        <text x="23" text="GNYE" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="9" rotation="0"/>
+        <dynamic_text keep_visual_rotation="false" text_width="-1" x="-58" text_from="UserText" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,3,-1,5,25,0,0,0,0,0" y="2.5" rotation="0" uuid="{c8d3ba27-327c-490e-bda5-290cb282df9a}" z="4" frame="false">
+            <text>210007
+4G1,5 mm²
+               4m</text>
+        </dynamic_text>
+        <line antialias="true" x2="1.95" x1="-2.05" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" end2="none" y1="7.95" y2="11.95" length2="1.5"/>
+        <line antialias="false" x2="27.2717" x1="-30.2509" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" end2="none" y1="10" y2="10" length2="1.5"/>
+        <line antialias="true" x2="-18" x1="-22" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" end2="none" y1="8" y2="12" length2="1.5"/>
+        <text x="-18" text="1" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="9" rotation="0"/>
+        <dynamic_text keep_visual_rotation="false" text_width="-1" x="-51" text_from="UserText" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-8.5" rotation="0" uuid="{ed0341da-34ec-41d8-8766-abc751ac705d}" z="9" frame="false">
+            <text>+</text>
+        </dynamic_text>
     </description>
 </definition>

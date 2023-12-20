@@ -1,18 +1,22 @@
-<definition height="30" version="0.70" width="90" hotspot_x="85" type="element" hotspot_y="25" link_type="simple">
-    <uuid uuid="{7b096886-9c19-49c2-a3d6-55932e132a6d}"/>
+<definition width="90" type="element" hotspot_y="25" link_type="simple" height="30" version="0.100.0" hotspot_x="85">
+    <uuid uuid="{20135786-983d-4695-8e63-258a641af490}"/>
     <names>
-        <name lang="fr">Électrodes de déviation latérale</name>
         <name lang="de">Ablenkelektroden</name>
         <name lang="cs">Elektrody s boční odchylkou</name>
+        <name lang="fr">Électrodes de déviation latérale</name>
         <name lang="en">Lateral deflecting electrodes</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <line x2="-20" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="0"/>
-        <line x2="-80" y1="-10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="-60"/>
-        <line x2="-60" y1="0" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-20" x1="-60"/>
-        <line x2="-20" y1="0" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-20" x1="-20"/>
+        <dynamic_text uuid="{9d5760b6-eba2-4b88-acf2-d9e0685d7fc0}" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" x="5" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" z="1" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-10" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-20" length2="1.5" end1="none" antialias="false" end2="none" length1="1.5"/>
+        <line y1="-10" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-60" x2="-80" length2="1.5" end1="none" antialias="false" end2="none" length1="1.5"/>
+        <line y1="0" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-60" x2="-60" length2="1.5" end1="none" antialias="false" end2="none" length1="1.5"/>
+        <line y1="0" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" x2="-20" length2="1.5" end1="none" antialias="false" end2="none" length1="1.5"/>
     </description>
 </definition>

@@ -1,26 +1,32 @@
-<definition width="70" link_type="simple" version="0.5" hotspot_x="15" height="20" hotspot_y="9" type="element">
-    <uuid uuid="{4b9a04b1-0d35-4d54-b5cb-b573ed3a9b0d}"/>
+<definition hotspot_x="15" width="70" height="20" type="element" link_type="simple" hotspot_y="9" version="0.100.0">
+    <uuid uuid="{89a0c52a-5c0c-4056-bbf8-f04d146ee2b4}"/>
     <names>
+        <name lang="en">Cable 3 wires</name>
+        <name lang="ru">Кабель 3 жилы</name>
         <name lang="de">Kabel 3x</name>
         <name lang="cs">Kabel 3x</name>
         <name lang="pl">Oznaczenie przewodu trójżyłowego</name>
-        <name lang="it">Cavo a 3 conduttori</name>
-        <name lang="en">Cable 3 wires</name>
-        <name lang="es">Cable 3 alambres</name>
-        <name lang="fr">Cable 3 brins</name>
-        <name lang="ru">Кабель 3 жилы</name>
         <name lang="hu">Kábel 3 + PE</name>
+        <name lang="fr">Cable 3 brins</name>
+        <name lang="es">Cable 3 alambres</name>
+        <name lang="it">Cavo a 3 conduttori</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <line antialias="false" length1="1.5" x2="50" end2="none" x1="-10" end1="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <input x="-36" y="-6" tagg="label" size="7" rotate="true" text="-W?"/>
-        <input x="-56" y="4.5" tagg="none" size="5" rotate="true" text="ÖLFLEX 100"/>
-        <terminal x="0" y="-5" orientation="n"/>
-        <terminal x="20" y="-5" orientation="n"/>
-        <terminal x="40" y="-5" orientation="n"/>
-        <terminal x="0" y="5" orientation="s"/>
-        <terminal x="20" y="5" orientation="s"/>
-        <terminal x="40" y="5" orientation="s"/>
+        <line y1="0" y2="0" x2="50" length2="1.5" end1="none" x1="-10" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text z="2" rotation="0" text_width="-1" y="-16.5" font="Sans Serif,7,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false" Valignment="AlignTop" Halignment="AlignLeft" x="-36" uuid="{d66ee032-f17a-4f79-9777-d22d00f315f1}" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text z="3" rotation="0" text_width="-1" y="-5" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="UserText" frame="false" Valignment="AlignTop" Halignment="AlignLeft" x="-56" uuid="{48f54b29-1956-4989-b949-a1abc76b630f}" keep_visual_rotation="false">
+            <text>ÖLFLEX 100</text>
+        </dynamic_text>
+        <terminal y="-5" type="Generic" x="0" uuid="{cf0345fc-c0f4-4d2c-95b3-e14af63cb778}" orientation="n" name=""/>
+        <terminal y="-5" type="Generic" x="20" uuid="{607be32d-dd05-4fd3-8a2c-9853b6d0ef00}" orientation="n" name=""/>
+        <terminal y="-5" type="Generic" x="40" uuid="{fdad5f3c-d2d4-4e52-9f09-7cb6ef19496b}" orientation="n" name=""/>
+        <terminal y="5" type="Generic" x="0" uuid="{aa6d16c4-d5f5-415a-829b-72352066b51e}" orientation="s" name=""/>
+        <terminal y="5" type="Generic" x="20" uuid="{be8dbb18-2edd-40a6-ad9e-d84a9fae4b85}" orientation="s" name=""/>
+        <terminal y="5" type="Generic" x="40" uuid="{f44ff79e-c949-466e-aa0b-bfe69b4dbb3a}" orientation="s" name=""/>
     </description>
 </definition>

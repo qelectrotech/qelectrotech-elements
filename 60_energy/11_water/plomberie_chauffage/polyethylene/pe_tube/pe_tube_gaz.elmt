@@ -1,19 +1,29 @@
-<definition height="20" link_type="terminal" width="40" hotspot_y="11" version="0.51" type="element" hotspot_x="25">
-    <uuid uuid="{f1756e12-f20d-49f8-b119-4c47af91070e}"/>
+<definition type="element" width="40" height="20" hotspot_y="11" hotspot_x="25" link_type="terminal" version="0.100.0">
+    <uuid uuid="{9604c16c-5428-400a-8b11-b54d16bf0c2a}"/>
     <names>
         <name lang="fr">Tube PE gaz</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41-2016</informations>
     <description>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:yellow" y1="0" x2="-18" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="0" x1="9"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="10" antialias="false" y3="5" closed="false" y5="-5" x3="10" x4="-20" y4="5" y2="-5" x5="-15" x1="-15"/>
-        <input rotate="true" text="_" y="14" size="9" x="-11" tagg="label"/>
-        <text text="PE" y="2" size="5" x="-12"/>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:white" y1="-8" x2="-22" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="6" x1="-15"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4" x2="10" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="-4" x1="-15"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="4" x2="10" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="4" x1="-19"/>
-        <input rotate="true" text="25" y="-1" size="5" x="-7" tagg="none"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-18" orientation="w"/>
+        <line antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:yellow" x2="-18" y1="0" y2="0" length2="1.5" x1="9" length1="1.5" end2="none" end1="none"/>
+        <polygon y5="-5" antialias="false" x3="10" x5="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" y3="5" y4="5" y1="-5" y2="-5" x1="-15" closed="false" x4="-20"/>
+        <dynamic_text z="3" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{929bd86c-f558-42f4-b58d-e9cd5603cff6}" frame="false" y="1.5" Valignment="AlignTop" text_width="-1" x="-11" text_from="ElementInfo" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="2" color="#000000" x="-12" text="PE"/>
+        <line antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:white" x2="-22" y1="-8" y2="6" length2="1.5" x1="-15" length1="1.5" end2="none" end1="none"/>
+        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" y1="-4" y2="-4" length2="1.5" x1="-15" length1="1.5" end2="none" end1="none"/>
+        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" y1="4" y2="4" length2="1.5" x1="-19" length1="1.5" end2="none" end1="none"/>
+        <dynamic_text z="8" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{7cb1965f-1760-41bf-b749-d3b22b7d533e}" frame="false" y="-10.5" Valignment="AlignTop" text_width="-1" x="-7" text_from="UserText" keep_visual_rotation="false">
+            <text>25</text>
+        </dynamic_text>
+        <terminal type="Generic" orientation="e" uuid="{370d0e4e-eb5d-49c7-a0cf-3df2bf08fdb9}" name="" y="0" x="10"/>
+        <terminal type="Generic" orientation="w" uuid="{928a5ddc-0ced-4dfb-931b-1f10e423f0b7}" name="" y="0" x="-18"/>
     </description>
 </definition>

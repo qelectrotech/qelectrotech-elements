@@ -1,30 +1,39 @@
-<definition width="50" version="0.3" hotspot_x="35" hotspot_y="20" height="40" type="element">
-<uuid uuid="{DAE5D773-EDD3-4B1E-B3C6-EA52895C8623}"/><names>
-        <name lang="en">Contact NC pneumatically or hydraulically controlled, two-way</name>
+<definition hotspot_y="24" hotspot_x="36" width="50" height="50" type="element" version="0.100.0" link_type="simple">
+    <uuid uuid="{75cb11f1-97a6-409e-b4f2-48e0ccc346b9}"/>
+    <names>
         <name lang="es">Contacto NC neumaticamente o hidraulicamente controlado, dos formas</name>
         <name lang="de">Öffner Zylinder betätigt 2 Richtungen</name>
         <name lang="fr">Contact NC à commande pneumatique ou hydraulique, dans les deux sens</name>
         <name lang="pl">Zestyk rozwierny sterowany pneumatycznie lub hydraulicznie, dwukierunkowy</name>
-        <name lang="cs">Kontakt NC řízený pneumaticky nebo hydraulicky, dvoucestný</name>
-        <name lang="it">Contatto NC a comando pneumatico o idraulico, nei 2 sensi</name>
         <name lang="nl">pneumatisch/hydraulisch 2 pos (NC)</name>
+        <name lang="en">Contact NC pneumatically or hydraulically controlled, two-way</name>
+        <name lang="it">Contatto NC a comando pneumatico o idraulico, nei 2 sensi</name>
+        <name lang="cs">Kontakt NC řízený pneumaticky nebo hydraulicky, dvoucestný</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-20" y2="0" x2="3"/>
-        <input x="-10" y="16" size="4" text="2"/>
-        <rect width="20" x="-30" y="-5" antialias="false" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <input x="-10" y="-16" size="4" text="1"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="0" y2="10" x2="0" y3="-10" x3="6"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="0" y2="-9" x2="7"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-9" x2="0"/>
-        <input x="8" y="0.5" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-5" x1="-20" y2="5" x2="-20"/>
-        <polygon x4="-12" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-8" x1="-12" y2="-9" x2="-16" y3="-7" x3="-16" y4="-8"/>
-        <polygon x4="-28" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-8" x1="-28" y2="-9" x2="-24" y3="-7" x3="-24" y4="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-8" x1="-24" y2="-8" x2="-16"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <line x2="3" length1="1.5" length2="1.5" y1="0" end2="none" y2="0" antialias="false" end1="none" x1="-20" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <dynamic_text z="2" Halignment="AlignLeft" Valignment="AlignTop" y="8" rotation="0" keep_visual_rotation="false" x="-10" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{cb7d7764-b8e2-4292-b45e-2b5dc1484c02}" frame="false" text_width="-1">
+            <text>2</text>
+        </dynamic_text>
+        <rect width="20" y="-5" height="10" ry="0" antialias="false" x="-30" style="line-style:normal;line-weight:thin;filling:none;color:black" rx="0"/>
+        <dynamic_text z="4" Halignment="AlignLeft" Valignment="AlignTop" y="-24" rotation="0" keep_visual_rotation="false" x="-10" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{8193c80c-94fd-42bb-8958-33551f5bea02}" frame="false" text_width="-1">
+            <text>1</text>
+        </dynamic_text>
+        <polygon x3="6" x2="0" y1="20" closed="false" y2="10" antialias="true" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10"/>
+        <line x2="7" length1="1.5" length2="1.5" y1="-9" end2="none" y2="-9" antialias="false" end1="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="0" length1="1.5" length2="1.5" y1="-20" end2="none" y2="-9" antialias="false" end1="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="8" Halignment="AlignLeft" Valignment="AlignTop" y="-12" rotation="0" keep_visual_rotation="false" x="8" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{01a6afc7-b0f7-4b63-b78f-9f1abbdfff1e}" frame="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-20" length1="1.5" length2="1.5" y1="-5" end2="none" y2="5" antialias="false" end1="none" x1="-20" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x3="-16" x2="-16" y1="-8" y2="-9" x4="-12" antialias="true" x1="-12" style="line-style:normal;line-weight:thin;filling:black;color:black" y3="-7" y4="-8"/>
+        <polygon x3="-24" x2="-24" y1="-8" y2="-9" x4="-28" antialias="true" x1="-28" style="line-style:normal;line-weight:thin;filling:black;color:black" y3="-7" y4="-8"/>
+        <line x2="-16" length1="1.5" length2="1.5" y1="-8" end2="none" y2="-8" antialias="false" end1="none" x1="-24" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal y="-20" name="" x="0" orientation="n" type="Generic" uuid="{3508bb23-9099-491a-adcc-4ec33abed6d9}"/>
+        <terminal y="20" name="" x="0" orientation="s" type="Generic" uuid="{97633a13-7cc4-49e2-b0a5-41583fca039a}"/>
     </description>
 </definition>

@@ -1,30 +1,35 @@
-<definition hotspot_x="14" hotspot_y="39" width="30" type="element" version="0.5" height="80" link_type="simple">
-<uuid uuid="{D40F471F-DD1A-4FC9-8EEC-39B5D0CF210F}"/><names>
+<definition type="element" link_type="simple" hotspot_x="14" hotspot_y="39" version="0.100.0" width="30" height="80">
+    <uuid uuid="{b6bb1c1a-0bba-48ed-8466-89c8a8791539}"/>
+    <names>
+        <name lang="en">4 output collector</name>
         <name lang="ca">Col.lector 4 eixides</name>
         <name lang="es">Colector 4 salidas</name>
-        <name lang="en">4 output collector</name>
-        <name lang="it">Collettore 4 uscite</name>
         <name lang="fr">Collecteur 4 sorties</name>
+        <name lang="it">Collettore 4 uscite</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="-31" width="4.032" antialias="false" height="5" x="4.752"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="8" width="4.032" antialias="false" height="5" x="4.752"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="28" width="9" angle="-180" antialias="true" height="5" x="-4" start="0"/>
-        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="5" y2="-32.1112" end1="none" x1="5" y1="30.1205" length1="1.5"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12" width="4.032" antialias="false" height="5" x="4.752"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="25" width="4.032" antialias="false" height="5" x="4.752"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-34" width="9" angle="-180" antialias="true" height="5" x="-4" start="-180"/>
-        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-4" y2="-31.1393" end1="none" x1="-4" y1="30.1509" length1="1.5"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2" width="5" antialias="false" height="5" x="-9"/>
-        <input rotate="true" text="_" tagg="label" y="22.5" x="-12" size="4"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="-10" x="10" orientation="e"/>
-        <terminal y="34" x="0" orientation="s"/>
-        <terminal y="30" x="10" orientation="e"/>
-        <terminal y="10" x="10" orientation="e"/>
-        <terminal y="-34" x="0" orientation="n"/>
-        <terminal y="-30" x="10" orientation="e"/>
+        <rect antialias="false" rx="0" x="4.752" y="-31" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="4.032" height="5"/>
+        <rect antialias="false" rx="0" x="4.752" y="8" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="4.032" height="5"/>
+        <arc antialias="true" start="0" x="-4" y="28" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" width="9" height="5"/>
+        <line antialias="false" y1="30.1205" end2="none" x2="5" y2="-32.1112" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" rx="0" x="4.752" y="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="4.032" height="5"/>
+        <rect antialias="false" rx="0" x="4.752" y="25" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="4.032" height="5"/>
+        <arc antialias="true" start="-180" x="-4" y="-34" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" width="9" height="5"/>
+        <line antialias="false" y1="30.1509" end2="none" x2="-4" y2="-31.1393" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-4" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" rx="0" x="-9" y="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="5" height="5"/>
+        <dynamic_text z="10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{e8edb7be-b289-4d35-a73b-46a59b5ff491}" text_width="-1" x="-12" Valignment="AlignTop" keep_visual_rotation="false" frame="false" y="14.5" rotation="0" text_from="ElementInfo" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{f0cf67b5-b9b6-4d7c-85bd-1f579964b546}" type="Generic" x="-10" y="0" orientation="w" name=""/>
+        <terminal uuid="{85fb6479-5f2b-464d-b8e9-745a286e48a3}" type="Generic" x="10" y="-10" orientation="e" name=""/>
+        <terminal uuid="{69092e51-ab15-4bfb-868c-f3dad6d3a377}" type="Generic" x="0" y="34" orientation="s" name=""/>
+        <terminal uuid="{974670c6-4977-4c15-af8d-293249312a08}" type="Generic" x="10" y="30" orientation="e" name=""/>
+        <terminal uuid="{0291111d-6302-4495-95d6-3590984a6c62}" type="Generic" x="10" y="10" orientation="e" name=""/>
+        <terminal uuid="{1af3efb8-41de-40bd-a56d-c914fa9d6f31}" type="Generic" x="0" y="-34" orientation="n" name=""/>
+        <terminal uuid="{d98f16ef-1f05-4327-a915-6b99ef2549d9}" type="Generic" x="10" y="-30" orientation="e" name=""/>
     </description>
 </definition>

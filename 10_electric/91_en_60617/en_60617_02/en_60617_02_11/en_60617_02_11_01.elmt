@@ -1,18 +1,22 @@
-<definition hotspot_x="14" version="0.70" height="10" hotspot_y="4" width="30" type="element" link_type="simple">
-    <uuid uuid="{5efeb305-fbfc-4f1b-9f1c-af4d4650557d}"/>
+<definition height="10" hotspot_y="4" type="element" hotspot_x="14" width="30" version="0.100.0" link_type="simple">
+    <uuid uuid="{a47f6d5f-59ac-4fc8-ac28-de35e644a012}"/>
     <names>
+        <name lang="en">Printing, tape</name>
         <name lang="fr">Impression sur Bande</name>
-        <name lang="es">Impresión de banda</name>
         <name lang="de">Drucken auf einen Streifen </name>
         <name lang="cs">Tisk na pásku</name>
-        <name lang="en">Printing, tape</name>
+        <name lang="es">Impresión de banda</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="10" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" y="2.5" frame="false" text_width="-1" rotation="0" uuid="{05c48cb6-bd37-4a22-9d79-0437559f173b}" keep_visual_rotation="false" x="5" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" x1="-10" y1="0" y2="0" antialias="false" length1="1.5" length2="1.5" end2="none"/>
+        <terminal orientation="w" y="0" uuid="{fd1e7070-7fed-4b27-ada3-cc702e979fa3}" type="Generic" name="" x="-10"/>
+        <terminal orientation="e" y="0" uuid="{ac974279-312e-43e6-99a5-4c1a9008ca67}" type="Generic" name="" x="10"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition link_type="simple" hotspot_x="25" hotspot_y="25" version="0.70" width="30" type="element" height="30">
-    <uuid uuid="{1e52f5f4-dae6-47e5-8292-a8b3e660d46b}"/>
+<definition hotspot_y="25" link_type="simple" type="element" hotspot_x="25" width="30" height="30" version="0.100.0">
+    <uuid uuid="{aadd5bde-468d-454f-8212-acede4ae9ef5}"/>
     <names>
         <name lang="fr">Enroulement tétraphasé, avec neutre sorti</name>
         <name lang="de">Vierphasenwicklung, Neutralleiter</name>
-        <name lang="cs">Čtyřfázové vinutí s vyvedeným nulovým uzlem</name>
         <name lang="en">Four-phase winding with neutral brought out</name>
+        <name lang="cs">Čtyřfázové vinutí s vyvedeným nulovým uzlem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="15" text="_" tagg="label" size="9"/>
-        <line y1="-20" end1="none" length1="1.5" x1="0" x2="-20" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-20" x2="0" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" end1="none" length1="1.5" x1="-10" x2="0" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-12.5" y="-12.5" antialias="false" diameter="5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{f5a20659-6c1a-49db-a10c-52a8e90e8608}" text_from="ElementInfo" frame="false" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" rotation="0" z="1" keep_visual_rotation="false" y="2.5" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-20" x1="0" end1="none" length2="1.5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" y2="0" end2="none"/>
+        <line x2="0" x1="-20" end1="none" length2="1.5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" y2="0" end2="none"/>
+        <line x2="0" x1="-10" end1="none" length2="1.5" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" y2="-10" end2="none"/>
+        <circle diameter="5" y="-12.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x="-12.5"/>
     </description>
 </definition>

@@ -1,20 +1,24 @@
-<definition hotspot_x="54" version="0.70" height="10" hotspot_y="5" width="100" type="element" link_type="simple">
-    <uuid uuid="{c6c21005-e084-4e69-8b4c-a884149838ac}"/>
+<definition hotspot_x="54" version="0.100.0" type="element" link_type="simple" width="100" height="10" hotspot_y="5">
+    <uuid uuid="{e3ee6917-3b82-4e67-9e0a-39d7abc5c233}"/>
     <names>
         <name lang="fr">Connecteur par pression en bout</name>
         <name lang="de">Stirnkontaktverbindung</name>
         <name lang="cs">Čelní konektor</name>
         <name lang="en">Butt-connector</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-3" x="0" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20"/>
-        <line x2="-50" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30"/>
-        <rect y="-3" x="-30" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="0" x="-50" orientation="w"/>
+        <dynamic_text Valignment="AlignTop" x="5" text_width="-1" keep_visual_rotation="false" z="1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" rotation="0" y="2.5" uuid="{0090db17-60bb-45e9-aa54-bf097dbbccb4}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect antialias="false" width="20" x="0" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-3"/>
+        <line length1="1.5" y2="0" x1="20" antialias="false" end2="none" x2="40" length2="1.5" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" y2="0" x1="-30" antialias="false" end2="none" x2="-50" length2="1.5" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect antialias="false" width="20" x="-30" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-3"/>
+        <terminal type="Generic" x="40" orientation="e" name="" y="0" uuid="{18d04e7e-4e8d-4f2f-b078-25988107a6ba}"/>
+        <terminal type="Generic" x="-50" orientation="w" name="" y="0" uuid="{36232c57-d504-4d23-acea-a02f6ebde483}"/>
     </description>
 </definition>

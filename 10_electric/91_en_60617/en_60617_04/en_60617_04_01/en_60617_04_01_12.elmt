@@ -1,22 +1,26 @@
-<definition width="60" height="20" type="element" hotspot_x="24" version="0.70" link_type="simple" hotspot_y="10">
-    <uuid uuid="{93516e0c-fd04-4ec6-aec5-943dc4830056}"/>
+<definition hotspot_y="10" type="element" width="60" hotspot_x="24" version="0.100.0" height="20" link_type="simple">
+    <uuid uuid="{39749442-ba18-4730-a4ea-f84bc0502fa9}"/>
     <names>
-        <name lang="de">Heizelement</name>
         <name lang="fr">Élément chauffant</name>
+        <name lang="de">Heizelement</name>
         <name lang="cs">Rezistor topný</name>
         <name lang="en">Heating element</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <rect width="30" height="10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="20" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="5" length1="1.5" y1="-5" length2="1.5" x1="-5" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="5" length1="1.5" y1="-5" length2="1.5" x1="5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="5" length1="1.5" y1="-5" length2="1.5" x1="15" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="w" x="-20" y="0"/>
-        <terminal orientation="e" x="30" y="0"/>
+        <dynamic_text uuid="{d6a2745a-3b41-4eff-98c9-c498ce5143a6}" x="5" Halignment="AlignLeft" z="1" rotation="0" text_width="-1" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" text_from="ElementInfo" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" length1="1.5" x1="-20" x2="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" end1="none" length2="1.5"/>
+        <rect rx="0" ry="0" x="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" width="30" height="10"/>
+        <line y2="0" length1="1.5" x1="20" x2="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" end1="none" length2="1.5"/>
+        <line y2="5" length1="1.5" x1="-5" x2="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" end2="none" end1="none" length2="1.5"/>
+        <line y2="5" length1="1.5" x1="5" x2="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" end2="none" end1="none" length2="1.5"/>
+        <line y2="5" length1="1.5" x1="15" x2="15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" end2="none" end1="none" length2="1.5"/>
+        <terminal uuid="{a7fd989a-d90a-4763-a017-9ae42cd6fb55}" x="-20" name="" orientation="w" y="0" type="Generic"/>
+        <terminal uuid="{289d63ed-0f72-495d-924d-3ef781e4375d}" x="30" name="" orientation="e" y="0" type="Generic"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition type="element" width="70" version="0.70" hotspot_y="55" height="60" link_type="simple" hotspot_x="55">
-    <uuid uuid="{860e9293-dec8-43e6-9f1c-6e3046bb7044}"/>
+<definition width="70" version="0.100.0" height="60" link_type="simple" hotspot_x="55" type="element" hotspot_y="55">
+    <uuid uuid="{06a9b5ab-9221-44a0-a06b-84917d7e37bc}"/>
     <names>
-        <name lang="fr">Cabine ou armoire pour installation extérieure</name>
         <name lang="de">Gehäuse, oberirdisch, wetterfest, allgemein</name>
         <name lang="cs">Budka nebo skříň, nadzemní, venkovní</name>
+        <name lang="fr">Cabine ou armoire pour installation extérieure</name>
         <name lang="en">Overground weather-proof enclosure, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <arc antialias="true" width="60" x="-50" angle="180" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-50" start="0"/>
-        <line x2="-40" end2="none" antialias="false" end1="none" length2="1.5" y2="-47" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40" y1="0" length1="1.5"/>
-        <line x2="0" end2="none" antialias="false" end1="none" length2="1.5" y2="-47" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <line x2="0" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40" y1="0" length1="1.5"/>
+        <dynamic_text Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{26179b04-a403-4a35-a13d-561d1d00c106}" Halignment="AlignLeft" x="5" text_from="ElementInfo" keep_visual_rotation="false" y="12.5" frame="false" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-50" angle="180" start="0" antialias="true" y="-50"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-40" length1="1.5" length2="1.5" x2="-40" end1="none" antialias="false" y1="0" y2="-47"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="0" length1="1.5" length2="1.5" x2="0" end1="none" antialias="false" y1="0" y2="-47"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-40" length1="1.5" length2="1.5" x2="0" end1="none" antialias="false" y1="0" y2="0"/>
     </description>
 </definition>

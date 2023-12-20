@@ -1,21 +1,25 @@
-<definition width="20" link_type="simple" version="0.5" hotspot_x="10" height="20" hotspot_y="9" type="element">
-    <uuid uuid="{374ed6b3-7329-4cad-ac8c-200b17508460}"/>
+<definition width="20" link_type="simple" hotspot_y="9" hotspot_x="10" type="element" version="0.100.0" height="20">
+    <uuid uuid="{0b61d0c3-219c-4a74-ba3a-ebf23a9639fa}"/>
     <names>
-        <name lang="de">Verdrahtung</name>
         <name lang="cs">Vodič kabelu</name>
-        <name lang="pl">Oznaczenie przewodu</name>
+        <name lang="fr">Filerie</name>
         <name lang="it">Conduttura</name>
+        <name lang="de">Verdrahtung</name>
+        <name lang="hu">Vezeték</name>
+        <name lang="pl">Oznaczenie przewodu</name>
         <name lang="en">Wiring</name>
         <name lang="es">Alambrado</name>
-        <name lang="fr">Filerie</name>
-        <name lang="hu">Vezeték</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <line antialias="false" length1="1.5" x2="-5" end2="none" x1="5" end1="none" y2="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5"/>
-        <input x="0" y="-2.5" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5"/>
-        <terminal x="0" y="-5" orientation="n"/>
-        <terminal x="0" y="5" orientation="s"/>
+        <line length2="1.5" antialias="false" x2="-5" x1="5" y1="-5" length1="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5"/>
+        <dynamic_text x="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" rotation="0" uuid="{6cfe2a1f-d89f-4db3-a8df-1e0b839acf9a}" text_from="ElementInfo" z="2" text_width="-1" y="-15" frame="false" Valignment="AlignTop" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" x2="0" x1="0" y1="-5" length1="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5"/>
+        <terminal x="0" uuid="{42d2f596-a0f0-4d55-b923-8ec0cc2527eb}" orientation="n" name="" y="-5" type="Generic"/>
+        <terminal x="0" uuid="{97942007-a33c-4d70-bf99-851587d23ca5}" orientation="s" name="" y="5" type="Generic"/>
     </description>
 </definition>

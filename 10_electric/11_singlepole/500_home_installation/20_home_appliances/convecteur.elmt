@@ -1,28 +1,32 @@
-<definition hotspot_x="15" hotspot_y="19" height="40" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{d01b4bfb-a6a6-4f6b-82fd-4591d25d5a6b}"/>
+<definition version="0.100.0" type="element" height="40" hotspot_x="15" link_type="simple" width="30" hotspot_y="19">
+    <uuid uuid="{e2655d8c-0d1f-44c0-9eab-8e76e57129a4}"/>
     <names>
-        <name lang="ru">Эл. конвектор</name>
-        <name lang="fr">Radiateur électrique</name>
-        <name lang="pl">Grzejnik konwekcyjny</name>
         <name lang="cs">Elektrické topné těleso</name>
         <name lang="ar">مُشعّ كهربائي</name>
-        <name lang="el">Θερμοπομπός</name>
-        <name lang="pt">Irradiador eléctrico</name>
-        <name lang="it">Termo-convettore</name>
         <name lang="de">Heizkörper</name>
+        <name lang="pt">Irradiador eléctrico</name>
+        <name lang="el">Θερμοπομπός</name>
+        <name lang="ru">Эл. конвектор</name>
+        <name lang="it">Termo-convettore</name>
+        <name lang="nl">Elektrische luchtverwarmer</name>
+        <name lang="fr">Radiateur électrique</name>
         <name lang="en">Electric convector</name>
         <name lang="es">Radiador eléctrico</name>
-        <name lang="nl">Elektrische luchtverwarmer</name>
+        <name lang="pl">Grzejnik konwekcyjny</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-7" rotate="true" size="9" text="_" y="13.5" tagg="label"/>
-        <polygon y3="15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" y2="15" x3="12" x2="-12" x4="12" x1="-12" y4="0"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" antialias="false" y2="0" end1="none" x2="0" length1="1.5" x1="0"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="4.5" antialias="false" y2="4.5" end1="none" x2="12" length1="1.5" x1="-12"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="3" antialias="false" y2="3" end1="none" x2="12" length1="1.5" x1="-12"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="1.5" antialias="false" y2="1.5" end1="none" x2="12" length1="1.5" x1="-12"/>
-        <terminal x="0" orientation="n" y="-12"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{14c38d9e-b8a2-4d1a-a539-3415c79b0aeb}" frame="false" x="-7" Valignment="AlignTop" y="1" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y2="15" x1="-12" x2="-12" x4="12" y4="0" y1="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="15" x3="12"/>
+        <line y2="0" x1="0" x2="0" length1="1.5" length2="1.5" y1="-12" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="4.5" x1="-12" x2="12" length1="1.5" length2="1.5" y1="4.5" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y2="3" x1="-12" x2="12" length1="1.5" length2="1.5" y1="3" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y2="1.5" x1="-12" x2="12" length1="1.5" length2="1.5" y1="1.5" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal type="Generic" uuid="{40ed49c0-8e43-4073-9f17-cc9c0242f514}" x="0" y="-12" orientation="n" name=""/>
     </description>
 </definition>

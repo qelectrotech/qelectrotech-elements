@@ -1,25 +1,29 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="10" hotspot_y="4">
-    <uuid uuid="{a5f0ac59-f614-47eb-bacf-26e4cef53bf3}"/>
+<definition hotspot_x="24" height="10" type="element" link_type="simple" version="0.100.0" width="50" hotspot_y="4">
+    <uuid uuid="{a267e4b8-c763-4a4b-a72e-49078d687869}"/>
     <names>
         <name lang="cs">Pružný prvek</name>
-        <name lang="it">Elemento flessibile</name>
-        <name lang="pl">Przewód giętki</name>
-        <name lang="en">Flexible element</name>
-        <name lang="nl">Flexibel element</name>
-        <name lang="de">Flexibler Elektro-Installationskanal</name>
         <name lang="ar">عنصر مرن</name>
+        <name lang="pl">Przewód giętki</name>
+        <name lang="it">Elemento flessibile</name>
         <name lang="fr">Élément flexible</name>
+        <name lang="de">Flexibler Elektro-Installationskanal</name>
+        <name lang="nl">Flexibel element</name>
+        <name lang="en">Flexible element</name>
         <name lang="el">Εύκαμπτο στοιχείο</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 03-01-06</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="4.55" x="-9" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="6" x2="20"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-20" x2="-10"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-180" y="-2.5" x="-4.5" height="5"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-2.5" x="0.5" height="5"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-2.5" x="-9.5" height="5"/>
-        <terminal y="0" x="20" orientation="e"/>
-        <terminal y="0" x="-20" orientation="w"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{483624a7-a2a6-4bff-92ac-79591b71d279}" x="-9" keep_visual_rotation="false" text_from="ElementInfo" frame="false" Halignment="AlignLeft" y="-7.95" rotation="0" Valignment="AlignTop" z="1" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" length1="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" end1="none" x1="6" end2="none" antialias="false" length2="1.5"/>
+        <line y1="0" length1="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end1="none" x1="-20" end2="none" antialias="false" length2="1.5"/>
+        <arc angle="-180" start="0" x="-4.5" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" width="5" antialias="true" y="-2.5"/>
+        <arc angle="-180" start="-180" x="0.5" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" width="5" antialias="true" y="-2.5"/>
+        <arc angle="-180" start="-180" x="-9.5" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" width="5" antialias="true" y="-2.5"/>
+        <terminal uuid="{670782ff-f456-4760-aa0a-4ba4bd51d469}" orientation="e" x="20" name="" type="Generic" y="0"/>
+        <terminal uuid="{0e50069f-83a9-4033-a0fc-3cfb7193b2ab}" orientation="w" x="-20" name="" type="Generic" y="0"/>
     </description>
 </definition>

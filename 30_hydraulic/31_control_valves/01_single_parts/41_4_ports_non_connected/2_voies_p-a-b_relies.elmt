@@ -1,28 +1,32 @@
-<definition version="0.5" hotspot_x="10" hotspot_y="24" width="40" height="40" link_type="simple" type="element">
-    <uuid uuid="{17efc941-6820-4ecd-8f6b-1f71385ca474}"/>
+<definition width="40" hotspot_x="10" hotspot_y="24" type="element" link_type="simple" height="40" version="0.100.0">
+    <uuid uuid="{4eeda555-545e-4b0f-a62d-06af3d405566}"/>
     <names>
-        <name lang="en">4 ports -P-A-B connected</name>
         <name lang="nl">4 P - A - B </name>
+        <name lang="it">4 porte - P-A-B connesse</name>
         <name lang="fr">4 voies - P-A-B Relies</name>
         <name lang="pl">4 drogi - P-A-B połączone</name>
-        <name lang="it">4 porte - P-A-B connesse</name>
-        <name lang="cs">4 cesty - P-A-B spojené</name>
         <name lang="ar">مسارات -P-A-B  مُتّصلة 2</name>
+        <name lang="en">4 ports -P-A-B connected</name>
+        <name lang="cs">4 cesty - P-A-B spojené</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-20" y1="-5" end1="none" x2="20"/>
-        <input size="9" x="-21" rotate="true" tagg="label" y="-3.45" text="_"/>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" y1="5" end1="none" x2="20"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="9" y1="-20" end1="none" x2="0"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-5" y1="-5" end1="none" x2="20"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-5" y="-20"/>
-        <line antialias="false" x1="18" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="22"/>
-        <circle antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-1.15" y="-6.15"/>
-        <terminal orientation="n" x="0" y="-20"/>
-        <terminal orientation="n" x="20" y="-20"/>
-        <terminal orientation="s" x="20" y="10"/>
-        <terminal orientation="s" x="0" y="10"/>
+        <line antialias="false" x1="20" end1="none" end2="none" x2="20" length1="1.5" length2="1.5" y1="-5" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_width="-1" Valignment="AlignTop" z="2" text_from="ElementInfo" Halignment="AlignLeft" y="-15.95" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{60213709-6c85-46b6-b443-001837901b2e}" x="-21" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" x1="20" end1="none" end2="none" x2="20" length1="1.5" length2="1.5" y1="5" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x1="0" end1="none" end2="none" x2="0" length1="1.5" length2="1.5" y1="-20" y2="9" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x1="0" end1="none" end2="none" x2="20" length1="1.5" length2="1.5" y1="-5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect width="30" antialias="false" y="-20" height="30" rx="0" x="-5" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x1="18" end1="none" end2="none" x2="22" length1="1.5" length2="1.5" y1="5" y2="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" diameter="2.3" y="-6.15" x="-1.15" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal orientation="n" type="Generic" y="-20" uuid="{8ecd6440-0d55-49a3-b6cb-4f01ececf420}" x="0" name=""/>
+        <terminal orientation="n" type="Generic" y="-20" uuid="{b98603da-5482-4ca1-a702-ce9fc8fcb702}" x="20" name=""/>
+        <terminal orientation="s" type="Generic" y="10" uuid="{73f85895-0b0b-4ebb-bd21-bf00b08c5a6f}" x="20" name=""/>
+        <terminal orientation="s" type="Generic" y="10" uuid="{b4d5c805-5bf1-4d73-9387-8786562ab785}" x="0" name=""/>
     </description>
 </definition>

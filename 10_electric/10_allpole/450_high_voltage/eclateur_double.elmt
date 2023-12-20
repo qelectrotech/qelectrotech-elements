@@ -1,22 +1,26 @@
-<definition width="20" hotspot_x="12" type="element" link_type="simple" version="0.5" height="60" hotspot_y="29">
-    <uuid uuid="{c76e9f74-eb38-4c03-a42c-ac4fa8321843}"/>
+<definition link_type="simple" hotspot_x="12" type="element" height="60" version="0.100.0" width="20" hotspot_y="29">
+    <uuid uuid="{74c412f0-7653-418e-9302-079dfd8abf9e}"/>
     <names>
-        <name lang="cs">Dvojité jiskřiště</name>
-        <name lang="pl">Odgromnik trójelektrodowy</name>
-        <name lang="it">Dual Spark</name>
-        <name lang="en">Dual Spark</name>
-        <name lang="nl">Dubbele Vonk</name>
-        <name lang="fr">Eclateur double</name>
         <name lang="ar">محدث شرر مزدوج</name>
+        <name lang="fr">Eclateur double</name>
+        <name lang="pl">Odgromnik trójelektrodowy</name>
+        <name lang="cs">Dvojité jiskřiště</name>
+        <name lang="nl">Dubbele Vonk</name>
+        <name lang="en">Dual Spark</name>
+        <name lang="it">Dual Spark</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="1" x2="-6"/>
-        <input tagg="label" rotate="true" size="9" y="-9.45" x="8" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="-5" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="5" x1="0" x2="0"/>
-        <terminal y="-21" x="0" orientation="n"/>
-        <terminal y="21" x="0" orientation="s"/>
+        <line x1="1" y1="0" length2="1.5" antialias="false" length1="1.5" end1="none" x2="-6" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Halignment="AlignLeft" text_from="ElementInfo" y="-21.95" text_width="-1" x="8" keep_visual_rotation="false" rotation="0" z="2" Valignment="AlignTop" uuid="{a7408750-6d7f-47ee-9073-c30530380ab4}" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" y1="-5" length2="1.5" antialias="false" length1="1.5" end1="simple" x2="0" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="5" length2="1.5" antialias="false" length1="1.5" end1="simple" x2="0" y2="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="-21" type="Generic" x="0" orientation="n" uuid="{791bd1ab-43bd-4120-bf0e-09b39348d428}" name=""/>
+        <terminal y="21" type="Generic" x="0" orientation="s" uuid="{028238bc-4584-4950-8d54-92e631080036}" name=""/>
     </description>
 </definition>

@@ -1,21 +1,25 @@
-<definition type="element" version="0.70" height="70" link_type="simple" hotspot_x="14" width="50" hotspot_y="32">
-    <uuid uuid="{799c2998-386c-4c6d-8d80-bbe204237bc6}"/>
+<definition type="element" width="50" version="0.100.0" hotspot_y="32" hotspot_x="14" height="70" link_type="simple">
+    <uuid uuid="{e52c7d73-912d-445c-8047-f7ec5b9bee4c}"/>
     <names>
-        <name lang="de">Mitteneinspeisung</name>
         <name lang="fr">Élément d'alimentation central</name>
         <name lang="cs">Díl s ústředním napájením</name>
         <name lang="en">Central feeder unit</name>
+        <name lang="de">Mitteneinspeisung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="65" tagg="label" size="9" x="35" text="_"/>
-        <line length1="1.5" end2="none" y1="30" y2="30" x2="-10" length2="1.5" antialias="false" x1="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="25" y2="35" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="25" y2="35" x2="30" length2="1.5" antialias="false" x1="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="10" y2="10" y3="-10" closed="false" x2="20" antialias="false" x1="0" x4="0" y4="10" x3="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="30" y2="-30" x2="10" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="30" x="-10"/>
-        <terminal orientation="e" y="30" x="30"/>
+        <dynamic_text z="1" rotation="0" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" y="52.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" x="35" keep_visual_rotation="false" uuid="{827f2570-18bb-4760-8195-35feccd210f2}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-10" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" end2="none" y2="30" y1="30" antialias="false"/>
+        <line x2="-10" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" end2="none" y2="35" y1="25" antialias="false"/>
+        <line x2="30" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" end2="none" y2="35" y1="25" antialias="false"/>
+        <polygon x2="20" y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x4="0" y2="10" closed="false" y1="10" antialias="false" x3="10" y4="10"/>
+        <line x2="10" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" end2="none" y2="-30" y1="30" antialias="false"/>
+        <terminal type="Generic" y="30" orientation="w" name="" x="-10" uuid="{bea769dd-e19c-432a-820c-2c21b7ffcf99}"/>
+        <terminal type="Generic" y="30" orientation="e" name="" x="30" uuid="{4d1b0eaf-84fa-42a5-be43-292691e427cb}"/>
     </description>
 </definition>

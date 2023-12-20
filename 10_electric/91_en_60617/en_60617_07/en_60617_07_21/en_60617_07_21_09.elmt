@@ -1,25 +1,29 @@
-<definition type="element" width="20" height="70" hotspot_y="34" hotspot_x="12" version="0.70" link_type="simple">
-    <uuid uuid="{c6e3a6b0-bea1-4b90-bd28-508727ca9d95}"/>
+<definition type="element" link_type="simple" version="0.100.0" height="70" hotspot_x="12" hotspot_y="34" width="20">
+    <uuid uuid="{141f96f0-7e52-44f7-b34d-66381372ce90}"/>
     <names>
-        <name lang="de">Sicherungs-Lasttrennschalter</name>
         <name lang="fr">Fusible interrupteur-sectionneur</name>
-        <name lang="cs">Pojistkový odpínač</name>
         <name lang="en">Fuse switch-disconnector; On-load isolating fuse switch</name>
+        <name lang="cs">Pojistkový odpínač</name>
+        <name lang="de">Sicherungs-Lasttrennschalter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="10" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="-13" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-30" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-3" y1="6" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-2" y1="-6" x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="5" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="1" y1="5" x2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-2" y1="-6" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
-        <circle antialias="false" diameter="2" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12" x="-1"/>
-        <line antialias="false" x1="-2" y1="-13" x2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-13" end1="none" length1="1.5" length2="1.5"/>
-        <terminal orientation="n" y="-30" x="0"/>
-        <terminal orientation="s" y="30" x="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Valignment="AlignTop" Halignment="AlignLeft" uuid="{4baf1857-4913-4436-b0d9-9cff480e0dec}" y="12.5" frame="false" x="5" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="0" x2="0" y2="10" length2="1.5"/>
+        <line y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="0" x2="-5" y2="-10" length2="1.5"/>
+        <line y1="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="0" x2="0" y2="-30" length2="1.5"/>
+        <line y1="6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="-3" x2="-6" y2="-5" length2="1.5"/>
+        <line y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="-2" x2="1" y2="5" length2="1.5"/>
+        <line y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="1" x2="-3" y2="6" length2="1.5"/>
+        <line y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="-2" x2="-6" y2="-5" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-12" x="-1" diameter="2"/>
+        <line y1="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" antialias="false" end1="none" x1="-2" x2="2" y2="-13" length2="1.5"/>
+        <terminal type="Generic" orientation="n" uuid="{a55c26de-e6a3-4e9a-93b0-2fe6977114cc}" y="-30" x="0" name=""/>
+        <terminal type="Generic" orientation="s" uuid="{847a1c11-a631-48de-b9e2-8bf634ce51ae}" y="30" x="0" name=""/>
     </description>
 </definition>

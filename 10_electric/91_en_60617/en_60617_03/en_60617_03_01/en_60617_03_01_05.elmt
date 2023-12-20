@@ -1,28 +1,36 @@
-<definition hotspot_x="44" version="0.70" height="40" hotspot_y="34" width="90" type="element" link_type="simple">
-    <uuid uuid="{87b78d60-87a4-4da3-b9cd-3bfeb98d9efc}"/>
+<definition type="element" hotspot_y="34" link_type="simple" version="0.100.0" height="40" hotspot_x="44" width="90">
+    <uuid uuid="{e4519206-256b-437c-bfef-151d6f96a962}"/>
     <names>
-        <name lang="fr">Circuit à courant triphasé</name>
-        <name lang="de">Dreiphasen-Vierleitersystem</name>
-        <name lang="cs">Třífázový obvod</name>
         <name lang="en">Three-phase circuit</name>
+        <name lang="fr">Circuit à courant triphasé</name>
+        <name lang="cs">Třífázový obvod</name>
+        <name lang="de">Dreiphasen-Vierleitersystem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="40" y2="-30" y1="-30" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <input y="-36" x="-35" rotate="true" text="3N ~ 50 Hz 400 V" size="6" tagg="none"/>
-        <input y="5" x="-25" text="2 x 120 mm² AI" size="6" tagg="none"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="40" y2="-10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="40" y2="-20" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <terminal y="-30" x="-40" orientation="w"/>
-        <terminal y="-20" x="40" orientation="e"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="-20" x="-40" orientation="w"/>
-        <terminal y="0" x="-40" orientation="w"/>
-        <terminal y="-10" x="-40" orientation="w"/>
-        <terminal y="-10" x="40" orientation="e"/>
-        <terminal y="-30" x="40" orientation="e"/>
+        <dynamic_text Valignment="AlignTop" text_width="-1" x="5" uuid="{f899317d-1adc-4a2e-bc29-55c8508c7cbb}" y="2.5" text_from="ElementInfo" z="1" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-30" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40" antialias="false" length2="1.5" x1="-40" end1="none" end2="none" y2="-30"/>
+        <dynamic_text Valignment="AlignTop" text_width="-1" x="-35" uuid="{7bf770d2-799b-42c6-9c1a-3993e659bc4c}" y="-46" text_from="UserText" z="3" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" frame="false">
+            <text>3N ~ 50 Hz 400 V</text>
+        </dynamic_text>
+        <dynamic_text Valignment="AlignTop" text_width="-1" x="-25" uuid="{e64f0708-d7e8-43b7-82cf-aa6505a2b17c}" y="-5" text_from="UserText" z="4" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" frame="false">
+            <text>2 x 120 mm² AI</text>
+        </dynamic_text>
+        <line y1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40" antialias="false" length2="1.5" x1="-40" end1="none" end2="none" y2="0"/>
+        <line y1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40" antialias="false" length2="1.5" x1="-40" end1="none" end2="none" y2="-10"/>
+        <line y1="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40" antialias="false" length2="1.5" x1="-40" end1="none" end2="none" y2="-20"/>
+        <terminal name="" type="Generic" x="-40" uuid="{224d4be7-b237-4c43-85d1-e402aa57bbab}" y="-30" orientation="w"/>
+        <terminal name="" type="Generic" x="40" uuid="{7e5041d4-9ceb-4258-bae4-5f409ed10677}" y="-20" orientation="e"/>
+        <terminal name="" type="Generic" x="40" uuid="{debab7b9-5bcb-4a40-9b61-3b19cdc3e127}" y="0" orientation="e"/>
+        <terminal name="" type="Generic" x="-40" uuid="{e7dd32eb-65a6-4f19-a7af-e5ca037606e8}" y="-20" orientation="w"/>
+        <terminal name="" type="Generic" x="-40" uuid="{ea0a68dc-cac7-4ecc-9f8c-83f5f0c398b0}" y="0" orientation="w"/>
+        <terminal name="" type="Generic" x="-40" uuid="{69f6d467-8d5f-40c9-a33d-a5b9c6c47325}" y="-10" orientation="w"/>
+        <terminal name="" type="Generic" x="40" uuid="{ad2d4f89-a320-4cb5-ae45-22e5321e6cb9}" y="-10" orientation="e"/>
+        <terminal name="" type="Generic" x="40" uuid="{1e73d3ab-8e24-4658-b5d2-25ed84aea4a5}" y="-30" orientation="e"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition height="30" version="0.70" width="70" hotspot_x="32" type="element" hotspot_y="15" link_type="simple">
-    <uuid uuid="{94b2623d-5b1f-47e2-bb74-0d46513bddbf}"/>
+<definition hotspot_y="15" height="30" hotspot_x="32" type="element" link_type="simple" width="70" version="0.100.0">
+    <uuid uuid="{d4606628-c810-4610-8cae-63b5f0e2162d}"/>
     <names>
-        <name lang="fr">Barrière de diffusion d'ions</name>
-        <name lang="de">Ionen-Diffusions-Sperre</name>
         <name lang="cs">Iontová difuzní mřížka</name>
+        <name lang="de">Ionen-Diffusions-Sperre</name>
         <name lang="en">Ion diffusion barrier</name>
+        <name lang="fr">Barrière de diffusion d'ions</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="55" text="_"/>
-        <line x2="-30" y1="0" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" x1="10"/>
-        <line x2="15" y1="10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="5"/>
-        <line x2="25" y1="10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="15"/>
-        <line x2="35" y1="10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" x1="25"/>
+        <dynamic_text text_from="ElementInfo" rotation="0" x="55" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" uuid="{0284c27f-032a-469d-97a0-322885f15824}" Halignment="AlignLeft" z="1" y="2.5" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="10" x2="-30" end2="none" end1="none" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y1="0"/>
+        <line x1="5" x2="15" end2="none" end1="none" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y1="10"/>
+        <line x1="15" x2="25" end2="none" end1="none" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y1="10"/>
+        <line x1="25" x2="35" end2="none" end1="none" length1="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y1="10"/>
     </description>
 </definition>

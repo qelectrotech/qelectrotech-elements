@@ -1,19 +1,23 @@
-<definition type="element" version="0.70" hotspot_y="24" link_type="simple" width="30" height="50" hotspot_x="15">
-    <uuid uuid="{3bd16745-0110-4b61-9bd2-b6e6ba40d1fa}"/>
+<definition type="element" width="30" version="0.100.0" height="50" hotspot_x="15" link_type="simple" hotspot_y="24">
+    <uuid uuid="{76eddea3-9977-4d01-a9ad-ecd319620304}"/>
     <names>
-        <name lang="de">ideale Spannungsquelle</name>
         <name lang="es">Fuente de voltaje ideal</name>
+        <name lang="en">Ideal voltage source</name>
         <name lang="fr">Source idéale de tension</name>
         <name lang="cs">Ideální zdroj napětí</name>
-        <name lang="en">Ideal voltage source</name>
+        <name lang="de">ideale Spannungsquelle</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" size="9" tagg="label" rotate="true" x="5" text="_"/>
-        <circle y="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" antialias="false"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" y2="20" length2="1.5" antialias="false" x1="0" y1="-20" x2="0"/>
-        <terminal y="20" orientation="s" x="0"/>
-        <terminal y="-19" orientation="n" x="0"/>
+        <dynamic_text y="2.5" z="1" Halignment="AlignLeft" x="5" frame="false" text_width="-1" uuid="{f400a35f-a57d-4655-bcef-a631c894f48a}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-10" x="-10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" y2="20" length1="1.5" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="0" y1="-20" end1="none"/>
+        <terminal y="20" type="Generic" x="0" uuid="{9ee2429f-d512-4e2e-b109-6a0fc58d3997}" orientation="s" name=""/>
+        <terminal y="-19" type="Generic" x="0" uuid="{23876d58-0c79-47c5-9083-003437cd124b}" orientation="n" name=""/>
     </description>
 </definition>

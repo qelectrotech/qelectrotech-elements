@@ -1,36 +1,40 @@
-<definition height="40" type="element" width="60" hotspot_x="36" link_type="simple" version="0.5" hotspot_y="22">
-    <uuid uuid="{4f9c76e1-c9d0-433b-9c99-01f815585fd5}"/>
+<definition link_type="simple" width="60" height="40" type="element" hotspot_x="36" version="0.100.0" hotspot_y="22">
+    <uuid uuid="{b481a777-7ee8-4420-839b-94d5e9c331b3}"/>
     <names>
-        <name lang="ar">ملف حلقي بثلاث أقطاب</name>
-        <name lang="es">Núcleo toroide 3 polos</name>
-        <name lang="pt">Núcleo toroidal de 3 polos</name>
-        <name lang="pl">Przekładnik prądowy trójtorowy</name>
-        <name lang="el">Τοροειδές πηνίο 3 πόλων</name>
-        <name lang="fr">Tore 3 pôles</name>
-        <name lang="de">Stromwandler 3-polig</name>
-        <name lang="cs">Třípólový proudový transformátor</name>
-        <name lang="en">3-poles toroidal core</name>
-        <name lang="it">Toroide a 3 poli</name>
         <name lang="nl">Stroomtransformator ringkern 3AC</name>
+        <name lang="el">Τοροειδές πηνίο 3 πόλων</name>
+        <name lang="it">Toroide a 3 poli</name>
+        <name lang="es">Núcleo toroide 3 polos</name>
+        <name lang="cs">Třípólový proudový transformátor</name>
+        <name lang="de">Stromwandler 3-polig</name>
+        <name lang="fr">Tore 3 pôles</name>
+        <name lang="pt">Núcleo toroidal de 3 polos</name>
+        <name lang="en">3-poles toroidal core</name>
+        <name lang="ar">ملف حلقي بثلاث أقطاب</name>
+        <name lang="pl">Przekładnik prądowy trójtorowy</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" size="9" rotate="true" text="_" x="-36" y="-12.45"/>
-        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="5" y2="-10" length1="1.5" end2="none" x1="5"/>
-        <line y1="-10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="5" y2="-10" length1="1.5" end2="none" x1="14"/>
-        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" y2="0" length1="1.5" end2="none" x1="14"/>
-        <ellipse height="5" width="40" style="line-style:dashed;line-weight:thin;filling:white;color:black" antialias="true" x="-30" y="-2.5"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-10" y2="10" length1="1.5" end2="none" x1="-10"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" y2="10" length1="1.5" end2="none" x1="0"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-20" y2="10" length1="1.5" end2="none" x1="-20"/>
-        <terminal orientation="n" x="0" y="-16"/>
-        <terminal orientation="s" x="0" y="11"/>
-        <terminal orientation="e" x="15" y="0"/>
-        <terminal orientation="e" x="15" y="-10"/>
-        <terminal orientation="n" x="-10" y="-16"/>
-        <terminal orientation="s" x="-10" y="11"/>
-        <terminal orientation="n" x="-20" y="-16"/>
-        <terminal orientation="s" x="-20" y="11"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{32d85a43-a5bd-4021-8e55-7918fb1cd871}" keep_visual_rotation="false" y="-24.95" x="-36" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" z="1" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-10" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="5" length1="1.5" antialias="false" x2="5"/>
+        <line y2="-10" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="14" length1="1.5" antialias="false" x2="5"/>
+        <line y2="0" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="14" length1="1.5" antialias="false" x2="10"/>
+        <ellipse style="line-style:dashed;line-weight:thin;filling:white;color:black" width="40" height="5" y="-2.5" x="-30" antialias="true"/>
+        <line y2="10" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="-10" length1="1.5" antialias="false" x2="-10"/>
+        <line y2="10" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="0" length1="1.5" antialias="false" x2="0"/>
+        <line y2="10" end1="none" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="-20" length1="1.5" antialias="false" x2="-20"/>
+        <terminal uuid="{a71df365-b5d9-4358-896a-f34d5a6efd26}" y="-16" x="0" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{2e2c226b-cb3f-423a-a746-bf3b669d7d33}" y="11" x="0" type="Generic" orientation="s" name=""/>
+        <terminal uuid="{2d48c526-5a57-419e-a3a6-43cd57efd104}" y="0" x="15" type="Generic" orientation="e" name=""/>
+        <terminal uuid="{a8f98b55-8edb-42d9-977d-fadc7a539ec3}" y="-10" x="15" type="Generic" orientation="e" name=""/>
+        <terminal uuid="{f3797c0e-5e74-48ab-9e27-724b2b647682}" y="-16" x="-10" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{338490ac-03b1-49fd-a78a-1cc07ee52cfd}" y="11" x="-10" type="Generic" orientation="s" name=""/>
+        <terminal uuid="{43322dd0-fe9f-405e-a018-b5a92cb0a001}" y="-16" x="-20" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{c348ea62-cc0b-42dd-9417-d53e0101425f}" y="11" x="-20" type="Generic" orientation="s" name=""/>
     </description>
 </definition>

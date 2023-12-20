@@ -1,27 +1,36 @@
-<definition width="50" version="0.3" hotspot_x="28" hotspot_y="31" height="60" type="element">
-<uuid uuid="{4B5A6F50-9164-4EBD-8792-C1184CD6694F}"/><names>
-        <name lang="en">NO Actuated by the level of a liquid</name>
-        <name lang="de">Niveauschalter Schliesser</name>
-        <name lang="it">Azionato dal livello di un liquido NO</name>
-        <name lang="fr">Actionné par le niveau d'un liquide NO</name>
+<definition hotspot_y="24" type="element" hotspot_x="25" link_type="simple" version="0.100.0" height="50" width="30">
+    <uuid uuid="{5cc3f92f-0923-468e-acd7-27a3b8cf83d8}"/>
+    <names>
         <name lang="pl">Zestyk zwierny sterowany poziomem cieczy</name>
-        <name lang="es">Accionado por el nivel de un liquido NA</name>
+        <name lang="de">Niveauschalter Schliesser</name>
         <name lang="cs">Hladinový spínač NO</name>
+        <name lang="it">Azionato dal livello di un liquido NO</name>
+        <name lang="en">NO Actuated by the level of a liquid</name>
+        <name lang="es">Accionado por el nivel de un liquido NA</name>
         <name lang="nl">vloeistofniveau 2 (NO)</name>
+        <name lang="fr">Actionné par le niveau d'un liquide NO</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc width="12" x="-22" y="-4.5" antialias="true" height="7" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-20" angle="-140"/>
-        <arc width="12" x="-22" y="-2.5" antialias="true" height="7" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-200" angle="-140"/>
-        <input x="-10" y="16" size="4" text="4"/>
-        <input x="-10" y="-16" size="4" text="3"/>
-        <input x="1" y="0.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" x1="-16" y2="-3" x2="-16"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-10" y2="0" x2="-3"/>
-        <terminal x="0" y="20" orientation="s"/>
-        <terminal x="0" y="-20" orientation="n"/>
+        <arc angle="-140" antialias="true" x="-22" y="-4.5" height="7" width="12" start="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc angle="-140" antialias="true" x="-22" y="-2.5" height="7" width="12" start="-200" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text keep_visual_rotation="false" frame="false" Valignment="AlignTop" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{ff1f4749-6a17-4a43-a691-705bfc274d88}" x="-10" rotation="0" y="8" z="3" Halignment="AlignLeft" text_from="UserText">
+            <text>4</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" frame="false" Valignment="AlignTop" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{8d5552c1-e80f-45ea-9aeb-2daf312921fc}" x="-10" rotation="0" y="-24" z="4" Halignment="AlignLeft" text_from="UserText">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" frame="false" Valignment="AlignTop" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{1804bd58-0807-43e2-92bf-ab61b4937221}" x="1" rotation="0" y="-12" z="5" Halignment="AlignLeft" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y1="-10" x3="0" x1="-5" antialias="true" y3="20" y2="10" x2="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" x1="0" end1="none" length2="1.5" antialias="false" length1="1.5" y2="-10" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-6" x1="-16" end1="none" length2="1.5" antialias="false" length1="1.5" y2="-3" end2="none" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="0" x1="-10" end1="none" length2="1.5" antialias="false" length1="1.5" y2="0" end2="none" x2="-3" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <terminal type="Generic" orientation="s" name="" uuid="{57ac67ba-0f86-4cef-9516-d2b161100fbe}" x="0" y="20"/>
+        <terminal type="Generic" orientation="n" name="" uuid="{f51192f8-87f3-4050-87ed-fecfbdbe612b}" x="0" y="-20"/>
     </description>
 </definition>

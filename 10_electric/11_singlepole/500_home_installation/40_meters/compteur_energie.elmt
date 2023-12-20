@@ -1,24 +1,28 @@
-<definition hotspot_x="10" hotspot_y="4" height="50" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{089ac832-39e1-4946-b990-54f6436748cb}"/>
+<definition hotspot_y="4" version="0.100.0" link_type="simple" type="element" hotspot_x="10" height="50" width="40">
+    <uuid uuid="{8e21027e-1bde-4c38-aa74-5fb7b560c7cb}"/>
     <names>
+        <name lang="it">Misuratore di Kwh</name>
         <name lang="fr">Compteur d’énergie</name>
         <name lang="pl">Licznik energii</name>
+        <name lang="nl">Energiemeter</name>
+        <name lang="de">Energiezähler</name>
+        <name lang="en">Energy meter</name>
         <name lang="cs">Elektroměr</name>
         <name lang="ar">عدّاد طاقة</name>
         <name lang="el">Μετρητής ενέργειας, Κιλοβατώρες (KWh)</name>
-        <name lang="it">Misuratore di Kwh</name>
-        <name lang="en">Energy meter</name>
-        <name lang="de">Energiezähler</name>
-        <name lang="nl">Energiemeter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="28" rotate="true" size="9" text="_" y="15.55" tagg="label"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" antialias="false" y2="10" end1="none" x2="26" length1="1.5" x1="-6"/>
-        <rect x="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" antialias="false" y="0" width="32"/>
-        <text x="-4" size="10" text="kWh" y="30"/>
-        <terminal x="20" orientation="s" y="40"/>
-        <terminal x="0" orientation="s" y="40"/>
+        <dynamic_text x="28" z="1" text_width="-1" frame="false" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ea197930-a7bc-45a3-b05b-9cb307dbd3b4}" y="3.05" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="10" x1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" length2="1.5" antialias="false" end1="none" end2="none" x2="26" length1="1.5"/>
+        <rect x="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" ry="0" y="0" height="40" rx="0" width="32"/>
+        <text x="-4" color="#000000" y="30" font="Sans Serif,10,-1,5,50,0,0,0,0,0" text="kWh" rotation="0"/>
+        <terminal x="20" orientation="s" name="" uuid="{38b5b11f-7a5c-4123-8bc0-de27f2762a1f}" y="40" type="Generic"/>
+        <terminal x="0" orientation="s" name="" uuid="{910f42e3-9a97-44b2-a338-18457d45d618}" y="40" type="Generic"/>
     </description>
 </definition>

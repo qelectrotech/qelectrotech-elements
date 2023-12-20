@@ -1,23 +1,27 @@
-<definition type="element" width="110" version="0.70" hotspot_y="30" height="40" link_type="simple" hotspot_x="104">
-    <uuid uuid="{1989ab53-815c-49c6-884c-3f3811878e6c}"/>
+<definition link_type="simple" width="110" hotspot_x="104" height="40" type="element" hotspot_y="30" version="0.100.0">
+    <uuid uuid="{8fe9c03c-058b-4f68-87ed-70bc3eb11175}"/>
     <names>
-        <name lang="fr">Concentrateur de lignes sur poteau</name>
         <name lang="de">Leitungskonzentrator an einem Mast</name>
+        <name lang="fr">Concentrateur de lignes sur poteau</name>
         <name lang="cs">Sdružovací zařízení na sloupu</name>
         <name lang="en">Line concentrator on a pole</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <circle antialias="false" diameter="20" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
-        <line x2="-50" end2="none" antialias="false" end1="none" length2="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-20" length1="1.5"/>
-        <line x2="-43" end2="none" antialias="false" end1="none" length2="1.5" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-15" length1="1.5"/>
-        <line x2="-56" end2="none" antialias="false" end1="none" length2="1.5" y2="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-19" length1="1.5"/>
-        <line x2="-56" end2="none" antialias="false" end1="none" length2="1.5" y2="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-11" length1="1.5"/>
-        <circle antialias="false" diameter="10" x="-55" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5"/>
-        <line x2="-100" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <terminal x="0" orientation="e" y="0"/>
-        <terminal x="-100" orientation="w" y="0"/>
+        <dynamic_text z="1" keep_visual_rotation="false" text_from="ElementInfo" frame="false" Valignment="AlignTop" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" Halignment="AlignLeft" rotation="0" uuid="{e06b2d10-212c-4a72-a96d-e1b5ea74933b}" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="20" y="-25" x="-60"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-50" length2="1.5" y1="-20" x1="-50" y2="-10"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-43" length2="1.5" y1="-15" x1="-50" y2="-15"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-56" length2="1.5" y1="-19" x1="-50" y2="-19"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-56" length2="1.5" y1="-11" x1="-50" y2="-11"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="10" y="-5" x="-55"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" x2="-100" length2="1.5" y1="0" x1="0" y2="0"/>
+        <terminal orientation="e" y="0" x="0" type="Generic" uuid="{a4de250d-7568-4351-b856-a146c1b3b14d}" name=""/>
+        <terminal orientation="w" y="0" x="-100" type="Generic" uuid="{0693e5aa-f9e5-41fa-b773-bc2a3743370a}" name=""/>
     </description>
 </definition>

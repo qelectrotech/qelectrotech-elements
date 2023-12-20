@@ -1,17 +1,21 @@
-<definition hotspot_x="15" type="element" width="30" hotspot_y="15" version="0.70" height="20" link_type="simple">
-    <uuid uuid="{763704c5-1562-4522-98a9-25c4292fd2a9}"/>
+<definition height="20" version="0.100.0" width="30" link_type="simple" type="element" hotspot_x="15" hotspot_y="15">
+    <uuid uuid="{b628f167-6a11-445c-bfbd-f2e9bbd994bb}"/>
     <names>
-        <name lang="fr">Courant continu</name>
-        <name lang="de">Gleichstrom und -Spannung</name>
-        <name lang="es">Corriente continua</name>
         <name lang="cs">Stejnosměrný proud</name>
+        <name lang="de">Gleichstrom und -Spannung</name>
         <name lang="en">Direct current</name>
+        <name lang="fr">Courant continu</name>
+        <name lang="es">Corriente continua</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y1="-10" x1="-10" length2="1.5" antialias="false" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end2="none" end1="none"/>
-        <line y1="0" x1="-10" length2="1.5" antialias="false" x2="10" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="0" end2="none" end1="none"/>
-        <input text="_" size="9" rotate="true" x="5" tagg="label" y="15"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="-10" x2="10" y1="-10" y2="-10" length2="1.5" end2="none" end1="none" antialias="false"/>
+        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" x1="-10" x2="10" y1="0" y2="0" length2="1.5" end2="none" end1="none" antialias="false"/>
+        <dynamic_text text_width="-1" uuid="{5c947b6d-a6ee-4080-aa82-d715f20598c8}" text_from="ElementInfo" Valignment="AlignTop" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" keep_visual_rotation="false" z="3" rotation="0" Halignment="AlignLeft" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

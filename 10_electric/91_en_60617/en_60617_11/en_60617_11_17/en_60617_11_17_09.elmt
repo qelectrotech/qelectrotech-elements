@@ -1,22 +1,26 @@
-<definition type="element" version="0.70" height="20" link_type="simple" hotspot_x="84" width="90" hotspot_y="15">
-    <uuid uuid="{5971c0b4-adb6-42e0-897e-4975167ff42e}"/>
+<definition type="element" hotspot_y="15" height="20" link_type="simple" width="90" version="0.100.0" hotspot_x="84">
+    <uuid uuid="{b9d7a176-9740-4a93-a3ac-7f7c3cb77c08}"/>
     <names>
+        <name lang="en">Straight section adjustable in length</name>
+        <name lang="cs">Přímý díl, délkově nastavitelný</name>
         <name lang="de">Ausgleichsstück, Länge einstellbar</name>
         <name lang="fr">Élément droit à longueur ajustable</name>
-        <name lang="cs">Přímý díl, délkově nastavitelný</name>
-        <name lang="en">Straight section adjustable in length</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <line length1="1.5" end2="none" y1="-5" y2="-5" x2="-30" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-10" y2="0" x2="-80" length2="1.5" antialias="false" x1="-80" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-10" y2="0" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="-5" x2="-40" length2="1.5" antialias="false" x1="-80" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="0" x2="-30" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-50" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="-5" x="-80"/>
-        <terminal orientation="e" y="-5" x="0"/>
+        <dynamic_text text_from="ElementInfo" z="1" uuid="{bfcece74-8704-4dbf-9b0d-f5362bfa8e49}" text_width="-1" keep_visual_rotation="false" y="12.5" rotation="0" x="5" Valignment="AlignTop" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" length1="1.5" antialias="false" y1="-5" end2="none" x2="-30" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line x1="-80" length1="1.5" antialias="false" y1="-10" end2="none" x2="-80" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line x1="0" length1="1.5" antialias="false" y1="-10" end2="none" x2="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line x1="-80" length1="1.5" antialias="false" y1="-5" end2="none" x2="-40" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line x1="-30" length1="1.5" antialias="false" y1="-5" end2="none" x2="-30" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <line x1="-30" length1="1.5" antialias="false" y1="0" end2="none" x2="-50" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5"/>
+        <terminal uuid="{00012668-cf1f-4673-85c5-e77beb87294d}" name="" type="Generic" y="-5" orientation="w" x="-80"/>
+        <terminal uuid="{02974eeb-6e47-42e3-adca-e418f8c0efff}" name="" type="Generic" y="-5" orientation="e" x="0"/>
     </description>
 </definition>

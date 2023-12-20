@@ -1,24 +1,28 @@
-<definition type="element" width="60" height="70" hotspot_y="44" hotspot_x="30" version="0.70" link_type="simple">
-    <uuid uuid="{6c0f49b1-2f91-434b-8ef5-6d69f1122cb1}"/>
+<definition type="element" hotspot_x="30" width="60" height="70" link_type="simple" hotspot_y="44" version="0.100.0">
+    <uuid uuid="{e8bb5908-e535-4e56-9c21-b6c27803b709}"/>
     <names>
-        <name lang="de">Zweiwege-Trennschalter</name>
-        <name lang="fr">Sectionneur à deux directions</name>
         <name lang="cs">Dvoucestný odpojovač, ve střední poloze vypnutý</name>
         <name lang="en">Two-way disconnector; Two-way isolator</name>
+        <name lang="fr">Sectionneur à deux directions</name>
+        <name lang="de">Zweiwege-Trennschalter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="0" y1="4" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-24" end1="none" length1="1.5" length2="1.5"/>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="-20" y1="-40" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="20" y1="-40" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-24" y1="-20" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="16" y1="-20" x2="24" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
-        <circle antialias="false" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" y="0" x="-2"/>
-        <terminal orientation="n" y="-40" x="-20"/>
-        <terminal orientation="s" y="20" x="0"/>
-        <terminal orientation="n" y="-40" x="20"/>
+        <line y1="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="20" x1="0" end1="none" x2="0"/>
+        <line y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="-24" x1="0" end1="none" x2="0"/>
+        <dynamic_text y="12.5" z="3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_width="-1" rotation="0" uuid="{52e0be47-6094-4193-90a8-6f088969a99a}" keep_visual_rotation="false" frame="false" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="-20" x1="-20" end1="none" x2="-20"/>
+        <line y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="-20" x1="20" end1="none" x2="20"/>
+        <line y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="-20" x1="-24" end1="none" x2="-16"/>
+        <line y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end2="none" y2="-20" x1="16" end1="none" x2="24"/>
+        <circle y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-2" diameter="4"/>
+        <terminal y="-40" type="Generic" name="" x="-20" orientation="n" uuid="{9c7c6e5c-732a-42f2-bb6e-6f97d3f9c1ee}"/>
+        <terminal y="20" type="Generic" name="" x="0" orientation="s" uuid="{d19ec0a5-58ee-448a-9236-112e90e0ff2d}"/>
+        <terminal y="-40" type="Generic" name="" x="20" orientation="n" uuid="{5407b933-ceb1-4cfd-b8b8-432201fe49b4}"/>
     </description>
 </definition>

@@ -1,19 +1,23 @@
-<definition type="element" width="20" height="70" hotspot_y="44" hotspot_x="13" version="0.70" link_type="simple">
-    <uuid uuid="{7237515d-a913-4e2e-a4fc-4253d426e8ac}"/>
+<definition hotspot_y="44" link_type="simple" version="0.100.0" hotspot_x="13" type="element" width="20" height="70">
+    <uuid uuid="{49a6ce60-48f7-4e08-9b9c-8840987e80c0}"/>
     <names>
-        <name lang="de">Schalter</name>
         <name lang="fr">Interrupteur</name>
+        <name lang="de">Schalter</name>
         <name lang="cs">Spínač</name>
         <name lang="en">Switch</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="0" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-23" end1="none" length1="1.5" length2="1.5"/>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <terminal orientation="n" y="-40" x="0"/>
-        <terminal orientation="s" y="20" x="0"/>
+        <line x1="0" y1="-20" antialias="false" x2="0" end2="none" y2="-40" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="0" antialias="false" x2="0" end2="none" y2="20" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="0" antialias="false" x2="-8" end2="none" y2="-23" length1="1.5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="5" Halignment="AlignLeft" uuid="{6033761d-2bea-4099-a9c4-8a60b4e8fcd5}" y="12.5" z="4" text_from="ElementInfo" Valignment="AlignTop" frame="false" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="n" x="0" type="Generic" uuid="{4243354a-bc69-4799-9d67-f4c2669eef43}" y="-40" name=""/>
+        <terminal orientation="s" x="0" type="Generic" uuid="{c4a0d089-911d-440a-84ef-2edc8bcdaf76}" y="20" name=""/>
     </description>
 </definition>

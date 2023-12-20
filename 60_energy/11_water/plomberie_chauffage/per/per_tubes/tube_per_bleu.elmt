@@ -1,15 +1,25 @@
-<definition height="20" hotspot_x="23" hotspot_y="10" version="0.51" link_type="terminal" width="40" type="element">
-    <uuid uuid="{8679e610-b162-4da6-908d-ca673442f1c6}"/>
+<definition version="0.100.0" hotspot_x="23" type="element" hotspot_y="10" height="20" link_type="terminal" width="40">
+    <uuid uuid="{31e40279-9599-4525-95b3-8c550bacec5c}"/>
     <names>
         <name lang="fr">Tube PER </name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41</informations>
     <description>
-        <polygon x1="-18" antialias="false" y6="-5" y1="-5" x2="12" y4="5" x6="-18" x4="-20" x5="-18" x3="12" y3="5" y5="-5" style="line-style:normal;line-weight:normal;filling:blue;color:blue" y2="-5"/>
-        <input y="17" text="_" tagg="label" rotate="true" x="-14" size="9"/>
-        <text color="white" y="3" text="PER" x="-15" size="5"/>
-        <input y="0" text="16" tagg="none" rotate="true" x="-5" size="5"/>
-        <terminal orientation="e" y="0" x="12"/>
-        <terminal orientation="w" y="0" x="-19"/>
+        <polygon y3="5" style="line-style:normal;line-weight:normal;filling:blue;color:blue" y1="-5" x2="12" y5="-5" antialias="false" x1="-18" x5="-18" y6="-5" y4="5" y2="-5" x3="12" x6="-18" x4="-20"/>
+        <dynamic_text y="4.5" frame="false" Halignment="AlignLeft" Valignment="AlignTop" x="-14" text_width="-1" text_from="ElementInfo" z="2" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b9b83c12-e37c-4692-b988-de3f66f31a43}" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text color="#ffffff" y="3" text="PER" x="-15" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <dynamic_text y="-9.5" frame="false" Halignment="AlignLeft" Valignment="AlignTop" x="-5" text_width="-1" text_from="UserText" z="4" keep_visual_rotation="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" uuid="{c4423b0a-06cf-4815-a0d4-3201e7fe9bb0}" rotation="0">
+            <text>16</text>
+        </dynamic_text>
+        <terminal y="0" x="12" orientation="e" type="Generic" name="" uuid="{7b5d17b3-cd06-4a17-bea5-a0a72a122bc4}"/>
+        <terminal y="0" x="-19" orientation="w" type="Generic" name="" uuid="{21c36632-8418-457d-ae2b-70900890fbce}"/>
     </description>
 </definition>

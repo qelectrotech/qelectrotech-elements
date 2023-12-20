@@ -1,34 +1,54 @@
-<definition type="element" height="10" link_type="simple" version="0.60" hotspot_x="73" hotspot_y="5" width="150">
-    <uuid uuid="{d1007c67-032b-4925-8560-aac9e547d6ae}"/>
+<definition type="element" height="10" version="0.100.0" link_type="simple" hotspot_y="5" width="150" hotspot_x="73">
+    <uuid uuid="{9a4d0ba0-8eba-4fc2-90bf-b8360ecf0272}"/>
     <names>
-        <name lang="ru">Кабель 6 жилы + PE</name>
-        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
-        <name lang="cs">Kabel 7G</name>
         <name lang="de">Kabel 7G</name>
-        <name lang="es">Cable 6 fases+tierra</name>
         <name lang="it">Cavo  fasi + terra</name>
         <name lang="fr">Cable 6 phases+terre</name>
+        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
         <name lang="hu">Kábel 6 + PE</name>
+        <name lang="es">Cable 6 fases+tierra</name>
+        <name lang="ru">Кабель 6 жилы + PE</name>
+        <name lang="cs">Kabel 7G</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="4" tagg="none" rotate="true" x="38" y="-4" text="6"/>
-        <input size="4" tagg="none" rotate="true" x="18" y="-4" text="5"/>
-        <input size="4" tagg="none" rotate="true" x="-2" y="-4" text="4"/>
-        <line x1="57.95" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="61.95" y2="1.95" antialias="true"/>
-        <line x1="-42.05" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="-38.05" y2="1.95" antialias="true"/>
-        <line x1="37.95" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="41.95" y2="1.95" antialias="true"/>
-        <line x1="17.95" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="21.95" y2="1.95" antialias="true"/>
-        <line x1="-2.05" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="1.95" y2="1.95" antialias="true"/>
-        <line x1="-22" y1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="-18" y2="2" antialias="true"/>
-        <input size="7" tagg="none" rotate="true" x="-89" y="10" text="7G"/>
-        <line x1="-67.9373" y1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="71" y2="0" antialias="false"/>
-        <line x1="-62" y1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="-58" y2="2" antialias="true"/>
-        <input size="7" tagg="label" rotate="true" x="-90" y="-9" text="_"/>
-        <input size="4" tagg="none" rotate="true" x="-62" y="-4" text="1"/>
-        <input size="4" tagg="none" rotate="true" x="-42" y="-4" text="2"/>
-        <input size="4" tagg="none" rotate="true" x="-22" y="-4" text="3"/>
-        <input size="4" tagg="none" rotate="true" x="58" y="-4" text="PE"/>
+        <dynamic_text frame="false" x="38" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{d69b416e-cddb-4f2c-bdbf-39a01ea49b25}" Halignment="AlignLeft" text_from="UserText">
+            <text>6</text>
+        </dynamic_text>
+        <dynamic_text frame="false" x="18" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="2" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{e0bcd636-5828-48e2-b037-eeac88a80fc8}" Halignment="AlignLeft" text_from="UserText">
+            <text>5</text>
+        </dynamic_text>
+        <dynamic_text frame="false" x="-2" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="3" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{56df50f2-e949-47c1-8d1d-2955142fe62a}" Halignment="AlignLeft" text_from="UserText">
+            <text>4</text>
+        </dynamic_text>
+        <line x2="61.95" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.95" end2="none" length2="1.5" x1="57.95" length1="1.5" end1="none" y1="-2.05"/>
+        <line x2="-38.05" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.95" end2="none" length2="1.5" x1="-42.05" length1="1.5" end1="none" y1="-2.05"/>
+        <line x2="41.95" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.95" end2="none" length2="1.5" x1="37.95" length1="1.5" end1="none" y1="-2.05"/>
+        <line x2="21.95" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.95" end2="none" length2="1.5" x1="17.95" length1="1.5" end1="none" y1="-2.05"/>
+        <line x2="1.95" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.95" end2="none" length2="1.5" x1="-2.05" length1="1.5" end1="none" y1="-2.05"/>
+        <line x2="-18" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="2" end2="none" length2="1.5" x1="-22" length1="1.5" end1="none" y1="-2"/>
+        <dynamic_text frame="false" x="-89" keep_visual_rotation="false" y="-0.5" rotation="0" text_width="-1" Valignment="AlignTop" z="10" font="Sans Serif,7,-1,5,50,0,0,0,0,0" uuid="{0561bb89-c3e4-4eda-9b9e-1e26bbe0357a}" Halignment="AlignLeft" text_from="UserText">
+            <text>7G</text>
+        </dynamic_text>
+        <line x2="71" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" length2="1.5" x1="-67.9373" length1="1.5" end1="none" y1="0"/>
+        <line x2="-58" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="2" end2="none" length2="1.5" x1="-62" length1="1.5" end1="none" y1="-2"/>
+        <dynamic_text frame="false" x="-90" keep_visual_rotation="false" y="-19.5" rotation="0" text_width="-1" Valignment="AlignTop" z="13" font="Sans Serif,7,-1,5,50,0,0,0,0,0" uuid="{b7b96978-c80f-4a5d-b2e5-37ebdd560539}" Halignment="AlignLeft" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text frame="false" x="-62" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="14" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{ebcd84c1-6106-4e6c-9377-516db7353059}" Halignment="AlignLeft" text_from="UserText">
+            <text>1</text>
+        </dynamic_text>
+        <dynamic_text frame="false" x="-42" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="15" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{0b1b3182-cfca-471b-baaa-4000089b87d5}" Halignment="AlignLeft" text_from="UserText">
+            <text>2</text>
+        </dynamic_text>
+        <dynamic_text frame="false" x="-22" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="16" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{5bb62fea-dc29-44e1-9f0c-142a17193bf5}" Halignment="AlignLeft" text_from="UserText">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text frame="false" x="58" keep_visual_rotation="false" y="-12" rotation="0" text_width="-1" Valignment="AlignTop" z="17" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{d8a35751-e713-44c0-ac27-fbac55b9cc6b}" Halignment="AlignLeft" text_from="UserText">
+            <text>PE</text>
+        </dynamic_text>
     </description>
 </definition>

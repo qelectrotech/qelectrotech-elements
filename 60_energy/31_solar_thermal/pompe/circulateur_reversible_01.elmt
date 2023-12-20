@@ -1,28 +1,32 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="30" hotspot_y="13">
-    <uuid uuid="{53b2ec13-cbe6-4f5a-bbc6-5575e826c6ac}"/>
+<definition version="0.100.0" width="30" hotspot_x="14" type="element" height="30" hotspot_y="13" link_type="simple">
+    <uuid uuid="{475bff0d-68de-4699-8ef8-d9ed47d2f2bc}"/>
     <names>
         <name lang="cs">Cirkulační pumpa</name>
-        <name lang="it">Circolatore reversibile</name>
-        <name lang="pl">Pompa cyrkulacyjna</name>
-        <name lang="en">Reversible circulator</name>
-        <name lang="es">Circulador reversible</name>
         <name lang="nl">Pomp circulator 2 zijdig</name>
+        <name lang="en">Reversible circulator</name>
         <name lang="ar">مضخة تداول</name>
-        <name lang="fr">Circulateur Réversible</name>
+        <name lang="es">Circulador reversible</name>
         <name lang="el">Αναστρέψιμος κυκλοφορητής</name>
+        <name lang="pl">Pompa cyrkulacyjna</name>
+        <name lang="fr">Circulateur Réversible</name>
+        <name lang="it">Circolatore reversibile</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" x4="6" antialias="true" y1="0" x1="6" x3="1" y3="5" y4="0" x2="1"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" x4="-6" antialias="true" y5="0" y1="0" x1="-6" x3="-1" y3="5" y4="0" x2="-1" x5="-6"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="14" y="-7" x="-7"/>
-        <line end2="simple" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="10" x1="-7" x2="7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="-7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="10" x2="7"/>
-        <input tagg="label" size="7" y="-12" x="-11" text="C1"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="7" x="0" orientation="s"/>
+        <polygon y3="5" y1="0" x4="6" y4="0" x3="1" x1="6" x2="1" antialias="true" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y3="5" y1="0" x4="-6" x5="-6" y4="0" x3="-1" x1="-6" x2="-1" antialias="true" y2="-5" y5="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="14" y="-7" x="-7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="simple" y1="10" x1="-7" x2="7" length1="1.5" length2="1.5" end2="simple" antialias="false" y2="10" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line end1="none" y1="0" x1="-10" x2="-7" length1="1.5" length2="1.5" end2="none" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y1="0" x1="10" x2="7" length1="1.5" length2="1.5" end2="none" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" z="7" y="-22.5" x="-11" font="Sans Serif,7,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" uuid="{3d5741b6-fb3e-48ed-9e0e-560559b024d7}" frame="false" rotation="0" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal name="" y="0" orientation="w" x="-10" type="Generic" uuid="{7bdb9a14-c169-450d-b9a9-ba3ee9b4e9db}"/>
+        <terminal name="" y="0" orientation="e" x="10" type="Generic" uuid="{4fdf181d-73ab-4c7f-95fb-a9cc8f0b0596}"/>
+        <terminal name="" y="7" orientation="s" x="0" type="Generic" uuid="{cb1510d2-e818-46b3-a0d5-581203a46179}"/>
     </description>
 </definition>

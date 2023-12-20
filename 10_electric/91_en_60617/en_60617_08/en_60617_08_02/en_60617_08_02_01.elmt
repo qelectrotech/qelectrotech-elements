@@ -1,17 +1,21 @@
-<definition type="element" width="50" height="50" link_type="simple" hotspot_y="45" hotspot_x="25" version="0.70">
-    <uuid uuid="{5ac22bfc-3a61-4462-a587-59469541bcb9}"/>
+<definition height="50" hotspot_y="45" type="element" width="50" hotspot_x="25" link_type="simple" version="0.100.0">
+    <uuid uuid="{965d7128-d002-4296-bd72-a4e65347c05c}"/>
     <names>
         <name lang="de">Spannungsmeßgerät, anzeigend
 Voltmeter</name>
-        <name lang="fr">Voltmètre</name>
-        <name lang="cs">Voltmetr</name>
         <name lang="en">Voltmeter</name>
+        <name lang="cs">Voltmetr</name>
+        <name lang="fr">Voltmètre</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" rotate="true" y="25" x="5"/>
-        <circle diameter="40" antialias="false" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
-        <text size="9" text="V" y="-16" x="-4"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{1e53fbbc-87b6-49fc-b13f-55664c7855f1}" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" y="12.5" z="1" text_from="ElementInfo" x="5" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false" x="-20" diameter="40"/>
+        <text text="V" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="-16" x="-4"/>
     </description>
 </definition>

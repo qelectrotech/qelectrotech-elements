@@ -1,22 +1,26 @@
-<definition version="0.5" link_type="simple" type="element" hotspot_x="15" width="30" hotspot_y="17" height="20">
-    <uuid uuid="{9ea51dea-2584-4f42-a00e-f2fd65ec8eb3}"/>
+<definition version="0.100.0" type="element" hotspot_x="15" width="30" height="20" link_type="simple" hotspot_y="17">
+    <uuid uuid="{70b93209-9fb0-411c-a6f0-6863b9f4b1a1}"/>
     <names>
+        <name lang="cs">Přepínač 3 polohy s návratem zprava</name>
+        <name lang="ar">زرّ دوّار بمقبض</name>
         <name lang="el">Θέσεις διακόπτη</name>
         <name lang="it">Comando, selettore</name>
-        <name lang="fr">Boutons tournant à manette</name>
         <name lang="pl">Pozycja pokrętła łącznika</name>
         <name lang="en">Switch handle and knob positions</name>
-        <name lang="ar">زرّ دوّار بمقبض</name>
-        <name lang="cs">Přepínač 3 polohy s návratem zprava</name>
         <name lang="nl">Schakelstanden</name>
+        <name lang="fr">Boutons tournant à manette</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" x="4" y="-6.5" tagg="label" text="_" size="9"/>
-        <line x1="9" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" length1="1.5" x2="2" end2="simple" antialias="false" y2="-15" y1="-12"/>
-        <line x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="true" y2="0" y1="-10"/>
-        <line x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="true" y2="0" y1="-10"/>
-        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="false" y2="-14" y1="-1"/>
+        <dynamic_text uuid="{98204d39-8b73-4046-a17d-c3c8d5f0bbed}" text_from="ElementInfo" z="1" rotation="0" y="-19" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="4" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-15" end1="none" antialias="false" y1="-12" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="9" length2="1.5" x2="2" end2="simple"/>
+        <line y2="0" end1="none" antialias="true" y1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" length2="1.5" x2="0" end2="none"/>
+        <line y2="0" end1="none" antialias="true" y1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" length2="1.5" x2="0" end2="none"/>
+        <line y2="-14" end1="none" antialias="false" y1="-1" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" x2="0" end2="none"/>
     </description>
 </definition>

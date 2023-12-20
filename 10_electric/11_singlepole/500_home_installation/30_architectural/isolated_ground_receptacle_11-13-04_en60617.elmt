@@ -1,23 +1,27 @@
-<definition hotspot_x="15" hotspot_y="15" height="50" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{c76f16d8-944c-4856-a957-3779ed09180e}"/>
+<definition hotspot_x="15" width="30" type="element" height="40" link_type="simple" hotspot_y="15" version="0.100.0">
+    <uuid uuid="{00b2fd60-5c97-408a-9b73-d875487fd964}"/>
     <names>
         <name lang="fr">Socle de prise de courant (puissance) avec contact pour conducteur de protection (EN 60617 11-13-04)</name>
-        <name lang="pl">Gniazdo pojedyncze ze stykiem ochronnym (EN 60617: 11-13-04)</name>
-        <name lang="cs">Zásuvka s ochranným kontaktem</name>
-        <name lang="ar">قاعدة قابس تيّار (قدرة) بحماية  (EN 60617 11-13-04)</name>
-        <name lang="el">Πρίζα με αγωγό προστασίας</name>
-        <name lang="it">Presa con contatto per conduttore di protezione</name>
         <name lang="de">Schutzkontaktsteckdose allgemein (EN 60617 11-13-04)</name>
-        <name lang="en">isolated ground receptacle (EN 60617 11-13-04)</name>
+        <name lang="ar">قاعدة قابس تيّار (قدرة) بحماية  (EN 60617 11-13-04)</name>
+        <name lang="cs">Zásuvka s ochranným kontaktem</name>
+        <name lang="pl">Gniazdo pojedyncze ze stykiem ochronnym (EN 60617: 11-13-04)</name>
+        <name lang="it">Presa con contatto per conduttore di protezione</name>
         <name lang="nl">Wandcontactdoos randaarde</name>
+        <name lang="en">isolated ground receptacle (EN 60617 11-13-04)</name>
+        <name lang="el">Πρίζα με αγωγό προστασίας</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="8" rotate="true" size="9" text="_" y="-4.45" tagg="label"/>
-        <arc x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="true" start="-180" y="10.5" angle="-180" width="20"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" antialias="false" y2="-5" end1="none" x2="0" length1="1.5" x1="0"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" antialias="false" y2="10" end1="none" x2="10" length1="1.5" x1="-10"/>
-        <terminal x="0" orientation="n" y="-10"/>
+        <dynamic_text keep_visual_rotation="false" x="8" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" z="1" rotation="0" frame="false" Halignment="AlignLeft" uuid="{cb8359ea-1792-4d58-b03b-9567d7443189}" y="-16.95">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc x="-10" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" angle="-180" antialias="true" height="20" y="10.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" antialias="false" x1="0" y1="10" x2="0" end2="none" y2="-5" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" antialias="false" x1="-10" y1="10" x2="10" end2="none" y2="10" length2="1.5"/>
+        <terminal x="0" orientation="n" type="Generic" name="" uuid="{018cc9b2-63ba-4861-8ac8-5c9d6d13217e}" y="-10"/>
     </description>
 </definition>

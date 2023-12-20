@@ -1,24 +1,28 @@
-<definition hotspot_x="24" version="0.70" height="20" hotspot_y="10" width="80" type="element" link_type="simple">
-    <uuid uuid="{ec984a31-f300-4e07-9968-28cb6e2c60ad}"/>
+<definition width="80" link_type="simple" hotspot_y="10" version="0.100.0" height="20" type="element" hotspot_x="24">
+    <uuid uuid="{843c81c5-84dc-421c-ba94-c70573593165}"/>
     <names>
+        <name lang="cs">Zásuvková spojka s mezičlenem</name>
         <name lang="fr">Fiche et prise de connecteur, par exemple
 cavalier, mâle-femelle</name>
         <name lang="de">Stecker verbunden, z. B. U-Stecker:
 - mit Adapter</name>
-        <name lang="cs">Zásuvková spojka s mezičlenem</name>
         <name lang="en">Plug and socket-type connector, male-female</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-3" x="0" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <line x2="50" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30"/>
-        <line x2="-20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6"/>
-        <arc y="-5" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90"/>
-        <arc y="-5" x="20" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90"/>
-        <rect y="-3" x="25" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="10"/>
-        <terminal y="0" x="50" orientation="e"/>
-        <terminal y="0" x="-20" orientation="w"/>
+        <dynamic_text x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{03c546d6-bee2-4fc7-963b-a39fb21bd729}" text_from="ElementInfo" y="2.5" keep_visual_rotation="false" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" z="1" frame="false" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="20" style="line-style:normal;line-weight:normal;filling:black;color:black" x="0" antialias="false" y="-3" height="6" ry="0" rx="0"/>
+        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" x2="50" end2="none" y1="0" length2="1.5" x1="30"/>
+        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" antialias="false" x2="-20" end2="none" y1="0" length2="1.5" x1="-6"/>
+        <arc width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" antialias="true" y="-5" height="10" start="90" angle="180"/>
+        <arc width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="20" antialias="true" y="-5" height="10" start="90" angle="180"/>
+        <rect width="10" style="line-style:normal;line-weight:normal;filling:black;color:black" x="25" antialias="false" y="-3" height="6" ry="0" rx="0"/>
+        <terminal name="" x="50" orientation="e" uuid="{17116617-71f6-4af2-ac1a-8171dfa2912f}" y="0" type="Generic"/>
+        <terminal name="" x="-20" orientation="w" uuid="{c7607e56-783d-4368-be68-c49660dea6d0}" y="0" type="Generic"/>
     </description>
 </definition>

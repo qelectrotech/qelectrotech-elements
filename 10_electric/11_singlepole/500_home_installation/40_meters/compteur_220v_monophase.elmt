@@ -1,24 +1,28 @@
-<definition hotspot_x="20" hotspot_y="35" height="60" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{2c8aab42-6ee3-426d-b3f8-77111f7601f1}"/>
+<definition width="40" link_type="simple" hotspot_y="35" hotspot_x="20" version="0.100.0" height="60" type="element">
+    <uuid uuid="{3a084198-e3cb-4ab4-9f5b-13c5f71e326f}"/>
     <names>
-        <name lang="fr">Compteur 220V monophase</name>
-        <name lang="pl">Licznik jednofazowy</name>
-        <name lang="cs">Jednofázový elektroměr</name>
-        <name lang="ar">عدّاد أحادي الوجه 220V </name>
         <name lang="el">Μονοφασικός μετρητής</name>
-        <name lang="it">Contatore monofase 230V</name>
-        <name lang="en">220V single phase meter</name>
-        <name lang="de">Zähler einphasig</name>
+        <name lang="fr">Compteur 220V monophase</name>
         <name lang="nl">KWh meter 230V</name>
+        <name lang="cs">Jednofázový elektroměr</name>
+        <name lang="it">Contatore monofase 230V</name>
+        <name lang="ar">عدّاد أحادي الوجه 220V </name>
+        <name lang="de">Zähler einphasig</name>
+        <name lang="pl">Licznik jednofazowy</name>
+        <name lang="en">220V single phase meter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="18" rotate="true" size="9" text="_" y="-14.45" tagg="label"/>
-        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="9" antialias="false" y="5" width="20"/>
-        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-20" width="20"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" antialias="false" y="-25" width="30"/>
-        <terminal x="0" orientation="n" y="-29"/>
-        <terminal x="0" orientation="s" y="18"/>
+        <dynamic_text rotation="0" text_width="-1" Halignment="AlignLeft" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="18" uuid="{7868daf9-adb6-4f87-a62f-3ccc1336bac3}" frame="false" y="-26.95" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="5" rx="0" height="9"/>
+        <rect width="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="-20" rx="0" height="8"/>
+        <rect width="30" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="-25" rx="0" height="30"/>
+        <terminal x="0" uuid="{8275db3f-ce87-4802-b54f-e98b7bd7ae33}" y="-29" name="" orientation="n" type="Generic"/>
+        <terminal x="0" uuid="{b5ad3e27-47f2-47e3-9d5b-dc23d72a28e7}" y="18" name="" orientation="s" type="Generic"/>
     </description>
 </definition>
