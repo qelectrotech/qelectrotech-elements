@@ -1,22 +1,18 @@
-<definition height="90" type="element" width="50" version="0.100.0" hotspot_y="85" link_type="simple" hotspot_x="25">
-    <uuid uuid="{a680df3c-3eea-4b70-89e2-290633bfa230}"/>
+<definition width="50" height="90" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="85">
+    <uuid uuid="{bc918633-571d-4984-9b49-d9f50b00679d}"/>
     <names>
-        <name lang="en">Multi-rate watt-hour meter</name>
-        <name lang="fr">Compteur d'énergie à tarifs multiples</name>
         <name lang="de">Mehrtarif-Wattstundenzähler </name>
+        <name lang="fr">Compteur d'énergie à tarifs multiples</name>
         <name lang="cs">Vícesazbový (dvou) watthodinový měřič</name>
+        <name lang="en">Multi-rate watt-hour meter</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{cd0c0a26-fb70-4631-b674-f9ab1a50b985}" Valignment="AlignTop" x="5" rotation="0" text_width="-1" keep_visual_rotation="false" z="1" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="12.5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" x="-20" width="40" antialias="false" rx="0" y="-40" ry="0"/>
-        <text x="-8" rotation="0" text="Wh" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-16"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-20" width="40" antialias="false" rx="0" y="-60" ry="0"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-20" width="40" antialias="false" rx="0" y="-80" ry="0"/>
+        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
+        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
+        <text size="9" text="Wh" x="-8" y="-16"/>
+        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
+        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-80" antialias="false"/>
     </description>
 </definition>

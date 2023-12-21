@@ -1,27 +1,23 @@
-<definition hotspot_y="25" version="0.100.0" link_type="simple" height="30" type="element" width="150" hotspot_x="144">
-    <uuid uuid="{c848bea0-644c-47fa-984a-a96040dde11d}"/>
+<definition type="element" width="150" version="0.70" hotspot_y="25" height="30" link_type="simple" hotspot_x="144">
+    <uuid uuid="{3c604686-3e91-4fa3-a348-7a65df4987ae}"/>
     <names>
-        <name lang="cs">Napájení střídavým proudem po sdělovacím vedení</name>
-        <name lang="de">Fernmeldeleitung mit Wechselstrom-
-Fernspeisung</name>
         <name lang="fr">Alimentation en courant alternatif par lignes de
 télécommunications</name>
+        <name lang="de">Fernmeldeleitung mit Wechselstrom-
+Fernspeisung</name>
+        <name lang="cs">Napájení střídavým proudem po sdělovacím vedení</name>
         <name lang="en">AC power feeding on telecommunication lines</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" uuid="{43e5dac2-59e2-45d4-b77e-3e9cb08788ad}" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" x="5" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-140" x1="0" end1="none" antialias="false" end2="none" y2="0"/>
-        <arc angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0" height="5" antialias="true" x="-135" width="10"/>
-        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0" height="5" antialias="true" x="-125" width="10"/>
-        <line y1="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-110" x1="-135" end1="none" antialias="false" end2="none" y2="-20"/>
-        <polygon y1="-16" y4="-16" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="-110" x3="-100" x4="-110" x1="-110" y3="-20" antialias="false" y2="-23"/>
-        <terminal orientation="w" uuid="{bbdfdacf-3cc2-4400-9357-fc9a6887f898}" y="0" type="Generic" x="-140" name=""/>
-        <terminal orientation="e" uuid="{641eeea0-f0fc-487c-a85c-0b377b63bd45}" y="0" type="Generic" x="0" name=""/>
+        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
+        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
+        <arc antialias="true" width="10" x="-135" angle="180" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0"/>
+        <arc antialias="true" width="10" x="-125" angle="-180" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0"/>
+        <line x2="-110" end2="none" antialias="false" end1="none" length2="1.5" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-135" y1="-20" length1="1.5"/>
+        <polygon x2="-110" antialias="false" x3="-100" y3="-20" y2="-23" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-110" y1="-16" y4="-16" x4="-110"/>
+        <terminal x="-140" orientation="w" y="0"/>
+        <terminal x="0" orientation="e" y="0"/>
     </description>
 </definition>

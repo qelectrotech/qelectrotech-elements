@@ -1,27 +1,23 @@
-<definition width="30" hotspot_y="14" height="30" hotspot_x="20" link_type="simple" type="element" version="0.100.0">
-    <uuid uuid="{8eaaa15e-3e7d-4475-a560-3f5771c521ab}"/>
+<definition version="0.5" hotspot_x="20" hotspot_y="14" width="30" height="30" link_type="simple" type="element">
+    <uuid uuid="{ded9c87d-191d-4ba6-8030-48781f73d310}"/>
     <names>
-        <name lang="cs">Páka</name>
-        <name lang="pl">Dźwignia</name>
-        <name lang="ar">رافعة</name>
-        <name lang="it">Comando a leva</name>
+        <name lang="en">Lever</name>
+        <name lang="es">Comando por nivel</name>
+        <name lang="nl">hefboom</name>
         <name lang="el">Μοχλός</name>
         <name lang="fr">Levier</name>
-        <name lang="es">Comando por nivel</name>
-        <name lang="en">Lever</name>
-        <name lang="nl">hefboom</name>
+        <name lang="pl">Dźwignia</name>
+        <name lang="it">Comando a leva</name>
+        <name lang="cs">Páka</name>
+        <name lang="ar">رافعة</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-16" diameter="4" y="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text rotation="0" x="-32" text_from="ElementInfo" y="-11.95" Valignment="AlignTop" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{e6fb0cfa-0819-4af8-8fd2-8834168796b2}" frame="false" z="2">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" length2="1.5" y1="0" y2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-13" x2="5" antialias="false" end2="none"/>
-        <line length1="1.5" length2="1.5" y1="11" y2="-5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-14" x2="-14" antialias="false" end2="none"/>
-        <line length1="1.5" length2="1.5" y1="6" y2="6" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-13" x2="5" antialias="false" end2="none"/>
+        <circle antialias="true" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-16" y="-9"/>
+        <input size="9" x="-32" rotate="true" tagg="label" y="0.55" text="_"/>
+        <line antialias="false" x1="-13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="0" end1="none" x2="5"/>
+        <line antialias="false" x1="-14" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-5" y1="11" end1="none" x2="-14"/>
+        <line antialias="false" x1="-13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="6" y1="6" end1="none" x2="5"/>
     </description>
 </definition>

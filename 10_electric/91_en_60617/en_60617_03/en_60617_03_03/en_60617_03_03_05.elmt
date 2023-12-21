@@ -1,24 +1,20 @@
-<definition version="0.100.0" height="20" hotspot_x="24" link_type="simple" width="70" hotspot_y="10" type="element">
-    <uuid uuid="{836ae894-317f-4a4c-8499-403debd7266c}"/>
+<definition hotspot_x="24" version="0.70" height="20" hotspot_y="10" width="70" type="element" link_type="simple">
+    <uuid uuid="{b3035bd1-9a08-4db7-8332-c76f4ac255ba}"/>
     <names>
-        <name lang="en">Plug and socket</name>
         <name lang="fr">Fiche et prise</name>
         <name lang="de">Stecker und Buchse</name>
         <name lang="cs">Vidlice a zásuvka</name>
+        <name lang="en">Plug and socket</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" y="2.5" keep_visual_rotation="false" frame="false" uuid="{c80ca925-7141-4660-b4da-9516db78f652}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" x="5" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect rx="0" height="6" y="-3" antialias="false" ry="0" width="20" style="line-style:normal;line-weight:normal;filling:black;color:black" x="0"/>
-        <line y2="0" length2="1.5" antialias="false" end2="none" x1="20" x2="40" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <line y2="0" length2="1.5" antialias="false" end2="none" x1="-6" x2="-20" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <arc height="10" y="-5" antialias="true" width="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" start="90"/>
-        <terminal orientation="w" y="0" uuid="{2b22d91f-3f4b-4c44-bc73-0d91fb798a61}" x="-20" name="" type="Generic"/>
-        <terminal orientation="e" y="0" uuid="{fee726e2-3795-40ec-aeb6-a9e7f463f03e}" x="40" name="" type="Generic"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <rect y="-3" x="0" antialias="false" height="6" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
+        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20"/>
+        <line x2="-20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6"/>
+        <arc y="-5" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="0" x="40" orientation="e"/>
     </description>
 </definition>

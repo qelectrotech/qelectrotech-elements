@@ -1,26 +1,22 @@
-<definition hotspot_y="24" width="60" hotspot_x="37" link_type="simple" version="0.100.0" type="element" height="50">
-    <uuid uuid="{f27b3f3b-b70f-4ff0-80d7-d333a66c5c38}"/>
+<definition type="element" width="60" height="50" hotspot_y="24" hotspot_x="37" version="0.70" link_type="simple">
+    <uuid uuid="{1f12fdcf-1203-4cb7-a1c5-7593a9469b31}"/>
     <names>
         <name lang="de">elektromechanischer Antrieb eines Stützrelais</name>
         <name lang="fr">Organe de commande d'un relais à verrouillage
 mécanique</name>
-        <name lang="en">Relay coil of a mechanically latched relay</name>
         <name lang="cs">Cívka přístroje s mechanickým blokováním</name>
+        <name lang="en">Relay coil of a mechanically latched relay</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" x="5" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{bb91dace-0083-4d2b-89d6-5711e733e435}" text_from="ElementInfo" Valignment="AlignTop" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect antialias="false" ry="0" width="40" y="-10" x="-20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20"/>
-        <line x1="0" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end2="none" length2="1.5" length1="1.5" y1="-20" end1="none"/>
-        <line x1="0" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" end2="none" length2="1.5" length1="1.5" y1="10" end1="none"/>
-        <rect antialias="false" ry="0" width="15" y="-10" x="-35" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20"/>
-        <polygon x4="-20" x1="-20" y4="10" antialias="false" closed="false" x2="-35" y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x3="-20" y1="10"/>
-        <terminal y="-20" x="0" name="" orientation="n" uuid="{beb3cbc0-59aa-43ba-92d2-56103b73a30f}" type="Generic"/>
-        <terminal y="20" x="0" name="" orientation="s" uuid="{89294398-e236-4379-a68e-567833ccb1d0}" type="Generic"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <rect antialias="false" width="40" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-20"/>
+        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" width="15" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-35"/>
+        <polygon y4="10" antialias="false" closed="false" x1="-20" y1="10" x2="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x4="-20" x3="-20" y3="-10"/>
+        <terminal orientation="n" y="-20" x="0"/>
+        <terminal orientation="s" y="20" x="0"/>
     </description>
 </definition>

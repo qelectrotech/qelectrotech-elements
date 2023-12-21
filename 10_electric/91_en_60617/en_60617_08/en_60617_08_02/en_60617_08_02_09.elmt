@@ -1,23 +1,19 @@
-<definition hotspot_x="25" version="0.100.0" type="element" width="50" hotspot_y="45" link_type="simple" height="50">
-    <uuid uuid="{533138fc-ad87-4d39-b02c-a92e768485c7}"/>
+<definition type="element" width="50" height="50" link_type="simple" hotspot_y="45" hotspot_x="25" version="0.70">
+    <uuid uuid="{f37a43ab-e562-4187-bac1-e8d7275c9ba4}"/>
     <names>
+        <name lang="de">Wellenlängemeßgerät, anzeigend</name>
         <name lang="fr">Ondemètre</name>
         <name lang="cs">Vlnoměr</name>
-        <name lang="de">Wellenlängemeßgerät, anzeigend</name>
         <name lang="en">Wavemeter</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" frame="false" y="12.5" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{cf02512a-aff0-459a-ac06-dad8aecc899a}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" z="1" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="40" y="-40" x="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="90" y="-30" width="12" x="-14" antialias="true" start="0" style="line-style:normal;line-weight:hight;filling:none;color:black" height="6"/>
-        <arc angle="90" y="-14" width="8" x="4" antialias="true" start="180" style="line-style:normal;line-weight:hight;filling:none;color:black" height="4"/>
-        <line y2="-12" end1="none" length2="1.5" end2="none" antialias="false" x1="-2" x2="4" length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" y1="-27"/>
-        <line y2="-10" end1="none" length2="1.5" end2="none" antialias="false" x1="0" x2="-7" length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" y1="-20"/>
+        <input size="9" tagg="label" text="_" rotate="true" y="25" x="5"/>
+        <circle diameter="40" antialias="false" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
+        <arc width="12" height="6" antialias="true" angle="90" y="-30" style="line-style:normal;line-weight:hight;filling:none;color:black" start="0" x="-14"/>
+        <arc width="8" height="4" antialias="true" angle="90" y="-14" style="line-style:normal;line-weight:hight;filling:none;color:black" start="180" x="4"/>
+        <line y1="-27" end2="none" length1="1.5" x2="4" y2="-12" antialias="false" end1="none" style="line-style:normal;line-weight:hight;filling:none;color:black" x1="-2" length2="1.5"/>
+        <line y1="-20" end2="none" length1="1.5" x2="-7" y2="-10" antialias="false" end1="none" style="line-style:normal;line-weight:hight;filling:none;color:black" x1="0" length2="1.5"/>
     </description>
 </definition>

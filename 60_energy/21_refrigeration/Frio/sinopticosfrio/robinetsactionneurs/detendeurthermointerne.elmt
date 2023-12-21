@@ -1,29 +1,25 @@
-<definition hotspot_x="19" width="40" hotspot_y="22" height="30" version="0.100.0" type="element" link_type="simple">
-    <uuid uuid="{2cc80091-e9a3-427f-aec2-c038b70d7a14}"/>
+<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="30" hotspot_y="22">
+    <uuid uuid="{ca4fcdb5-644b-4655-8fe1-248e19a039fc}"/>
     <names>
-        <name lang="ar">مُخفّض ضغط بمعدّل حراري داخلي</name>
+        <name lang="cs">Vnitřní termostatický ventil</name>
         <name lang="pl">Zawór termostatyczny wewnętrzny</name>
-        <name lang="fr">Détendeur thermostatique interne</name>
         <name lang="it">Sonda termostatica interna</name>
         <name lang="en">TXV internal</name>
-        <name lang="cs">Vnitřní termostatický ventil</name>
         <name lang="nl">Expansieventiel intern</name>
+        <name lang="ar">مُخفّض ضغط بمعدّل حراري داخلي</name>
+        <name lang="fr">Détendeur thermostatique interne</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" y="-9.66667" text="TC" rotation="0" x="-5"/>
-        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="-12.95" frame="false" keep_visual_rotation="false" rotation="0" uuid="{23a5d349-437d-4198-b1ce-27739182efe5}" text_width="-1" x="-7" Valignment="AlignTop" z="2">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle y="-17.831" x="-5.83095" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="11.6619"/>
-        <polygon y8="1" y6="5" x8="-2" x1="2" y10="0" x10="0" x7="10" x5="-10" y3="1" x2="0" x4="-10" style="line-style:normal;line-weight:normal;filling:white;color:black" y4="5" x9="0" antialias="false" x6="10" y7="-5" y2="3" y9="0" y1="1" y5="-5" x3="-2"/>
-        <line x1="0" y1="0" length2="1.5" end1="none" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" antialias="false" end2="none"/>
-        <line x1="10" y1="0" length2="1.5" end1="none" length1="1.5" x2="11" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" end2="none"/>
-        <line x1="-10" y1="0" length2="1.5" end1="none" length1="1.5" x2="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" end2="none"/>
-        <terminal y="0" uuid="{0a5038c1-2d33-4ccb-b5e3-fcc2b9104d6d}" x="-11" name="" orientation="w" type="Generic"/>
-        <terminal y="0" uuid="{d9f803e6-3832-464c-9da0-548c9e4831ad}" x="11" name="" orientation="e" type="Generic"/>
+        <text size="5" y="-9.66667" x="-5" text="TC"/>
+        <input tagg="label" rotate="true" size="9" y="-0.45" x="-7" text="_"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="11.6619" y="-17.831" x="-5.83095"/>
+        <polygon y3="1" x7="10" y9="0" y8="1" x8="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black" x6="10" x9="0" y4="5" x1="2" x4="-10" y10="0" y6="5" x5="-10" y5="-5" y2="3" x2="0" x3="-2" y7="-5" y1="1" x10="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="0" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="10" x2="11"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="-11"/>
+        <terminal y="0" x="-11" orientation="w"/>
+        <terminal y="0" x="11" orientation="e"/>
     </description>
 </definition>

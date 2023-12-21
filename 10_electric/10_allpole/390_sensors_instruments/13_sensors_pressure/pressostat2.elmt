@@ -1,31 +1,26 @@
-<definition height="50" hotspot_y="24" hotspot_x="19" width="30" type="element" version="0.100.0" link_type="simple">
-    <uuid uuid="{ae3fe724-5b8d-47a2-b005-cce872fcc043}"/>
-    <names>
-        <name lang="es">Presóstato NC</name>
-        <name lang="cs">Tlakový spínač NC</name>
-        <name lang="pl">Presostat (zestyk rozwierny)</name>
-        <name lang="nl">Pressostaat 2 (NC)</name>
-        <name lang="en">Presostat (NC)</name>
+<definition width="40" version="0.3" hotspot_x="20" hotspot_y="25" height="50" type="element" orientation="dnny">
+<uuid uuid="{EA2575B6-401A-45A6-BC98-683A2B89F59D}"/><names>
         <name lang="ar">راصد ضغط ( مغلق)</name>
         <name lang="de">Druckschalter Öffner</name>
+        <name lang="en">Presostat (NC)</name>
         <name lang="fr">Pressostat (NF)</name>
+        <name lang="pl">Presostat (zestyk rozwierny)</name>
+        <name lang="cs">Tlakový spínač NC</name>
         <name lang="it">Presostato (NC)</name>
+        <name lang="es">Presóstato NC</name>
+        <name lang="nl">Pressostaat 2 (NC)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="-2" y1="-2" end1="none" length1="1.5" length2="1.5" x2="2"/>
-        <rect x="-15" height="10" antialias="false" y="-6" rx="0" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0"/>
-        <text x="-13" y="2" text="P" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <polygon y3="20" x1="5" antialias="true" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" y1="-10" x2="0" x3="0"/>
-        <line x1="0" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" y1="-9" end1="none" length1="1.5" length2="1.5" x2="6"/>
-        <line x1="0" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" y1="-20" end1="none" length1="1.5" length2="1.5" x2="0"/>
-        <dynamic_text x="5.75" z="7" text_from="ElementInfo" Halignment="AlignLeft" y="-9.5" frame="false" uuid="{d2c60a01-e000-45bb-a850-4b11a1efedaf}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="0" y="-20" name="" uuid="{3c7292a8-0351-41ff-bd9c-9452cb8b5eaf}" type="Generic" orientation="n"/>
-        <terminal x="0" y="20" name="" uuid="{79d1154c-ccdc-4ca8-8d10-057f96e075b7}" type="Generic" orientation="s"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="-2" x1="-5" y2="-2" x2="2"/>
+        <rect width="10" x="-15" y="-6" antialias="false" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="-13" y="2" size="6" text="P"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="5" y2="10" x2="0" y3="20" x3="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="0" y2="-9" x2="6"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-9" x2="0"/>
+        <input x="5.75" y="3" size="9" text="_" tagg="label"/>
+        <terminal x="0" y="-20" orientation="n"/>
+        <terminal x="0" y="20" orientation="s"/>
     </description>
 </definition>

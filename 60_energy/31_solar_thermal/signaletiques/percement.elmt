@@ -1,29 +1,25 @@
-<definition version="0.100.0" type="element" hotspot_y="14" hotspot_x="10" link_type="simple" height="30" width="20">
-    <uuid uuid="{75d6d364-b5cc-46e9-9ed0-4bef7530b61a}"/>
+<definition width="20" hotspot_x="0" type="element" link_type="simple" version="0.5" height="30" hotspot_y="4">
+    <uuid uuid="{c9312571-c5c0-4a59-8bb5-7dbc73ee751a}"/>
     <names>
-        <name lang="fr">Passage percement</name>
+        <name lang="cs">Přechod</name>
         <name lang="pl">Przejście</name>
         <name lang="it">Foro di passaggio</name>
         <name lang="de">Durchgangsloch</name>
-        <name lang="ar">ممر نفقي</name>
-        <name lang="cs">Přechod</name>
+        <name lang="en">Tunneling transition</name>
         <name lang="es">Túnel de transición</name>
         <name lang="nl">Ondergronds doorgang</name>
-        <name lang="en">Tunneling transition</name>
+        <name lang="ar">ممر نفقي</name>
+        <name lang="fr">Passage percement</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y2="5" length2="1.5" x2="0" y1="10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" antialias="false"/>
-        <line y2="0" length2="1.5" x2="0" y1="-10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" antialias="false"/>
-        <rect y="-7" height="14" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" rx="0" x="-6" width="12" antialias="false"/>
-        <circle y="-4.2426" diameter="8.48528" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.2426" antialias="true"/>
-        <dynamic_text text_from="ElementInfo" text_width="-1" font="Sans Serif,8,-1,5,50,0,0,0,0,0" uuid="{ed75b8e9-c618-4e2d-bcf3-83be41fe371e}" rotation="0" Halignment="AlignLeft" y="-1" z="5" frame="false" keep_visual_rotation="false" Valignment="AlignTop" x="7">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal name="" orientation="s" type="Generic" uuid="{10efd807-a6af-424e-8903-838cafd23b48}" y="10" x="0"/>
-        <terminal name="" orientation="n" type="Generic" uuid="{df79504b-bd90-405b-b4e5-6f5dd763affb}" y="-10" x="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="20" x1="10" x2="10"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="10" x2="10"/>
+        <rect width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="3" x="4" height="14"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8.48528" y="5.7574" x="5.7574"/>
+        <input tagg="label" rotate="true" size="8" y="21" x="17" text="A"/>
+        <terminal y="20" x="10" orientation="s"/>
+        <terminal y="0" x="10" orientation="n"/>
     </description>
 </definition>

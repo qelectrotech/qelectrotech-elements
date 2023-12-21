@@ -1,5 +1,5 @@
-<definition version="0.100.0" height="30" width="90" type="element" link_type="simple" hotspot_x="46" hotspot_y="24">
-    <uuid uuid="{e68290b4-0943-4d38-9bc1-7ab49d9b9612}"/>
+<definition hotspot_x="46" version="0.70" height="30" hotspot_y="24" width="90" type="element" link_type="simple">
+    <uuid uuid="{253fa240-0eac-452e-88eb-8e0e096d8f41}"/>
     <names>
         <name lang="fr">Extrémité d’un conducteur ou d’un cable, non
 connectée</name>
@@ -7,16 +7,12 @@ connectée</name>
         <name lang="cs">Nepřipojený konec kabelu nebo vodiče</name>
         <name lang="en">End of a conductor or cable, not connected</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" uuid="{0c2a9b89-c56f-49b9-a7ac-e05e5a4e9d85}" x="5" y="2.5" text_width="-1" text_from="ElementInfo" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="30" length2="1.5" y2="0" end2="none" end1="none" antialias="false" length1="1.5" y1="0"/>
-        <arc height="20" start="270" width="20" x="20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" antialias="true"/>
-        <terminal orientation="w" uuid="{01bb497e-49ec-4266-9710-328b62e6a4d7}" x="-40" y="0" type="Generic" name=""/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="30" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
+        <arc y="-20" x="20" antialias="true" height="20" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" start="270"/>
+        <terminal y="0" x="-40" orientation="w"/>
     </description>
 </definition>

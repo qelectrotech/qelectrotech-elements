@@ -1,24 +1,20 @@
-<definition type="element" height="70" version="0.100.0" hotspot_x="7" link_type="simple" width="40" hotspot_y="34">
-    <uuid uuid="{15ebd405-5f04-4fe7-9ec4-bdde0ea07687}"/>
+<definition type="element" width="40" height="70" hotspot_y="34" hotspot_x="7" version="0.70" link_type="simple">
+    <uuid uuid="{5403ef79-a42f-4028-a58f-94f0de476d52}"/>
     <names>
-        <name lang="en">Fuse; Striker fuse</name>
         <name lang="de">Sicherung mit mechanischer Auslösemeldung
 (Schlagbolzensicherung)</name>
         <name lang="fr">Fusible à percuteur (à liaison mécanique)</name>
         <name lang="cs">Tavná pojistka s mechanickým spojením</name>
+        <name lang="en">Fuse; Striker fuse</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" uuid="{40b45c75-c526-48e4-a3e3-05037c183af2}" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="5" Valignment="AlignTop" y="12.5" keep_visual_rotation="false" Halignment="AlignLeft" z="1" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="30" length2="1.5" length1="1.5" end1="none" x1="0" y1="-30" end2="none"/>
-        <rect height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" antialias="false" rx="0" y="-15" ry="0" width="10"/>
-        <line x2="30" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" y2="0" length2="1.5" length1="1.5" end1="none" x1="5" y1="0" end2="none"/>
-        <terminal name="" uuid="{181fa5b4-00d7-41e9-878f-705685104083}" type="Generic" x="0" y="30" orientation="s"/>
-        <terminal name="" uuid="{24ce759d-82a3-47f7-b2cf-3af90183a1db}" type="Generic" x="0" y="-30" orientation="n"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" width="10" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-5"/>
+        <line antialias="false" x1="5" y1="0" x2="30" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="s" y="30" x="0"/>
+        <terminal orientation="n" y="-30" x="0"/>
     </description>
 </definition>

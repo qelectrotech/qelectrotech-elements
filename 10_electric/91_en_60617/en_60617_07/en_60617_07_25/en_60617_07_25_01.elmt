@@ -1,25 +1,21 @@
-<definition height="50" link_type="simple" width="30" hotspot_x="15" hotspot_y="24" type="element" version="0.100.0">
-    <uuid uuid="{4518202f-4b99-4f51-b499-7a065cacd94a}"/>
+<definition type="element" width="30" height="50" hotspot_y="24" hotspot_x="15" version="0.70" link_type="simple">
+    <uuid uuid="{6f3f7cf5-4f86-4ba6-91ad-6885f0c8b402}"/>
     <names>
-        <name lang="cs">Statický spínač</name>
         <name lang="de">elektronischer Schalter, allgemein</name>
-        <name lang="en">Static switch, general symbol</name>
         <name lang="fr">Interrupteur à semiconducteur (statique),
 symbole général</name>
+        <name lang="cs">Statický spínač</name>
+        <name lang="en">Static switch, general symbol</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" y="12.5" text_from="ElementInfo" frame="false" x="5" z="1" text_width="-1" uuid="{27d4f6b6-6b0d-4eda-af8b-5610e2079468}" Halignment="AlignLeft" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" x1="-10" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" length1="1.5" y2="10" length2="1.5" end2="none"/>
-        <line end1="none" x1="0" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" length1="1.5" y2="20" length2="1.5" end2="none"/>
-        <line end1="none" x1="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" length1="1.5" y2="-20" length2="1.5" end2="none"/>
-        <line end1="none" x1="0" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-7" length1="1.5" y2="-11" length2="1.5" end2="none"/>
-        <terminal y="-20" name="" x="0" type="Generic" uuid="{370a5dfd-641e-4c8d-9bd1-c374b67a43ad}" orientation="n"/>
-        <terminal y="20" name="" x="0" type="Generic" uuid="{916c0a38-a71e-4fdc-adf5-aa4bbcb1974f}" orientation="s"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="-10" y1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-11" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="n" y="-20" x="0"/>
+        <terminal orientation="s" y="20" x="0"/>
     </description>
 </definition>

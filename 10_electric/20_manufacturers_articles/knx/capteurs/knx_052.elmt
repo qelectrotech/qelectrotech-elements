@@ -1,47 +1,39 @@
-<definition link_type="simple" width="50" version="0.100.0" type="element" hotspot_x="24" hotspot_y="19" height="40">
-    <uuid uuid="{56c15ffb-3841-45d4-acc2-1afea1b29e90}"/>
+<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="50" hotspot_x="24">
+    <uuid uuid="{0df0d0ff-0eea-49e9-ad54-7c5cd00de02d}"/>
     <names>
+        <name lang="it">Temporizzatore, 2 can</name>
         <name lang="fr">temporisation dex canaux</name>
         <name lang="nl">Tijd shakelaar, 2voud</name>
-        <name lang="cs">Řídicí hodiny, dvoukanálové</name>
-        <name lang="es">Switch temporizado, 2 vias</name>
-        <name lang="en">Time switch, 2-fold</name>
         <name lang="pl">Zegar sterujący, dwukanałowy</name>
-        <name lang="it">Temporizzatore, 2 can</name>
+        <name lang="en">Time switch, 2-fold</name>
+        <name lang="es">Switch temporizado, 2 vias</name>
         <name lang="el">Χρονοδιακόπτης, διπλός</name>
+        <name lang="cs">Řídicí hodiny, dvoukanálové</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-10" rx="0" antialias="false" height="30" ry="0"/>
-        <rect width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-20" rx="0" antialias="false" height="30" ry="0"/>
-        <polygon y7="-11" x6="-15" x1="-16" x2="-16" x3="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="-16" y2="11" y5="-11" y4="11" y6="-12" y3="12" x4="-14" antialias="true" y1="-11" x5="-14"/>
-        <dynamic_text frame="false" y="-9" Valignment="AlignTop" rotation="0" uuid="{6c45807b-4c55-4315-a96b-b0b4245c2e66}" z="4" x="9" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft">
-            <text>2</text>
-        </dynamic_text>
-        <dynamic_text frame="false" y="-1" Valignment="AlignTop" rotation="0" uuid="{90dc5139-941b-4bfc-89e0-271ab0619f4e}" z="5" x="9" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft">
-            <text>t</text>
-        </dynamic_text>
-        <polygon x1="-18" x2="-15" x3="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-12" y3="-9" antialias="true" y1="-9"/>
-        <polygon x1="-18" x2="-15" x3="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="12" y3="9" antialias="true" y1="9"/>
-        <polygon x1="-7" x2="0" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="0" y5="-12" y4="-12" y3="-12" x4="7" antialias="false" y1="0" x5="7"/>
-        <line x1="-10" x2="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" y2="-15" antialias="false" y1="15" end2="none"/>
-        <dynamic_text frame="false" y="-39.5" Valignment="AlignTop" rotation="0" uuid="{731391eb-549f-4da6-84da-711d22b573d7}" z="10" x="-23" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal orientation="w" y="10" type="Generic" uuid="{6660fd3b-b981-40f4-ac23-463343b8abd3}" x="-20" name=""/>
-        <terminal orientation="w" y="0" type="Generic" uuid="{be5970de-7b27-4568-adab-cd612c20dd9b}" x="-20" name=""/>
-        <terminal orientation="w" y="-10" type="Generic" uuid="{366ab480-ec56-464d-9731-a3be0082a1e4}" x="-20" name=""/>
-        <terminal orientation="e" y="0" type="Generic" uuid="{4f28d52d-7bdb-4b6e-875e-63bd7e7cac7b}" x="20" name=""/>
-        <terminal orientation="e" y="10" type="Generic" uuid="{81fde40f-f45a-4307-9225-377b91fa947e}" x="20" name=""/>
-        <terminal orientation="e" y="-10" type="Generic" uuid="{63e069bd-9600-454b-9603-b946a4e13d25}" x="20" name=""/>
-        <terminal orientation="s" y="15" type="Generic" uuid="{620e15bf-63b3-47a0-b267-648f2fc67bb9}" x="-10" name=""/>
-        <terminal orientation="n" y="-15" type="Generic" uuid="{ed40dffe-3455-4675-affb-c653f3305f04}" x="0" name=""/>
-        <terminal orientation="n" y="-15" type="Generic" uuid="{128d1c26-60fd-4c52-b936-4632b6ad29f9}" x="10" name=""/>
-        <terminal orientation="n" y="-15" type="Generic" uuid="{04687281-9a50-4337-8ddd-27473432212a}" x="-10" name=""/>
-        <terminal orientation="s" y="15" type="Generic" uuid="{f9f55494-44ce-4fa7-b50e-64266389a688}" x="0" name=""/>
-        <terminal orientation="s" y="15" type="Generic" uuid="{c0b12e92-51cd-4e95-958f-51c28c9bd64b}" x="10" name=""/>
+        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
+        <rect height="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <polygon y3="12" x4="-14" x5="-14" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" x6="-15" x2="-16" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-15" y4="11" antialias="true" y2="11"/>
+        <input rotate="true" y="0.5" size="5" tagg="none" x="9" text="2"/>
+        <input rotate="true" y="8.5" size="5" tagg="none" x="9" text="t"/>
+        <polygon y3="-9" closed="false" x1="-18" y1="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="-12"/>
+        <polygon y3="9" closed="false" x1="-18" y1="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="12"/>
+        <polygon y3="-12" x4="7" x5="7" closed="false" x1="-7" y1="0" y5="-12" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" y4="-12" antialias="false" y2="0"/>
+        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-15"/>
+        <input rotate="true" y="-27" size="9" tagg="label" x="-23" text="_"/>
+        <terminal y="10" x="-20" orientation="w"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="-10" x="-20" orientation="w"/>
+        <terminal y="0" x="20" orientation="e"/>
+        <terminal y="10" x="20" orientation="e"/>
+        <terminal y="-10" x="20" orientation="e"/>
+        <terminal y="15" x="-10" orientation="s"/>
+        <terminal y="-15" x="0" orientation="n"/>
+        <terminal y="-15" x="10" orientation="n"/>
+        <terminal y="-15" x="-10" orientation="n"/>
+        <terminal y="15" x="0" orientation="s"/>
+        <terminal y="15" x="10" orientation="s"/>
     </description>
 </definition>

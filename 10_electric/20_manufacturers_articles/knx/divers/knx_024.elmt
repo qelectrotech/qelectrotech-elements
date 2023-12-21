@@ -1,50 +1,44 @@
-<definition version="0.100.0" type="element" hotspot_y="19" height="40" hotspot_x="24" width="60" link_type="simple">
-    <uuid uuid="{5fd54a5d-a600-4656-9194-17297f2ad053}"/>
+<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="60" hotspot_x="24">
+    <uuid uuid="{011e000b-0d4d-4e93-901a-735b3d1b42e0}"/>
     <names>
+        <name lang="it">Bus di campo</name>
         <name lang="fr">Interface KNX / FB (Fieldbus)</name>
         <name lang="nl">Fieldbus KNX/FB Interface</name>
-        <name lang="es">Interfaz FB (bus de campo)</name>
         <name lang="pl">Interfejs KNX / FB (Fieldbus)</name>
-        <name lang="it">Bus di campo</name>
-        <name lang="el">Fieldbus</name>
         <name lang="en">Fieldbus</name>
+        <name lang="es">Interfaz FB (bus de campo)</name>
+        <name lang="el">Fieldbus</name>
         <name lang="cs">Rozhraní KNX / FB (Fieldbus)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="-15" rx="0" height="30" width="30"/>
-        <rect x="20" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="-15" rx="0" height="30" width="10"/>
-        <dynamic_text keep_visual_rotation="false" x="2" Halignment="AlignLeft" rotation="0" frame="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="1" uuid="{31b11758-c55c-421a-9856-90224d22e898}" z="3" text_width="-1" text_from="UserText">
-            <text>FB</text>
-        </dynamic_text>
-        <polygon x6="25" x5="26" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="26" x2="24" x3="25" y2="11" y3="12" antialias="true" x1="24" y1="-11" y6="-12" x7="24" y5="-11" y4="11"/>
-        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" y="-15" rx="0" height="30" width="10"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x2="25" x3="28" closed="false" y2="-12" y3="-9" antialias="true" x1="22" y1="-9"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x2="25" x3="28" closed="false" y2="12" y3="9" antialias="true" x1="22" y1="9"/>
-        <polygon x6="-15" x5="-14" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-14" x2="-16" x3="-15" y2="11" y3="12" antialias="true" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" y4="11"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-15" x3="-12" closed="false" y2="-12" y3="-9" antialias="true" x1="-18" y1="-9"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-15" x3="-12" closed="false" y2="12" y3="9" antialias="true" x1="-18" y1="9"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" y2="-15" length2="1.5" antialias="true" end2="none" x1="-10" y1="15" end1="none" length1="1.5"/>
-        <text x="-6" rotation="0" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-6" text="EIB" color="#000000"/>
-        <dynamic_text keep_visual_rotation="false" x="-22" Halignment="AlignLeft" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="-37.5" uuid="{ccef59d8-16a5-4c1d-b98c-34413e568a12}" z="13" text_width="-1" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="-20" type="Generic" y="-10" uuid="{9defe53c-3465-4d4d-b7d4-75dcb4f41f6e}" orientation="w" name=""/>
-        <terminal x="30" type="Generic" y="-10" uuid="{bb6c41d3-641d-4749-9235-ab3eedf5840e}" orientation="e" name=""/>
-        <terminal x="-10" type="Generic" y="15" uuid="{29761101-9d12-4230-a1da-b410664327c5}" orientation="s" name=""/>
-        <terminal x="0" type="Generic" y="-15" uuid="{9e9db723-75f3-48cc-a863-e64ecfbb588f}" orientation="n" name=""/>
-        <terminal x="10" type="Generic" y="-15" uuid="{1e9a4579-7c18-4421-93f4-06549db9f620}" orientation="n" name=""/>
-        <terminal x="-10" type="Generic" y="-15" uuid="{dc930cb9-e5b4-46b7-b06d-667e30d28d49}" orientation="n" name=""/>
-        <terminal x="0" type="Generic" y="15" uuid="{e4f80be2-f4e5-420a-8897-cd0640741d56}" orientation="s" name=""/>
-        <terminal x="-20" type="Generic" y="10" uuid="{b2b65d09-767b-4bb9-8c05-0ed75ed9d026}" orientation="w" name=""/>
-        <terminal x="-20" type="Generic" y="0" uuid="{8eaf8d0d-e0c8-4657-b645-e7be3b3d38ca}" orientation="w" name=""/>
-        <terminal x="30" type="Generic" y="0" uuid="{e28130e4-05cb-4206-8973-4948a8291318}" orientation="e" name=""/>
-        <terminal x="30" type="Generic" y="10" uuid="{39185e43-b05c-4e94-b732-73122b072a7f}" orientation="e" name=""/>
-        <terminal x="10" type="Generic" y="15" uuid="{2639e731-e0cf-4553-a67e-7412c8bca4d8}" orientation="s" name=""/>
-        <terminal x="20" type="Generic" y="-15" uuid="{a57b3e30-e9cd-40e9-8c7a-b95c8479d39a}" orientation="n" name=""/>
-        <terminal x="20" type="Generic" y="15" uuid="{73a1e9eb-8e0a-42a3-ae8a-52867bb93be0}" orientation="s" name=""/>
+        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
+        <rect height="30" y="-15" x="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <input rotate="true" y="10.5" size="5" tagg="none" x="2" text="FB"/>
+        <polygon y3="12" x4="26" x5="26" x1="24" y1="-11" y6="-12" x7="24" y5="-11" x6="25" x2="24" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="25" y4="11" antialias="true" y2="11"/>
+        <rect height="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <polygon y3="-9" closed="false" x1="22" y1="-9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="-12"/>
+        <polygon y3="9" closed="false" x1="22" y1="9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="12"/>
+        <polygon y3="12" x4="-14" x5="-14" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" x6="-15" x2="-16" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-15" y4="11" antialias="true" y2="11"/>
+        <polygon y3="-9" closed="false" x1="-18" y1="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="-12"/>
+        <polygon y3="9" closed="false" x1="-18" y1="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="12"/>
+        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="true" y2="-15"/>
+        <text y="-6" size="6" x="-6" text="EIB"/>
+        <input rotate="true" y="-25" size="9" tagg="label" x="-22" text="_"/>
+        <terminal y="-10" x="-20" orientation="w"/>
+        <terminal y="-10" x="30" orientation="e"/>
+        <terminal y="15" x="-10" orientation="s"/>
+        <terminal y="-15" x="0" orientation="n"/>
+        <terminal y="-15" x="10" orientation="n"/>
+        <terminal y="-15" x="-10" orientation="n"/>
+        <terminal y="15" x="0" orientation="s"/>
+        <terminal y="10" x="-20" orientation="w"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="0" x="30" orientation="e"/>
+        <terminal y="10" x="30" orientation="e"/>
+        <terminal y="15" x="10" orientation="s"/>
+        <terminal y="-15" x="20" orientation="n"/>
+        <terminal y="15" x="20" orientation="s"/>
     </description>
 </definition>

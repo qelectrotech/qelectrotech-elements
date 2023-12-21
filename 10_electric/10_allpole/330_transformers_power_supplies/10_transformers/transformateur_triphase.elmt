@@ -1,50 +1,41 @@
-<definition width="50" version="0.100.0" type="element" height="90" link_type="simple" hotspot_x="21" hotspot_y="46">
-    <uuid uuid="{82629979-c9f9-49a9-9020-10e6d21ca868}"/>
-    <names>
-        <name lang="es">Transformador trifásico</name>
-        <name lang="it">Trasformatore trifase</name>
+<definition width="80" version="0.3" hotspot_x="35" hotspot_y="45" height="90" type="element" ic="true" orientation="dnny">
+<uuid uuid="{34AAD76A-EC0F-4789-846F-702C6F6ED451}"/><names>
+        <name lang="ar">محوّل ثلاثي الأوجه</name>
         <name lang="el">Τριφασικός μετασχηματιστής</name>
         <name lang="en">Three-phase transducer</name>
+        <name lang="es">Transformador trifásico</name>
+        <name lang="de">Transformator Drehstrom</name>
+        <name lang="it">Trasformatore trifase</name>
+        <name lang="fr">Transformateur triphasé</name>
         <name lang="pl">Transformator trójfazowy</name>
         <name lang="cs">Třífázový transformátor</name>
-        <name lang="fr">Transformateur triphasé</name>
-        <name lang="ar">محوّل ثلاثي الأوجه</name>
-        <name lang="de">Transformator Drehstrom</name>
         <name lang="nl">Driefase transformator</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-31.6667" rotation="0" text="A1" x="-16"/>
-        <polygon x2="17" closed="false" x1="11" y3="35" antialias="false" y1="21" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="17" y2="30"/>
-        <polygon x2="-17" closed="false" x1="-11" y3="35" antialias="false" y1="21" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-17" y2="30"/>
-        <polygon x2="-17" closed="false" x1="-11" y3="-35" antialias="false" y1="-21" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-17" y2="-30"/>
-        <polygon x2="17" closed="false" x1="11" y3="-35" antialias="false" y1="-21" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="17" y2="-30"/>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="34.3333" rotation="0" text="A2" x="4"/>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="34.3333" rotation="0" text="A2" x="-16"/>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-31.6667" rotation="0" text="C1" x="18"/>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-31.6667" rotation="0" text="B1" x="1"/>
-        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" y="-5" x="-15"/>
-        <text color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="34.3333" rotation="0" text="C2" x="18"/>
-        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" z="12" uuid="{b588f2f3-b091-4e6c-a294-efe64cc8a1a4}" keep_visual_rotation="false" text_from="UserText" Halignment="AlignLeft" Valignment="AlignTop" y="7.5" rotation="0" x="20">
-            <text>___V</text>
-        </dynamic_text>
-        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" z="13" uuid="{519e31be-f265-4220-abdb-c75c71f5c2ad}" keep_visual_rotation="false" text_from="UserText" Halignment="AlignLeft" Valignment="AlignTop" y="-22.5" rotation="0" x="20">
-            <text>___V</text>
-        </dynamic_text>
-        <line x2="0" x1="0" end1="none" end2="none" antialias="false" y1="25" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="35"/>
-        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" y="-25" x="-15"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" z="16" uuid="{216f3467-5960-4e42-8327-2ff2c5bb6c5b}" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" y="-8.5" rotation="0" x="17.75">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="0" x1="0" end1="none" end2="none" antialias="false" y1="-35" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="-25"/>
-        <terminal orientation="n" type="Generic" uuid="{32c7f705-c9cf-474d-b50c-085265805d68}" y="-36" x="17" name=""/>
-        <terminal orientation="n" type="Generic" uuid="{20c295e4-54cd-4c65-a795-f858844dde2b}" y="-36" x="0" name=""/>
-        <terminal orientation="n" type="Generic" uuid="{64340e83-7693-4b7b-9040-6bad46171ab4}" y="-36" x="-17" name=""/>
-        <terminal orientation="s" type="Generic" uuid="{87c08d62-73d5-4699-936a-e5e2837f65c7}" y="36" x="-17" name=""/>
-        <terminal orientation="s" type="Generic" uuid="{0a853afa-2fed-48d2-be53-3ef466d497f5}" y="36" x="0" name=""/>
-        <terminal orientation="s" type="Generic" uuid="{234e9f78-bc2a-4ae2-ace5-ceb30c372556}" y="36" x="17" name=""/>
+        <text x="-16" y="-31.6667" size="4" text="A1"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="21" x1="11" y2="30" x2="17" y3="35" x3="17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="21" x1="-11" y2="30" x2="-17" y3="35" x3="-17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-21" x1="-11" y2="-30" x2="-17" y3="-35" x3="-17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-21" x1="11" y2="-30" x2="17" y3="-35" x3="17"/>
+        <text x="4" y="34.3333" size="4" text="A2"/>
+        <text x="-16" y="34.3333" size="4" text="A2"/>
+        <text x="18" y="-31.6667" size="4" text="C1"/>
+        <text x="1" y="-31.6667" size="4" text="B1"/>
+        <circle x="-15" y="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <text x="18" y="34.3333" size="4" text="C2"/>
+        <input x="20" y="17" size="5" rotate="true" text="___V"/>
+        <input x="20" y="-13" size="5" rotate="true" text="___V"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="25" x1="0" y2="35" x2="0"/>
+        <circle x="-15" y="-25" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <input x="17.75" y="4" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-35" x1="0" y2="-25" x2="0"/>
+        <terminal x="17" y="-36" orientation="n"/>
+        <terminal x="0" y="-36" orientation="n"/>
+        <terminal x="-17" y="-36" orientation="n"/>
+        <terminal x="-17" y="36" orientation="s"/>
+        <terminal x="0" y="36" orientation="s"/>
+        <terminal x="17" y="36" orientation="s"/>
     </description>
 </definition>

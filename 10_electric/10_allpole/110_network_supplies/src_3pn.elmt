@@ -1,39 +1,35 @@
-<definition type="element" height="80" version="0.100.0" hotspot_y="40" hotspot_x="15" width="30" link_type="simple">
-    <uuid uuid="{81670114-9eae-48f3-863a-6b932bfb11c2}"/>
+<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="80" hotspot_y="40" type="element">
+    <uuid uuid="{8bfb1790-0735-47d5-88a2-8b4d91aba2f1}"/>
     <names>
-        <name lang="hu">3F + N</name>
-        <name lang="el">Τριφασικό + Ουδέτερος</name>
-        <name lang="it">Sorgente tripolare + neutro</name>
-        <name lang="fr">Source tripolaire + neutre</name>
-        <name lang="en">Three-pole source + neutral</name>
-        <name lang="pl">Linia trójfazowa (czteroprzewodowa)</name>
         <name lang="pt">Fonte tripolar + neutro</name>
-        <name lang="nl">Driefasen + nul</name>
-        <name lang="ru">Трёхполюсный + нейтраль</name>
         <name lang="es">Fuente tripolar + neutro</name>
+        <name lang="nl">Driefasen + nul</name>
+        <name lang="el">Τριφασικό + Ουδέτερος</name>
         <name lang="de">Dreiphasig + Neutral</name>
-        <name lang="ar">مصدر ثلاثي القطبيّة + محايد</name>
         <name lang="cs">Přípojnice 3f+N</name>
+        <name lang="pl">Linia trójfazowa (czteroprzewodowa)</name>
+        <name lang="it">Sorgente tripolare + neutro</name>
+        <name lang="ar">مصدر ثلاثي القطبيّة + محايد</name>
+        <name lang="en">Three-pole source + neutral</name>
+        <name lang="fr">Source tripolaire + neutre</name>
+        <name lang="ru">Трёхполюсный + нейтраль</name>
+	    <name lang="hu">3F + N</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-7" text_from="ElementInfo" y="-56.95" uuid="{abb4cd1e-9b68-422f-9949-e2a3723d6f89}" Halignment="AlignLeft" Valignment="AlignTop" z="1" rotation="0" frame="false" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="10" end1="none" end2="none" antialias="false" length1="1.5" x2="10" length2="1.5" x1="0" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" end1="none" end2="none" antialias="false" length1="1.5" x2="10" length2="1.5" x1="0" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="30" end1="none" end2="none" antialias="false" length1="1.5" x2="10" length2="1.5" x1="0" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="N" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" y="33" color="#000000" rotation="0"/>
-        <text text="L3" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" y="13" color="#000000" rotation="0"/>
-        <text text="L2" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" y="-7" color="#000000" rotation="0"/>
-        <text text="L1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" y="-27" color="#000000" rotation="0"/>
-        <line y1="-30" end1="none" end2="none" antialias="false" length1="1.5" x2="10" length2="1.5" x1="0" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal name="" type="Generic" x="10" y="10" uuid="{175ef0c9-318e-4be4-9e6e-05cd4a6caac5}" orientation="e"/>
-        <terminal name="" type="Generic" x="10" y="30" uuid="{e7ffc583-1be6-413c-af33-7e009ee77391}" orientation="e"/>
-        <terminal name="" type="Generic" x="10" y="-30" uuid="{4b9c637c-b394-4acc-9a98-83ac0a50fdda}" orientation="e"/>
-        <terminal name="" type="Generic" x="10" y="-10" uuid="{fe83daa7-9b1c-4e2d-8038-b4c54363aa1e}" orientation="e"/>
+        <input x="-7" y="-44.45" tagg="label" size="9" rotate="true" text="_"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30"/>
+        <text x="-12" y="33" size="5" text="N"/>
+        <text x="-12" y="13" size="5" text="L3"/>
+        <text x="-12" y="-7" size="5" text="L2"/>
+        <text x="-12" y="-27" size="5" text="L1"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30"/>
+        <terminal x="10" y="10" orientation="e"/>
+        <terminal x="10" y="30" orientation="e"/>
+        <terminal x="10" y="-30" orientation="e"/>
+        <terminal x="10" y="-10" orientation="e"/>
     </description>
 </definition>

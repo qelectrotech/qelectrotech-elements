@@ -1,29 +1,25 @@
-<definition link_type="simple" version="0.100.0" hotspot_y="19" height="40" width="70" type="element" hotspot_x="37">
-    <uuid uuid="{57dbd03c-7730-457e-be5f-5d98bb1aa88d}"/>
+<definition width="70" hotspot_x="37" type="element" link_type="simple" version="0.5" height="40" hotspot_y="19">
+    <uuid uuid="{29c0a828-9b26-4578-a40d-5475fed4713e}"/>
     <names>
+        <name lang="cs">Nádoba, otevřené ohřívání 01</name>
         <name lang="pl">Naczynie wzbiorcze otwarte</name>
+        <name lang="it">Vaso aperto</name>
+        <name lang="en">Heating Open vase 01</name>
+        <name lang="nl">expansie tank open</name>
         <name lang="ar">إناء تسخين مفتوح</name>
         <name lang="fr">Vase Chauffage Ouvert 01</name>
-        <name lang="it">Vaso aperto</name>
-        <name lang="nl">expansie tank open</name>
-        <name lang="cs">Nádoba, otevřené ohřívání 01</name>
-        <name lang="en">Heating Open vase 01</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Valignment="AlignTop" x="-10" y="-9" Halignment="AlignLeft" text_from="ElementInfo" rotation="0" font="Sans Serif,7,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" frame="false" text_width="-1" z="1" uuid="{64b97819-17d3-4f11-95a0-f3fe78966a4e}">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" antialias="false" end1="none" x1="-29" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="29" y2="-7" length2="1.5" y1="-7" end2="none"/>
-        <rect x="-1" ry="0" y="10" rx="0" antialias="false" height="2" width="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-32" ry="0" y="-9" rx="0" antialias="false" height="2" width="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-1" ry="0" y="-12" rx="0" antialias="false" height="2" width="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-30" ry="0" y="-10" rx="0" antialias="false" height="20" width="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="0" y="-12" type="Generic" name="" orientation="n" uuid="{e1e913f3-cc5a-4220-b219-5bcb24343919}"/>
-        <terminal x="-32" y="-8" type="Generic" name="" orientation="w" uuid="{48933fa5-b2a1-42d2-a70c-083410f1986d}"/>
-        <terminal x="0" y="12" type="Generic" name="" orientation="s" uuid="{f5650f72-2671-4738-a9d7-347de961b48c}"/>
+        <input tagg="label" rotate="true" size="7" y="1.5" x="-10" text="xL"/>
+        <line end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-7" x1="-29" x2="29"/>
+        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="10" x="-1" height="2"/>
+        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-9" x="-32" height="2"/>
+        <rect width="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-12" x="-1" height="2"/>
+        <rect width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-10" x="-30" height="20"/>
+        <terminal y="-12" x="0" orientation="n"/>
+        <terminal y="-8" x="-32" orientation="w"/>
+        <terminal y="12" x="0" orientation="s"/>
     </description>
 </definition>

@@ -1,22 +1,18 @@
-<definition hotspot_x="24" link_type="simple" height="30" hotspot_y="24" type="element" version="0.100.0" width="40">
-    <uuid uuid="{a690a417-6f6d-4938-98f8-b514e918787e}"/>
+<definition hotspot_x="24" version="0.70" height="30" hotspot_y="24" width="40" type="element" link_type="simple">
+    <uuid uuid="{6fa7e6a2-4ced-4a4f-b4df-a63260fdf8a0}"/>
     <names>
-        <name lang="es">Impulso positivo</name>
-        <name lang="en">Pulse, positive-going</name>
         <name lang="fr">Impulsion positive</name>
+        <name lang="es">Impulso positivo</name>
         <name lang="de">positiver Impuls</name>
         <name lang="cs">Kladný impuls</name>
+        <name lang="en">Pulse, positive-going</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" text_from="ElementInfo" z="1" keep_visual_rotation="false" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{7cb21b19-41d2-43aa-acba-cf51bacf4989}" Halignment="AlignLeft" x="5" rotation="0" y="2.5" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <polygon closed="false" x6="10" antialias="false" x4="0" y1="0" x1="-20" y3="-20" x5="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y6="0" x3="-10" y2="0" y4="-20" x2="-10" y5="0"/>
-        <terminal name="" uuid="{bcaef1c4-71f9-4eb7-b47d-ea584bad719d}" orientation="e" type="Generic" x="10" y="0"/>
-        <terminal name="" uuid="{f7ef6681-8791-4fbf-9dcb-a979f618f4f4}" orientation="w" type="Generic" x="-20" y="0"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <polygon x2="-10" x5="0" y2="0" y1="0" x3="-10" x4="0" y4="-20" y6="0" antialias="false" y5="0" x6="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-20" x1="-20"/>
+        <terminal y="0" x="10" orientation="e"/>
+        <terminal y="0" x="-20" orientation="w"/>
     </description>
 </definition>

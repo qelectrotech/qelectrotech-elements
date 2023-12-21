@@ -1,27 +1,23 @@
-<definition height="70" type="element" width="20" hotspot_x="13" link_type="simple" hotspot_y="44" version="0.100.0">
-    <uuid uuid="{5206ae85-210a-4247-81c3-deed35089e16}"/>
+<definition type="element" width="20" height="70" hotspot_y="44" hotspot_x="13" version="0.70" link_type="simple">
+    <uuid uuid="{ebeab038-ea30-4da9-b9d7-82760f7851e4}"/>
     <names>
+        <name lang="de">Lasttrennschalter mit selbsttätiger Auslösung</name>
         <name lang="fr">Interrupteur-sectionneur avec ouverture
 automatique</name>
         <name lang="cs">Odpínač se samočinným vypínáním</name>
-        <name lang="de">Lasttrennschalter mit selbsttätiger Auslösung</name>
         <name lang="en">Switch-disconnector, automatic release; On-load isolating switch, automatic</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" x2="0" y2="-40" end2="none" antialias="false" length2="1.5" y1="-24" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" x2="0" y2="20" end2="none" antialias="false" length2="1.5" y1="0" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" x2="-8" y2="-23" end2="none" antialias="false" length2="1.5" y1="0" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" uuid="{781ac411-266d-4634-87fa-94ebf90d0c94}" Valignment="AlignTop" x="5" z="4" rotation="0" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" y="12.5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="4" x="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-24"/>
-        <line x1="-2" x2="2" y2="-24" end2="none" antialias="false" length2="1.5" y1="-24" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-6" x2="-8" x3="-7" y2="-15" antialias="false" x4="-5" y1="-16" y5="-16" y3="-13" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-14" x5="-6"/>
-        <terminal type="Generic" uuid="{abf6717f-0f1b-4609-998a-c0572575f3f2}" x="0" y="20" name="" orientation="s"/>
-        <terminal type="Generic" uuid="{5a5e0128-d489-4a9e-a885-6eb8cd8d5564}" x="0" y="-40" name="" orientation="n"/>
+        <line antialias="false" x1="0" y1="-24" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="0" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-23" end1="none" length1="1.5" length2="1.5"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <circle antialias="false" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-24" x="-2"/>
+        <line antialias="false" x1="-2" y1="-24" x2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-24" end1="none" length1="1.5" length2="1.5"/>
+        <polygon y4="-14" antialias="false" y5="-16" x1="-6" y1="-16" x2="-8" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-15" x4="-5" x3="-7" x5="-6" y3="-13"/>
+        <terminal orientation="s" y="20" x="0"/>
+        <terminal orientation="n" y="-40" x="0"/>
     </description>
 </definition>

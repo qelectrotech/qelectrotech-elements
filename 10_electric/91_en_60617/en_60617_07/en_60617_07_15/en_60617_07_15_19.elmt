@@ -1,26 +1,22 @@
-<definition height="50" link_type="simple" width="60" version="0.100.0" hotspot_x="35" hotspot_y="24" type="element">
-    <uuid uuid="{727ab778-058b-45dd-9935-e869aa7a1ddc}"/>
+<definition type="element" width="60" height="50" hotspot_y="24" hotspot_x="35" version="0.70" link_type="simple">
+    <uuid uuid="{343c2b6f-f2f4-420c-ba20-6bce1278f729}"/>
     <names>
-        <name lang="cs">Cívka relé s magnetickým přidržením</name>
         <name lang="de">elektromechanischer Antrieb eines
 Remanenzrelais</name>
         <name lang="fr">Organe de commande d'un relais à rémanence</name>
+        <name lang="cs">Cívka relé s magnetickým přidržením</name>
         <name lang="en">Relay coil of a remanent relay</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" uuid="{a7eed452-64f9-46fc-abb0-27a940dd0df0}" text_width="-1" Valignment="AlignTop" rotation="0" z="1" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect x="-20" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" antialias="false" y="-10" ry="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-20" end1="none" x2="0" x1="0" y2="-10" end2="none" length1="1.5" length2="1.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10" end1="none" x2="0" x1="0" y2="20" end2="none" length1="1.5" length2="1.5"/>
-        <rect x="-30" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" antialias="false" y="-10" ry="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="10" end1="none" x2="-20" x1="-30" y2="-10" end2="none" length1="1.5" length2="1.5"/>
-        <terminal x="0" uuid="{041bfcc2-d7a3-49e7-b9ef-5c87ac1b786f}" name="" y="20" type="Generic" orientation="s"/>
-        <terminal x="0" uuid="{67ec668b-4e80-4770-94c7-583678662812}" name="" y="-20" type="Generic" orientation="n"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <rect antialias="false" width="40" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-20"/>
+        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" width="10" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-30"/>
+        <line antialias="false" x1="-30" y1="10" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="s" y="20" x="0"/>
+        <terminal orientation="n" y="-20" x="0"/>
     </description>
 </definition>

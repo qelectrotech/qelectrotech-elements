@@ -1,25 +1,21 @@
-<definition version="0.100.0" hotspot_x="24" height="60" hotspot_y="31" width="50" link_type="simple" type="element">
-    <uuid uuid="{135fe220-b260-4702-b5c8-755454968ffa}"/>
+<definition hotspot_x="24" version="0.70" height="60" hotspot_y="31" width="50" type="element" link_type="simple">
+    <uuid uuid="{b35a5396-5b58-42f8-9bc9-5c379238afbb}"/>
     <names>
         <name lang="fr">Dérivation nécessitant un outil spécial</name>
-        <name lang="en">Junction requiring a special tool</name>
         <name lang="de">Anschluß, der spezielle Werkzeuge benötigt</name>
         <name lang="cs">Spojení vyžadující speciální nástroj</name>
+        <name lang="en">Junction requiring a special tool</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Halignment="AlignLeft" uuid="{82f1f4b0-91a0-45df-950a-2fe0b118096b}" rotation="0" text_width="-1" y="2.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" z="1" x="5" keep_visual_rotation="false" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x1="-20" x2="20" y2="0" length2="1.5"/>
-        <line end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x1="0" x2="0" y2="20" length2="1.5"/>
-        <polygon x4="18" x5="10" y3="-25" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="-15" x3="20" y1="-15" antialias="false" x1="10" x2="15" y2="-24" y4="-20"/>
-        <line end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" antialias="false" x1="0" x2="10" y2="-15" length2="1.5"/>
-        <terminal uuid="{2db1d330-9103-4ee6-81d5-fd4333f7a0e9}" name="" y="20" orientation="s" x="0" type="Generic"/>
-        <terminal uuid="{cee64d0b-bd7c-4291-b29d-261142c4384d}" name="" y="0" orientation="w" x="-20" type="Generic"/>
-        <terminal uuid="{8a81e139-3eac-4250-b81d-a70a3e658b94}" name="" y="0" orientation="e" x="20" type="Generic"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
+        <line x2="0" y2="20" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
+        <polygon x2="15" x5="10" y2="-24" y1="-15" x3="20" x4="18" y4="-20" antialias="false" y5="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-25" x1="10"/>
+        <line x2="10" y2="-15" y1="-5" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
+        <terminal y="20" x="0" orientation="s"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="0" x="20" orientation="e"/>
     </description>
 </definition>

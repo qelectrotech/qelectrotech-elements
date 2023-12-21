@@ -1,22 +1,17 @@
-<definition link_type="simple" version="0.100.0" hotspot_x="15" hotspot_y="20" width="30" height="40" type="element">
-    <uuid uuid="{61186d86-ff39-4e94-88bf-68f73c914844}"/>
-    <names>
-        <name lang="fr">Presostat</name>
-        <name lang="ca">Pressòstat</name>
-        <name lang="en">Pressure switch</name>
+<definition link_type="simple" ic="true" height="30" width="30" version="0.4" hotspot_y="15" type="element" hotspot_x="15">
+<uuid uuid="{8D31D311-22BA-4A2D-B36A-1441939462D3}"/><names>
         <name lang="es">Presostato</name>
+        <name lang="ca">Pressòstat</name>
+        <name lang="fr">Presostat</name>
+	<name lang="en">Pressure switch</name>
     </names>
-    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <line antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end1="none" length1="1.5" end2="none" y1="4" x2="0" length2="1.5"/>
-        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" text="P" y="1" x="-4"/>
-        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" width="18" height="16" y="-13" x="-9" ry="0"/>
-        <dynamic_text font="Sans Serif,4,-1,5,25,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" uuid="{41e71b53-166e-4ce3-a0e7-9a6b0943f1b7}" z="4" text_width="-1" rotation="0" frame="false" y="-23.5" x="-5" keep_visual_rotation="false" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal name="" uuid="{20eab9cb-4141-45d7-8071-21538b7558fc}" orientation="s" y="10" type="Generic" x="0"/>
+        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none" x2="0" antialias="false" y1="4" x1="0" length1="1.5"/>
+        <text text="P" x="-4" size="9" y="1"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9" antialias="false" height="16" width="18" y="-13"/>
+        <input text="_" x="-5" tagg="label" size="4" y="-15.5" rotate="true"/>
+        <terminal x="0" y="10" orientation="s"/>
     </description>
 </definition>

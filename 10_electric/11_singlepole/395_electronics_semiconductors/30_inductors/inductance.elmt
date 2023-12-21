@@ -1,27 +1,23 @@
-<definition hotspot_x="20" hotspot_y="34" type="element" width="40" height="70" link_type="simple" version="0.100.0">
-    <uuid uuid="{e995930c-0944-4302-b556-efce1139cdba}"/>
-    <names>
-        <name lang="de">Induktivität</name>
+<definition width="40" version="0.4" hotspot_x="20" hotspot_y="35" height="70" link_type="simple" type="element" ic="true">
+<uuid uuid="{E4928ACA-4FAF-4294-ABB0-D3DC6973FBDC}"/><names>
         <name lang="el">Επαγωγή</name>
+        <name lang="en">Inductor</name>
+        <name lang="de">Induktivität</name>
         <name lang="it">Induttanze</name>
         <name lang="fr">Inductance</name>
         <name lang="pl">Cewka (forma 1)</name>
-        <name lang="cs">Reaktor</name>
         <name lang="nl">Inductor</name>
-        <name lang="en">Inductor</name>
+        <name lang="cs">Reaktor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y1="15" length2="1.5" y2="30" end1="none" x1="0" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5"/>
-        <dynamic_text rotation="0" frame="false" uuid="{fa73315f-6fa6-4601-a9d2-748a7fac6950}" text_from="UserText" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="17" y="-12.5" Valignment="AlignTop" z="2" text_width="-1" keep_visual_rotation="false">
-            <text>_</text>
-        </dynamic_text>
-        <arc width="30" start="-180" height="30" angle="-270" antialias="true" x="-15" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" length2="1.5" y2="0" end1="none" x1="-15" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5"/>
-        <line y1="-30" length2="1.5" y2="0" end1="none" x1="0" end2="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5"/>
-        <terminal orientation="n" uuid="{99d6ee9a-b52e-453b-9fee-71962833cbf1}" type="Generic" x="0" y="-30" name=""/>
-        <terminal orientation="s" uuid="{f712a5ec-9a45-4db5-917b-9c5d99a92d2a}" type="Generic" x="0" y="30" name=""/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="0" y2="30" x2="0"/>
+        <input x="17" y="0" size="9" rotate="true" text="_" tagg="none"/>
+        <arc width="30" x="-15" y="-15" antialias="true" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-270"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-15" y2="0" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x1="0" y2="0" x2="0"/>
+        <terminal x="0" y="-30" orientation="n"/>
+        <terminal x="0" y="30" orientation="s"/>
     </description>
 </definition>

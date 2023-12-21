@@ -1,31 +1,27 @@
-<definition height="70" hotspot_x="54" width="60" hotspot_y="34" type="element" link_type="simple" version="0.100.0">
-    <uuid uuid="{355558a7-8237-460c-9ce6-b52ab4aabbbc}"/>
+<definition type="element" width="60" height="70" hotspot_y="34" hotspot_x="54" version="0.70" link_type="simple">
+    <uuid uuid="{ee27d614-1a1a-4374-ac77-c77812166b03}"/>
     <names>
-        <name lang="en">Proximity switch, controlled by iron</name>
-        <name lang="cs">Přibližovací spínač, ovládaný
-přiblížením železa, vypínací kontakt</name>
         <name lang="de">näherungsempfindlicher Schalter, (Öffner),
 betätigt durch die Annäherung von Eisen</name>
         <name lang="fr">Dispositif sensible à une proximité, commandé
 à l'approche de fer avec contact à ouverture</name>
+        <name lang="cs">Přibližovací spínač, ovládaný
+přiblížením železa, vypínací kontakt</name>
+        <name lang="en">Proximity switch, controlled by iron</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" text_from="ElementInfo" Halignment="AlignLeft" uuid="{adb8556a-da0d-44f0-afcd-6ea3c0ec046d}" frame="false" text_width="-1" Valignment="AlignTop" keep_visual_rotation="false" x="5" y="12.5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-30" length1="1.5" length2="1.5" end2="none" x2="0" end1="none" x1="0" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="10" length1="1.5" length2="1.5" end2="none" x2="-5" end1="none" x1="0" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="30" length1="1.5" length2="1.5" end2="none" x2="0" end1="none" x1="0" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" length1="1.5" length2="1.5" end2="none" x2="-3" end1="none" x1="-20" antialias="false" y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-10" x3="-30" y3="10" x2="-40" y4="0" x4="-20" y5="-10" x1="-30" x5="-30" closed="false" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-6" length1="1.5" length2="1.5" end2="none" x2="-34" end1="none" x1="-34" antialias="false" y2="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-6" length1="1.5" length2="1.5" end2="none" x2="-26" end1="none" x1="-26" antialias="false" y2="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text rotation="0" text="Fe" x="-50" color="#000000" y="2" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
-        <terminal orientation="n" uuid="{194f7617-ce1c-4981-a65f-d4eff815e8c4}" type="Generic" x="0" y="-30" name=""/>
-        <terminal orientation="s" uuid="{c07dce05-6e0e-4e38-85cb-be5de1dc912b}" type="Generic" x="0" y="30" name=""/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-20" y1="0" x2="-3" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
+        <polygon y4="0" antialias="false" closed="false" y5="-10" x1="-30" y1="-10" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x4="-20" x3="-30" x5="-30" y3="10"/>
+        <line antialias="false" x1="-34" y1="-6" x2="-34" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-26" y1="-6" x2="-26" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
+        <text size="6" text="Fe" y="2" x="-50"/>
+        <terminal orientation="n" y="-30" x="0"/>
+        <terminal orientation="s" y="30" x="0"/>
     </description>
 </definition>

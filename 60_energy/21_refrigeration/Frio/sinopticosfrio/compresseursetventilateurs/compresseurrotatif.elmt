@@ -1,32 +1,28 @@
-<definition version="0.100.0" link_type="simple" type="element" width="50" hotspot_y="20" height="40" hotspot_x="24">
-    <uuid uuid="{6bbb1835-0235-4ebb-bdad-6a382f93d354}"/>
+<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
+    <uuid uuid="{923063af-25b7-41e1-ad24-3995c85b2048}"/>
     <names>
+        <name lang="cs">Otáčivý kompresor</name>
         <name lang="it">Compressore rotativo</name>
-        <name lang="fr">Compresseur rotatif</name>
+        <name lang="pl">Kompresor wirowy</name>
         <name lang="en">Rotary compressor</name>
         <name lang="nl">Rotatie compressor</name>
         <name lang="ar">ضاغط دوّار</name>
-        <name lang="cs">Otáčivý kompresor</name>
+        <name lang="fr">Compresseur rotatif</name>
         <name lang="el">Περιστροφικός συμπιεστής</name>
-        <name lang="pl">Kompresor wirowy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{14284be8-ecfc-4d5c-845c-d2ea66c54fe0}" y="1" z="1" frame="false" Valignment="AlignTop" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" keep_visual_rotation="false" x="-8" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="30" y="-15" antialias="true" x="-15" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
-        <circle diameter="7" y="-3.5" antialias="true" x="-3.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-2" x2="0" antialias="false" end1="none" length2="1.5" y2="2" x1="0" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" x2="0" antialias="false" end1="none" length2="1.5" y2="0" x1="3" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" x2="-16" antialias="false" end1="none" length2="1.5" y2="0" x1="-15" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" x2="16" antialias="false" end1="none" length2="1.5" y2="0" x1="15" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-13" x2="13" antialias="true" end1="none" length2="1.5" y2="-7" x1="-7" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="13" x2="13" antialias="true" end1="none" length2="1.5" y2="7" x1="-7" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal uuid="{aca09717-ad3c-4f87-b525-ebd84d48aa6a}" y="0" orientation="w" type="Generic" x="-16" name=""/>
-        <terminal uuid="{43848b1a-775a-403a-a250-6561fe3e3690}" y="0" orientation="e" type="Generic" x="16" name=""/>
+        <input tagg="label" rotate="true" size="9" y="13.5" x="-8" text="_"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="7" y="-3.5" x="-3.5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="2" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-2" x1="0" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="3" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-13" x1="-7" x2="13"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="13" x1="-7" x2="13"/>
+        <terminal y="0" x="-16" orientation="w"/>
+        <terminal y="0" x="16" orientation="e"/>
     </description>
 </definition>

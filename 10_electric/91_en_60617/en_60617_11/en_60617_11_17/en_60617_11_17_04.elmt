@@ -1,24 +1,20 @@
-<definition width="40" hotspot_y="31" version="0.100.0" hotspot_x="31" link_type="simple" type="element" height="40">
-    <uuid uuid="{c86b6aab-7364-431b-a6d2-8aa7ee6547e0}"/>
+<definition type="element" version="0.70" height="40" link_type="simple" hotspot_x="31" width="40" hotspot_y="31">
+    <uuid uuid="{7a5af68a-bfe6-44d6-95f6-ab1af725e03b}"/>
     <names>
+        <name lang="de">Winkelabzweig</name>
         <name lang="fr">Coude</name>
         <name lang="cs">Koleno</name>
         <name lang="en">Elbow</name>
-        <name lang="de">Winkelabzweig</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" text_width="-1" rotation="0" z="1" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" uuid="{9b61004e-d16a-4a1d-9530-55e20714ef18}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" y="12.5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-20" x1="-20" length1="1.5" length2="1.5" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-20" end1="none"/>
-        <line y1="0" x1="-25" length1="1.5" length2="1.5" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-15" end1="none"/>
-        <line y1="-25" x1="0" length1="1.5" length2="1.5" y2="-15" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end1="none"/>
-        <line y1="-20" x1="-20" length1="1.5" length2="1.5" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end1="none"/>
-        <terminal x="0" uuid="{f641688a-0d8c-4ecb-9493-839504f797d5}" type="Generic" orientation="e" y="-20" name=""/>
-        <terminal x="-20" uuid="{59b1ff34-a67e-41a6-9fae-68cacf506127}" type="Generic" orientation="s" y="0" name=""/>
+        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
+        <line length1="1.5" end2="none" y1="-20" y2="0" x2="-20" length2="1.5" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="0" y2="0" x2="-15" length2="1.5" antialias="false" x1="-25" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-25" y2="-15" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-20" y2="-20" x2="0" length2="1.5" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="e" y="-20" x="0"/>
+        <terminal orientation="s" y="0" x="-20"/>
     </description>
 </definition>

@@ -1,37 +1,33 @@
-<definition type="element" hotspot_x="8" width="30" version="0.100.0" link_type="slave" hotspot_y="24" height="50">
-    <uuid uuid="{51b81268-11bc-40d6-877d-332938f38b0e}"/>
-    <names>
+<definition width="50" version="0.3" hotspot_x="15" hotspot_y="25" height="50" type="element" link_type="slave">
+<uuid uuid="{16876127-B61C-4DE6-9D22-38E3351535EF}"/><names>
         <name lang="ar">مُلامس مُؤقت للفصل (NC) يُغلق مُتأخرا</name>
-        <name lang="cs">Kontakt NC zpožděný odpad</name>
-        <name lang="el">Κλειστή επαφή, καθυστέρηση απενεργοποίησης</name>
-        <name lang="fr">Contact simple (NF / tempo repos)</name>
-        <name lang="es">Contactor simple (NC / tiempo retardado de apago)</name>
-        <name lang="it">Contatto NC ritardato alla richiusura</name>
-        <name lang="pl">Zestyk rozwierny działający z opóźnieniem</name>
         <name lang="de">Öffner abfallverzögert</name>
-        <name lang="pt">Contacto simples (NC / tempo de desligado retardado)</name>
-        <name lang="en">Simple contact (NC / switch-off delay timer)</name>
         <name lang="ru">Контакт с задержкой при возврате (НЗ)</name>
+        <name lang="pt">Contacto simples (NC / tempo de desligado retardado)</name>
+        <name lang="el">Κλειστή επαφή, καθυστέρηση απενεργοποίησης</name>
+        <name lang="en">Simple contact (NC / switch-off delay timer)</name>
+        <name lang="it">Contatto NC ritardato alla richiusura</name>
+        <name lang="fr">Contact simple (NF / tempo repos)</name>
+        <name lang="pl">Zestyk rozwierny działający z opóźnieniem</name>
+        <name lang="es">Contactor simple (NC / tiempo retardado de apago)</name>
+        <name lang="cs">Kontakt NC zpožděný odpad</name>
     </names>
-    <kindInformations>
-        <kindInformation name="type">delayOff</kindInformation>
-        <kindInformation name="state">NC</kindInformation>
-        <kindInformation name="number">1</kindInformation>
-    </kindInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+    <kindInformations>
+        <kindInformation name="state" show="1">NC</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+        <kindInformation name="type" show="1">delayOff</kindInformation>
+   </kindInformations>
     <description>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" x2="12" end2="none" end1="none" y2="1.5" x1="2" y1="1.5"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" x2="12.5" end2="none" end1="none" y2="-1.5" x1="2" y1="-1.5"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x2="10" closed="false" y3="20" y2="10" x1="15" y1="-10" x3="10"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="16" end2="none" end1="none" y2="-9" x1="10" y1="-9"/>
-        <arc style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" angle="-180" width="10" x="-8" y="-5" start="90" height="10"/>
-        <dynamic_text Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" rotation="0" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="15" z="6" uuid="{cdeda8c1-7ead-46d7-a752-1fea0482a72e}" y="-10" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" end2="none" end1="none" y2="-10" x1="10" y1="-20"/>
-        <terminal type="Generic" x="10" name="" uuid="{cfcd69d2-8213-4445-a6d3-85b1eca8bb2b}" y="-20" orientation="n"/>
-        <terminal type="Generic" x="10" name="" uuid="{de2b4df7-d2cc-41ec-aa22-1233f03bedf1}" y="20" orientation="s"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="1.5" x1="2" y2="1.5" x2="12"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-1.5" x1="2" y2="-1.5" x2="12.5"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="15" y2="10" x2="10" y3="20" x3="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="10" y2="-9" x2="16"/>
+        <arc width="10" x="-8" y="-5" antialias="true" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black" start="90" angle="-180"/>
+        <input x="15" y="2.5" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
+        <terminal x="10" y="-20" orientation="n"/>
+        <terminal x="10" y="20" orientation="s"/>
     </description>
 </definition>

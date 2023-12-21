@@ -1,36 +1,31 @@
-<definition hotspot_y="24" version="0.100.0" type="element" hotspot_x="22" height="50" link_type="master" width="30">
-    <uuid uuid="{8a62df4e-a04a-4dcc-ac4e-f91073b2df1f}"/>
-    <names>
+<definition height="50" hotspot_y="24" version="0.5" type="element" width="30" hotspot_x="22" link_type="master">
+<uuid uuid="{4F4B0EDC-6505-4AE7-A39C-41FBC8336D9C}"/><names>
         <name lang="it">Arresto d'emergenza</name>
         <name lang="nl">Noodstop drukknop (NO)</name>
-        <name lang="en">Push-button</name>
-        <name lang="fr">Arret d'urgence (NF)</name>
-        <name lang="de">Pilzdrucktaster Schliesser</name>
-        <name lang="cs">Nouzové zastavení</name>
-        <name lang="es">Pulsador con enclave</name>
         <name lang="pl">Łącznik przyciskowy (przycisk bezpieczeństwa)</name>
         <name lang="ru">Кнопка (НР)</name>
+        <name lang="fr">Arret d'urgence (NF)</name>
         <name lang="ar">زرّ توقف طارئ (NF)</name>
+        <name lang="en">Push-button</name>
+        <name lang="es">Pulsador con enclave</name>
+        <name lang="cs">Nouzové zastavení</name>
+        <name lang="de">Pilzdrucktaster Schliesser</name>
     </names>
     <kindInformations>
-        <kindInformation name="type">commutator</kindInformation>
+        <kindInformation show="1" name="type">commutator</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line style="line-style:normal;line-weight:thin;filling:none;color:black" y2="0" x2="-7.25" end2="none" antialias="true" end1="none" y1="-2" length2="1.5" length1="1.5" x1="-10.25"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="0" closed="false" antialias="true" y3="20" y1="-10" x3="0" x1="-5"/>
-        <arc style="line-style:normal;line-weight:thin;filling:none;color:black" x="-17.25" start="-90" antialias="true" y="-5" angle="-180" height="10" width="8"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x2="0" end2="none" antialias="false" end1="none" y1="-20" length2="1.5" length1="1.5" x1="0"/>
-        <line style="line-style:normal;line-weight:thin;filling:none;color:black" y2="0" x2="-10.25" end2="none" antialias="false" end1="none" y1="-2" length2="1.5" length1="1.5" x1="-10.25"/>
-        <dynamic_text rotation="0" uuid="{d207085d-0f29-4c80-bd40-d44bf5305605}" x="2.75" y="-9.5" frame="false" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="6">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line style="line-style:normal;line-weight:thin;filling:none;color:black" y2="5" x2="-13.25" end2="none" antialias="false" end1="none" y1="-5" length2="1.5" length1="1.5" x1="-13.25"/>
-        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0" x2="-3.25" end2="none" antialias="false" end1="none" y1="0" length2="1.5" length1="1.5" x1="-13.25"/>
-        <terminal uuid="{91a25174-e3fc-43cf-80e1-eac9dcc0a674}" x="0" type="Generic" name="" y="-20" orientation="n"/>
-        <terminal uuid="{e409e0af-e74a-470c-b96d-1398104794aa}" x="0" type="Generic" name="" y="20" orientation="s"/>
+        <line length1="1.5" x1="-10.25" antialias="true" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="-7.25" end2="none" y2="0" y1="-2"/>
+        <polygon y3="20" x1="-5" antialias="true" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="10" x3="0" y1="-10"/>
+        <arc height="10" x="-17.25" y="-5" width="8" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" start="-90" angle="-180"/>
+        <line length1="1.5" x1="0" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end2="none" y2="-10" y1="-20"/>
+        <line length1="1.5" x1="-10.25" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="-10.25" end2="none" y2="0" y1="-2"/>
+        <input x="2.75" y="3" text="_" tagg="label" size="9"/>
+        <line length1="1.5" x1="-13.25" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="-13.25" end2="none" y2="5" y1="-5"/>
+        <line length1="1.5" x1="-13.25" antialias="false" length2="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-3.25" end2="none" y2="0" y1="0"/>
+        <terminal orientation="n" x="0" y="-20"/>
+        <terminal orientation="s" x="0" y="20"/>
     </description>
 </definition>

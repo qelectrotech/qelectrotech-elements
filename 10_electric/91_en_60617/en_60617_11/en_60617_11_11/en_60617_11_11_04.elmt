@@ -1,5 +1,5 @@
-<definition height="50" link_type="simple" hotspot_y="45" hotspot_x="104" width="110" version="0.100.0" type="element">
-    <uuid uuid="{681ab425-94f1-43fb-a8a4-adb435800ca0}"/>
+<definition link_type="simple" type="element" width="110" height="50" hotspot_x="104" hotspot_y="45" version="0.70">
+    <uuid uuid="{40384867-aeff-4594-b0e2-92bc7b919555}"/>
     <names>
         <name lang="de">Drei Leiter, ein Neutralleiter, ein Schutzleiter</name>
         <name lang="fr">Canalisation triphasée avec conducteur neutre
@@ -7,23 +7,19 @@ et conducteur de protection</name>
         <name lang="cs">Trojfázové vedení se středním a ochranným vodičem</name>
         <name lang="en">Three-phase wiring with neutral conductor and protective conductor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{a7a35e43-b545-4136-ba2a-cfed5f818b83}" rotation="0" frame="false" Valignment="AlignTop" text_from="ElementInfo" y="42.5" z="1" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="-100" y2="-20" length2="1.5" x2="0" y1="-20" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-85" y2="-40" length2="1.5" x2="-75" y1="0" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-80" y2="-40" length2="1.5" x2="-70" y1="0" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-75" y2="-40" length2="1.5" x2="-65" y1="0" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-55" y2="-40" length2="1.5" x2="-45" y1="0" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-30" y2="-40" length2="1.5" x2="-20" y1="0" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-46.5" diameter="3" y="-41.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line x1="-24" y2="-40" length2="1.5" x2="-16" y1="-40" end1="none" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-100" uuid="{b1e48847-2d91-4f8c-8ae3-4d03e6ffff25}" orientation="w" y="-20" name="" type="Generic"/>
-        <terminal x="0" uuid="{3b8dba81-2e00-4b0d-a09e-eee206e615a2}" orientation="e" y="-20" name="" type="Generic"/>
+        <input text="_" tagg="label" size="9" y="55" x="5" rotate="true"/>
+        <line end2="none" end1="none" length1="1.5" y2="-20" length2="1.5" x1="-100" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-85" y1="0" x2="-75" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-80" y1="0" x2="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-75" y1="0" x2="-65" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-55" y1="0" x2="-45" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-30" y1="0" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle diameter="3" y="-41.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x="-46.5"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-24" y1="-40" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal y="-20" x="-100" orientation="w"/>
+        <terminal y="-20" x="0" orientation="e"/>
     </description>
 </definition>

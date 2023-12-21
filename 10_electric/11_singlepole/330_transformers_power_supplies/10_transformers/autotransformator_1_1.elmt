@@ -1,30 +1,25 @@
-<definition height="80" type="element" width="40" hotspot_x="20" hotspot_y="44" version="0.100.0" link_type="simple">
-    <uuid uuid="{807ec20e-8e88-4b43-ac35-048a279a77c8}"/>
-    <names>
-        <name lang="cs">Autotransformátor</name>
-        <name lang="de">Spartransformator</name>
+<definition width="70" version="0.4" hotspot_x="37" hotspot_y="45" height="80" type="element" ic="true">
+<uuid uuid="{CD391EA6-BCC7-4431-BA5A-5F34B50D2E27}"/><names>
         <name lang="ar">مُحوّل ذاتي</name>
+        <name lang="de">Spartransformator</name>
         <name lang="el">Αυτομετασχηματιστής</name>
-        <name lang="it">Autotrasformatore</name>
-        <name lang="es">Autotransformador</name>
-        <name lang="nl">Autotransformator</name>
         <name lang="en">Auto-transformer</name>
-        <name lang="pl">Autotransformator</name>
+        <name lang="it">Autotrasformatore</name>
         <name lang="fr">Autotransformateur</name>
+        <name lang="pl">Autotransformator</name>
+        <name lang="es">Autotransformador</name>
+        <name lang="cs">Autotransformátor</name>
+        <name lang="nl">Autotransformator</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-15" antialias="true" y="-15" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length2="1.5" y1="-40" x1="0" end1="none" x2="0" y2="-25" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length2="1.5" y1="15" x1="0" end1="none" x2="0" y2="30" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="17" rotation="0" uuid="{6c05faf2-16e0-4e2b-815d-1e3e5bb8b924}" z="4" y="-12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc start="66" x="-35" antialias="true" height="55" angle="-65" y="-27.5" width="50" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="0" uuid="{25ba3d13-fb76-48e0-aa27-6e4c4937ceec}" name="" type="Generic" y="-40" orientation="n"/>
-        <terminal x="0" uuid="{48217856-9ff3-41c9-8f5f-32afa73f1499}" name="" type="Generic" y="30" orientation="s"/>
+        <circle x="-15" y="-15" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" x1="0" y2="-25" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="0" y2="30" x2="0"/>
+        <input x="17" y="0" size="9" rotate="true" text="_" tagg="label"/>
+        <arc width="50" x="-35" y="-27.5" antialias="true" height="55" style="line-style:normal;line-weight:normal;filling:none;color:black" start="66" angle="-65"/>
+        <terminal x="0" y="-40" nameHidden="0" number="" name="" orientation="n"/>
+        <terminal x="0" y="30" nameHidden="0" number="" name="" orientation="s"/>
     </description>
 </definition>

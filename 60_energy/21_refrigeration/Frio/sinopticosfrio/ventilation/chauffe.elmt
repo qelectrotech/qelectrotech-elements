@@ -1,25 +1,21 @@
-<definition type="element" width="30" hotspot_y="25" version="0.100.0" height="50" hotspot_x="14" link_type="simple">
-    <uuid uuid="{63a81a4b-11a9-4e5b-b8d2-3924134d24c1}"/>
+<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="50" hotspot_y="25">
+    <uuid uuid="{cb17e669-23c8-42ab-8aeb-22df6d537c66}"/>
     <names>
+        <name lang="cs">Ohřívač</name>
         <name lang="it">Riscaldatore</name>
-        <name lang="en">Heater</name>
         <name lang="pl">Nagrzewnica</name>
+        <name lang="en">Heater</name>
+        <name lang="nl">Verwarmer</name>
         <name lang="fr">Chauffe</name>
         <name lang="el">Θερμαντήρας</name>
-        <name lang="nl">Verwarmer</name>
-        <name lang="cs">Ohřívač</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" y="-43.95" Valignment="AlignTop" uuid="{f5edc035-e25e-4904-8322-1fa9052748bf}" z="1" x="-7" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="10" length1="1.5" end2="none" antialias="true" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" end1="none" y1="-20" length2="1.5"/>
-        <rect antialias="false" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" width="20" height="40" y="-20" x="-10"/>
-        <terminal type="Generic" orientation="w" name="" y="0" uuid="{427ef762-fe8a-4ec7-9142-891aa1961c16}" x="-10"/>
-        <terminal type="Generic" orientation="e" name="" y="0" uuid="{ddd2e27b-32ec-4686-8d89-2084dda9ab6d}" x="10"/>
+        <input tagg="label" rotate="true" size="9" y="-31.45" x="-7" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-20" x1="-10" x2="10"/>
+        <rect width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-20" x="-10" height="40"/>
+        <terminal y="0" x="-10" orientation="w"/>
+        <terminal y="0" x="10" orientation="e"/>
     </description>
 </definition>

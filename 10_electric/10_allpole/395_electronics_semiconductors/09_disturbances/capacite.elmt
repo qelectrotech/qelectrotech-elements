@@ -1,32 +1,28 @@
-<definition link_type="simple" type="element" version="0.100.0" hotspot_x="10" height="60" hotspot_y="29" width="20">
-    <uuid uuid="{aebb4b78-dccd-4c0f-bba9-520d426009a3}"/>
+<definition height="60" version="0.5" link_type="simple" width="20" hotspot_x="10" hotspot_y="29" type="element">
+    <uuid uuid="{25d9b3b5-2dbb-40f2-a242-c0ad6686bc5a}"/>
     <names>
-        <name lang="el">Πυκνωτής</name>
-        <name lang="cs">Kondenzátor</name>
         <name lang="ru">Конденсатор</name>
+        <name lang="de">Kapazität</name>
+        <name lang="el">Πυκνωτής</name>
         <name lang="pl">Kondensator</name>
         <name lang="ar">مُكثّف</name>
         <name lang="es">Condensador</name>
-        <name lang="pt">Condensador</name>
         <name lang="it">Capacità</name>
-        <name lang="fr">Capacité</name>
-        <name lang="de">Kapazität</name>
         <name lang="en">Capacitor</name>
+        <name lang="cs">Kondenzátor</name>
+        <name lang="pt">Condensador</name>
+        <name lang="fr">Capacité</name>
         <name lang="nl">Condensator</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" uuid="{af73f793-c12a-480b-a8d7-532e5f391df4}" text_width="-1" x="11" frame="false" rotation="0" y="-15.95" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line antialias="false" y1="2" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="2" x1="-5" end1="none" x2="5" length1="1.5" length2="1.5" end2="none"/>
-        <line antialias="false" y1="-2" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="-2" x1="-5" end1="none" x2="5" length1="1.5" length2="1.5" end2="none"/>
-        <line antialias="false" y1="2" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="20" x1="0" end1="none" x2="0" length1="1.5" length2="1.5" end2="none"/>
-        <line antialias="false" y1="-20" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="-2" x1="0" end1="none" x2="0" length1="1.5" length2="1.5" end2="none"/>
-        <terminal uuid="{178560e6-2b1f-4576-8a89-6847475152e3}" orientation="n" type="Generic" x="0" y="-21" name=""/>
-        <terminal uuid="{12612c83-8e9f-4502-9ef7-edf75007d86a}" orientation="s" type="Generic" x="0" y="21" name=""/>
+        <input tagg="label" y="-3.45" size="9" rotate="true" text="_" x="11"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="2" length1="1.5" antialias="false" end2="none" length2="1.5" x2="5" x1="-5" end1="none" y2="2"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-2" length1="1.5" antialias="false" end2="none" length2="1.5" x2="5" x1="-5" end1="none" y2="-2"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="2" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="20"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="-2"/>
+        <terminal y="-21" orientation="n" x="0"/>
+        <terminal y="21" orientation="s" x="0"/>
     </description>
 </definition>

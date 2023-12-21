@@ -1,35 +1,27 @@
-<definition version="0.100.0" height="60" hotspot_y="24" width="40" type="element" hotspot_x="20" link_type="simple">
-    <uuid uuid="{f2ffd770-db21-4463-b018-2ee6723438ae}"/>
+<definition version="0.5" hotspot_x="20" hotspot_y="24" width="40" height="60" link_type="simple" type="element">
+    <uuid uuid="{0b51bbec-747b-4e7f-8f25-2a5420e1f7d3}"/>
     <names>
         <name lang="en">2 ports close</name>
         <name lang="es">2 puertos cerrados</name>
-        <name lang="cs">2 otvory uzavřené</name>
-        <name lang="it">2 porte chiuse</name>
-        <name lang="pl">2 drogi, zamknięty</name>
-        <name lang="ar">فوهات مفصولة 2</name>
         <name lang="nl">2 gesloten</name>
         <name lang="fr">2 orifices obtures</name>
+        <name lang="pl">2 drogi, zamknięty</name>
+        <name lang="it">2 porte chiuse</name>
+        <name lang="cs">2 otvory uzavřené</name>
+        <name lang="ar">فوهات مفصولة 2</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-10" text_from="UserText" z="1" y="-25" frame="false" Valignment="AlignTop" rotation="0" uuid="{c099f5fb-3dbe-49cd-9f61-ff62a31a32d3}" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
-            <text>a</text>
-        </dynamic_text>
-        <dynamic_text x="-32" text_from="ElementInfo" z="2" y="-11.95" frame="false" Valignment="AlignTop" rotation="0" uuid="{b3a36687-55fb-4523-8c4c-09c6e9a2e672}" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect x="-15" height="30" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" ry="0" antialias="false" rx="0"/>
-        <line end2="none" y2="-20" length1="1.5" end1="none" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="0" antialias="false"/>
-        <dynamic_text x="-10" text_from="UserText" z="5" y="16" frame="false" Valignment="AlignTop" rotation="0" uuid="{b2ffe386-827f-4dc7-8f34-75df2dcf39d2}" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
-            <text>p</text>
-        </dynamic_text>
-        <line end2="none" y2="15" length1="1.5" end1="none" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30" x2="0" antialias="false"/>
-        <line end2="none" y2="15" length1="1.5" end1="none" length2="1.5" x1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x2="2" antialias="false"/>
-        <line end2="none" y2="-4.95" length1="1.5" end1="none" length2="1.5" x1="-1.95" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.95" x2="2.05" antialias="false"/>
-        <terminal x="0" y="-20" name="" uuid="{5a3025a9-76a4-4fb1-9e3d-eecc07e2afff}" orientation="n" type="Generic"/>
-        <terminal x="0" y="30" name="" uuid="{9a60091d-12ad-4e26-aba1-67fb22f201fa}" orientation="s" type="Generic"/>
+        <input size="5" x="-10" rotate="true" tagg="none" y="-15.5" text="a"/>
+        <input size="9" x="-32" rotate="true" tagg="label" y="0.55" text="_"/>
+        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-15" y="-10"/>
+        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-20" y1="-5" end1="none" x2="0"/>
+        <input size="5" x="-10" rotate="true" tagg="none" y="25.5" text="p"/>
+        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="15" y1="30" end1="none" x2="0"/>
+        <line antialias="false" x1="-2" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="15" y1="15" end1="none" x2="2"/>
+        <line antialias="false" x1="-1.95" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-4.95" y1="-4.95" end1="none" x2="2.05"/>
+        <terminal orientation="n" x="0" y="-20"/>
+        <terminal orientation="s" x="0" y="30"/>
     </description>
 </definition>

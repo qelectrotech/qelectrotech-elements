@@ -1,31 +1,27 @@
-<definition width="20" height="80" hotspot_y="39" type="element" hotspot_x="10" version="0.100.0" link_type="simple">
-    <uuid uuid="{0d170f5c-9ef1-4609-a67d-585da7f234a0}"/>
+<definition width="20" link_type="simple" version="0.5" hotspot_x="10" height="80" hotspot_y="39" type="element">
+    <uuid uuid="{7ae24759-36ff-414f-bf1f-3a9861e75f73}"/>
     <names>
         <name lang="es">Barra de interconexión TN</name>
-        <name lang="hu">Belső sínösszekötő TN</name>
         <name lang="de">TN-Verbindungsschiene</name>
-        <name lang="en">Bar interconnection TN</name>
-        <name lang="it">Barra di connessione TN</name>
         <name lang="cs">Propojovací svorka TN</name>
-        <name lang="fr">Barre d'interconnection TN</name>
         <name lang="pl">Oddzielacz w stanie zamknięcia</name>
+        <name lang="it">Barra di connessione TN</name>
         <name lang="ar">شريط ربط</name>
+        <name lang="en">Bar interconnection TN</name>
+        <name lang="fr">Barre d'interconnection TN</name>
+        <name lang="hu">Belső sínösszekötő TN</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" Valignment="AlignTop" text_from="ElementInfo" z="1" y="-31.95" rotation="0" text_width="-1" uuid="{78ed9d31-45e6-4328-b3b8-ac781061ffc2}" x="13" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle antialias="true" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-19" x="-5"/>
-        <circle antialias="true" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="9" x="-5"/>
-        <arc width="16" height="16" antialias="true" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="12" x="-8" angle="-180"/>
-        <line x1="-8" y2="20" antialias="false" length1="1.5" end2="none" length2="1.5" x2="-8" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <arc width="16" height="16" antialias="true" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-28" x="-8" angle="-180"/>
-        <line x1="8" y2="20" antialias="false" length1="1.5" end2="none" length2="1.5" x2="8" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <terminal type="Generic" name="" y="32" uuid="{f1a0a306-cbcf-45dc-91ab-8e3c68eea8eb}" orientation="s" x="0"/>
-        <terminal type="Generic" name="" y="-32" uuid="{e1e2ba73-7ef5-4bf1-92de-a856d02eb97c}" orientation="n" x="0"/>
+        <input x="13" y="-19.45" tagg="label" size="9" rotate="true" text="_"/>
+        <circle x="-5" antialias="true" y="-19" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-5" antialias="true" y="9" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-8" width="16" antialias="true" y="12" angle="-180" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0"/>
+        <line antialias="false" length1="1.5" x2="-8" end2="none" x1="-8" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
+        <arc x="-8" width="16" antialias="true" y="-28" angle="-180" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <line antialias="false" length1="1.5" x2="8" end2="none" x1="8" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
+        <terminal x="0" y="32" orientation="s"/>
+        <terminal x="0" y="-32" orientation="n"/>
     </description>
 </definition>

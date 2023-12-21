@@ -1,32 +1,27 @@
-<definition height="90" version="0.100.0" hotspot_x="20" type="element" hotspot_y="44" link_type="simple" width="40">
-    <uuid uuid="{d3537d21-69c6-45a8-885a-c8e9578da499}"/>
-    <names>
-        <name lang="ru">Однофазный трансформатор</name>
+<definition width="50" version="0.4" hotspot_x="17" hotspot_y="45" height="90" type="element" ic="true">
+<uuid uuid="{918B818A-7409-4AB5-9301-95F9C373A8CD}"/><names>
         <name lang="ar">محوّل أحادي الوجه</name>
-        <name lang="en">Single phase transducer</name>
         <name lang="de">Transformator einphasig</name>
-        <name lang="es">Transformador monofásico</name>
+        <name lang="ru">Однофазный трансформатор</name>
         <name lang="pt">Transformador monofásico</name>
-        <name lang="cs">Jednofázový transformátor</name>
-        <name lang="nl">wisselspanning transformator</name>
+        <name lang="en">Single phase transducer</name>
+        <name lang="it">Trasformatore monofase</name>
         <name lang="fr">Transformateur monophasé</name>
         <name lang="pl">Transformator jednofazowy</name>
+        <name lang="es">Transformador monofásico</name>
+        <name lang="cs">Jednofázový transformátor</name>
+        <name lang="nl">wisselspanning transformator</name>
         <name lang="el">Μονοφασικός μετασχηματιστής</name>
-        <name lang="it">Trasformatore monofase</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" antialias="true" diameter="30" y="-25"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" antialias="true" diameter="30" y="-5"/>
-        <line y1="-40" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end1="none" y2="-25" x2="0"/>
-        <line y1="25" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" length1="1.5" end1="none" y2="40" x2="0"/>
-        <dynamic_text Halignment="AlignLeft" text_width="-1" x="17" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{6a97264d-cdef-4510-97be-299858a7d0d0}" frame="false" text_from="ElementInfo" y="-12.5" z="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="0" orientation="n" type="Generic" uuid="{d90973a3-f881-4da4-850e-72a1a0dcf66d}" y="-40" name=""/>
-        <terminal x="0" orientation="s" type="Generic" uuid="{07f81063-07f0-4685-935f-68120f2a6cf5}" y="40" name=""/>
+        <circle x="-15" y="-25" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <circle x="-15" y="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" x1="0" y2="-25" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="25" x1="0" y2="40" x2="0"/>
+        <input x="17" y="0" size="9" rotate="true" text="_" tagg="label"/>
+        <terminal x="0" y="-40" nameHidden="0" number="" name="" orientation="n"/>
+        <terminal x="0" y="40" nameHidden="0" number="" name="" orientation="s"/>
     </description>
 </definition>

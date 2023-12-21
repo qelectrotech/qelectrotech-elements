@@ -1,22 +1,18 @@
-<definition hotspot_y="5" height="10" link_type="simple" hotspot_x="9" width="20" version="0.100.0" type="element">
-    <uuid uuid="{3dfa1d88-3508-4cfb-a748-90a50f8772ae}"/>
+<definition type="element" width="20" height="10" version="0.70" hotspot_x="9" hotspot_y="5" link_type="simple">
+    <uuid uuid="{2acf818e-2db5-4885-b3f1-57fbb1db5d41}"/>
     <names>
         <name lang="fr">Transit de l'énergie dans les deux sens</name>
         <name lang="es">Tránsito de energía en ambas direcciones</name>
-        <name lang="cs">Obousměrný tok energie</name>
         <name lang="de">Energiefluß, bidirektional</name>
+        <name lang="cs">Obousměrný tok energie</name>
         <name lang="en">Energy flow, bidirectional (towards and from the busbars)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-6" end1="none" length2="1.5" length1="1.5" end2="simple" x2="6" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <line x1="0" end1="simple" length2="1.5" length1="1.5" end2="none" x2="7" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <dynamic_text uuid="{f8213c69-5f26-452c-94e6-7c23e460e7a0}" x="5" z="3" Halignment="AlignLeft" text_width="-1" rotation="0" y="2.5" frame="false" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="-6" end1="none" length2="1.5" length1="1.5" end2="none" x2="-6" y2="2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2"/>
+        <line antialias="false" x1="-6" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="6"/>
+        <line antialias="false" x1="0" length2="1.5" end1="simple" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="7"/>
+        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
+        <line antialias="false" x1="-6" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="2" y1="-2" end2="none" x2="-6"/>
     </description>
 </definition>

@@ -1,25 +1,21 @@
-<definition hotspot_y="24" type="element" height="50" width="30" version="0.100.0" link_type="simple" hotspot_x="15">
-    <uuid uuid="{fe40325c-27f8-428e-abd9-37932b4447c5}"/>
+<definition type="element" width="30" height="50" hotspot_y="24" hotspot_x="15" version="0.70" link_type="simple">
+    <uuid uuid="{3888e611-9879-4c0b-b754-c468828278f3}"/>
     <names>
+        <name lang="de">elektronisches Schütz (Halbleiter)</name>
         <name lang="fr">Contacteur à semiconducteur (statique)</name>
         <name lang="cs">Statický (polovodičový) stykač</name>
         <name lang="en">Static (semiconductor) contactor</name>
-        <name lang="de">elektronisches Schütz (Halbleiter)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" z="1" rotation="0" y="12.5" text_from="ElementInfo" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" frame="false" uuid="{944f9138-cd13-4b33-b470-83ee7b97886b}" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line antialias="false" length2="1.5" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" x2="10" y2="10" y1="10"/>
-        <line antialias="false" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" x2="0" y2="20" y1="10"/>
-        <line antialias="false" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" x2="0" y2="-20" y1="-10"/>
-        <line antialias="false" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" x2="-7" y2="-11" y1="10"/>
-        <arc x="-2" antialias="true" height="4" y="-14" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4" angle="180"/>
-        <terminal x="0" type="Generic" y="-20" orientation="n" name="" uuid="{206ee3e2-46e0-4b33-a622-58725a0e094c}"/>
-        <terminal x="0" type="Generic" y="20" orientation="s" name="" uuid="{470fb8e6-eadc-4dc6-a779-638c5469cb94}"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="-10" y1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-11" end1="none" length1="1.5" length2="1.5"/>
+        <arc antialias="true" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-14" start="90" angle="180" x="-2"/>
+        <terminal orientation="n" y="-20" x="0"/>
+        <terminal orientation="s" y="20" x="0"/>
     </description>
 </definition>

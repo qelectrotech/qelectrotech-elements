@@ -1,29 +1,25 @@
-<definition hotspot_x="44" hotspot_y="23" width="110" link_type="simple" height="50" type="element" version="0.100.0">
-    <uuid uuid="{ff70c961-aabd-4796-81fb-9e153aeeaa87}"/>
+<definition hotspot_x="44" version="0.70" height="60" hotspot_y="30" width="110" type="element" link_type="simple">
+    <uuid uuid="{3d1e99a2-c6bf-443f-85cb-da920139a5c3}"/>
     <names>
         <name lang="fr">Permutation des conducteurs
 Inversion de polarité</name>
-        <name lang="en">Change of phase sequence</name>
-        <name lang="cs">Změna pořadí fází</name>
         <name lang="de">Leiterverbindungen, Tausch von Leitern
 Wechsel von Polarität</name>
+        <name lang="cs">Změna pořadí fází</name>
+        <name lang="en">Change of phase sequence</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{c22e436d-1c3b-4044-8b52-9a990004e516}" keep_visual_rotation="false" frame="false" Valignment="AlignTop" z="1" rotation="0" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" text_width="-1" x="5" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y2="0" x2="60" end1="none" x1="-40" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false"/>
-        <polygon x3="-10" y3="-10" y2="10" x2="-30" x4="0" x1="-40" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-10" y1="10" antialias="false"/>
-        <line y2="10" x2="40" end1="none" x1="20" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false"/>
-        <text text="L1" rotation="0" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-10" x="-10" color="#000000"/>
-        <line y2="10" x2="50" end1="none" x1="30" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false"/>
-        <line y2="10" x2="60" end1="none" x1="40" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false"/>
-        <text text="L3" rotation="0" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="20" x="-40" color="#000000"/>
-        <terminal uuid="{4ef9c0af-ae30-4a05-a139-c170e203f4ce}" y="0" orientation="e" name="" type="Generic" x="60"/>
-        <terminal uuid="{fcb4ac85-101a-4ed7-b763-3e69ba41fd60}" y="0" orientation="w" name="" type="Generic" x="-40"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="60" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
+        <polygon x2="-30" y2="10" y1="10" x3="-10" x4="0" y4="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-10" x1="-40"/>
+        <line x2="40" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20"/>
+        <text y="-10" x="-10" text="L1" size="6"/>
+        <line x2="50" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30"/>
+        <line x2="60" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="40"/>
+        <text y="20" x="-40" text="L3" size="6"/>
+        <terminal y="0" x="60" orientation="e"/>
+        <terminal y="0" x="-40" orientation="w"/>
     </description>
 </definition>

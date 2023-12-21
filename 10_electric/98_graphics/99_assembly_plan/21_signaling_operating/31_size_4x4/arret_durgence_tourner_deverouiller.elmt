@@ -1,33 +1,28 @@
-<definition width="90" hotspot_x="45" height="90" link_type="thumbnail" version="0.100.0" type="element" hotspot_y="45">
-    <uuid uuid="{b6d98723-4edb-4024-8d6e-b32080c89f14}"/>
+<definition width="90" link_type="thumbnail" version="0.5" hotspot_x="45" height="90" hotspot_y="45" type="element">
+    <uuid uuid="{3705af81-f07f-46ce-be6c-be035effb5b5}"/>
     <names>
-        <name lang="it">Arresto d'emergenza, sblocco a rotazione</name>
-        <name lang="ar">توقيف طوارئ - دوران للإطلاق</name>
-        <name lang="en">Emergency stop turned unlocked</name>
-        <name lang="pl">Łącznik awaryjny odblokowywany przez obracanie</name>
-        <name lang="cs">Nouzové zastavení odblokované otočením</name>
-        <name lang="fr">Arret d'urgence tourné dévérouillé</name>
-        <name lang="de">Not-Aus Taster mit Drehentriegelung</name>
         <name lang="nl">Knop Noodstop draai reset</name>
+        <name lang="de">Not-Aus Taster mit Drehentriegelung</name>
+        <name lang="cs">Nouzové zastavení odblokované otočením</name>
+        <name lang="pl">Łącznik awaryjny odblokowywany przez obracanie</name>
+        <name lang="it">Arresto d'emergenza, sblocco a rotazione</name>
+        <name lang="en">Emergency stop turned unlocked</name>
+        <name lang="fr">Arret d'urgence tourné dévérouillé</name>
+        <name lang="ar">توقيف طوارئ - دوران للإطلاق</name>
     </names>
-    <kindInformations/>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" frame="false" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-66.95" keep_visual_rotation="false" Halignment="AlignLeft" x="-7" z="1" text_width="-1" uuid="{225471d9-729e-410d-910d-23b7305cd1f7}">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc width="50" antialias="true" height="50" y="-25" x="-25" start="-60" angle="-100" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc width="50" antialias="true" height="50" y="-25" x="-25" start="60" angle="-100" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc width="50" antialias="true" height="50" y="-25" x="-25" start="-180" angle="-100" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle antialias="true" y="-36" x="-36" diameter="72" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <circle antialias="true" y="-38" x="-38" diameter="76" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <circle antialias="true" y="-12" x="-12" diameter="24" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <circle antialias="true" y="-40" x="-40" diameter="80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-24.8065" antialias="false" length1="1.5" x1="3.23586" x2="6.23586" end1="none" length2="1.5" end2="triangle" y2="-24.3065" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line y1="12.2753" antialias="false" length1="1.5" x1="-22.3248" x2="-24.1248" end1="none" length2="1.5" end2="triangle" y2="6.67531" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line y1="14.5784" antialias="false" length1="1.5" x1="20.0095" x2="18.0095" end1="none" length2="1.5" end2="triangle" y2="17.5784" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <input x="-7" y="-54.45" tagg="label" size="9" rotate="true" text="_"/>
+        <arc x="-25" width="50" antialias="true" y="-25" angle="-100" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-60"/>
+        <arc x="-25" width="50" antialias="true" y="-25" angle="-100" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" start="60"/>
+        <arc x="-25" width="50" antialias="true" y="-25" angle="-100" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180"/>
+        <circle x="-36" antialias="true" y="-36" diameter="72" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <circle x="-38" antialias="true" y="-38" diameter="76" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <circle x="-12" antialias="true" y="-12" diameter="24" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <circle x="-40" antialias="true" y="-40" diameter="80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" length1="1.5" x2="6.23586" end2="triangle" x1="3.23586" end1="none" y2="-24.3065" length2="1.5" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-24.8065"/>
+        <line antialias="false" length1="1.5" x2="-24.1248" end2="triangle" x1="-22.3248" end1="none" y2="6.67531" length2="1.5" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="12.2753"/>
+        <line antialias="false" length1="1.5" x2="18.0095" end2="triangle" x1="20.0095" end1="none" y2="17.5784" length2="1.5" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="14.5784"/>
     </description>
 </definition>

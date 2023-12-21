@@ -1,29 +1,25 @@
-<definition hotspot_x="51" hotspot_y="34" width="60" version="0.100.0" link_type="simple" height="70" type="element">
-    <uuid uuid="{f26652df-5ab5-476e-8dc2-85c71e89b657}"/>
+<definition type="element" width="60" height="70" hotspot_y="34" hotspot_x="51" version="0.70" link_type="simple">
+    <uuid uuid="{5677fc79-b058-4eb3-92a5-da7e6dc71649}"/>
     <names>
         <name lang="de">Sicherung mit getrenntem Meldekontakt</name>
-        <name lang="en">Fuse with separate alarm</name>
-        <name lang="cs">Tavná pojistkase samostatným signálním obvodem</name>
         <name lang="fr">Fusible à percuteur avec circuit de signalisation
 distinct</name>
+        <name lang="cs">Tavná pojistkase samostatným signálním obvodem</name>
+        <name lang="en">Fuse with separate alarm</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{ce7dbb59-de03-4f93-a858-8869b3c66f64}" text_width="-1" frame="false" Halignment="AlignLeft" x="5" rotation="0" text_from="ElementInfo" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="-40" y1="-30" y2="30" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" end1="none" end2="none"/>
-        <rect width="10" ry="0" antialias="false" x="-45" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" rx="0" y="-15"/>
-        <line x1="0" y1="30" y2="10" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" end2="none"/>
-        <line x1="0" y1="10" y2="-10" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-5" end1="none" end2="none"/>
-        <line x1="0" y1="-10" y2="-30" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" end2="none"/>
-        <line x1="-35" y1="0" y2="0" antialias="false" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-3" end1="none" end2="none"/>
-        <terminal uuid="{9e194140-cc37-4092-933f-7204fc5b57d5}" x="-40" orientation="s" name="" y="30" type="Generic"/>
-        <terminal uuid="{bdcef4a8-fc8e-4170-8ca7-bffddfc4f43f}" x="0" orientation="n" name="" y="-30" type="Generic"/>
-        <terminal uuid="{904e8135-92dd-4417-87d5-8ba47311b4bb}" x="-40" orientation="n" name="" y="-30" type="Generic"/>
-        <terminal uuid="{364d86b1-f062-4711-9337-85ed7612b88e}" x="0" orientation="s" name="" y="30" type="Generic"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="-40" y1="-30" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" width="10" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-45"/>
+        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-30" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-35" y1="0" x2="-3" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="s" y="30" x="-40"/>
+        <terminal orientation="n" y="-30" x="0"/>
+        <terminal orientation="n" y="-30" x="-40"/>
+        <terminal orientation="s" y="30" x="0"/>
     </description>
 </definition>

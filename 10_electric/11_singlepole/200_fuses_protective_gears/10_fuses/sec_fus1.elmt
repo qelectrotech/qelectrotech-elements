@@ -1,35 +1,30 @@
-<definition hotspot_x="12" link_type="master" type="element" version="0.100.0" hotspot_y="29" height="60" width="20">
-    <uuid uuid="{f0415fa4-3675-4090-ae2a-d3005f927cc8}"/>
-    <names>
-        <name lang="pl">Odłącznik bezpiecznikowy</name>
-        <name lang="nl">Zekeringscheider 1</name>
-        <name lang="de">Sicherungstrenner 1-polig</name>
-        <name lang="pt">Seccionador</name>
-        <name lang="fr">Porte fusible mono</name>
-        <name lang="es">Seccionador</name>
-        <name lang="el">Ασφαλειοδιακόπτης</name>
-        <name lang="it">Sezionatore con fusibile 1P</name>
-        <name lang="cs">Pojistkový odpojovač</name>
+<definition width="20" version="0.4" hotspot_x="12" hotspot_y="29" height="60" link_type="master" type="element">
+<uuid uuid="{89D4ADF3-2AE3-4C05-828F-3F49C347A3DE}"/><names>
         <name lang="ar">مفتاح عزل بمصهر</name>
+        <name lang="de">Sicherungstrenner 1-polig</name>
         <name lang="ru">Выключатель-предохранитель</name>
+        <name lang="pt">Seccionador</name>
+        <name lang="el">Ασφαλειοδιακόπτης</name>
         <name lang="en">switchfuses</name>
+        <name lang="it">Sezionatore con fusibile 1P</name>
+        <name lang="fr">Porte fusible mono</name>
+        <name lang="pl">Odłącznik bezpiecznikowy</name>
+        <name lang="es">Seccionador</name>
+        <name lang="nl">Zekeringscheider 1</name>
+        <name lang="cs">Pojistkový odpojovač</name>
     </names>
     <kindInformations>
-        <kindInformation name="type">protection</kindInformation>
+        <kindInformation name="type" show="1">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y2="10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" y3="20" antialias="true" closed="false" x1="-5" x2="0"/>
-        <polygon y2="5.49" y1="-4.51" y4="-5.49" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0.69" x4="-1.81" y3="4.51" antialias="true" x1="-5.69" x2="-3.19"/>
-        <line y2="-10" end1="none" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" end2="none" x1="0" x2="0" length1="1.5"/>
-        <dynamic_text uuid="{263ac799-2d33-40c2-9296-694651177cc8}" frame="false" rotation="0" text_width="-1" z="4" keep_visual_rotation="false" y="-12" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="20" Valignment="AlignTop" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y2="-10" end1="none" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" end2="none" x1="2" x2="-2" length1="1.5"/>
-        <terminal uuid="{f82d9db7-f644-4a87-a4cf-493a9fff66bf}" name="" type="Generic" y="-21" x="0" orientation="n"/>
-        <terminal uuid="{94bab30d-cc3d-40b2-a35f-471b0b2fe46b}" name="" type="Generic" y="21" x="0" orientation="s"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
+        <polygon x4="-1.81" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x1="-5.69" y2="5.49" x2="-3.19" y3="4.51" x3="0.69" y4="-5.49"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
+        <input x="20" y="0.5" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="2" y2="-10" x2="-2"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
     </description>
 </definition>

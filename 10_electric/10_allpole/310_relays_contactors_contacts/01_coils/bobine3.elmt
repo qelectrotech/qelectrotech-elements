@@ -1,41 +1,32 @@
-<definition hotspot_y="29" type="element" link_type="master" width="40" height="60" version="0.100.0" hotspot_x="20">
-    <uuid uuid="{dbff119d-78c7-40d5-a610-1f443fa6ce20}"/>
-    <names>
-        <name lang="es">Bobina</name>
-        <name lang="fr">Bobine</name>
-        <name lang="ru">Обмотка</name>
-        <name lang="nl">Spoel</name>
-        <name lang="pl">Cewka</name>
-        <name lang="el">Πηνίο</name>
+<definition width="40" version="0.3" hotspot_x="20" hotspot_y="20" height="40" type="element" link_type="master">
+<uuid uuid="{9FEAFB37-47DA-4759-ADE0-CF4487890487}"/><names>
         <name lang="ar">ملف</name>
-        <name lang="en">Coil</name>
-        <name lang="hu">Tekercs</name>
-        <name lang="it">Bobina</name>
-        <name lang="cs">Cívka relé</name>
         <name lang="de">Spule</name>
-        <name lang="be">Relais spoel (algemeen)</name>
+        <name lang="ru">Обмотка</name>
+        <name lang="el">Πηνίο</name>
+        <name lang="en">Coil</name>
+        <name lang="it">Bobina</name>
+        <name lang="fr">Bobine</name>
+        <name lang="pl">Cewka</name>
+        <name lang="es">Bobina</name>
+        <name lang="cs">Cívka relé</name>
+        <name lang="nl">Spoel</name>
+        <name lang="hu">Tekercs</name>
+        <name lang="be">Relais spoel (algemeen)</name> 
     </names>
     <kindInformations>
-        <kindInformation name="type">coil</kindInformation>
+        <kindInformation name="type" show="1">coil</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-14" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-8" width="28" rx="0" height="16"/>
-        <line x2="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" y1="-20" end2="none" y2="-8" end1="none"/>
-        <dynamic_text Halignment="AlignLeft" x="2" z="3" frame="false" uuid="{e5c594f1-01fb-477b-860d-89627e4c4c76}" text_width="-1" y="11.3333" rotation="0" keep_visual_rotation="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" Valignment="AlignTop">
-            <text>A2</text>
-        </dynamic_text>
-        <dynamic_text Halignment="AlignLeft" x="2" z="4" frame="false" uuid="{7b20fff2-ec3f-497c-97ad-06d74cff088b}" text_width="-1" y="-24.6667" rotation="0" keep_visual_rotation="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" Valignment="AlignTop">
-            <text>A1</text>
-        </dynamic_text>
-        <line x2="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" y1="8" end2="none" y2="20" end1="none"/>
-        <dynamic_text Halignment="AlignLeft" x="25" z="6" frame="false" uuid="{abf08a72-afa4-44fe-99eb-05eed223499e}" text_width="-1" y="-9.1667" rotation="0" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal name="" x="0" type="Generic" uuid="{58179e2f-6412-4c38-ba3f-4743341212d4}" y="-21" orientation="n"/>
-        <terminal name="" x="0" type="Generic" uuid="{fb756019-9f54-444a-b927-d5d5cf15d936}" y="21" orientation="s"/>
+        <rect width="28" x="-14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-8" x2="0"/>
+        <input x="2" y="19.3333" size="4" rotate="true" text="A2"/>
+        <input x="2" y="-16.6667" size="4" rotate="true" text="A1"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
+        <input x="25" y="3.3333" size="9" text="_" tagg="label"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
     </description>
 </definition>

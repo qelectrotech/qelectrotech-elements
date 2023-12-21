@@ -1,32 +1,28 @@
-<definition version="0.100.0" type="element" hotspot_y="86" hotspot_x="74" height="90" link_type="simple" width="90">
-    <uuid uuid="{7bc87ddd-91c8-44ce-b3b3-9e04fec7ccd9}"/>
+<definition link_type="simple" hotspot_x="78" hotspot_y="86" version="0.70" width="100" type="element" height="90">
+    <uuid uuid="{9c95fdf6-1cc4-4fe6-b3a1-7e6693c191e3}"/>
     <names>
+        <name lang="fr">Moteur série, DC</name>
+        <name lang="de">Gleichstrom-Reihenschlußmotor</name>
         <name lang="cs">Stejnosměrný sériový motor</name>
         <name lang="en">Series motor, DC</name>
-        <name lang="de">Gleichstrom-Reihenschlußmotor</name>
-        <name lang="fr">Moteur série, DC</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" frame="false" uuid="{2dc02a40-9b6e-4c5a-80e9-e529382d344f}" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" y="12.5" Valignment="AlignTop" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle antialias="false" y="-60" x="-60" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text y="-32" text="M" x="-34" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
-        <line antialias="false" x1="-40" y2="-20" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="-20" length1="1.5"/>
-        <line antialias="false" x1="-40" y2="-15" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="-32" length1="1.5"/>
-        <line antialias="false" x1="-29" y2="-15" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="-20" length1="1.5"/>
-        <line antialias="false" x1="-70" y2="-30" y1="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="-70" length1="1.5"/>
-        <line antialias="false" x1="-70" y2="-30" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="-60" length1="1.5"/>
-        <line antialias="false" x1="0" y2="-30" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="10" length1="1.5"/>
-        <line antialias="false" x1="10" y2="-50" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" x2="10" length1="1.5"/>
-        <arc start="90" antialias="true" y="-60" x="5" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <arc start="90" antialias="true" y="-70" x="5" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <arc start="90" antialias="true" y="-80" x="5" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <terminal orientation="n" uuid="{b9e99b6d-e894-41d5-8e4e-760cfa2fa31c}" type="Generic" name="" y="-80" x="-70"/>
-        <terminal orientation="n" uuid="{a088b40b-4b43-48c3-adf6-82c0d02858f1}" type="Generic" name="" y="-80" x="10"/>
+        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
+        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="-34" y="-32" text="M" size="9"/>
+        <line y1="-20" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-15" end1="none" length1="1.5" x1="-40" x2="-32" end2="none" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-15" end1="none" length1="1.5" x1="-29" x2="-20" end2="none" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-80" end1="none" length1="1.5" x1="-70" x2="-70" end2="none" antialias="false" y2="-30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-30" end1="none" length1="1.5" x1="-70" x2="-60" end2="none" antialias="false" y2="-30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-30" end1="none" length1="1.5" x1="0" x2="10" end2="none" antialias="false" y2="-30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-30" end1="none" length1="1.5" x1="10" x2="10" end2="none" antialias="false" y2="-50" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="5" start="90" angle="180" y="-60" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="5" start="90" angle="180" y="-70" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="5" start="90" angle="180" y="-80" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="-70" orientation="n" y="-80"/>
+        <terminal x="10" orientation="n" y="-80"/>
     </description>
 </definition>

@@ -1,24 +1,20 @@
-<definition height="20" width="100" hotspot_y="10" hotspot_x="25" link_type="simple" type="element" version="0.100.0">
-    <uuid uuid="{73dbefd7-1168-4a81-9f72-9c3c1e6e6d02}"/>
+<definition version="0.70" width="100" type="element" hotspot_y="10" link_type="simple" hotspot_x="26" height="20">
+    <uuid uuid="{8bae1a3d-0b56-4f57-a8e0-d3b9dbada539}"/>
     <names>
-        <name lang="en">Alternating current (indication of voltage)</name>
-        <name lang="cs">Střídavý proud 3/N 400/230V 50Hz</name>
+        <name lang="fr">Courant alternatif</name>
         <name lang="de">Wechselstrom und Spannung</name>
         <name lang="es">Corriente alterna 3/N 400/230v 50hz</name>
-        <name lang="fr">Courant alternatif</name>
+        <name lang="cs">Střídavý proud 3/N 400/230V 50Hz</name>
+        <name lang="en">Alternating current (indication of voltage)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc antialias="true" height="5" width="7" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-7.5" y="-2.5" start="56"/>
-        <arc antialias="true" height="5" width="7" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" x="1.5" y="-2.5" start="234"/>
-        <line antialias="false" x2="3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" y2="2" length2="1.5" x1="-2" end1="none" length1="1.5"/>
-        <dynamic_text keep_visual_rotation="false" rotation="0" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" uuid="{b59321c0-d5b9-4724-bb50-a1a47a9780dc}" x="5" z="4" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text text="400/230 V 50 Hz" rotation="0" x="10" color="#000000" y="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
-        <text text="3/N" rotation="0" x="-21" color="#000000" y="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <arc angle="124" width="7" x="-7.5" start="56" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <arc angle="124" width="7" x="1.5" start="234" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <line x2="3" y2="2" length2="1.5" length1="1.5" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-2" end2="none" antialias="false"/>
+        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
+        <text x="10" text="400/230 V 50 Hz" size="6" y="3"/>
+        <text x="-21" text="3/N" size="6" y="3"/>
     </description>
 </definition>

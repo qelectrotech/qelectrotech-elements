@@ -1,29 +1,21 @@
-<definition hotspot_x="4" version="0.100.0" link_type="simple" type="element" width="10" height="70" hotspot_y="34">
-    <uuid uuid="{b9018789-fa3a-49e3-acb0-b0d83305391f}"/>
+<definition height="70" hotspot_y="34" hotspot_x="4" version="0.5" width="10" link_type="simple" type="element">
+    <uuid uuid="{2ac227dc-33a0-49f5-b8a0-b834d9386b60}"/>
     <names>
-        <name lang="es">Etiqueta de cable</name>
         <name lang="de">Kabel Bezeichnungsschild</name>
-        <name lang="hu">Kábel címke</name>
         <name lang="fr">Cable etiquette</name>
+        <name lang="en">Cable tag</name>
+        <name lang="es">Etiqueta de cable</name>
         <name lang="it">Etichetta del cavo</name>
         <name lang="cs">Kabelový štítek</name>
-        <name lang="en">Cable tag</name>
+        <name lang="hu">Kábel címke</name>
     </names>
-    <elementInformations/>
-    <informations></informations>
+    <informations/>
     <description>
-        <dynamic_text keep_visual_rotation="false" text_from="UserText" rotation="270" uuid="{2d674094-a108-44fd-8f63-5b76462a2490}" x="10" z="1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" Valignment="AlignTop" y="30" Halignment="AlignLeft">
-            <text>?m</text>
-        </dynamic_text>
-        <dynamic_text keep_visual_rotation="false" text_from="ElementInfo" rotation="270" uuid="{ba9b9294-037d-4246-9efa-931722d5ac95}" x="-24" z="2" font="Sans Serif,11,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" Valignment="AlignTop" y="30" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end2="none" length2="1.5" end1="none" antialias="false" y1="-30" length1="1.5" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0"/>
-        <dynamic_text keep_visual_rotation="false" text_from="UserText" rotation="270" uuid="{b60668d8-d5a2-44d7-8435-48098aa05110}" x="-1" z="4" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" Valignment="AlignTop" y="30" Halignment="AlignLeft">
-            <text>Cable type</text>
-        </dynamic_text>
-        <terminal name="" uuid="{aab882f5-63ce-4492-a87f-459b370d8122}" x="0" type="Generic" orientation="s" y="30"/>
-        <terminal name="" uuid="{31d51b06-7272-45f7-bace-a4a955d6fcf2}" x="0" type="Generic" orientation="n" y="-30"/>
+        <input tagg="none" x="20" rotation="270" y="30" rotate="true" text="?m" size="6"/>
+        <input tagg="label" x="-9" rotation="270" y="30" rotate="true" text="-W" size="11"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y2="30" x1="0" end2="none" length2="1.5" y1="-30"/>
+        <input tagg="none" x="9" rotation="270" y="30" rotate="true" text="Cable type" size="6"/>
+        <terminal x="0" y="30" orientation="s"/>
+        <terminal x="0" y="-30" orientation="n"/>
     </description>
 </definition>

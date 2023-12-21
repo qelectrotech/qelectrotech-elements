@@ -1,28 +1,24 @@
-<definition version="0.100.0" type="element" hotspot_y="44" height="50" hotspot_x="15" link_type="simple" width="40">
-    <uuid uuid="{0cf180c2-8f0c-42a6-828b-a7144166de5d}"/>
+<definition link_type="simple" version="0.70" hotspot_x="15" hotspot_y="44" type="element" height="50" width="40">
+    <uuid uuid="{0497ec2f-8942-4c6e-9e4b-7c327302fc0b}"/>
     <names>
         <name lang="fr">Diode à capacité variable
 Varactor</name>
-        <name lang="cs">Kapacitní dioda (varaktor)</name>
         <name lang="de">Kapazitätsdiode</name>
+        <name lang="cs">Kapacitní dioda (varaktor)</name>
         <name lang="en">Variable capacitance diode; Varactor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" Valignment="AlignTop" y="2.5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{67ad5704-cabd-4928-87af-a81dd8a5f68a}" text_from="ElementInfo" rotation="0" text_width="-1" keep_visual_rotation="false" frame="false" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="0" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" end2="none" y2="0" end1="none" length2="1.5" x2="0"/>
-        <line x1="-10" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" end2="none" y2="-10" end1="none" length2="1.5" x2="10"/>
-        <polygon x1="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" y3="-10" y2="-30" y4="-30" x3="0" closed="false" x4="-10" x2="10"/>
-        <line x1="16" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" end2="none" y2="-22" end1="none" length2="1.5" x2="16"/>
-        <line x1="12" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-22" end2="none" y2="-22" end1="none" length2="1.5" x2="20"/>
-        <line x1="12" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-18" end2="none" y2="-18" end1="none" length2="1.5" x2="20"/>
-        <line x1="16" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-18" end2="none" y2="-10" end1="none" length2="1.5" x2="16"/>
-        <terminal orientation="n" name="" type="Generic" x="0" y="-40" uuid="{f26571d0-a7f3-4dcb-a89d-2a13f7047710}"/>
-        <terminal orientation="s" name="" type="Generic" x="0" y="0" uuid="{12de7799-edb2-41c7-b162-9e22a3067c84}"/>
+        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
+        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
+        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
+        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
+        <line end1="none" end2="none" x1="16" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="16" y2="-22" antialias="false"/>
+        <line end1="none" end2="none" x1="12" y1="-22" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-22" antialias="false"/>
+        <line end1="none" end2="none" x1="12" y1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-18" antialias="false"/>
+        <line end1="none" end2="none" x1="16" y1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="16" y2="-10" antialias="false"/>
+        <terminal orientation="n" y="-40" x="0"/>
+        <terminal orientation="s" y="0" x="0"/>
     </description>
 </definition>

@@ -1,31 +1,27 @@
-<definition hotspot_x="24" type="element" hotspot_y="20" height="40" version="0.100.0" width="50" link_type="simple">
-    <uuid uuid="{bf669df0-1b50-455e-b14f-fbc8c6106300}"/>
+<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
+    <uuid uuid="{6e734340-3c48-4415-84d3-8572379da228}"/>
     <names>
-        <name lang="el">Παλινδρομική αντλία</name>
         <name lang="cs">Tlakové čerpadlo</name>
         <name lang="it">Pompa a pistone</name>
-        <name lang="en">Reciprocating pump</name>
         <name lang="pl">Pompa tłokowa</name>
-        <name lang="fr">Pompe alternative</name>
+        <name lang="en">Reciprocating pump</name>
         <name lang="nl">Zuigerpomp</name>
         <name lang="ar">مضخّة متناوبة</name>
+        <name lang="fr">Pompe alternative</name>
+        <name lang="el">Παλινδρομική αντλία</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="0.05" rotation="0" x="-7" z="1" frame="false" Valignment="AlignTop" uuid="{cb374f67-67ea-4c63-a4db-7363195e7def}" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle y="-15" antialias="true" diameter="30" x="-15" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
-        <line x1="15" y1="0" y2="15" x2="0" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <line x1="15" y1="0" y2="-15" x2="0" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <line x1="-4" y1="0" y2="0" x2="5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <line x1="-5" y1="-5" y2="5" x2="-5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <line x1="-15" y1="0" y2="0" x2="-16" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <line x1="15" y1="0" y2="0" x2="16" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" length1="1.5"/>
-        <terminal type="Generic" y="0" x="16" orientation="e" uuid="{b7d8c731-ccb4-4390-b247-6d95b1492c47}" name=""/>
-        <terminal type="Generic" y="0" x="-16" orientation="w" uuid="{70d6076c-abe1-4a6d-b3ff-24d2e85c52a4}" name=""/>
+        <input tagg="label" rotate="true" size="9" y="12.55" x="-7" text="_"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-4" x2="5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="-5" x2="-5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
+        <terminal y="0" x="16" orientation="e"/>
+        <terminal y="0" x="-16" orientation="w"/>
     </description>
 </definition>

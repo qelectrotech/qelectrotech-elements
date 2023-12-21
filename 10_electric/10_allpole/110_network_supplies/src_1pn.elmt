@@ -1,33 +1,29 @@
-<definition link_type="simple" height="40" type="element" hotspot_x="15" hotspot_y="20" version="0.100.0" width="30">
-    <uuid uuid="{a8a97fca-6255-44e1-8e46-23b8c190b322}"/>
+<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="40" hotspot_y="20" type="element">
+    <uuid uuid="{457a0c01-871c-40fd-83d7-14033333fb95}"/>
     <names>
-        <name lang="hu">F + N</name>
-        <name lang="cs">Přípojnice 1f+N</name>
-        <name lang="ru">Однополюсный + нейтраль</name>
+        <name lang="pt">Fonte unipolar + neutro</name>
         <name lang="es">Fuente unipolo + neutro</name>
-        <name lang="fr">Source unipolaire + neutre</name>
-        <name lang="de">Wechselstrom L + N</name>
         <name lang="nl">Wisselspanning L + nul N</name>
+        <name lang="el">Μονοφασικό + Ουδέτερος</name>
+        <name lang="de">Wechselstrom L + N</name>
+        <name lang="cs">Přípojnice 1f+N</name>
         <name lang="pl">Linia jednofazowa (dwuprzewodowa)</name>
+        <name lang="it">Sorgente unipolare + neutro</name>
         <name lang="ar">مصدر وحيد القطبية + محايد N</name>
         <name lang="en">Single-pole source + neutral</name>
-        <name lang="it">Sorgente unipolare + neutro</name>
-        <name lang="pt">Fonte unipolar + neutro</name>
-        <name lang="el">Μονοφασικό + Ουδέτερος</name>
+        <name lang="fr">Source unipolaire + neutre</name>
+        <name lang="ru">Однополюсный + нейтраль</name>
+	    <name lang="hu">F + N</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-5" text_width="-1" z="1" uuid="{0a1043f1-e682-4843-a14a-01333ab316b2}" y="-37.95" frame="false" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" x2="10" y1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-10" x1="0" end2="none" end1="none"/>
-        <line length2="1.5" x2="10" y1="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="10" x1="0" end2="none" end1="none"/>
-        <text x="-12" y="13" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" text="N" color="#000000"/>
-        <text x="-12" y="-7" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" text="L" color="#000000"/>
-        <terminal x="10" uuid="{f71725c8-284f-405b-be8a-89c2fc3c9eb2}" type="Generic" y="-10" name="" orientation="e"/>
-        <terminal x="10" uuid="{dedf7b65-9408-4a4a-850e-3796bf67eeb3}" type="Generic" y="10" name="" orientation="e"/>
+        <input x="-5" y="-25.45" tagg="label" size="9" rotate="true" text="_"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
+        <text x="-12" y="13" size="5" text="N"/>
+        <text x="-12" y="-7" size="5" text="L"/>
+        <terminal x="10" y="-10" orientation="e"/>
+        <terminal x="10" y="10" orientation="e"/>
     </description>
 </definition>

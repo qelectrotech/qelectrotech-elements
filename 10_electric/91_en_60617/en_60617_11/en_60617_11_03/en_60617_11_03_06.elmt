@@ -1,22 +1,18 @@
-<definition type="element" version="0.100.0" width="150" height="50" hotspot_x="144" link_type="simple" hotspot_y="25">
-    <uuid uuid="{2662b517-4db1-40fd-b4e5-5b20d817629b}"/>
+<definition type="element" width="150" version="0.70" hotspot_y="25" height="50" link_type="simple" hotspot_x="144">
+    <uuid uuid="{168f9d01-03f3-436a-a9f0-01b2eae39b74}"/>
     <names>
-        <name lang="en">Line passing through an access chamber</name>
         <name lang="fr">Ligne passant à travers une chambre d'accès</name>
         <name lang="de">Leiter der einen Einstiegschacht kreuzt</name>
         <name lang="cs">Vedení procházející vstupní komorou</name>
+        <name lang="en">Line passing through an access chamber</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" text_from="ElementInfo" rotation="0" z="1" x="5" text_width="-1" uuid="{c0703c85-490c-4412-bb6f-525366e7506d}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end2="none" y1="0" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="-140" end1="none" y2="0" length1="1.5"/>
-        <rect y="-20" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="40" x="-90" ry="0"/>
-        <terminal y="0" type="Generic" orientation="e" x="0" uuid="{6a7d4ac3-2a89-4635-b5f3-1375d3b7159d}" name=""/>
-        <terminal y="0" type="Generic" orientation="w" x="-140" uuid="{081a88cf-17ad-447e-9073-527eb8aef73e}" name=""/>
+        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
+        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
+        <rect antialias="false" width="40" x="-90" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20"/>
+        <terminal x="0" orientation="e" y="0"/>
+        <terminal x="-140" orientation="w" y="0"/>
     </description>
 </definition>

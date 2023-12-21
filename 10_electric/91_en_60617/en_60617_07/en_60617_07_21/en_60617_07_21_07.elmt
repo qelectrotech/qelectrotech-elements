@@ -1,27 +1,23 @@
-<definition height="70" width="20" type="element" link_type="simple" version="0.100.0" hotspot_x="12" hotspot_y="34">
-    <uuid uuid="{c90ccc5f-8776-4096-8147-3966a025eb85}"/>
+<definition type="element" width="20" height="70" hotspot_y="34" hotspot_x="12" version="0.70" link_type="simple">
+    <uuid uuid="{d9b28d5b-a892-4820-9224-551cd22d63a9}"/>
     <names>
-        <name lang="cs">Pojistkový spínač</name>
         <name lang="de">Sicherungsschalter</name>
-        <name lang="en">Fuse-switch</name>
         <name lang="fr">Fusible interrupteur</name>
+        <name lang="cs">Pojistkový spínač</name>
+        <name lang="en">Fuse-switch</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" z="1" y="12.5" Halignment="AlignLeft" text_from="ElementInfo" uuid="{7334c467-bc71-4d34-8672-bdb1c102529b}" rotation="0" text_width="-1" frame="false" x="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" end2="none" y2="10" y1="30" length1="1.5" end1="none" x1="0" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="-10" y1="10" length1="1.5" end1="none" x1="0" x2="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="-30" y1="-10" length1="1.5" end1="none" x1="0" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="-5" y1="6" length1="1.5" end1="none" x1="-3" x2="-6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="5" y1="-6" length1="1.5" end1="none" x1="-2" x2="1" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="6" y1="5" length1="1.5" end1="none" x1="1" x2="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" y2="-5" y1="-6" length1="1.5" end1="none" x1="-2" x2="-6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="n" y="-30" type="Generic" uuid="{e98b177a-ff10-4482-b7a2-8c70af971016}" name="" x="0"/>
-        <terminal orientation="s" y="30" type="Generic" uuid="{ccf31a28-b1cf-41c2-a0fe-748462c57cc2}" name="" x="0"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="10" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-30" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-3" y1="6" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-2" y1="-6" x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="5" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="1" y1="5" x2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="-2" y1="-6" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="n" y="-30" x="0"/>
+        <terminal orientation="s" y="30" x="0"/>
     </description>
 </definition>

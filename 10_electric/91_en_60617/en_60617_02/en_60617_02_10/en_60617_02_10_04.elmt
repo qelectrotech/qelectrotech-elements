@@ -1,22 +1,18 @@
-<definition hotspot_x="14" type="element" width="30" link_type="simple" height="30" hotspot_y="14" version="0.100.0">
-    <uuid uuid="{a28628bd-697c-4613-89b5-bcb323a5ad33}"/>
+<definition hotspot_x="14" version="0.70" height="30" hotspot_y="14" width="30" type="element" link_type="simple">
+    <uuid uuid="{bc6e4879-01cd-491a-8dd5-a025c953247e}"/>
     <names>
         <name lang="fr">Fonction échelon positive</name>
-        <name lang="de">positive Schrittfunktion</name>
-        <name lang="en">Step function, positive going</name>
         <name lang="es">Función de paso positivo</name>
+        <name lang="de">positive Schrittfunktion</name>
         <name lang="cs">Kladná stupňovitá funkce</name>
+        <name lang="en">Step function, positive going</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" x="5" text_from="ElementInfo" frame="false" uuid="{f16386ef-c81c-41e7-84b6-92da30056d87}" z="1" rotation="0" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" x4="10" y1="10" y2="10" x1="-10" x2="0" x3="0" y4="-10" antialias="false" closed="false"/>
-        <terminal type="Generic" x="10" orientation="e" uuid="{a0c0208f-9e37-46a1-9c78-6a9b4b13a67c}" y="-10" name=""/>
-        <terminal type="Generic" x="-10" orientation="w" uuid="{e14528fa-25ff-40df-b156-4e0721a82a0d}" y="10" name=""/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <polygon x2="0" y2="10" y1="10" x3="0" x4="10" y4="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-10" x1="-10"/>
+        <terminal y="-10" x="10" orientation="e"/>
+        <terminal y="10" x="-10" orientation="w"/>
     </description>
 </definition>

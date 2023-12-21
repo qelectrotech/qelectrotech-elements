@@ -1,22 +1,18 @@
-<definition height="50" link_type="simple" version="0.100.0" width="40" hotspot_x="25" hotspot_y="47" type="element">
-    <uuid uuid="{5a09b526-ab0f-4f0b-b3b3-c96ca6e5da6b}"/>
+<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="25" width="40" hotspot_y="47">
+    <uuid uuid="{4748215c-c7b9-4d2e-b47a-e03be9d2e6a2}"/>
     <names>
-        <name lang="cs">Spínač se světelnou signalizací</name>
         <name lang="de">Schalter mit Kontrolleuchte</name>
-        <name lang="en">Switch with pilot light</name>
         <name lang="fr">Interrupteur à lampe témoin</name>
+        <name lang="cs">Spínač se světelnou signalizací</name>
+        <name lang="en">Switch with pilot light</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{0609929f-a0f1-405e-b3cb-3b354bd3d3ac}" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" x="5" z="1" y="12.5" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle x="-20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="20"/>
-        <line x2="-3" end2="none" y1="-17" length1="1.5" end1="none" length2="1.5" x1="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-3"/>
-        <line x2="-3" end2="none" y1="-3" length1="1.5" end1="none" length2="1.5" x1="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-17"/>
-        <line x2="-5" end2="none" y1="-45" length1="1.5" end1="none" length2="1.5" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-19"/>
+        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
+        <circle y="-20" antialias="false" x="-20" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-17" y2="-3" x2="-3" length2="1.5" antialias="false" x1="-17" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-3" y2="-17" x2="-3" length2="1.5" antialias="false" x1="-17" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-45" y2="-19" x2="-5" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

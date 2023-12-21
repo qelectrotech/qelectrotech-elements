@@ -1,24 +1,20 @@
-<definition width="20" hotspot_x="6" version="0.100.0" type="element" hotspot_y="44" height="70" link_type="simple">
-    <uuid uuid="{62cef4f1-7b39-49b4-9833-fbe6a8309244}"/>
+<definition width="20" type="element" height="70" hotspot_x="6" version="0.70" hotspot_y="44" link_type="simple">
+    <uuid uuid="{f2bdbfc6-2f7f-4082-a79b-f11dcadf815f}"/>
     <names>
         <name lang="fr">Interrupteurs fonctionnement sous l'effet de la température</name>
         <name lang="de">Temperaturabhängige Schalter</name>
         <name lang="cs">Spínač citlivý na teplotu, vypínací kontakt</name>
         <name lang="en">Temperature sensitive switch, break contact</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" y1="-20" x1="0" y2="-40"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" y1="0" x1="0" y2="20"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" x2="8" length1="1.5" end2="none" length2="1.5" y1="0" x1="0" y2="-23"/>
-        <dynamic_text y="12.5" frame="false" Halignment="AlignLeft" rotation="0" x="5" keep_visual_rotation="false" z="4" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{88966efa-5c11-402e-8d46-933b18bd50cd}" text_from="ElementInfo" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" x2="10" length1="1.5" end2="none" length2="1.5" y1="-20" x1="0" y2="-20"/>
-        <terminal y="-40" x="0" type="Generic" uuid="{ad0724b4-52c1-472b-8075-5bec39b9e335}" name="" orientation="n"/>
-        <terminal y="20" x="0" type="Generic" uuid="{937cafb9-0ab2-44c1-9c2e-4f9074d7f138}" name="" orientation="s"/>
+        <line length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" y2="-40" length2="1.5" x1="0" y1="-20" end2="none"/>
+        <line length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" y2="20" length2="1.5" x1="0" y1="0" end2="none"/>
+        <line length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="8" end1="none" y2="-23" length2="1.5" x1="0" y1="0" end2="none"/>
+        <input tagg="label" text="_" x="5" y="25" rotate="true" size="9"/>
+        <line length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" end1="none" y2="-20" length2="1.5" x1="0" y1="-20" end2="none"/>
+        <terminal orientation="n" x="0" y="-40"/>
+        <terminal orientation="s" x="0" y="20"/>
     </description>
 </definition>

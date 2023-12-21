@@ -1,38 +1,34 @@
-<definition type="element" version="0.100.0" link_type="simple" hotspot_y="21" width="60" height="40" hotspot_x="30">
-    <uuid uuid="{0be6b14f-a79b-415f-90dd-46400e160b8f}"/>
+<definition width="60" hotspot_x="30" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
+    <uuid uuid="{afcd91cd-7f6a-46f7-bce6-3699f153c78a}"/>
     <names>
+        <name lang="cs">Zpětný tok</name>
         <name lang="pl">Zawór odcinający powrót CWU</name>
-        <name lang="ar">صمّام منع تسريب</name>
+        <name lang="it">Riflusso</name>
         <name lang="en">Backflow</name>
         <name lang="nl">Terugstroombeveiliging</name>
+        <name lang="ar">صمّام منع تسريب</name>
         <name lang="fr">Disconnecteur</name>
-        <name lang="cs">Zpětný tok</name>
         <name lang="es">Desconectador</name>
-        <name lang="it">Riflusso</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="11" end2="none" antialias="false" x2="0" x1="0" y1="0" end1="none"/>
-        <dynamic_text frame="false" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" x="-6" y="-35" uuid="{c6ac337e-7b33-44e6-ad18-ffc358eb4149}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" Valignment="AlignTop" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" antialias="false" x2="5" x1="-5" y1="0" end1="none"/>
-        <polygon x3="-6" y3="0" y4="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x4="-17" antialias="true" x2="-17" x1="-17" y1="-7"/>
-        <rect style="line-style:normal;line-weight:thin;filling:none;color:black" width="50" x="-25" y="-15" antialias="false" ry="0" rx="0" height="30"/>
-        <text text="disconnecteur" color="#000000" x="-18" y="-9" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <circle diameter="2" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-23" y="-1" antialias="true"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" antialias="false" x2="-21" x1="-18" y1="0" end1="none"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" antialias="false" x2="22" x1="18" y1="0" end1="none"/>
-        <circle diameter="2" style="line-style:normal;line-weight:thin;filling:none;color:black" x="22" y="-1" antialias="true"/>
-        <circle diameter="2" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-1" y="11" antialias="true"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="1" x="16" y="-7" antialias="false" ry="0" rx="0" height="14"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="1" x="-6" y="-7" antialias="false" ry="0" rx="0" height="14"/>
-        <polygon x3="16" y3="0" y4="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x4="5" antialias="true" x2="5" x1="5" y1="-7"/>
-        <terminal type="Generic" orientation="e" x="23" y="0" uuid="{764a7edd-8d5b-4d88-ab55-ef59f1c2777c}" name=""/>
-        <terminal type="Generic" orientation="w" x="-22" y="0" uuid="{ddbd160e-9060-45d4-955a-8d353fe2e9ee}" name=""/>
-        <terminal type="Generic" orientation="s" x="0" y="12" uuid="{58f4dd31-b746-4871-b0bc-265e1cb5c6d9}" name=""/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="11" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="0" x2="0"/>
+        <input tagg="label" rotate="true" size="9" y="-22.5" x="-6" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-5" x2="5"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x4="-17" antialias="true" y1="-7" x1="-17" x3="-6" y3="0" y4="-7" x2="-17"/>
+        <rect width="50" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" y="-15" x="-25" height="30"/>
+        <text size="4" y="-9" x="-18" text="disconnecteur"/>
+        <circle style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" diameter="2" y="-1" x="-23"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-18" x2="-21"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="18" x2="22"/>
+        <circle style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" diameter="2" y="-1" x="22"/>
+        <circle style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" diameter="2" y="11" x="-1"/>
+        <rect width="1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-7" x="16" height="14"/>
+        <rect width="1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-7" x="-6" height="14"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x4="5" antialias="true" y1="-7" x1="5" x3="16" y3="0" y4="-7" x2="5"/>
+        <terminal y="0" x="23" orientation="e"/>
+        <terminal y="0" x="-22" orientation="w"/>
+        <terminal y="12" x="0" orientation="s"/>
     </description>
 </definition>

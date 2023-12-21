@@ -1,23 +1,19 @@
-<definition width="80" type="element" link_type="simple" hotspot_x="13" version="0.100.0" hotspot_y="10" height="20">
-    <uuid uuid="{61397505-2872-41cd-aefc-072f2145c2e9}"/>
+<definition version="0.70" width="70" type="element" hotspot_y="10" link_type="simple" hotspot_x="10" height="20">
+    <uuid uuid="{97725efd-2760-477f-88e1-21d0ecbaa24d}"/>
     <names>
-        <name lang="cs">Střídavý proud 100 až 600kHz</name>
         <name lang="fr">Courant alternatif</name>
-        <name lang="es">Corriente alterna 100 a 600khz</name>
-        <name lang="en">Alternating current (indication of frequency range)</name>
         <name lang="de">Wechselstrom und Spannung</name>
+        <name lang="es">Corriente alterna 100 a 600khz</name>
+        <name lang="cs">Střídavý proud 100 až 600kHz</name>
+        <name lang="en">Alternating current (indication of frequency range)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc angle="124" y="-2.5" width="7" antialias="true" start="56" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" x="-7.5"/>
-        <arc angle="124" y="-2.5" width="7" antialias="true" start="234" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" x="0.5"/>
-        <line length1="1.5" y1="-2" length2="1.5" antialias="false" x2="2" y2="2" end2="none" x1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text z="4" keep_visual_rotation="false" y="2.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" text_from="ElementInfo" uuid="{9ba3455c-6a30-47f3-ad0c-1e160d9ef384}" frame="false" x="5" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text y="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="100...600 kHz" rotation="0" color="#000000" x="10"/>
+        <arc angle="124" width="7" x="-7.5" start="56" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <arc angle="124" width="7" x="0.5" start="234" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <line x2="2" y2="2" length2="1.5" length1="1.5" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-2" end2="none" antialias="false"/>
+        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
+        <text x="10" text="100...600 kHz" size="6" y="3"/>
     </description>
 </definition>

@@ -1,28 +1,23 @@
-<definition hotspot_x="15" link_type="simple" hotspot_y="15" version="0.100.0" type="element" width="50" height="30">
-    <uuid uuid="{ecaa7a37-2663-4bb2-b4e7-4360cdb86beb}"/>
-    <names>
-        <name lang="cs">Detektor rozbití okna</name>
+<definition link_type="simple" hotspot_x="15" hotspot_y="15" type="element" height="30" width="50" version="0.5">
+<uuid uuid="{7A06D59C-F949-4729-9487-9AAB7BF6A4F5}"/><names>
         <name lang="el">Ανιχνευτής θραύσης κρυστάλων</name>
-        <name lang="pl">Czujnik zbicia szyby</name>
-        <name lang="fr">Détecteur de bris de vitre</name>
-        <name lang="it">Rilevatore rottura vetri</name>
         <name lang="en">Glass break detector</name>
+        <name lang="fr">Détecteur de bris de vitre</name>
         <name lang="de">Glasbruchdetektor</name>
+        <name lang="pl">Czujnik zbicia szyby</name>
+        <name lang="it">Rilevatore rottura vetri</name>
+        <name lang="cs">Detektor rozbití okna</name>
     </names>
-    <elementInformations/>
     <informations></informations>
     <description>
-        <arc angle="90" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" width="20" start="180" y="-10" height="20"/>
-        <arc angle="90" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" width="20" start="90" y="-10" height="20"/>
-        <arc angle="90" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" width="20" start="0" y="-10" height="20"/>
-        <arc angle="90" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" width="20" start="270" y="-10" height="20"/>
-        <line y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y1="-10" x1="-10" x2="-10" length1="1.5" end1="none"/>
-        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y1="0" x1="10" x2="20" length1="1.5" end1="none"/>
-        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y1="0" x1="20" x2="30" length1="1.5" end1="none"/>
-        <dynamic_text z="8" x="-45" text_width="-1" frame="false" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{71f31ab2-33b2-4da5-8e1a-f61513553c48}" Valignment="AlignTop" rotation="0" y="-13">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="20" name="" type="Generic" uuid="{7ae4fb75-3c83-4316-9173-c87037eed261}" y="0" orientation="e"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" height="20" start="180" width="20" angle="90"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" height="20" start="90" width="20" angle="90"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" height="20" start="0" width="20" angle="90"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" height="20" start="270" width="20" angle="90"/>
+        <line y1="-10" y2="10" x1="-10" antialias="false" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" length2="1.5"/>
+        <line y1="0" y2="0" x1="10" antialias="false" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" length2="1.5"/>
+        <line y1="0" y2="0" x1="20" antialias="false" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none" length2="1.5"/>
+        <input text="BV" x="-45" tagg="label" y="-0.5" rotate="true" size="9"/>
+        <terminal x="20" orientation="e" y="0"/>
     </description>
 </definition>

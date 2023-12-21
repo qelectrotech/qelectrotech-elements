@@ -1,23 +1,18 @@
-<definition hotspot_x="13" type="element" hotspot_y="7" version="0.100.0" width="20" link_type="next_report" height="20">
-    <uuid uuid="{085c47d8-6664-46e4-b0b9-63ce29d03ec6}"/>
-    <names>
-        <name lang="en">Reference contact NO h</name>
-        <name lang="fr">Reference contact NO h</name>
-        <name lang="it">Rif. contatto NO _ (orizzontale)</name>
-        <name lang="cs">Odkaz_1 - kontakt NO (vodorovně)</name>
-        <name lang="pl">Odsyłacz 1 (poziomo)</name>
-        <name lang="nl">Referentie volgend contact (NO)</name>
+<definition width="30" version="0.3" hotspot_x="12" hotspot_y="11" height="30" type="element" ic="true" link_type="next_report">
+<uuid uuid="{A35E7F01-14BD-48E7-83F5-B610AB4C69C5}"/><names>
         <name lang="ar">مرجع مُلامس NO (أفقي)</name>
-        <name lang="de">Schließer-Kontakt (NO) horizontal</name>
+        <name lang="en">Reference contact NO h</name>
+        <name lang="it">Rif. contatto NO _ (orizzontale)</name>
+        <name lang="fr">Reference contact NO h</name>
+        <name lang="pl">Odsyłacz 1 (poziomo)</name>
+        <name lang="cs">Odkaz_1 - kontakt NO (vodorovně)</name>
+        <name lang="nl">Referentie volgend contact (NO)</name>
     </names>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-8" y2="5" x2="0" closed="false" y3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y1="7" x3="3"/>
-        <line x1="-10" y2="5" x2="-8" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="5" end1="none" length2="1.5" length1="1.5"/>
-        <dynamic_text Halignment="AlignLeft" y="-5" font="Sans Serif,5,-1,5,50,0,0,0,0,0" z="3" rotation="0" frame="false" text_from="ElementInfo" x="2" text_width="-1" uuid="{942b8008-3b20-4299-9194-0d08a1666e43}" keep_visual_rotation="false" Valignment="AlignTop">
-            <text>/</text>
-            <info_name>label</info_name>
-        </dynamic_text>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="7" x1="-8" y2="5" x2="0" y3="5" x3="3"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="-10" y2="5" x2="-8"/>
+        <input x="2" y="4.5" size="5" rotate="true" text="_" tagg="label"/>
     </description>
 </definition>

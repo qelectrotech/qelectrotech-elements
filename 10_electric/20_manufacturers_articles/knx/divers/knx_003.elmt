@@ -1,38 +1,34 @@
-<definition type="element" hotspot_y="19" height="40" link_type="simple" width="40" hotspot_x="14" version="0.100.0">
-    <uuid uuid="{95666c41-9657-4f4d-acd5-5cf4beff9760}"/>
+<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="40" hotspot_x="14">
+    <uuid uuid="{8cf9d0a5-6343-4ab6-85d2-a1172c196959}"/>
     <names>
-        <name lang="en">Power supply</name>
-        <name lang="cs">Napájení</name>
         <name lang="it">Alimentatore</name>
         <name lang="fr">Alimentation</name>
-        <name lang="pl">Zasilacz</name>
-        <name lang="es">Fuente de alimentación</name>
         <name lang="nl">Voeding</name>
+        <name lang="pl">Zasilacz</name>
+        <name lang="en">Power supply</name>
+        <name lang="es">Fuente de alimentación</name>
         <name lang="el">Τροφοδοτικό</name>
+        <name lang="cs">Napájení</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect y="-15" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" width="30" antialias="false" ry="0" rx="0"/>
-        <arc y="-11.5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-0.5" width="5" antialias="true" start="0" angle="-180"/>
-        <line end1="none" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" y2="-15" end2="none" x2="20" length2="1.5" length1="1.5" antialias="true"/>
-        <line end1="none" y1="8" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="6" y2="8" end2="none" x2="16" length2="1.5" length1="1.5" antialias="false"/>
-        <line end1="none" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="6" y2="10" end2="none" x2="16" length2="1.5" length1="1.5" antialias="false"/>
-        <arc y="-11.5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5.5" width="5" antialias="true" start="-180" angle="-180"/>
-        <dynamic_text text_width="-1" y="-38.5" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" x="-14" z="7" uuid="{9b7da06a-b9ee-4280-8092-70f41489ffec}" frame="false" Halignment="AlignLeft" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal y="10" type="Generic" x="-10" uuid="{bb1696d2-74c6-451d-bacb-c66b277b6790}" orientation="w" name=""/>
-        <terminal y="15" type="Generic" x="0" uuid="{c75ce587-a254-4787-9551-2e60a7f7549a}" orientation="s" name=""/>
-        <terminal y="-15" type="Generic" x="10" uuid="{5f77b83e-6121-4590-be63-fa8dc1d293e4}" orientation="n" name=""/>
-        <terminal y="-15" type="Generic" x="0" uuid="{2de2a863-8752-40e0-9d9d-2e5faa5ae5ba}" orientation="n" name=""/>
-        <terminal y="15" type="Generic" x="10" uuid="{f82abcd8-6631-4785-90fe-2475b872ddd4}" orientation="s" name=""/>
-        <terminal y="0" type="Generic" x="-10" uuid="{d1d2f31f-a6c2-4fae-af31-15e15ee27ae2}" orientation="w" name=""/>
-        <terminal y="-10" type="Generic" x="-10" uuid="{4ce93e47-dcc8-4284-801b-eecd5cfa75a2}" orientation="w" name=""/>
-        <terminal y="0" type="Generic" x="20" uuid="{19ade1c8-f4a1-4ef3-934c-6b1f1281bd90}" orientation="e" name=""/>
-        <terminal y="10" type="Generic" x="20" uuid="{460234bd-6173-4c1c-ad42-67918214f8a8}" orientation="e" name=""/>
-        <terminal y="-10" type="Generic" x="20" uuid="{e34bc09b-2847-43c9-a1f9-a2ce9e06ac34}" orientation="e" name=""/>
+        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
+        <arc height="5" y="-11.5" x="-0.5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180" antialias="true" width="5"/>
+        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="true" y2="-15"/>
+        <line x1="6" y1="8" end1="none" x2="16" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="8"/>
+        <line x1="6" y1="10" end1="none" x2="16" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="10"/>
+        <arc height="5" y="-11.5" x="-5.5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180" antialias="true" width="5"/>
+        <input rotate="true" y="-26" size="9" tagg="label" x="-14" text="_"/>
+        <terminal y="10" x="-10" orientation="w"/>
+        <terminal y="15" x="0" orientation="s"/>
+        <terminal y="-15" x="10" orientation="n"/>
+        <terminal y="-15" x="0" orientation="n"/>
+        <terminal y="15" x="10" orientation="s"/>
+        <terminal y="0" x="-10" orientation="w"/>
+        <terminal y="-10" x="-10" orientation="w"/>
+        <terminal y="0" x="20" orientation="e"/>
+        <terminal y="10" x="20" orientation="e"/>
+        <terminal y="-10" x="20" orientation="e"/>
     </description>
 </definition>

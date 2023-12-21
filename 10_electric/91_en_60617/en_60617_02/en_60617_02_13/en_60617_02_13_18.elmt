@@ -1,22 +1,18 @@
-<definition hotspot_x="29" version="0.100.0" hotspot_y="9" link_type="simple" type="element" width="40" height="20">
-    <uuid uuid="{37d08a1d-c366-4db0-8d73-d4a66540d4de}"/>
+<definition link_type="simple" type="element" width="40" hotspot_y="9" height="20" version="0.70" hotspot_x="29">
+    <uuid uuid="{f41816dd-02ab-4f5c-a6bb-2a8d734871a7}"/>
     <names>
+        <name lang="fr">Profil d'un dispositif linéaire</name>
+        <name lang="es">Perfil de un dispositivo lineal</name>
+        <name lang="de">Profilplatte</name>
         <name lang="cs">Profil vačky, rozvinutý</name>
         <name lang="en">Actuator (operated by cam/profile plate)</name>
-        <name lang="de">Profilplatte</name>
-        <name lang="es">Perfil de un dispositivo lineal</name>
-        <name lang="fr">Profil d'un dispositif linéaire</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text keep_visual_rotation="false" Halignment="AlignLeft" x="5" z="1" rotation="0" text_from="ElementInfo" uuid="{1d4a4f10-2634-425f-999c-3d972c5fe06a}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" y="2.5" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="6" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" y2="0" length1="1.5" x1="-21" length2="1.5" end1="none" end2="none" antialias="false"/>
-        <line x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" y2="3" length1="1.5" x1="-24" length2="1.5" end1="none" end2="none" antialias="false"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-21" diameter="4" y="3" antialias="false"/>
+        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
+        <line x2="6" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-21" y2="0" length2="1.5"/>
+        <line x2="-20" antialias="false" y1="-5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-24" y2="3" length2="1.5"/>
+        <circle antialias="false" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-21" y="3"/>
     </description>
 </definition>
