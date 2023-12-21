@@ -1,27 +1,23 @@
-<definition width="70" link_type="simple" height="70" hotspot_x="65" version="0.100.0" type="element" hotspot_y="65">
-    <uuid uuid="{2f1cf515-1420-43f9-9dcc-429c03104edd}"/>
+<definition hotspot_x="65" hotspot_y="65" height="70" link_type="simple" version="0.70" type="element" width="70">
+    <uuid uuid="{81368e50-1f41-4d30-8dd2-55c66cf7b7b1}"/>
     <names>
+        <name lang="de">Meßrelais zum Erkennen der Rotorblockierung</name>
+        <name lang="fr">Relais de mesure de détection de rotor bloqué</name>
         <name lang="cs">Relé ke zjištění zabrzděného rotoru
 na základě měření proudu</name>
-        <name lang="fr">Relais de mesure de détection de rotor bloqué</name>
         <name lang="en">Locked-rotor detection relay</name>
-        <name lang="de">Meßrelais zum Erkennen der Rotorblockierung</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" frame="false" x="5" uuid="{9386c954-d7ad-40a8-932c-4a94fe2e52ea}" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc y="-43.5" width="5" height="3" angle="180" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-31.5"/>
-        <rect y="-60" width="60" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-60"/>
-        <arc y="-43.5" width="5" height="3" angle="-180" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-36.5"/>
-        <text y="-15" rotation="0" text="I >" x="-39" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <text y="-41" rotation="0" text="n" x="-48" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <text y="-41" rotation="0" text="0" x="-19" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <arc y="-46.5" width="5" height="3" angle="180" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-31.5"/>
-        <arc y="-46.5" width="5" height="3" angle="-180" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-36.5"/>
+        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
+        <arc y="-43.5" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" x="-31.5" width="5" antialias="true" start="0"/>
+        <rect y="-60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="60" antialias="false"/>
+        <arc y="-43.5" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" x="-36.5" width="5" antialias="true" start="0"/>
+        <text y="-15" size="9" text="I &gt;" x="-39"/>
+        <text y="-41" size="9" text="n" x="-48"/>
+        <text y="-41" size="9" text="0" x="-19"/>
+        <arc y="-46.5" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" x="-31.5" width="5" antialias="true" start="0"/>
+        <arc y="-46.5" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" x="-36.5" width="5" antialias="true" start="0"/>
     </description>
 </definition>

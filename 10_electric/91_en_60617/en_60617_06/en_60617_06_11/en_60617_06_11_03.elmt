@@ -1,33 +1,29 @@
-<definition hotspot_x="80" hotspot_y="145" type="element" link_type="simple" version="0.100.0" height="180" width="110">
-    <uuid uuid="{d765fb8f-8c31-409e-a981-36277805fa59}"/>
+<definition link_type="simple" type="element" hotspot_x="81" height="180" width="110" hotspot_y="144" version="0.70">
+    <uuid uuid="{74c2ea8f-af3a-4d62-985f-f84eda79df74}"/>
     <names>
         <name lang="de">Drehstrom-Spartransformator, Sternschaltung</name>
-        <name lang="en">Auto-transformer, three-phase, connection star</name>
         <name lang="fr">Autotransformateur, triphasé, couplage étoile</name>
         <name lang="cs">Třífázový autotransformátor do hvězdy</name>
+        <name lang="en">Auto-transformer, three-phase, connection star</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" x="5" uuid="{57456f12-2822-4c24-b678-c969de2107ca}" keep_visual_rotation="false" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="12.5" rotation="0" text_width="-1" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" diameter="60"/>
-        <line length1="1.5" x1="-30" x2="-30" antialias="false" y1="-115" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-90" end2="none"/>
-        <text x="-74" text="Form 1 / Forme 1" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-125" rotation="0"/>
-        <line length1="1.5" x1="-30" x2="-30" antialias="false" y1="0" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" end2="none"/>
-        <arc angle="90" x="-60" antialias="true" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-90" height="120" width="60"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="-100" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-105" end2="none"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="-105" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-110" end2="none"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="20" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" end2="none"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="15" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none"/>
-        <line length1="1.5" x1="-30" x2="-30" antialias="false" y1="-20" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" end2="none"/>
-        <line length1="1.5" x1="-30" x2="-20" antialias="false" y1="-30" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-35" end2="none"/>
-        <line length1="1.5" x1="-30" x2="-40" antialias="false" y1="-30" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-35" end2="none"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="-95" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-100" end2="none"/>
-        <line length1="1.5" x1="-40" x2="-20" antialias="false" y1="25" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" end2="none"/>
-        <terminal x="-30" uuid="{15dcf686-e079-4f5d-b8fa-50b60cffff49}" name="" type="Generic" y="-115" orientation="n"/>
+        <input rotate="true" y="25" x="5" size="9" text="_" tagg="label"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" x="-60" diameter="60"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-90" y1="-115" x2="-30"/>
+        <text y="-125" x="-74" size="9" text="Form 1 / Forme 1"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="30" y1="0" x2="-30"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" height="120" y="-90" width="60" angle="90" x="-60" start="0"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-105" y1="-100" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-110" y1="-105" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="15" y1="20" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="10" y1="15" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-30" y1="-20" x2="-30"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-35" y1="-30" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-35" y1="-30" x2="-40"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-100" y1="-95" x2="-20"/>
+        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="20" y1="25" x2="-20"/>
+        <terminal orientation="n" y="-115" x="-30"/>
     </description>
 </definition>

@@ -1,21 +1,17 @@
-<definition height="10" type="element" width="30" hotspot_y="5" hotspot_x="15" version="0.100.0" link_type="simple">
-    <uuid uuid="{80747dba-1345-42de-9bbd-64e88db7e428}"/>
+<definition type="element" width="30" height="10" version="0.70" hotspot_x="15" hotspot_y="5" link_type="simple">
+    <uuid uuid="{29d30dbf-6a4f-4c7e-bf34-d5a25e863322}"/>
     <names>
-        <name lang="en">Propagation; Flow (one way)</name>
         <name lang="fr">Propagation dans un seul sens Ecoulement dans un seul sens (énergie, signal, information)</name>
         <name lang="es">Propagación unidireccional Flujo unidireccional (energía, señal, información)</name>
         <name lang="de">Ausbreitung in einer Richtung (simplex) Fluß in einer Richtung (simplex) (Energie-, Signal-, Information-)</name>
         <name lang="cs">Šíření jednosměrné, tok jednosměrný ( energie, signál, informace)</name>
+        <name lang="en">Propagation; Flow (one way)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="simple" x2="0" end1="none" y1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" length1="1.5" y2="0" antialias="false"/>
-        <line end2="none" x2="10" end1="none" y1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" y2="0" antialias="false"/>
-        <dynamic_text rotation="0" keep_visual_rotation="false" x="5" text_from="ElementInfo" Halignment="AlignLeft" uuid="{d03f3ce8-4cdd-470c-a9d0-93fca99f5e91}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" frame="false" z="3" Valignment="AlignTop" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
+        <line antialias="false" x1="-10" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="0"/>
+        <line antialias="false" x1="0" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="10"/>
+        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
     </description>
 </definition>

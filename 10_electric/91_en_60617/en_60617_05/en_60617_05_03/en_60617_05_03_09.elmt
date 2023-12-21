@@ -1,26 +1,22 @@
-<definition type="element" height="50" version="0.100.0" hotspot_y="44" hotspot_x="25" link_type="simple" width="50">
-    <uuid uuid="{652d2b7d-7718-4745-a522-52201bb9845d}"/>
+<definition link_type="simple" version="0.70" hotspot_x="25" hotspot_y="44" type="element" height="50" width="50">
+    <uuid uuid="{8814eac4-906a-4c28-9fa0-5a974826c32e}"/>
     <names>
-        <name lang="en">Bidirectional diode</name>
-        <name lang="cs">Obousměrná dioda</name>
         <name lang="fr">Diode bidirectionelle</name>
         <name lang="de">bidirektionale Diode</name>
+        <name lang="cs">Obousměrná dioda</name>
+        <name lang="en">Bidirectional diode</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" x="5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" uuid="{7b4fd000-ac1c-4da9-bfa5-13fcea4788a2}" Halignment="AlignLeft" y="2.5" frame="false" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="0" y2="0" length1="1.5" length2="1.5" x1="0" y1="-10" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="10" y2="-10" length1="1.5" length2="1.5" x1="-20" y1="-10" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x2="0" y2="-30" x3="-10" y4="-30" x1="-20" y1="-30" closed="false" x4="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" antialias="false"/>
-        <polygon x2="10" y2="-30" x3="20" y4="-10" x1="0" y1="-10" closed="false" x4="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" antialias="false"/>
-        <line x2="0" y2="-40" length1="1.5" length2="1.5" x1="0" y1="-30" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="20" y2="-30" length1="1.5" length2="1.5" x1="0" y1="-30" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal type="Generic" name="" orientation="n" x="0" uuid="{724c35e0-d528-4855-a6bd-746f7bae04c6}" y="-40"/>
-        <terminal type="Generic" name="" orientation="s" x="0" uuid="{6ffb9c2b-a832-417c-84ac-a69125c2f9ef}" y="0"/>
+        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
+        <line end1="none" end2="none" x1="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
+        <line end1="none" end2="none" x1="-20" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
+        <polygon x4="-20" x1="-20" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="0" y2="-30" antialias="false" x3="-10" closed="false"/>
+        <polygon x4="0" x1="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-10" y3="-10" x2="10" y2="-30" antialias="false" x3="20" closed="false"/>
+        <line end1="none" end2="none" x1="0" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="-40" antialias="false"/>
+        <line end1="none" end2="none" x1="0" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-30" antialias="false"/>
+        <terminal orientation="n" y="-40" x="0"/>
+        <terminal orientation="s" y="0" x="0"/>
     </description>
 </definition>

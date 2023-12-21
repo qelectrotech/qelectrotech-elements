@@ -1,30 +1,25 @@
-<definition version="0.100.0" link_type="simple" height="50" hotspot_x="14" width="30" hotspot_y="24" type="element">
-    <uuid uuid="{c72305f5-76d0-46df-af11-ca8d21616133}"/>
-    <names>
-        <name lang="cs">Bipolární tranzistor NPN</name>
-        <name lang="it">Transistor bipolare NPN</name>
-        <name lang="fr">Transistor bipolaire npn</name>
-        <name lang="de">Bipolartransistor NPN</name>
-        <name lang="pl">Tranzystor biopolarny npn</name>
-        <name lang="nl">Transistor bipolare NPN</name>
+<definition width="50" version="0.3" hotspot_x="20" hotspot_y="25" height="50" type="element" orientation="dnny">
+<uuid uuid="{77C8E6F1-2CD9-463E-92FE-D7BF2F1490BB}"/><names>
         <name lang="ar">ترنزيستور ثنائي القطبيّة NPN</name>
         <name lang="en">Bipolar transistor npn</name>
+        <name lang="de">Bipolartransistor NPN</name>
+        <name lang="fr">Transistor bipolaire npn</name>
+        <name lang="pl">Tranzystor biopolarny npn</name>
+        <name lang="cs">Bipolární tranzistor NPN</name>
+        <name lang="it">Transistor bipolare NPN</name>
+        <name lang="nl">Transistor bipolare NPN</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:thin;filling:black;color:black" antialias="true" x4="10" y2="8" x3="5" y4="13" x1="10" y1="13" x2="8" y3="11"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="13" x3="10" x1="0" y1="3" closed="false" x2="10" y3="20"/>
-        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" y2="0" x1="0" y1="0" end1="none" length2="1.5" x2="-10"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-13" x3="10" x1="0" y1="-3" closed="false" x2="10" y3="-20"/>
-        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" y2="5" x1="0" y1="-5" end1="none" length2="1.5" x2="0"/>
-        <dynamic_text z="6" text_width="-1" keep_visual_rotation="false" uuid="{9d7126f1-a4ba-4f13-835a-ccf44fc8d593}" text_from="ElementInfo" y="-7.8334" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" frame="false" x="13" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal uuid="{f27ddde9-d685-4ea9-93ca-ab0529681986}" name="" y="-20" orientation="n" type="Generic" x="10"/>
-        <terminal uuid="{0b9041f2-1bc8-4651-a35d-733c2b5a3a94}" name="" y="20" orientation="s" type="Generic" x="10"/>
-        <terminal uuid="{f8419607-acf3-4cee-970a-0abcb9124355}" name="" y="0" orientation="w" type="Generic" x="-10"/>
+        <polygon x4="10" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="13" x1="10" y2="8" x2="8" y3="11" x3="5" y4="13"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="3" x1="0" y2="13" x2="10" y3="20" x3="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="0" y2="0" x2="-10"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-3" x1="0" y2="-13" x2="10" y3="-20" x3="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="0" y2="5" x2="0"/>
+        <input x="13" y="4.6666" size="9" text="_" tagg="label"/>
+        <terminal x="10" y="-20" orientation="n"/>
+        <terminal x="10" y="20" orientation="s"/>
+        <terminal x="-10" y="0" orientation="w"/>
     </description>
 </definition>

@@ -1,32 +1,28 @@
-<definition width="90" hotspot_y="54" link_type="simple" hotspot_x="62" version="0.100.0" height="80" type="element">
-    <uuid uuid="{64fb2e66-1cbc-4c40-8aab-e5cf530ee637}"/>
+<definition width="90" height="80" type="element" hotspot_x="62" version="0.70" link_type="simple" hotspot_y="53">
+    <uuid uuid="{343cb3bb-f91e-4d54-83d6-6058bba1c3f7}"/>
     <names>
-        <name lang="en">Pulse meter electrically reset to 0</name>
-        <name lang="cs">Počítač impulzů elektricky nastavený na 0</name>
-        <name lang="fr">Compteur d'impulsions électriques avec mise à
-0 électrique</name>
         <name lang="de">Impulszähler mit elektrischer Rückstellung auf
 Null</name>
+        <name lang="fr">Compteur d'impulsions électriques avec mise à
+0 électrique</name>
+        <name lang="cs">Počítač impulzů elektricky nastavený na 0</name>
+        <name lang="en">Pulse meter electrically reset to 0</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" uuid="{2c443ddf-b256-425e-aea1-a72a1ca801ad}" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" z="1" y="12.5" text_width="-1" text_from="ElementInfo" rotation="0" x="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="20" rx="0" y="-20" x="-20" height="20" ry="0"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-15" x="-15" diameter="10"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="40" rx="0" y="-20" x="-60" height="20" ry="0"/>
-        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x1="-40" y1="-40" x2="-40" end1="none" end2="none"/>
-        <line y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x1="-40" y1="0" x2="-40" end1="none" end2="none"/>
-        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x1="-10" y1="-40" x2="-10" end1="none" end2="none"/>
-        <line y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x1="-10" y1="0" x2="-10" end1="none" end2="none"/>
-        <line y2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x1="-5" y1="-40" x2="14" end1="none" end2="none"/>
-        <polygon y2="-42" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="8" y3="-40" y1="-40" x2="8" x4="8" x5="8" y4="-38" x3="16" y5="-40"/>
-        <text text="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-36" color="#000000" rotation="0" x="18"/>
-        <terminal uuid="{553976c0-ffe7-4bb1-8c65-dc35805b72b1}" name="" y="-40" x="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{5630d415-065d-4d7f-a3d6-e9e581661d41}" name="" y="20" x="-40" orientation="s" type="Generic"/>
+        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
+        <rect width="20" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
+        <circle diameter="10" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" antialias="false"/>
+        <rect width="40" height="20" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
+        <line y2="-20" length1="1.5" y1="-40" length2="1.5" x1="-40" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <line y2="20" length1="1.5" y1="0" length2="1.5" x1="-40" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <line y2="-20" length1="1.5" y1="-40" length2="1.5" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <line y2="20" length1="1.5" y1="0" length2="1.5" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <line y2="-40" length1="1.5" y1="-40" length2="1.5" x1="-5" x2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <polygon y3="-40" x4="8" y2="-42" y5="-40" y1="-40" x5="8" x1="8" x2="8" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-38" x3="16" antialias="false"/>
+        <text size="9" text="0" x="18" y="-36"/>
+        <terminal orientation="n" x="-40" y="-40"/>
+        <terminal orientation="s" x="-40" y="20"/>
     </description>
 </definition>

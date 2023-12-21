@@ -1,33 +1,29 @@
-<definition version="0.100.0" width="110" height="200" type="element" hotspot_y="181" hotspot_x="80" link_type="simple">
-    <uuid uuid="{53a65744-7c8c-4494-ae63-d263b49d86eb}"/>
+<definition link_type="simple" hotspot_x="81" hotspot_y="180" version="0.70" width="110" type="element" height="200">
+    <uuid uuid="{0cb19cd3-db58-49ad-8ba5-147d24c2e58f}"/>
     <names>
-        <name lang="cs">Transformátor s vývodem ze středu jednoho vinutí</name>
         <name lang="fr">Transformateur à prise médiane sur un
 enroulement</name>
         <name lang="de">Transformator mit Mittenanzapfung an einer
 Wicklung</name>
+        <name lang="cs">Transformátor s vývodem ze středu jednoho vinutí</name>
         <name lang="en">Transformer with centre tapping on one winding</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0" x="5" text_width="-1" uuid="{8d750c8a-435f-49dc-9344-b45887beb009}" y="12.5" z="1" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60" x="-60" antialias="false" y="-120"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-120" y1="-150" x2="-30" end1="none" antialias="false" x1="-30" length2="1.5" length1="1.5"/>
-        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="-74" y="-160" color="#000000" text="Form 1 / Forme 1"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60" x="-60" antialias="false" y="-80"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" y1="-20" x2="-30" end1="none" antialias="false" x1="-30" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-140" y1="-130" x2="-20" end1="none" antialias="false" x1="-40" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-145" y1="-135" x2="-20" end1="none" antialias="false" x1="-40" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y1="0" x2="-20" end1="none" antialias="false" x1="-40" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" y1="5" x2="-20" end1="none" antialias="false" x1="-40" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-90" y1="-80" x2="-30" end1="none" antialias="false" x1="-30" length2="1.5" length1="1.5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-90" y1="-90" x2="20" end1="none" antialias="false" x1="-30" length2="1.5" length1="1.5"/>
-        <terminal orientation="s" x="-30" uuid="{2ec6de1c-0423-4fbf-a771-ff11ca23c313}" y="10" name="" type="Generic"/>
-        <terminal orientation="n" x="-30" uuid="{7273706c-b505-4f23-9747-26fbfd9acf5e}" y="-150" name="" type="Generic"/>
+        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
+        <circle x="-60" y="-120" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-150" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-120" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text x="-74" y="-160" text="Form 1 / Forme 1" size="9"/>
+        <circle x="-60" y="-80" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-130" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-140" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-135" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-145" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="0" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="5" end1="none" length1="1.5" x1="-40" x2="-20" end2="none" antialias="false" y2="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-80" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-90" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-90" end1="none" length1="1.5" x1="-30" x2="20" end2="none" antialias="false" y2="-90" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="-30" orientation="s" y="10"/>
+        <terminal x="-30" orientation="n" y="-150"/>
     </description>
 </definition>

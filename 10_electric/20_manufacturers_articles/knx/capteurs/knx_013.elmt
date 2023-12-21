@@ -1,46 +1,38 @@
-<definition link_type="simple" version="0.100.0" height="40" type="element" width="50" hotspot_x="24" hotspot_y="19">
-    <uuid uuid="{b59803a9-2e70-4aeb-bc66-bae88c22b10f}"/>
+<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="50" hotspot_x="24">
+    <uuid uuid="{dd764891-fc6e-47e2-8a4d-3958ef7c4a17}"/>
     <names>
-        <name lang="es">Sensor de velocidad de viento</name>
-        <name lang="en">Wind speed sensor</name>
-        <name lang="cs">Čidlo rychlosti větru</name>
         <name lang="it">Sensore anemometro</name>
+        <name lang="fr">Capteur vitesse vent</name>
         <name lang="nl">Wind snelheid sensor</name>
         <name lang="pl">Czujnik prędkości wiatru</name>
-        <name lang="fr">Capteur vitesse vent</name>
+        <name lang="en">Wind speed sensor</name>
+        <name lang="es">Sensor de velocidad de viento</name>
         <name lang="el">Αισθητήρας ταχύτητας ανέμου</name>
+        <name lang="cs">Čidlo rychlosti větru</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-20" rx="0" ry="0" height="30" y="-15" width="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x6="-15" y2="11" x4="-14" y6="-12" y1="-11" x7="-16" y7="-11" x1="-16" x3="-15" y4="11" y5="-11" antialias="true" x5="-14" y3="12" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="9" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="UserText" z="3" rotation="0" Valignment="AlignTop" y="-9" frame="false" keep_visual_rotation="false" uuid="{a159d2ab-d36d-452a-9b4a-932638333b4a}" text_width="-1" Halignment="AlignLeft">
-            <text>1</text>
-        </dynamic_text>
-        <polygon y2="-12" y1="-9" x1="-18" closed="false" x3="-12" antialias="true" y3="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="UserText" z="5" rotation="0" Valignment="AlignTop" y="-1" frame="false" keep_visual_rotation="false" uuid="{66bebe10-608e-48a5-b36e-da44c33e3921}" text_width="-1" Halignment="AlignLeft">
-            <text>m/s</text>
-        </dynamic_text>
-        <polygon y2="12" y1="9" x1="-18" closed="false" x3="-12" antialias="true" y3="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-10" rx="0" ry="0" height="30" y="-15" width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y2="-15" y1="15" x1="-10" length2="1.5" length1="1.5" end1="none" antialias="true" end2="none" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="-22" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="9" rotation="0" Valignment="AlignTop" y="-36.5" frame="false" keep_visual_rotation="false" uuid="{bfb09bc3-7704-4733-bdf3-c32b7bdf0008}" text_width="-1" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="-10" orientation="n" y="-15" type="Generic" name="" uuid="{b6568685-889c-4541-905c-d29165a9b552}"/>
-        <terminal x="0" orientation="s" y="15" type="Generic" name="" uuid="{98a9ef88-b519-4c28-b486-73ebbeffc513}"/>
-        <terminal x="10" orientation="s" y="15" type="Generic" name="" uuid="{fb88f8ff-e4f4-4199-bd3f-330d731f2a33}"/>
-        <terminal x="-20" orientation="w" y="10" type="Generic" name="" uuid="{5168cf5b-49f6-4a51-8b82-ea960fa1cee4}"/>
-        <terminal x="-20" orientation="w" y="0" type="Generic" name="" uuid="{6510e845-7f9c-4aeb-be7e-1db51ca97353}"/>
-        <terminal x="-20" orientation="w" y="-10" type="Generic" name="" uuid="{8026bce4-ef49-49e4-82f1-93c18b269abb}"/>
-        <terminal x="20" orientation="e" y="0" type="Generic" name="" uuid="{882d3a65-b27c-493d-a271-60cf40ef84dc}"/>
-        <terminal x="20" orientation="e" y="10" type="Generic" name="" uuid="{778d5fd6-5fa7-4395-90a5-6ff413997fee}"/>
-        <terminal x="20" orientation="e" y="-10" type="Generic" name="" uuid="{72fa5ee1-065c-43fb-b43f-bfb3516ed13c}"/>
-        <terminal x="-10" orientation="s" y="15" type="Generic" name="" uuid="{b977cc17-4469-4496-9a20-0fb1c9b9305c}"/>
-        <terminal x="0" orientation="n" y="-15" type="Generic" name="" uuid="{9f502b91-8522-4b3f-8b6a-f53bd7de3907}"/>
-        <terminal x="10" orientation="n" y="-15" type="Generic" name="" uuid="{c20d1e14-4096-434e-ba12-e355ab6e59df}"/>
+        <rect height="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <polygon y3="12" x4="-14" x5="-14" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" x6="-15" x2="-16" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-15" y4="11" antialias="true" y2="11"/>
+        <input rotate="true" y="0.5" size="5" tagg="none" x="9" text="1"/>
+        <polygon y3="-9" closed="false" x1="-18" y1="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="-12"/>
+        <input rotate="true" y="8.5" size="5" tagg="none" x="1" text="m/s"/>
+        <polygon y3="9" closed="false" x1="-18" y1="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="12"/>
+        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
+        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="true" y2="-15"/>
+        <input rotate="true" y="-24" size="9" tagg="label" x="-22" text="_"/>
+        <terminal y="-15" x="-10" orientation="n"/>
+        <terminal y="15" x="0" orientation="s"/>
+        <terminal y="15" x="10" orientation="s"/>
+        <terminal y="10" x="-20" orientation="w"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="-10" x="-20" orientation="w"/>
+        <terminal y="0" x="20" orientation="e"/>
+        <terminal y="10" x="20" orientation="e"/>
+        <terminal y="-10" x="20" orientation="e"/>
+        <terminal y="15" x="-10" orientation="s"/>
+        <terminal y="-15" x="0" orientation="n"/>
+        <terminal y="-15" x="10" orientation="n"/>
     </description>
 </definition>

@@ -1,27 +1,23 @@
-<definition hotspot_x="15" link_type="simple" width="30" height="50" type="element" version="0.100.0" hotspot_y="24">
-    <uuid uuid="{eb5a2318-34f7-4b53-bde3-2e358bf6a8de}"/>
+<definition type="element" width="30" height="50" hotspot_y="24" hotspot_x="15" version="0.70" link_type="simple">
+    <uuid uuid="{3fc02ca2-9cda-45fa-886f-9d66884d497d}"/>
     <names>
-        <name lang="cs">Jisticí výbojka</name>
         <name lang="de">Überspannungsableiter in einer
 Gasentladungsröhre</name>
         <name lang="fr">Tube, à gaz limiteur de tension</name>
+        <name lang="cs">Jisticí výbojka</name>
         <name lang="en">Protective gas discharge tube</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{04a274f1-aa99-490d-93bf-ccba32c91e29}" x="5" frame="false" text_width="-1" z="1" y="12.5" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length2="1.5" y2="-5" x2="0" y1="-20"/>
-        <line end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length2="1.5" y2="20" x2="0" y1="5"/>
-        <polygon x4="-2" y3="-2" y4="-8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-2" y2="-8" x2="2" x3="0" y1="-8"/>
-        <polygon x4="-2" y3="8" y4="8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-2" y2="2" x2="0" x3="2" y1="8"/>
-        <circle diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-10"/>
-        <circle diameter="2" x="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y="3"/>
-        <terminal orientation="n" uuid="{4dffac46-548a-4285-a806-58cc071319eb}" x="0" y="-20" type="Generic" name=""/>
-        <terminal orientation="s" uuid="{681aa391-1011-4a45-9272-1bd495fb1553}" x="0" y="20" type="Generic" name=""/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <polygon y4="-8" antialias="false" x1="-2" y1="-8" x2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-8" x4="-2" x3="0" y3="-2"/>
+        <polygon y4="8" antialias="false" x1="-2" y1="8" x2="0" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="2" x4="-2" x3="2" y3="8"/>
+        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-10"/>
+        <circle antialias="false" diameter="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y="3" x="5"/>
+        <terminal orientation="n" y="-20" x="0"/>
+        <terminal orientation="s" y="20" x="0"/>
     </description>
 </definition>

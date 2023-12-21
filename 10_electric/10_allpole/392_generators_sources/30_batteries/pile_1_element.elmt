@@ -1,33 +1,29 @@
-<definition width="50" hotspot_x="24" link_type="simple" version="0.100.0" height="30" type="element" hotspot_y="14">
-    <uuid uuid="{84edc4a0-2f51-4541-97a6-43cf78ce8395}"/>
+<definition height="30" link_type="simple" type="element" hotspot_y="14" version="0.5" hotspot_x="24" width="50">
+    <uuid uuid="{cd1cb3df-5e68-4b22-9523-0e7ac886d8d2}"/>
     <names>
+        <name lang="fr">Pile 1 élément</name>
+        <name lang="de">Batterie 1 Element</name>
+        <name lang="it">Batteria (un elemento)</name>
         <name lang="es">Bateria 1 elemento</name>
-        <name lang="nl">Batterij 1 element DC</name>
+        <name lang="ar">بطارية خليّة واحدة</name>
+        <name lang="be">Batterij 1 element DC</name>
+        <name lang="el">Μπαταρία (1 στοιχείο)</name>
         <name lang="cs">Baterie 1 článek</name>
         <name lang="en">Battery one element</name>
-        <name lang="fr">Pile 1 élément</name>
-        <name lang="it">Batteria (un elemento)</name>
-        <name lang="el">Μπαταρία (1 στοιχείο)</name>
         <name lang="pl">Ogniwo elektrochemiczne</name>
-        <name lang="de">Batterie 1 Element</name>
-        <name lang="be">Batterij 1 element DC</name>
-        <name lang="ar">بطارية خليّة واحدة</name>
+        <name lang="nl">Batterij 1 element DC</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end1="none" length1="1.5" end2="none" x1="20" y1="0" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" length2="1.5"/>
-        <dynamic_text keep_visual_rotation="false" x="5" y="-27.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" Valignment="AlignTop" uuid="{275c24ca-d269-4709-af50-b5cbaf117a3f}" text_width="-1" rotation="0" frame="false" text_from="ElementInfo" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" length1="1.5" end2="none" x1="-3" y1="0" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" length2="1.5"/>
-        <line end1="none" length1="1.5" end2="none" x1="-3" y1="-9" x2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="9" length2="1.5"/>
-        <rect x="0" width="3" y="-6" rx="0" ry="0" height="12" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <text x="6" y="6.6666" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" text="-" rotation="0"/>
-        <text x="-11" y="6.6666" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" text="+" rotation="0"/>
-        <terminal x="-20" y="0" uuid="{2dfc9afe-7cd2-48b9-9bc6-706b34c56b13}" name="" orientation="w" type="Generic"/>
-        <terminal x="20" y="0" uuid="{5fd4e6fe-ece2-457f-a342-b4091562f8ab}" name="" orientation="e" type="Generic"/>
+        <line end1="none" y2="0" antialias="false" x1="20" y1="0" length2="1.5" length1="1.5" x2="3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input y="-15.45" text="_" x="5" rotate="true" size="9" tagg="label"/>
+        <line end1="none" y2="0" antialias="false" x1="-3" y1="0" length2="1.5" length1="1.5" x2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" y2="9" antialias="false" x1="-3" y1="-9" length2="1.5" length1="1.5" x2="-3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect y="-6" height="12" x="0" antialias="false" width="3" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <text y="6.6666" text="-" x="6" size="6"/>
+        <text y="6.6666" text="+" x="-11" size="6"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="0" x="20" orientation="e"/>
     </description>
 </definition>

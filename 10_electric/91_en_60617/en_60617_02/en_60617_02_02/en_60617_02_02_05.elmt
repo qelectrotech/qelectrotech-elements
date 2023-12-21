@@ -1,23 +1,19 @@
-<definition hotspot_y="10" version="0.100.0" hotspot_x="12" link_type="simple" width="50" height="20" type="element">
-    <uuid uuid="{95ad96eb-2fd8-4d20-b8eb-2814531b9621}"/>
+<definition version="0.70" width="50" type="element" hotspot_y="10" link_type="simple" hotspot_x="13" height="20">
+    <uuid uuid="{ef8c79cd-ecf8-4581-a504-7d4559129bea}"/>
     <names>
-        <name lang="de">Wechselstrom und Spannung</name>
         <name lang="fr">Courant alternatif</name>
+        <name lang="de">Wechselstrom und Spannung</name>
         <name lang="es">Corriente alterna 50hz</name>
-        <name lang="en">Alternating current (indication of frequency)</name>
         <name lang="cs">Střídavý proud 50Hz</name>
+        <name lang="en">Alternating current (indication of frequency)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc start="56" x="-7.5" angle="124" width="7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-2.5" height="5"/>
-        <arc start="234" x="0.5" angle="124" width="7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-2.5" height="5"/>
-        <line end1="none" end2="none" x1="-2" y2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" antialias="false" y1="-2" length2="1.5"/>
-        <dynamic_text text_width="-1" uuid="{09730737-5833-4722-800b-2b3cd4fe651f}" Halignment="AlignLeft" x="5" z="4" text_from="ElementInfo" Valignment="AlignTop" frame="false" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text text="50 Hz" x="10" color="#000000" y="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <arc angle="124" width="7" x="-7.5" start="56" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <arc angle="124" width="7" x="0.5" start="234" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
+        <line x2="2" y2="2" length2="1.5" length1="1.5" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-2" end2="none" antialias="false"/>
+        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
+        <text x="10" text="50 Hz" size="6" y="3"/>
     </description>
 </definition>

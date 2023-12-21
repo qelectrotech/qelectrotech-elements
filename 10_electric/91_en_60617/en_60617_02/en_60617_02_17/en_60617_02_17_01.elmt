@@ -1,26 +1,22 @@
-<definition version="0.100.0" height="40" hotspot_x="10" type="element" link_type="simple" hotspot_y="25" width="20">
-    <uuid uuid="{b2795367-fa46-41b5-a79a-316a0c244c74}"/>
+<definition hotspot_x="10" version="0.70" height="40" hotspot_y="25" width="20" type="element" link_type="simple">
+    <uuid uuid="{e9c63d06-fd70-42ce-b360-2c3f259b237b}"/>
     <names>
-        <name lang="de">Fehler (Anzeige eines angenommenen
-Fehlerorts)</name>
-        <name lang="en">Fault</name>
         <name lang="fr">Défaut (marquage de l'emplacement supposé
 d'un défaut)</name>
         <name lang="es">Error (visualización de un supuesto
 Ubicación de la falla)</name>
+        <name lang="de">Fehler (Anzeige eines angenommenen
+Fehlerorts)</name>
         <name lang="cs">Porucha(označení 
 předpokládaného místa poruchy)</name>
+        <name lang="en">Fault</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" y="2.5" uuid="{c37b7c4e-955a-4a0f-aea9-d5103a4cce0a}" Halignment="AlignLeft" z="1" frame="false" Valignment="AlignTop" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x2="-6" y2="0" end2="none" x1="0" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-20" end1="none"/>
-        <line x2="6" y2="-10" end2="none" x1="-6" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="0" end1="none"/>
-        <line x2="0" y2="10" end2="triangle" x1="6" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" length2="1.5" y1="-10" end1="none"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="-6" y2="0" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
+        <line x2="6" y2="-10" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6"/>
+        <line x2="0" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="6"/>
     </description>
 </definition>

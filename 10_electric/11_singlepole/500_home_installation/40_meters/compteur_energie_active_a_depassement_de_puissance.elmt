@@ -1,28 +1,24 @@
-<definition hotspot_y="29" version="0.100.0" height="50" hotspot_x="20" width="40" type="element" link_type="simple">
-    <uuid uuid="{c3d30c81-38b1-44c6-bc06-2eee1e946094}"/>
+<definition hotspot_x="20" hotspot_y="29" height="50" type="element" link_type="simple" width="40" version="0.5">
+    <uuid uuid="{fecbdbdd-a4ec-4304-9c7a-1c3927385a23}"/>
     <names>
-        <name lang="pl">Licznik watogodzin szczytowy</name>
-        <name lang="nl">Overcapaciteit teller</name>
-        <name lang="ar">عدّاد طاقة فعّالة مع تجاوز قدرة</name>
         <name lang="fr">Compteur à énergie active à dépassement de puissance</name>
+        <name lang="pl">Licznik watogodzin szczytowy</name>
         <name lang="cs">Měřič překročení maxima</name>
+        <name lang="ar">عدّاد طاقة فعّالة مع تجاوز قدرة</name>
+        <name lang="it">Contatore di energia attiva a supero di potenza</name>
         <name lang="de">Überverbrauchszähler, Spitzenzähler</name>
         <name lang="en"> Excess watt-hour meter</name>
-        <name lang="it">Contatore di energia attiva a supero di potenza</name>
+        <name lang="nl">Overcapaciteit teller</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-21.95" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="18" frame="false" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo" uuid="{7db77d28-dcdf-42ef-b6f1-bace62399834}">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text y="7" text="P >" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-10" color="#000000"/>
-        <text y="-3" text="Wh" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-10" color="#000000"/>
-        <rect y="-12" height="22" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" x="-15" ry="0" width="30"/>
-        <rect y="-20" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" x="-15" ry="0" width="30"/>
-        <terminal y="14" x="0" orientation="s" name="" type="Generic" uuid="{3f4783e5-d237-4bb9-a484-fd97f487def5}"/>
-        <terminal y="-24" x="0" orientation="n" name="" type="Generic" uuid="{7a465df1-6c24-4472-8ce7-88c1d1b02a26}"/>
+        <input x="18" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
+        <text x="-10" size="9" text="P >" y="7"/>
+        <text x="-10" size="9" text="Wh" y="-3"/>
+        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="22" antialias="false" y="-12" width="30"/>
+        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-20" width="30"/>
+        <terminal x="0" orientation="s" y="14"/>
+        <terminal x="0" orientation="n" y="-24"/>
     </description>
 </definition>

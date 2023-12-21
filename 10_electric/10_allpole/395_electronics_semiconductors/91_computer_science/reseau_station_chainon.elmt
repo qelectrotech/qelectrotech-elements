@@ -1,36 +1,30 @@
-<definition hotspot_x="39" type="element" width="90" hotspot_y="72" link_type="simple" height="160" version="0.100.0">
-    <uuid uuid="{db198782-881e-4c41-9800-e15c71f695ba}"/>
+<definition height="160" version="0.5" link_type="simple" width="90" hotspot_x="39" hotspot_y="72" type="element">
+    <uuid uuid="{8a568edb-5ef6-4d71-af8f-d0b17213564c}"/>
     <names>
+        <name lang="de">Netzwerkstation mitte</name>
+        <name lang="pl">Stacja tranzytowa</name>
+        <name lang="ar">RESEAU STATION CHAINON</name>
+        <name lang="es">CHAINON Red de estaciones</name>
+        <name lang="it">RETE Stazione intermedia</name>
         <name lang="en">Network Station middle</name>
         <name lang="cs">Tranzitní stanice</name>
-        <name lang="pl">Stacja tranzytowa</name>
-        <name lang="it">RETE Stazione intermedia</name>
-        <name lang="es">CHAINON Red de estaciones</name>
-        <name lang="de">Netzwerkstation mitte</name>
         <name lang="fr">RESEAU STATION CHAINON</name>
-        <name lang="ar">RESEAU STATION CHAINON</name>
         <name lang="nl">Netwerk station midden</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="UserText" x="-14" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" uuid="{245f98c5-17ed-4f17-87c8-f45488d3b06e}" y="-65" frame="false" rotation="0" keep_visual_rotation="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" z="1">
-            <text>ADR : _</text>
-        </dynamic_text>
-        <arc antialias="true" x="-31.2" y="76.575" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4.5" start="-90" height="9.75"/>
-        <arc antialias="true" x="-31.2" y="-70" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4.5" start="-180" height="9.75"/>
-        <arc antialias="true" x="36.3" y="76.575" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4.5" start="0" height="9.75"/>
-        <arc antialias="true" x="36.3" y="-70" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="4.5" start="90" height="9.75"/>
-        <line y2="-70" antialias="false" length1="1.5" x1="-28.8" end1="none" y1="-70" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="38.4"/>
-        <line y2="80.8" antialias="false" length1="1.5" x1="-31.2" end1="none" y1="-65.45" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-31.2"/>
-        <line y2="80.789" antialias="false" length1="1.5" x1="40.8" end1="none" y1="-65.4396" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40.8"/>
-        <line y2="86.325" antialias="false" length1="1.5" x1="-29.2351" end1="none" y1="86.325" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="38.2212"/>
-        <dynamic_text text_from="ElementInfo" x="-20" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" uuid="{ab9d6320-7dd7-4cd7-90c1-8b5b139b8157}" y="35" frame="false" rotation="0" keep_visual_rotation="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" z="10">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="40.8" type="Generic" uuid="{dbaeac3f-d4fa-4459-80da-25ce2db4162f}" y="10" name="" orientation="e"/>
-        <terminal x="-31" type="Generic" uuid="{79610403-58b1-41b1-b545-ba0f1070d0ca}" y="10" name="" orientation="w"/>
+        <input tagg="none" y="-55.5" size="5" rotate="true" text="ADR : _" x="-14"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="76.575" angle="-90" antialias="true" start="-90" width="4.5" x="-31.2"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="-70" angle="-90" antialias="true" start="-180" width="4.5" x="-31.2"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="76.575" angle="-90" antialias="true" start="0" width="4.5" x="36.3"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="-70" angle="-90" antialias="true" start="90" width="4.5" x="36.3"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-70" length1="1.5" antialias="false" end2="none" length2="1.5" x2="38.4" x1="-28.8" end1="none" y2="-70"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-65.45" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-31.2" x1="-31.2" end1="none" y2="80.8"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-65.4396" length1="1.5" antialias="false" end2="none" length2="1.5" x2="40.8" x1="40.8" end1="none" y2="80.789"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="86.325" length1="1.5" antialias="false" end2="none" length2="1.5" x2="38.2212" x1="-29.2351" end1="none" y2="86.325"/>
+        <input tagg="label" y="44.5" size="5" rotate="true" text="STATION_" x="-20"/>
+        <terminal y="10" orientation="e" x="40.8"/>
+        <terminal y="10" orientation="w" x="-31"/>
     </description>
 </definition>

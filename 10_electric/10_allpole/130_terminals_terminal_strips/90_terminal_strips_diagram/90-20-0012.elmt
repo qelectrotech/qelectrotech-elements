@@ -1,26 +1,21 @@
-<definition link_type="simple" version="0.100.0" type="element" height="80" width="30" hotspot_x="15" hotspot_y="67">
-    <uuid uuid="{478849a9-1440-441f-8fea-12ec0e396806}"/>
+<definition version="0.51" width="30" height="80" type="element" hotspot_x="15" link_type="simple" hotspot_y="67">
+    <uuid uuid="{57a6e367-5c77-4d2b-bb60-0ca0651bdd31}"/>
     <names>
-        <name lang="es">Dispositivo (conexión por debajo) en medio</name>
-        <name lang="en">Device (connection on bottom) - middle</name>
-        <name lang="cs">Zařízení (připojení zdola) – střed</name>
-        <name lang="de">Gerät (Anschluss unten) - Mitte</name>
         <name lang="fr">Appareil (connexion en bas) - milieu</name>
+        <name lang="de">Gerät (Anschluss unten) - Mitte</name>
+        <name lang="en">Device (connection on bottom) - middle</name>
+        <name lang="es">Dispositivo (conexión por debajo) en medio</name>
         <name lang="it">Dispositivo (connessione in basso) centrale</name>
+        <name lang="cs">Zařízení (připojení zdola) – střed</name>
         <name lang="hu">Eszköz (alsó csatlakozás) közbülső tag</name>
     </names>
-    <elementInformations/>
-    <informations></informations>
+    <informations/>
     <description>
-        <dynamic_text uuid="{2a6140cb-02d6-4535-bead-c75d728065e7}" keep_visual_rotation="false" x="-10" Valignment="AlignTop" Halignment="AlignLeft" y="2" text_from="UserText" text_width="-1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="1" rotation="270" frame="false">
-            <text>_</text>
-        </dynamic_text>
-        <dynamic_text uuid="{f3394cb5-646e-4f21-b73f-7cc98a208b97}" keep_visual_rotation="false" x="-12.5" Valignment="AlignTop" Halignment="AlignLeft" y="-20" text_from="UserText" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" rotation="270" frame="false">
-            <text>-</text>
-        </dynamic_text>
-        <line end1="none" y2="4" length2="1.5" antialias="false" x1="0" y1="0" end2="none" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="-60" length2="1.5" antialias="false" x1="-10" y1="-60" end2="none" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="0" length2="1.5" antialias="false" x1="-10" y1="0" end2="none" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal uuid="{415bf68a-e4c3-4584-8fa4-b5531c907382}" name="" x="0" type="Generic" orientation="s" y="4"/>
+        <input y="2" text="_" rotation="270" tagg="none" x="0" size="6" rotate="true"/>
+        <input y="-20" text="-" rotation="270" tagg="none" x="0" size="9" rotate="true"/>
+        <line length1="1.5" x2="0" length2="1.5" y1="0" y2="4" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line length1="1.5" x2="10" length2="1.5" y1="-60" y2="-60" end1="none" end2="none" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line length1="1.5" x2="10" length2="1.5" y1="0" y2="0" end1="none" end2="none" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal orientation="s" y="4" x="0"/>
     </description>
 </definition>

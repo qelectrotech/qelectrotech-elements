@@ -1,28 +1,24 @@
-<definition height="20" hotspot_y="10" version="0.100.0" hotspot_x="14" width="40" type="element" link_type="simple">
-    <uuid uuid="{418bb3d2-0f8d-46dc-8351-0b51f5df16d4}"/>
+<definition hotspot_x="14" hotspot_y="10" height="20" type="element" link_type="simple" width="40" version="0.5">
+    <uuid uuid="{2bb8880f-16ae-4a25-b20b-49c4ea1afc07}"/>
     <names>
         <name lang="fr">Connecteur</name>
-        <name lang="it">Connettore</name>
         <name lang="pl">Złącze</name>
+        <name lang="cs">Spojka</name>
         <name lang="ar">رابط</name>
         <name lang="el">Σύνδεσμος</name>
+        <name lang="it">Connettore</name>
+        <name lang="en">Connector</name>
         <name lang="de">Stecker</name>
         <name lang="nl">Connector</name>
-        <name lang="cs">Spojka</name>
-        <name lang="en">Connector</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-5.95" text_from="ElementInfo" Valignment="AlignTop" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="10" z="1" rotation="0" uuid="{185bf70e-a5eb-4f50-beff-44885487d381}" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="10" x2="20" length1="1.5" antialias="false" end1="none" end2="none" length2="1.5" y2="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-10" x2="0" length1="1.5" antialias="false" end1="none" end2="none" length2="1.5" y2="0"/>
-        <polygon y3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="0" x2="10" x3="10" antialias="true" y4="0" x4="0" y2="-5" closed="false"/>
-        <terminal y="0" orientation="w" name="" x="-10" type="Generic" uuid="{c85ece6b-b57d-4daa-9df4-73db61da3041}"/>
-        <terminal y="0" orientation="e" name="" x="20" type="Generic" uuid="{3b4f261e-bbab-4a89-ab8f-022137cd0efb}"/>
+        <input x="10" rotate="true" size="9" text="_" y="6.55" tagg="label"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" y2="0" end1="none" x2="20" length1="1.5" x1="10"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" y2="0" end1="none" x2="0" length1="1.5" x1="-10"/>
+        <polygon y3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="true" closed="false" y2="-5" x3="10" x2="10" x4="0" x1="0" y4="0"/>
+        <terminal x="-10" orientation="w" y="0"/>
+        <terminal x="20" orientation="e" y="0"/>
     </description>
 </definition>

@@ -1,25 +1,21 @@
-<definition height="20" link_type="simple" hotspot_x="44" width="90" type="element" hotspot_y="10" version="0.100.0">
-    <uuid uuid="{b1d3e9e9-04fb-4f38-aaa4-b35725cb9a7b}"/>
+<definition type="element" version="0.70" height="20" link_type="simple" hotspot_x="34" width="90" hotspot_y="0">
+    <uuid uuid="{e65b87f3-1005-466e-ad91-619aae681490}"/>
     <names>
-        <name lang="cs">Díl s transpozicí fází</name>
+        <name lang="de">Phasenwender</name>
         <name lang="fr">Élément de permutation des conducteurs de
 phase</name>
-        <name lang="de">Phasenwender</name>
+        <name lang="cs">Díl s transpozicí fází</name>
         <name lang="en">Phase transposition unit</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" rotation="0" text_width="-1" keep_visual_rotation="false" x="45" y="22.5" Halignment="AlignLeft" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{dac493a5-d99a-49f8-abdd-51570705e775}">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" x2="-40" y2="0" end2="none" y1="0" x1="40" length1="1.5" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" x2="-40" y2="5" end2="none" y1="-5" x1="-40" length1="1.5" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" x2="40" y2="5" end2="none" y1="-5" x1="40" length1="1.5" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x2="-10" y2="-5" y1="-5" x3="10" closed="false" x1="-20" y3="5" y4="5" antialias="false" x4="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="40" y="0" type="Generic" uuid="{5ac17f79-e0c1-4e00-802a-72e77b920e6c}" orientation="e" name=""/>
-        <terminal x="-40" y="0" type="Generic" uuid="{fca5ad14-cc03-4700-b51d-30404ea37f80}" orientation="w" name=""/>
+        <input rotate="true" y="45" tagg="label" size="9" x="55" text="_"/>
+        <line length1="1.5" end2="none" y1="10" y2="10" x2="-30" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="5" y2="15" x2="-30" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="5" y2="15" x2="50" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y1="5" y2="5" y3="15" closed="false" x2="0" antialias="false" x1="-10" x4="30" y4="15" x3="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="e" y="10" x="50"/>
+        <terminal orientation="w" y="10" x="-30"/>
     </description>
 </definition>

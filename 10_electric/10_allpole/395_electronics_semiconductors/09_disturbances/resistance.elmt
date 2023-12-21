@@ -1,34 +1,30 @@
-<definition version="0.100.0" link_type="simple" hotspot_y="29" width="20" hotspot_x="10" type="element" height="60">
-    <uuid uuid="{e9d157e8-7e87-4483-ad58-74bf55700464}"/>
+<definition height="60" version="0.5" link_type="simple" width="20" hotspot_x="10" hotspot_y="29" type="element">
+    <uuid uuid="{eb5e921a-090f-40a6-ba9d-974a11a8e8a0}"/>
     <names>
-        <name lang="ar">مُقاومة</name>
-        <name lang="it">Resistenza</name>
+        <name lang="ru">Резистор</name>
+        <name lang="de">Widerstand</name>
         <name lang="el">Αντίσταση</name>
+        <name lang="pl">Rezystor</name>
+        <name lang="ar">مُقاومة</name>
+        <name lang="es">Resistencia</name>
+        <name lang="it">Resistenza</name>
+        <name lang="en">Resistor</name>
+        <name lang="cs">Odpor</name>
         <name lang="pt">Resistência</name>
         <name lang="fr">Résistance</name>
-        <name lang="en">Resistor</name>
-        <name lang="de">Widerstand</name>
-        <name lang="ru">Резистор</name>
         <name lang="nl">Weerstand</name>
-        <name lang="cs">Odpor</name>
-        <name lang="pl">Rezystor</name>
-        <name lang="es">Resistencia</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-12.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{85a09c8c-fee3-48f1-a21e-7a35fd678eba}" rotation="0" Valignment="AlignTop" frame="false" z="1" x="6" text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="-10" y2="-20" x2="0" end1="none" length2="1.5" x1="0"/>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="10" y2="20" x2="0" end1="none" length2="1.5" x1="0"/>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="10" y2="-10" x2="4" end1="none" length2="1.5" x1="4"/>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="10" y2="10" x2="4" end1="none" length2="1.5" x1="-4"/>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="-10" y2="-10" x2="-4" end1="none" length2="1.5" x1="4"/>
-        <line length1="1.5" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="-10" y2="10" x2="-4" end1="none" length2="1.5" x1="-4"/>
-        <terminal orientation="n" y="-21" uuid="{547af9de-caf6-4dcd-8ad0-a8093f43027c}" name="" x="0" type="Generic"/>
-        <terminal orientation="s" y="21" uuid="{5c8e796d-032f-4c1d-9cf2-267d6c0602af}" name="" x="0" type="Generic"/>
+        <input tagg="label" y="-0.45" size="9" rotate="true" text="_" x="6"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="-20"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="0" x1="0" end1="none" y2="20"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="4" x1="4" end1="none" y2="-10"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="4" x1="-4" end1="none" y2="10"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-4" x1="4" end1="none" y2="-10"/>
+        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-4" x1="-4" end1="none" y2="10"/>
+        <terminal y="-21" orientation="n" x="0"/>
+        <terminal y="21" orientation="s" x="0"/>
     </description>
 </definition>

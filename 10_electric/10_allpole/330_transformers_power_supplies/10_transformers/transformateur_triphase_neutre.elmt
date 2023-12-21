@@ -1,53 +1,44 @@
-<definition hotspot_y="46" version="0.100.0" link_type="simple" type="element" width="70" height="90" hotspot_x="40">
-    <uuid uuid="{bebcb111-3e2a-48b8-bacc-54344da36f58}"/>
-    <names>
-        <name lang="nl">driefase transformator + Nul</name>
-        <name lang="de">Transformator Drehstrom + Neutralleiter</name>
+<definition width="90" version="0.3" hotspot_x="45" hotspot_y="45" height="90" type="element" ic="true" orientation="dnny">
+<uuid uuid="{B80D15C0-39D5-4930-8AD7-8DE51626F06E}"/><names>
+        <name lang="ar">محول ثلاثي الأوجه + خط محايد</name>
         <name lang="el">Μετασχηματιστής τριφασικός + ουδέτερος</name>
-        <name lang="cs">Třífázový transformátor + neutrál</name>
         <name lang="en">Three-phase + neutral transducer</name>
+        <name lang="es">Transformador delta-estrella</name>
+        <name lang="de">Transformator Drehstrom + Neutralleiter</name>
+        <name lang="it">Trasformatore trifase + neutro</name>
         <name lang="fr">Transformateur triphasé + neutre</name>
         <name lang="pl">Transformator trójfazowy</name>
-        <name lang="ar">محول ثلاثي الأوجه + خط محايد</name>
-        <name lang="es">Transformador delta-estrella</name>
-        <name lang="it">Trasformatore trifase + neutro</name>
+        <name lang="cs">Třífázový transformátor + neutrál</name>
+        <name lang="nl">driefase transformator + Nul</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="35" y2="30" y4="19" closed="false" x1="-34" x3="-27" y3="19" antialias="false" x2="-34" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-12"/>
-        <text text="A1" color="#000000" y="-31.6667" x="-16" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <polygon y1="21" y2="30" closed="false" x1="11" x3="17" y3="35" antialias="false" x2="17" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="21" y2="30" closed="false" x1="-11" x3="-17" y3="35" antialias="false" x2="-17" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-21" y2="-30" closed="false" x1="-11" x3="-17" y3="-35" antialias="false" x2="-17" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-21" y2="-30" closed="false" x1="11" x3="17" y3="-35" antialias="false" x2="17" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="B2" color="#000000" y="34.3333" x="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <text text="A2" color="#000000" y="34.3333" x="-16" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <text text="C1" color="#000000" y="-31.6667" x="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <text text="B1" color="#000000" y="-31.6667" x="1" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <circle antialias="true" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" diameter="30"/>
-        <text text="C2" color="#000000" y="34.3333" x="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <text text="N" color="#000000" y="35.3333" x="-33" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <dynamic_text Valignment="AlignTop" uuid="{a9938e8f-b42d-44dc-b592-460b5177944a}" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" z="14" y="7.5" x="20" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" frame="false">
-            <text>___V</text>
-        </dynamic_text>
-        <dynamic_text Valignment="AlignTop" uuid="{a00e58d6-bd67-4fd4-ab6a-3de5426e3dc1}" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" z="15" y="-22.5" x="20" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" frame="false">
-            <text>___V</text>
-        </dynamic_text>
-        <line y1="25" length2="1.5" y2="35" x1="0" end1="none" end2="none" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <circle antialias="true" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" diameter="30"/>
-        <dynamic_text Valignment="AlignTop" uuid="{b4719f96-f290-4111-a15c-4edffcf92995}" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo" z="18" y="-8.5" x="17.75" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-35" length2="1.5" y2="-25" x1="0" end1="none" end2="none" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <terminal uuid="{1f7b793c-1a09-47fe-b21e-3daf7c82a874}" type="Generic" orientation="n" y="-36" name="" x="17"/>
-        <terminal uuid="{16f7df10-fed8-4657-b91d-8eafe7435678}" type="Generic" orientation="n" y="-36" name="" x="0"/>
-        <terminal uuid="{1a00f9d1-7ad0-473d-b673-e0190462989b}" type="Generic" orientation="n" y="-36" name="" x="-17"/>
-        <terminal uuid="{3de2342d-83d8-4720-9132-04d1f2858de6}" type="Generic" orientation="s" y="36" name="" x="-17"/>
-        <terminal uuid="{20a5bda6-4485-4e8e-bd26-32bfabf5b473}" type="Generic" orientation="s" y="36" name="" x="0"/>
-        <terminal uuid="{a49e9a2f-c848-48c5-9066-90b41a51cf5b}" type="Generic" orientation="s" y="36" name="" x="17"/>
-        <terminal uuid="{90e72b53-b783-4bad-be01-08c066bbbf32}" type="Generic" orientation="s" y="36" name="" x="-34"/>
+        <polygon x4="-12" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="35" x1="-34" y2="30" x2="-34" y3="19" x3="-27" y4="19"/>
+        <text x="-16" y="-31.6667" size="4" text="A1"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="21" x1="11" y2="30" x2="17" y3="35" x3="17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="21" x1="-11" y2="30" x2="-17" y3="35" x3="-17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-21" x1="-11" y2="-30" x2="-17" y3="-35" x3="-17"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-21" x1="11" y2="-30" x2="17" y3="-35" x3="17"/>
+        <text x="2" y="34.3333" size="4" text="B2"/>
+        <text x="-16" y="34.3333" size="4" text="A2"/>
+        <text x="18" y="-31.6667" size="4" text="C1"/>
+        <text x="1" y="-31.6667" size="4" text="B1"/>
+        <circle x="-15" y="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <text x="18" y="34.3333" size="4" text="C2"/>
+        <text x="-33" y="35.3333" size="4" text="N"/>
+        <input x="20" y="17" size="5" rotate="true" text="___V"/>
+        <input x="20" y="-13" size="5" rotate="true" text="___V"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="25" x1="0" y2="35" x2="0"/>
+        <circle x="-15" y="-25" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <input x="17.75" y="4" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-35" x1="0" y2="-25" x2="0"/>
+        <terminal x="17" y="-36" orientation="n"/>
+        <terminal x="0" y="-36" orientation="n"/>
+        <terminal x="-17" y="-36" orientation="n"/>
+        <terminal x="-17" y="36" orientation="s"/>
+        <terminal x="0" y="36" orientation="s"/>
+        <terminal x="17" y="36" orientation="s"/>
+        <terminal x="-34" y="36" orientation="s"/>
     </description>
 </definition>

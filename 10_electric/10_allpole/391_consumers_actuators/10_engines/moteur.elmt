@@ -1,31 +1,26 @@
-<definition link_type="simple" type="element" hotspot_y="29" version="0.100.0" height="50" hotspot_x="15" width="30">
-    <uuid uuid="{986fb3e6-00ff-43dd-9a56-4357724314bb}"/>
-    <names>
+<definition width="30" version="0.4" hotspot_x="15" hotspot_y="25" height="40" link_type="simple" type="element" ic="true">
+<uuid uuid="{304818B2-FA67-4835-9A99-51FE413DF801}"/><names>
+        <name lang="ar">محرّك</name>
         <name lang="de">Motor</name>
+        <name lang="ru">Эл. мотор</name>
+        <name lang="pt">Motor</name>
+        <name lang="el">Μοτέρ</name>
+        <name lang="en">Engine</name>
         <name lang="it">Motore</name>
         <name lang="fr">Moteur</name>
         <name lang="pl">Silnik</name>
-        <name lang="en">Engine</name>
         <name lang="es">Motor</name>
-        <name lang="ar">محرّك</name>
-        <name lang="ru">Эл. мотор</name>
-        <name lang="el">Μοτέρ</name>
-        <name lang="pt">Motor</name>
         <name lang="nl">Motor</name>
         <name lang="cs">Motor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{d590ddbb-465e-493f-9acb-0c6f74a9cb4a}" y="-12.5" frame="false" Valignment="AlignTop" x="18" z="1" text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="21" y="-10.5" x="-10.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle diameter="26" y="-13" x="-13" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y2="-20" length1="1.5" length2="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-13" x2="0" end2="none"/>
-        <text font="Sans Serif,14,-1,5,50,0,0,0,0,0" rotation="0" y="7" color="#000000" x="-8.25" text="M"/>
-        <terminal uuid="{b3a4f53b-1535-4633-b24a-619938a7a4f7}" y="-21" name="" type="Generic" x="0" orientation="n"/>
+        <input x="18" y="0" size="9" rotate="true" text="M_" tagg="label"/>
+        <circle x="-10.5" y="-10.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="21"/>
+        <circle x="-13" y="-13" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="26"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" x1="0" y2="-20" x2="0"/>
+        <text x="-8.25" y="7" size="14" text="M"/>
+        <terminal x="0" y="-21" orientation="n"/>
     </description>
 </definition>

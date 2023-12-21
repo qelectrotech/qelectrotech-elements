@@ -1,26 +1,22 @@
-<definition link_type="simple" height="40" type="element" version="0.100.0" hotspot_x="44" width="50" hotspot_y="31">
-    <uuid uuid="{d7916742-40e5-4f7e-ae81-e52276d16545}"/>
+<definition type="element" version="0.70" height="40" link_type="simple" hotspot_x="44" width="50" hotspot_y="31">
+    <uuid uuid="{edc2a7bd-7013-4e80-8ea9-3ce2f5cdd08c}"/>
     <names>
+        <name lang="de">T-Abzweig</name>
         <name lang="fr">Té, branchement à trois voies</name>
         <name lang="cs">T-kus, třícestný</name>
-        <name lang="de">T-Abzweig</name>
         <name lang="en">Tee (three way connection)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" Halignment="AlignLeft" x="5" Valignment="AlignTop" keep_visual_rotation="false" y="22.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{90f57ced-439d-4b22-9471-5745e5cb056a}" frame="false" text_from="ElementInfo" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" length1="1.5" x1="0" x2="-40" y1="-20" antialias="false"/>
-        <line y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" length1="1.5" x1="-40" x2="-40" y1="-25" antialias="false"/>
-        <line y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" length1="1.5" x1="0" x2="0" y1="-25" antialias="false"/>
-        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" length1="1.5" x1="-25" x2="-15" y1="0" antialias="false"/>
-        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" length1="1.5" x1="-20" x2="-20" y1="-20" antialias="false"/>
-        <terminal x="-20" y="0" orientation="s" name="" type="Generic" uuid="{70b3b180-d20c-4f31-b46d-28b5858dd6d5}"/>
-        <terminal x="-40" y="-20" orientation="w" name="" type="Generic" uuid="{d0416708-d6a5-47f4-81b6-a4d4a8d44fae}"/>
-        <terminal x="0" y="-20" orientation="e" name="" type="Generic" uuid="{2fd8b84a-a621-4342-b609-862d5b45d198}"/>
+        <input rotate="true" y="35" tagg="label" size="9" x="5" text="_"/>
+        <line length1="1.5" end2="none" y1="-20" y2="-20" x2="-40" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-25" y2="-15" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-25" y2="-15" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="0" y2="0" x2="-15" length2="1.5" antialias="false" x1="-25" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-20" y2="0" x2="-20" length2="1.5" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="s" y="0" x="-20"/>
+        <terminal orientation="w" y="-20" x="-40"/>
+        <terminal orientation="e" y="-20" x="0"/>
     </description>
 </definition>

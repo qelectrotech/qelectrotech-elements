@@ -1,22 +1,18 @@
-<definition height="70" hotspot_y="34" version="0.100.0" width="20" link_type="simple" type="element" hotspot_x="10">
-    <uuid uuid="{f8faaa2c-be05-4d94-9976-b7d89cf6e2dc}"/>
+<definition type="element" width="20" height="70" hotspot_y="34" hotspot_x="10" version="0.70" link_type="simple">
+    <uuid uuid="{5f81ad8c-4939-4c6d-92b1-c7c30f9b5099}"/>
     <names>
-        <name lang="cs">Tavná pojistka, všeobecná značka</name>
-        <name lang="fr">Fusible, symbole général</name>
         <name lang="de">Sicherung, allgemein</name>
+        <name lang="fr">Fusible, symbole général</name>
+        <name lang="cs">Tavná pojistka, všeobecná značka</name>
         <name lang="en">Fuse, general symbol</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" y="12.5" frame="false" x="5" Valignment="AlignTop" text_width="-1" keep_visual_rotation="false" uuid="{876892f1-f597-45ff-a736-74a68b64f011}" z="1" rotation="0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" end2="none" x2="0" y2="30" length2="1.5" antialias="false" length1="1.5"/>
-        <rect y="-15" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" rx="0" width="10" antialias="false" ry="0"/>
-        <terminal y="30" x="0" orientation="s" uuid="{3a0d6a2f-8bf9-475a-857c-d51142203687}" type="Generic" name=""/>
-        <terminal y="-30" x="0" orientation="n" uuid="{93c5ee4c-9b93-483f-829c-73544c82bd02}" type="Generic" name=""/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" end1="none" length1="1.5" length2="1.5"/>
+        <rect antialias="false" width="10" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-5"/>
+        <terminal orientation="s" y="30" x="0"/>
+        <terminal orientation="n" y="-30" x="0"/>
     </description>
 </definition>

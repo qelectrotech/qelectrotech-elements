@@ -1,50 +1,44 @@
-<definition hotspot_x="24" hotspot_y="19" type="element" height="40" version="0.100.0" width="60" link_type="simple">
-    <uuid uuid="{e157aaba-5fad-4360-9a4f-a0b78f6915de}"/>
+<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="60" hotspot_x="24">
+    <uuid uuid="{92c2ea42-4a6c-4bad-b460-b123dc320871}"/>
     <names>
-        <name lang="es">Interface serial RS232</name>
-        <name lang="el"> Διεπαφή KNX / RS 232</name>
+        <name lang="it">Interf. seriale</name>
+        <name lang="fr">Interface RS 232</name>
         <name lang="nl">Serieel KNX/ RS232</name>
         <name lang="pl">Interfejs KNX / RS 232</name>
-        <name lang="it">Interf. seriale</name>
         <name lang="en">Serial</name>
+        <name lang="es">Interface serial RS232</name>
+        <name lang="el"> Διεπαφή KNX / RS 232</name>
         <name lang="cs">Sériové rozhraní KNX / RS 232</name>
-        <name lang="fr">Interface RS 232</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect rx="0" x="-10" height="30" y="-15" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" ry="0"/>
-        <rect rx="0" x="20" height="30" y="-15" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" ry="0"/>
-        <dynamic_text keep_visual_rotation="false" frame="false" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{ea02b36d-2ac0-4687-aec5-552b2c023e9f}" x="-6" z="3" rotation="0" y="1" Valignment="AlignTop" text_from="UserText">
-            <text>RS232</text>
-        </dynamic_text>
-        <polygon x5="26" x1="24" y7="-11" y4="11" y6="-12" x3="25" y1="-11" x6="25" y3="12" x2="24" x7="24" x4="26" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y5="-11" y2="11"/>
-        <rect rx="0" x="-20" height="30" y="-15" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" ry="0"/>
-        <polygon x1="22" x3="28" y1="-9" y3="-9" x2="25" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y2="-12"/>
-        <polygon x1="22" x3="28" y1="9" y3="9" x2="25" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y2="12"/>
-        <polygon x5="-14" x1="-16" y7="-11" y4="11" y6="-12" x3="-15" y1="-11" x6="-15" y3="12" x2="-16" x7="-16" x4="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y5="-11" y2="11"/>
-        <polygon x1="-18" x3="-12" y1="-9" y3="-9" x2="-15" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y2="-12"/>
-        <polygon x1="-18" x3="-12" y1="9" y3="9" x2="-15" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y2="12"/>
-        <line x1="-10" end1="none" length2="1.5" y1="15" x2="20" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y2="-15"/>
-        <text color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="-6" rotation="0" y="-6" text="EIB"/>
-        <dynamic_text keep_visual_rotation="false" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{5fbe105e-4e31-4155-a525-72d8162ab476}" x="-23" z="13" rotation="0" y="-38.5" Valignment="AlignTop" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal uuid="{df6f1f3c-e469-4f0b-ba49-e970d0dfaa71}" type="Generic" x="-20" y="10" name="" orientation="w"/>
-        <terminal uuid="{e8da07ed-bfe5-4295-ad93-43ccdb20c470}" type="Generic" x="-20" y="0" name="" orientation="w"/>
-        <terminal uuid="{d8978ef1-5274-4047-83ef-3fd43f8821a0}" type="Generic" x="-20" y="-10" name="" orientation="w"/>
-        <terminal uuid="{ea30b2f6-9a8b-4d5d-a841-e324fb927c6d}" type="Generic" x="30" y="0" name="" orientation="e"/>
-        <terminal uuid="{5720216c-cffc-48bc-92d0-676c97b9c15a}" type="Generic" x="30" y="10" name="" orientation="e"/>
-        <terminal uuid="{a6e5283b-4143-48ab-9040-9ab30d2e6ad0}" type="Generic" x="30" y="-10" name="" orientation="e"/>
-        <terminal uuid="{fb002d39-5dae-470e-aba7-148669e39ad1}" type="Generic" x="-10" y="15" name="" orientation="s"/>
-        <terminal uuid="{8e0782b7-0574-495d-b3c5-b366e8f4aed8}" type="Generic" x="0" y="-15" name="" orientation="n"/>
-        <terminal uuid="{b459a687-da22-405d-a33e-01133125ba5b}" type="Generic" x="10" y="-15" name="" orientation="n"/>
-        <terminal uuid="{4d62b6c5-1ae6-4a0f-b35c-beeab1b9bec5}" type="Generic" x="-10" y="-15" name="" orientation="n"/>
-        <terminal uuid="{1ac04356-e5e1-4ed3-9719-c1a118d87b4a}" type="Generic" x="0" y="15" name="" orientation="s"/>
-        <terminal uuid="{75cce2cb-82bb-42d9-8091-fd11a1ddacb7}" type="Generic" x="10" y="15" name="" orientation="s"/>
-        <terminal uuid="{6a1a10e0-dbdd-4a9c-ac77-58b54d20d83b}" type="Generic" x="20" y="-15" name="" orientation="n"/>
-        <terminal uuid="{5ab52a09-0e13-4d30-b15c-e9efbd6467bf}" type="Generic" x="20" y="15" name="" orientation="s"/>
+        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
+        <rect height="30" y="-15" x="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <input rotate="true" y="10.5" size="5" tagg="none" x="-6" text="RS232"/>
+        <polygon y3="12" x4="26" x5="26" x1="24" y1="-11" y6="-12" x7="24" y5="-11" x6="25" x2="24" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="25" y4="11" antialias="true" y2="11"/>
+        <rect height="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
+        <polygon y3="-9" closed="false" x1="22" y1="-9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="-12"/>
+        <polygon y3="9" closed="false" x1="22" y1="9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="12"/>
+        <polygon y3="12" x4="-14" x5="-14" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" x6="-15" x2="-16" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-15" y4="11" antialias="true" y2="11"/>
+        <polygon y3="-9" closed="false" x1="-18" y1="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="-12"/>
+        <polygon y3="9" closed="false" x1="-18" y1="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="12"/>
+        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="true" y2="-15"/>
+        <text y="-6" size="6" x="-6" text="EIB"/>
+        <input rotate="true" y="-26" size="9" tagg="label" x="-23" text="_"/>
+        <terminal y="10" x="-20" orientation="w"/>
+        <terminal y="0" x="-20" orientation="w"/>
+        <terminal y="-10" x="-20" orientation="w"/>
+        <terminal y="0" x="30" orientation="e"/>
+        <terminal y="10" x="30" orientation="e"/>
+        <terminal y="-10" x="30" orientation="e"/>
+        <terminal y="15" x="-10" orientation="s"/>
+        <terminal y="-15" x="0" orientation="n"/>
+        <terminal y="-15" x="10" orientation="n"/>
+        <terminal y="-15" x="-10" orientation="n"/>
+        <terminal y="15" x="0" orientation="s"/>
+        <terminal y="15" x="10" orientation="s"/>
+        <terminal y="-15" x="20" orientation="n"/>
+        <terminal y="15" x="20" orientation="s"/>
     </description>
 </definition>

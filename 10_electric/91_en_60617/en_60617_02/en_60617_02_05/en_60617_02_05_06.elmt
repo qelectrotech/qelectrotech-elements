@@ -1,22 +1,18 @@
-<definition width="20" hotspot_x="6" height="10" version="0.100.0" link_type="simple" type="element" hotspot_y="5">
-    <uuid uuid="{a7fefdb0-ef99-47e6-bfac-959f7fba1702}"/>
+<definition type="element" width="20" height="10" version="0.70" hotspot_x="6" hotspot_y="5" link_type="simple">
+    <uuid uuid="{6dd64888-e0fb-427c-b249-79cb9ff8e43c}"/>
     <names>
-        <name lang="cs">Tok energie od přípojnice</name>
-        <name lang="de">Energiefluß von der Sammelschiene weg</name>
-        <name lang="es">Tránsito de energía de barras</name>
-        <name lang="en">Energy flow from the busbars</name>
         <name lang="fr">Transit de l'énergie issue des barres</name>
+        <name lang="es">Tránsito de energía de barras</name>
+        <name lang="de">Energiefluß von der Sammelschiene weg</name>
+        <name lang="cs">Tok energie od přípojnice</name>
+        <name lang="en">Energy flow from the busbars</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length2="1.5" x2="3" end2="simple" x1="-3" end1="none" y1="0" y2="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" x2="10" end2="none" x1="-3" end1="none" y1="0" y2="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text y="2.5" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{292548aa-f94e-4e95-8928-ee1f02dd6cb8}" x="5" z="3" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" x2="-3" end2="none" x1="-3" end1="none" y1="-2" y2="2" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="3"/>
+        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="10"/>
+        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
+        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="2" y1="-2" end2="none" x2="-3"/>
     </description>
 </definition>

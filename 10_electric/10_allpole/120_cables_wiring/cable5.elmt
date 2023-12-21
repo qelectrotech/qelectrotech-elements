@@ -1,34 +1,28 @@
-<definition type="element" hotspot_x="47" link_type="simple" version="0.100.0" height="20" width="100" hotspot_y="3">
-    <uuid uuid="{ceda248d-58a7-49c0-b035-f055b6df8907}"/>
+<definition hotspot_y="3" version="0.51" hotspot_x="47" link_type="simple" width="100" type="element" height="20">
+    <uuid uuid="{9923c1a5-b49a-4243-923e-cde9d916ea2b}"/>
     <names>
         <name lang="fr">Cable 5G</name>
         <name lang="it">Cavo Type 5G</name>
-        <name lang="pl">Przewód pięciożyłowy</name>
         <name lang="es">Cable 5G</name>
+        <name lang="pl">Przewód pięciożyłowy</name>
         <name lang="cs">Kabel 5G</name>
         <name lang="hu">Kábel 4 + N + PE</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end1="none" y2="11.95" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="7.95" end2="none" x2="-38.05" antialias="true" x1="-42.05" length1="1.5"/>
-        <line end1="none" y2="11.95" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="7.95" end2="none" x2="-18.05" antialias="true" x1="-22.05" length1="1.5"/>
-        <text x="22" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" text="2" y="9" rotation="0"/>
-        <line end1="none" y2="12" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="8" end2="none" x2="22" antialias="true" x1="18" length1="1.5"/>
-        <text x="-19" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" text="BL" y="9" rotation="0"/>
-        <text x="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" text="1" y="9" rotation="0"/>
-        <line end1="none" y2="11.95" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="7.95" end2="none" x2="41.95" antialias="true" x1="37.95" length1="1.5"/>
-        <line end1="none" y2="12" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="8" end2="none" x2="2" antialias="true" x1="-2" length1="1.5"/>
-        <text x="43" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" text="3" y="9" rotation="0"/>
-        <dynamic_text x="-85" Halignment="AlignLeft" frame="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_from="ElementInfo" keep_visual_rotation="false" Valignment="AlignTop" z="10" uuid="{b285b753-04a3-4e50-a4bc-0caebd210aa0}" y="-8" rotation="0" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="10" end2="none" x2="40" antialias="false" x1="-40" length1="1.5"/>
-        <text x="-40" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" text="GNYE" y="9" rotation="0"/>
-        <dynamic_text x="-71" Halignment="AlignLeft" frame="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="UserText" keep_visual_rotation="false" Valignment="AlignTop" z="13" uuid="{aa659a71-fdd7-4439-a957-7a39001dd9f0}" y="-8.5" rotation="0" text_width="-1">
-            <text></text>
-        </dynamic_text>
+        <line end1="none" x1="-42.05" y1="7.95" x2="-38.05" length1="1.5" y2="11.95" antialias="true" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" x1="-22.05" y1="7.95" x2="-18.05" length1="1.5" y2="11.95" antialias="true" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="2" size="4" y="9" x="22"/>
+        <line end1="none" x1="18" y1="8" x2="22" length1="1.5" y2="12" antialias="true" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="BL" size="4" y="9" x="-19"/>
+        <text text="1" size="4" y="9" x="2"/>
+        <line end1="none" x1="37.95" y1="7.95" x2="41.95" length1="1.5" y2="11.95" antialias="true" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" x1="-2" y1="8" x2="2" length1="1.5" y2="12" antialias="true" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="3" size="4" y="9" x="43"/>
+        <input text="Type?&#xa;5G_ mm²" size="6" rotate="true" y="2" x="-85" tagg="label"/>
+        <line end1="none" x1="-40" y1="10" x2="40" length1="1.5" y2="10" antialias="false" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="GNYE" size="4" y="9" x="-40"/>
+        <input text="" size="5" rotate="true" y="1" x="-71" tagg="none"/>
     </description>
 </definition>

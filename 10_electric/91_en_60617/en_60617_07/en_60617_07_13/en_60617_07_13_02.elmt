@@ -1,5 +1,5 @@
-<definition hotspot_x="13" type="element" hotspot_y="44" version="0.100.0" link_type="simple" height="70" width="20">
-    <uuid uuid="{2df97004-846a-4f25-9e78-b6371493e900}"/>
+<definition type="element" width="20" height="70" hotspot_y="44" hotspot_x="13" version="0.70" link_type="simple">
+    <uuid uuid="{565a1bc3-2cb1-4087-9c06-1cd78210ffba}"/>
     <names>
         <name lang="de">Schütz,
 Leistungskontakt eines Schützes
@@ -7,22 +7,18 @@ Leistungskontakt eines Schützes
         <name lang="fr">Contacteur,
 Contact principal à fermeture d'un contacteur
 (contact ouvert)</name>
-        <name lang="en">Contactor; Main make contact of a contactor</name>
         <name lang="cs">Stykač, hlavní kontakt</name>
+        <name lang="en">Contactor; Main make contact of a contactor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end1="none" y2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" length1="1.5" end2="none" x1="0" antialias="false" y1="-20"/>
-        <line end1="none" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" length1="1.5" end2="none" x1="0" antialias="false" y1="0"/>
-        <line end1="none" y2="-23" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-8" length2="1.5" length1="1.5" end2="none" x1="0" antialias="false" y1="0"/>
-        <dynamic_text z="4" frame="false" keep_visual_rotation="false" rotation="0" uuid="{49dbe13a-3aeb-4c66-a124-820f165812b4}" text_width="-1" x="5" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5" height="5" antialias="true" y="-24.5" width="5"/>
-        <terminal type="Generic" uuid="{82e3a4be-2265-437c-8984-4f8b0b8b693f}" x="0" orientation="s" name="" y="20"/>
-        <terminal type="Generic" uuid="{f04e4b07-418a-4039-94fa-85ea7c463239}" x="0" orientation="n" name="" y="-40"/>
+        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="0" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-23" end1="none" length1="1.5" length2="1.5"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <arc antialias="true" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-24.5" start="90" angle="180" x="-2.5"/>
+        <terminal orientation="s" y="20" x="0"/>
+        <terminal orientation="n" y="-40" x="0"/>
     </description>
 </definition>

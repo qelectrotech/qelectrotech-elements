@@ -1,35 +1,31 @@
-<definition height="60" version="0.100.0" width="30" hotspot_y="30" type="element" hotspot_x="15" link_type="simple">
-    <uuid uuid="{42a2de83-8df1-484a-8ef6-6e3b6e2fe224}"/>
+<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="60" hotspot_y="30" type="element">
+    <uuid uuid="{35f2834a-308b-4e79-bc2a-1c00486b24e7}"/>
     <names>
-        <name lang="cs">Přípojnice 1f+N+PE</name>
-        <name lang="ar">مصدر وحيد القطبية + أرضي PE + محايد N</name>
-        <name lang="it">Sorgente unipolare + PE +N</name>
-        <name lang="el">Μονοφασικό +N +PE</name>
-        <name lang="pl">Linia jednofazowa (trójprzewodowa)</name>
-        <name lang="ru">Однополюсный + PE +N</name>
-        <name lang="en">Single-pole source + PE +N</name>
-        <name lang="fr">Source unipolaire + PE +N</name>
-        <name lang="hu">F + N + PE</name>
-        <name lang="de">Wechselstrom + PE +N</name>
         <name lang="es">Fuente unipolo + PE +N</name>
         <name lang="nl">1 fase + aarde + nul</name>
+        <name lang="el">Μονοφασικό +N +PE</name>
+        <name lang="de">Wechselstrom + PE +N</name>
+        <name lang="cs">Přípojnice 1f+N+PE</name>
+        <name lang="pl">Linia jednofazowa (trójprzewodowa)</name>
+        <name lang="it">Sorgente unipolare + PE +N</name>
+        <name lang="ar">مصدر وحيد القطبية + أرضي PE + محايد N</name>
+        <name lang="en">Single-pole source + PE +N</name>
+        <name lang="fr">Source unipolaire + PE +N</name>
+        <name lang="ru">Однополюсный + PE +N</name>
+	    <name lang="hu">F + N + PE</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Valignment="AlignTop" frame="false" text_width="-1" z="1" uuid="{7f16151d-7666-4ec0-891d-f9251eacd903}" rotation="0" keep_visual_rotation="false" x="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-46.95" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" x1="0" y1="20" x2="10" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="20" length2="1.5"/>
-        <line end1="none" x1="0" y1="-20" x2="10" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-20" length2="1.5"/>
-        <text text="PE" rotation="0" color="#000000" x="-12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="23"/>
-        <line end1="none" x1="0" y1="0" x2="10" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" length2="1.5"/>
-        <text text="N" rotation="0" color="#000000" x="-12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="3"/>
-        <text text="L" rotation="0" color="#000000" x="-12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-17"/>
-        <terminal name="" orientation="e" uuid="{9356b857-3e06-4d06-8f4e-850159520d40}" type="Generic" x="10" y="0"/>
-        <terminal name="" orientation="e" uuid="{9de0da45-ce24-415b-9a42-94381fa13ee6}" type="Generic" x="10" y="20"/>
-        <terminal name="" orientation="e" uuid="{b915653a-8cb8-4ce3-aec0-13440e4822f8}" type="Generic" x="10" y="-20"/>
+        <input x="-12" y="-34.45" tagg="label" size="9" rotate="true" text="_"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
+        <text x="-12" y="23" size="5" text="PE"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
+        <text x="-12" y="3" size="5" text="N"/>
+        <text x="-12" y="-17" size="5" text="L"/>
+        <terminal x="10" y="0" orientation="e"/>
+        <terminal x="10" y="20" orientation="e"/>
+        <terminal x="10" y="-20" orientation="e"/>
     </description>
 </definition>

@@ -1,22 +1,18 @@
-<definition hotspot_x="15" width="30" hotspot_y="4" height="10" type="element" link_type="simple" version="0.100.0">
-    <uuid uuid="{8243e82d-6813-4234-bfa2-281abc8f34f4}"/>
+<definition type="element" width="30" height="10" version="0.70" hotspot_x="15" hotspot_y="4" link_type="simple">
+    <uuid uuid="{27e6ed0b-2c94-468a-97a0-bde41ab792b4}"/>
     <names>
-        <name lang="de">Senden</name>
-        <name lang="es">Emision</name>
-        <name lang="en">Transmission</name>
         <name lang="fr">Emission</name>
+        <name lang="es">Emision</name>
+        <name lang="de">Senden</name>
         <name lang="cs">Vysílání</name>
+        <name lang="en">Transmission</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" x2="3" x1="-10" antialias="false" y1="0" y2="0" end1="none" length2="1.5" end2="simple" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" x2="10" x1="-3" antialias="false" y1="0" y2="0" end1="none" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" frame="false" z="3" uuid="{b5d1c312-ba54-4586-a4ec-51b4811f904f}" keep_visual_rotation="false" Valignment="AlignTop" y="2.5" rotation="0" x="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="3" antialias="false" y="-1.5" x="-4.5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line antialias="false" x1="-10" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="3"/>
+        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="10"/>
+        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="3" y="-1.5" x="-4.5"/>
     </description>
 </definition>

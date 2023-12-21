@@ -1,28 +1,24 @@
-<definition type="element" hotspot_y="12" width="30" height="20" hotspot_x="14" link_type="simple" version="0.100.0">
-    <uuid uuid="{dbd4c855-9714-4424-a98d-2715c924f5ca}"/>
+<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="12">
+    <uuid uuid="{67745b64-8c2e-4833-9bd0-41c027b0e820}"/>
     <names>
-        <name lang="de">T-Stück</name>
-        <name lang="ar">رابط T  مستقيم</name>
-        <name lang="it">Raccordo a T</name>
-        <name lang="fr">Tés Droit</name>
+        <name lang="cs">Spojovací článek T</name>
         <name lang="pl">Złączka T</name>
-        <name lang="es">T recta</name>
+        <name lang="it">Raccordo a T</name>
+        <name lang="de">T-Stück</name>
         <name lang="en">Right tees</name>
         <name lang="nl">T stuk recht</name>
-        <name lang="cs">Spojovací článek T</name>
+        <name lang="ar">رابط T  مستقيم</name>
+        <name lang="fr">Tés Droit</name>
+        <name lang="es">T recta</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-23" x="-1" text_from="ElementInfo" text_width="-1" uuid="{3f93238d-1204-4b98-bdeb-22505918fb82}" Halignment="AlignLeft" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" frame="false" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" length1="1.5" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-6" x2="0" x1="0" end2="none"/>
-        <line length2="1.5" length1="1.5" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="0" x2="6" x1="-6" end2="none"/>
-        <terminal y="-6" type="Generic" x="0" uuid="{a802e241-4787-4063-b733-918fcbe7cd71}" name="" orientation="n"/>
-        <terminal y="0" type="Generic" x="6" uuid="{17ad8192-53cf-4fd8-955e-f2b86a337c1e}" name="" orientation="e"/>
-        <terminal y="0" type="Generic" x="-6" uuid="{51f715f6-189b-479c-8b39-447fc3bf9fce}" name="" orientation="w"/>
+        <input tagg="label" rotate="true" size="9" y="-10.5" x="-1" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-6" x1="0" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-6" x2="6"/>
+        <terminal y="-6" x="0" orientation="n"/>
+        <terminal y="0" x="6" orientation="e"/>
+        <terminal y="0" x="-6" orientation="w"/>
     </description>
 </definition>

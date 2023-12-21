@@ -1,22 +1,17 @@
-<definition link_type="simple" type="element" hotspot_y="20" version="0.100.0" width="20" height="40" hotspot_x="10">
-    <uuid uuid="{a95cd7f5-117f-42fe-9db3-f89922934390}"/>
-    <names>
-        <name lang="fr">Thermométre</name>
+<definition link_type="simple" ic="true" height="30" width="20" version="0.4" hotspot_y="15" type="element" hotspot_x="10">
+<uuid uuid="{62A6BBC9-3927-4D3B-8A02-C9B5CD65C726}"/><names>
         <name lang="es">Termómetro</name>
         <name lang="ca">Termómetre</name>
-        <name lang="en">Termometer</name>
+        <name lang="fr">Thermométre</name>
+	<name lang="en">Termometer</name>
     </names>
-    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <ellipse y="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" x="-8" height="15" antialias="true"/>
-        <line y2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y1="4" x2="0" length2="1.5" antialias="false" x1="0"/>
-        <text y="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text="T" color="#000000" x="-4"/>
-        <dynamic_text y="-22.5" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="ElementInfo" uuid="{6d5dc6c8-ee33-4c44-add1-d1a8fcc2b4b3}" frame="false" text_width="-1" rotation="0" keep_visual_rotation="false" z="4" Halignment="AlignLeft" x="-9" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal y="10" type="Generic" uuid="{61d0d3a6-159f-424d-b475-e06972af4b11}" name="" x="0" orientation="s"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="-8" antialias="true" height="15" width="16" y="-11"/>
+        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end2="none" x2="0" antialias="false" y1="4" x1="0" length1="1.5"/>
+        <text text="T" x="-4" size="9" y="1"/>
+        <input text="_" x="-9" tagg="label" size="4" y="-14.5" rotate="true"/>
+        <terminal x="0" y="10" orientation="s"/>
     </description>
 </definition>

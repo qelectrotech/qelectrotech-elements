@@ -1,38 +1,33 @@
-<definition height="60" type="element" hotspot_y="29" link_type="simple" version="0.100.0" width="30" hotspot_x="14">
-    <uuid uuid="{d0fddcce-4d11-4c03-b868-9d0c21cee9a9}"/>
-    <names>
-        <name lang="cs">Vodotěsný kontakt (NO)</name>
-        <name lang="nl">waterdicht enkel (NO)</name>
-        <name lang="de">Schliesser wasserdicht</name>
-        <name lang="es">Contactor simple (resistente al agua)</name>
-        <name lang="fr">Contact simple (étanche)</name>
-        <name lang="pt">Contacto simples NO (NO / resistente à água)</name>
-        <name lang="pl">Zetyk zwierny (szczelny)</name>
+<definition width="40" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" orientation="dnny">
+<uuid uuid="{368D3812-287E-4380-A7A8-CA0912A260DD}"/><names>
         <name lang="ar">مفتاح بسيط (محمي)</name>
+        <name lang="de">Schliesser wasserdicht</name>
         <name lang="ru">Герметичный контакт (НР)</name>
+        <name lang="pt">Contacto simples NO (NO / resistente à água)</name>
+        <name lang="el">Απλή ανοικτή επαφή, στεγανή</name>
         <name lang="en">Simple contact (tight)</name>
         <name lang="it">Contatto semplice NA (stagno)</name>
-        <name lang="el">Απλή ανοικτή επαφή, στεγανή</name>
+        <name lang="fr">Contact simple (étanche)</name>
+        <name lang="pl">Zetyk zwierny (szczelny)</name>
+        <name lang="es">Contactor simple (resistente al agua)</name>
+        <name lang="cs">Vodotěsný kontakt (NO)</name>
+        <name lang="nl">waterdicht enkel (NO)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="-10" x1="-5" x3="0" y2="10" y3="20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" closed="false"/>
-        <line y1="-12" x1="-8.5" y2="12" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="-8.5" end1="none" end2="none" length2="1.5"/>
-        <line y1="-12" x1="8.5" y2="12" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="8.5" end1="none" end2="none" length2="1.5"/>
-        <line y1="-14.5" x1="-6" y2="-14.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="6" end1="none" end2="none" length2="1.5"/>
-        <arc angle="-90" height="5" x="3.5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" width="5" y="-14.5" start="90"/>
-        <arc angle="-90" height="5" x="-8.5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" width="5" y="-14.5" start="-180"/>
-        <arc angle="-90" height="5" x="-8.5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" width="5" y="9.5" start="-90"/>
-        <line y1="14.5" x1="-6" y2="14.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="6" end1="none" end2="none" length2="1.5"/>
-        <arc angle="-90" height="5" x="3.5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" width="5" y="9.5" start="0"/>
-        <dynamic_text z="10" text_width="-1" x="12.75" frame="false" uuid="{a8546438-6f06-498b-8542-635bb230fb5a}" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-9.5" text_from="ElementInfo" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-20" x1="0" y2="-10" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" end2="none" length2="1.5"/>
-        <terminal orientation="n" x="0" type="Generic" uuid="{20e07fd5-4119-409f-92f7-bd4440b2bb43}" name="" y="-21"/>
-        <terminal orientation="s" x="0" type="Generic" uuid="{af6b0ac9-6c58-4ec7-ba34-94faff604bfb}" name="" y="21"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-12" x1="-8.5" y2="12" x2="-8.5"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-12" x1="8.5" y2="12" x2="8.5"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-14.5" x1="-6" y2="-14.5" x2="6"/>
+        <arc width="5" x="3.5" y="-14.5" antialias="true" height="5" style="line-style:normal;line-weight:thin;filling:none;color:black" start="90" angle="-90"/>
+        <arc width="5" x="-8.5" y="-14.5" antialias="true" height="5" style="line-style:normal;line-weight:thin;filling:none;color:black" start="-180" angle="-90"/>
+        <arc width="5" x="-8.5" y="9.5" antialias="true" height="5" style="line-style:normal;line-weight:thin;filling:none;color:black" start="-90" angle="-90"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="14.5" x1="-6" y2="14.5" x2="6"/>
+        <arc width="5" x="3.5" y="9.5" antialias="true" height="5" style="line-style:normal;line-weight:thin;filling:none;color:black" start="0" angle="-90"/>
+        <input x="12.75" y="3" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
     </description>
 </definition>

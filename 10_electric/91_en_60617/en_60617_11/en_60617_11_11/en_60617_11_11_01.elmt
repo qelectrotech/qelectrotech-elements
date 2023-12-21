@@ -1,24 +1,20 @@
-<definition width="110" hotspot_x="104" hotspot_y="45" link_type="simple" type="element" height="50" version="0.100.0">
-    <uuid uuid="{5cf8d4a1-c8cb-4700-9aba-f287c8e278b4}"/>
+<definition link_type="simple" type="element" width="110" height="50" hotspot_x="104" hotspot_y="45" version="0.70">
+    <uuid uuid="{4906f3db-a19d-4e31-971f-0c4501e238b9}"/>
     <names>
-        <name lang="fr">Conducteur neutre</name>
-        <name lang="en">Neutral conductor</name>
-        <name lang="cs">Střední vodič</name>
         <name lang="de">Neutralleiter (N),
 Mittelleite</name>
+        <name lang="fr">Conducteur neutre</name>
+        <name lang="cs">Střední vodič</name>
+        <name lang="en">Neutral conductor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" y="42.5" Valignment="AlignTop" keep_visual_rotation="false" z="1" text_width="-1" text_from="ElementInfo" uuid="{26da248d-918e-4e75-9124-f4ff80444377}" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-20" end1="none" x2="0" antialias="false" x1="-100" length2="1.5" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line y1="0" end1="none" x2="-45" antialias="false" x1="-55" length2="1.5" y2="-40" end2="none" style="line-style:normal;line-weight:normal;filling:black;color:black" length1="1.5"/>
-        <circle x="-46.5" y="-40.5" antialias="false" diameter="3" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal name="" x="-100" y="-20" type="Generic" uuid="{77641a4f-cc42-4be4-9ce4-6b03079fc2f9}" orientation="w"/>
-        <terminal name="" x="0" y="-20" type="Generic" uuid="{94fc06c4-6217-40f6-a920-20b97c871281}" orientation="e"/>
+        <input text="_" tagg="label" size="9" y="55" x="5" rotate="true"/>
+        <line end2="none" end1="none" length1="1.5" y2="-20" length2="1.5" x1="-100" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length1="1.5" y2="-40" length2="1.5" x1="-55" y1="0" x2="-45" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <circle diameter="3" y="-40.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x="-46.5"/>
+        <terminal y="-20" x="-100" orientation="w"/>
+        <terminal y="-20" x="0" orientation="e"/>
     </description>
 </definition>

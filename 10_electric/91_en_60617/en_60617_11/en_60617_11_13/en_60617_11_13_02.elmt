@@ -1,27 +1,21 @@
-<definition hotspot_y="36" type="element" version="0.100.0" height="40" hotspot_x="46" width="50" link_type="simple">
-    <uuid uuid="{613b1d04-8435-4e51-bb45-1ffb4fb9dc61}"/>
+<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="46" width="50" hotspot_y="36">
+    <uuid uuid="{992f2e43-f035-4987-8cc1-956eb66e814a}"/>
     <names>
         <name lang="de">Mehrfachsteckdose</name>
-        <name lang="cs">Vícenásobná zásuvka</name>
         <name lang="fr">Socle pour plusieurs prises de courant
 (puissance)</name>
+        <name lang="cs">Vícenásobná zásuvka</name>
         <name lang="en">Multiple socket outlet (power)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" z="1" text_width="-1" Valignment="AlignTop" rotation="0" frame="false" text_from="ElementInfo" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{61f1c332-22db-4b37-9a52-427f3eabd6b5}" keep_visual_rotation="false" x="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc y="-10" antialias="true" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-20" width="20" angle="180"/>
-        <line antialias="false" end2="none" x1="-10" end1="none" length1="1.5" y1="-30" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" length2="1.5"/>
-        <line antialias="false" end2="none" x1="-40" end1="none" length1="1.5" y1="-30" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" length2="1.5"/>
-        <line antialias="false" end2="none" x1="-10" end1="none" length1="1.5" y1="-5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" length2="1.5"/>
-        <dynamic_text y="-37.5" z="6" text_width="-1" Valignment="AlignTop" rotation="0" frame="false" text_from="UserText" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{49143002-2715-411b-a69a-c53038d7cbe3}" keep_visual_rotation="false" x="0">
-            <text>n</text>
-        </dynamic_text>
-        <terminal y="-30" orientation="w" name="" type="Generic" uuid="{a8f02726-2cd0-4fca-b6e6-bc731c0e13dd}" x="-40"/>
+        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
+        <arc y="-10" height="20" angle="180" antialias="true" x="-20" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-30" y2="-10" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-30" y2="-30" x2="-10" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-5" y2="-15" x2="0" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input rotate="true" y="-25" tagg="none" size="9" x="0" text="n"/>
+        <terminal orientation="w" y="-30" x="-40"/>
     </description>
 </definition>

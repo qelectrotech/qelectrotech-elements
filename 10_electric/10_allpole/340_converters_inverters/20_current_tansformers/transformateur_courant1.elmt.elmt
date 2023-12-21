@@ -1,30 +1,26 @@
-<definition link_type="simple" version="0.100.0" height="40" width="20" hotspot_y="14" hotspot_x="4" type="element">
-    <uuid uuid="{b38dbe58-beeb-48e4-af06-cc21d94b96c6}"/>
-    <names>
-        <name lang="de">Stromwandler, Impulswandler</name>
-        <name lang="it">Trasformatore di corrente o d'impulso</name>
-        <name lang="nl">Stroomtrafo</name>
+<definition width="30" version="0.3" hotspot_x="8" hotspot_y="25" height="50" type="element" ic="true">
+<uuid uuid="{4EF99AD4-A319-45C3-B378-84D0A84641BC}"/><names>
         <name lang="en">Current transformer, pulse transformer</name>
-        <name lang="cs">Proudový nebo impulzní transformátor</name>
+        <name lang="de">Stromwandler, Impulswandler</name>
         <name lang="fr">Transformateur de courant, transformateur d'impulsion</name>
+        <name lang="it">Trasformatore di corrente o d'impulso</name>
         <name lang="pl">Przekładnik (forma 2)</name>
+        <name lang="cs">Proudový nebo impulzní transformátor</name>
+        <name lang="nl">Stroomtrafo</name>
+
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc x="-2.5" antialias="true" y="5" angle="-180" height="5" start="-90" width="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-2.5" antialias="true" y="0" angle="-180" height="5" start="-90" width="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="2" frame="false" y="-23.5" rotation="0" Halignment="AlignLeft" z="3" uuid="{93f5e30b-38e2-4ac5-8113-5764257a6857}" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end2="none" end1="none" antialias="false" y1="0" x1="0" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" length1="1.5"/>
-        <line end2="none" end1="none" antialias="false" y1="10" x1="0" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" length1="1.5"/>
-        <line end2="none" end1="none" antialias="false" y1="-10" x1="0" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5"/>
-        <terminal x="0" y="-10" uuid="{f8fecb33-d640-47b7-9029-933fc2ed3723}" name="" orientation="n" type="Generic"/>
-        <terminal x="10" y="10" uuid="{a1448fc0-ff9c-48e8-8e8e-5f904850ad8d}" name="" orientation="e" type="Generic"/>
-        <terminal x="10" y="0" uuid="{d8edce90-ec44-42b1-bb3b-84f9030845a2}" name="" orientation="e" type="Generic"/>
-        <terminal x="0" y="20" uuid="{089e02e4-867e-4e6d-b1ed-3e03085b1fb9}" name="" orientation="s" type="Generic"/>
+        <arc width="5" x="-2.5" y="5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" angle="-180"/>
+        <arc width="5" x="-2.5" y="0" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" angle="-180"/>
+        <input x="2" y="-11" size="9" rotate="true" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="0" y2="0" x2="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="10" x2="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="0" y2="20" x2="0"/>
+        <terminal x="0" y="-10" number="" name="" orientation="n"/>
+        <terminal x="10" y="10" number="" name="" orientation="e"/>
+        <terminal x="10" y="0" number="" name="" orientation="e"/>
+        <terminal x="0" y="20" number="" name="" orientation="s"/>
     </description>
 </definition>

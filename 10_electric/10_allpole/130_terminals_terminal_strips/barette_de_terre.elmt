@@ -1,31 +1,27 @@
-<definition width="20" type="element" version="0.100.0" height="60" hotspot_x="10" link_type="simple" hotspot_y="29">
-    <uuid uuid="{827f1965-1191-4ba7-8595-357b698d5212}"/>
+<definition width="20" link_type="simple" version="0.5" hotspot_x="10" height="60" hotspot_y="29" type="element">
+    <uuid uuid="{e1463f74-cad0-4ef6-a1f4-beedd55b7d41}"/>
     <names>
-        <name lang="es">Barra de tierra</name>
-        <name lang="en">Ground bar</name>
-        <name lang="hu">Földelősín</name>
-        <name lang="pl">Złącze gniazdowe dwuprzerwowe</name>
-        <name lang="cs">Uzemňovací svorka</name>
-        <name lang="ar">مشبك أرضي</name>
         <name lang="el">Μπάρα γείωσης</name>
-        <name lang="it">Barra di terra</name>
-        <name lang="fr">Barette de terre</name>
+        <name lang="es">Barra de tierra</name>
         <name lang="de">Erdtrennklemme</name>
+        <name lang="cs">Uzemňovací svorka</name>
+        <name lang="pl">Złącze gniazdowe dwuprzerwowe</name>
+        <name lang="it">Barra di terra</name>
+        <name lang="ar">مشبك أرضي</name>
+        <name lang="en">Ground bar</name>
+        <name lang="fr">Barette de terre</name>
+        <name lang="hu">Földelősín</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" y="-11.95" Valignment="AlignTop" x="8" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{042383b1-781b-4c93-b29d-f3a62535a09c}" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-5" end2="none" length2="1.5" length1="1.5" antialias="false" y2="5" x1="0" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc width="10" angle="-180" y="0" height="10" x="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0"/>
-        <line y1="20" end2="none" length2="1.5" length1="1.5" antialias="false" y2="10" x1="0" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" end2="none" length2="1.5" length1="1.5" antialias="false" y2="-20" x1="0" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc width="10" angle="-180" y="-10" height="10" x="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180"/>
-        <terminal orientation="n" type="Generic" y="-21" name="" x="0" uuid="{69773159-51bc-4b4c-a4ec-e272504fbf72}"/>
-        <terminal orientation="s" type="Generic" y="21" name="" x="0" uuid="{c2e71b42-1439-4c30-95ee-75d883368f95}"/>
+        <input x="8" y="0.55" tagg="label" size="9" rotate="true" text="_"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5"/>
+        <arc x="-5" width="10" antialias="true" y="0" angle="-180" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
+        <arc x="-5" width="10" antialias="true" y="-10" angle="-180" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
     </description>
 </definition>

@@ -1,22 +1,18 @@
-<definition type="element" height="30" hotspot_x="44" link_type="simple" width="90" hotspot_y="15" version="0.100.0">
-    <uuid uuid="{a3bf47df-3f5d-46f5-96b8-2d6f3a45f17b}"/>
+<definition hotspot_x="44" version="0.70" height="30" hotspot_y="15" width="90" type="element" link_type="simple">
+    <uuid uuid="{80f3020d-515f-4f85-98fd-bc621da82afd}"/>
     <names>
-        <name lang="en">Screened conductor</name>
+        <name lang="fr">Conducteur sous écran</name>
         <name lang="de">Leiter, geschirmt</name>
         <name lang="cs">Stíněný vodič</name>
-        <name lang="fr">Conducteur sous écran</name>
+        <name lang="en">Screened conductor</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" z="1" uuid="{a0b0512b-a67f-40bc-b68f-7bb29de1be95}" frame="false" text_width="-1" y="2.5" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo" keep_visual_rotation="false" x="5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end2="none" y2="0" length2="1.5" y1="0" end1="none" antialias="false" x1="-40" x2="40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle antialias="false" diameter="20" y="-10" x="-10" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
-        <terminal type="Generic" uuid="{529caaf0-166b-47c7-b372-4ef74bbc61c5}" name="" orientation="e" y="0" x="40"/>
-        <terminal type="Generic" uuid="{647d3bc9-d00e-4c71-93f6-4c4ac80f0607}" name="" orientation="w" y="0" x="-40"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
+        <circle y="-10" x="-10" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="20"/>
+        <terminal y="0" x="40" orientation="e"/>
+        <terminal y="0" x="-40" orientation="w"/>
     </description>
 </definition>

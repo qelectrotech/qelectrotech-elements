@@ -1,25 +1,21 @@
-<definition version="0.100.0" type="element" hotspot_x="144" width="150" height="30" link_type="simple" hotspot_y="12">
-    <uuid uuid="{481b4378-8e99-4a6e-92e8-37bdeb1165a4}"/>
+<definition type="element" width="150" version="0.70" hotspot_y="20" height="40" link_type="simple" hotspot_x="144">
+    <uuid uuid="{844d8b1d-38bc-4a52-acce-b7acd69efcee}"/>
     <names>
-        <name lang="en">Line with gas or oil block by-pass</name>
         <name lang="fr">Ligne avec bouchon d'étanchéité à gaz ou
 d'huile, avec contournement</name>
         <name lang="de">Leiter mit Umgehung der Abschottung von Gas
 oder Öl</name>
         <name lang="cs">Vedení s přemostěním plynotěsné nebo olejotěsné přepážky</name>
+        <name lang="en">Line with gas or oil block by-pass</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text keep_visual_rotation="false" uuid="{06a19886-0591-4992-9010-2b2c5215d266}" frame="false" z="1" y="12.5" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" rotation="0" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y2="0" y1="0" length2="1.5" antialias="false" x2="-140" length1="1.5" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <line y2="10" y1="-10" length2="1.5" antialias="false" x2="-70" length1="1.5" end2="none" x1="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <arc start="0" antialias="true" width="30" height="30" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" x="-85"/>
-        <terminal uuid="{adb9cc7e-227f-45e7-a469-25f431103712}" type="Generic" name="" y="0" orientation="w" x="-140"/>
-        <terminal uuid="{9c785dd3-098e-4e55-8925-f191e153e81a}" type="Generic" name="" y="0" orientation="e" x="0"/>
+        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
+        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
+        <line x2="-70" end2="none" antialias="false" end1="none" length2="1.5" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-70" y1="-10" length1="1.5"/>
+        <arc antialias="true" width="30" x="-85" angle="-180" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" start="0"/>
+        <terminal x="-140" orientation="w" y="0"/>
+        <terminal x="0" orientation="e" y="0"/>
     </description>
 </definition>

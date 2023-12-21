@@ -1,31 +1,26 @@
-<definition link_type="simple" width="30" height="50" hotspot_x="24" hotspot_y="24" type="element" version="0.100.0">
-    <uuid uuid="{6a926057-1f15-4d40-aeb2-c27ced12fc59}"/>
-    <names>
-        <name lang="fr">Transistor bipolaire à grille isolée IGBT</name>
-        <name lang="de">Bipolar Transistor IGBT</name>
-        <name lang="pl">Tranzystor biopolarny IGBT</name>
-        <name lang="en">Bipolar transistor IGBT</name>
-        <name lang="nl">transistor bipolare IGBT</name>
+<definition width="50" version="0.3" hotspot_x="30" hotspot_y="25" height="50" type="element" orientation="dnny">
+<uuid uuid="{D54999F6-6266-43CD-9E5E-8C2ED592429D}"/><names>
         <name lang="ar">ترنزيستور ثنائي القطبيّة ببوابة معزولة IBGT</name>
+        <name lang="de">Bipolar Transistor IGBT</name>
+        <name lang="en">Bipolar transistor IGBT</name>
+        <name lang="fr">Transistor bipolaire à grille isolée IGBT</name>
+        <name lang="pl">Tranzystor biopolarny IGBT</name>
         <name lang="cs">Bipolární tranzistor IGBT</name>
         <name lang="it">transistor bipolare IGBT</name>
+        <name lang="nl">transistor bipolare IGBT</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y3="12" y2="10" y4="6" x3="0" y1="6" style="line-style:normal;line-weight:thin;filling:black;color:black" antialias="true" x2="-6" x4="-2" x1="-2"/>
-        <polygon y3="20" y2="12" x3="0" y1="3" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x2="0" x1="-9"/>
-        <line end1="none" y2="0" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" length2="1.5" x2="-20" x1="-11"/>
-        <polygon y3="-20" y2="-12" x3="0" y1="-3" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" x1="-9"/>
-        <line end1="none" y2="5" end2="none" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" length2="1.5" x2="-11" x1="-11"/>
-        <line end1="none" y2="5" end2="none" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" length2="1.5" x2="-9.5" x1="-9.5"/>
-        <dynamic_text x="3" y="-8.8334" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{17f4004f-51eb-4cf8-a733-8eb875222bf0}" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" z="7" rotation="0" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="0" name="" y="-20" type="Generic" uuid="{8d194cbb-6f1c-4904-b190-737744eab2f7}" orientation="n"/>
-        <terminal x="0" name="" y="20" type="Generic" uuid="{63d142ac-523a-4e3c-a833-dae6f732e3c6}" orientation="s"/>
-        <terminal x="-20" name="" y="0" type="Generic" uuid="{cfacc875-65ad-42e7-a272-db421d57d1cd}" orientation="w"/>
+        <polygon x4="-2" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="6" x1="-2" y2="10" x2="-6" y3="12" x3="0" y4="6"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="3" x1="-9" y2="12" x2="0" y3="20" x3="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-11" y2="0" x2="-20"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-3" x1="-9" y2="-12" x2="0" y3="-20" x3="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="-11" y2="5" x2="-11"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="-9.5" y2="5" x2="-9.5"/>
+        <input x="3" y="3.6666" size="9" text="_" tagg="label"/>
+        <terminal x="0" y="-20" orientation="n"/>
+        <terminal x="0" y="20" orientation="s"/>
+        <terminal x="-20" y="0" orientation="w"/>
     </description>
 </definition>

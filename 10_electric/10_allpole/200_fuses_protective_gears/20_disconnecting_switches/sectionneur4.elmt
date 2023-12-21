@@ -1,44 +1,39 @@
-<definition link_type="master" hotspot_y="29" type="element" version="0.100.0" height="60" width="40" hotspot_x="11">
-    <uuid uuid="{432a88a4-4940-47d5-bec7-a5344c9363a8}"/>
-    <names>
-        <name lang="es">Seccionador 3P</name>
+<definition width="40" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" link_type="master">
+<uuid uuid="{C8F71538-24D4-4196-9591-99412F46C78E}"/><names>
+        <name lang="ar">مفتاح عزل</name>
         <name lang="de">Lasttrenner 3-polig</name>
-        <name lang="pl">Odłącznik</name>
+        <name lang="ru">Разъеденитель</name>
+        <name lang="pt">Seccionador</name>
+        <name lang="en">break isolator</name>
         <name lang="it">Sezionatore 3P</name>
         <name lang="fr">Sectionneur</name>
+        <name lang="pl">Odłącznik</name>
+        <name lang="es">Seccionador 3P</name>
         <name lang="cs">Odpínač 3P</name>
-        <name lang="ru">Разъеденитель</name>
-        <name lang="ar">مفتاح عزل</name>
-        <name lang="hu">Szakaszoló kapcsoló 3 pólusú</name>
         <name lang="nl">Lastschakelaar</name>
-        <name lang="en">break isolator</name>
-        <name lang="pt">Seccionador</name>
+        <name lang="hu">Szakaszoló kapcsoló 3 pólusú</name>
     </names>
     <kindInformations>
-        <kindInformation name="type">protection</kindInformation>
+        <kindInformation name="type" show="1">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="-10" antialias="true" y3="20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" x2="0" y2="10" x3="0"/>
-        <polygon y1="-10" antialias="true" y3="20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" x2="20" y2="10" x3="20"/>
-        <polygon y1="-10" antialias="true" y3="20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" x2="10" y2="10" x3="10"/>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" y="-9.5" text_width="-1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="4" uuid="{ef243135-1d02-4eb5-b154-e924537dcf48}" frame="false" keep_visual_rotation="false" x="22.75" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-20" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" y2="-10" length1="1.5"/>
-        <line y1="-10" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="2" x2="-2" y2="-10" length1="1.5"/>
-        <line y1="-20" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" x2="10" y2="-10" length1="1.5"/>
-        <line y1="-10" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="12" x2="8" y2="-10" length1="1.5"/>
-        <line y1="-20" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" x2="20" y2="-10" length1="1.5"/>
-        <line y1="-10" antialias="false" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="22" x2="18" y2="-10" length1="1.5"/>
-        <terminal orientation="n" y="-21" type="Generic" name="" uuid="{e2be841e-9691-4272-a829-926254b1e7cd}" x="0"/>
-        <terminal orientation="s" y="21" type="Generic" name="" uuid="{40b2de5c-b4c2-4bc9-9173-7799eaa7796b}" x="0"/>
-        <terminal orientation="n" y="-21" type="Generic" name="" uuid="{a444df8a-bf81-4541-9471-1a67d9a65159}" x="20"/>
-        <terminal orientation="s" y="21" type="Generic" name="" uuid="{d154af0d-3045-4f35-994c-8b7e4b6b573c}" x="20"/>
-        <terminal orientation="n" y="-21" type="Generic" name="" uuid="{cff2aece-eb75-4991-b343-1d7c5b4633c0}" x="10"/>
-        <terminal orientation="s" y="21" type="Generic" name="" uuid="{80dde00b-f822-43d6-bed6-d39bfe94fcfd}" x="10"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="15" y2="10" x2="20" y3="20" x3="20"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="5" y2="10" x2="10" y3="20" x3="10"/>
+        <input x="22.75" y="3" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="2" y2="-10" x2="-2"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="12" y2="-10" x2="8"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="20" y2="-10" x2="20"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="22" y2="-10" x2="18"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
+        <terminal x="20" y="-21" orientation="n"/>
+        <terminal x="20" y="21" orientation="s"/>
+        <terminal x="10" y="-21" orientation="n"/>
+        <terminal x="10" y="21" orientation="s"/>
     </description>
 </definition>

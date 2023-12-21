@@ -1,30 +1,28 @@
-<definition height="50" link_type="simple" hotspot_x="10" hotspot_y="24" version="0.100.0" type="element" width="20">
-    <uuid uuid="{e232f309-e5b1-45a3-896d-56b5508bb6f9}"/>
-    <names>
-        <name lang="cs">Varistor</name>
+<definition width="50" version="0.22" hotspot_x="15" hotspot_y="25" height="50" type="element">
+<uuid uuid="{60D04F0A-33D9-4667-B31D-60CFBDAA42DA}"/><names>
+        <name lang="en">Metal-Oxide Varistor</name>
         <name lang="es">Varistor oxido-metal</name>
         <name lang="fr">Varistance Metal-Oxide</name>
-        <name lang="hu">Fém-oxid varisztor</name>
         <name lang="de">Varistor</name>
         <name lang="pl">Warystor</name>
-        <name lang="nl">Varistor Metal-oxide</name>
-        <name lang="en">Metal-Oxide Varistor</name>
+        <name lang="cs">Varistor</name>
         <name lang="it">Varistore Metal-oxide</name>
+        <name lang="nl">Varistor Metal-oxide</name>
+        <name lang="hu">Fém-oxid varisztor</name>
     </names>
-    <elementInformations/>
+    <kindInformations>
+        <kindInformation name="type" show="1">protection</kindInformation>
+    </kindInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="20" length1="1.5" x2="0" x1="0" end2="none" length2="1.5"/>
-        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-20" length1="1.5" x2="0" x1="0" end2="none" length2="1.5"/>
-        <line y1="6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="true" y2="-10" length1="1.5" x2="-7" x1="7" end2="none" length2="1.5"/>
-        <line y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="true" y2="6" length1="1.5" x2="7" x1="7" end2="none" length2="1.5"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4" height="20" antialias="true" y="-10" ry="0" rx="0" width="8"/>
-        <dynamic_text x="10.5" text_from="ElementInfo" text_width="-1" rotation="0" z="6" frame="false" Halignment="AlignLeft" Valignment="AlignTop" y="-10.1667" uuid="{e40c8dfb-ca5c-40f6-9965-0f9e43bc3b1c}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="0" name="" y="-20" uuid="{6aca203a-c153-422a-aaf3-f16ded6afc58}" orientation="n" type="Generic"/>
-        <terminal x="0" name="" y="20" uuid="{73a50397-64c8-4c53-9cc5-a1a2348d82aa}" orientation="s" type="Generic"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="20" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="0" y2="-20" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="6" x1="7" y2="-10" x2="-7"/>
+        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="7" y2="6" x2="7"/>
+        <rect width="8" x="-4" y="-10" antialias="true" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input x="10.5" y="2.33333" size="9" rotate="true" text="_" tagg="label"/>
+        <terminal x="0" y="-20" orientation="n"/>
+        <terminal x="0" y="20" orientation="s"/>
     </description>
 </definition>

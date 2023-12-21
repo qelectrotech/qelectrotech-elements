@@ -1,24 +1,20 @@
-<definition version="0.100.0" width="20" link_type="simple" hotspot_x="13" type="element" hotspot_y="44" height="70">
-    <uuid uuid="{ca7af7cc-4e86-41bc-ac9e-68a39b1a95e4}"/>
+<definition link_type="simple" type="element" width="20" hotspot_y="44" height="70" version="0.70" hotspot_x="13">
+    <uuid uuid="{7aca8cd4-b1b3-4794-9021-2e7532514e1d}"/>
     <names>
-        <name lang="de">Schließer</name>
         <name lang="fr">Contact à fermeture (contact de travail)</name>
-        <name lang="en">Make contact, general symbol; Switch, general symbol</name>
+        <name lang="de">Schließer</name>
         <name lang="cs">Zapínací kontakt</name>
+        <name lang="en">Make contact, general symbol; Switch, general symbol</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-2" diameter="4" antialias="false" y="-2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" x1="0" x2="0" end2="none" length1="1.5" y2="-40" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="2" x1="0" x2="0" end2="none" length1="1.5" y2="20" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-2" x1="-1" x2="-8" end2="none" length1="1.5" y2="-23" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" text_from="ElementInfo" rotation="0" text_width="-1" Halignment="AlignLeft" z="5" Valignment="AlignTop" uuid="{17cbeab0-299c-445c-bd44-7e4c553270f0}" y="12.5">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal x="0" orientation="n" name="" type="Generic" uuid="{5f4a856b-5f97-4981-8c9a-99386d27cf34}" y="-40"/>
-        <terminal x="0" orientation="s" name="" type="Generic" uuid="{9cae2a2f-81db-448a-9dac-f5a71557e9d2}" y="20"/>
+        <circle antialias="false" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2" y="-2"/>
+        <line x2="0" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-40" length2="1.5"/>
+        <line x2="0" antialias="false" y1="2" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" length2="1.5"/>
+        <line x2="-8" antialias="false" y1="-2" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-1" y2="-23" length2="1.5"/>
+        <input rotate="true" tagg="label" text="_" size="9" x="5" y="25"/>
+        <terminal orientation="n" x="0" y="-40"/>
+        <terminal orientation="s" x="0" y="20"/>
     </description>
 </definition>

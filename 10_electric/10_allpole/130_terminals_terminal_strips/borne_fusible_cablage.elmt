@@ -1,44 +1,32 @@
-<definition type="element" height="90" hotspot_x="5" hotspot_y="14" link_type="simple" width="10" version="0.100.0">
-    <uuid uuid="{d1f565f4-3a0b-48b4-b442-4ca71009b061}"/>
+<definition width="10" link_type="simple" version="0.5" hotspot_x="5" height="90" hotspot_y="14" type="element">
+    <uuid uuid="{c419294c-f582-48ff-ada2-d1129abb2939}"/>
     <names>
-        <name lang="pl">Złącze bezpiecznikowe</name>
-        <name lang="hu">Sorkapocs-biztosíték</name>
-        <name lang="nl">klem met zekering</name>
-        <name lang="fr">Borne fusible cablage</name>
-        <name lang="ar">طرف ربط مصهر</name>
-        <name lang="cs">Svorkovnice s pojistkou</name>
-        <name lang="de">Sicherungsklemme</name>
-        <name lang="it">Terminale con fusibile</name>
         <name lang="es">Terminal fusible</name>
+        <name lang="nl">klem met zekering</name>
+        <name lang="de">Sicherungsklemme</name>
+        <name lang="cs">Svorkovnice s pojistkou</name>
+        <name lang="pl">Złącze bezpiecznikowe</name>
+        <name lang="it">Terminale con fusibile</name>
+        <name lang="ar">طرف ربط مصهر</name>
         <name lang="en">Terminal fuse</name>
+        <name lang="fr">Borne fusible cablage</name>
+        <name lang="hu">Sorkapocs-biztosíték</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" uuid="{84fb5a2d-2795-4486-9153-11d8d4c5a5ea}" x="10" frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" z="1" Valignment="AlignTop" y="12.1667" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-3" height="25" ry="0" antialias="false" width="6" rx="0" y="17"/>
-        <dynamic_text rotation="0" uuid="{652efa79-e874-407e-95e2-a2ff90b31297}" x="5" frame="false" keep_visual_rotation="false" font="Sans Serif,7,-1,5,50,0,0,0,0,0" text_from="UserText" text_width="-1" z="3" Valignment="AlignTop" y="57.5" Halignment="AlignLeft">
-            <text>_</text>
-        </dynamic_text>
-        <dynamic_text rotation="0" uuid="{bb2c6887-99c5-494e-84a3-0c3b831c6af8}" x="5" frame="false" keep_visual_rotation="false" font="Sans Serif,7,-1,5,50,0,0,0,0,0" text_from="UserText" text_width="-1" z="4" Valignment="AlignTop" y="-2.5" Halignment="AlignLeft">
-            <text>_</text>
-        </dynamic_text>
-        <dynamic_text rotation="0" uuid="{c710c999-a81e-407c-8205-e3de6b9ad595}" x="5" frame="false" keep_visual_rotation="false" font="Sans Serif,10,-1,5,50,0,0,0,0,0" text_from="UserText" text_width="-1" z="5" Valignment="AlignTop" y="42" Halignment="AlignLeft">
-            <text>_</text>
-        </dynamic_text>
-        <dynamic_text rotation="0" uuid="{5f504930-4df3-4a11-ba7e-3dceed1f4b74}" x="5" frame="false" keep_visual_rotation="false" font="Sans Serif,10,-1,5,50,0,0,0,0,0" text_from="UserText" text_width="-1" z="6" Valignment="AlignTop" y="-18" Halignment="AlignLeft">
-            <text>_</text>
-        </dynamic_text>
-        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="57" length1="1.5" antialias="false" y2="3" end1="none" end2="none" length2="1.5"/>
-        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="70" length1="1.5" antialias="false" y2="63" end1="none" end2="none" length2="1.5"/>
-        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-10" length1="1.5" antialias="false" y2="-3" end1="none" end2="none" length2="1.5"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5" antialias="true" diameter="5" y="57.5"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5" antialias="true" diameter="5" y="-2.5"/>
-        <terminal uuid="{bd7e57a5-c912-4b66-a00d-99c5bf30409f}" x="0" type="Generic" name="" orientation="n" y="-10"/>
-        <terminal uuid="{3f8322e0-492e-4ec6-8bd7-5b2d8373ec50}" x="0" type="Generic" name="" orientation="s" y="70"/>
+        <input x="10" y="24.6667" tagg="label" size="9" rotate="true" text="F_"/>
+        <rect x="-3" width="6" antialias="false" y="17" height="25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input x="5" y="68" tagg="none" size="7" text="_"/>
+        <input x="5" y="8" tagg="none" size="7" text="_"/>
+        <input x="5" y="55" tagg="none" size="10" text="_"/>
+        <input x="5" y="-5" tagg="none" size="10" text="_"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="3" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="57"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="63" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="70"/>
+        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="-3" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
+        <circle x="-2.5" antialias="true" y="57.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle x="-2.5" antialias="true" y="-2.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="0" y="-10" orientation="n"/>
+        <terminal x="0" y="70" orientation="s"/>
     </description>
 </definition>

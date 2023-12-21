@@ -1,23 +1,19 @@
-<definition link_type="simple" height="40" hotspot_x="15" hotspot_y="25" type="element" version="0.100.0" width="30">
-    <uuid uuid="{5b956e45-e14a-4c3c-b8f4-87eb57fc4c87}"/>
+<definition hotspot_x="15" version="0.70" height="40" hotspot_y="25" width="30" type="element" link_type="simple">
+    <uuid uuid="{0f543135-7168-436b-ba70-89711e994a1f}"/>
     <names>
-        <name lang="cs">Přeskok, Průraz izolace</name>
         <name lang="fr">Défaut d'isolement</name>
         <name lang="de">Isolationsfehler Überschlag</name>
-        <name lang="en">Flashover; Break-through</name>
         <name lang="es">Rollover de falla de aislamiento</name>
+        <name lang="cs">Přeskok, Průraz izolace</name>
+        <name lang="en">Flashover; Break-through</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="5" text_from="ElementInfo" frame="false" y="2.5" rotation="0" z="1" text_width="-1" Valignment="AlignTop" uuid="{6a197da8-d24c-4011-bd95-e40addba8bdc}">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="0" length1="1.5" x2="-6"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" length2="1.5" end2="none" end1="none" y1="0" antialias="false" x1="-6" length1="1.5" x2="6"/>
-        <line style="line-style:normal;line-weight:normal;filling:black;color:black" y2="10" length2="1.5" end2="triangle" end1="none" y1="-10" antialias="false" x1="6" length1="1.5" x2="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="-10" length1="1.5" x2="10"/>
+        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
+        <line x2="-6" y2="0" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
+        <line x2="6" y2="-10" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6"/>
+        <line x2="0" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="6"/>
+        <line x2="10" y2="-20" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
     </description>
 </definition>

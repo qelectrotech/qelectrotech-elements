@@ -1,33 +1,29 @@
-<definition height="40" version="0.100.0" type="element" hotspot_x="14" link_type="simple" width="30" hotspot_y="24">
-    <uuid uuid="{8913b563-704d-4fb4-962c-c03b4c145a06}"/>
+<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="40" hotspot_y="24">
+    <uuid uuid="{1e3ecfb4-54d0-4e8b-b312-7341d851531d}"/>
     <names>
+        <name lang="cs">Trojcestný ventil s pohonem</name>
+        <name lang="pl">Zawór trójdrożny z napędem</name>
+        <name lang="it">Valvola 3vie motorizzata</name>
+        <name lang="en">3-way motorized valve</name>
+        <name lang="es">Válvula motorizada de 3 vías</name>
+        <name lang="nl">klep motor 3</name>
         <name lang="ar">صمّام ب 3 مسارات مُحرّك</name>
         <name lang="fr">Vanne 3 Voies motorisée</name>
-        <name lang="en">3-way motorized valve</name>
-        <name lang="pl">Zawór trójdrożny z napędem</name>
-        <name lang="es">Válvula motorizada de 3 vías</name>
-        <name lang="cs">Trojcestný ventil s pohonem</name>
-        <name lang="nl">klep motor 3</name>
-        <name lang="it">Valvola 3vie motorizzata</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-10" y5="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-5" y4="-9" x4="5" x2="-10" x5="10" y6="-17" antialias="true" closed="false" y3="-9" y1="-17" y2="-10" x6="10"/>
-        <line x1="1" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="1" length1="1.5" length2="1.5" antialias="false" y1="-9" end2="none" y2="-1" end1="none"/>
-        <line x1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-1" length1="1.5" length2="1.5" antialias="false" y1="-9" end2="none" y2="-1" end1="none"/>
-        <polygon x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="6" y4="0" x4="0" x2="-6" antialias="true" y3="10" y1="0" y2="10"/>
-        <polygon x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" y4="0" x4="0" x2="10" antialias="true" y3="6" y1="0" y2="-6"/>
-        <polygon x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-10" y4="0" x4="0" x2="-10" antialias="true" y3="6" y1="0" y2="-6"/>
-        <arc height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" start="-180" x="-10" y="-20" antialias="true" width="20"/>
-        <dynamic_text text_width="-1" rotation="0" x="-9" frame="false" y="-38" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="8" uuid="{d6962717-5590-4cb5-8df1-8c64ee1b27b4}" text_from="ElementInfo" keep_visual_rotation="false" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal type="Generic" name="" x="-10" y="0" orientation="w" uuid="{4b2202a0-abe1-47ca-b37a-ec96ea8c1f69}"/>
-        <terminal type="Generic" name="" x="10" y="0" orientation="e" uuid="{19ec107c-99ae-45af-bcdf-f8efdf0a0c7a}"/>
-        <terminal type="Generic" name="" x="0" y="10" orientation="s" uuid="{76b5f61e-7104-49bf-b0c9-0da95ece70e5}"/>
-        <terminal type="Generic" name="" x="0" y="-20" orientation="n" uuid="{e1a7500c-e1f3-4247-9ffe-f06a9bf88b98}"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x4="5" x6="10" antialias="true" y6="-17" y5="-10" y1="-17" x1="-10" closed="false" x3="-5" y3="-9" y4="-9" x2="-10" x5="10"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-1" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-9" x1="1" x2="1"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-1" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-9" x1="-1" x2="-1"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x4="0" antialias="true" y1="0" x1="0" x3="6" y3="10" y4="0" x2="-6"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" x4="0" antialias="true" y1="0" x1="0" x3="10" y3="6" y4="0" x2="10"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" x4="0" antialias="true" y1="0" x1="0" x3="-10" y3="6" y4="0" x2="-10"/>
+        <arc width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-20" x="-10" height="4"/>
+        <input tagg="label" size="6" y="-28" x="-9" text="V0"/>
+        <terminal y="0" x="-10" orientation="w"/>
+        <terminal y="0" x="10" orientation="e"/>
+        <terminal y="10" x="0" orientation="s"/>
+        <terminal y="-20" x="0" orientation="n"/>
     </description>
 </definition>

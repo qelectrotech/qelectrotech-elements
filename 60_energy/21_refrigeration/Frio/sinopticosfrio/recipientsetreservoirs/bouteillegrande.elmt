@@ -1,35 +1,31 @@
-<definition width="50" type="element" hotspot_x="24" height="30" hotspot_y="14" link_type="simple" version="0.100.0">
-    <uuid uuid="{154b4e2b-4ac6-4afd-abea-271ba7660a7c}"/>
+<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="30" hotspot_y="14">
+    <uuid uuid="{0356f3f4-a074-4ef9-8662-b312389aa5cc}"/>
     <names>
-        <name lang="pl">Duża butla</name>
-        <name lang="nl">Grote tank</name>
+        <name lang="cs">Velká láhev</name>
         <name lang="it">Bottiglia grande</name>
+        <name lang="pl">Duża butla</name>
+        <name lang="en">Large bottle</name>
+        <name lang="nl">Grote tank</name>
+        <name lang="ar">قارورة كبيرة</name>
         <name lang="fr">Bouteille grande</name>
         <name lang="el">Μεγάλη φιάλη</name>
-        <name lang="ar">قارورة كبيرة</name>
-        <name lang="cs">Velká láhev</name>
-        <name lang="en">Large bottle</name>
     </names>
-    <elementInformations/>
     <informations>Rotation possible</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" uuid="{4cb40d89-7eae-41a0-8579-231f68035af7}" text_width="-1" frame="false" keep_visual_rotation="false" Halignment="AlignLeft" x="-23" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" z="1" Valignment="AlignTop" y="-31.95">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" x2="17" y2="7" end1="none" end2="none" length1="1.5" x1="-17" y1="7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line length2="1.5" x2="17" y2="-7" end1="none" end2="none" length1="1.5" x1="-17" y1="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc width="5" start="90" angle="-180" height="14" x="15" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc width="5" start="-90" angle="-180" height="14" x="-20" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <terminal type="Generic" uuid="{cebeb998-921c-4610-8c65-55edbe20da59}" name="" orientation="s" x="-10" y="7"/>
-        <terminal type="Generic" uuid="{51d3b405-a07a-4741-b6e4-79570962a224}" name="" orientation="s" x="10" y="7"/>
-        <terminal type="Generic" uuid="{a6a88e91-cfae-466e-a170-c0838bd813a8}" name="" orientation="n" x="10" y="-7"/>
-        <terminal type="Generic" uuid="{7c191516-fa36-4aac-8f5a-f380e5493ba9}" name="" orientation="n" x="-10" y="-7"/>
-        <terminal type="Generic" uuid="{59fde230-0ce6-4a57-98aa-715fd46a08f4}" name="" orientation="n" x="0" y="-7"/>
-        <terminal type="Generic" uuid="{a3f4206b-c74c-4621-ac32-287f797d7c74}" name="" orientation="e" x="19" y="4"/>
-        <terminal type="Generic" uuid="{c5d5c22d-301d-4c30-8e38-bd38653edb36}" name="" orientation="s" x="0" y="7"/>
-        <terminal type="Generic" uuid="{303636da-11de-4af0-a3b4-a243f7679352}" name="" orientation="e" x="19" y="-4"/>
-        <terminal type="Generic" uuid="{b60df257-549e-47e5-903d-daea525fcc17}" name="" orientation="e" x="20" y="0"/>
-        <terminal type="Generic" uuid="{22ec06a5-d811-487e-bc23-79dd6e5275d7}" name="" orientation="w" x="-20" y="0"/>
+        <input tagg="label" rotate="true" size="9" y="-19.45" x="-23" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="7" x1="-17" x2="17"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-7" x1="-17" x2="17"/>
+        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-7" x="15" height="14"/>
+        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-7" x="-20" height="14"/>
+        <terminal y="7" x="-10" orientation="s"/>
+        <terminal y="7" x="10" orientation="s"/>
+        <terminal y="-7" x="10" orientation="n"/>
+        <terminal y="-7" x="-10" orientation="n"/>
+        <terminal y="-7" x="0" orientation="n"/>
+        <terminal y="4" x="19" orientation="e"/>
+        <terminal y="7" x="0" orientation="s"/>
+        <terminal y="-4" x="19" orientation="e"/>
+        <terminal y="0" x="20" orientation="e"/>
+        <terminal y="0" x="-20" orientation="w"/>
     </description>
 </definition>

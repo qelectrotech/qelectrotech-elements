@@ -1,25 +1,21 @@
-<definition version="0.100.0" type="element" link_type="simple" hotspot_x="39" hotspot_y="14" height="30" width="50">
-    <uuid uuid="{7092503b-8be3-4e49-8207-353a201fc767}"/>
+<definition link_type="simple" type="element" width="50" hotspot_y="14" height="30" version="0.70" hotspot_x="39">
+    <uuid uuid="{b77a5249-6577-4746-9984-fa0dee94359a}"/>
     <names>
         <name lang="fr">Actionné par effet électromagnétique</name>
+        <name lang="es">Accionado por efecto electromagnetico</name>
         <name lang="de">ausgelöst durch elektromagnetischen Effekt</name>
         <name lang="cs">Elektromagnetické uvádění do činnosti</name>
-        <name lang="es">Accionado por efecto electromagnetico</name>
         <name lang="en">Actuator (actuated by electromagnetic effect)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{c6aad3a7-b204-4fdd-b84a-c9bbd47b3aec}" frame="false" text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" text_from="ElementInfo" x="5" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line end1="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y1="0" antialias="false" y2="0" x2="6" x1="-14" length2="1.5"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" x="-34" antialias="false" height="10" width="20" rx="0" ry="0"/>
-        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-5" antialias="false" y2="-10" x2="-24" x1="-24" length2="1.5"/>
-        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="5" antialias="false" y2="10" x2="-24" x1="-24" length2="1.5"/>
-        <terminal uuid="{b88e7db0-d731-4198-826f-481e2b779e0f}" type="Generic" y="-10" x="-24" name="" orientation="n"/>
-        <terminal uuid="{e36eb433-c412-4739-8e96-02e6637f47a0}" type="Generic" y="10" x="-24" name="" orientation="s"/>
+        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
+        <line x2="6" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-14" y2="0" length2="1.5"/>
+        <rect antialias="false" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" x="-34" y="-5"/>
+        <line x2="-24" antialias="false" y1="-5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-24" y2="-10" length2="1.5"/>
+        <line x2="-24" antialias="false" y1="5" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-24" y2="10" length2="1.5"/>
+        <terminal orientation="n" x="-24" y="-10"/>
+        <terminal orientation="s" x="-24" y="10"/>
     </description>
 </definition>

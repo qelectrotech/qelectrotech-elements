@@ -1,38 +1,34 @@
-<definition link_type="simple" version="0.100.0" type="element" hotspot_x="29" hotspot_y="24" width="60" height="40">
-    <uuid uuid="{2502969d-a37f-4ded-86b2-12f7e7e2c0c1}"/>
+<definition height="40" type="element" width="60" hotspot_x="29" link_type="simple" version="0.5" hotspot_y="24">
+    <uuid uuid="{f5ce6c87-df26-4427-b696-2bec1a0c546f}"/>
     <names>
+        <name lang="ar">محوّل ضغط / تيّار</name>
         <name lang="es">Convertidor de presión/power</name>
         <name lang="pt">Conversor de pressão</name>
-        <name lang="ar">محوّل ضغط / تيّار</name>
-        <name lang="it">Convertitore pressione/corrente</name>
-        <name lang="de">Messumformer Druck/Strom</name>
-        <name lang="en">Pressure converter / power</name>
         <name lang="pl">Przetwornik ciśnienia</name>
         <name lang="el">Μετατροπέας πίεσης / ισχύος</name>
-        <name lang="nl">Stroom/Druk omzetter</name>
         <name lang="fr">Convertisseur pression/courant</name>
+        <name lang="de">Messumformer Druck/Strom</name>
         <name lang="cs">Tlakově-elektrický převodník</name>
+        <name lang="en">Pressure converter / power</name>
+        <name lang="it">Convertitore pressione/corrente</name>
+        <name lang="nl">Stroom/Druk omzetter</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-37" z="1" uuid="{e4b2710f-0ac5-463a-9fa5-34c432d08340}" text_from="ElementInfo" rotation="0" font="Sans Serif,6,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" Valignment="AlignTop" x="1" keep_visual_rotation="false" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text y="8" rotation="0" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="a" x="5"/>
-        <text y="3" rotation="0" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="P" x="2"/>
-        <line x2="-4" y2="-18" length1="1.5" length2="1.5" x1="-11" y1="-7" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <polygon y4="10" x4="-15" x2="15" y2="-20" y3="10" x1="-15" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="15" antialias="false"/>
-        <line x2="-20" y2="-10" length1="1.5" length2="1.5" x1="-15" y1="-10" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="15" y2="0" length1="1.5" length2="1.5" x1="20" y1="0" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="20" y2="-10" length1="1.5" length2="1.5" x1="15" y1="-10" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="-15" y2="0" length1="1.5" length2="1.5" x1="-20" y1="0" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x2="-15" y2="8" length1="1.5" length2="1.5" x1="12.5" y1="-19.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal y="0" uuid="{bca97605-22d4-4a2c-82fa-a14a41e64da4}" orientation="e" type="Generic" x="21" name=""/>
-        <terminal y="-10" uuid="{af58fe31-a3c7-4bbd-a10f-29a72610f505}" orientation="e" type="Generic" x="21" name=""/>
-        <terminal y="0" uuid="{85ca64d8-87b1-4026-bf4b-75a845d37767}" orientation="w" type="Generic" x="-21" name=""/>
-        <terminal y="-10" uuid="{f3d6beb1-1c72-41e0-834c-02eeddd99030}" orientation="w" type="Generic" x="-21" name=""/>
+        <input tagg="label" size="6" rotate="true" text="_" x="1" y="-27"/>
+        <text size="6" text="a" x="5" y="8"/>
+        <text size="9" text="P" x="2" y="3"/>
+        <line y1="-7" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x2="-4" y2="-18" length1="1.5" end2="none" x1="-11"/>
+        <polygon y1="-20" x3="15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="15" y3="10" y2="-20" x4="-15" y4="10" x1="-15"/>
+        <line y1="-10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-20" y2="-10" length1="1.5" end2="none" x1="-15"/>
+        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="15" y2="0" length1="1.5" end2="none" x1="20"/>
+        <line y1="-10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="20" y2="-10" length1="1.5" end2="none" x1="15"/>
+        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-15" y2="0" length1="1.5" end2="none" x1="-20"/>
+        <line y1="-19.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-15" y2="8" length1="1.5" end2="none" x1="12.5"/>
+        <terminal orientation="e" x="21" y="0"/>
+        <terminal orientation="e" x="21" y="-10"/>
+        <terminal orientation="w" x="-21" y="0"/>
+        <terminal orientation="w" x="-21" y="-10"/>
     </description>
 </definition>

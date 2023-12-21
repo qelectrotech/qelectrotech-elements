@@ -1,29 +1,25 @@
-<definition height="50" hotspot_y="45" hotspot_x="34" width="70" type="element" version="0.100.0" link_type="simple">
-    <uuid uuid="{3c926b2b-3c53-4f63-9714-0de165969e87}"/>
+<definition height="50" type="element" width="70" hotspot_y="45" link_type="simple" version="0.70" hotspot_x="34">
+    <uuid uuid="{2bfa28e9-1ca0-47a7-9070-c033748bd1e3}"/>
     <names>
         <name lang="fr">Ligne à retard, type ligne artificielle</name>
-        <name lang="cs">Zpožďovací linka s umělou linkou</name>
         <name lang="de">Verzögerungsleitung als Leitungsnachbildung</name>
+        <name lang="cs">Zpožďovací linka s umělou linkou</name>
         <name lang="en">Delay line, artificial line type</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" rotation="0" Halignment="AlignLeft" y="12.5" z="1" keep_visual_rotation="false" x="5" text_width="-1" Valignment="AlignTop" uuid="{d0750d34-3f1f-4390-b3a8-c95633d666af}" text_from="ElementInfo">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect height="40" ry="0" y="-40" x="-20" width="40" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="15" y2="-30" end1="none" end2="none" x1="-15" y1="-30" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="15" y2="-25" end1="none" end2="none" x1="15" y1="-35" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="-15" y2="-25" end1="none" end2="none" x1="-15" y1="-35" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="5" y2="-25" end1="none" end2="none" x1="-5" y1="-25" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="5" y2="-10" end1="none" end2="none" x1="-5" y1="-10" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="0" y2="-10" end1="none" end2="none" x1="0" y1="-25" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="30" y2="-20" end1="none" end2="none" x1="20" y1="-20" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x2="-30" y2="-20" end1="none" end2="none" x1="-20" y1="-20" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <terminal orientation="w" y="-20" x="-30" name="" uuid="{4ada8a6f-c5d4-4a65-af90-637de6672b61}" type="Generic"/>
-        <terminal orientation="e" y="-20" x="30" name="" uuid="{72b58b4f-212a-4229-abf0-3b5a5be9049c}" type="Generic"/>
+        <input y="25" tagg="label" text="_" rotate="true" x="5" size="9"/>
+        <rect antialias="false" height="40" width="40" y="-40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="15" length1="1.5" length2="1.5" y1="-30" y2="-30" x1="-15" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="15" length1="1.5" length2="1.5" y1="-35" y2="-25" x1="15" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="-15" length1="1.5" length2="1.5" y1="-35" y2="-25" x1="-15" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="5" length1="1.5" length2="1.5" y1="-25" y2="-25" x1="-5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="5" length1="1.5" length2="1.5" y1="-10" y2="-10" x1="-5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-25" y2="-10" x1="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="30" length1="1.5" length2="1.5" y1="-20" y2="-20" x1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" x2="-30" length1="1.5" length2="1.5" y1="-20" y2="-20" x1="-20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="-20" orientation="w" x="-30"/>
+        <terminal y="-20" orientation="e" x="30"/>
     </description>
 </definition>

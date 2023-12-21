@@ -1,31 +1,27 @@
-<definition version="0.100.0" type="element" hotspot_x="11" width="30" hotspot_y="14" link_type="simple" height="30">
-    <uuid uuid="{b3bf9522-2664-432d-8690-c2fdd830bdf0}"/>
+<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="30" hotspot_y="14">
+    <uuid uuid="{e2d5ccb0-f91e-4aae-b669-cb2126ee6df3}"/>
     <names>
-        <name lang="pl">Pojemnościowy wskaźnik napięcia</name>
-        <name lang="nl">Capacitair Voltage melder</name>
-        <name lang="de">Kapazitätsschalter</name>
-        <name lang="ar">مُؤشر وجود جهد سعوي</name>
         <name lang="cs">Kapacitní indikátor napětí</name>
+        <name lang="pt">Indicador de presença de tensão capacitiva</name>
+        <name lang="pl">Pojemnościowy wskaźnik napięcia</name>
         <name lang="it">Indicatore presenza tensione capacitiva</name>
         <name lang="en">Capacitive voltage attendance indicator</name>
-        <name lang="pt">Indicador de presença de tensão capacitiva</name>
+        <name lang="nl">Capacitair Voltage melder</name>
+        <name lang="de">Kapazitätsschalter</name>
         <name lang="fr">Indicateur présence tension capacitif</name>
+        <name lang="ar">مُؤشر وجود جهد سعوي</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" z="1" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" x="13" y="-13.95" uuid="{30d9aedc-4bd1-4462-acf8-5153de823813}" text_from="ElementInfo" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y2="10" x2="10" x1="10" end2="none" y1="-10" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
-        <line y2="0" x2="5" x1="10" end2="none" y1="0" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
-        <line y2="5" x2="5" x1="5" end2="none" y1="-5" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
-        <line y2="5" x2="3.25" x1="3.25" end2="none" y1="-5" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
-        <line y2="0" x2="3" x1="0" end2="none" y1="0" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false"/>
-        <arc start="90" width="10" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-5" height="10" antialias="true"/>
-        <terminal name="" type="Generic" orientation="n" x="10" y="-10" uuid="{96a9702d-fdc1-44a5-83e7-f603c968b5b7}"/>
-        <terminal name="" type="Generic" orientation="s" x="10" y="10" uuid="{d8824192-cba8-4c31-9bf9-3faed240edf5}"/>
+        <input tagg="label" rotate="true" size="9" y="-1.45" x="13" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" x1="10" x2="10"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="10" x2="5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="5" x2="5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="3.25" x2="3.25"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="0" x2="3"/>
+        <arc width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-5" x="-10" height="10"/>
+        <terminal y="-10" x="10" orientation="n"/>
+        <terminal y="10" x="10" orientation="s"/>
     </description>
 </definition>

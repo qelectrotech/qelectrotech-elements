@@ -1,28 +1,24 @@
-<definition hotspot_x="42" hotspot_y="29" type="element" width="50" version="0.100.0" height="60" link_type="simple">
-    <uuid uuid="{8f84a228-5bcb-4d40-a10a-f617e4e718fc}"/>
+<definition type="element" hotspot_x="42" version="0.5" hotspot_y="29" link_type="simple" width="50" height="60">
+    <uuid uuid="{ff97d8a8-6396-43b6-bbce-9d37f9bc3c56}"/>
     <names>
-        <name lang="cs">Kapacitní snímač NO 2 vodiče</name>
-        <name lang="it">Sensore di prossimità</name>
         <name lang="de">Näherungsschalter Schliesser</name>
+        <name lang="fr">Capteur de proximité NO</name>
+        <name lang="cs">Kapacitní snímač NO 2 vodiče</name>
         <name lang="es">Final de carrera</name>
         <name lang="pl">Czujnik zbliżeniowy</name>
-        <name lang="fr">Capteur de proximité NO</name>
+        <name lang="it">Sensore di prossimità</name>
         <name lang="en">Limit switch NO</name>
     </names>
-    <elementInformations/>
     <informations></informations>
     <description>
-        <line antialias="false" x1="-6" length1="1.5" x2="-3" y2="0" end1="none" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line antialias="false" x1="-11" length1="1.5" x2="-8" y2="0" end1="none" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line antialias="false" x1="-16" length1="1.5" x2="-14" y2="0" end1="none" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <polygon x1="-26" y7="7" y15="-8" y19="-8" x20="-24" y1="-10" y18="-8" x3="-26" y8="7" x13="-24" y4="0" antialias="false" x6="-28" x10="-26" y13="-8" y11="10" x16="-24" x21="-24" x9="-28" y2="0" x12="-24" x11="-26" x5="-26" y16="-8" x2="-36" y14="-8" y5="-10" y3="10" x17="-24" x19="-24" x15="-24" x8="-28" y20="-8" x14="-24" y21="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x18="-24" x7="-28" y10="10" y9="8" y17="-8" y6="-8" x4="-16" closed="false" y12="8"/>
-        <polygon antialias="true" x1="-5" y3="20" x2="0" y2="10" x3="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
-        <dynamic_text frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="2.75" text_width="-1" z="6" uuid="{aed5d951-8936-48d3-8c3b-642df22aaf8c}" text_from="ElementInfo" Valignment="AlignTop" y="-9.5" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line antialias="false" x1="0" length1="1.5" x2="0" y2="-10" end1="none" y1="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <terminal x="0" type="Generic" uuid="{0fe02d29-e00a-4dfc-b7de-bbe253516e05}" orientation="n" y="-21" name=""/>
-        <terminal x="0" type="Generic" uuid="{0355d0d2-809a-4d3e-b02e-f6a9743ff77a}" orientation="s" y="21" name=""/>
+        <line x1="-6" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" length1="1.5" antialias="false" end1="none" x2="-3"/>
+        <line x1="-11" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" length1="1.5" antialias="false" end1="none" x2="-8"/>
+        <line x1="-16" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" length1="1.5" antialias="false" end1="none" x2="-14"/>
+        <polygon x11="-26" closed="false" x13="-24" y21="-8" y13="-8" y2="0" x21="-24" x15="-24" x20="-24" x1="-26" x6="-28" y20="-8" y17="-8" y18="-8" x12="-24" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="-10" antialias="false" x18="-24" x10="-26" y19="-8" y9="8" x19="-24" y16="-8" x17="-24" y8="7" y11="10" x5="-26" y3="10" y14="-8" y15="-8" y6="-8" x3="-26" x4="-16" y4="0" x14="-24" x8="-28" y10="10" x2="-36" y12="8" x9="-28" x7="-28" x16="-24" y7="7"/>
+        <polygon x1="-5" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="10" antialias="true" y3="20" x2="0" x3="0"/>
+        <input text="_" x="2.75" y="3" tagg="label" size="9"/>
+        <line x1="0" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10" length1="1.5" antialias="false" end1="none" x2="0"/>
+        <terminal x="0" y="-21" orientation="n"/>
+        <terminal x="0" y="21" orientation="s"/>
     </description>
 </definition>

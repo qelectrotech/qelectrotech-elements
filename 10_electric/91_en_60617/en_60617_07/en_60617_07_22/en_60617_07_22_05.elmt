@@ -1,28 +1,24 @@
-<definition height="50" type="element" width="40" version="0.100.0" link_type="simple" hotspot_y="24" hotspot_x="25">
-    <uuid uuid="{8308c75f-f5c3-4ab9-b3eb-b1f81377c68c}"/>
+<definition type="element" width="40" height="50" hotspot_y="24" hotspot_x="25" version="0.70" link_type="simple">
+    <uuid uuid="{b4abef7b-ce29-458a-b8c1-f985676457fa}"/>
     <names>
         <name lang="de">Überspannungsableiter in einer
 Gasentladungsröhre, symmetrisch</name>
         <name lang="fr">Tube, à gaz limiteur de tension, symmétrique</name>
-        <name lang="en">Protective gas discharge tube, symmetric</name>
         <name lang="cs">Symetrická jistící výbojka</name>
+        <name lang="en">Protective gas discharge tube, symmetric</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3bb07b04-9e98-4092-b60b-d38a50c518ed}" text_width="-1" keep_visual_rotation="false" y="12.5" text_from="ElementInfo" x="5" rotation="0" frame="false" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="0" length2="1.5" y2="-5" end2="none" x1="0"/>
-        <line y1="5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="0" length2="1.5" y2="20" end2="none" x1="0"/>
-        <polygon y1="-8" y3="-2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x4="-2" x2="2" x3="0" y4="-8" y2="-8" x1="-2"/>
-        <polygon y1="8" y3="8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x4="-2" x2="0" x3="2" y4="8" y2="2" x1="-2"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="20" y="-10" x="-10"/>
-        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" diameter="2" y="3" x="5"/>
-        <line y1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="-20" length2="1.5" y2="0" end2="none" x1="0"/>
-        <terminal orientation="s" uuid="{09fc6f63-d08c-4be9-8ca2-1a297bcd8550}" type="Generic" name="" y="20" x="0"/>
-        <terminal orientation="n" uuid="{9ec90e9d-a205-4c63-846b-57547e5daa57}" type="Generic" name="" y="-20" x="0"/>
+        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
+        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
+        <line antialias="false" x1="0" y1="5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
+        <polygon y4="-8" antialias="false" x1="-2" y1="-8" x2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-8" x4="-2" x3="0" y3="-2"/>
+        <polygon y4="8" antialias="false" x1="-2" y1="8" x2="0" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="2" x4="-2" x3="2" y3="8"/>
+        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-10"/>
+        <circle antialias="false" diameter="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y="3" x="5"/>
+        <line antialias="false" x1="0" y1="0" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
+        <terminal orientation="s" y="20" x="0"/>
+        <terminal orientation="n" y="-20" x="0"/>
     </description>
 </definition>

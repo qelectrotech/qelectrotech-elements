@@ -1,27 +1,23 @@
-<definition height="40" hotspot_x="23" version="0.100.0" hotspot_y="20" link_type="simple" type="element" width="40">
-    <uuid uuid="{6fb8ea7f-9994-44db-b099-8df07918ee5e}"/>
+<definition width="40" hotspot_x="23" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
+    <uuid uuid="{6d536957-e195-4ab1-b65b-bae4ed266bce}"/>
     <names>
         <name lang="cs">Diferenciální ventil</name>
-        <name lang="es">Válvula diferencial</name>
         <name lang="pl">Zawór różnicowy</name>
+        <name lang="it">Valvola differenziale</name>
+        <name lang="en">Differential valve</name>
+        <name lang="es">Válvula diferencial</name>
         <name lang="nl">klep Drukverschil</name>
         <name lang="ar">صمّام ضغط تفاضلي</name>
         <name lang="fr">Vanne différentielle</name>
-        <name lang="it">Valvola differenziale</name>
-        <name lang="en">Differential valve</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" text_from="ElementInfo" font="Sans Serif,3,-1,5,25,0,0,0,0,0" Valignment="AlignTop" uuid="{71203796-de07-44f9-b07f-6baf838620b0}" rotation="0" x="-19" z="1" keep_visual_rotation="false" y="-30.5" text_width="-1" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <polygon y8="-14" x1="0" y11="-17" closed="false" y9="-15" y7="-12" x7="-3" x3="-3" x8="3" x4="3" x12="0" antialias="true" x2="0" y2="-4" x6="3" y4="-8" y10="-17" x5="-3" x10="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x9="0" y3="-6" y12="-17" x11="0" y6="-11" y5="-9"/>
-        <polygon x2="10" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x5="-10" x1="-10" y2="15" y1="15" y4="15" y3="0" x4="-10" antialias="true" y5="15"/>
-        <polygon x2="-15" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x5="-15" x1="-15" y2="10" y1="-10" y4="-10" y3="0" x4="-15" antialias="true" y5="-10"/>
-        <terminal orientation="w" uuid="{48ed9c95-ef44-4ad5-a3e5-d90ff6175bac}" name="" x="-15" y="0" type="Generic"/>
-        <terminal orientation="s" uuid="{ec27b433-3191-42ff-8a22-466daf7295bd}" name="" x="0" y="15" type="Generic"/>
+        <input tagg="label" rotate="true" size="3" y="-23" x="-19" text="vanne pression&#xa;différentielle"/>
+        <polygon y3="-6" x7="-3" y9="-15" closed="false" y8="-14" x8="3" x12="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="-17" x6="3" x9="0" y4="-8" x1="0" x4="3" y10="-17" y6="-11" x5="-3" y5="-9" y2="-4" x2="0" x3="-3" x11="0" y11="-17" y7="-12" y1="0" x10="0"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" x4="-10" antialias="true" y5="15" y1="15" x1="-10" x3="0" y3="0" y4="15" x2="10" x5="-10"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x4="-15" antialias="true" y5="-10" y1="-10" x1="-15" x3="0" y3="0" y4="-10" x2="-15" x5="-15"/>
+        <terminal y="0" x="-15" orientation="w"/>
+        <terminal y="15" x="0" orientation="s"/>
     </description>
 </definition>

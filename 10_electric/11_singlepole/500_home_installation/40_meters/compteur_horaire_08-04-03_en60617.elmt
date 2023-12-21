@@ -1,28 +1,24 @@
-<definition link_type="simple" type="element" height="80" width="50" version="0.100.0" hotspot_x="25" hotspot_y="39">
-    <uuid uuid="{da65685c-196f-42b7-aab4-8ed11a6beb4b}"/>
+<definition hotspot_x="25" hotspot_y="39" height="80" type="element" link_type="simple" width="50" version="0.5">
+    <uuid uuid="{96afc420-bb94-4d94-ac13-4612d30b5353}"/>
     <names>
-        <name lang="cs">Měřič provozních hodin</name>
-        <name lang="pl">Licznik godzin (en_60617)</name>
-        <name lang="ar">عدّاد زمني(en_60617)</name>
         <name lang="fr">Compteur horaire (en_60617)</name>
-        <name lang="en">Hour counter(en_60617) </name>
+        <name lang="pl">Licznik godzin (en_60617)</name>
+        <name lang="cs">Měřič provozních hodin</name>
+        <name lang="ar">عدّاد زمني(en_60617)</name>
         <name lang="el">Ωρόμετρο (en_60617)</name>
-        <name lang="de">Betriebsstundenzähler (en_60617)</name>
-        <name lang="nl">Bedrijfsurenteller (en_60617)</name>
         <name lang="it">Conta tempo (en_60617)</name>
+        <name lang="de">Betriebsstundenzähler (en_60617)</name>
+        <name lang="en">Hour counter(en_60617) </name>
+        <name lang="nl">Bedrijfsurenteller (en_60617)</name>
     </names>
-    <elementInformations/>
     <informations>https://github.com/jonasstein/qelectrotech-symbols
 EN 60617</informations>
     <description>
-        <text x="-4" text="h" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" y="12"/>
-        <dynamic_text text_width="-1" x="23" uuid="{aceeffc1-c94e-4b3f-9fcb-ea980b30456c}" text_from="ElementInfo" z="2" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" y="-11.95">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" antialias="false" height="40" width="40" rx="0" ry="0" y="-10"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" antialias="false" height="20" width="40" rx="0" ry="0" y="-30"/>
-        <terminal type="Generic" name="" x="0" uuid="{b563a58a-788f-4ad7-a8ae-73f39f8efd5a}" orientation="n" y="-34"/>
-        <terminal type="Generic" name="" x="0" uuid="{2e15deac-5db1-4099-ab5b-348efbd42fa7}" orientation="s" y="34"/>
+        <text x="-4" size="9" text="h" y="12"/>
+        <input x="23" rotate="true" size="9" text="_" y="0.55" tagg="label"/>
+        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" antialias="false" y="-10" width="40"/>
+        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false" y="-30" width="40"/>
+        <terminal x="0" orientation="n" y="-34"/>
+        <terminal x="0" orientation="s" y="34"/>
     </description>
 </definition>

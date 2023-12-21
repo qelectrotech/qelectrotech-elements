@@ -1,44 +1,37 @@
-<definition hotspot_y="24" height="50" link_type="master" hotspot_x="24" type="element" version="0.100.0" width="40">
-    <uuid uuid="{eb681119-4757-4d32-a558-8f3080a105ff}"/>
-    <names>
+<definition width="90" version="0.3" hotspot_x="22" hotspot_y="25" height="50" type="element" ic="true" link_type="master">
+<uuid uuid="{5A16103B-1AFD-4B0E-B161-EC820E27C05E}"/><names>
+        <name lang="ar">قاطع تفاضلي</name>
+        <name lang="de">Fehlerstromschutzschalter 1-polig + N</name>
         <name lang="ru">Дифавтомат</name>
+        <name lang="pt">Disjunctor diferencial</name>
+        <name lang="en">Residual Circuit Breaker with Overload</name>
+        <name lang="it">Interruttore differenziale</name>
+        <name lang="fr">Disjoncteur différentiel</name>
+        <name lang="pl">Wyłącznik różnicowoprądowy</name>
         <name lang="es">Dispositivo diferencial residual</name>
         <name lang="cs">Proudový chránič 2P</name>
         <name lang="nl">Aardlekschakelaar + automaat</name>
         <name lang="hu">Hibaáram-védőkapcsoló 1P+N</name>
-        <name lang="fr">Disjoncteur différentiel</name>
-        <name lang="en">Residual Circuit Breaker with Overload</name>
-        <name lang="ar">قاطع تفاضلي</name>
-        <name lang="pl">Wyłącznik różnicowoprądowy</name>
-        <name lang="it">Interruttore differenziale</name>
-        <name lang="de">Fehlerstromschutzschalter 1-polig + N</name>
-        <name lang="pt">Disjunctor diferencial</name>
     </names>
     <kindInformations>
-        <kindInformation name="type">protection</kindInformation>
+        <kindInformation name="type" show="1">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-9" x2="10" y2="10" y1="20" closed="false" x3="3"/>
-        <line antialias="false" x1="-10" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" y2="-10" y1="-20" length2="1.5" length1="1.5"/>
-        <line antialias="false" x1="10" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" y2="-10" y1="-20" length2="1.5" length1="1.5"/>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" y="-18" z="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" rotation="0" x="30" keep_visual_rotation="false" uuid="{7eef9a7f-d009-463b-91c8-74fbf73913c4}" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line antialias="false" x1="12" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="8" y2="-8" y1="-12" length2="1.5" length1="1.5"/>
-        <line antialias="false" x1="8" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="12" y2="-8" y1="-12" length2="1.5" length1="1.5"/>
-        <ellipse antialias="true" y="11" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-12" width="24"/>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" y="2" z="8" font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" text_from="UserText" rotation="0" x="34" keep_visual_rotation="false" uuid="{d67968d2-620c-401d-84bd-8b64c21e3798}" Valignment="AlignTop">
-            <text>___mA</text>
-        </dynamic_text>
-        <polygon antialias="true" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-9" x2="-10" y2="10" y1="20" closed="false" x3="-17"/>
-        <polygon y4="13" antialias="false" x1="6" style="line-style:dashed;line-weight:thin;filling:none;color:black" y3="13" x2="-20" y2="0" x4="-12" y1="0" closed="false" x3="-20"/>
-        <terminal y="-20" name="" type="Generic" x="-10" uuid="{140cc41b-36b7-4878-aa8a-161403955f2c}" orientation="n"/>
-        <terminal y="20" name="" type="Generic" x="-10" uuid="{2cf6e35e-9a86-43f3-b1da-3784804d8a4b}" orientation="s"/>
-        <terminal y="-20" name="" type="Generic" x="10" uuid="{ba732ee4-aaa4-4e68-8cc5-b342d52b29bd}" orientation="n"/>
-        <terminal y="20" name="" type="Generic" x="10" uuid="{39cb7b97-306d-4f97-a944-5c08af63ee02}" orientation="s"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="10" y2="10" x2="10" y3="-9" x3="3"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-10" x2="-10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
+        <input x="30" y="-5.5" size="9" text="_" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="12" y2="-8" x2="8"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" x1="8" y2="-8" x2="12"/>
+        <ellipse width="24" x="-12" y="11" antialias="true" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input x="34" y="11.5" size="5" rotate="true" text="___mA"/>
+        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="-10" y2="10" x2="-10" y3="-9" x3="-17"/>
+        <polygon x4="-12" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" closed="false" y1="0" x1="6" y2="0" x2="-20" y3="13" x3="-20" y4="13"/>
+        <terminal x="-10" y="-20" nameHidden="0" number="" name="" orientation="n"/>
+        <terminal x="-10" y="20" nameHidden="0" number="" name="" orientation="s"/>
+        <terminal x="10" y="-20" nameHidden="0" number="" name="" orientation="n"/>
+        <terminal x="10" y="20" nameHidden="0" number="" name="" orientation="s"/>
     </description>
 </definition>

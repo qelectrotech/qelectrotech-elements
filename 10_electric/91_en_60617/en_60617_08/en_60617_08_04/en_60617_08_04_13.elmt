@@ -1,24 +1,20 @@
-<definition link_type="simple" version="0.100.0" width="50" type="element" hotspot_x="25" height="70" hotspot_y="65">
-    <uuid uuid="{e3e42080-1a48-4f85-a2fc-ee376f7f6bb8}"/>
+<definition width="50" height="70" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="65">
+    <uuid uuid="{a19d4c19-e65b-49a1-a3e4-2cd2160275c2}"/>
     <names>
-        <name lang="en">Watt-hour meter with maximum demand indicator</name>
-        <name lang="fr">Compteur d'énergie active avec indication du
-maximum de la puissance moyenne</name>
         <name lang="de">Wattstundenzähler mit Maximumanzeiger,
 Maximumzähle</name>
+        <name lang="fr">Compteur d'énergie active avec indication du
+maximum de la puissance moyenne</name>
         <name lang="cs">Watthodinový měřič s indikátorem maxima</name>
+        <name lang="en">Watt-hour meter with maximum demand indicator</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Halignment="AlignLeft" x="5" keep_visual_rotation="false" text_from="ElementInfo" rotation="0" y="12.5" uuid="{de0bc382-1bd4-4df5-9c9a-db6181c67cbd}" Valignment="AlignTop" text_width="-1" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-40" rx="0" width="40" ry="0" height="40"/>
-        <text x="-8" text="Wh" color="#000000" rotation="0" y="-26" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-60" rx="0" width="40" ry="0" height="20"/>
-        <text x="-17" text="P max" color="#000000" rotation="0" y="-6" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
+        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
+        <text size="9" text="Wh" x="-8" y="-26"/>
+        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
+        <text size="9" text="P max" x="-17" y="-6"/>
     </description>
 </definition>

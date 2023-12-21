@@ -1,24 +1,20 @@
-<definition width="150" hotspot_x="144" version="0.100.0" type="element" height="20" hotspot_y="14" link_type="simple">
-    <uuid uuid="{5079f8f6-f59d-42ce-8f19-f808e5c0e005}"/>
+<definition type="element" width="150" version="0.70" hotspot_y="14" height="20" link_type="simple" hotspot_x="144">
+    <uuid uuid="{23372b21-dc97-4161-b0f0-177e86bdb505}"/>
     <names>
+        <name lang="fr">Ligne immergée</name>
         <name lang="de">Leiter im Gewässer,
 Seekabe</name>
-        <name lang="fr">Ligne immergée</name>
         <name lang="cs">Vedení pod vodou</name>
         <name lang="en">Submarine line</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" uuid="{6b301ab6-c75f-41e7-8146-169de8129811}" x="5" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" z="1" y="12.5" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line y1="0" length2="1.5" antialias="false" end1="none" length1="1.5" x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-140" y2="0"/>
-        <arc width="10" start="0" antialias="true" x="-80" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" angle="-180"/>
-        <arc width="10" start="0" antialias="true" x="-70" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" angle="-180"/>
-        <terminal name="" uuid="{f3cc0a69-263c-43f5-85c2-4cdfb46a9be7}" x="-140" orientation="w" type="Generic" y="0"/>
-        <terminal name="" uuid="{dd8b3329-efa2-49f3-9904-262afef79932}" x="0" orientation="e" type="Generic" y="0"/>
+        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
+        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
+        <arc antialias="true" width="10" x="-80" angle="-180" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0"/>
+        <arc antialias="true" width="10" x="-70" angle="-180" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12.5" start="0"/>
+        <terminal x="-140" orientation="w" y="0"/>
+        <terminal x="0" orientation="e" y="0"/>
     </description>
 </definition>

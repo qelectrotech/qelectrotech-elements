@@ -1,38 +1,34 @@
-<definition height="60" type="element" hotspot_y="32" link_type="simple" version="0.100.0" hotspot_x="37" width="110">
-    <uuid uuid="{65b1d536-6814-4d0a-90ea-73f55ef5ad38}"/>
+<definition hotspot_y="32" type="element" height="60" width="110" hotspot_x="37" link_type="simple" version="0.5">
+    <uuid uuid="{1d13f47e-2002-4ed7-9979-c9386d119907}"/>
     <names>
         <name lang="cs">Průtokoměr impulzní</name>
         <name lang="nl">Debiet  puls</name>
         <name lang="it">Sensore di flusso</name>
-        <name lang="en">Flow sensor pulsmeter</name>
         <name lang="el">Αισθητήρας ροής</name>
+        <name lang="de">Durchfluss Impulszähler</name>
+        <name lang="en">Flow sensor pulsmeter</name>
         <name lang="fr">Capteur Debit</name>
         <name lang="es">Sensor de flujo</name>
-        <name lang="de">Durchfluss Impulszähler</name>
         <name lang="pl">Czujnik przepływu</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="73" z="1" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ce783846-7cc4-4206-bbc4-c0e0b9b9faab}" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" y="-31.95" keep_visual_rotation="false" Halignment="AlignLeft">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <rect x="-35" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25" antialias="false" ry="0" rx="0" width="105"/>
-        <text x="56" text="0V" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" y="-17"/>
-        <circle x="-31.5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="17" y="-8.5" antialias="true"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x1="-17" y2="8" length1="1.5" x2="-25" end1="none" end2="none" length2="1.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-28" antialias="false" x1="30" y2="-26" length1="1.5" x2="30" end1="none" end2="none" length2="1.5"/>
-        <text x="-4" text="S+" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" y="-17"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-28" antialias="false" x1="60" y2="-26" length1="1.5" x2="60" end1="none" end2="none" length2="1.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-24" antialias="false" x1="-10" y2="24" length1="1.5" x2="-10" end1="none" end2="none" length2="1.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-28" antialias="false" x1="0" y2="-26" length1="1.5" x2="0" end1="none" end2="none" length2="1.5"/>
-        <text x="26" text="L+" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" y="-17"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x1="-17" y2="-8" length1="1.5" x2="-25" end1="none" end2="none" length2="1.5"/>
-        <polygon x21="51" closed="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x3="9" y1="10" y21="10" x14="39" y5="10" x4="11" y16="0" y9="10" x18="49" antialias="false" y4="0" x5="11" x6="19" y14="10" y20="0" x13="31" y13="10" y22="10" x17="41" x2="9" x22="58" x16="41" y18="10" x11="29" y8="0" y17="10" y6="10" x19="49" y19="0" x12="31" x20="51" x7="19" y15="0" y10="10" x9="21" y7="0" y2="10" x15="39" x10="29" x8="21" y3="0" y12="0" y11="0" x1="0"/>
-        <terminal x="0" name="" uuid="{a5263a02-47f9-4849-aea2-971479ca9730}" type="Generic" y="-28" orientation="n"/>
-        <terminal x="30" name="" uuid="{dfe54a85-0f3f-4f8c-8ef8-65f59807cae2}" type="Generic" y="-28" orientation="n"/>
-        <terminal x="60" name="" uuid="{0a5f40ac-5182-4223-a872-b57309599ae9}" type="Generic" y="-28" orientation="n"/>
+        <input text="_" rotate="true" y="-19.45" size="9" x="73" tagg="label"/>
+        <rect height="50" antialias="false" y="-25" width="105" x="-35" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="0V" y="-17" size="5" x="56"/>
+        <circle diameter="17" antialias="true" y="-8.5" x="-31.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-17" y2="8" end1="none" y1="0" x2="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="30" y2="-26" end1="none" y1="-28" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="S+" y="-17" size="5" x="-4"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="60" y2="-26" end1="none" y1="-28" x2="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-10" y2="24" end1="none" y1="-24" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="0" y2="-26" end1="none" y1="-28" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="L+" y="-17" size="5" x="26"/>
+        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-17" y2="-8" end1="none" y1="0" x2="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x22="58" y21="10" y8="0" y3="0" y2="10" y12="0" y10="10" x11="29" x4="11" closed="false" y14="10" x21="51" y1="10" x18="49" x19="49" x3="9" x7="19" y16="0" y4="0" x8="21" y5="10" y22="10" y17="10" y13="10" x17="41" x13="31" x16="41" x1="0" x15="39" x5="11" y7="0" style="line-style:normal;line-weight:thin;filling:none;color:black" y15="0" y6="10" x9="21" x12="31" y18="10" x10="29" antialias="false" y20="0" y9="10" x20="51" x14="39" y19="0" x6="19" y11="0" x2="9"/>
+        <terminal y="-28" orientation="n" x="0"/>
+        <terminal y="-28" orientation="n" x="30"/>
+        <terminal y="-28" orientation="n" x="60"/>
     </description>
 </definition>

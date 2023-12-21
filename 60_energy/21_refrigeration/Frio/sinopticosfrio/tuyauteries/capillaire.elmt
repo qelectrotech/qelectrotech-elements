@@ -1,25 +1,21 @@
-<definition type="element" version="0.100.0" link_type="simple" hotspot_x="14" hotspot_y="8" width="30" height="20">
-    <uuid uuid="{9b18d6a4-35b8-4663-a3bd-3d4e2db44670}"/>
+<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="8">
+    <uuid uuid="{3dde898a-361b-4032-8e29-4c9e89083b06}"/>
     <names>
+        <name lang="cs">Vlásečnicové trubky</name>
         <name lang="pl">Kapilara</name>
-        <name lang="fr">Capillaire</name>
         <name lang="it">Capillare</name>
+        <name lang="en">Capillary tubing</name>
         <name lang="nl">Capilair pijpje</name>
         <name lang="ar">أنابيب شعريّة</name>
-        <name lang="cs">Vlásečnicové trubky</name>
-        <name lang="en">Capillary tubing</name>
+        <name lang="fr">Capillaire</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="6" antialias="true" x="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" y="0"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" uuid="{4477fdf4-c92d-4979-b20a-4ee680632981}" text_width="-1" Valignment="AlignTop" x="-7" z="2" frame="false" y="-23">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length2="1.5" x1="-10" y1="0" antialias="false" x2="10" length1="1.5" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <terminal orientation="w" type="Generic" name="" uuid="{1c8039f9-697c-4f36-8a6c-58bd19ce42d8}" x="-10" y="0"/>
-        <terminal orientation="e" type="Generic" name="" uuid="{7b5cff6d-6808-4401-a0d4-f0a83e2e3807}" x="10" y="0"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="6" y="0" x="-3"/>
+        <input tagg="label" rotate="true" size="9" y="-10.5" x="-7" text="_"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="10"/>
+        <terminal y="0" x="-10" orientation="w"/>
+        <terminal y="0" x="10" orientation="e"/>
     </description>
 </definition>

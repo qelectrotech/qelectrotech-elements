@@ -1,37 +1,30 @@
-<definition link_type="simple" version="0.100.0" type="element" hotspot_x="18" hotspot_y="44" height="90" width="40">
-    <uuid uuid="{28edc0ee-2843-4a3e-b279-343d0301e727}"/>
-    <names>
-        <name lang="es">Autotransformador monofásico</name>
+<definition width="70" version="0.3" hotspot_x="25" hotspot_y="45" height="90" type="element" ic="true" orientation="dnny">
+<uuid uuid="{FD6A2B42-0158-42BC-BB2A-8E0A7195019B}"/><names>
         <name lang="ar">مُحوّل ذاتي أحادي الوجه</name>
-        <name lang="en">Single phase autotransducer</name>
         <name lang="el">Αυτομετασχηματιστής μονοφασικός</name>
-        <name lang="fr">Autotransformateur monophasé</name>
-        <name lang="it">Autotrasformatore monofase</name>
-        <name lang="nl">enkelfase autotransformator</name>
+        <name lang="en">Single phase autotransducer</name>
+        <name lang="es">Autotransformador monofásico</name>
         <name lang="de">Spartransformator einphasig</name>
-        <name lang="cs">Jednofázový autotransformátor</name>
+        <name lang="it">Autotrasformatore monofase</name>
+        <name lang="fr">Autotransformateur monophasé</name>
         <name lang="pl">Autotransformator jednofazowy</name>
+        <name lang="cs">Jednofázový autotransformátor</name>
+        <name lang="nl">enkelfase autotransformator</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="none" y1="-20" x2="8" length2="1.5" antialias="false" y2="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="8"/>
-        <line end2="none" y1="-13" x2="-8" length2="1.5" antialias="false" y2="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="-8"/>
-        <arc start="-180" antialias="true" y="-20" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-110" width="50" x="-15"/>
-        <line end2="none" y1="18" x2="8" length2="1.5" antialias="false" y2="35" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="8"/>
-        <line end2="none" y1="18" x2="-8" length2="1.5" antialias="false" y2="35" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="-8"/>
-        <dynamic_text Halignment="AlignLeft" z="6" text_from="UserText" uuid="{eeeb4e6c-b1df-430d-a6c0-ffae5556f002}" text_width="-1" rotation="0" Valignment="AlignTop" y="8.1667" keep_visual_rotation="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" x="20">
-            <text>___V</text>
-        </dynamic_text>
-        <circle diameter="30" antialias="true" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15"/>
-        <dynamic_text Halignment="AlignLeft" z="8" text_from="ElementInfo" uuid="{9b8bff43-92d5-49f4-af12-4edbe421320a}" text_width="-1" rotation="0" Valignment="AlignTop" y="-8.5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="17.75">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <terminal name="" uuid="{76c9978f-307c-446a-a89a-1f9414cf4cf2}" type="Generic" y="-36" orientation="n" x="8"/>
-        <terminal name="" uuid="{055278c2-fea6-42ed-8c5d-cad2d1644670}" type="Generic" y="-36" orientation="n" x="-8"/>
-        <terminal name="" uuid="{12af0916-e846-4030-9c66-54de72d6ad66}" type="Generic" y="36" orientation="s" x="-8"/>
-        <terminal name="" uuid="{6db84650-2045-4334-8151-0016eb313f82}" type="Generic" y="36" orientation="s" x="8"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="8" y2="-35" x2="8"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" x1="-8" y2="-35" x2="-8"/>
+        <arc width="50" x="-15" y="-20" antialias="true" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-110"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="18" x1="8" y2="35" x2="8"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="18" x1="-8" y2="35" x2="-8"/>
+        <input x="20" y="17.6667" size="5" text="___V"/>
+        <circle x="-15" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <input x="17.75" y="4" size="9" text="_" tagg="label"/>
+        <terminal x="8" y="-36" orientation="n"/>
+        <terminal x="-8" y="-36" orientation="n"/>
+        <terminal x="-8" y="36" orientation="s"/>
+        <terminal x="8" y="36" orientation="s"/>
     </description>
 </definition>

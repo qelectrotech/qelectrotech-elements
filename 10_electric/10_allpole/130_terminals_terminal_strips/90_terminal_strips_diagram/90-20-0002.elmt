@@ -1,25 +1,20 @@
-<definition height="80" type="element" width="30" version="0.100.0" hotspot_x="15" hotspot_y="13" link_type="simple">
-    <uuid uuid="{37318a0f-3d6a-4bd9-90da-01ca133c0a5e}"/>
+<definition height="80" hotspot_y="13" hotspot_x="15" version="0.5" width="30" link_type="simple" type="element">
+    <uuid uuid="{e396fc1b-28d7-4978-879a-9b666a2648d3}"/>
     <names>
-        <name lang="cs">Zařízení (připojení shora)</name>
         <name lang="fr">Appareil (connexion en bas)</name>
         <name lang="de">Gerät (Anschluss unten)</name>
-        <name lang="it">Dispositivo (connessione in alto)</name>
         <name lang="en">Device (connection on top)</name>
         <name lang="es">Dispositivo (conexión por encima)</name>
+        <name lang="it">Dispositivo (connessione in alto)</name>
+        <name lang="cs">Zařízení (připojení shora)</name>
         <name lang="hu">Eszköz (felső csatlakozás)</name>
     </names>
-    <elementInformations/>
-    <informations></informations>
+    <informations/>
     <description>
-        <dynamic_text font="Sans Serif,6,-1,5,50,0,0,0,0,0" text_from="UserText" z="1" rotation="270" Halignment="AlignLeft" Valignment="AlignTop" frame="false" keep_visual_rotation="false" x="-10" uuid="{9e0eea2e-5c34-49b2-9931-159cfb4734af}" y="15" text_width="-1">
-            <text>_</text>
-        </dynamic_text>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" z="2" rotation="270" Halignment="AlignLeft" Valignment="AlignTop" frame="false" keep_visual_rotation="false" x="-12.5" uuid="{7a6b2c21-3c8f-46db-81f2-6f67062369d4}" y="60" text_width="-1">
-            <text>-</text>
-        </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" height="60" antialias="false" width="20" rx="0" ry="0" x="-10" y="0"/>
-        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-4" x1="0" x2="0" end1="none" y2="0" end2="none" length2="1.5"/>
-        <terminal name="" orientation="n" type="Generic" x="0" uuid="{2009392e-61ca-4032-9f0c-5f5ee7886aa3}" y="-4"/>
+        <input tagg="none" x="0" rotation="270" y="15" rotate="true" text="_" size="6"/>
+        <input tagg="none" x="0" rotation="270" y="60" rotate="true" text="-" size="9"/>
+        <rect height="60" x="-10" y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="20"/>
+        <line end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y2="0" x1="0" end2="none" length2="1.5" y1="-4"/>
+        <terminal x="0" y="-4" orientation="n"/>
     </description>
 </definition>

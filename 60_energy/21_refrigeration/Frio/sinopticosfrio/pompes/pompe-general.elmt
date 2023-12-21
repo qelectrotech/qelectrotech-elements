@@ -1,29 +1,25 @@
-<definition hotspot_x="24" version="0.100.0" height="40" hotspot_y="20" type="element" link_type="simple" width="50">
-    <uuid uuid="{9143c459-5c64-42e7-a285-2af0eafd89d1}"/>
+<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
+    <uuid uuid="{edc19661-4495-403d-a11e-2e51e43cf32d}"/>
     <names>
-        <name lang="nl">Pomp algemeen</name>
-        <name lang="el">Αντλία, γενικό σύμβολο</name>
         <name lang="cs">Čerpadlo (obecný symbol)</name>
+        <name lang="it">Pompa (segno geberale)</name>
         <name lang="pl">Pompa, symbol ogólny</name>
+        <name lang="en">Pump general</name>
+        <name lang="nl">Pomp algemeen</name>
         <name lang="ar">مضخّة (رمز عام)</name>
         <name lang="fr">Pompe (général)</name>
-        <name lang="en">Pump general</name>
-        <name lang="it">Pompa (segno geberale)</name>
+        <name lang="el">Αντλία, γενικό σύμβολο</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" uuid="{bdf2e0ae-1ef6-4a0a-b2b2-4c97e1cfe3aa}" text_width="-1" y="4.05" frame="false" x="-7" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" Halignment="AlignLeft" z="1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="30" y="-15" antialias="true" x="-15"/>
-        <line y2="15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="15" end2="none" y1="0" antialias="false" x2="0"/>
-        <line y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="15" end2="none" y1="0" antialias="false" x2="0"/>
-        <line y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="-15" end2="none" y1="0" antialias="false" x2="-16"/>
-        <line y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x1="15" end2="none" y1="0" antialias="false" x2="16"/>
-        <terminal orientation="w" uuid="{d2e8704d-6b2c-4325-9b90-98b9773e0a6e}" y="0" type="Generic" x="-16" name=""/>
-        <terminal orientation="e" uuid="{09994453-de62-4b1e-8685-726959aab1a7}" y="0" type="Generic" x="16" name=""/>
+        <input tagg="label" rotate="true" size="9" y="16.55" x="-7" text="_"/>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
+        <terminal y="0" x="-16" orientation="w"/>
+        <terminal y="0" x="16" orientation="e"/>
     </description>
 </definition>

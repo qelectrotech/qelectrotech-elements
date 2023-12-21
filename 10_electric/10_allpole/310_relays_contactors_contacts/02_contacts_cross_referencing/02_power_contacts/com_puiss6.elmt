@@ -1,59 +1,56 @@
-<definition link_type="slave" type="element" width="80" hotspot_y="30" version="0.100.0" hotspot_x="38" height="60">
-    <uuid uuid="{d470b4b1-f6f9-4d09-8e71-9729f6343389}"/>
+<definition hotspot_x="38" height="60" hotspot_y="30" link_type="slave" type="element" width="80" version="0.51">
+    <uuid uuid="{e8858fcc-9341-40c7-976a-83a47a780c36}"/>
     <names>
-        <name lang="fr">Contact puissance contacteur</name>
-        <name lang="de">Leistungsschliesser 4-polig</name>
-        <name lang="pl">Stycznik</name>
-        <name lang="it">4 Contatti NA di potenza</name>
-        <name lang="nl">Last contact (NO)</name>
-        <name lang="es">Interruptor de potencia contactor</name>
-        <name lang="ru">Контакт контактора (НР)</name>
-        <name lang="en">Contact power contactor</name>
-        <name lang="cs">Silový kontakt 4p</name>
         <name lang="pt">Interruptor de potência contactor</name>
+        <name lang="en">Contact power contactor</name>
+        <name lang="de">Leistungsschliesser 4-polig</name>
+        <name lang="nl">Last contact (NO)</name>
+        <name lang="pl">Stycznik</name>
         <name lang="el">Επαφές ρελέ ισχύος, ανοικτές</name>
+        <name lang="cs">Silový kontakt 4p</name>
+        <name lang="es">Interruptor de potencia contactor</name>
+        <name lang="fr">Contact puissance contacteur</name>
         <name lang="ar">مُلامس قدرة - كونتكتور (NO)</name>
+        <name lang="it">4 Contatti NA di potenza</name>
+        <name lang="ru">Контакт контактора (НР)</name>
     </names>
     <kindInformations>
-        <kindInformation name="type">power</kindInformation>
-        <kindInformation name="state">NO</kindInformation>
-        <kindInformation name="number">4</kindInformation>
+        <kindInformation name="type" show="1">power</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="number" show="1">4</kindInformation>
     </kindInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-17" color="#000000" text="5" x="14"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-17" color="#000000" text="3" x="-6"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-17" color="#000000" text="7" x="34"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="22" color="#000000" text="4" x="-6"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="22" color="#000000" text="6" x="14"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="22" color="#000000" text="2" x="-26"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="22" color="#000000" text="8" x="34"/>
-        <polygon y2="10" x3="-10" x2="-10" y3="20" closed="false" y1="-10" antialias="true" x1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y2="10" x3="30" x2="30" y3="20" closed="false" y1="-10" antialias="true" x1="25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y2="10" x3="10" x2="10" y3="20" closed="false" y1="-10" antialias="true" x1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y2="10" x3="-30" x2="-30" y3="20" closed="false" y1="-10" antialias="true" x1="-35" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3f84ed66-97c9-4e3e-a863-58f79b8d12d3}" z="12" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" frame="false" y="-12.5" keep_visual_rotation="false" x="40" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line length1="1.5" y2="-10" x2="-30" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" start="-90" y="-14.5" width="5" x="-32.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" y2="-10" x2="-10" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" start="-90" y="-14.5" width="5" x="-12.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" y2="-10" x2="10" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" start="-90" y="-14.5" width="5" x="7.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" y2="-10" x2="30" length2="1.5" end2="none" end1="none" y1="-20" antialias="false" x1="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" start="-90" y="-14.5" width="5" x="27.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" y2="0" x2="-32" length2="1.5" end2="none" end1="none" y1="0" antialias="false" x1="28" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-17" color="#000000" text="1" x="-26"/>
-        <terminal uuid="{f208dcd9-008a-48b2-985f-44c08bdc2f0f}" type="Generic" y="-20" orientation="n" x="-30" name=""/>
-        <terminal uuid="{6cab0840-1921-4328-a0e9-69d032181853}" type="Generic" y="20" orientation="s" x="-30" name=""/>
-        <terminal uuid="{0ddaad6d-6949-4c47-8b41-d6706e36f12a}" type="Generic" y="-20" orientation="n" x="-10" name=""/>
-        <terminal uuid="{03db3c50-57ea-4cf4-9a8a-ee2bda8c8910}" type="Generic" y="20" orientation="s" x="-10" name=""/>
-        <terminal uuid="{732e2e6a-8656-4305-80cf-6b7400f92c17}" type="Generic" y="-20" orientation="n" x="10" name=""/>
-        <terminal uuid="{a96e05ed-682c-42d9-980f-4fc9758c25ca}" type="Generic" y="20" orientation="s" x="10" name=""/>
-        <terminal uuid="{dc901955-b86d-43e4-ad83-6fbb8121298f}" type="Generic" y="-20" orientation="n" x="30" name=""/>
-        <terminal uuid="{b537313b-610e-4fb8-8632-19b00c462d95}" type="Generic" y="20" orientation="s" x="30" name=""/>
+        <text y="-17" text="5" size="4" x="14"/>
+        <text y="-17" text="3" size="4" x="-6"/>
+        <text y="-17" text="7" size="4" x="34"/>
+        <text y="22" text="4" size="4" x="-6"/>
+        <text y="22" text="6" size="4" x="14"/>
+        <text y="22" text="2" size="4" x="-26"/>
+        <text y="22" text="8" size="4" x="34"/>
+        <polygon antialias="true" y2="10" x2="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-15" x3="-10" y3="20"/>
+        <polygon antialias="true" y2="10" x2="30" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="25" x3="30" y3="20"/>
+        <polygon antialias="true" y2="10" x2="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="5" x3="10" y3="20"/>
+        <polygon antialias="true" y2="10" x2="-30" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-35" x3="-30" y3="20"/>
+        <input y="0" text="_" tagg="label" size="9" x="40"/>
+        <line antialias="false" y2="-10" x2="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="-30" length1="1.5"/>
+        <arc y="-14.5" height="5" antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" x="-32.5" start="-90"/>
+        <line antialias="false" y2="-10" x2="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="-10" length1="1.5"/>
+        <arc y="-14.5" height="5" antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" x="-12.5" start="-90"/>
+        <line antialias="false" y2="-10" x2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="10" length1="1.5"/>
+        <arc y="-14.5" height="5" antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" x="7.5" start="-90"/>
+        <line antialias="false" y2="-10" x2="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="30" length1="1.5"/>
+        <arc y="-14.5" height="5" antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" x="27.5" start="-90"/>
+        <line antialias="false" y2="0" x2="-32" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" end2="none" length2="1.5" x1="28" length1="1.5"/>
+        <text y="-17" text="1" size="4" x="-26"/>
+        <terminal y="-20" orientation="n" x="-30"/>
+        <terminal y="20" orientation="s" x="-30"/>
+        <terminal y="-20" orientation="n" x="-10"/>
+        <terminal y="20" orientation="s" x="-10"/>
+        <terminal y="-20" orientation="n" x="10"/>
+        <terminal y="20" orientation="s" x="10"/>
+        <terminal y="-20" orientation="n" x="30"/>
+        <terminal y="20" orientation="s" x="30"/>
     </description>
 </definition>

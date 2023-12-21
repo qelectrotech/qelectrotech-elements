@@ -1,37 +1,30 @@
-<definition version="0.100.0" hotspot_y="26" width="40" type="element" hotspot_x="27" link_type="simple" height="50">
-    <uuid uuid="{e8588719-a20b-422f-a2d7-4f7fa6411699}"/>
-    <names>
-        <name lang="fr">Débitmètre à impulsions</name>
+<definition width="70" version="0.3" hotspot_x="25" hotspot_y="25" height="50" type="element" orientation="ynnd">
+<uuid uuid="{C5A7BA8F-B2BE-4D19-8DD5-917607362AF5}"/><names>
+        <name lang="ar">مقياس تدفق بالنبضات</name>
         <name lang="de">Durchflusszähler</name>
         <name lang="en">Flowmeter pulse</name>
+        <name lang="fr">Débitmètre à impulsions</name>
         <name lang="pl">Przepływomierz impulsowy</name>
-        <name lang="ar">مقياس تدفق بالنبضات</name>
-        <name lang="it">Flussimetro a impulsi</name>
         <name lang="es">Medidor de flujo de pulsos</name>
-        <name lang="nl">Debietmeter puls</name>
         <name lang="cs">Průtokoměr impulzní</name>
+        <name lang="it">Flussimetro a impulsi</name>
+        <name lang="nl">Debietmeter puls</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="20" y="-10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text rotation="0" text="13" y="-12.6667" color="#000000" x="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
-        <text rotation="0" text="14" y="15" color="#000000" x="2" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
-        <dynamic_text uuid="{04283d5a-1c84-4211-b2ef-b20388361a62}" frame="false" rotation="0" y="-21.5" keep_visual_rotation="false" x="11" font="Sans Serif,8,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" text_from="ElementInfo" z="4">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <dynamic_text uuid="{12bd2c70-16b1-4b17-a760-639ee6fbbe10}" frame="false" rotation="0" y="2.3333" keep_visual_rotation="false" x="10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" text_from="UserText" z="5">
-            <text>__ imp/l</text>
-        </dynamic_text>
-        <line length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-13" x2="-13" end2="none" y1="-2" y2="2"/>
-        <text rotation="0" text="Q" y="2.5" color="#000000" x="-23" font="Sans Serif,8,-1,5,50,0,0,0,0,0"/>
-        <line length1="1.5" end1="none" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" x1="-13" x2="-2" end2="none" y1="0" y2="0"/>
-        <line length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x1="-3" x2="0" end2="none" y1="-6" y2="6"/>
-        <line length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" x2="0" end2="none" y1="6" y2="15"/>
-        <line length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" x2="0" end2="none" y1="-15" y2="-6"/>
-        <terminal uuid="{a3209a49-0cf3-44a2-aa5e-27ee55fffad6}" y="-15" type="Generic" x="0" orientation="n" name=""/>
-        <terminal uuid="{90af96ad-8a99-4e05-ac9e-78057c89bcb5}" y="15" type="Generic" x="0" orientation="s" name=""/>
+        <circle x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
+        <text x="2" y="-12.6667" size="4" text="13"/>
+        <text x="2" y="15" size="4" text="14"/>
+        <input x="11" y="-9.5" size="8" rotate="true" text="_" tagg="label"/>
+        <input x="10" y="10.3333" size="4" text="__ imp/l"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" x1="-13" y2="2" x2="-13"/>
+        <text x="-23" y="2.5" size="8" text="Q"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x1="-13" y2="0" x2="-2"/>
+        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" x1="-3" y2="6" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="6" x1="0" y2="15" x2="0"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="0" y2="-6" x2="0"/>
+        <terminal x="0" y="-15" orientation="n"/>
+        <terminal x="0" y="15" orientation="s"/>
     </description>
 </definition>

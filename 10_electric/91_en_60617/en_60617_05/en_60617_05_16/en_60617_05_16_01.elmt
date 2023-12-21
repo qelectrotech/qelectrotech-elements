@@ -1,31 +1,27 @@
-<definition hotspot_x="85" width="90" type="element" hotspot_y="175" version="0.100.0" height="190" link_type="simple">
-    <uuid uuid="{e70fd57c-0784-4e33-a57a-b13c291f4ae0}"/>
+<definition type="element" hotspot_y="175" version="0.70" hotspot_x="85" width="90" height="190" link_type="simple">
+    <uuid uuid="{db9603ac-84d4-4156-add1-810c81889b5e}"/>
     <names>
+        <name lang="fr">Accumulateur de quantité d'électricité</name>
         <name lang="de">Ladungs-Akkumulator</name>
         <name lang="cs">Akumulátor elektrochemického náboje</name>
         <name lang="en">Coulomb accumulator; Electrochemical step-function device</name>
-        <name lang="fr">Accumulateur de quantité d'électricité</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text keep_visual_rotation="false" z="1" rotation="0" text_from="ElementInfo" y="2.5" uuid="{6395635f-6a3f-4327-a9ad-c058e6d15272}" frame="false" Valignment="AlignTop" x="5" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <arc start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="80" y="-80" height="80" x="-80" angle="-180" antialias="true"/>
-        <line y2="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="0" x2="0" antialias="false" y1="-40"/>
-        <line y2="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="-80" x2="-80" antialias="false" y1="-40"/>
-        <arc start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="80" y="-160" height="80" x="-80" angle="180" antialias="true"/>
-        <polygon y2="-140" y3="-140" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-55" y4="-155" closed="false" x2="-55" x3="-25" antialias="false" y1="-130" x4="-25"/>
-        <line y2="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="-40" x2="-40" antialias="false" y1="-170"/>
-        <line y2="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="-55" x2="-25" antialias="false" y1="-120"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-120" diameter="20" x="-50" antialias="false"/>
-        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="-40" x2="-40" antialias="false" y1="10"/>
-        <line y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" end1="none" length2="1.5" x1="-25" x2="-55" antialias="false" y1="-20"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" diameter="20" x="-50" antialias="false"/>
-        <arc start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" y="-85" height="10" x="-70" angle="180" antialias="true"/>
-        <arc start="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" y="-85" height="10" x="-60" angle="180" antialias="true"/>
+        <input text="_" y="15" tagg="label" rotate="true" x="5" size="9"/>
+        <arc y="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-80" width="80" start="0" height="80" angle="-180" antialias="true"/>
+        <line x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="-40" end1="none" y2="-120" antialias="false"/>
+        <line x1="-80" x2="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="-40" end1="none" y2="-120" antialias="false"/>
+        <arc y="-160" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-80" width="80" start="0" height="80" angle="180" antialias="true"/>
+        <polygon x3="-25" closed="false" x1="-55" x2="-55" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-140" y4="-155" y1="-130" x4="-25" y2="-140" antialias="false"/>
+        <line x1="-40" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="-170" end1="none" y2="-120" antialias="false"/>
+        <line x1="-55" x2="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="-120" end1="none" y2="-120" antialias="false"/>
+        <circle diameter="20" y="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-50" antialias="false"/>
+        <line x1="-40" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="10" end1="none" y2="-20" antialias="false"/>
+        <line x1="-25" x2="-55" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" end2="none" y1="-20" end1="none" y2="-20" antialias="false"/>
+        <circle diameter="20" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-50" antialias="false"/>
+        <arc y="-85" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-70" width="10" start="180" height="10" angle="180" antialias="true"/>
+        <arc y="-85" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="10" start="180" height="10" angle="180" antialias="true"/>
     </description>
 </definition>

@@ -1,23 +1,19 @@
-<definition hotspot_y="47" width="50" hotspot_x="24" version="0.100.0" link_type="simple" type="element" height="50">
-    <uuid uuid="{996512a0-5a37-415b-a0eb-975efe0d1f00}"/>
+<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="24" width="50" hotspot_y="47">
+    <uuid uuid="{78c07923-dfdd-4f8a-a08c-e50e9ad15e02}"/>
     <names>
         <name lang="de">Zeitschalter, einpolig</name>
-        <name lang="en">Period limiting switch, single pole</name>
         <name lang="fr">Interrupteur à temps de fermeture limité,
 unipolaire</name>
         <name lang="cs">Jednopólový spínač s časovým omezením</name>
+        <name lang="en">Period limiting switch, single pole</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" keep_visual_rotation="false" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" uuid="{22f73b5d-7b23-41dc-ae3e-d3f422c8d585}" frame="false" Valignment="AlignTop" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" text_width="-1">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <circle diameter="20" antialias="false" x="-20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="10" y2="-19" end1="none" length2="1.5" y1="-45" end2="none" antialias="false" x2="-5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="10" y2="-40" end1="none" length2="1.5" y1="-45" end2="none" antialias="false" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text rotation="0" color="#000000" text="t" x="15" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-30"/>
+        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
+        <circle y="-20" antialias="false" x="-20" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-45" y2="-19" x2="-5" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" y1="-45" y2="-40" x2="20" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text y="-30" size="9" x="15" text="t"/>
     </description>
 </definition>

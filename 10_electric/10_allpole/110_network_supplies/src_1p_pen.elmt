@@ -1,32 +1,28 @@
-<definition version="0.100.0" height="40" width="40" link_type="simple" type="element" hotspot_y="20" hotspot_x="22">
-    <uuid uuid="{341ab939-d8db-40e3-9b73-1988e025e9e4}"/>
+<definition width="40" link_type="simple" version="0.5" hotspot_x="22" height="40" hotspot_y="20" type="element">
+    <uuid uuid="{fd042050-e73b-4f95-b4c1-834aa403b07a}"/>
     <names>
-        <name lang="de">Wechselstrom + PEN</name>
-        <name lang="ar">مصدر وحيد القطبية +PEN</name>
-        <name lang="pl">Linia jednofazowa (TN-C)</name>
         <name lang="es">Fuente unipolo + PEN</name>
-        <name lang="el">Μονοφασικό +PEN</name>
         <name lang="nl">1 fase + aardenul</name>
-        <name lang="fr">Source unipolaire + PEN</name>
-        <name lang="en">Single-pole source +PEN</name>
-        <name lang="ru">Однополюсный + PEN</name>
+        <name lang="el">Μονοφασικό +PEN</name>
+        <name lang="de">Wechselstrom + PEN</name>
         <name lang="cs">Přípojnice 1f+PEN</name>
-        <name lang="hu">F + PEN</name>
+        <name lang="pl">Linia jednofazowa (TN-C)</name>
         <name lang="it">Sorgente unipolare + PEN</name>
+        <name lang="ar">مصدر وحيد القطبية +PEN</name>
+        <name lang="en">Single-pole source +PEN</name>
+        <name lang="fr">Source unipolaire + PEN</name>
+        <name lang="ru">Однополюсный + PEN</name>
+	    <name lang="hu">F + PEN</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" y="-35.95" text_width="-1" Halignment="AlignLeft" rotation="0" uuid="{d064cc93-7185-47be-9789-f8541b0295d0}" x="-7" frame="false" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" y1="-10" antialias="false" length1="1.5" y2="-10" end1="none" end2="none" x2="10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" y1="10" antialias="false" length1="1.5" y2="10" end1="none" end2="none" x2="10"/>
-        <text y="12" color="#000000" rotation="0" x="-16" text="PEN" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
-        <text y="-7" color="#000000" rotation="0" x="-15" text="L" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
-        <terminal y="-10" uuid="{2f8595cc-3abb-4cb6-a0cb-5acd905c5dc6}" x="10" orientation="e" name="" type="Generic"/>
-        <terminal y="10" uuid="{2a8f0049-be81-44ae-83cd-d2fc478c6133}" x="10" orientation="e" name="" type="Generic"/>
+        <input x="-7" y="-23.45" tagg="label" size="9" rotate="true" text="_"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
+        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
+        <text x="-16" y="12" size="5" text="PEN"/>
+        <text x="-15" y="-7" size="5" text="L"/>
+        <terminal x="10" y="-10" orientation="e"/>
+        <terminal x="10" y="10" orientation="e"/>
     </description>
 </definition>
