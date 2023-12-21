@@ -1,44 +1,50 @@
-<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="60" hotspot_x="24">
-    <uuid uuid="{60bde821-878b-4394-b461-1efdf29814c9}"/>
+<definition hotspot_y="19" hotspot_x="24" type="element" version="0.100.0" height="40" link_type="simple" width="60">
+    <uuid uuid="{096cfc51-69bd-4cd3-847e-948977c4a577}"/>
     <names>
-        <name lang="it">Interf. ISDN</name>
-        <name lang="fr">Interface ISDN</name>
-        <name lang="nl">ISDN Interface</name>
-        <name lang="pl">Interfejs KNX / ISDN</name>
-        <name lang="en">ISDN</name>
-        <name lang="es">Interface ISDN</name>
         <name lang="el">Διεπαφή ISDN</name>
+        <name lang="nl">ISDN Interface</name>
+        <name lang="it">Interf. ISDN</name>
+        <name lang="pl">Interfejs KNX / ISDN</name>
+        <name lang="es">Interface ISDN</name>
         <name lang="cs">Rozhraní KNX / ISDN</name>
+        <name lang="en">ISDN</name>
+        <name lang="fr">Interface ISDN</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
-        <rect height="30" y="-15" x="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
-        <input rotate="true" y="10.5" size="5" tagg="none" x="-3" text="ISDN"/>
-        <polygon y3="12" x4="26" x5="26" x1="24" y1="-11" y6="-12" x7="24" y5="-11" x6="25" x2="24" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="25" y4="11" antialias="true" y2="11"/>
-        <rect height="30" y="-15" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10"/>
-        <polygon y3="-9" closed="false" x1="22" y1="-9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="-12"/>
-        <polygon y3="9" closed="false" x1="22" y1="9" x2="25" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="28" antialias="true" y2="12"/>
-        <polygon y3="12" x4="-14" x5="-14" x1="-16" y1="-11" y6="-12" x7="-16" y5="-11" x6="-15" x2="-16" y7="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-15" y4="11" antialias="true" y2="11"/>
-        <polygon y3="-9" closed="false" x1="-18" y1="-9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="-12"/>
-        <polygon y3="9" closed="false" x1="-18" y1="9" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-12" antialias="true" y2="12"/>
-        <line x1="-10" y1="15" end1="none" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="true" y2="-15"/>
-        <text y="-6" size="6" x="-6" text="EIB"/>
-        <input rotate="true" y="-27" size="9" tagg="label" x="-24" text="_"/>
-        <terminal y="10" x="-20" orientation="w"/>
-        <terminal y="0" x="-20" orientation="w"/>
-        <terminal y="-10" x="-20" orientation="w"/>
-        <terminal y="0" x="30" orientation="e"/>
-        <terminal y="10" x="30" orientation="e"/>
-        <terminal y="-10" x="30" orientation="e"/>
-        <terminal y="15" x="-10" orientation="s"/>
-        <terminal y="-15" x="0" orientation="n"/>
-        <terminal y="-15" x="10" orientation="n"/>
-        <terminal y="-15" x="-10" orientation="n"/>
-        <terminal y="15" x="0" orientation="s"/>
-        <terminal y="15" x="10" orientation="s"/>
-        <terminal y="-15" x="20" orientation="n"/>
-        <terminal y="15" x="20" orientation="s"/>
+        <rect x="-10" rx="0" antialias="false" height="30" width="30" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0"/>
+        <rect x="20" rx="0" antialias="false" height="30" width="10" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0"/>
+        <dynamic_text text_from="UserText" x="-3" frame="false" Valignment="AlignTop" Halignment="AlignLeft" y="1" z="3" uuid="{f1db3572-702d-4b4e-8e89-eb33e8002cfe}" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" keep_visual_rotation="false">
+            <text>ISDN</text>
+        </dynamic_text>
+        <polygon x6="25" y7="-11" x2="24" x5="26" x1="24" antialias="true" y3="12" y5="-11" x3="25" y1="-11" x4="26" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="24" y2="11" y6="-12" y4="11"/>
+        <rect x="-20" rx="0" antialias="false" height="30" width="10" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0"/>
+        <polygon x2="25" x1="22" antialias="true" y3="-9" closed="false" x3="28" y1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-12"/>
+        <polygon x2="25" x1="22" antialias="true" y3="9" closed="false" x3="28" y1="9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="12"/>
+        <polygon x6="-15" y7="-11" x2="-16" x5="-14" x1="-16" antialias="true" y3="12" y5="-11" x3="-15" y1="-11" x4="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="-16" y2="11" y6="-12" y4="11"/>
+        <polygon x2="-15" x1="-18" antialias="true" y3="-9" closed="false" x3="-12" y1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-12"/>
+        <polygon x2="-15" x1="-18" antialias="true" y3="9" closed="false" x3="-12" y1="9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="12"/>
+        <line x2="20" length1="1.5" end2="none" x1="-10" antialias="true" y1="15" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-15"/>
+        <text text="EIB" x="-6" y="-6" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
+        <dynamic_text text_from="ElementInfo" x="-24" frame="false" Valignment="AlignTop" Halignment="AlignLeft" y="-39.5" z="13" uuid="{ed7db2c9-40b4-4bb7-8e4a-77b0a455b1b5}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="-20" name="" type="Generic" orientation="w" y="10" uuid="{3b016332-6a5d-484e-871d-bf1c788590d5}"/>
+        <terminal x="-20" name="" type="Generic" orientation="w" y="0" uuid="{9ad6e88c-ca96-4a42-81c3-aac1ff218daa}"/>
+        <terminal x="-20" name="" type="Generic" orientation="w" y="-10" uuid="{a23b8460-5c83-4eb0-8fe3-2c66e6054715}"/>
+        <terminal x="30" name="" type="Generic" orientation="e" y="0" uuid="{4d599462-9380-468e-ac81-842ec6c66ded}"/>
+        <terminal x="30" name="" type="Generic" orientation="e" y="10" uuid="{616861d5-2be6-4a92-a392-07021b4a4f9a}"/>
+        <terminal x="30" name="" type="Generic" orientation="e" y="-10" uuid="{c75ac009-8399-4c84-ba20-53e9c34a1a42}"/>
+        <terminal x="-10" name="" type="Generic" orientation="s" y="15" uuid="{5138864c-f3f4-4b72-ac6c-c299fd518dc2}"/>
+        <terminal x="0" name="" type="Generic" orientation="n" y="-15" uuid="{62ebefab-dfbb-4924-920b-c1a474eeaf9a}"/>
+        <terminal x="10" name="" type="Generic" orientation="n" y="-15" uuid="{bfd0370a-fa50-4b5e-9714-74a6228280aa}"/>
+        <terminal x="-10" name="" type="Generic" orientation="n" y="-15" uuid="{e6ceabdb-a3c3-44e1-8063-acb2ea9247fd}"/>
+        <terminal x="0" name="" type="Generic" orientation="s" y="15" uuid="{dbdd21b3-de2b-4de4-a93c-f01636daeb37}"/>
+        <terminal x="10" name="" type="Generic" orientation="s" y="15" uuid="{e07a8eb9-79d0-4270-b66a-1f7d4bc8aca4}"/>
+        <terminal x="20" name="" type="Generic" orientation="n" y="-15" uuid="{3324f54a-bd77-4fc3-8829-3181cdaf81b0}"/>
+        <terminal x="20" name="" type="Generic" orientation="s" y="15" uuid="{5f82d964-d008-4acd-9dff-9518b8ad08da}"/>
     </description>
 </definition>

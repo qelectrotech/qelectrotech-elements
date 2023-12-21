@@ -1,30 +1,39 @@
-<definition width="40" version="0.4" hotspot_x="20" hotspot_y="25" height="50" link_type="master" type="element" ic="true">
-<uuid uuid="{356D5027-E95D-4757-AF35-A8C3D05384EA}"/><names>
-        <name lang="el">Τηλεχειριζόμενος διακόπτης</name>
-        <name lang="en">Remote controlled switch</name>
+<definition width="40" hotspot_y="29" type="element" hotspot_x="20" height="60" version="0.100.0" link_type="master">
+    <uuid uuid="{8bfc58ea-fd1a-488a-a40a-1e852c2f848a}"/>
+    <names>
         <name lang="de">Stromstossrelais</name>
-        <name lang="it">Teleruttore</name>
-        <name lang="fr">Télérupteur</name>
-        <name lang="pl">Łącznik zdalnie sterowany</name>
-        <name lang="es">Interruptor a control remoto 1P1T</name>
         <name lang="cs">Dálkově ovládaný spínač</name>
+        <name lang="es">Interruptor a control remoto 1P1T</name>
+        <name lang="fr">Télérupteur</name>
+        <name lang="en">Remote controlled switch</name>
+        <name lang="pl">Łącznik zdalnie sterowany</name>
         <name lang="hu">Távoli vezérlésű relé</name>
+        <name lang="el">Τηλεχειριζόμενος διακόπτης</name>
         <name lang="nl">Afstand bestuurbaar schakelaar</name>
+        <name lang="it">Teleruttore</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="28" x="-14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-8" x2="0"/>
-        <input x="2" y="19.3333" size="4" rotate="true" text="A2" tagg="none"/>
-        <input x="2" y="-16.6667" size="4" rotate="true" text="A1" tagg="none"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
-        <input x="25" y="3.3333" size="9" text="_" tagg="label"/>
-        <polygon x4="10" y5="-4" x5="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="4" x1="-9" y2="4" x2="0" y3="-4" x3="0" y4="-4"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <rect width="28" antialias="false" x="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" height="16" rx="0" y="-8" ry="0"/>
+        <line x1="0" antialias="false" y2="-8" length2="1.5" x2="0" y1="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5"/>
+        <dynamic_text x="2" font="Sans Serif,4,-1,5,25,0,0,0,0,0" keep_visual_rotation="false" uuid="{e7d01fa3-624d-4352-ab91-3835a857eb6c}" frame="false" rotation="0" Halignment="AlignLeft" text_from="UserText" text_width="-1" y="11.3333" Valignment="AlignTop" z="3">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text x="2" font="Sans Serif,4,-1,5,25,0,0,0,0,0" keep_visual_rotation="false" uuid="{8991dfc2-0aad-4335-a32b-e3c7f259ee89}" frame="false" rotation="0" Halignment="AlignLeft" text_from="UserText" text_width="-1" y="-24.6667" Valignment="AlignTop" z="4">
+            <text>A1</text>
+        </dynamic_text>
+        <line x1="0" antialias="false" y2="20" length2="1.5" x2="0" y1="8" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5"/>
+        <dynamic_text x="25" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" uuid="{a722277c-64df-4d4c-a1ec-16ac6ad26741}" frame="false" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" text_width="-1" y="-9.1667" Valignment="AlignTop" z="6">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="-9" y3="-4" antialias="false" y2="4" y4="-4" x2="0" y1="4" y5="-4" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x4="10" x5="10"/>
+        <terminal type="Generic" x="0" uuid="{c7aed243-b486-4579-915f-a2e2ef0f4f13}" name="" orientation="n" y="-21"/>
+        <terminal type="Generic" x="0" uuid="{a2a00a77-40e7-4067-ae33-d55c3b0236b9}" name="" orientation="s" y="21"/>
     </description>
 </definition>

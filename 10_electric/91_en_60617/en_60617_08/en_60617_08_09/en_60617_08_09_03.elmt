@@ -1,22 +1,26 @@
-<definition width="70" height="50" type="element" hotspot_x="35" version="0.70" link_type="simple" hotspot_y="45">
-    <uuid uuid="{f76564a2-a8b7-4fb2-919c-bd7849b34269}"/>
+<definition hotspot_x="35" type="element" hotspot_y="45" version="0.100.0" width="70" height="50" link_type="simple">
+    <uuid uuid="{c6b47a30-83db-496a-b71e-8e56e91ee095}"/>
     <names>
-        <name lang="de">Drehwinkelgeber</name>
         <name lang="fr">Transmetteur de couple</name>
+        <name lang="de">Drehwinkelgeber</name>
         <name lang="cs">Vysílací selsyn úhlu natočení</name>
         <name lang="en">Torque transmitter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <circle diameter="36" x="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-38" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="-10" length2="1.5" x1="-30" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-30" length1="1.5" y1="-30" length2="1.5" x1="-30" x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-30" length1="1.5" y1="-30" length2="1.5" x1="30" x2="18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="-10" length2="1.5" x1="30" x2="18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-20" length1="1.5" y1="-20" length2="1.5" x1="30" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <text size="9" text="TX" x="-6" y="-16"/>
+        <dynamic_text rotation="0" text_from="ElementInfo" z="1" frame="false" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="12.5" uuid="{73f32181-2fe0-45c8-b348-81a8bec012ca}" x="5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="40" y="-40" x="-20"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="36" y="-38" x="-18"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="-30" end1="none" y2="-10" y1="-10" x2="-16" length1="1.5" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="-30" end1="none" y2="-30" y1="-30" x2="-16" length1="1.5" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="30" end1="none" y2="-30" y1="-30" x2="18" length1="1.5" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="30" end1="none" y2="-10" y1="-10" x2="18" length1="1.5" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="30" end1="none" y2="-20" y1="-20" x2="20" length1="1.5" length2="1.5"/>
+        <text color="#000000" rotation="0" text="TX" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-16" x="-6"/>
     </description>
 </definition>

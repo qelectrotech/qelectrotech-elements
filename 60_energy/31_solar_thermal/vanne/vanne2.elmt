@@ -1,26 +1,30 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="50" hotspot_y="35">
-    <uuid uuid="{a14fcbf2-429f-4a71-b1b6-39a3eb93bd6f}"/>
+<definition version="0.100.0" width="40" hotspot_x="19" link_type="simple" type="element" height="50" hotspot_y="35">
+    <uuid uuid="{a40e92b8-f217-4b95-b174-938125d7b9f5}"/>
     <names>
+        <name lang="it">Valvola</name>
+        <name lang="es">Válvula de 2 vías</name>
+        <name lang="ar">صمّام بمسارين</name>
         <name lang="cs">Dvoucestný ventil</name>
         <name lang="pl">Zawór dwudrożny</name>
-        <name lang="it">Valvola</name>
         <name lang="en">2-way valve</name>
-        <name lang="es">Válvula de 2 vías</name>
         <name lang="nl">klep 2</name>
-        <name lang="ar">صمّام بمسارين</name>
         <name lang="fr">Vanne 2 voies</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="10.55" x="-7" text="_"/>
-        <rect width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-31" x="-10" height="20"/>
-        <text size="6" y="-19" x="-5" text="V1"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-1" antialias="false" length2="1.5" end1="none" length1="2.5" y1="-10" x1="1" x2="1"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-1" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" x1="-1" x2="-1"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x4="15" antialias="true" y5="10" y1="10" x1="15" x3="15" y3="-10" y4="10" x2="0" x5="15"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x4="0" antialias="true" y5="0" y1="0" x1="0" x3="-15" y3="10" y4="0" x2="-15" x5="0"/>
-        <terminal y="0" x="-15" orientation="w"/>
-        <terminal y="0" x="15" orientation="e"/>
+        <dynamic_text frame="false" x="-7" y="-1.95" uuid="{7b0630a9-c23a-424e-99ae-7b29092b0629}" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-10" y="-31" width="20" ry="0" rx="0" height="20"/>
+        <text x="-5" y="-19" color="#000000" text="V1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <line y2="-1" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="1" antialias="false" x2="1" length1="2.5" end2="none" length2="1.5" y1="-10"/>
+        <line y2="-1" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-1" antialias="false" x2="-1" length1="1.5" end2="none" length2="1.5" y1="-10"/>
+        <polygon y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" antialias="true" x3="15" x4="15" y4="10" x2="0" y5="10" y1="10" y3="-10" x5="15"/>
+        <polygon y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="true" x3="-15" x4="0" y4="0" x2="-15" y5="0" y1="0" y3="10" x5="0"/>
+        <terminal x="-15" y="0" uuid="{4eae772b-c943-4e96-b07a-5b7366f2fd5c}" name="" orientation="w" type="Generic"/>
+        <terminal x="15" y="0" uuid="{380867c6-1f13-407b-a28c-cf342ea36b70}" name="" orientation="e" type="Generic"/>
     </description>
 </definition>

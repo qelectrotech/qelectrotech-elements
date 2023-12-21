@@ -1,23 +1,27 @@
-<definition type="element" version="0.70" height="70" link_type="simple" hotspot_x="46" width="50" hotspot_y="56">
-    <uuid uuid="{3197f4bd-00ab-4143-9e1a-ae011ce549e6}"/>
+<definition width="50" version="0.100.0" link_type="simple" type="element" hotspot_x="46" height="60" hotspot_y="56">
+    <uuid uuid="{d550c759-782e-487e-9c97-d4da8f101f42}"/>
     <names>
-        <name lang="de">Mehrfachsteckdose</name>
+        <name lang="en">Multiple socket outlet (power)</name>
+        <name lang="cs">Vícenásobná zásuvka</name>
         <name lang="fr">Socle de prise de courant (puissance), symbole
 général</name>
-        <name lang="cs">Vícenásobná zásuvka</name>
-        <name lang="en">Multiple socket outlet (power)</name>
+        <name lang="de">Mehrfachsteckdose</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc y="-20" height="20" angle="180" antialias="true" x="-20" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc y="-30" height="20" angle="180" antialias="true" x="-20" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <line length1="1.5" end2="none" y1="-40" y2="-20" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc y="-10" height="20" angle="180" antialias="true" x="-20" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-50" y2="-30" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-30" y2="-10" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-50" y2="-50" x2="-40" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="-50" x="-40"/>
+        <arc angle="180" antialias="true" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" height="20" y="-20"/>
+        <arc angle="180" antialias="true" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" height="20" y="-30"/>
+        <dynamic_text rotation="0" Valignment="AlignTop" uuid="{31335ff6-067b-4a71-b607-182bfd4d00db}" Halignment="AlignLeft" keep_visual_rotation="false" z="3" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" frame="false" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" antialias="false" y2="-20" y1="-40" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x1="-10"/>
+        <arc angle="180" antialias="true" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" height="20" y="-10"/>
+        <line end2="none" antialias="false" y2="-30" y1="-50" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x1="-10"/>
+        <line end2="none" antialias="false" y2="-10" y1="-30" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x1="-10"/>
+        <line end2="none" antialias="false" y2="-50" y1="-50" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x1="-10"/>
+        <terminal uuid="{927c8b81-fd5c-4b16-8649-ab82ed3cc976}" orientation="w" x="-40" type="Generic" name="" y="-50"/>
     </description>
 </definition>

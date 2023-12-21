@@ -1,30 +1,32 @@
-<definition width="60" version="0.3" hotspot_x="30" hotspot_y="25" height="50" type="element" orientation="dnny">
-<uuid uuid="{A6D3FC7C-1EDC-4213-BF9F-322FE68F7CC9}"/><names>
-        <name lang="de">Überspannungsableiter in einer Gasentladungsröhre, symmetrisch</name>
-        <name lang="en">Symmetric protective gas discharge tube</name>
-        <name lang="es">Tubo con simetrico para Protección contra descargas</name>
-        <name lang="it">Limitatore di tensione a gas,simmetrico</name>
-        <name lang="fr">Tube, à gaz limiteur de tension, symmétrique</name>
-        <name lang="pl">Odgromnik gazowyładowczy trójelektrodowy</name>
-        <name lang="cs">Dvojitá plynová bleskojistka</name>
+<definition hotspot_y="29" width="40" hotspot_x="26" version="0.100.0" type="element" link_type="simple" height="60">
+    <uuid uuid="{8ebdbbfb-054a-4228-9a07-23909aacfb38}"/>
+    <names>
         <name lang="nl">Symmetrische gasontlading buis</name>
+        <name lang="es">Tubo con simetrico para Protección contra descargas</name>
+        <name lang="en">Symmetric protective gas discharge tube</name>
         <name lang="hu">Védőgázas kisülőcső</name>
+        <name lang="it">Limitatore di tensione a gas,simmetrico</name>
+        <name lang="cs">Dvojitá plynová bleskojistka</name>
+        <name lang="de">Überspannungsableiter in einer Gasentladungsröhre, symmetrisch</name>
+        <name lang="pl">Odgromnik gazowyładowczy trójelektrodowy</name>
+        <name lang="fr">Tube, à gaz limiteur de tension, symmétrique</name>
     </names>
-    <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
-    </kindInformations>
+    <elementInformations/>
     <informations>EN 60617: 07-22-05</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-2" y2="0" x2="-20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="0" y2="-20" x2="0"/>
-        <polygon x4="0" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-2" x1="0" y2="-8" x2="2" y3="-8" x3="-2" y4="-2"/>
-        <circle x="3.75" y="3.75" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2.5"/>
-        <polygon x4="0" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="2" x1="0" y2="8" x2="-2" y3="8" x3="2" y4="2"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
-        <circle x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <input x="13" y="3.6666" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
-        <terminal x="-20" y="0" orientation="w"/>
+        <line end1="none" length2="1.5" y1="0" length1="1.5" x1="-2" y2="0" x2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end1="none" length2="1.5" y1="-8" length1="1.5" x1="0" y2="-20" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon y1="-2" y3="-8" x3="-2" y4="-2" x1="0" y2="-8" x2="2" x4="0" style="line-style:normal;line-weight:thin;filling:black;color:black" antialias="true"/>
+        <circle y="3.75" x="3.75" diameter="2.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <polygon y1="2" y3="8" x3="2" y4="2" x1="0" y2="8" x2="-2" x4="0" style="line-style:normal;line-weight:thin;filling:black;color:black" antialias="true"/>
+        <line end1="none" length2="1.5" y1="8" length1="1.5" x1="0" y2="20" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle y="-10" x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text y="-8.8334" z="8" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" x="13" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{5e962cef-50a9-425b-b3e0-cfee24a20cd1}" text_width="-1" Halignment="AlignLeft" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-21" x="0" orientation="n" type="Generic" uuid="{42cab7ed-0d5f-4129-bfc5-10f8cf78f4b7}" name=""/>
+        <terminal y="21" x="0" orientation="s" type="Generic" uuid="{9e482558-a736-48fc-a0ec-4a8a2a913ce5}" name=""/>
+        <terminal y="0" x="-20" orientation="w" type="Generic" uuid="{fc9e0aea-c944-4ee1-bd53-0811251f83af}" name=""/>
     </description>
 </definition>

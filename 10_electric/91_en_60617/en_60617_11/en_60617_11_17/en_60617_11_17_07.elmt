@@ -1,26 +1,30 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="44" width="50" hotspot_y="44">
-    <uuid uuid="{e7c6b35a-981d-4e30-b1ef-36d50a525e1b}"/>
+<definition hotspot_x="44" type="element" link_type="simple" height="50" hotspot_y="44" width="50" version="0.100.0">
+    <uuid uuid="{1606150c-74d0-4bca-b8e6-ba8466abc9e3}"/>
     <names>
+        <name lang="en">Crossing of two systems without connection</name>
+        <name lang="cs">Křížení dvou systémůbez spojení</name>
         <name lang="de">Kreuzung von zwei Verteilsystemen ohne
 Verbindung</name>
         <name lang="fr">Croisement de deux canalisations sans
 branchement</name>
-        <name lang="cs">Křížení dvou systémůbez spojení</name>
-        <name lang="en">Crossing of two systems without connection</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="35" tagg="label" size="9" x="5" text="_"/>
-        <line length1="1.5" end2="none" y1="-20" y2="-20" x2="-40" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-25" y2="-15" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-25" y2="-15" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-15" length2="1.5" antialias="false" x1="-25" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-40" y2="0" x2="-20" length2="1.5" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-40" y2="-40" x2="-15" length2="1.5" antialias="false" x1="-25" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="n" y="-40" x="-20"/>
-        <terminal orientation="e" y="-20" x="0"/>
-        <terminal orientation="w" y="-20" x="-40"/>
-        <terminal orientation="s" y="0" x="-20"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="5" z="1" text_width="-1" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" uuid="{1b19efb4-d5b3-45d0-95a3-14c1d157aa70}" frame="false" text_from="ElementInfo" y="22.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-20" end2="none" length2="1.5" antialias="false" y1="-20" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" x1="0"/>
+        <line y2="-15" end2="none" length2="1.5" antialias="false" y1="-25" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" x1="-40"/>
+        <line y2="-15" end2="none" length2="1.5" antialias="false" y1="-25" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="0"/>
+        <line y2="0" end2="none" length2="1.5" antialias="false" y1="0" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-15" x1="-25"/>
+        <line y2="0" end2="none" length2="1.5" antialias="false" y1="-40" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" x1="-20"/>
+        <line y2="-40" end2="none" length2="1.5" antialias="false" y1="-40" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-15" x1="-25"/>
+        <terminal orientation="n" type="Generic" x="-20" name="" uuid="{8be4092f-d319-4d30-8912-54494851beec}" y="-40"/>
+        <terminal orientation="e" type="Generic" x="0" name="" uuid="{8d57a5f8-3b93-4c6a-a3b8-49ed08fa22b4}" y="-20"/>
+        <terminal orientation="w" type="Generic" x="-40" name="" uuid="{88a537c9-769b-479e-b3ee-bdfe5ebf4e63}" y="-20"/>
+        <terminal orientation="s" type="Generic" x="-20" name="" uuid="{38dca08b-478d-4706-9021-ee049af06b9b}" y="0"/>
     </description>
 </definition>

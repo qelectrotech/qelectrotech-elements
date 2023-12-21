@@ -1,22 +1,26 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="44" width="100" hotspot_y="18">
-    <uuid uuid="{7db1167f-ed7f-4d56-a9df-d14e23c32a07}"/>
+<definition hotspot_y="18" hotspot_x="44" width="100" height="50" link_type="simple" type="element" version="0.100.0">
+    <uuid uuid="{6ee0c254-ccd4-42e0-af15-d3bc3622b7c7}"/>
     <names>
+        <name lang="cs">Dilatační díl pro vodiče</name>
         <name lang="de">Ausdehnungsstück für Leiter</name>
         <name lang="fr">Élément de dilatation pour conducteurs</name>
-        <name lang="cs">Dilatační díl pro vodiče</name>
         <name lang="en">Expansion unit for conductors</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="55" tagg="label" size="9" x="55" text="_"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="15" y2="25" x2="50" length2="1.5" antialias="false" x1="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc y="-11.5" height="25" angle="-270" antialias="true" x="-2.5" width="25" start="225" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="20" y2="20" x2="50" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="10" x2="1" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="10" x2="19" length2="1.5" antialias="false" x1="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="e" y="20" x="50"/>
-        <terminal orientation="w" y="20" x="-40"/>
+        <dynamic_text x="55" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false" uuid="{f1cb9c01-8af8-4897-8448-fc14e23b9715}" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" y="42.5" rotation="0" z="1" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" end2="none" length2="1.5" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-40" y2="25" y1="15" antialias="false"/>
+        <line length1="1.5" end2="none" length2="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="50" y2="25" y1="15" antialias="false"/>
+        <arc x="-2.5" start="225" width="25" angle="-270" style="line-style:normal;line-weight:normal;filling:none;color:black" height="25" y="-11.5" antialias="true"/>
+        <line length1="1.5" end2="none" length2="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-40" y2="20" y1="20" antialias="false"/>
+        <line length1="1.5" end2="none" length2="1.5" x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" y2="10" y1="10" antialias="false"/>
+        <line length1="1.5" end2="none" length2="1.5" x2="19" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="30" y2="10" y1="10" antialias="false"/>
+        <terminal x="50" orientation="e" name="" uuid="{04b6c066-abbb-4184-b3ae-4d76a8e049d3}" y="20" type="Generic"/>
+        <terminal x="-40" orientation="w" name="" uuid="{08f06815-c95a-43ff-9a0c-f22dbc688909}" y="20" type="Generic"/>
     </description>
 </definition>

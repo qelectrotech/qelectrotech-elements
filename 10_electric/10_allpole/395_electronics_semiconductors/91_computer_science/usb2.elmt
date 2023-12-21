@@ -1,31 +1,36 @@
-<definition width="80" version="0.3" hotspot_x="15" hotspot_y="35" height="90" type="element" orientation="dnyn">
-<uuid uuid="{626A1593-8C07-40DD-94A9-313509BF7350}"/><names>
+<definition width="70" type="element" version="0.100.0" link_type="simple" hotspot_x="15" hotspot_y="37" height="80">
+    <uuid uuid="{717aa6cf-7841-46ee-8be7-8539d0f69382}"/>
+    <names>
+        <name lang="it">Connettore USB 1 e 2</name>
         <name lang="ar">وصلة USB  نسخة 1 و 2</name>
-        <name lang="de">USB Bauteil, USB 1 und 2</name>
-        <name lang="en">USB connector, USB version 1 and 2</name>
         <name lang="fr">USB Connecteur ,USB version 1 et 2</name>
         <name lang="pl">Złącze USB, wersja 1 i 2</name>
         <name lang="cs">Konektor USB 1 a 2</name>
-        <name lang="it">Connettore USB 1 e 2</name>
+        <name lang="de">USB Bauteil, USB 1 und 2</name>
+        <name lang="en">USB connector, USB version 1 and 2</name>
         <name lang="nl">USB 1 2</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="50" y5="-13" x5="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="17" x1="50" y2="7" x2="40" y3="-3" x3="40" y4="-13"/>
-        <input x="48.5" y="46" size="9" rotate="true" text="_" tagg="label"/>
-        <rect width="60" x="-10" y="-23" antialias="false" height="50" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-6" y="24.3333" size="6" text="D-"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-32" x1="0" y2="-24" x2="0"/>
-        <text x="-8" y="-14.6667" size="6" text="Vusb"/>
-        <text x="29" y="-14.6667" size="6" text="GND"/>
-        <text x="35" y="24.3333" size="6" text="D+"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="28" x1="40" y2="36" x2="40"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="28" x1="0" y2="36" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-32" x1="40" y2="-24" x2="40"/>
-        <terminal x="0" y="-33" orientation="n"/>
-        <terminal x="0" y="37" orientation="s"/>
-        <terminal x="40" y="-33" orientation="n"/>
-        <terminal x="40" y="37" orientation="s"/>
+        <polygon antialias="false" y3="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="17" x5="50" x1="50" x3="40" closed="false" x2="40" x4="50" y4="-13" y5="-13" y2="7"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{bfac5914-6a91-472f-b288-55da196763eb}" frame="false" y="33.5" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" z="2" Valignment="AlignTop" x="48.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" ry="0" y="-23" height="50" x="-10"/>
+        <text text="D-" color="#000000" y="24.3333" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" x="-6"/>
+        <line antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-32" end1="none" length2="1.5" x1="0" x2="0" y2="-24"/>
+        <text text="Vusb" color="#000000" y="-14.6667" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" x="-8"/>
+        <text text="GND" color="#000000" y="-14.6667" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" x="29"/>
+        <text text="D+" color="#000000" y="24.3333" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" x="35"/>
+        <line antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="28" end1="none" length2="1.5" x1="40" x2="40" y2="36"/>
+        <line antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="28" end1="none" length2="1.5" x1="0" x2="0" y2="36"/>
+        <line antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-32" end1="none" length2="1.5" x1="40" x2="40" y2="-24"/>
+        <terminal type="Generic" name="" uuid="{61fab58e-3644-49b6-808d-abbe486cd633}" y="-33" orientation="n" x="0"/>
+        <terminal type="Generic" name="" uuid="{353cf0cc-d2c3-4bfa-a62f-208591ab5348}" y="37" orientation="s" x="0"/>
+        <terminal type="Generic" name="" uuid="{48bb6c2b-79ba-4e60-a2d8-0083a412eaf1}" y="-33" orientation="n" x="40"/>
+        <terminal type="Generic" name="" uuid="{84bdf79b-639e-4541-80b2-ada3ad9c8414}" y="37" orientation="s" x="40"/>
     </description>
 </definition>

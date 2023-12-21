@@ -1,19 +1,29 @@
-<definition height="20" link_type="terminal" width="40" hotspot_y="11" version="0.51" type="element" hotspot_x="25">
-    <uuid uuid="{c44c442b-bf82-4ab0-ba1f-221d1ee52b27}"/>
+<definition type="element" version="0.100.0" height="20" hotspot_x="25" link_type="terminal" width="40" hotspot_y="11">
+    <uuid uuid="{95f4bffc-286f-4813-8c33-c119f36702a9}"/>
     <names>
         <name lang="fr">Tube PE Eau</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41</informations>
     <description>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:blue" y1="0" x2="-18" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="0" x1="9"/>
-        <input rotate="true" text="25" y="-1" size="5" x="-7" tagg="none"/>
-        <input rotate="true" text="_" y="16" size="9" x="-10" tagg="label"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4" x2="10" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="4" x1="10"/>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:black" y1="-5" x2="9" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="-5" x1="-16"/>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:black" y1="5" x2="9" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="5" x1="-20"/>
-        <text text="PE" y="2" size="5" x="-12"/>
-        <line style="line-style:normal;line-weight:hight;filling:none;color:white" y1="-8" x2="-22" end2="none" antialias="false" length2="1.5" end1="none" length1="1.5" y2="6" x1="-15"/>
-        <terminal y="0" x="-18" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <line end1="none" length2="1.5" x2="-18" y1="0" y2="0" style="line-style:normal;line-weight:hight;filling:none;color:blue" length1="1.5" x1="9" end2="none" antialias="false"/>
+        <dynamic_text x="-7" uuid="{62d50318-2933-42d2-bbe4-5fb9867625de}" text_width="-1" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0" frame="false" y="-10.5" z="2" Valignment="AlignTop" text_from="UserText">
+            <text>25</text>
+        </dynamic_text>
+        <dynamic_text x="-10" uuid="{cb310a73-7fbb-4b9c-b14e-ba9a68dccef3}" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0" frame="false" y="3.5" z="3" Valignment="AlignTop" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length2="1.5" x2="10" y1="-4" y2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="10" end2="none" antialias="false"/>
+        <line end1="none" length2="1.5" x2="9" y1="-5" y2="-5" style="line-style:normal;line-weight:hight;filling:none;color:black" length1="1.5" x1="-16" end2="none" antialias="false"/>
+        <line end1="none" length2="1.5" x2="9" y1="5" y2="5" style="line-style:normal;line-weight:hight;filling:none;color:black" length1="1.5" x1="-20" end2="none" antialias="false"/>
+        <text x="-12" text="PE" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" y="2"/>
+        <line end1="none" length2="1.5" x2="-22" y1="-8" y2="6" style="line-style:normal;line-weight:hight;filling:none;color:white" length1="1.5" x1="-15" end2="none" antialias="false"/>
+        <terminal x="-18" uuid="{253966f3-71a7-4b15-98c0-dcf12ded3c5c}" type="Generic" orientation="w" name="" y="0"/>
+        <terminal x="10" uuid="{a834ca0d-14e2-46fe-8bcb-1d3b85474391}" type="Generic" orientation="e" name="" y="0"/>
     </description>
 </definition>

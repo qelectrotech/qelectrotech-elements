@@ -1,19 +1,23 @@
-<definition hotspot_x="56" version="0.70" height="50" hotspot_y="47" width="60" type="element" link_type="simple">
-    <uuid uuid="{250eb5f4-8368-446c-9e81-4c0e0c76a84e}"/>
+<definition hotspot_x="56" link_type="simple" width="60" height="50" version="0.100.0" hotspot_y="45" type="element">
+    <uuid uuid="{a41d0a41-2859-4fce-8d82-f3391202fb57}"/>
     <names>
         <name lang="fr">Point neutre</name>
         <name lang="de">Neutralpunkt in einem Mehrphasensystem</name>
         <name lang="cs">Střední bod</name>
         <name lang="en">Neutral point</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="0" y2="-20" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50"/>
-        <polygon x2="0" y2="-40" y1="-40" x3="0" x4="-10" y4="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="0" x1="-10"/>
-        <line x2="-20" y2="-10" y1="-30" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <text y="-30" x="-45" text="n" size="6"/>
-        <terminal y="-20" x="-50" orientation="w"/>
+        <dynamic_text x="5" Valignment="AlignTop" keep_visual_rotation="false" frame="false" text_from="ElementInfo" uuid="{166ff86a-0c71-4554-85a6-67ec8860da6d}" Halignment="AlignLeft" z="1" text_width="-1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length2="1.5" antialias="false" y2="-20" y1="-20" end1="none"/>
+        <polygon x3="0" x2="0" y4="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" closed="false" x1="-10" antialias="false" y2="-40" y3="0" y1="-40"/>
+        <line end2="none" x2="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40" length2="1.5" antialias="false" y2="-10" y1="-30" end1="none"/>
+        <text x="-45" text="n" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="-30"/>
+        <terminal x="-50" uuid="{da84641d-52f3-4199-87bf-ef753955fc46}" name="" y="-20" orientation="w" type="Generic"/>
     </description>
 </definition>

@@ -1,12 +1,14 @@
-<definition width="40" version="0.4" hotspot_x="25" hotspot_y="31" height="60" type="element" ic="true" link_type="next_report">
-<uuid uuid="{677BF742-F56D-4122-A8AF-2E7F790EBD26}"/><names>
-        <name lang="en">ref complex contact NO</name>
-        <name lang="it">Contatto NO</name>
+<definition version="0.100.0" type="element" height="50" width="30" hotspot_y="24" hotspot_x="21" link_type="next_report">
+    <uuid uuid="{dd3261d5-dd6f-4e4f-973a-5d5534701148}"/>
+    <names>
+        <name lang="es">Contacto NO</name>
         <name lang="fr">Contact NO</name>
-        <name lang="es">Contacto NO</name>          
-        <name lang="cs">Spínací kontakt NO</name>
-        <name lang="pl">Zestyk zwierny</name>
         <name lang="nl">referentie volgend complex contact (NO)</name>
+        <name lang="cs">Spínací kontakt NO</name>
+        <name lang="it">Contatto NO</name>
+        <name lang="pl">Zestyk zwierny</name>
+        <name lang="en">ref complex contact NO</name>
+        <name lang="de">Schließer-Kontakt (NO)</name>
     </names>
     <informations>autor: pawel32640
 
@@ -15,12 +17,19 @@ załącznik: F
 
 licencja: zobacz  http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-23" y="16" size="4" text="14"/>
-        <input x="-23" y="-16" size="5" text="13"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-9" x2="-10"/>
-        <input x="-2" y="0.5" size="10" text="_" tagg="label"/>
-        <polygon x4="-15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="-10" y2="10" x2="-10" y3="-9" x3="-15" y4="-9"/>
-        <terminal x="-10" y="-20" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="-10" y="20" nameHidden="0" number="" name="" orientation="s"/>
+        <dynamic_text Halignment="AlignLeft" y="8" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-23" text_from="UserText" Valignment="AlignTop" rotation="0" z="1" uuid="{76defcb3-eecf-4f9d-92f8-c454fdf28be1}" frame="false" keep_visual_rotation="false">
+            <text>14</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" y="-25.5" text_width="-1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-23" text_from="UserText" Valignment="AlignTop" rotation="0" z="2" uuid="{40d3b57c-d56d-43cf-85ec-3ad27136249f}" frame="false" keep_visual_rotation="false">
+            <text>13</text>
+        </dynamic_text>
+        <line y2="-9" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" end2="none" x1="-10" length2="1.5" antialias="false" end1="none"/>
+        <dynamic_text Halignment="AlignLeft" y="-12.5" text_width="-1" font="Sans Serif,10,-1,5,50,0,0,0,0,0" x="-2" text_from="ElementInfo" Valignment="AlignTop" rotation="0" z="4" uuid="{f5dbcd4e-709c-43e3-9504-4c211784527e}" frame="false" keep_visual_rotation="false">
+            <text>/</text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y2="10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" y3="-9" x3="-15" x1="-10" x4="-15" closed="false" antialias="false" y4="-9"/>
+        <terminal name="" x="-10" y="-20" uuid="{93ded14a-d6e9-4b9e-82b4-580270b03864}" orientation="n" type="Generic"/>
+        <terminal y="20" type="Generic" name="" x="-10" orientation="s" uuid="{04ce96eb-75dc-4b85-aed3-ce90c7f4916e}"/>
     </description>
 </definition>

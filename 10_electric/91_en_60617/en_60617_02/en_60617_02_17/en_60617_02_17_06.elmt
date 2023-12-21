@@ -1,10 +1,15 @@
-<definition hotspot_y="25" type="element" width="50" height="50" hotspot_x="25" link_type="simple" version="0.70">
-    <uuid uuid="{22bc3e68-0d9e-4450-b535-0c6dd03dc7ac}"/>
+<definition type="element" version="0.100.0" hotspot_y="25" hotspot_x="25" width="50" height="50" link_type="simple">
+    <uuid uuid="{a8f68e2c-32d5-4f41-b88b-56a7a58c7b99}"/>
     <names>
         <name lang="fr">Convertisseur, par exemple:
 - de l’énergie
 - d’un signal
 - de mesure</name>
+        <name lang="cs">Převodník (měnič), všeobecná značka, např.:
+- Výkonový měnič
+- Měnič signálu
+- Měřicí převodník</name>
+        <name lang="en">Converter, general symbol</name>
         <name lang="es">Convertidor, por ejemplo:
 - de energia
 - de una señal
@@ -13,17 +18,16 @@
 - Leistungsumformer
 - Signalumformer
 - Meßwertumformer</name>
-        <name lang="cs">Převodník (měnič), všeobecná značka, např.:
-- Výkonový měnič
-- Měnič signálu
-- Měřicí převodník</name>
-        <name lang="en">Converter, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" rotate="true" size="9" tagg="label" x="5" y="15"/>
-        <rect antialias="false" width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20"/>
-        <line length1="1.5" length2="1.5" y2="20" antialias="false" end1="none" end2="none" x1="20" y1="-20" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop" text_width="-1" rotation="0" uuid="{135677dd-8192-482b-a5ad-986528bbf41a}" z="1" frame="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="40" height="40" ry="0" x="-20" y="-20"/>
+        <line y1="-20" x2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" end2="none" antialias="false" y2="20" end1="none" length1="1.5"/>
     </description>
 </definition>

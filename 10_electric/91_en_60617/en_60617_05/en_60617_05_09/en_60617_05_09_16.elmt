@@ -1,19 +1,23 @@
-<definition type="element" link_type="simple" height="40" width="40" version="0.70" hotspot_x="37" hotspot_y="35">
-    <uuid uuid="{fc240473-6a93-474e-8a97-2e2e530fa9d2}"/>
+<definition hotspot_x="37" version="0.100.0" link_type="simple" type="element" width="40" height="40" hotspot_y="35">
+    <uuid uuid="{7e3e743c-1a44-43fa-8fcd-1b3999961278}"/>
     <names>
-        <name lang="fr">Hélice de couplage</name>
         <name lang="de">Kupplung Spirale</name>
         <name lang="cs">Spirálový vazebí člen</name>
+        <name lang="fr">Hélice de couplage</name>
         <name lang="en">Helical coupler</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc antialias="true" height="10" width="10" start="50" y="-31" x="-35" angle="265" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc antialias="true" height="10" width="10" start="47" y="-17" x="-35" angle="268" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input text="_" size="9" tagg="label" y="15" x="5" rotate="true"/>
-        <arc antialias="true" height="10" width="10" start="47" y="-24" x="-35" angle="268" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x1="0" y2="0" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-30"/>
-        <arc antialias="true" height="10" width="10" start="47" y="-10" x="-35" angle="223" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc angle="265" antialias="true" y="-31" start="50" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35"/>
+        <arc angle="268" antialias="true" y="-17" start="47" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35"/>
+        <dynamic_text y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3c048f85-fd00-4008-b7e9-5915276bc4f4}" text_from="ElementInfo" z="3" frame="false" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" x="5" rotation="0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc angle="268" antialias="true" y="-24" start="47" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35"/>
+        <line x2="-30" end2="none" length2="1.5" antialias="false" y2="0" x1="0" y1="0" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc angle="223" antialias="true" y="-10" start="47" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35"/>
     </description>
 </definition>

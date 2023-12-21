@@ -1,16 +1,20 @@
-<definition link_type="simple" type="element" width="70" height="30" hotspot_x="25" hotspot_y="5" version="0.70">
-    <uuid uuid="{f4f49a0c-097b-4c1d-acb5-8e2c1cb72b22}"/>
+<definition width="70" link_type="simple" type="element" hotspot_y="5" hotspot_x="25" version="0.100.0" height="30">
+    <uuid uuid="{d20fd81a-bc1f-4ee2-8e75-9cc6484ac9bf}"/>
     <names>
-        <name lang="de">Stichdose</name>
         <name lang="fr">Prise d'usager</name>
         <name lang="cs">Koncová krabice</name>
+        <name lang="de">Stichdose</name>
         <name lang="en">System outlet</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" size="9" y="85" x="85" rotate="true"/>
-        <line end2="none" end1="none" length1="1.5" y2="10" length2="1.5" x1="-20" y1="10" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle diameter="20" y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="20"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" rotation="0" z="1" x="85" y="72.5" uuid="{a5a0408e-83fc-491e-afa0-aad1364d8962}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="10" x2="20" x1="-20" end1="none" length2="1.5" antialias="false" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <circle x="20" y="0" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

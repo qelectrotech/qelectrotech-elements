@@ -1,16 +1,20 @@
-<definition height="90" version="0.70" width="90" hotspot_x="85" type="element" hotspot_y="85" link_type="simple">
-    <uuid uuid="{ba9867ec-513c-426a-81d7-0aa24953d866}"/>
+<definition width="90" hotspot_x="85" type="element" height="90" link_type="simple" hotspot_y="85" version="0.100.0">
+    <uuid uuid="{8330c9b5-de11-410b-b831-43b4d375aa75}"/>
     <names>
-        <name lang="fr">Enveloppe contenant du gaz</name>
-        <name lang="de">gasgefüllter Röhrenkolben</name>
         <name lang="cs">Elektronka plněná plynem</name>
+        <name lang="de">gasgefüllter Röhrenkolben</name>
         <name lang="en">Gas-filled envelope</name>
+        <name lang="fr">Enveloppe contenant du gaz</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <circle y="-80" diameter="80" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-80"/>
-        <circle y="-25" diameter="10" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-25"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" y="2.5" x="5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{a97d340c-f849-49dd-a4c4-062d9e3c2a59}" rotation="0" text_width="-1" z="1" text_from="ElementInfo" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-80" diameter="80"/>
+        <circle y="-25" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x="-25" diameter="10"/>
     </description>
 </definition>

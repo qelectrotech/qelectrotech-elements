@@ -1,32 +1,37 @@
-<definition width="50" version="0.4" hotspot_x="18" hotspot_y="25" height="40" type="element" ic="true">
-<uuid uuid="{45FC9FE3-D854-49A7-868E-55AA271FA606}"/><names>
-        <name lang="en">Adjustable autotransformer</name>
-        <name lang="es">Autotransformador regulable</name>
-        <name lang="de">Stell-Spartransformator einphasig</name>
-        <name lang="it">Autotrasformatore regolabile (forma 2)</name>
-        <name lang="fr">Autotransformateur monophasé reglable</name>
+<definition height="40" version="0.100.0" hotspot_x="14" hotspot_y="24" link_type="simple" type="element" width="30">
+    <uuid uuid="{288db5db-14b2-4dcf-b239-5d9e21db2232}"/>
+    <names>
         <name lang="pl">Autotransformator regulacyjny (forma 2)</name>
+        <name lang="en">Adjustable autotransformer</name>
+        <name lang="de">Stell-Spartransformator einphasig</name>
+        <name lang="fr">Autotransformateur monophasé reglable</name>
+        <name lang="it">Autotrasformatore regolabile (forma 2)</name>
+        <name lang="es">Autotransformador regulable</name>
         <name lang="cs">Regulační autotransformátor</name>
-        <name lang="nl">Autotransformator regelbaar (Variac)</name>
         <name lang="el">Ρυθμιζόμενος αυτομετασχηματιστής</name>
+        <name lang="nl">Autotransformator regelbaar (Variac)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="2" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-9" x1="2" y2="-6" x2="5" y3="-12" x3="8" y4="-9"/>
-        <arc width="5" x="5" y="-7.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="0" y="-7.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="-5" y="-7.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="-10" y="-7.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-6" x2="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-5" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="10" y2="-5" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="-5" x2="0"/>
-        <input x="12" y="-4" size="9" rotate="true" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="4" y2="4" x2="-5"/>
-        <terminal x="-10" y="-20" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="10" y="-20" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="10" y="10" nameHidden="0" number="" name="" orientation="s"/>
-        <terminal x="0" y="10" nameHidden="0" number="" name="" orientation="s"/>
+        <polygon y4="-9" x2="5" y2="-6" x3="8" antialias="true" x4="2" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-9" y3="-12" x1="2"/>
+        <arc height="5" y="-7.5" antialias="true" x="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180" width="5"/>
+        <arc height="5" y="-7.5" antialias="true" x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180" width="5"/>
+        <arc height="5" y="-7.5" antialias="true" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180" width="5"/>
+        <arc height="5" y="-7.5" antialias="true" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180" width="5"/>
+        <line x2="-10" y2="-6" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="-10" length1="1.5"/>
+        <line x2="10" y2="-5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" x1="10" length1="1.5"/>
+        <line x2="10" y2="-5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" end2="none" length2="1.5" x1="10" length1="1.5"/>
+        <line x2="0" y2="-5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" end2="none" length2="1.5" x1="0" length1="1.5"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" uuid="{71ccaba0-084c-43de-80bc-3b85922f0c1f}" y="-16.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="12" rotation="0" text_from="ElementInfo" Valignment="AlignTop" frame="false" keep_visual_rotation="false" z="10">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-5" y2="4" end1="none" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" end2="none" length2="1.5" x1="4" length1="1.5"/>
+        <terminal uuid="{7fff2dde-cdf5-4590-8448-dac1a51b8159}" y="-20" x="-10" name="" orientation="n" type="Generic"/>
+        <terminal uuid="{401ccae8-09ff-4a69-8cd2-2f101d11e673}" y="-20" x="10" name="" orientation="n" type="Generic"/>
+        <terminal uuid="{2f598523-f707-48bb-a538-81f65f5884d4}" y="10" x="10" name="" orientation="s" type="Generic"/>
+        <terminal uuid="{98b4b938-557b-4c24-92ce-e88c736f5b96}" y="10" x="0" name="" orientation="s" type="Generic"/>
     </description>
 </definition>

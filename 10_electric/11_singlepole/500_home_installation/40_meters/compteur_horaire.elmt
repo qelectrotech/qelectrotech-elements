@@ -1,24 +1,28 @@
-<definition hotspot_x="20" hotspot_y="28" height="50" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{8054da18-8ba7-409e-8cf4-0e57a026884c}"/>
+<definition link_type="simple" width="40" hotspot_x="20" version="0.100.0" height="50" hotspot_y="28" type="element">
+    <uuid uuid="{35989ef9-0d25-4167-841b-920619551681}"/>
     <names>
-        <name lang="fr">Compteur horaire</name>
-        <name lang="pl">Licznik godzin</name>
-        <name lang="cs">Měřič provozních hodin</name>
         <name lang="ar">عدّاد زمني</name>
-        <name lang="el">Ωρόμετρο</name>
         <name lang="it">Conta tempo</name>
+        <name lang="fr">Compteur horaire</name>
         <name lang="de">Betriebsstundenzähler</name>
-        <name lang="en">Hour counter</name>
+        <name lang="pl">Licznik godzin</name>
         <name lang="nl">Bedrijfsurenteller</name>
+        <name lang="cs">Měřič provozních hodin</name>
+        <name lang="en">Hour counter</name>
+        <name lang="el">Ωρόμετρο</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-3" size="9" text="h" y="2.3333"/>
-        <input x="18" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="22" antialias="false" y="-11" width="30"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-19" width="30"/>
-        <terminal x="0" orientation="n" y="-23"/>
-        <terminal x="0" orientation="s" y="15"/>
+        <text rotation="0" color="#000000" text="h" x="-3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.3333"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" frame="false" text_width="-1" uuid="{3c03b9bc-284c-419e-bfaa-92132ba93dc4}" Halignment="AlignLeft" z="2" text_from="ElementInfo" x="18" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-21.95" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="30" height="22" rx="0" x="-15" ry="0" y="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect width="30" height="8" rx="0" x="-15" ry="0" y="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal orientation="n" uuid="{b6db9876-20e3-4f5c-85df-e1dbeedc5449}" name="" x="0" y="-23" type="Generic"/>
+        <terminal orientation="s" uuid="{4ae01a6c-29d1-4e8b-8ed1-bb8e4af00cd5}" name="" x="0" y="15" type="Generic"/>
     </description>
 </definition>

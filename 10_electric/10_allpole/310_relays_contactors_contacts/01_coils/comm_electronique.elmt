@@ -1,33 +1,42 @@
-<definition width="40" version="0.3" hotspot_x="20" hotspot_y="25" height="50" type="element" link_type="master">
-<uuid uuid="{9BED5679-4CC9-4A1D-957D-2D36B51F2E84}"/><names>
+<definition link_type="master" width="40" height="50" hotspot_y="24" hotspot_x="20" version="0.100.0" type="element">
+    <uuid uuid="{6439ba00-21a6-4195-ba92-371f8d4461af}"/>
+    <names>
+        <name lang="nl">relais electronisch</name>
+        <name lang="it">Relè a comando elettronico</name>
+        <name lang="be">Electronisch relais</name>
+        <name lang="cs">Elektronické relé</name>
+        <name lang="fr">Relais électronique</name>
+        <name lang="es">Relé electrónico</name>
+        <name lang="hu">Tranzisztoros működtetés</name>
+        <name lang="de">Relais elektronisch</name>
+        <name lang="pl">Przekaźnik elektroniczny</name>
         <name lang="el">Ηλεκτρονικό ρελέ</name>
         <name lang="en">Electronic relay</name>
-        <name lang="de">Relais elektronisch</name>
-        <name lang="it">Relè a comando elettronico</name>
-        <name lang="fr">Relais électronique</name>
-        <name lang="pl">Przekaźnik elektroniczny</name>
-        <name lang="cs">Elektronické relé</name>
-        <name lang="nl">relais electronisch</name>
-        <name lang="es">Relé electrónico</name>
-        <name lang="be">Electronisch relais</name>
-        <name lang="hu">Tranzisztoros működtetés</name> 
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="7" y2="-2" x2="0"/>
-        <rect width="30" x="-15" y="-10" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="7" y2="2" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-7" y2="0" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" x1="0" y2="6" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <input x="-14" y="18" size="4" text="A2"/>
-        <input x="-14" y="-17" size="4" text="A1"/>
-        <input x="16" y="0.5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <line x1="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="-2" end2="none" y1="-8" x2="0" antialias="true"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" width="30" ry="0" height="20" antialias="false" y="-10" x="-15"/>
+        <line x1="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="2" end2="none" y1="8" x2="0" antialias="true"/>
+        <line x1="-7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="0" end2="none" y1="0" x2="0" antialias="false"/>
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="6" end2="none" y1="-6" x2="0" antialias="false"/>
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="10" end2="none" y1="20" x2="0" antialias="false"/>
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y2="-10" end2="none" y1="-20" x2="0" antialias="false"/>
+        <dynamic_text rotation="0" uuid="{89969859-879e-43c2-9a52-a48bf7e3bc3b}" keep_visual_rotation="false" Halignment="AlignLeft" text_from="UserText" frame="false" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="10" text_width="-1" x="-14" z="8">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text rotation="0" uuid="{96ec5abe-9642-4b22-b49b-7e97522dfbb9}" keep_visual_rotation="false" Halignment="AlignLeft" text_from="UserText" frame="false" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="-25" text_width="-1" x="-14" z="9">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text rotation="0" uuid="{88dc4499-ea44-436b-b57e-5419557a816b}" keep_visual_rotation="false" Halignment="AlignLeft" text_from="ElementInfo" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-12" text_width="-1" x="16" z="10">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{1040d11a-d254-4623-b48d-acede7ce1975}" name="" orientation="n" y="-20" x="0" type="Generic"/>
+        <terminal uuid="{00010eac-39b1-4e53-9763-92e2e05e01e1}" name="" orientation="s" y="20" x="0" type="Generic"/>
     </description>
 </definition>

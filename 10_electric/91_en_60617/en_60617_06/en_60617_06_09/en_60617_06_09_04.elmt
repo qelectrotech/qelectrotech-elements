@@ -1,22 +1,26 @@
-<definition link_type="simple" hotspot_x="85" hotspot_y="157" version="0.70" width="120" type="element" height="160">
-    <uuid uuid="{2d2a672f-4d53-49b3-985a-4e86f7d8f46b}"/>
+<definition hotspot_y="157" hotspot_x="85" version="0.100.0" link_type="simple" height="160" width="120" type="element">
+    <uuid uuid="{6b5a933e-ea8a-4830-a9e5-7203026e9717}"/>
     <names>
         <name lang="fr">Transformateur à trois enroulements</name>
-        <name lang="de">Transformator mit drei Wicklungen</name>
         <name lang="cs">Transformátor se třemi vinutími</name>
         <name lang="en">Transformer with three windings, general symbol</name>
+        <name lang="de">Transformator mit drei Wicklungen</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-110" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-129" end1="none" length1="1.5" x1="-31" x2="-31" end2="none" antialias="false" y2="-109" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-74" y="-140" text="Form 1 / Forme 1" size="9"/>
-        <circle x="-80" y="-80" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-30" y="-80" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-50" x2="-50" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="0" x2="0" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-31" orientation="n" y="-129"/>
+        <dynamic_text Halignment="AlignLeft" text_width="-1" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{635353ab-3df6-45c8-92a0-041dc95a002e}" keep_visual_rotation="false" text_from="ElementInfo" x="5" z="1" Valignment="AlignTop" frame="false" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="60" y="-110" x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-31" end2="none" y1="-129" length2="1.5" y2="-109" end1="none" x1="-31" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text color="#000000" y="-140" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="Form 1 / Forme 1" x="-74" rotation="0"/>
+        <circle diameter="60" y="-80" x="-80" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="60" y="-80" x="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-50" end2="none" y1="-20" length2="1.5" y2="0" end1="none" x1="-50" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="0" end2="none" y1="-20" length2="1.5" y2="0" end1="none" x1="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="-129" uuid="{89d8f2e1-9597-40fc-8a7b-9eb1adb3de79}" orientation="n" x="-31" type="Generic" name=""/>
     </description>
 </definition>

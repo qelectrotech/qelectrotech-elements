@@ -1,22 +1,26 @@
-<definition link_type="simple" version="0.70" hotspot_x="12" hotspot_y="42" type="element" height="50" width="20">
-    <uuid uuid="{9d5e4e96-8407-49de-bba8-b78338376f2b}"/>
+<definition version="0.100.0" width="20" type="element" height="50" hotspot_y="42" hotspot_x="12" link_type="simple">
+    <uuid uuid="{1d72ac11-334b-43de-b969-c08b1b8b7efb}"/>
     <names>
-        <name lang="fr">Région intrinsèque entre un collecteur et une
-région de type de conductivité différente
-formant une structure soit PIP soit NIN</name>
+        <name lang="cs">Vnitřní zóna mezi kolektorem a oblastí s jiným typem vodiče,
+strukturou PIP nebo NIP</name>
         <name lang="de">Eigenleitende Zone zwischen einem Kollektor
 und einem Gebiet anderen Leitertyps, PIP oder
 NIP Struktur</name>
-        <name lang="cs">Vnitřní zóna mezi kolektorem a oblastí s jiným typem vodiče,
-strukturou PIP nebo NIP</name>
         <name lang="en">Intrinsic region between a collector and a region of dissimilar conductivity type</name>
+        <name lang="fr">Région intrinsèque entre un collecteur et une
+région de type de conductivité différente
+formant une structure soit PIP soit NIN</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="-10" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-10" y2="0" antialias="false"/>
-        <polygon x4="-10" y5="-25" x1="-10" y1="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-5" x5="-10" y3="0" x2="-2" y2="-20" antialias="false" x3="-2" closed="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="6" y2="5" antialias="false"/>
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" y="2.5" uuid="{4d954966-35d6-4255-a4b3-cccbd11392c8}" z="1" Halignment="AlignLeft" x="5" frame="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" end2="none" x2="-10" length2="1.5" x1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" y1="-40"/>
+        <polygon x4="-10" closed="false" x2="-2" x1="-10" y5="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x3="-2" y2="-20" y4="-5" y3="0" x5="-10" y1="-25"/>
+        <line end1="none" end2="none" x2="6" length2="1.5" x1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="5" y1="-5"/>
     </description>
 </definition>

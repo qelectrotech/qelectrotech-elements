@@ -1,22 +1,26 @@
-<definition hotspot_x="44" version="0.70" height="30" hotspot_y="11" width="90" type="element" link_type="simple">
-    <uuid uuid="{3bf46289-0ecf-4046-ba0b-7ffee8daf802}"/>
+<definition hotspot_y="11" version="0.100.0" height="30" hotspot_x="44" width="90" type="element" link_type="simple">
+    <uuid uuid="{e97039fb-6d7c-409e-a3ac-4a5b934b9afd}"/>
     <names>
-        <name lang="fr">Paire coaxiale raccordée sur bornes</name>
         <name lang="de">koaxiale Leitung auf Anschlußstellen geführt</name>
-        <name lang="cs">Koaxiální kabel připojený ke svorkám</name>
         <name lang="en">Coaxial pair connected to terminals</name>
+        <name lang="fr">Paire coaxiale raccordée sur bornes</name>
+        <name lang="cs">Koaxiální kabel připojený ke svorkám</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="circle" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <circle y="-5" x="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10"/>
-        <line x2="0" y2="5" y1="5" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
-        <line x2="0" y2="10" y1="5" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="40" y2="10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="circle" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="10" x="40" orientation="e"/>
-        <terminal y="0" x="-40" orientation="w"/>
+        <dynamic_text frame="false" z="1" rotation="0" y="2.5" Halignment="AlignLeft" uuid="{a14ce4dc-a558-447c-ae0b-047d0684511e}" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="5" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" end2="circle" antialias="false" length1="1.5" x1="-40" y1="0" end1="none" x2="40" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-5" antialias="false" diameter="10" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" end2="none" antialias="false" length1="1.5" x1="-5" y1="5" end1="none" x2="0" y2="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" end2="none" antialias="false" length1="1.5" x1="0" y1="5" end1="none" x2="0" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" end2="circle" antialias="false" length1="1.5" x1="0" y1="10" end1="none" x2="40" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" y="0" uuid="{fda1f49b-cb72-4a9f-8f5a-dbede586e9f1}" orientation="e" type="Generic" x="40"/>
+        <terminal name="" y="10" uuid="{7e21e5f8-efbf-4d28-9155-4056e915f602}" orientation="e" type="Generic" x="40"/>
+        <terminal name="" y="0" uuid="{582f8ba5-49c1-46bd-b4c9-7eec6e2045dd}" orientation="w" type="Generic" x="-40"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition type="element" width="20" height="70" hotspot_y="34" hotspot_x="10" version="0.70" link_type="simple">
-    <uuid uuid="{5f81ad8c-4939-4c6d-92b1-c7c30f9b5099}"/>
+<definition hotspot_x="10" link_type="simple" width="20" type="element" height="70" version="0.100.0" hotspot_y="34">
+    <uuid uuid="{9c300434-e539-47a1-91d9-591e009900e4}"/>
     <names>
-        <name lang="de">Sicherung, allgemein</name>
         <name lang="fr">Fusible, symbole général</name>
+        <name lang="de">Sicherung, allgemein</name>
         <name lang="cs">Tavná pojistka, všeobecná značka</name>
         <name lang="en">Fuse, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" end1="none" length1="1.5" length2="1.5"/>
-        <rect antialias="false" width="10" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-5"/>
-        <terminal orientation="s" y="30" x="0"/>
-        <terminal orientation="n" y="-30" x="0"/>
+        <dynamic_text keep_visual_rotation="false" rotation="0" Halignment="AlignLeft" frame="false" x="5" uuid="{52cc721c-95df-4147-b096-1d7dec4efb0f}" text_from="ElementInfo" z="1" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="0" y2="30" length1="1.5" y1="-30" length2="1.5" end2="none"/>
+        <rect antialias="false" rx="0" x="-5" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" ry="0" y="-15"/>
+        <terminal x="0" uuid="{ad434586-c88c-4d92-ae83-4b6120124454}" type="Generic" orientation="s" y="30" name=""/>
+        <terminal x="0" uuid="{9760c3d1-b060-4ee7-bea4-88da7782da13}" type="Generic" orientation="n" y="-30" name=""/>
     </description>
 </definition>

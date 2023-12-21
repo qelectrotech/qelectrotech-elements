@@ -1,25 +1,38 @@
-<definition hotspot_x="31" width="80" hotspot_y="34" version="0.5" height="70" type="element" link_type="simple">
-    <uuid uuid="{1a078cff-9bce-4d10-aa88-f52dd3c38c45}"/>
+<definition height="70" hotspot_y="34" version="0.100.0" type="element" width="80" hotspot_x="31" link_type="simple">
+    <uuid uuid="{92c523ce-869d-4734-9b66-2e2694805df1}"/>
     <names>
-        <name lang="en">Logo-1x-relais-output/05</name>
-        <name lang="fr">Logo-1x-relais-output/05</name>
         <name lang="cs">Logo 1x relé OUT/05</name>
         <name lang="it">Logo 1x relais OUT/05</name>
+        <name lang="fr">Logo-1x-relais-output/05</name>
+        <name lang="en">Logo-1x-relais-output/05</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <rect y="-30" width="30" height="26" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-26" antialias="false"/>
-        <input rotate="true" y="52" rotation="270" text="Q?:?" tagg="none" x="37" size="6"/>
-        <input rotate="true" y="-30" rotation="270" text="Q?:?" tagg="none" x="37" size="6"/>
-        <input rotate="true" y="-18.7" text="PLC;&#xa;Q?" tagg="none" x="-26.75" size="6"/>
-        <input rotate="true" y="11.3" text="?" tagg="none" x="-27.75" size="6"/>
-        <input rotate="true" y="-39.2" text="-? /" tagg="label" x="-34.75" size="9"/>
-        <rect y="-30" width="40" height="26" style="line-style:normal;line-weight:normal;filling:none;color:black" x="4" antialias="false"/>
-        <rect y="-4" width="70" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-26" antialias="false"/>
-        <line y1="30" end1="none" length2="1.5" end2="none" length1="1.5" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="30" y2="26"/>
-        <line y1="-30" end1="none" length2="1.5" end2="none" length1="1.5" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="30" y2="-26"/>
-        <polygon y1="-24" y4="-5" x4="30" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="30" closed="false" antialias="false" x1="25" y2="-15" y3="-5"/>
-        <terminal y="-30" orientation="n" x="30"/>
-        <terminal y="30" orientation="s" x="30"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30" height="26" width="30" antialias="false" x="-26" rx="0"/>
+        <dynamic_text text_width="-1" Valignment="AlignTop" y="52" text_from="UserText" uuid="{562bbe49-19a1-4e5b-b8e5-6e0127ee442f}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="2" Halignment="AlignLeft" x="27" keep_visual_rotation="false" rotation="270" frame="false">
+            <text>Q?:?</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" Valignment="AlignTop" y="-30" text_from="UserText" uuid="{d4b97d63-2f01-4dc7-9405-48be4307c87d}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="3" Halignment="AlignLeft" x="27" keep_visual_rotation="false" rotation="270" frame="false">
+            <text>Q?:?</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" Valignment="AlignTop" y="-34.7" text_from="UserText" uuid="{6196245d-9f31-4025-a8e5-2d41582c5158}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="4" Halignment="AlignLeft" x="-26.75" keep_visual_rotation="false" rotation="0" frame="false">
+            <text>PLC;
+Q?</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" Valignment="AlignTop" y="1.3" text_from="UserText" uuid="{02ea3fec-609d-4e8a-b2f7-4f79d419c28c}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="5" Halignment="AlignLeft" x="-27.75" keep_visual_rotation="false" rotation="0" frame="false">
+            <text>?</text>
+        </dynamic_text>
+        <dynamic_text text_width="-1" Valignment="AlignTop" y="-51.7" text_from="ElementInfo" uuid="{4862aa27-3bfb-4ddf-8261-017d14428093}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="6" Halignment="AlignLeft" x="-34.75" keep_visual_rotation="false" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30" height="26" width="40" antialias="false" x="4" rx="0"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-4" height="30" width="70" antialias="false" x="-26" rx="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" end2="none" y1="30" end1="none" length2="1.5" antialias="false" y2="26" x2="30" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" end2="none" y1="-30" end1="none" length2="1.5" antialias="false" y2="-26" x2="30" length1="1.5"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="25" y4="-5" y1="-24" x3="30" x4="30" antialias="false" y2="-15" closed="false" y3="-5" x2="30"/>
+        <terminal orientation="n" y="-30" uuid="{39351b8f-5597-4895-a4bd-719513b1edd0}" type="Generic" x="30" name=""/>
+        <terminal orientation="s" y="30" uuid="{5f78ff51-c1f2-44ca-b49b-928a779c3187}" type="Generic" x="30" name=""/>
     </description>
 </definition>

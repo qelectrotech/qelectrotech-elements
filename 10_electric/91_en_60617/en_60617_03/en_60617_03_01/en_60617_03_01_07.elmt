@@ -1,18 +1,22 @@
-<definition hotspot_x="44" version="0.70" height="30" hotspot_y="15" width="90" type="element" link_type="simple">
-    <uuid uuid="{80f3020d-515f-4f85-98fd-bc621da82afd}"/>
+<definition hotspot_y="15" type="element" height="30" link_type="simple" width="90" version="0.100.0" hotspot_x="44">
+    <uuid uuid="{4659676e-4e46-4db8-97c5-c99ce72210a0}"/>
     <names>
-        <name lang="fr">Conducteur sous écran</name>
         <name lang="de">Leiter, geschirmt</name>
-        <name lang="cs">Stíněný vodič</name>
+        <name lang="fr">Conducteur sous écran</name>
         <name lang="en">Screened conductor</name>
+        <name lang="cs">Stíněný vodič</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <circle y="-10" x="-10" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="0" x="-40" orientation="w"/>
+        <dynamic_text x="5" y="2.5" frame="false" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ba5fc439-d622-4d47-bfef-7eec9022f683}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" x2="40" length1="1.5" y1="0" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-40" end2="none"/>
+        <circle x="-10" diameter="20" y="-10" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal x="40" y="0" type="Generic" name="" uuid="{89cd06a2-0133-4f7d-8f55-92662ade7043}" orientation="e"/>
+        <terminal x="-40" y="0" type="Generic" name="" uuid="{c9952e63-4722-4116-bfea-22ee95b278ef}" orientation="w"/>
     </description>
 </definition>

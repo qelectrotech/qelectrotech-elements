@@ -1,26 +1,30 @@
-<definition width="30" hotspot_x="4" type="element" link_type="simple" version="0.5" height="20" hotspot_y="0">
-    <uuid uuid="{f0a4482b-6518-404a-b4bc-449f6da563af}"/>
+<definition width="30" link_type="simple" hotspot_y="10" version="0.100.0" type="element" hotspot_x="14" height="20">
+    <uuid uuid="{024c3dab-7807-46b9-aef5-9b05c6da57a6}"/>
     <names>
         <name lang="cs">Regulační uzávěr (prostý)</name>
-        <name lang="pl">Zawór (prosty)</name>
-        <name lang="it">Raccordo</name>
-        <name lang="en">Elbow Tee Set </name>
-        <name lang="es">T de salida "derecha" </name>
         <name lang="nl">Elleboog</name>
-        <name lang="ar">رابط بتعديل "مستقيم "</name>
         <name lang="fr">Té de régalge "droit"</name>
+        <name lang="pl">Zawór (prosty)</name>
+        <name lang="en">Elbow Tee Set </name>
+        <name lang="it">Raccordo</name>
+        <name lang="ar">رابط بتعديل "مستقيم "</name>
+        <name lang="es">T de salida "derecha" </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="4.47214" y="7.7639" x="7.7639"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="9" x="9"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x4="8" antialias="true" y1="9" x1="8" closed="false" x3="2" y3="15" y4="11" x2="2"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x4="12" antialias="true" y1="9" x1="12" closed="false" x3="18" y3="15" y4="11" x2="18"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" x1="0" x2="1"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" x1="20" x2="18"/>
-        <input tagg="label" size="6" y="25" x="5" text="Té "/>
-        <terminal y="10" x="0" orientation="w"/>
-        <terminal y="10" x="20" orientation="e"/>
+        <circle y="-2.2361" antialias="true" x="-2.2361" diameter="4.47214" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-1" antialias="true" x="-1" diameter="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y4="1" antialias="true" y3="5" x3="-8" y1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-5" x2="-8" x1="-2" x4="-2"/>
+        <polygon y4="1" antialias="true" y3="5" x3="8" y1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-5" x2="8" x1="2" x4="2"/>
+        <line length2="1.5" antialias="false" length1="1.5" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x2="-9" x1="-10" end1="none"/>
+        <line length2="1.5" antialias="false" length1="1.5" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x2="8" x1="10" end1="none"/>
+        <dynamic_text y="5" frame="false" text_from="ElementInfo" x="-5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="7" text_width="-1" uuid="{b3c9d712-3f7f-45ae-b22b-1c24c3b7d492}" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="0" x="-10" name="" type="Generic" uuid="{39308108-37ce-4ebd-a3c3-c09bcc6a7ee3}" orientation="w"/>
+        <terminal y="0" x="10" name="" type="Generic" uuid="{b745d85c-b31a-4d10-b608-adb2b5635434}" orientation="e"/>
     </description>
 </definition>

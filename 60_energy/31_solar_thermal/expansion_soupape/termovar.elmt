@@ -1,30 +1,34 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="40" hotspot_y="17">
-    <uuid uuid="{e7403431-f9ee-40ab-99cb-33c6dd69e027}"/>
+<definition version="0.100.0" type="element" hotspot_x="19" link_type="simple" hotspot_y="17" width="40" height="40">
+    <uuid uuid="{641202e4-b06f-4eeb-82bf-3b4b1060e8b4}"/>
     <names>
-        <name lang="cs">Thermovar</name>
-        <name lang="pl">Thermovar</name>
         <name lang="it">Valvola 3vie Thermovar</name>
-        <name lang="en">Thermovar</name>
-        <name lang="nl">Mengklep Thermovar</name>
+        <name lang="pl">Thermovar</name>
         <name lang="ar">Thermovar</name>
         <name lang="fr">Thermovar</name>
+        <name lang="cs">Thermovar</name>
+        <name lang="en">Thermovar</name>
+        <name lang="nl">Mengklep Thermovar</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-22.5" x="-6" text="_"/>
-        <rect width="20" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" y="-10" x="-10" height="20"/>
-        <rect width="22" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-11" x="-11" height="22"/>
-        <text size="3" y="-5" x="-11" text="Termovar"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-90" y="1" x="-2" height="5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="4" x2="-5"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3" x4="8" antialias="true" y5="0" y1="0" x1="8" closed="false" x3="5" y3="3" y4="0" x2="5" x5="8"/>
-        <rect width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-1" x="-6" height="2"/>
-        <rect width="14" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="11" x="-7" height="3"/>
-        <rect width="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-9" x="-14" height="18"/>
-        <rect width="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-9" x="11" height="18"/>
-        <terminal y="0" x="-14" orientation="w"/>
-        <terminal y="0" x="14" orientation="e"/>
-        <terminal y="14" x="0" orientation="s"/>
+        <dynamic_text frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" Valignment="AlignTop" z="1" x="-6" rotation="0" uuid="{e69b2800-36f4-42c9-b94d-85014731a9f5}" Halignment="AlignLeft" y="-35">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" width="20" x="-10" rx="0" y="-10" height="20"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="22" x="-11" rx="0" y="-11" height="22"/>
+        <text text="Termovar" font="Sans Serif,3,-1,5,50,0,0,0,0,0" color="#000000" x="-11" rotation="0" y="-5"/>
+        <arc start="-180" angle="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" width="5" x="-2" y="1" height="5"/>
+        <line length1="1.5" y2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="4" y1="0" x2="-5" length2="1.5" end2="none"/>
+        <polygon y5="0" closed="false" y3="3" x4="8" y2="-3" x3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="0" antialias="true" x1="8" y1="0" x2="5" x5="8"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="10" x="-6" rx="0" y="-1" height="2"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="14" x="-7" rx="0" y="11" height="3"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="3" x="-14" rx="0" y="-9" height="18"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="3" x="11" rx="0" y="-9" height="18"/>
+        <terminal name="" orientation="w" type="Generic" x="-14" uuid="{9a807c6b-713e-42e2-9203-8c28de3039fb}" y="0"/>
+        <terminal name="" orientation="e" type="Generic" x="14" uuid="{b006c933-4969-47c0-a3cf-61ddd7703d12}" y="0"/>
+        <terminal name="" orientation="s" type="Generic" x="0" uuid="{2332f6de-c1c7-4c60-9113-f8f4d830331e}" y="14"/>
     </description>
 </definition>

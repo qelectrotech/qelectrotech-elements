@@ -1,20 +1,24 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{1bf21b3e-ca59-4b1c-b252-a8b98b531674}"/>
+<definition link_type="simple" width="50" version="0.100.0" hotspot_y="15" hotspot_x="25" height="20" type="element">
+    <uuid uuid="{c3d8f590-eb1a-49c5-877e-989eb1080410}"/>
     <names>
+        <name lang="de">Blockiereinrichtung, verklinkt</name>
+        <name lang="en">Blocking device, engaged</name>
         <name lang="fr">Dispositif de blocage engagé</name>
         <name lang="es">Dispositvo de bloqueo, ocupado movimiento a la izquierda bloqueado</name>
-        <name lang="de">Blockiereinrichtung, verklinkt</name>
         <name lang="cs">Blokovací zařízení zapnuté
     pohyb doleva je blokován</name>
-        <name lang="en">Blocking device, engaged</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="0" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <rect y="-5" x="0" antialias="false" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="10"/>
-        <line x2="-3" y2="-3" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-3"/>
+        <dynamic_text keep_visual_rotation="false" Halignment="AlignLeft" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="2.5" frame="false" text_width="-1" x="5" rotation="0" uuid="{c921eed6-1d8c-48dd-a47e-dfe88e74651a}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" length1="1.5" end2="none" x2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20" length2="1.5" y1="0" end1="none" antialias="false"/>
+        <rect y="-5" width="10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" height="5" rx="0" antialias="false"/>
+        <line y2="0" length1="1.5" end2="none" x2="20" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="10" length2="1.5" y1="0" end1="none" antialias="false"/>
+        <line y2="-3" length1="1.5" end2="none" x2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-3" length2="1.5" y1="-10" end1="none" antialias="false"/>
     </description>
 </definition>

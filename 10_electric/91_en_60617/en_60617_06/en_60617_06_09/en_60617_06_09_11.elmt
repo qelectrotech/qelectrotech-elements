@@ -1,25 +1,29 @@
-<definition link_type="simple" hotspot_x="81" hotspot_y="110" version="0.70" width="110" type="element" height="120">
-    <uuid uuid="{9efb65e7-097f-4f95-b4d1-37722d488cdd}"/>
+<definition hotspot_x="80" width="110" height="120" hotspot_y="111" type="element" version="0.100.0" link_type="simple">
+    <uuid uuid="{30f2231e-4c27-40d8-a3b3-f48e5113faae}"/>
     <names>
         <name lang="fr">Transformateur de courant,
 transformateur d'impulsion</name>
-        <name lang="de">Stromwandler,
-Impulstransformator</name>
+        <name lang="en">Current transformer, general symbol</name>
         <name lang="cs">Transformátor proudu,
 Pulzní transformátor</name>
-        <name lang="en">Current transformer, general symbol</name>
+        <name lang="de">Stromwandler,
+Impulstransformator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <line y1="-60" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-74" y="-90" text="Form 2 / Forme 2" size="9"/>
-        <arc x="-35" start="90" angle="180" y="-30" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-35" start="90" angle="180" y="-40" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-30" x2="-10" end2="none" antialias="false" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-40" end1="none" length1="1.5" x1="-30" x2="-10" end2="none" antialias="false" y2="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-30" orientation="s" y="0"/>
-        <terminal x="-30" orientation="n" y="-60"/>
+        <dynamic_text rotation="0" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e9542d91-6f81-453b-add7-b23c3ddae5f5}" text_from="ElementInfo" x="5" z="1" y="12.5" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-30" length1="1.5" length2="1.5" y2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-60" x2="-30" end1="none"/>
+        <text rotation="0" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-74" text="Form 2 / Forme 2" y="-90"/>
+        <arc width="10" height="10" x="-35" y="-30" antialias="true" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180"/>
+        <arc width="10" height="10" x="-35" y="-40" antialias="true" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180"/>
+        <line x1="-30" length1="1.5" length2="1.5" y2="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-20" x2="-10" end1="none"/>
+        <line x1="-30" length1="1.5" length2="1.5" y2="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-40" x2="-10" end1="none"/>
+        <terminal orientation="s" type="Generic" uuid="{0fec9cea-d69a-4cbb-b76c-43f79a8f2bcb}" x="-30" y="0" name=""/>
+        <terminal orientation="n" type="Generic" uuid="{d170079d-a08f-4530-88f9-10bbb1bd2329}" x="-30" y="-60" name=""/>
     </description>
 </definition>

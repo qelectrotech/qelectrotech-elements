@@ -1,27 +1,36 @@
-<definition width="40" version="0.3" hotspot_x="22" hotspot_y="35" height="50" type="element">
-<uuid uuid="{D0241EDC-7CF5-4E5B-826B-3616C05BF481}"/><names>
+<definition type="element" version="0.100.0" width="30" hotspot_y="34" link_type="simple" height="50" hotspot_x="24">
+    <uuid uuid="{7ef00911-3bb0-44dd-9428-af1e27ba7214}"/>
+    <names>
         <name lang="el">Ανοικτή επαφή χρονοδιακόπτη</name>
-        <name lang="en">Contact NO-controlled clock</name>
+        <name lang="pl">Zestyk zwierny zegara sterującego</name>
+        <name lang="nl">Klok contact (NO)</name>
         <name lang="es">Contacto NA controlado por reloj</name>
+        <name lang="cs">Kontakt NO řízený elektrickými hodinami</name>
         <name lang="de">Schliesser zeitgesteuert</name>
         <name lang="it">Contatto NO comandato da orologio</name>
+        <name lang="en">Contact NO-controlled clock</name>
         <name lang="fr">Commande par horloge électrique NO</name>
-        <name lang="pl">Zestyk zwierny zegara sterującego</name>
-        <name lang="cs">Kontakt NO řízený elektrickými hodinami</name>
-        <name lang="nl">Klok contact (NO)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-10" x1="-10" y2="-10" x2="-3"/>
-        <circle x="-20" y="-15" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="10"/>
-        <input x="-10" y="6" size="4" text="4"/>
-        <input x="-10" y="-26" size="4" text="3"/>
-        <input x="1" y="-9.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-20" x1="-5" y2="0" x2="0" y3="10" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x1="0" y2="-20" x2="0"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" y1="-10" x1="-19" y2="-10" x2="-15" y3="-14" x3="-15"/>
-        <terminal x="0" y="10" orientation="s"/>
-        <terminal x="0" y="-30" orientation="n"/>
+        <line end2="none" y2="-10" length2="1.5" antialias="false" y1="-10" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-3" length1="1.5" x1="-10" end1="none"/>
+        <circle diameter="10" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-20" y="-15"/>
+        <dynamic_text z="3" frame="false" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{58f0957d-3d34-430b-8ad2-35b707dc601f}" x="-10" y="-2" text_from="UserText" Valignment="AlignTop">
+            <text>4</text>
+        </dynamic_text>
+        <dynamic_text z="4" frame="false" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{9bb27f67-eedb-4f3c-93ab-edf125e70bb0}" x="-10" y="-34" text_from="UserText" Valignment="AlignTop">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text z="5" frame="false" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3b9c708a-c111-4fa1-888d-dd7dda162daa}" x="1" y="-22" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y2="0" antialias="true" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x2="0" y3="10" x1="-5" x3="0"/>
+        <line end2="none" y2="-20" length2="1.5" antialias="false" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" x1="0" end1="none"/>
+        <polygon y2="-10" antialias="false" y1="-10" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" x2="-15" y3="-14" x1="-19" x3="-15"/>
+        <terminal orientation="s" type="Generic" uuid="{32d4a1b2-663a-47db-90de-b6e791627cbf}" x="0" name="" y="10"/>
+        <terminal orientation="n" type="Generic" uuid="{022ebb4c-3495-4b7d-85ed-052462e761dd}" x="0" name="" y="-30"/>
     </description>
 </definition>

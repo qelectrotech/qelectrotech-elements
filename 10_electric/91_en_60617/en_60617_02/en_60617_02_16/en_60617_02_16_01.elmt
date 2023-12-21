@@ -1,21 +1,25 @@
-<definition type="element" hotspot_y="24" width="30" height="50" hotspot_x="15" version="0.70" link_type="simple">
-    <uuid uuid="{ce787c30-d996-4559-8971-3cc9b1bd49f1}"/>
+<definition hotspot_x="15" version="0.100.0" width="30" height="50" link_type="simple" type="element" hotspot_y="24">
+    <uuid uuid="{95f1c9d6-877f-42ec-9486-c26367ea22eb}"/>
     <names>
-        <name lang="de">ideale Stromquelle</name>
-        <name lang="es">Fuente de energia ideal</name>
-        <name lang="fr">Source idéale de courant</name>
         <name lang="cs">Ideální zdroj proudu</name>
+        <name lang="fr">Source idéale de courant</name>
         <name lang="en">Ideal current source</name>
+        <name lang="es">Fuente de energia ideal</name>
+        <name lang="de">ideale Stromquelle</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" y="15" rotate="true" size="9" x="5" tagg="label"/>
-        <circle diameter="20" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-10"/>
-        <line y2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y1="0" end2="none" length2="1.5" x1="-10" x2="9"/>
-        <line y2="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y1="-20" end2="none" length2="1.5" x1="0" x2="0"/>
-        <line y2="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y1="10" end2="none" length2="1.5" x1="0" x2="0"/>
-        <terminal y="-20" x="0" orientation="n"/>
-        <terminal y="20" x="0" orientation="s"/>
+        <dynamic_text y="2.5" Valignment="AlignTop" rotation="0" uuid="{b90c3fd3-dd07-4b93-9bd9-a189bd31b9d9}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" z="1" text_width="-1" frame="false" x="5" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-10" diameter="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
+        <line y2="0" x2="9" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x1="-10" y1="0" end2="none"/>
+        <line y2="-10" x2="0" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x1="0" y1="-20" end2="none"/>
+        <line y2="20" x2="0" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" x1="0" y1="10" end2="none"/>
+        <terminal y="-20" uuid="{e3deacd4-e856-4c7a-9d07-285b8b19817e}" orientation="n" name="" type="Generic" x="0"/>
+        <terminal y="20" uuid="{b9ff725b-a6fd-4ae1-970e-5c8804c8ddc1}" orientation="s" name="" type="Generic" x="0"/>
     </description>
 </definition>

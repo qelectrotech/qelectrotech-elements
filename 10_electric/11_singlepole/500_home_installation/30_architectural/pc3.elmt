@@ -1,26 +1,32 @@
-<definition hotspot_x="15" hotspot_y="25" height="40" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{b120205f-3bc7-4f09-b934-663a8e91c48c}"/>
+<definition version="0.100.0" link_type="simple" hotspot_x="15" width="30" height="30" type="element" hotspot_y="25">
+    <uuid uuid="{734f7fb4-99ab-4757-827c-ac9ddfebc801}"/>
     <names>
-        <name lang="fr">Socle pour plusieurs prises de courant</name>
-        <name lang="pl">Gniazdo potrójne</name>
-        <name lang="cs">Vícenásobná zásuvka</name>
-        <name lang="ar">قاعدة لعدّة مقابس تيّار</name>
-        <name lang="el">Ρευματοδότης 3πλος</name>
         <name lang="it">Presa multipla</name>
+        <name lang="ar">قاعدة لعدّة مقابس تيّار</name>
         <name lang="de">Mehrfachsteckdose</name>
+        <name lang="el">Ρευματοδότης 3πλος</name>
+        <name lang="pl">Gniazdo potrójne</name>
+        <name lang="nl">Wandcontactdoos (3)</name>
+        <name lang="fr">Socle pour plusieurs prises de courant</name>
+        <name lang="cs">Vícenásobná zásuvka</name>
         <name lang="en">Multiple socket outlet (power)
  The symbol is shown with three
 outlets.
 </name>
-        <name lang="nl">Wandcontactdoos (3)</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-13-02</informations>
     <description>
-        <input x="-1" rotate="true" size="9" text="_" y="-26.5" tagg="label"/>
-        <input x="4" rotate="true" size="5" text="3" y="-14.5" tagg="none"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" antialias="true" y2="-12" end1="none" x2="7" length1="1.5" x1="2"/>
-        <arc x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="true" start="-180" y="-9" angle="-180" width="20"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="false" y2="-20" end1="none" x2="0" length1="1.5" x1="0"/>
-        <terminal x="0" orientation="n" y="-20"/>
+        <dynamic_text y="-39" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" x="-1" uuid="{6430f16c-d207-49ce-b2b0-925a08377ead}" frame="false" keep_visual_rotation="false" z="1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text y="-24" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" x="4" uuid="{99d39ba2-7162-4ef5-a627-616fa314da95}" frame="false" keep_visual_rotation="false" z="2" text_from="UserText" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0">
+            <text>3</text>
+        </dynamic_text>
+        <line x1="2" antialias="true" length1="1.5" y2="-12" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6" end1="none" x2="7" length2="1.5"/>
+        <arc y="-9" angle="-180" antialias="true" x="-10" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" height="20"/>
+        <line x1="0" antialias="false" length1="1.5" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" end1="none" x2="0" length2="1.5"/>
+        <terminal name="" y="-20" x="0" uuid="{042c5f09-9d4f-4c02-948f-90e8ed804479}" orientation="n" type="Generic"/>
     </description>
 </definition>

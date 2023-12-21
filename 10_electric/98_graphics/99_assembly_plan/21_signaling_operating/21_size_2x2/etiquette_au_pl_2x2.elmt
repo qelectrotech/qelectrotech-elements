@@ -1,38 +1,43 @@
-<definition width="80" link_type="thumbnail" version="0.5" hotspot_x="40" height="80" hotspot_y="40" type="element">
-    <uuid uuid="{f97bd69b-c5a3-481d-8fd5-2944734e48b0}"/>
+<definition hotspot_x="45" height="90" hotspot_y="45" version="0.100.0" type="element" width="90" link_type="thumbnail">
+    <uuid uuid="{df4decd7-e46d-432a-a33e-ab2cb2e13ed0}"/>
     <names>
-        <name lang="el">Στάση κινδύνου - Πολωνικά</name>
-        <name lang="nl">Label Noodstop (pl)</name>
         <name lang="de">Schild Not-Aus polnisch</name>
-        <name lang="cs">Štítek - nouzové zastavení - pl</name>
-        <name lang="pl">Etykieta - Wyłącznik awaryjny</name>
-        <name lang="it">Etichetta - Arresto d'emergenza - pl</name>
-        <name lang="ar">توقيف طارئ</name>
         <name lang="en">Label - Emergency stopping</name>
         <name lang="fr">Etiquette - Arrêt d'urgence</name>
+        <name lang="el">Στάση κινδύνου - Πολωνικά</name>
+        <name lang="pl">Etykieta - Wyłącznik awaryjny</name>
+        <name lang="ar">توقيف طارئ</name>
+        <name lang="nl">Label Noodstop (pl)</name>
+        <name lang="it">Etichetta - Arresto d'emergenza - pl</name>
+        <name lang="cs">Štítek - nouzové zastavení - pl</name>
     </names>
+    <kindInformations/>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-37.5" antialias="true" y="-37.5" diameter="75" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input x="-7" y="-54.45" tagg="label" size="9" rotate="true" text="_"/>
-        <circle x="-20" antialias="true" y="-20" diameter="40" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <text x="28.4949" y="17.7252" size="9" text="Y" rotation="295"/>
-        <text x="20.33" y="26.9556" size="9" text="N" rotation="316"/>
-        <text x="12.1771" y="31.8852" size="9" text="J" rotation="334"/>
-        <text x="1.681" y="33.508" size="9" text="Y" rotation="351"/>
-        <text x="-10.3643" y="32.0333" size="9" text="R" rotation="11"/>
-        <text x="-19.8" y="27.1227" size="9" text="A" rotation="31"/>
-        <text x="-29.8256" y="17.5973" size="9" text="W" rotation="50"/>
-        <text x="-32.7782" y="7.5924" size="9" text="A" rotation="70"/>
-        <text x="22.4297" y="-9.5379" size="9" text="K" rotation="79"/>
-        <text x="20.4242" y="-13" size="9" text="I" rotation="65"/>
-        <text x="14.6842" y="-19.8777" size="9" text="N" rotation="47"/>
-        <text x="6.5721" y="-23.1451" size="9" text="Z" rotation="25"/>
-        <text x="-2.2726" y="-24.0239" size="9" text="C" rotation="5"/>
-        <text x="-12.2429" y="-20.8604" size="9" text="Ą" rotation="-19"/>
-        <text x="-17.7165" y="-15.8448" size="9" text="Ł" rotation="320"/>
-        <text x="-21.7774" y="-9.3627" size="9" text="Y" rotation="304"/>
-        <text x="-24.1082" y="-0.05" size="9" text="W" rotation="283"/>
+        <circle diameter="75" y="-37.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-37.5" antialias="true"/>
+        <dynamic_text frame="false" uuid="{27fb1e21-d3e9-4a1a-a8c6-907849464290}" text_from="ElementInfo" Valignment="AlignTop" y="-66.95" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" x="-7" rotation="0" z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="40" y="-20" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-20" antialias="true"/>
+        <text text="Y" y="17.7252" x="28.4949" rotation="295" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="N" y="26.9556" x="20.33" rotation="316" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="J" y="31.8852" x="12.1771" rotation="334" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="Y" y="33.508" x="1.681" rotation="351" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="R" y="32.0333" x="-10.3643" rotation="11" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="A" y="27.1227" x="-19.8" rotation="31" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="W" y="17.5973" x="-29.8256" rotation="50" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="A" y="7.5924" x="-32.7782" rotation="70" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="K" y="-9.5379" x="22.4297" rotation="79" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="I" y="-13" x="20.4242" rotation="65" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="N" y="-19.8777" x="14.6842" rotation="47" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="Z" y="-23.1451" x="6.5721" rotation="25" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="C" y="-24.0239" x="-2.2726" rotation="5" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="Ą" y="-20.8604" x="-12.2429" rotation="-19" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="Ł" y="-15.8448" x="-17.7165" rotation="320" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="Y" y="-9.3627" x="-21.7774" rotation="304" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text text="W" y="-0.05" x="-24.1082" rotation="283" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
     </description>
 </definition>

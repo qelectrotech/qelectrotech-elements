@@ -1,29 +1,36 @@
-<definition width="10" version="0.3" hotspot_x="5" hotspot_y="0" height="30" type="element">
-<uuid uuid="{0EE598EC-C72A-43A3-B330-741E2D41940A}"/><names>
-        <name lang="ar">قابس و مقبس متعدد الأقطاب, تمثيل أحادي الخط</name>
+<definition hotspot_y="4" width="20" type="element" version="0.100.0" link_type="simple" hotspot_x="10" height="40">
+    <uuid uuid="{478a16ea-0c36-4362-aded-ab690143eff8}"/>
+    <names>
+        <name lang="pl">Złącze wielostykowe</name>
+        <name lang="cs">Zásuvka a zástrčka vícepólová</name>
+        <name lang="nl">Steker en Contact veelpolig enkellijns</name>
+        <name lang="it">Spina e presa multipolari, rappresentazione unifilare</name>
+        <name lang="es">Conector multipolar, representación unifilar</name>
         <name lang="de">Steckverbindung komplett mit 6 Kontakten</name>
         <name lang="en">Plug and multipolar representation
 unifilar</name>
-        <name lang="it">Spina e presa multipolari, rappresentazione unifilare</name>
+        <name lang="ar">قابس و مقبس متعدد الأقطاب, تمثيل أحادي الخط</name>
         <name lang="fr">Prise et fiche multipolaires, représentation
 unifilaire
 </name>
-        <name lang="pl">Złącze wielostykowe</name>
-        <name lang="es">Conector multipolar, representación unifilar</name>
-        <name lang="cs">Zásuvka a zástrčka vícepólová</name>
-        <name lang="nl">Steker en Contact veelpolig enkellijns</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 03-03-08</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="13" x1="-5" y2="20" x2="4"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="12" x1="-1" y2="19" x2="-1"/>
-        <input x="1" y="20.5" size="5" rotate="true" text="6"/>
-        <input x="7" y="14.5" size="8" rotate="true" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="12" x1="0" y2="30" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="9" x1="0" y2="0" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="12" x1="1" y2="19" x2="1"/>
-        <arc width="6" x="-3" y="10" antialias="true" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180"/>
-        <terminal x="0" y="0" orientation="n"/>
-        <terminal x="0" y="30" orientation="s"/>
+        <line length1="1.5" x1="-5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" x2="4" end2="none" y1="13" length2="1.5" y2="20" end1="none"/>
+        <line length1="1.5" x1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-1" end2="none" y1="12" length2="1.5" y2="19" end1="none"/>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" uuid="{311afd8c-5b77-4e44-9120-d5b3219fb15b}" frame="false" Valignment="AlignTop" keep_visual_rotation="false" z="3" Halignment="AlignLeft" y="11" text_width="-1" x="1" text_from="UserText">
+            <text>6</text>
+        </dynamic_text>
+        <dynamic_text font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" uuid="{2271040d-17b1-4644-9f7e-344466a90999}" frame="false" Valignment="AlignTop" keep_visual_rotation="false" z="4" Halignment="AlignLeft" y="2.5" text_width="-1" x="7" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end2="none" y1="12" length2="1.5" y2="30" end1="none"/>
+        <line length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end2="none" y1="9" length2="1.5" y2="0" end1="none"/>
+        <line length1="1.5" x1="1" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="1" end2="none" y1="12" length2="1.5" y2="19" end1="none"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" antialias="true" start="-180" y="10" height="6" x="-3" angle="-180"/>
+        <terminal name="" uuid="{72cae567-1da0-41af-bc63-bca7b74e439e}" type="Generic" y="0" orientation="n" x="0"/>
+        <terminal name="" uuid="{3663bce8-39f2-46ab-a883-abc77036f27b}" type="Generic" y="30" orientation="s" x="0"/>
     </description>
 </definition>

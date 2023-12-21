@@ -1,16 +1,20 @@
-<definition link_type="simple" hotspot_x="25" hotspot_y="17" version="0.70" width="30" type="element" height="20">
-    <uuid uuid="{cca21743-ea04-4eb8-aa7a-7f610afaa82f}"/>
+<definition width="30" hotspot_x="25" type="element" height="20" hotspot_y="17" version="0.100.0" link_type="simple">
+    <uuid uuid="{92e9d625-aeff-46d8-903d-6fc8fe4e9bd1}"/>
     <names>
         <name lang="fr">Enroulement triphasé partiel, en V (60°)</name>
         <name lang="de">Dreiphasenwicklung, V-Schaltung (60°)</name>
-        <name lang="cs">Trojfázové vinutí spojené do neúplného trojúhelníka V (60°)</name>
         <name lang="en">Three-phase winding, V (60°)</name>
+        <name lang="cs">Trojfázové vinutí spojené do neúplného trojúhelníka V (60°)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="15" text="_" tagg="label" size="9"/>
-        <line y1="-15" end1="none" length1="1.5" x1="-20" x2="-10" end2="none" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="-10" x2="0" end2="none" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" frame="false" y="2.5" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" uuid="{30596f69-a851-4de9-a52a-7b4f9ecd2fc4}" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" antialias="false" x2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-20" y2="0" end1="none" y1="-15"/>
+        <line length1="1.5" antialias="false" x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-10" y2="-15" end1="none" y1="0"/>
     </description>
 </definition>

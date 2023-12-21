@@ -1,18 +1,22 @@
-<definition width="50" height="70" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="65">
-    <uuid uuid="{2a2d45f7-036c-4fa5-a053-342500e74030}"/>
+<definition link_type="simple" hotspot_y="65" type="element" hotspot_x="25" height="70" width="50" version="0.100.0">
+    <uuid uuid="{fd2a100a-ecf8-42f6-a095-725a908f35c5}"/>
     <names>
+        <name lang="cs">Časoměr, počítač hodin</name>
+        <name lang="en">Hour meter; Hour counter</name>
         <name lang="de">Betriebsstundenzähler</name>
         <name lang="fr">Heuremètre
 Compteur horaire</name>
-        <name lang="cs">Časoměr, počítač hodin</name>
-        <name lang="en">Hour meter; Hour counter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="h" x="-4" y="-16"/>
-        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
+        <dynamic_text text_from="ElementInfo" uuid="{b4d90407-f8bc-4d43-a725-1e4fb94dbbcc}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="5" rotation="0" keep_visual_rotation="false" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" x="-20" y="-40" height="40" width="40"/>
+        <text text="h" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-4" rotation="0" y="-16"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" x="-20" y="-60" height="20" width="40"/>
     </description>
 </definition>

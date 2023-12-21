@@ -1,46 +1,73 @@
-<definition hotspot_x="205" hotspot_y="79" width="870" link_type="terminal" height="170" version="0.5" type="element">
-<uuid uuid="{1B52898C-6B42-4CB0-B99D-A9B09203F065}"/><names>
-        <name lang="en">ls inverter</name>
+<definition version="0.100.0" hotspot_y="79" link_type="terminal" width="870" hotspot_x="205" type="element" height="170">
+    <uuid uuid="{1b21590f-54e4-4354-a906-1a92e7d9cfac}"/>
+    <names>
         <name lang="cs">LS iG5A inverter</name>
+        <name lang="en">ls inverter</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <input text="p1                p2                 p3                 p4                 p5                p6                p7                 p8               com                V1                  Vr                  i" y="-57" tagg="none" x="-17" size="6" rotate="true"/>
-        <input text="220/380Vac in" y="-54.5" tagg="none" x="-162" size="6" rotate="true"/>
-        <rect width="860" y="-70" height="150" x="-200" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-70" y2="80" end2="none" antialias="false" end1="none" length2="1.5" length1="1.5" x1="-45" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-45"/>
-        <input text="380Vac 0-400Hz out" y="67" tagg="none" x="-173" size="6" rotate="true"/>
-        <input text="Aout              Moc               MG               24out              3a                 3b               3com" y="67" tagg="none" x="-24" size="6" rotate="true"/>
-        <input text="p1..p8 multifunction programmable  input , Vr=potentiometer input ,V1= voltage input  ,i= 0-20mA input" y="-30" tagg="none" x="-10" size="6" rotate="true"/>
-        <input text="Analog output , Moc = opencollector output , MG = ground 24V out , 3a = relay 1 output, 3b = relay 2 output, 3c =Common relays" y="52.5" tagg="none" x="-26" size="6" rotate="true"/>
-        <input text="LS  iG5A 0.4-22kW inverters " y="-8.5" tagg="none" x="32" size="9" rotate="true"/>
-        <input text="http://www.lsis.com/support/download/detail.aspx?c=2806&amp;t=&amp;l=&amp;p=&amp;d1=&amp;d2=&amp;d3=&amp;qt=&amp;q=ig5a&amp;e=N&amp;n=1" y="30" tagg="none" x="30" size="6" rotate="true"/>
-        <input text="Datasheet see link below" y="18.5" tagg="none" x="29" size="6" rotate="true"/>
-        <input text="_" y="-25" tagg="label" x="-269" size="9" rotate="true"/>
-        <terminal orientation="n" y="-75" x="50"/>
-        <terminal orientation="n" y="-75" x="-190"/>
-        <terminal orientation="n" y="-75" x="-130"/>
-        <terminal orientation="n" y="-75" x="-70"/>
-        <terminal orientation="n" y="-75" x="-10"/>
-        <terminal orientation="s" y="85" x="230"/>
-        <terminal orientation="n" y="-75" x="110"/>
-        <terminal orientation="n" y="-75" x="170"/>
-        <terminal orientation="n" y="-75" x="230"/>
-        <terminal orientation="n" y="-75" x="290"/>
-        <terminal orientation="n" y="-75" x="350"/>
-        <terminal orientation="n" y="-75" x="410"/>
-        <terminal orientation="n" y="-75" x="470"/>
-        <terminal orientation="n" y="-75" x="530"/>
-        <terminal orientation="s" y="85" x="-190"/>
-        <terminal orientation="s" y="85" x="-130"/>
-        <terminal orientation="s" y="85" x="-70"/>
-        <terminal orientation="s" y="85" x="-10"/>
-        <terminal orientation="s" y="85" x="50"/>
-        <terminal orientation="s" y="85" x="110"/>
-        <terminal orientation="s" y="85" x="170"/>
-        <terminal orientation="s" y="85" x="290"/>
-        <terminal orientation="s" y="85" x="350"/>
-        <terminal orientation="n" y="-75" x="590"/>
-        <terminal orientation="n" y="-75" x="650"/>
+        <dynamic_text x="-17" keep_visual_rotation="false" rotation="0" z="1" Halignment="AlignLeft" y="-67" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{98869223-290b-41f9-ab48-db31c39dd2ca}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>p1                p2                 p3                 p4                 p5                p6                p7                 p8               com                V1                  Vr                  i</text>
+        </dynamic_text>
+        <dynamic_text x="-162" keep_visual_rotation="false" rotation="0" z="2" Halignment="AlignLeft" y="-64.5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{bd4748b0-64fa-4f5a-ac11-ed7df84059c2}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>220/380Vac in</text>
+        </dynamic_text>
+        <rect x="-200" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-70" ry="0" width="860" height="150" rx="0" antialias="false"/>
+        <line y1="-70" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-45" x2="-45" length1="1.5" length2="1.5" y2="80" antialias="false"/>
+        <dynamic_text x="-173" keep_visual_rotation="false" rotation="0" z="5" Halignment="AlignLeft" y="57" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{fca666d3-4ae0-4a2d-8611-f9bc268b7ed6}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>380Vac 0-400Hz out</text>
+        </dynamic_text>
+        <dynamic_text x="-24" keep_visual_rotation="false" rotation="0" z="6" Halignment="AlignLeft" y="57" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{489635be-decf-414f-8c54-43b582b2ebe2}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>Aout              Moc               MG               24out              3a                 3b               3com</text>
+        </dynamic_text>
+        <dynamic_text x="-10" keep_visual_rotation="false" rotation="0" z="7" Halignment="AlignLeft" y="-40" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{79a3bab0-b7d2-4820-b413-f3b92d771f1a}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>p1..p8 multifunction programmable  input , Vr=potentiometer input ,V1= voltage input  ,i= 0-20mA input</text>
+        </dynamic_text>
+        <dynamic_text x="-26" keep_visual_rotation="false" rotation="0" z="8" Halignment="AlignLeft" y="42.5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{e20a54ad-a224-4a76-b6b9-7cc8a193fb44}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>Analog output , Moc = opencollector output , MG = ground 24V out , 3a = relay 1 output, 3b = relay 2 output, 3c =Common relays</text>
+        </dynamic_text>
+        <dynamic_text x="32" keep_visual_rotation="false" rotation="0" z="9" Halignment="AlignLeft" y="-21" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{7627bb5e-4d5f-409a-bc3d-2753212d8dee}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>LS  iG5A 0.4-22kW inverters </text>
+        </dynamic_text>
+        <dynamic_text x="30" keep_visual_rotation="false" rotation="0" z="10" Halignment="AlignLeft" y="20" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{76f7ddbd-e94d-40bb-b284-331a974d9d2d}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>http://www.lsis.com/support/download/detail.aspx?c=2806&amp;t=&amp;l=&amp;p=&amp;d1=&amp;d2=&amp;d3=&amp;qt=&amp;q=ig5a&amp;e=N&amp;n=1</text>
+        </dynamic_text>
+        <dynamic_text x="29" keep_visual_rotation="false" rotation="0" z="11" Halignment="AlignLeft" y="8.5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{64a7138c-8f13-45c2-ac43-7c195d363414}" Valignment="AlignTop" text_from="UserText" frame="false" text_width="-1">
+            <text>Datasheet see link below</text>
+        </dynamic_text>
+        <dynamic_text x="-269" keep_visual_rotation="false" rotation="0" z="12" Halignment="AlignLeft" y="-37.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b9d15292-121a-4b6d-9397-6db0e09f91c7}" Valignment="AlignTop" text_from="ElementInfo" frame="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="50" y="-75" name="" uuid="{fee4d668-9de4-439a-876b-a2e2c94151fc}" orientation="n" type="Generic"/>
+        <terminal x="-190" y="-75" name="" uuid="{8a37f3f6-3af9-4e5b-a80c-7cf2cb66d85a}" orientation="n" type="Generic"/>
+        <terminal x="-130" y="-75" name="" uuid="{0739ef62-d196-4bfa-93db-66568eb967cf}" orientation="n" type="Generic"/>
+        <terminal x="-70" y="-75" name="" uuid="{3a478af9-b7d2-4448-8770-f709ca5d3299}" orientation="n" type="Generic"/>
+        <terminal x="-10" y="-75" name="" uuid="{77961925-19a1-49ed-b324-192ebba6ff90}" orientation="n" type="Generic"/>
+        <terminal x="230" y="85" name="" uuid="{b7048ebe-b3ef-40d4-b6fc-5ec71be1fa67}" orientation="s" type="Generic"/>
+        <terminal x="110" y="-75" name="" uuid="{3e7b98e7-4380-43d8-a3dd-90a07055eb1d}" orientation="n" type="Generic"/>
+        <terminal x="170" y="-75" name="" uuid="{65d7f20c-6bcc-452d-a212-a2f88cfda76c}" orientation="n" type="Generic"/>
+        <terminal x="230" y="-75" name="" uuid="{5a22d014-0bab-4e28-84a8-0ef7ae0ac04e}" orientation="n" type="Generic"/>
+        <terminal x="290" y="-75" name="" uuid="{8a73c79f-9a74-4a38-94d0-0c76c7e20145}" orientation="n" type="Generic"/>
+        <terminal x="350" y="-75" name="" uuid="{fb0cc562-5461-41fb-9821-e83963a3a430}" orientation="n" type="Generic"/>
+        <terminal x="410" y="-75" name="" uuid="{74de56fc-1d8c-4292-bc1a-2b540dc283c4}" orientation="n" type="Generic"/>
+        <terminal x="470" y="-75" name="" uuid="{7647de70-e18f-4245-b39c-1f09f0be9efe}" orientation="n" type="Generic"/>
+        <terminal x="530" y="-75" name="" uuid="{efc1d87f-5ada-49ed-a932-d5b1c607b9f6}" orientation="n" type="Generic"/>
+        <terminal x="-190" y="85" name="" uuid="{b1209880-b033-44a0-bb1c-1c667e75208f}" orientation="s" type="Generic"/>
+        <terminal x="-130" y="85" name="" uuid="{318909ea-387d-4c4b-b2c3-d915cbfd4d2d}" orientation="s" type="Generic"/>
+        <terminal x="-70" y="85" name="" uuid="{e8cdc616-ca8a-4f7e-8bba-9c38e3515a75}" orientation="s" type="Generic"/>
+        <terminal x="-10" y="85" name="" uuid="{beae42a7-4fc2-457e-91cf-da9b313b3831}" orientation="s" type="Generic"/>
+        <terminal x="50" y="85" name="" uuid="{034e8a58-9e81-4176-8cf4-ba6e8f4e11f0}" orientation="s" type="Generic"/>
+        <terminal x="110" y="85" name="" uuid="{349379cc-68e2-4320-bee4-5252f11ffc45}" orientation="s" type="Generic"/>
+        <terminal x="170" y="85" name="" uuid="{71e94ef4-96d5-41b3-bae3-1b08007920b2}" orientation="s" type="Generic"/>
+        <terminal x="290" y="85" name="" uuid="{f2076542-f1e0-4463-8c48-7ccf70b10124}" orientation="s" type="Generic"/>
+        <terminal x="350" y="85" name="" uuid="{d1cf9878-e7a0-4422-8dd9-93ab7086628a}" orientation="s" type="Generic"/>
+        <terminal x="590" y="-75" name="" uuid="{0170024a-0c0a-4f71-a20b-45ab76e51c67}" orientation="n" type="Generic"/>
+        <terminal x="650" y="-75" name="" uuid="{3ad1137b-954b-4f5c-bc4f-09e6dddd1eb5}" orientation="n" type="Generic"/>
     </description>
 </definition>

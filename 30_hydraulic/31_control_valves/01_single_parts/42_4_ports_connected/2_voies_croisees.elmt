@@ -1,34 +1,46 @@
-<definition version="0.5" hotspot_x="10" hotspot_y="34" width="40" height="60" link_type="simple" type="element">
-    <uuid uuid="{16cc7201-b0d8-4180-ac26-2f520d051ade}"/>
+<definition height="60" link_type="simple" hotspot_y="34" width="40" type="element" hotspot_x="10" version="0.100.0">
+    <uuid uuid="{f11cf622-1077-4b6b-94ae-398568b10365}"/>
     <names>
+        <name lang="ar">مسارين متقاطعين مُتّصلين 2</name>
         <name lang="en">4 ports cross connected</name>
         <name lang="nl">4 P -> B, A -> T</name>
-        <name lang="fr">4 voies croisées connectées</name>
-        <name lang="pl">4 drogi połączone</name>
         <name lang="it">4 porte incrociate connesse</name>
+        <name lang="pl">4 drogi połączone</name>
+        <name lang="fr">4 voies croisées connectées</name>
         <name lang="cs">4 cesty překřížené spojené</name>
-        <name lang="ar">مسارين متقاطعين مُتّصلين 2</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="10" end1="none" x2="20"/>
-        <input size="9" x="-19" rotate="true" tagg="label" y="-9.45" text="_"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="10" end1="none" x2="0"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-30" y1="-20" end1="none" x2="0"/>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-30" y1="-20" end1="none" x2="20"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-5" y="-20"/>
-        <line antialias="true" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="6" y1="-20" end1="none" x2="17"/>
-        <input size="5" x="-10" rotate="true" tagg="none" y="-25.5" text="a"/>
-        <polygon antialias="true" y4="10" x1="20" x4="20" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="6" y1="10" x3="18" x2="15" y3="4"/>
-        <input size="5" x="18" rotate="true" tagg="none" y="15.5" text="t"/>
-        <line antialias="true" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-17" y1="10" end1="none" x2="18"/>
-        <input size="5" x="-10" rotate="true" tagg="none" y="15.5" text="p"/>
-        <polygon antialias="true" y4="-20" x1="20" x4="20" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="-16" y1="-20" x3="18" x2="15" y3="-14"/>
-        <input size="5" x="18" rotate="true" tagg="none" y="-25.5" text="b"/>
-        <terminal orientation="s" x="0" y="20"/>
-        <terminal orientation="s" x="20" y="20"/>
-        <terminal orientation="n" x="0" y="-30"/>
-        <terminal orientation="n" x="20" y="-30"/>
+        <line y1="10" y2="20" end2="none" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="20" antialias="false" length1="1.5"/>
+        <dynamic_text z="2" x="-19" y="-21.95" rotation="0" uuid="{93294d76-8ffa-4219-a60d-753901a1a187}" keep_visual_rotation="false" text_from="ElementInfo" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="10" y2="20" end2="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="0" antialias="false" length1="1.5"/>
+        <line y1="-20" y2="-30" end2="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="0" antialias="false" length1="1.5"/>
+        <line y1="-20" y2="-30" end2="none" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="20" antialias="false" length1="1.5"/>
+        <rect height="30" x="-5" y="-20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="30" antialias="false"/>
+        <line y1="-20" y2="6" end2="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="17" antialias="true" length1="1.5"/>
+        <dynamic_text z="8" x="-10" y="-35" rotation="0" uuid="{cfb139a6-f505-4b6c-83c3-238749346d3a}" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text>a</text>
+        </dynamic_text>
+        <polygon y1="10" y2="6" x1="20" y3="4" style="line-style:normal;line-weight:thin;filling:black;color:black" x4="20" x3="18" x2="15" antialias="true" y4="10"/>
+        <dynamic_text z="10" x="18" y="6" rotation="0" uuid="{2e21e63c-b79f-484e-937e-ee80a537333b}" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text>t</text>
+        </dynamic_text>
+        <line y1="10" y2="-17" end2="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="18" antialias="true" length1="1.5"/>
+        <dynamic_text z="12" x="-10" y="6" rotation="0" uuid="{ccbe15e5-39cc-414c-b38b-2aa8c6d88372}" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text>p</text>
+        </dynamic_text>
+        <polygon y1="-20" y2="-16" x1="20" y3="-14" style="line-style:normal;line-weight:thin;filling:black;color:black" x4="20" x3="18" x2="15" antialias="true" y4="-20"/>
+        <dynamic_text z="14" x="18" y="-35" rotation="0" uuid="{fc8bcf73-a5d9-4bd0-b48d-1e684abfe57b}" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text>b</text>
+        </dynamic_text>
+        <terminal x="0" y="20" uuid="{ce0d65a7-9429-436e-9d98-7e843274b986}" orientation="s" name="" type="Generic"/>
+        <terminal x="20" y="20" uuid="{d739cadd-e1da-48d6-aef8-b94979003685}" orientation="s" name="" type="Generic"/>
+        <terminal x="0" y="-30" uuid="{307a227c-5d5e-4138-8fa1-224fcc7ca5de}" orientation="n" name="" type="Generic"/>
+        <terminal x="20" y="-30" uuid="{dc4f0d73-8365-4d4f-bbbb-0a84c15502f2}" orientation="n" name="" type="Generic"/>
     </description>
 </definition>

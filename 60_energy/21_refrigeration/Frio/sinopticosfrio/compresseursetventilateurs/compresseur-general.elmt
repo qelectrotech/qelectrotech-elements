@@ -1,29 +1,33 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{2f3d38e1-da85-4783-81b8-67ce73178c51}"/>
+<definition width="50" height="40" link_type="simple" version="0.100.0" type="element" hotspot_x="24" hotspot_y="20">
+    <uuid uuid="{0c54008e-641f-442a-ab57-c1adf41daa59}"/>
     <names>
         <name lang="cs">Kompresor (obecný symbol)</name>
-        <name lang="it">Compressore (segno generale)</name>
-        <name lang="pl">Kompresor, symbol ogólny</name>
-        <name lang="en">Compressor (general)</name>
-        <name lang="nl">Compressor algemeen</name>
-        <name lang="ar">ضاغط (رمز عام)</name>
         <name lang="fr">Compresseur (général)</name>
+        <name lang="ar">ضاغط (رمز عام)</name>
+        <name lang="en">Compressor (general)</name>
         <name lang="el">Συμπιεστής, γενικό σύμβολο</name>
+        <name lang="nl">Compressor algemeen</name>
+        <name lang="pl">Kompresor, symbol ogólny</name>
+        <name lang="it">Compressore (segno generale)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="14.55" x="-7" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-13" x1="-7" x2="13"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="13" x1="-7" x2="13"/>
-        <terminal y="0" x="-16" orientation="w"/>
-        <terminal y="0" x="16" orientation="e"/>
-        <terminal y="10" x="-10" orientation="w"/>
-        <terminal y="11" x="2" orientation="w"/>
-        <terminal y="11" x="2" orientation="w"/>
-        <terminal y="-10" x="-10" orientation="w"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" y="2.05" rotation="0" uuid="{13e2b823-670e-43cc-9831-94843100355c}" Valignment="AlignTop" x="-7" z="1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" y="-15" diameter="30" x="-15" antialias="true"/>
+        <line x2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="-15" end2="none" y1="0" end1="none" antialias="false" length2="1.5" length1="1.5"/>
+        <line x2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="15" end2="none" y1="0" end1="none" antialias="false" length2="1.5" length1="1.5"/>
+        <line x2="13" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" x1="-7" end2="none" y1="-13" end1="none" antialias="true" length2="1.5" length1="1.5"/>
+        <line x2="13" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x1="-7" end2="none" y1="13" end1="none" antialias="true" length2="1.5" length1="1.5"/>
+        <terminal name="" orientation="w" y="0" uuid="{902a99f1-8776-423f-b850-b9b88afc8846}" x="-16" type="Generic"/>
+        <terminal name="" orientation="e" y="0" uuid="{1ef0d3bb-fcdb-4349-97ed-198524cf4943}" x="16" type="Generic"/>
+        <terminal name="" orientation="w" y="10" uuid="{29b48ec9-8c48-4fb7-bbad-368eab0281d3}" x="-10" type="Generic"/>
+        <terminal name="" orientation="w" y="11" uuid="{a8d4fb62-806c-43de-87e5-04cc00ad0c17}" x="2" type="Generic"/>
+        <terminal name="" orientation="w" y="11" uuid="{e551701a-d78c-4e0d-8637-ca534bc54512}" x="2" type="Generic"/>
+        <terminal name="" orientation="w" y="-10" uuid="{ed48adf7-2b9f-4969-9fa9-0876d94e8761}" x="-10" type="Generic"/>
     </description>
 </definition>

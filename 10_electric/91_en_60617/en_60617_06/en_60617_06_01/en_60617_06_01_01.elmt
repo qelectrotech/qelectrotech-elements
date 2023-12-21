@@ -1,15 +1,19 @@
-<definition link_type="simple" hotspot_x="5" hotspot_y="5" version="0.70" width="10" type="element" height="30">
-    <uuid uuid="{f9095cc3-da28-4ff5-aade-77fbf0b5985c}"/>
+<definition height="30" width="10" link_type="simple" version="0.100.0" type="element" hotspot_x="5" hotspot_y="15">
+    <uuid uuid="{8c1d05cd-38eb-492e-a4be-f076b3584fd1}"/>
     <names>
-        <name lang="fr">Enroulement, symbole distinctif</name>
         <name lang="de">Wicklung</name>
-        <name lang="cs">Jedno vinutí</name>
         <name lang="en">One winding</name>
+        <name lang="cs">Jedno vinutí</name>
+        <name lang="fr">Enroulement, symbole distinctif</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="35" text="_" tagg="label" size="9"/>
-        <line y1="0" end1="none" length1="1.5" x1="0" x2="0" end2="none" antialias="false" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="12.5" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Valignment="AlignTop" uuid="{6a719cbb-c86f-4a60-8a11-818aebb4363b}" text_width="-1" text_from="ElementInfo" x="5" keep_visual_rotation="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" length2="1.5" y1="-10" x1="0" length1="1.5" end2="none" x2="0" antialias="false"/>
     </description>
 </definition>

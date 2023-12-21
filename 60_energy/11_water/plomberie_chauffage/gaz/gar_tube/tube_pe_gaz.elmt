@@ -1,20 +1,30 @@
-<definition hotspot_y="11" type="element" link_type="terminal" hotspot_x="25" width="40" height="20" version="0.51">
-    <uuid uuid="{e933ebb5-8d63-4910-be71-d74230d6bbc3}"/>
+<definition version="0.100.0" link_type="terminal" width="40" hotspot_x="25" height="20" type="element" hotspot_y="11">
+    <uuid uuid="{9609a47e-3ab1-4dfc-9fa3-df79b0ec71a7}"/>
     <names>
-        <name lang="fr">Tube PE gaz</name>
         <name lang="it">Tube gas PE</name>
+        <name lang="fr">Tube PE gaz</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41-2016</informations>
     <description>
-        <line y2="0" x2="-18" style="line-style:normal;line-weight:hight;filling:none;color:yellow" antialias="false" length2="1.5" y1="0" end1="none" length1="1.5" end2="none" x1="9"/>
-        <polygon y2="-5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" y5="-5" antialias="false" y1="-5" x4="-20" y4="5" closed="false" y3="5" x5="-15" x1="-15"/>
-        <input text="_" size="5" y="-34" x="-3" tagg="label" rotate="true"/>
-        <text text="PE" size="5" y="2" x="-12"/>
-        <line y2="6" x2="-22" style="line-style:normal;line-weight:hight;filling:none;color:white" antialias="false" length2="1.5" y1="-8" end1="none" length1="1.5" end2="none" x1="-15"/>
-        <line y2="-4" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="-4" end1="none" length1="1.5" end2="none" x1="-15"/>
-        <line y2="4" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="4" end1="none" length1="1.5" end2="none" x1="-19"/>
-        <input text="25" size="5" y="-1" x="-7" tagg="none" rotate="true"/>
-        <terminal y="0" x="10" orientation="e"/>
-        <terminal y="0" x="-18" orientation="w"/>
+        <line end2="none" style="line-style:normal;line-weight:hight;filling:none;color:yellow" end1="none" antialias="false" y1="0" length1="1.5" y2="0" x1="9" x2="-18" length2="1.5"/>
+        <polygon y5="-5" x4="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" y3="5" antialias="false" y1="-5" x5="-15" y4="5" y2="-5" x1="-15" closed="false" x2="10"/>
+        <dynamic_text y="-43.5" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-3" Valignment="AlignTop" z="3" keep_visual_rotation="false" rotation="0" uuid="{a6b9bc5e-238a-47fa-8116-dff4152a90d0}" text_from="ElementInfo" text_width="-1" frame="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text y="2" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" text="PE" color="#000000" rotation="0"/>
+        <line end2="none" style="line-style:normal;line-weight:hight;filling:none;color:white" end1="none" antialias="false" y1="-8" length1="1.5" y2="6" x1="-15" x2="-22" length2="1.5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y1="-4" length1="1.5" y2="-4" x1="-15" x2="10" length2="1.5"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y1="4" length1="1.5" y2="4" x1="-19" x2="10" length2="1.5"/>
+        <dynamic_text y="-10.5" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-7" Valignment="AlignTop" z="8" keep_visual_rotation="false" rotation="0" uuid="{73999465-29a2-4210-8058-2234ed2bbe21}" text_from="UserText" text_width="-1" frame="false" Halignment="AlignLeft">
+            <text>25</text>
+        </dynamic_text>
+        <terminal y="0" orientation="e" x="10" uuid="{569e3c5b-899f-4360-94f2-1c45992143cd}" name="" type="Generic"/>
+        <terminal y="0" orientation="w" x="-18" uuid="{98472ba3-1283-4352-9619-20bdaf9e9d36}" name="" type="Generic"/>
     </description>
 </definition>

@@ -1,26 +1,30 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="11">
-    <uuid uuid="{c8f89553-f441-41da-a92a-2082dcd41b03}"/>
+<definition version="0.100.0" hotspot_x="14" height="20" link_type="simple" width="30" hotspot_y="11" type="element">
+    <uuid uuid="{1c93bf33-2743-4543-9994-fa04877a9716}"/>
     <names>
-        <name lang="cs">Kuličkový pojistný ventil</name>
         <name lang="it">Valvola di ritegno</name>
+        <name lang="el">Ανεπίστροφη βαλβίδα μπίλιας</name>
+        <name lang="ar">صمّام ضدّ الرجع بكرة</name>
+        <name lang="es">Válvula de retención de bola</name>
         <name lang="pl">Zawór zwrotny kulowy</name>
         <name lang="en">Check valve ball</name>
-        <name lang="es">Válvula de retención de bola</name>
         <name lang="nl">Terugslagklep kogel</name>
-        <name lang="ar">صمّام ضدّ الرجع بكرة</name>
+        <name lang="cs">Kuličkový pojistný ventil</name>
         <name lang="fr">clapet anti-retour à bille</name>
-        <name lang="el">Ανεπίστροφη βαλβίδα μπίλιας</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="3.55" x="-7" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8" y="-4" x="-4"/>
-        <line end2="simple" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-6" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-6" x1="6" x2="-6"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="4" x2="7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-7" x2="-4"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-4" x1="3" x2="3"/>
-        <terminal y="0" x="7" orientation="e"/>
-        <terminal y="0" x="-7" orientation="w"/>
+        <dynamic_text Halignment="AlignLeft" x="-7" Valignment="AlignTop" text_width="-1" z="1" frame="false" text_from="ElementInfo" uuid="{5e4cf856-d495-4f1e-a256-21ec8f634e8e}" keep_visual_rotation="false" rotation="0" y="-8.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-4" diameter="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-4"/>
+        <line x2="-6" end1="none" y1="-6" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="simple" antialias="false" length1="1.5" x1="6" y2="-6"/>
+        <line x2="7" end1="none" y1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" length1="1.5" x1="4" y2="0"/>
+        <line x2="-4" end1="none" y1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" length1="1.5" x1="-7" y2="0"/>
+        <line x2="3" end1="none" y1="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" length1="1.5" x1="3" y2="4"/>
+        <terminal x="7" orientation="e" uuid="{97702f83-9187-4c6c-884a-ec81824a9905}" type="Generic" y="0" name=""/>
+        <terminal x="-7" orientation="w" uuid="{f11ec183-bebd-4796-9103-3fe17000c6c5}" type="Generic" y="0" name=""/>
     </description>
 </definition>

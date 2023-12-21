@@ -1,23 +1,27 @@
-<definition link_type="simple" type="element" width="50" hotspot_y="44" height="70" version="0.70" hotspot_x="25">
-    <uuid uuid="{2c9edcc9-f94e-4957-91d3-332bdd88abfa}"/>
+<definition height="70" hotspot_x="25" width="50" link_type="simple" version="0.100.0" type="element" hotspot_y="44">
+    <uuid uuid="{abacf6c0-6fa2-4dba-9a48-77efec564be3}"/>
     <names>
-        <name lang="fr">Tube à gaz avec bilame,
-Starter pour lampe fluorescente</name>
         <name lang="de">Gasentladungsröhre mit Thermokontakt
 Starter für Leuchtstofflampe</name>
-        <name lang="cs">Startér zářivky</name>
         <name lang="en">Gas discharge tube with thermal element</name>
+        <name lang="fr">Tube à gaz avec bilame,
+Starter pour lampe fluorescente</name>
+        <name lang="cs">Startér zářivky</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="0" antialias="false" y1="-20" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="-40" length2="1.5"/>
-        <line x2="0" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y2="20" length2="1.5"/>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="25"/>
-        <circle antialias="false" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" y="-30"/>
-        <circle antialias="false" diameter="4" style="line-style:normal;line-weight:normal;filling:black;color:black" x="8" y="-2"/>
-        <polygon x2="-6" antialias="false" x5="-4" y1="-23" y5="-12" y6="0" x3="-11" x6="0" x4="-9" y4="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-8" closed="false" y2="-17" y3="-15"/>
-        <terminal orientation="s" x="0" y="20"/>
-        <terminal orientation="n" x="0" y="-40"/>
+        <line end2="none" antialias="false" length2="1.5" y1="-20" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end1="none" y2="-40"/>
+        <line end2="none" antialias="false" length2="1.5" y1="0" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end1="none" y2="20"/>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" text_from="ElementInfo" uuid="{a2f80f04-740a-4904-a73a-fd7b783e72ae}" text_width="-1" rotation="0" frame="false" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="3" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-30"/>
+        <circle antialias="false" diameter="4" x="8" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-2"/>
+        <polygon y4="-10" antialias="false" y3="-15" y5="-12" closed="false" y1="-23" x2="-6" x3="-11" x5="-4" x6="0" x4="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-8" y6="0" y2="-17"/>
+        <terminal orientation="s" uuid="{8b06533e-36a4-4887-b619-0fac551b7f12}" x="0" name="" type="Generic" y="20"/>
+        <terminal orientation="n" uuid="{0b8d4d29-ce66-4203-a340-0e5621716a08}" x="0" name="" type="Generic" y="-40"/>
     </description>
 </definition>

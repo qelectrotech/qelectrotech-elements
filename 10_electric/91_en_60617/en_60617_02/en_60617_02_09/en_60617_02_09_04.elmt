@@ -1,21 +1,25 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{5430b28e-7878-446a-bce5-39cc59777f0a}"/>
+<definition type="element" version="0.100.0" hotspot_x="25" height="20" link_type="simple" hotspot_y="15" width="50">
+    <uuid uuid="{70d5bda7-af23-4dbb-9951-12043aa1029b}"/>
     <names>
-        <name lang="fr">Rayonnement électromagnétique, non ionisant, bidirectionnel, par exemple rada</name>
-        <name lang="es">Radiación electromagnética, no ionizante, bidireccional, por ejemplo radar</name>
-        <name lang="de">elektromagnetische Strahlung, nicht ionisierend, bidirektional, z.B.:: Rada</name>
         <name lang="cs">Elekromagnetické záření neionizující, obousměrné (např. radar)</name>
         <name lang="en">Radiation, electromagnetic, non-ionizing, bidirectional</name>
+        <name lang="de">elektromagnetische Strahlung, nicht ionisierend, bidirektional, z.B.:: Rada</name>
+        <name lang="es">Radiación electromagnética, no ionizante, bidireccional, por ejemplo radar</name>
+        <name lang="fr">Rayonnement électromagnétique, non ionisant, bidirectionnel, par exemple rada</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="19" y2="-10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-19"/>
-        <line x2="19" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-19"/>
-        <polygon x2="-20" y2="-10" y1="-8" x3="-15" x4="-15" y4="-8" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-12" x1="-15"/>
-        <polygon x2="-20" y2="0" y1="-2" x3="-15" x4="-15" y4="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="2" x1="-15"/>
-        <polygon x2="15" y2="-12" y1="-8" x3="20" x4="15" y4="-8" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-10" x1="15"/>
-        <polygon x2="20" y2="0" y1="-2" x3="15" x4="15" y4="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="2" x1="15"/>
+        <dynamic_text text_width="-1" x="5" frame="false" text_from="ElementInfo" uuid="{7a39e54e-10eb-4d2d-80f5-a516c9c67a45}" Halignment="AlignLeft" y="2.5" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" y1="-10" x1="-19" y2="-10" end2="none" x2="19"/>
+        <line length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" y1="0" x1="-19" y2="0" end2="none" x2="19"/>
+        <polygon antialias="false" x3="-15" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="-15" y1="-8" y4="-8" x1="-15" y2="-10" y3="-12" x2="-20"/>
+        <polygon antialias="false" x3="-15" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="-15" y1="-2" y4="-2" x1="-15" y2="0" y3="2" x2="-20"/>
+        <polygon antialias="false" x3="20" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="15" y1="-8" y4="-8" x1="15" y2="-12" y3="-10" x2="15"/>
+        <polygon antialias="false" x3="15" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="15" y1="-2" y4="-2" x1="15" y2="0" y3="2" x2="20"/>
     </description>
 </definition>

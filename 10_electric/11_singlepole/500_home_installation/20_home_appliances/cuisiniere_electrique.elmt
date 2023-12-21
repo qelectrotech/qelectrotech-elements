@@ -1,26 +1,30 @@
-<definition hotspot_x="15" hotspot_y="21" height="50" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{328a6a45-6782-40fe-976f-2960d238be80}"/>
+<definition hotspot_x="15" version="0.100.0" type="element" link_type="simple" width="30" hotspot_y="21" height="50">
+    <uuid uuid="{324e88a9-9926-4cd8-b8e2-614e5928a050}"/>
     <names>
-        <name lang="fr">Cuisiniere electrique</name>
+        <name lang="el">Ηλεκτρικό μαγειρείο</name>
+        <name lang="it">Piastra elettrica</name>
+        <name lang="nl">Elektrisch kooktoestel</name>
+        <name lang="de">Kochfeld</name>
         <name lang="pl">Kuchenka elektryczna</name>
         <name lang="cs">Elektrický sporák</name>
         <name lang="ar">مطبخ كهربائي</name>
-        <name lang="el">Ηλεκτρικό μαγειρείο</name>
-        <name lang="it">Piastra elettrica</name>
         <name lang="en">Electric cooker</name>
-        <name lang="de">Kochfeld</name>
-        <name lang="nl">Elektrisch kooktoestel</name>
+        <name lang="fr">Cuisiniere electrique</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-7" rotate="true" size="9" text="_" y="22.5" tagg="label"/>
-        <circle x="-9.1622" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="6.3245" antialias="true" y="12.8377"/>
-        <polygon y3="23" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-1" antialias="false" y2="23" x3="12" x2="-12" x4="12" x1="-12" y4="-1"/>
-        <circle x="2.8377" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="6.3245" antialias="true" y="12.8377"/>
-        <circle x="-9.1622" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="6.3245" antialias="true" y="2.8377"/>
-        <circle x="2.8377" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="6.3245" antialias="true" y="2.8377"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="false" y2="-1" end1="none" x2="0" length1="1.5" x1="0"/>
-        <terminal x="0" orientation="n" y="-13"/>
+        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" z="1" frame="false" uuid="{237ed61b-860a-4434-81f3-52c884c3dbab}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" keep_visual_rotation="false" x="-7" text_width="-1" y="10">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="6.3245" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-9.1622" y="12.8377"/>
+        <polygon y2="23" x2="-12" x1="-12" y3="23" x4="12" y1="-1" y4="-1" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="12"/>
+        <circle diameter="6.3245" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="2.8377" y="12.8377"/>
+        <circle diameter="6.3245" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-9.1622" y="2.8377"/>
+        <circle diameter="6.3245" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="2.8377" y="2.8377"/>
+        <line y2="-1" x2="0" x1="0" length1="1.5" y1="-13" end1="none" antialias="false" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <terminal type="Generic" uuid="{2cc68c9e-3dd2-4fe7-baea-7d7d135c799c}" name="" orientation="n" x="0" y="-13"/>
     </description>
 </definition>

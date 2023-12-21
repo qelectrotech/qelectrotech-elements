@@ -1,14 +1,18 @@
-<definition hotspot_y="2" type="element" width="20" height="20" link_type="simple" version="0.51" hotspot_x="2">
-    <uuid uuid="{d8628b8a-0b45-4d30-b605-7d52c3b7111e}"/>
+<definition link_type="simple" version="0.100.0" height="20" hotspot_x="2" width="20" type="element" hotspot_y="2">
+    <uuid uuid="{98163940-3a15-4268-91f3-5e18323d9339}"/>
     <names>
         <name lang="fr">Bloc différentiel</name>
         <name lang="cs">Diferenciální blok</name>
     </names>
+    <elementInformations/>
     <informations>cbh41</informations>
     <description>
-        <ellipse antialias="false" width="12" height="4" x="4" y="8" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <line x1="0" y2="10" y1="3" length2="1.5" end2="none" antialias="false" x2="0" length1="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line x1="0" y2="10" y1="10" length2="1.5" end2="none" antialias="false" x2="4" length1="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <input text="30 mA" x="21" y="4" rotate="true" size="9" tagg="label"/>
+        <ellipse y="8" height="4" width="12" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" x="4"/>
+        <line x1="0" x2="0" end2="none" y1="3" length2="1.5" y2="10" length1="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" end1="none"/>
+        <line x1="0" x2="4" end2="none" y1="10" length2="1.5" y2="10" length1="1.5" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" end1="none"/>
+        <dynamic_text rotation="0" text_width="-1" keep_visual_rotation="false" y="-8.5" z="4" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" uuid="{1b009500-6bfc-4e0c-bddd-88fdc1b742dd}" Valignment="AlignTop" x="21" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

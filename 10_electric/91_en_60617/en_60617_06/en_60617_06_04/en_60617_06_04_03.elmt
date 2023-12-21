@@ -1,17 +1,21 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="65" version="0.70" width="70" type="element" height="70">
-    <uuid uuid="{baf3b132-9f39-4ef0-bdfc-75ff16980ad5}"/>
+<definition link_type="simple" width="70" hotspot_x="65" hotspot_y="65" type="element" height="70" version="0.100.0">
+    <uuid uuid="{5a15cb75-47d3-4cd8-9d8a-4cd766e42957}"/>
     <names>
         <name lang="fr">Moteur pas à pas</name>
-        <name lang="de">Schrittmotor</name>
         <name lang="cs">Krokový motor</name>
+        <name lang="de">Schrittmotor</name>
         <name lang="en">Stepping motor, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-35" y="-25" text="M" size="9"/>
-        <polygon y1="-5" x4="-25" x1="-35" x2="-35" antialias="false" x3="-25" y2="-10" y4="-15" y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
+        <dynamic_text keep_visual_rotation="false" frame="false" Halignment="AlignLeft" text_width="-1" x="5" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" rotation="0" uuid="{4893a1dc-1868-4f09-a217-f9dadf3d9098}" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-60" y="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60"/>
+        <text text="M" color="#000000" x="-35" y="-25" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <polygon x3="-25" y3="-10" antialias="false" y4="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="-35" x1="-35" y2="-10" closed="false" x4="-25"/>
     </description>
 </definition>

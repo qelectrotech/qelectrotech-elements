@@ -1,33 +1,37 @@
-<definition link_type="simple" version="0.70" hotspot_x="123" hotspot_y="77" type="element" height="80" width="170">
-    <uuid uuid="{12a611ea-0fa5-4afa-84d5-7780a6ff890f}"/>
+<definition height="80" width="170" hotspot_x="123" hotspot_y="78" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{d955c5f9-1422-4bbe-8eb9-c5888b5b51c0}"/>
     <names>
-        <name lang="fr">Élément de commutateur multidirectionnel</name>
-        <name lang="de">Mehrstellungsschalter, gebrückt</name>
-        <name lang="cs">Jednopólový několikapolohový spínač</name>
         <name lang="en">Multi-position switch, wiping multiple consecutive contacts</name>
+        <name lang="de">Mehrstellungsschalter, gebrückt</name>
+        <name lang="fr">Élément de commutateur multidirectionnel</name>
+        <name lang="cs">Jednopólový několikapolohový spínač</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="25" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-20" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-20" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-40" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-40" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-60" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="-60" antialias="false"/>
-        <line end1="none" end2="none" x1="-80" y1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-80" y2="-40" antialias="false"/>
-        <line end1="none" end2="none" x1="-100" y1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-100" y2="-40" antialias="false"/>
-        <line end1="none" end2="none" x1="-100" y1="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-60" y2="-35" antialias="false"/>
-        <line end1="none" end2="none" x1="-100" y1="-35" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-100" y2="-10" antialias="false"/>
-        <polygon x1="-120" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-20" x2="-120" y2="-20" antialias="false" x3="0" closed="false"/>
-        <text text="1" y="-65" size="6" x="-102"/>
-        <text text="2" y="-65" size="6" x="-82"/>
-        <text text="3" y="-65" size="6" x="-62"/>
-        <text text="4" y="-65" size="6" x="-42"/>
-        <text text="5" y="-65" size="6" x="-22"/>
-        <text text="6" y="-65" size="6" x="-2"/>
-        <line end1="none" end2="none" x1="20" y1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-40" antialias="false"/>
-        <line end1="none" end2="none" x1="40" y1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="40" y2="-40" antialias="false"/>
-        <text text="7" y="-65" size="6" x="18"/>
-        <text text="8" y="-65" size="6" x="38"/>
+        <dynamic_text Valignment="AlignTop" y="12.5" keep_visual_rotation="false" z="1" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" rotation="0" Halignment="AlignLeft" uuid="{ce47f8c4-0ede-49ab-b99a-b4fd847d44c3}" text_width="-1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" end2="none" x2="0" antialias="false" y1="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-60"/>
+        <line x1="-20" end2="none" x2="-20" antialias="false" y1="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-60"/>
+        <line x1="-40" end2="none" x2="-40" antialias="false" y1="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-60"/>
+        <line x1="-60" end2="none" x2="-60" antialias="false" y1="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-60"/>
+        <line x1="-80" end2="none" x2="-80" antialias="false" y1="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-40"/>
+        <line x1="-100" end2="none" x2="-100" antialias="false" y1="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-40"/>
+        <line x1="-100" end2="none" x2="-60" antialias="false" y1="-35" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-35"/>
+        <line x1="-100" end2="none" x2="-100" antialias="false" y1="-35" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-10"/>
+        <polygon x1="-120" x3="0" x2="-120" y3="-20" antialias="false" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-20"/>
+        <text y="-65" color="#000000" text="1" x="-102" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="2" x="-82" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="3" x="-62" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="4" x="-42" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="5" x="-22" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="6" x="-2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <line x1="20" end2="none" x2="20" antialias="false" y1="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-40"/>
+        <line x1="40" end2="none" x2="40" antialias="false" y1="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y2="-40"/>
+        <text y="-65" color="#000000" text="7" x="18" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text y="-65" color="#000000" text="8" x="38" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
     </description>
 </definition>

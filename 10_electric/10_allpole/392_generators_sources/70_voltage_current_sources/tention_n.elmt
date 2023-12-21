@@ -1,25 +1,30 @@
-<definition width="50" version="0.4" hotspot_x="16" hotspot_y="25" height="50" type="element" ic="true">
-<uuid uuid="{5E496604-4E2E-4C54-8211-0FDFC7409753}"/><names>
-        <name lang="ar">مصدر جهد (جديد)</name>
-        <name lang="de">Spannungsquelle (neu)</name>
+<definition width="30" hotspot_y="29" version="0.100.0" type="element" hotspot_x="15" link_type="simple" height="60">
+    <uuid uuid="{b8be95a0-f756-43ff-81e5-6345d0e4891a}"/>
+    <names>
+        <name lang="cs">Zdroj napětí (nový)</name>
         <name lang="ru">Источник напряжения (новый)</name>
-        <name lang="pt">Fonte de tensão (novo)</name>
+        <name lang="fr">Source de tension (nouveau)</name>
         <name lang="el">Παροχή τάσης (νεο)</name>
+        <name lang="de">Spannungsquelle (neu)</name>
+        <name lang="es">Fuente de tensión (nuevo)</name>
+        <name lang="ar">مصدر جهد (جديد)</name>
+        <name lang="pt">Fonte de tensão (novo)</name>
+        <name lang="pl">Źródło napięcia (nowy)</name>
+        <name lang="nl">Spanningsbron nieuw</name>
         <name lang="en">Voltage source (new)</name>
         <name lang="it">Generatore di tensione (nuovo)</name>
-        <name lang="fr">Source de tension (nouveau)</name>
-        <name lang="pl">Źródło napięcia (nowy)</name>
-        <name lang="es">Fuente de tensión (nuevo)</name>
-        <name lang="nl">Spanningsbron nieuw</name>
-        <name lang="cs">Zdroj napětí (nový)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <input x="12.75" y="3" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="20" x2="0"/>
-        <terminal x="0" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="21" nameHidden="0" number="" name="" orientation="s"/>
+        <circle diameter="20" x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" rotation="0" x="12.75" y="-9.5" frame="false" text_from="ElementInfo" Valignment="AlignTop" uuid="{747441a4-9f21-4d26-80c5-4198a1d2abdf}" keep_visual_rotation="false" z="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="0" end2="none" antialias="false" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" length2="1.5" y2="20"/>
+        <terminal x="0" y="-21" type="Generic" uuid="{0bf05fd2-2d74-4300-b575-40374e91319c}" name="" orientation="n"/>
+        <terminal x="0" y="21" type="Generic" uuid="{2f272e4f-7582-44a7-abb4-a45638c66936}" name="" orientation="s"/>
     </description>
 </definition>

@@ -1,28 +1,32 @@
-<definition link_type="simple" hotspot_x="25" hotspot_y="25" version="0.70" width="30" type="element" height="30">
-    <uuid uuid="{e79f2559-53ff-4df0-a8b1-ae7e744a64aa}"/>
+<definition version="0.100.0" height="30" type="element" link_type="simple" width="30" hotspot_x="25" hotspot_y="25">
+    <uuid uuid="{1bc8a807-718c-4ce3-9f76-17db8e8ab928}"/>
     <names>
+        <name lang="en">Six-phase winding, fork with neutral brought out</name>
         <name lang="fr">Enroulement hexaphasé, en double zigzag,
 avec neutre sorti</name>
         <name lang="de">Sechsphasenwicklung, Gabelschaltung,
 Neutralleiter herausgeführt</name>
         <name lang="cs">Šestifázové vinutí
 do lomené hvězdy s vyvedeným uzlem</name>
-        <name lang="en">Six-phase winding, fork with neutral brought out</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="15" text="_" tagg="label" size="9"/>
-        <line y1="-16" end1="none" length1="1.5" x1="-10" x2="-10" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-10" end1="none" length1="1.5" x1="-10" x2="-4" end2="none" antialias="false" y2="-6" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-6" end1="none" length1="1.5" x1="-16" x2="-10" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end1="none" length1="1.5" x1="-16" x2="-10" end2="none" antialias="false" y2="-16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-16" end1="none" length1="1.5" x1="-10" x2="-4" end2="none" antialias="false" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="-4" x2="-4" end2="none" antialias="false" y2="-6" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-6" end1="none" length1="1.5" x1="-4" x2="0" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end1="none" length1="1.5" x1="-16" x2="-16" end2="none" antialias="false" y2="-6" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-6" end1="none" length1="1.5" x1="-16" x2="-20" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-12.5" y="-12.5" antialias="false" diameter="5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line y1="-10" end1="none" length1="1.5" x1="-10" x2="0" end2="none" antialias="false" y2="-16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="2.5" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" uuid="{ea01fdce-89fc-4bb0-8e17-c77e4325ec70}" frame="false" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" y2="-10" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end2="none" y1="-16" x1="-10"/>
+        <line length2="1.5" y2="-6" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" end2="none" y1="-10" x1="-10"/>
+        <line length2="1.5" y2="-10" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end2="none" y1="-6" x1="-16"/>
+        <line length2="1.5" y2="-16" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end2="none" y1="-20" x1="-16"/>
+        <line length2="1.5" y2="-20" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" end2="none" y1="-16" x1="-10"/>
+        <line length2="1.5" y2="-6" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" end2="none" y1="0" x1="-4"/>
+        <line length2="1.5" y2="-10" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end2="none" y1="-6" x1="-4"/>
+        <line length2="1.5" y2="-6" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-16" end2="none" y1="0" x1="-16"/>
+        <line length2="1.5" y2="-10" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" end2="none" y1="-6" x1="-16"/>
+        <circle y="-12.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="5" x="-12.5"/>
+        <line length2="1.5" y2="-16" antialias="false" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end2="none" y1="-10" x1="-10"/>
     </description>
 </definition>

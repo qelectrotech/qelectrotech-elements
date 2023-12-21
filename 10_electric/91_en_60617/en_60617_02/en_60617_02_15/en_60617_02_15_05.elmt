@@ -1,20 +1,24 @@
-<definition version="0.70" width="30" type="element" hotspot_y="21" link_type="simple" hotspot_x="15" height="40">
-    <uuid uuid="{9b290419-a69f-47a5-8b22-b8753ee4adc6}"/>
+<definition link_type="simple" type="element" width="30" version="0.100.0" hotspot_y="21" height="40" hotspot_x="15">
+    <uuid uuid="{dedd8e4e-ad5e-47bb-b512-021002eccafa}"/>
     <names>
         <name lang="fr">Equipotentialité</name>
         <name lang="es">Equipotential</name>
+        <name lang="en">Protective equipotential bonding</name>
         <name lang="de">Äquipotential</name>
         <name lang="cs">Ekvipotencialita</name>
-        <name lang="en">Protective equipotential bonding</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="35" text="_" size="9" rotate="true" tagg="label" y="25"/>
-        <line x2="10" y2="0" length2="1.5" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <line x2="0" y2="0" length2="1.5" length1="1.5" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <line x2="0" y2="15" length2="1.5" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-10" end2="none" antialias="false"/>
-        <line x2="10" y2="0" length2="1.5" length1="1.5" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="0" end2="none" antialias="false"/>
-        <terminal orientation="n" x="0" y="-15"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" keep_visual_rotation="false" frame="false" y="12.5" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="35" text_width="-1" z="1" uuid="{9b720cfc-165b-43ab-8bad-4678dc7bfab0}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" end2="none" length1="1.5" x2="10" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" x1="-10" end1="none"/>
+        <line y2="0" end2="none" length1="1.5" x2="0" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" x1="0" end1="none"/>
+        <line y2="15" end2="none" length1="1.5" x2="0" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" x1="-10" end1="none"/>
+        <line y2="0" end2="none" length1="1.5" x2="10" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" x1="0" end1="none"/>
+        <terminal name="" type="Generic" y="-15" x="0" orientation="n" uuid="{c0ab4da0-2eac-46cb-95e1-6637f8f551bb}"/>
     </description>
 </definition>

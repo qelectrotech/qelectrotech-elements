@@ -1,17 +1,21 @@
-<definition link_type="simple" version="0.70" hotspot_x="10" hotspot_y="25" type="element" height="30" width="20">
-    <uuid uuid="{c346b575-72b8-45d0-8591-902c7c467243}"/>
+<definition height="30" version="0.100.0" width="20" hotspot_x="10" type="element" hotspot_y="25" link_type="simple">
+    <uuid uuid="{decf511e-0d93-447d-afea-f1b76bc9e1ff}"/>
     <names>
         <name lang="fr">Effet unitunnel</name>
+        <name lang="en">Backward effect; unitunnel effect</name>
         <name lang="de">Rückwärts-Effekt (Unitunnel-Effekt) </name>
         <name lang="cs">Inverzní jev</name>
-        <name lang="en">Backward effect; unitunnel effect</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-4" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="4" y2="-20" antialias="false"/>
-        <line end1="none" end2="none" x1="4" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-4" y2="0" antialias="false"/>
+        <dynamic_text x="5" uuid="{ac8a9331-c74e-4eaf-a626-d6502b79fb7f}" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="1" frame="false" Valignment="AlignTop" y="2.5" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" end1="none" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" x1="0" x2="0" end2="none"/>
+        <line length2="1.5" end1="none" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" x1="-4" x2="4" end2="none"/>
+        <line length2="1.5" end1="none" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" x1="4" x2="-4" end2="none"/>
     </description>
 </definition>

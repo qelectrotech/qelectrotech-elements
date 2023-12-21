@@ -1,15 +1,19 @@
-<definition hotspot_x="4" version="0.70" height="10" hotspot_y="4" width="10" type="element" link_type="simple">
-    <uuid uuid="{707b0bd8-0480-47b8-b00d-8e9493ce20b1}"/>
+<definition hotspot_y="4" width="10" hotspot_x="4" type="element" height="10" version="0.100.0" link_type="simple">
+    <uuid uuid="{d98ba2ee-cc4f-4e83-bda4-1ffdc0aa7134}"/>
     <names>
         <name lang="fr">Borne</name>
-        <name lang="de">Anschluß, z. B. Klemme</name>
-        <name lang="cs">Svorka</name>
         <name lang="en">Terminal</name>
+        <name lang="cs">Svorka</name>
+        <name lang="de">Anschluß, z. B. Klemme</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <circle y="-2.5" x="-2.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="5"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1" rotation="0" frame="false" text_from="ElementInfo" uuid="{c10a27c3-272f-47a8-a9fb-5c83715f2e3d}" Halignment="AlignLeft" y="2.5" z="1" x="5" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" y="-2.5" x="-2.5" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="5"/>
     </description>
 </definition>

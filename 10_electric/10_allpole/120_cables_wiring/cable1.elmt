@@ -1,28 +1,36 @@
-<definition width="120" version="0.3" hotspot_x="70" hotspot_y="10" height="40" type="element">
+<definition link_type="simple" version="0.100.0" width="90" hotspot_x="42" type="element" hotspot_y="3" height="20">
+    <uuid uuid="{e206c0aa-41ea-42af-a2ce-0dee85ebea80}"/>
     <names>
-        <name lang="ar">كايبل ثلاثي الطور + تأريض</name>
-        <name lang="de">Kabel 4G</name>
-        <name lang="ru">Кабель 3 жилы + PE</name>
-        <name lang="it">Cavo 3 fasi + terra</name>
-        <name lang="fr">Cable 3 phases+terre</name>
-        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
-        <name lang="es">Cable 3 fases+tierra</name>
         <name lang="cs">Kabel 4G</name>
+        <name lang="ru">Кабель 3 жилы + PE</name>
+        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
         <name lang="hu">Kábel 3 + PE</name>
+        <name lang="de">Kabel 4G</name>
+        <name lang="fr">Cable 3 phases+terre</name>
+        <name lang="ar">كايبل ثلاثي الطور + تأريض</name>
+        <name lang="it">Cavo 3 fasi + terra</name>
+        <name lang="es">Cable 3 fases+tierra</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7.95" x1="-12.05" y2="11.95" x2="-8.05"/>
-        <text x="-9" y="9" size="4" text="2"/>
-        <text x="12" y="9" size="4" text="3"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7.95" x1="26.95" y2="11.95" x2="30.95"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="8" y2="12" x2="12"/>
-        <text x="32" y="9" size="4" text="GNYE"/>
-        <input x="-68" y="17" size="3" rotate="true" text="210007&#xa;4G1,5 mm²&#xa;               4m"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="-39.9373" y2="10" x2="37.932"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="-32" y2="12" x2="-28"/>
-        <text x="-28" y="9" size="4" text="1"/>
-        <input x="-61" y="1" size="5" rotate="true" text="+"/>
+        <line antialias="true" y2="11.95" length1="1.5" end1="none" end2="none" y1="7.95" x2="-8.05" x1="-12.05" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="2" y="9" x="-9" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text text="3" y="9" x="12" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line antialias="true" y2="11.95" length1="1.5" end1="none" end2="none" y1="7.95" x2="30.95" x1="26.95" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="true" y2="12" length1="1.5" end1="none" end2="none" y1="8" x2="12" x1="8" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="GNYE" y="9" x="32" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text Halignment="AlignLeft" text_width="-1" z="7" frame="false" text_from="UserText" Valignment="AlignTop" y="2.5" x="-68" uuid="{3f2b12f4-8640-48e4-a5eb-ac4c2d5eb23e}" rotation="0" font="Sans Serif,3,-1,5,25,0,0,0,0,0" keep_visual_rotation="false">
+            <text>210007
+4G1,5 mm²
+               4m</text>
+        </dynamic_text>
+        <line antialias="false" y2="10" length1="1.5" end1="none" end2="none" y1="10" x2="37.932" x1="-39.9373" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="true" y2="12" length1="1.5" end1="none" end2="none" y1="8" x2="-28" x1="-32" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="1" y="9" x="-28" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text Halignment="AlignLeft" text_width="-1" z="11" frame="false" text_from="UserText" Valignment="AlignTop" y="-8.5" x="-61" uuid="{88fb9954-aa57-4245-bfc7-dbb1a65850c3}" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text>+</text>
+        </dynamic_text>
     </description>
 </definition>

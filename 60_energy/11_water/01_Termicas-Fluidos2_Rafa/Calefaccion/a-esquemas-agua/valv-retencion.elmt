@@ -1,23 +1,28 @@
-<definition width="50" version="0.4" hotspot_x="25" hotspot_y="10" height="20" link_type="simple" type="element" ic="true">
-<uuid uuid="{95C0E11A-5DE1-43C0-B20B-B981CBCAFB0D}"/><names>
-        <name lang="es">Válvula retención</name>
+<definition width="50" height="20" type="element" hotspot_y="10" version="0.100.0" link_type="simple" hotspot_x="24">
+    <uuid uuid="{b8252a6e-98ba-480d-8a5f-1fae7d281aaf}"/>
+    <names>
         <name lang="ca">Vàlvula retenció</name>
+        <name lang="es">Válvula retención</name>
         <name lang="fr">Clapet anti-retour</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5.59109" x1="-9.6275" y2="-6.80967" x2="-9.6275"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5.59109" x1="9.4993" y2="-6.80967" x2="9.4993"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-6.84131" x1="-9.6275" y2="5.62539" x2="9.2725"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="6.21904" x1="-5.8475" y2="6.21904" x2="3.6025"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="4.43809" x1="1.7125" y2="6.21904" x2="4.075"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="8" x1="1.7125" y2="6.21904" x2="4.075"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="20" y2="0" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-20" y2="0" x2="-10"/>
-        <circle x="-11" y="-8" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2"/>
-        <input x="-6" y="-7.5" size="3" rotate="true" text="_" tagg="label"/>
-        <terminal x="-20" y="0" orientation="w"/>
-        <terminal x="20" y="0" orientation="e"/>
+        <line y2="-6.80967" antialias="false" length1="1.5" end1="none" end2="none" y1="5.59109" x1="-9.6275" x2="-9.6275" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-6.80967" antialias="false" length1="1.5" end1="none" end2="none" y1="5.59109" x1="9.4993" x2="9.4993" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="5.62539" antialias="false" length1="1.5" end1="none" end2="none" y1="-6.84131" x1="-9.6275" x2="9.2725" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="6.21904" antialias="false" length1="1.5" end1="none" end2="none" y1="6.21904" x1="-5.8475" x2="3.6025" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y2="6.21904" antialias="false" length1="1.5" end1="none" end2="none" y1="4.43809" x1="1.7125" x2="4.075" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y2="6.21904" antialias="false" length1="1.5" end1="none" end2="none" y1="8" x1="1.7125" x2="4.075" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y2="0" antialias="false" length1="1.5" end1="none" end2="none" y1="0" x1="20" x2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="0" antialias="false" length1="1.5" end1="none" end2="none" y1="0" x1="-20" x2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="2" antialias="true" x="-11" y="-8" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" frame="false" x="-6" text_width="-1" Valignment="AlignTop" y="-15" z="10" text_from="ElementInfo" font="Sans Serif,3,-1,5,25,0,0,0,0,0" Halignment="AlignLeft" uuid="{dc65e9b8-8ca1-40d7-9660-e64ac76a39dc}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" x="-20" y="0" name="" uuid="{cce1a8a6-94e2-465a-81b5-0a58fb9a4cb8}" orientation="w"/>
+        <terminal type="Generic" x="20" y="0" name="" uuid="{867959f4-e763-489d-bf90-27d1badd0365}" orientation="e"/>
     </description>
 </definition>

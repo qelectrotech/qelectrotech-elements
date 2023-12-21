@@ -1,27 +1,31 @@
-<definition height="40" version="0.5" link_type="simple" width="40" hotspot_x="6" hotspot_y="24" type="element">
-    <uuid uuid="{b484ac92-96d4-4218-bff1-bde187aa1aca}"/>
+<definition height="40" width="40" hotspot_y="24" hotspot_x="6" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{46957c58-6740-4780-bc1f-58b9a9f4da84}"/>
     <names>
-        <name lang="de">rückwärts sperrende Thyristortriode, N-Gate</name>
-        <name lang="pl">Tyrystor triodowy dwukierunkowy. Triak</name>
-        <name lang="ar">ترياك , بوابة N</name>
-        <name lang="it">Tiristore triodo bloccato nel senso inverso di conduzione, porta N (controllato sull’anodo)</name>
         <name lang="en">Reverse blocking Thyristortriode, N-Gate</name>
         <name lang="cs">Triodový tyristor blokující obráceně, brána N</name>
-        <name lang="fr">Thyristor triode bloqué en inverse, gâchette N</name>
+        <name lang="de">rückwärts sperrende Thyristortriode, N-Gate</name>
+        <name lang="ar">ترياك , بوابة N</name>
+        <name lang="it">Tiristore triodo bloccato nel senso inverso di conduzione, porta N (controllato sull’anodo)</name>
         <name lang="nl">Triac N gate</name>
+        <name lang="fr">Thyristor triode bloqué en inverse, gâchette N</name>
+        <name lang="pl">Tyrystor triodowy dwukierunkowy. Triak</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-04-11</informations>
     <description>
-        <input tagg="label" y="-7.45" size="9" rotate="true" text="_" x="35"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="true" x3="16" y3="-10" x2="10" x1="0" y2="-20"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" end2="none" length2="1.5" x2="20" x1="20" end1="none" y2="10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="20" x1="20" end1="none" y2="-20"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="20" x1="30" end1="none" y2="-10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" end2="none" length2="1.5" x2="20" x1="10" end1="none" y2="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="true" x3="30" y4="-10" y3="0" x2="20" x1="25" x4="25" y2="0"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" antialias="true" x3="15" y4="-10" y3="0" x2="20" x1="10" x4="10" y2="-10"/>
-        <terminal y="-20" orientation="n" x="20"/>
-        <terminal y="10" orientation="s" x="20"/>
-        <terminal y="-20" orientation="w" x="0"/>
+        <dynamic_text rotation="0" x="35" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{69ecc79c-54f8-4203-95bc-13e7dc73b7ed}" keep_visual_rotation="false" text_width="-1" y="-19.95" frame="false" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon closed="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" y3="-10" x2="10" y1="-20" x3="16" antialias="true"/>
+        <line length1="1.5" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="10" x2="20" end1="none" y1="0" end2="none" antialias="false"/>
+        <line length1="1.5" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-20" x2="20" end1="none" y1="-10" end2="none" antialias="false"/>
+        <line length1="1.5" x1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" x2="20" end1="none" y1="-10" end2="none" antialias="false"/>
+        <line length1="1.5" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" x2="20" end1="none" y1="0" end2="none" antialias="false"/>
+        <polygon x1="25" y4="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y3="0" x2="20" y1="-10" x3="30" antialias="true" x4="25"/>
+        <polygon closed="false" x1="10" y4="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y3="0" x2="20" y1="-10" x3="15" antialias="true" x4="10"/>
+        <terminal x="20" name="" uuid="{dabfa28f-0b67-4eec-94d6-2d400cd9db7f}" y="-20" type="Generic" orientation="n"/>
+        <terminal x="20" name="" uuid="{c475d10a-e532-44e9-8d20-e52b05fd71c1}" y="10" type="Generic" orientation="s"/>
+        <terminal x="0" name="" uuid="{4fb8f8b9-6a85-4154-a1e6-c1f13820ad31}" y="-20" type="Generic" orientation="w"/>
     </description>
 </definition>

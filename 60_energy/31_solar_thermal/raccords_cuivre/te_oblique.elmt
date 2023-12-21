@@ -1,24 +1,28 @@
-<definition width="30" hotspot_x="19" type="element" link_type="simple" version="0.5" height="20" hotspot_y="15">
-    <uuid uuid="{7200e279-f92c-46df-947a-674f8d95b2b1}"/>
+<definition version="0.100.0" hotspot_y="12" width="30" hotspot_x="19" type="element" height="20" link_type="simple">
+    <uuid uuid="{d2be8df5-d87b-4f21-aa8c-7039e0283ad9}"/>
     <names>
+        <name lang="en">Ty crowbar</name>
+        <name lang="fr">Té pied de biche</name>
+        <name lang="es">T oblicua</name>
+        <name lang="de">T-Stück, geneigt</name>
+        <name lang="nl">Y stuk </name>
         <name lang="cs">Šikmý spojovací článek T</name>
         <name lang="pl">Złączka T</name>
-        <name lang="it">Raccordo a T inclinato</name>
-        <name lang="de">T-Stück, geneigt</name>
-        <name lang="en">Ty crowbar</name>
-        <name lang="es">T oblicua</name>
-        <name lang="nl">Y stuk </name>
         <name lang="ar">رابط  T  بانحراف</name>
-        <name lang="fr">Té pied de biche</name>
+        <name lang="it">Raccordo a T inclinato</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-11.5" x="0" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-11" x2="1"/>
-        <arc width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-90" y="-12" x="-12" height="12"/>
-        <terminal y="0" x="-11" orientation="w"/>
-        <terminal y="0" x="1" orientation="e"/>
-        <terminal y="-6" x="0" orientation="n"/>
+        <dynamic_text Valignment="AlignTop" frame="false" rotation="0" Halignment="AlignLeft" text_width="-1" y="-24" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="0" text_from="ElementInfo" z="1" uuid="{1c0c3700-c14a-49fe-b110-119e7891e8d8}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" antialias="false" y2="0" y1="0" x1="-11" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="1"/>
+        <arc antialias="true" start="0" angle="-90" y="-12" width="12" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-12" height="12"/>
+        <terminal name="" orientation="w" y="0" x="-11" type="Generic" uuid="{a99f28ea-6aee-4a7f-b042-d80537dc55fc}"/>
+        <terminal name="" orientation="e" y="0" x="1" type="Generic" uuid="{e7de5afd-9f05-4351-bc07-015ea1d1da74}"/>
+        <terminal name="" orientation="n" y="-6" x="0" type="Generic" uuid="{c63fd70a-c1df-43ad-83a1-8dabece92aa9}"/>
     </description>
 </definition>

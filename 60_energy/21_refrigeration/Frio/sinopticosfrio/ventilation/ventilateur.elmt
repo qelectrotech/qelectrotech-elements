@@ -1,24 +1,28 @@
-<definition width="50" hotspot_x="14" type="element" link_type="simple" version="0.5" height="50" hotspot_y="24">
-    <uuid uuid="{2a5b4750-0be8-4a4c-a3f6-bef95019900d}"/>
+<definition hotspot_x="14" link_type="simple" height="50" version="0.100.0" hotspot_y="24" type="element" width="50">
+    <uuid uuid="{70e1d247-530f-45bf-aa7a-b0b4aff725e5}"/>
     <names>
+        <name lang="fr">Ventilateur</name>
+        <name lang="pl">Wentylator</name>
         <name lang="cs">Větrák</name>
         <name lang="it">Ventilatore</name>
-        <name lang="pl">Wentylator</name>
         <name lang="en">Ventilator</name>
         <name lang="nl">Ventilator</name>
-        <name lang="fr">Ventilateur</name>
         <name lang="el">Ανεμιστήρας</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="10.55" x="38" text="_"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x4="10" antialias="true" y1="-10" x1="10" x3="18" y3="5" y4="-10" x2="1"/>
-        <rect width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-20" x="-10" height="40"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="20" y="-10" x="2.66454e-15"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="-20" x="10" orientation="n"/>
-        <terminal y="0" x="30" orientation="e"/>
-        <terminal y="20" x="10" orientation="s"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-1.95" uuid="{09588786-e7f4-403e-b73d-66d81c5db565}" keep_visual_rotation="false" z="1" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" x="38" rotation="0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y4="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="5" y1="-10" x4="10" x1="10" x3="18" y2="5" antialias="true" x2="1"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" height="40" rx="0" x="-10" antialias="false" width="40"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="2.66454e-15" antialias="true" diameter="20"/>
+        <terminal y="0" uuid="{7bd7754c-8866-4cd2-a728-42493ee9435d}" orientation="w" x="-10" type="Generic" name=""/>
+        <terminal y="-20" uuid="{481c510d-30b0-4c43-b5b7-839306e0e2ec}" orientation="n" x="10" type="Generic" name=""/>
+        <terminal y="0" uuid="{83fc2e2a-071c-4ba2-97c2-8d61726be863}" orientation="e" x="30" type="Generic" name=""/>
+        <terminal y="20" uuid="{e936328c-3f1e-42d7-b351-c8e262ee5bcf}" orientation="s" x="10" type="Generic" name=""/>
     </description>
 </definition>

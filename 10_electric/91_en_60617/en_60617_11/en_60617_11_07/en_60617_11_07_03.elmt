@@ -1,18 +1,22 @@
-<definition link_type="simple" type="element" width="110" height="80" hotspot_x="105" hotspot_y="75" version="0.70">
-    <uuid uuid="{bb396f15-4981-4afd-bb7f-a1246635e4d3}"/>
+<definition hotspot_x="105" link_type="simple" width="110" type="element" hotspot_y="75" height="80" version="0.100.0">
+    <uuid uuid="{63415646-0d3d-4588-a79f-6afe5126fefc}"/>
     <names>
-        <name lang="de">Richtungskoppler</name>
-        <name lang="fr">Coupleur directif</name>
         <name lang="cs">Směrový vazební člen</name>
         <name lang="en">Directional coupler</name>
+        <name lang="de">Richtungskoppler</name>
+        <name lang="fr">Coupleur directif</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" size="9" y="25" x="5" rotate="true"/>
-        <line end2="none" end1="none" length1="1.5" y2="0" length2="1.5" x1="-50" y1="-35" x2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line end2="none" end1="none" length1="1.5" y2="-50" length2="1.5" x1="-100" y1="-50" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line end2="none" end1="none" length1="1.5" y2="-50" length2="1.5" x1="-50" y1="-35" x2="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle diameter="40" y="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-70"/>
+        <dynamic_text z="1" Valignment="AlignTop" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3c2964a0-707c-43c0-bac9-2ebcef75eada}" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Halignment="AlignLeft" text_width="-1" x="5" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-35" length1="1.5" x1="-50" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" length2="1.5" x2="-50" end1="none"/>
+        <line y1="-50" length1="1.5" x1="-100" y2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" length2="1.5" x2="0" end1="none"/>
+        <line y1="-35" length1="1.5" x1="-50" y2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" length2="1.5" x2="-70" end1="none"/>
+        <circle y="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="40" x="-70"/>
     </description>
 </definition>

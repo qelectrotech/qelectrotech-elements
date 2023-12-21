@@ -1,26 +1,30 @@
-<definition version="0.5" link_type="simple" type="element" hotspot_x="15" width="30" hotspot_y="15" height="30">
-    <uuid uuid="{970474a2-271f-4af7-9359-359bc6a99bfc}"/>
+<definition hotspot_x="15" height="30" type="element" width="30" link_type="simple" hotspot_y="15" version="0.100.0">
+    <uuid uuid="{acce7f34-3994-4aa4-abed-1844f1b7b37d}"/>
     <names>
+        <name lang="cs">Horký povrch</name>
+        <name lang="de">Hinweis heiße Oberfläche klein</name>
+        <name lang="en">hot surface</name>
+        <name lang="pl">Gorąca powierzchnia</name>
         <name lang="el">Θερμή επιφάνεια</name>
+        <name lang="nl">Gevaar heet</name>
         <name lang="it">Superfice calda</name>
         <name lang="fr">Surface chaude</name>
-        <name lang="de">Hinweis heiße Oberfläche klein</name>
-        <name lang="pl">Gorąca powierzchnia</name>
-        <name lang="en">hot surface</name>
-        <name lang="cs">Horký povrch</name>
-        <name lang="nl">Gevaar heet</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" x="-4.5" y="13.55" tagg="label" text="_" size="1"/>
-        <line x1="-4" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="4" end2="none" antialias="false" y2="7" y1="7"/>
-        <arc angle="-180" x="1" start="-90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="-1.75" width="2" antialias="true" height="3.5"/>
-        <arc angle="-180" x="1" start="90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="1.75" width="2" antialias="true" height="3.5"/>
-        <arc angle="-180" x="-1" start="-90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="-1.75" width="2" antialias="true" height="3.5"/>
-        <arc angle="-180" x="-3" start="-90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="-1.75" width="2" antialias="true" height="3.5"/>
-        <polygon x1="0" y4="-10" y3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" x3="10" x4="0" antialias="true" y2="10" y1="-10"/>
-        <arc angle="-180" x="-1" start="90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="1.75" width="2" antialias="true" height="3.5"/>
-        <arc angle="-180" x="-3" start="90" style="line-style:normal;line-weight:thin;filling:none;color:black" y="1.75" width="2" antialias="true" height="3.5"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{81bfa63d-84a5-4176-8730-e0bcc9e835c6}" text_from="ElementInfo" Halignment="AlignLeft" y="8.05" z="1" text_width="-1" frame="false" font="Sans Serif,1,-1,5,25,0,0,0,0,0" x="-4.5" Valignment="AlignTop" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" x2="4" length2="1.5" antialias="false" y2="7" y1="7" end2="none" length1="1.5" x1="-4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="-1.75" width="2" x="1" start="-90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="1.75" width="2" x="1" start="90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="-1.75" width="2" x="-1" start="-90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="-1.75" width="2" x="-3" start="-90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x2="-10" y4="-10" antialias="true" y2="10" x4="0" y1="-10" x3="10" y3="10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="1.75" width="2" x="-1" start="90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <arc antialias="true" height="3.5" y="1.75" width="2" x="-3" start="90" angle="-180" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
     </description>
 </definition>

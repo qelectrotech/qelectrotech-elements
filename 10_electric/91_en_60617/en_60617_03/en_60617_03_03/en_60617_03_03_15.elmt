@@ -1,24 +1,28 @@
-<definition hotspot_x="54" version="0.70" height="30" hotspot_y="15" width="140" type="element" link_type="simple">
-    <uuid uuid="{758545be-8868-434d-98a3-c1e9db84a635}"/>
+<definition height="30" hotspot_x="54" hotspot_y="15" link_type="simple" width="140" version="0.100.0" type="element">
+    <uuid uuid="{5d5193b7-385d-48ed-a5e0-009077edcb34}"/>
     <names>
-        <name lang="fr">Fiche coaxiale et prise coaxiale</name>
+        <name lang="en">Plug and socket, coaxial</name>
         <name lang="de">Buchse und Stecker, koaxial </name>
         <name lang="cs">Koaxiální vidlice a zásuvka</name>
-        <name lang="en">Plug and socket, coaxial</name>
+        <name lang="fr">Fiche coaxiale et prise coaxiale</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-5" x="17" antialias="false" height="10" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
-        <line x2="80" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="37"/>
-        <line x2="-50" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <arc y="-10" x="-10" antialias="true" height="20" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" start="90"/>
-        <circle y="-10" x="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <line x2="60" y2="10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="50"/>
-        <circle y="-10" x="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <line x2="-20" y2="10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30"/>
-        <terminal y="0" x="80" orientation="e"/>
-        <terminal y="0" x="-50" orientation="w"/>
+        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" uuid="{fced2ab5-e7c8-483e-a713-36b8c3f5f913}" keep_visual_rotation="false" text_from="ElementInfo" z="1" rotation="0" x="5" Valignment="AlignTop" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="10" rx="0" ry="0" antialias="false" width="20" x="17" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-5"/>
+        <line x2="80" end1="none" y1="0" length2="1.5" end2="none" y2="0" x1="37" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line x2="-50" end1="none" y1="0" length2="1.5" end2="none" y2="0" x1="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <arc height="20" start="90" antialias="true" width="20" angle="180" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10"/>
+        <circle diameter="20" antialias="false" x="50" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10"/>
+        <line x2="60" end1="none" y1="10" length2="1.5" end2="none" y2="10" x1="50" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <circle diameter="20" antialias="false" x="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10"/>
+        <line x2="-20" end1="none" y1="10" length2="1.5" end2="none" y2="10" x1="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <terminal orientation="e" name="" uuid="{a66d6807-a8d8-48dc-8750-366b539cc80c}" x="80" type="Generic" y="0"/>
+        <terminal orientation="w" name="" uuid="{53d3e6a3-870a-4dc7-83ac-bac02e7c1aa1}" x="-50" type="Generic" y="0"/>
     </description>
 </definition>

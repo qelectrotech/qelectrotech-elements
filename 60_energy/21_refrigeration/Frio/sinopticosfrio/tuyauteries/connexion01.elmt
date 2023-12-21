@@ -1,23 +1,27 @@
-<definition width="20" hotspot_x="7" type="element" link_type="simple" version="0.5" height="20" hotspot_y="12">
-    <uuid uuid="{5ccaf28d-8a00-4f50-9c19-8a6f4205babe}"/>
+<definition version="0.100.0" width="20" type="element" height="20" hotspot_x="7" link_type="simple" hotspot_y="12">
+    <uuid uuid="{eecb8326-01fd-4457-9deb-52462c2809d9}"/>
     <names>
-        <name lang="cs">Spoj</name>
-        <name lang="it">Connessione</name>
-        <name lang="pl">Łącznik</name>
         <name lang="en">Connexion</name>
         <name lang="nl">Verbinding</name>
         <name lang="ar">رابط</name>
+        <name lang="it">Connessione</name>
         <name lang="fr">Connexion</name>
+        <name lang="cs">Spoj</name>
+        <name lang="pl">Łącznik</name>
         <name lang="el">Σύνδεση</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-0.5" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="0" x2="4"/>
-        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" diameter="2" y="-1" x="-1"/>
-        <terminal y="0" x="5" orientation="e"/>
-        <terminal y="-5" x="0" orientation="n"/>
+        <dynamic_text uuid="{80a658c1-9269-4916-9155-a6a16db1c7c7}" frame="false" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" y="-13" Halignment="AlignLeft" z="1" rotation="0" x="-7" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" x2="0" y2="-4" antialias="false" length1="1.5" x1="0" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" x2="4" y2="0" antialias="false" length1="1.5" x1="0" end2="none"/>
+        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2" antialias="true" y="-1" x="-1"/>
+        <terminal uuid="{cd855985-eb3b-4371-8f8a-81ce1ddff6f5}" name="" orientation="e" y="0" type="Generic" x="5"/>
+        <terminal uuid="{d8ccb2ac-1551-4912-8d9e-4dc7bf3278bb}" name="" orientation="n" y="-5" type="Generic" x="0"/>
     </description>
 </definition>

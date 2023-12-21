@@ -1,33 +1,42 @@
-<definition type="element" link_type="master" hotspot_x="28" hotspot_y="24" version="0.5" width="50" height="50">
-<uuid uuid="{0EDACC7A-0D07-4F9D-926D-FD32A61D9B97}"/><names>
-        <name lang="en">Flasher relay</name>
-        <name lang="es">Relé intermitente</name>
+<definition hotspot_x="28" link_type="master" height="50" type="element" hotspot_y="24" version="0.100.0" width="50">
+    <uuid uuid="{053fd5eb-a414-40b6-a90d-4ce304132a94}"/>
+    <names>
         <name lang="fr">Relais clignoteur</name>
-        <name lang="cs">Relé blikač</name>
-        <name lang="de">Blinkrelais</name>
         <name lang="it">Relè ciclico</name>
-        <name lang="el">Πηνίο ρελέ παλμού</name>
-        <name lang="hu">"Villogó" relé</name>
         <name lang="pl">Przekaźnik migowy (cykliczny)</name>
+        <name lang="es">Relé intermitente</name>
+        <name lang="el">Πηνίο ρελέ παλμού</name>
+        <name lang="de">Blinkrelais</name>
+        <name lang="en">Flasher relay</name>
+        <name lang="cs">Relé blikač</name>
+        <name lang="hu">"Villogó" relé</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-22" y="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="7" height="20"/>
-        <rect x="-15" y="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" height="20"/>
-        <line x1="0" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" y2="10"/>
-        <line x1="0" end1="none" antialias="false" x2="0" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10"/>
-        <input x="-14" tagg="none" y="18" size="4" text="A2"/>
-        <input x="-14" tagg="none" y="-17" size="4" text="A1"/>
-        <input x="30" tagg="label" y="3" size="9" text="_"/>
-        <line x1="-20" end1="none" antialias="false" x2="-20" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="1.42222" y2="-1.46667"/>
-        <line x1="-20" end1="none" antialias="false" x2="-17" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" y2="-2"/>
-        <line x1="-17" end1="none" antialias="false" x2="-17" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-2" y2="-5"/>
-        <line x1="-20" end1="none" antialias="false" x2="-17" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="2" y2="2"/>
-        <line x1="-17" end1="none" antialias="false" x2="-17" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="2" y2="5"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-22" antialias="false" height="20" rx="0" ry="0" width="7" y="-10"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" antialias="false" height="20" rx="0" ry="0" width="30" y="-10"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y1="20" y2="10" x1="0" length1="1.5" length2="1.5" end2="none"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" y1="-20" y2="-10" x1="0" length1="1.5" length2="1.5" end2="none"/>
+        <dynamic_text z="5" x="-14" Halignment="AlignLeft" uuid="{f7c0b847-a74e-434e-ad81-07ea7739c29c}" frame="false" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" keep_visual_rotation="false" text_from="UserText" y="10" text_width="-1" Valignment="AlignTop">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text z="6" x="-14" Halignment="AlignLeft" uuid="{84083724-1eab-4986-a0f9-58a00fadf7fd}" frame="false" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" keep_visual_rotation="false" text_from="UserText" y="-25" text_width="-1" Valignment="AlignTop">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text z="7" x="30" Halignment="AlignLeft" uuid="{82f8348d-8754-401a-a486-ef4bbcdde4a8}" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" y="-9.5" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" antialias="false" y1="1.42222" y2="-1.46667" x1="-20" length1="1.5" length2="1.5" end2="none"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-17" antialias="false" y1="-2" y2="-2" x1="-20" length1="1.5" length2="1.5" end2="none"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-17" antialias="false" y1="-2" y2="-5" x1="-17" length1="1.5" length2="1.5" end2="none"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-17" antialias="false" y1="2" y2="2" x1="-20" length1="1.5" length2="1.5" end2="none"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-17" antialias="false" y1="2" y2="5" x1="-17" length1="1.5" length2="1.5" end2="none"/>
+        <terminal orientation="n" name="" x="0" uuid="{9d8562e2-452a-4cf5-b05b-887287c6406a}" type="Generic" y="-20"/>
+        <terminal orientation="s" name="" x="0" uuid="{d6ac98f3-f3b6-4917-bfbe-64a25b49e1a0}" type="Generic" y="20"/>
     </description>
 </definition>

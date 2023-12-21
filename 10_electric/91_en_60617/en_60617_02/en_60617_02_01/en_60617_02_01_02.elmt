@@ -1,12 +1,6 @@
-<definition hotspot_x="33" type="element" width="70" hotspot_y="36" version="0.70" height="50" link_type="simple">
-    <uuid uuid="{e38ecedb-9ada-46ea-b031-379153b5854e}"/>
+<definition width="70" version="0.100.0" height="50" type="element" link_type="simple" hotspot_x="33" hotspot_y="36">
+    <uuid uuid="{ec3736a5-14b7-45d2-92dd-eddeab7d3865}"/>
     <names>
-        <name lang="fr">Objet, par exemple:
-- Equipement
-- Dispositif
-- Unité fonctionnelle
-- Composant
-- Fonction</name>
         <name lang="de">Objekt, Betriebsmittel, z.B.::
 - Gerät
 - Einrichtung
@@ -19,6 +13,12 @@
 - Unidad funcional
 - Componente
 - Funcion</name>
+        <name lang="fr">Objet, par exemple:
+- Equipement
+- Dispositif
+- Unité fonctionnelle
+- Composant
+- Fonction</name>
         <name lang="cs">Předmět,např.:
 - Zařízení
 - Přístroj, ústrojí
@@ -27,11 +27,15 @@
 - Funkce</name>
         <name lang="en">Object</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" rotate="true" x="5" tagg="label" y="15"/>
-        <text text="Form 2 / Forme 2" size="6" x="-30" y="-21.45"/>
-        <rect width="30" antialias="false" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" height="20"/>
+        <dynamic_text keep_visual_rotation="false" x="5" y="2.5" uuid="{4cbeffb9-09ec-4d7e-a027-fb65c9203819}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" frame="false" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text color="#000000" x="-30" y="-21.45" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="Form 2 / Forme 2" rotation="0"/>
+        <rect width="30" x="-15" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="20" ry="0" rx="0"/>
     </description>
 </definition>

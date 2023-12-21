@@ -1,19 +1,23 @@
-<definition link_type="simple" type="element" width="40" hotspot_y="10" height="20" version="0.70" hotspot_x="29">
-    <uuid uuid="{fc21f89a-9c00-4106-8b5f-6d2e32191ab9}"/>
+<definition hotspot_x="29" type="element" version="0.100.0" width="40" hotspot_y="10" height="20" link_type="simple">
+    <uuid uuid="{fe1d17cc-0029-45ef-8f16-112972c9d23a}"/>
     <names>
+        <name lang="en">Actuator (operated by electric clock)</name>
+        <name lang="cs">Ovládání elektrickými hodinami</name>
         <name lang="fr">Commande par horloge électrique</name>
         <name lang="es">Accionado por reloj</name>
         <name lang="de">Betätigung durch Uhr</name>
-        <name lang="cs">Ovládání elektrickými hodinami</name>
-        <name lang="en">Actuator (operated by electric clock)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
-        <line x2="6" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-14" y2="0" length2="1.5"/>
-        <circle antialias="false" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-24" y="-5"/>
-        <line x2="-19" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-22" y2="0" length2="1.5"/>
-        <line x2="-19" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-19" y2="-3" length2="1.5"/>
+        <dynamic_text frame="false" Valignment="AlignTop" keep_visual_rotation="false" x="5" Halignment="AlignLeft" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{23318c94-1ba0-4887-b49b-e370faa2b33f}" y="2.5" text_from="ElementInfo" rotation="0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" x2="6" x1="-14" end1="none" end2="none" y1="0" y2="0" antialias="false" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-24" antialias="false" diameter="10" y="-5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="-19" x1="-22" end1="none" end2="none" y1="0" y2="0" antialias="false" length2="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="-19" x1="-19" end1="none" end2="none" y1="0" y2="-3" antialias="false" length2="1.5"/>
     </description>
 </definition>

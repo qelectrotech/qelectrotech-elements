@@ -1,23 +1,27 @@
-<definition width="30" height="70" type="element" hotspot_x="14" version="0.70" link_type="simple" hotspot_y="44">
-    <uuid uuid="{9d238bdf-fa56-42ad-b4cc-29328d045cea}"/>
+<definition type="element" height="70" link_type="simple" version="0.100.0" width="30" hotspot_x="14" hotspot_y="44">
+    <uuid uuid="{074a0fbb-9e8b-4531-adf7-00048a4ce222}"/>
     <names>
-        <name lang="de">Stellungsanzeiger, elektromechanisch</name>
         <name lang="fr">Indicateur électromécanique de position</name>
+        <name lang="de">Stellungsanzeiger, elektromechanisch</name>
+        <name lang="en">Electromechanical position indicator</name>
         <name lang="cs">Elektromechanocký indikátor polohy
 s jednou vypnutou a dvěma pracovními polohami</name>
-        <name lang="en">Electromechanical position indicator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="20" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
-        <line y2="-3" length1="1.5" y1="-17" length2="1.5" x1="-7" x2="7" style="line-style:normal;line-weight:hight;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon y3="-40" y2="-20" y1="-15" x1="-5" x2="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-10" antialias="false"/>
-        <polygon y3="-40" y2="-20" y1="-17" x1="7" x2="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" antialias="false"/>
-        <line y2="20" length1="1.5" y1="0" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="n" x="-10" y="-40"/>
-        <terminal orientation="n" x="10" y="-40"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <dynamic_text uuid="{c163fe9a-139f-477c-8915-5dcfbf4e64eb}" z="1" rotation="0" frame="false" text_from="ElementInfo" Valignment="AlignTop" x="5" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="12.5" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
+        <line x2="7" y2="-3" length1="1.5" end2="none" x1="-7" end1="none" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" y1="-17" antialias="false"/>
+        <polygon closed="false" x2="-10" y2="-20" x3="-10" y3="-40" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="false"/>
+        <polygon closed="false" x2="10" y2="-20" x3="10" y3="-40" x1="7" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-17" antialias="false"/>
+        <line x2="0" y2="20" length1="1.5" end2="none" x1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false"/>
+        <terminal type="Generic" uuid="{250f3a01-14bf-471c-b3d6-ed23066c59ab}" name="" x="-10" orientation="n" y="-40"/>
+        <terminal type="Generic" uuid="{fe99f75a-8742-4877-b7ff-08633191034b}" name="" x="10" orientation="n" y="-40"/>
+        <terminal type="Generic" uuid="{3e89cce6-c56f-4a1b-af9c-3f732d1c235c}" name="" x="0" orientation="s" y="20"/>
     </description>
 </definition>

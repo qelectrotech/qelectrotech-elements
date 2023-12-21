@@ -1,20 +1,24 @@
-<definition width="60" height="20" type="element" hotspot_x="24" version="0.70" link_type="simple" hotspot_y="10">
-    <uuid uuid="{d9d0c1f5-c679-4e38-a3cf-a24ee5af2d8e}"/>
+<definition hotspot_x="24" width="60" hotspot_y="10" link_type="simple" version="0.100.0" height="20" type="element">
+    <uuid uuid="{67d8d103-300b-4ce5-abc8-aaf2ea006962}"/>
     <names>
+        <name lang="cs">Rezistory</name>
         <name lang="de">Widerstand
 Dämpfungsglied</name>
         <name lang="fr">Résistance</name>
-        <name lang="cs">Rezistory</name>
         <name lang="en">Resistor, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <rect width="30" height="10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="20" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="w" x="-20" y="0"/>
-        <terminal orientation="e" x="30" y="0"/>
+        <dynamic_text keep_visual_rotation="false" Halignment="AlignLeft" uuid="{311588ad-ca3b-4879-b900-33181d359904}" text_width="-1" x="5" y="12.5" rotation="0" frame="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y1="0" y2="0" x2="-10" length1="1.5" antialias="false" end2="none" end1="none"/>
+        <rect rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" x="-10" ry="0" y="-5" antialias="false" height="10"/>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" y1="0" y2="0" x2="30" length1="1.5" antialias="false" end2="none" end1="none"/>
+        <terminal uuid="{70a74afa-71c1-476b-b0f8-5a5b74ec4ab1}" orientation="w" name="" x="-20" y="0" type="Generic"/>
+        <terminal uuid="{12f3ad4a-3566-4a79-88b7-5178a6af1efa}" orientation="e" name="" x="30" y="0" type="Generic"/>
     </description>
 </definition>

@@ -1,19 +1,23 @@
-<definition width="30" version="0.3" hotspot_x="20" hotspot_y="23" height="30" type="element" ic="true" link_type="previous_report">
-<uuid uuid="{CFD5D685-CD6F-4B2B-A05C-B405807E50FD}"/><names>
-        <name lang="ar">مرجع مُلامس NC (عمودي)</name>
+<definition version="0.100.0" type="element" height="30" hotspot_y="20" hotspot_x="13" link_type="previous_report" width="20">
+    <uuid uuid="{aaaa41c2-f58d-4d82-94b0-e29f431cf71a}"/>
+    <names>
         <name lang="en">Reference contact NC (vertical)</name>
-        <name lang="it">Rif. contatto NC / (verticale)</name>
-        <name lang="fr">Reference contact NC v</name>
-        <name lang="pl">Odsyłacz - zestyk rozwierny (pionowo)</name>
-        <name lang="cs">Odkaz - kontakt NC (svisle)</name>
         <name lang="nl">Referentie vorig contact (NC)</name>
+        <name lang="it">Rif. contatto NC / (verticale)</name>
+        <name lang="cs">Odkaz - kontakt NC (svisle)</name>
+        <name lang="ar">مرجع مُلامس NC (عمودي)</name>
+        <name lang="pl">Odsyłacz - zestyk rozwierny (pionowo)</name>
+        <name lang="fr">Reference contact NC v</name>
     </names>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-17" x1="-8" y2="-15" x2="0" y3="-15" x3="3"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-17" x1="-8" y2="-16" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="-10" y2="-15" x2="-8"/>
-        <input x="-14" y="-7.5" size="5" rotate="true" text="/"/>
+        <polygon y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="-17" closed="false" x3="3" antialias="true" x1="-8" y3="-15"/>
+        <line y2="-16" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-8" y1="-17" end2="none" length1="1.5" antialias="false" x1="-8"/>
+        <line y2="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-8" y1="-15" end2="none" length1="1.5" antialias="false" x1="-10"/>
+        <dynamic_text Halignment="AlignLeft" Valignment="AlignTop" y="-17" text_width="-1" z="4" rotation="0" x="-14" uuid="{6c6fd816-b758-45af-afcb-d56542150da6}" keep_visual_rotation="false" text_from="ElementInfo" frame="false" font="Sans Serif,5,-1,5,50,0,0,0,0,0">
+            <text>/</text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

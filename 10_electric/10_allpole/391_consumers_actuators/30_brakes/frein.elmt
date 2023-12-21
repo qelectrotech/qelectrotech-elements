@@ -1,38 +1,45 @@
-<definition width="80" version="0.4" hotspot_x="38" hotspot_y="30" height="60" link_type="simple" type="element" ic="true">
-<uuid uuid="{74703832-EA67-4227-98A0-8C296AC62121}"/><names>
-        <name lang="ar">مكبح مغناطيسي</name>
-        <name lang="el">Μαγνητικό φρένο</name>
-        <name lang="en">Magnetic brake</name>
-        <name lang="es">Freno magnetico</name>
-        <name lang="de">Bremse magnetisch</name>
-        <name lang="it">Freno elettromagnetico</name>
-        <name lang="fr">Frein magnetique Moteur</name>
+<definition hotspot_x="38" version="0.100.0" link_type="simple" width="80" type="element" hotspot_y="30" height="60">
+    <uuid uuid="{8e872806-f0cd-4ab2-8d04-e8b5a3d517b4}"/>
+    <names>
         <name lang="pl">Hamulec elektromagnetyczny</name>
         <name lang="nl">Rem Magnetisch</name>
+        <name lang="de">Bremse magnetisch</name>
+        <name lang="ar">مكبح مغناطيسي</name>
+        <name lang="en">Magnetic brake</name>
         <name lang="cs">Elektromagnetická brzda</name>
+        <name lang="fr">Frein magnetique Moteur</name>
+        <name lang="el">Μαγνητικό φρένο</name>
+        <name lang="es">Freno magnetico</name>
+        <name lang="it">Freno elettromagnetico</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-12.5" y="-22.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="5"/>
-        <circle x="27.5" y="-22.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="7" y2="-20" x2="-7"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="40" y2="-20" x2="33"/>
-        <text x="6" y="-6" size="6" text="wh"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="27" y2="-20" x2="13"/>
-        <text x="28" y="-6" size="6" text="bl"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x1="-30.4541" y2="0" x2="-20.5081"/>
-        <polygon x4="-36" y5="20" x5="-30" y6="20" x6="-30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="-30" y2="-20" x2="-30" y3="-27" x3="-36" y4="27"/>
-        <input x="-15" y="11" size="6" rotate="true" text="_" tagg="none"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="40" y2="-20" x2="40"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="40" y2="20" x2="-20"/>
-        <input x="-65" y="1.5" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-13" y2="-20" x2="-20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-20" y2="20" x2="-20"/>
-        <circle x="7.5" y="-22.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="5"/>
-        <text x="-14" y="-6" size="6" text="rd"/>
-        <terminal x="-10" y="-22" orientation="n"/>
-        <terminal x="10" y="-22" orientation="n"/>
-        <terminal x="30" y="-22" orientation="n"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-22.5" x="-12.5" diameter="5" antialias="true"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-22.5" x="27.5" diameter="5" antialias="true"/>
+        <line length2="1.5" x1="7" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-7" y2="-20" y1="-20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <line length2="1.5" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="33" y2="-20" y1="-20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <text rotation="0" text="wh" y="-6" x="6" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <line length2="1.5" x1="27" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="13" y2="-20" y1="-20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <text rotation="0" text="bl" y="-6" x="28" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <line length2="1.5" x1="-30.4541" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-20.5081" y2="0" y1="0" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <polygon x6="-30" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-30" y3="-27" y2="-20" x3="-36" y1="20" y6="20" y5="20" x5="-30" x4="-36" antialias="true" y4="27"/>
+        <dynamic_text z="10" text_from="UserText" Valignment="AlignTop" keep_visual_rotation="false" rotation="0" y="1" text_width="-1" x="-15" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" uuid="{17aeb0fd-e935-4a97-9b45-5c72107fb910}">
+            <text>_</text>
+        </dynamic_text>
+        <line length2="1.5" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="40" y2="-20" y1="20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <line length2="1.5" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" y2="20" y1="20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <dynamic_text z="13" text_from="ElementInfo" Valignment="AlignTop" keep_visual_rotation="false" rotation="0" y="-11" text_width="-1" x="-65" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" uuid="{65a21ef4-0c95-4941-9601-78cd94ab3a9b}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" x1="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" y2="-20" y1="-20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <line length2="1.5" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" y2="20" y1="-20" end1="none" length1="1.5" antialias="false" end2="none"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-22.5" x="7.5" diameter="5" antialias="true"/>
+        <text rotation="0" text="rd" y="-6" x="-14" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <terminal orientation="n" name="" y="-22" type="Generic" x="-10" uuid="{1c7ed5c8-7dc7-42d4-bb5b-2d2388728419}"/>
+        <terminal orientation="n" name="" y="-22" type="Generic" x="10" uuid="{41712d0a-1035-4205-8379-337850b5a63e}"/>
+        <terminal orientation="n" name="" y="-22" type="Generic" x="30" uuid="{d57fb1cc-e0e6-4a7f-8a66-7334b874df09}"/>
     </description>
 </definition>

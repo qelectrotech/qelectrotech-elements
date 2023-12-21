@@ -1,19 +1,23 @@
-<definition width="70" height="40" type="element" hotspot_x="35" version="0.70" link_type="simple" hotspot_y="11">
-    <uuid uuid="{add075bb-b875-44df-995f-95854164ee5c}"/>
+<definition hotspot_y="11" version="0.100.0" link_type="simple" width="70" height="40" type="element" hotspot_x="35">
+    <uuid uuid="{d9c66575-cdfe-4901-b253-03fc4c79e012}"/>
     <names>
+        <name lang="cs">Kondenzátor průchodkový</name>
         <name lang="de">Durchführungskondensator</name>
         <name lang="fr">Condensateur de traversée</name>
-        <name lang="cs">Kondenzátor průchodkový</name>
         <name lang="en">Capacitor, lead-through; Capacitor, feed-through</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="35"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-20" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-5" length2="1.5" x1="-18" x2="18" style="line-style:normal;line-weight:eleve;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="20" length1="1.5" y1="0" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-5" length2="1.5" x1="-30" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="s" x="0" y="20"/>
+        <dynamic_text Valignment="AlignTop" uuid="{affa6186-ca5d-477c-8d73-cd904d89afd6}" x="5" text_width="-1" Halignment="AlignLeft" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" y="22.5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" y2="0" x2="20" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
+        <line y1="-5" y2="-5" x2="18" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:eleve;filling:none;color:black" x1="-18"/>
+        <line y1="0" y2="20" x2="0" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
+        <line y1="-5" y2="-5" x2="30" end2="none" antialias="false" end1="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30"/>
+        <terminal uuid="{2739feed-c592-4889-aa9a-42c2257ce6d1}" x="0" name="" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

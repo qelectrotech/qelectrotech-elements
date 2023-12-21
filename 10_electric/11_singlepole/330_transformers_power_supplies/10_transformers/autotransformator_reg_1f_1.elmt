@@ -1,30 +1,35 @@
-<definition width="70" version="0.4" hotspot_x="37" hotspot_y="45" height="80" type="element" ic="true">
-<uuid uuid="{95DEF352-3813-4DEB-9781-15B6E0D29031}"/><names>
-        <name lang="en">Adjustable autotransformer</name>
-        <name lang="de">Stell-Spartransformator</name>
-        <name lang="it">Autotransformatore monofase regolabile (forma 1)</name>
-        <name lang="fr">Autotransformateur monophasé reglable</name>
-        <name lang="pl">Autotransformator jednofazowy, regulacyjny (forma 1)</name>
-        <name lang="es">Autotransformador monofásico regulable</name>
-        <name lang="cs">Jednofázový autotransformátor, nastavitelný</name>
-        <name lang="nl">enkelfase autotransformator regelbaar (Variac)</name>
+<definition hotspot_x="18" hotspot_y="44" width="40" height="80" type="element" version="0.100.0" link_type="simple">
+    <uuid uuid="{ff1a7e6e-39e7-4b7b-9a20-8ac256562cee}"/>
+    <names>
         <name lang="el">Ρυθμιζόμενος αυτομετασχηματιστής</name>
+        <name lang="nl">enkelfase autotransformator regelbaar (Variac)</name>
+        <name lang="it">Autotransformatore monofase regolabile (forma 1)</name>
+        <name lang="cs">Jednofázový autotransformátor, nastavitelný</name>
+        <name lang="de">Stell-Spartransformator</name>
+        <name lang="fr">Autotransformateur monophasé reglable</name>
+        <name lang="es">Autotransformador monofásico regulable</name>
+        <name lang="en">Adjustable autotransformer</name>
+        <name lang="pl">Autotransformator jednofazowy, regulacyjny (forma 1)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-15" y="-15" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30.05" x1="-5.05" y2="-34.05" x2="4.95"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="22" x1="-5" y2="18" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-28.05" x1="-5.05" y2="-32.05" x2="4.95"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" x1="0" y2="-25" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="0" y2="30" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="24" x1="-5" y2="20" x2="5"/>
-        <input x="17" y="0" size="9" rotate="true" text="_" tagg="label"/>
-        <arc width="50" x="-35" y="-27.5" antialias="true" height="55" style="line-style:normal;line-weight:normal;filling:none;color:black" start="66" angle="-65"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="-15" y2="-15" x2="15"/>
-        <polygon x4="13" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-16" x1="13" y2="-13" x2="16" y3="-19" x3="19" y4="-16"/>
-        <terminal x="0" y="-40" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="30" nameHidden="0" number="" name="" orientation="s"/>
+        <circle diameter="30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-15"/>
+        <line length2="1.5" x1="-5.05" x2="4.95" y1="-30.05" y2="-34.05" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <line length2="1.5" x1="-5" x2="5" y1="22" y2="18" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <line length2="1.5" x1="-5.05" x2="4.95" y1="-28.05" y2="-32.05" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <line length2="1.5" x1="0" x2="0" y1="-40" y2="-25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <line length2="1.5" x1="0" x2="0" y1="15" y2="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <line length2="1.5" x1="-5" x2="5" y1="24" y2="20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <dynamic_text text_from="ElementInfo" rotation="0" uuid="{a6b6d7d2-a0a6-4362-9d56-163d63f7bfe8}" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" z="8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="17" y="-12.5" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc start="66" width="50" angle="-65" height="55" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" y="-27.5"/>
+        <line length2="1.5" x1="-15" x2="15" y1="15" y2="-15" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" end2="none"/>
+        <polygon x1="13" x2="16" x4="13" y1="-16" y2="-13" y3="-19" antialias="true" y4="-16" style="line-style:normal;line-weight:thin;filling:black;color:black" x3="19"/>
+        <terminal uuid="{4a05b2ab-3fe6-41a8-ad22-18c6eede5cb1}" name="" type="Generic" orientation="n" x="0" y="-40"/>
+        <terminal uuid="{e972e9c2-79dd-46d4-b58a-0dd3014d969d}" name="" type="Generic" orientation="s" x="0" y="30"/>
     </description>
 </definition>

@@ -1,22 +1,26 @@
-<definition hotspot_x="24" version="0.70" height="40" hotspot_y="11" width="50" type="element" link_type="simple">
-    <uuid uuid="{a9f1180e-2e17-4447-a1da-57f8a2b3e331}"/>
+<definition height="40" width="50" hotspot_y="11" link_type="simple" type="element" version="0.100.0" hotspot_x="24">
+    <uuid uuid="{284393b9-0bfc-4ac7-9aa5-e0ff4047aa20}"/>
     <names>
-        <name lang="fr">Prise de conducteur n'interrompant pas le
-conducteur</name>
         <name lang="de">Abzweigung, bei der der Leiter nicht
 unterbrochen werden darf</name>
-        <name lang="cs">Napojení vodiče nepřerušující vodič</name>
+        <name lang="fr">Prise de conducteur n'interrompant pas le
+conducteur</name>
         <name lang="en">Junction not interrupting the conductor</name>
+        <name lang="cs">Napojení vodiče nepřerušující vodič</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="0" y2="20" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="10" y2="-5" y1="-5" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <terminal y="0" x="-20" orientation="w"/>
-        <terminal y="0" x="20" orientation="e"/>
-        <terminal y="20" x="0" orientation="s"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" rotation="0" x="5" y="2.5" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="1" uuid="{6ec8ed9a-db63-431c-b354-9b578fa4d2c6}" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" end2="none" antialias="false" x2="20" x1="-20" y1="0" y2="0" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" antialias="false" x2="0" x1="0" y1="0" y2="20" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" end2="none" antialias="false" x2="10" x1="-10" y1="-5" y2="-5" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="-20" type="Generic" name="" y="0" orientation="w" uuid="{993b1e31-a7ce-4cf0-a184-2b4ef34410d0}"/>
+        <terminal x="20" type="Generic" name="" y="0" orientation="e" uuid="{dd4c0620-0679-4086-835d-d4942e526fda}"/>
+        <terminal x="0" type="Generic" name="" y="20" orientation="s" uuid="{96c084b8-0d3f-456a-8061-8c8187440c6a}"/>
     </description>
 </definition>

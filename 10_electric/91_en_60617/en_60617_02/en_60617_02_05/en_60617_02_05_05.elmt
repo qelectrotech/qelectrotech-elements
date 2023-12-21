@@ -1,18 +1,22 @@
-<definition type="element" width="30" height="10" version="0.70" hotspot_x="15" hotspot_y="4" link_type="simple">
-    <uuid uuid="{8ff10da3-5e99-4a5f-bcb0-ffb57b4ecae3}"/>
+<definition hotspot_x="15" link_type="simple" hotspot_y="4" width="30" height="10" version="0.100.0" type="element">
+    <uuid uuid="{cf2be385-a63d-403c-aea2-d292137cba66}"/>
     <names>
-        <name lang="fr">Réception</name>
         <name lang="es">Recepción</name>
-        <name lang="de">Empfangen</name>
-        <name lang="cs">Příjem</name>
         <name lang="en">Reception</name>
+        <name lang="cs">Příjem</name>
+        <name lang="fr">Réception</name>
+        <name lang="de">Empfangen</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="-10" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="-3"/>
-        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="10"/>
-        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
-        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="3" y="-1.5" x="2.5"/>
+        <line length1="1.5" x2="-3" end2="simple" x1="-10" end1="none" y2="0" length2="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line length1="1.5" x2="10" end2="none" x1="-3" end1="none" y2="0" length2="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ce89a5e5-2832-4620-9a55-24496eb4a9bd}" keep_visual_rotation="false" z="3" rotation="0" y="2.5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="2.5" diameter="3" y="-1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
     </description>
 </definition>

@@ -1,19 +1,23 @@
-<definition hotspot_x="65" hotspot_y="65" height="70" link_type="simple" version="0.70" type="element" width="70">
-    <uuid uuid="{c9c1e8b9-8105-408e-bc0a-c260bf460e5f}"/>
+<definition hotspot_x="65" version="0.100.0" link_type="simple" type="element" height="70" hotspot_y="65" width="70">
+    <uuid uuid="{b6cd349a-3077-4f6c-97bc-ea3307d3d601}"/>
     <names>
+        <name lang="en">Current relay</name>
         <name lang="de">Stromrelais mit einstellbarem Höchst- und
 Tiefstwert</name>
         <name lang="fr">Relais à maximum et minimum de courant</name>
         <name lang="cs">Proudové relé s nastavením maxima a minima</name>
-        <name lang="en">Current relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <rect y="-60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="60" antialias="false"/>
-        <text y="-15" size="9" text="&lt; 3A" x="-33"/>
-        <text y="-27" size="9" text="I" x="-47"/>
-        <text y="-36" size="9" text="&gt; 5A" x="-33"/>
+        <dynamic_text rotation="0" text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft" Valignment="AlignTop" z="1" text_width="-1" x="5" frame="false" uuid="{3dc8ed4d-aba0-4d6e-b4e4-460aebaca2b5}" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" x="-60" y="-60" antialias="false" height="60" rx="0" width="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text rotation="0" x="-33" y="-15" text="&lt; 3A" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" x="-47" y="-27" text="I" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" x="-33" y="-36" text="> 5A" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
     </description>
 </definition>

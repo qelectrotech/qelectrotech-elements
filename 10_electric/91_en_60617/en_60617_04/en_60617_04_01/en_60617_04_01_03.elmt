@@ -1,21 +1,25 @@
-<definition width="60" height="30" type="element" hotspot_x="24" version="0.70" link_type="simple" hotspot_y="16">
-    <uuid uuid="{14353b65-31b1-4260-a977-f7245a61fcc8}"/>
+<definition hotspot_x="24" hotspot_y="16" link_type="simple" height="30" type="element" width="60" version="0.100.0">
+    <uuid uuid="{7a53be02-b3b4-4022-a48b-c28fd7981892}"/>
     <names>
-        <name lang="de">Widerstand, veränderbar </name>
-        <name lang="fr">Résistance réglable</name>
         <name lang="cs">Nastavitelný rezistor</name>
         <name lang="en">Resistor, adjustable</name>
+        <name lang="fr">Résistance réglable</name>
+        <name lang="de">Widerstand, veränderbar </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <rect width="30" height="10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="20" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="10" length2="1.5" x1="-5" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon y3="-13" x4="16" y2="-11" y1="-9" x1="16" x2="14" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-9" x3="18" antialias="false"/>
-        <terminal orientation="w" x="-20" y="0"/>
-        <terminal orientation="e" x="30" y="0"/>
+        <dynamic_text uuid="{1dd63b8f-1a70-4367-942e-3aa0b510e352}" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" keep_visual_rotation="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" x="5" text_width="-1" y="12.5" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" end2="none" x2="-10" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" length1="1.5"/>
+        <rect ry="0" antialias="false" height="10" x="-10" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" width="30"/>
+        <line y1="0" end2="none" x2="30" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="0" length1="1.5"/>
+        <line y1="10" end2="none" x2="15" antialias="false" x1="-5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-10" length1="1.5"/>
+        <polygon y1="-9" x2="14" x3="18" y4="-9" antialias="false" x1="16" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="16" y2="-11" y3="-13"/>
+        <terminal uuid="{aa266ff3-cd7d-47d2-9363-2538b93acab6}" orientation="w" name="" x="-20" y="0" type="Generic"/>
+        <terminal uuid="{3c1746c4-1e37-4e86-9ff2-3e57bf2f9930}" orientation="e" name="" x="30" y="0" type="Generic"/>
     </description>
 </definition>

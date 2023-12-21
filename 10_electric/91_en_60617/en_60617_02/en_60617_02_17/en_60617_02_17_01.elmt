@@ -1,22 +1,26 @@
-<definition hotspot_x="10" version="0.70" height="40" hotspot_y="25" width="20" type="element" link_type="simple">
-    <uuid uuid="{e9c63d06-fd70-42ce-b360-2c3f259b237b}"/>
+<definition height="40" version="0.100.0" link_type="simple" type="element" hotspot_y="25" width="20" hotspot_x="10">
+    <uuid uuid="{698951de-d45c-4551-a26a-eaca8aeb6d03}"/>
     <names>
         <name lang="fr">Défaut (marquage de l'emplacement supposé
 d'un défaut)</name>
         <name lang="es">Error (visualización de un supuesto
 Ubicación de la falla)</name>
-        <name lang="de">Fehler (Anzeige eines angenommenen
-Fehlerorts)</name>
         <name lang="cs">Porucha(označení 
 předpokládaného místa poruchy)</name>
+        <name lang="de">Fehler (Anzeige eines angenommenen
+Fehlerorts)</name>
         <name lang="en">Fault</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="-6" y2="0" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="6" y2="-10" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6"/>
-        <line x2="0" y2="10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="6"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{23da2f01-3448-4bde-824d-b523e42da74a}" z="1" rotation="0" Valignment="AlignTop" x="5" y="2.5" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" y2="0" length1="1.5" x2="-6" length2="1.5" antialias="false" end2="none" end1="none" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-6" y2="-10" length1="1.5" x2="6" length2="1.5" antialias="false" end2="none" end1="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="6" y2="10" length1="1.5" x2="0" length2="1.5" antialias="false" end2="triangle" end1="none" y1="-10" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
     </description>
 </definition>

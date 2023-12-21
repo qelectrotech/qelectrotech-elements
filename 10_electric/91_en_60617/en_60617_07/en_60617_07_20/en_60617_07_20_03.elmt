@@ -1,30 +1,34 @@
-<definition type="element" width="60" height="70" hotspot_y="34" hotspot_x="54" version="0.70" link_type="simple">
-    <uuid uuid="{9570402a-a05f-4f8b-9648-afb01ba69045}"/>
+<definition width="60" hotspot_x="54" hotspot_y="34" version="0.100.0" link_type="simple" type="element" height="70">
+    <uuid uuid="{237af299-cac7-4c33-a66a-6601156c5086}"/>
     <names>
-        <name lang="de">näherungsempfindlicher Schalter, (Schließer);
-betätigt durch die Annäherung von Magnet</name>
         <name lang="fr">Dispositif sensible à une proximité, commandé
 à l'approche d'un aimant avec contact à
 fermeture</name>
+        <name lang="de">näherungsempfindlicher Schalter, (Schließer);
+betätigt durch die Annäherung von Magnet</name>
+        <name lang="en">Proximity switch, magnetically controlled</name>
         <name lang="cs">Přibližovací spínač, ovládaný
 přiblížením magnetu, zapínací kontakt</name>
-        <name lang="en">Proximity switch, magnetically controlled</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="0" y1="-30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="10" x2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="30" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-20" y1="0" x2="-3" style="line-style:dashed;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <polygon y4="0" antialias="false" closed="false" y5="-10" x1="-30" y1="-10" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x4="-20" x3="-30" x5="-30" y3="10"/>
-        <line antialias="false" x1="-34" y1="-6" x2="-34" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-26" y1="-6" x2="-26" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="6" end1="none" length1="1.5" length2="1.5"/>
-        <rect antialias="false" width="10" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-10" x="-50"/>
-        <rect antialias="false" width="5" height="10" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-5" x="-50"/>
-        <rect antialias="false" width="10" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" y="5" x="-50"/>
-        <terminal orientation="s" y="30" x="0"/>
-        <terminal orientation="n" y="-30" x="0"/>
+        <dynamic_text text_width="-1" text_from="ElementInfo" x="5" uuid="{29ada006-ea95-4046-9f4e-c3cbe76a8487}" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="1" keep_visual_rotation="false" Valignment="AlignTop" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" end1="none" end2="none" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="-30" length1="1.5" length2="1.5"/>
+        <line x1="0" end1="none" end2="none" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-5" y1="10" length1="1.5" length2="1.5"/>
+        <line x1="0" end1="none" end2="none" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="30" length1="1.5" length2="1.5"/>
+        <line x1="-20" end1="none" end2="none" antialias="false" y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-3" y1="0" length1="1.5" length2="1.5"/>
+        <polygon y5="-10" x4="-20" x1="-30" x5="-30" antialias="false" y2="0" x3="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" closed="false" y1="-10" y3="10" y4="0"/>
+        <line x1="-34" end1="none" end2="none" antialias="false" y2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-34" y1="-6" length1="1.5" length2="1.5"/>
+        <line x1="-26" end1="none" end2="none" antialias="false" y2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-26" y1="-6" length1="1.5" length2="1.5"/>
+        <rect ry="0" width="10" rx="0" x="-50" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" height="5" y="-10"/>
+        <rect ry="0" width="5" rx="0" x="-50" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" height="10" y="-5"/>
+        <rect ry="0" width="10" rx="0" x="-50" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" height="5" y="5"/>
+        <terminal x="0" uuid="{5c7a846c-5097-4ba6-9442-a649356f8f3a}" name="" type="Generic" orientation="s" y="30"/>
+        <terminal x="0" uuid="{16d1d99c-2aca-4209-889e-5e49162baf1e}" name="" type="Generic" orientation="n" y="-30"/>
     </description>
 </definition>

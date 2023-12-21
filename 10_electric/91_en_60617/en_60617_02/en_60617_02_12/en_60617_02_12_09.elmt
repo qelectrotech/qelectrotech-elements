@@ -1,19 +1,23 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="12" width="50" type="element" link_type="simple">
-    <uuid uuid="{30e7b092-6aee-411b-9afe-a9134bc5c7c1}"/>
+<definition hotspot_y="12" hotspot_x="25" width="50" height="20" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{69169392-3ef6-400b-9bc6-a27062d49041}"/>
     <names>
-        <name lang="fr">Crantage, libéré</name>
         <name lang="es">Seguro liberado</name>
-        <name lang="de">Raste, nicht eingerastet</name>
         <name lang="cs">Zarážka vypnuta</name>
+        <name lang="fr">Crantage, libéré</name>
+        <name lang="de">Raste, nicht eingerastet</name>
         <name lang="en">Detent, disengaged</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="-5" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <polygon x2="0" y2="5" y1="0" x3="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="0" x1="-5"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="5"/>
-        <line x2="6" y2="-3" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="6"/>
+        <dynamic_text rotation="0" Valignment="AlignTop" text_from="ElementInfo" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" z="1" x="5" keep_visual_rotation="false" y="2.5" uuid="{a2163dc4-c1fd-42be-824a-d32e44c16e2c}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="-5" length2="1.5" end2="none" x1="-20" y2="0" end1="none" antialias="false" length1="1.5"/>
+        <polygon y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="-5" y2="5" closed="false" y3="0" antialias="false" x3="5"/>
+        <line y1="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" x2="20" length2="1.5" end2="none" x1="5" y2="0" end1="none" antialias="false" length1="1.5"/>
+        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="6" length2="1.5" end2="none" x1="6" y2="-3" end1="none" antialias="false" length1="1.5"/>
     </description>
 </definition>

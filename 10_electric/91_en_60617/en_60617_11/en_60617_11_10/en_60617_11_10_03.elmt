@@ -1,17 +1,21 @@
-<definition link_type="simple" type="element" width="110" height="80" hotspot_x="105" hotspot_y="45" version="0.70">
-    <uuid uuid="{941c76d4-f4be-4e9d-8a10-d044a9df2317}"/>
+<definition hotspot_y="45" width="110" hotspot_x="105" link_type="simple" height="80" type="element" version="0.100.0">
+    <uuid uuid="{53e7ae7e-abe5-4121-8acf-25ee1a74866f}"/>
     <names>
-        <name lang="de">Einspeisepunkt</name>
-        <name lang="fr">Point d'injection de l'alimentation</name>
-        <name lang="cs">Napájecí bod</name>
         <name lang="en">Power feeding injection point</name>
+        <name lang="de">Einspeisepunkt</name>
+        <name lang="cs">Napájecí bod</name>
+        <name lang="fr">Point d'injection de l'alimentation</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" size="9" y="55" x="5" rotate="true"/>
-        <line end2="none" end1="none" length1="1.5" y2="-20" length2="1.5" x1="-100" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect width="40" height="40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-70"/>
-        <line end2="none" end1="none" length1="1.5" y2="30" length2="1.5" x1="-50" y1="0" x2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text rotation="0" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" x="5" z="1" uuid="{ccea8c3b-5603-4768-8555-e6b733f36a1b}" y="42.5" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-100" y1="-20" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y2="-20" length2="1.5" antialias="false"/>
+        <rect width="40" rx="0" ry="0" height="40" x="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
+        <line x1="-50" y1="0" length1="1.5" x2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y2="30" length2="1.5" antialias="false"/>
     </description>
 </definition>

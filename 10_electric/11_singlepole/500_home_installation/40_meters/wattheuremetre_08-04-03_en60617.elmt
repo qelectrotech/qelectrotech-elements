@@ -1,23 +1,27 @@
-<definition hotspot_x="25" hotspot_y="39" height="80" type="element" link_type="simple" width="50" version="0.5">
-    <uuid uuid="{a9c50e8b-7862-4ade-b94a-0dc63c0deaa7}"/>
+<definition hotspot_x="25" height="80" hotspot_y="39" width="50" version="0.100.0" link_type="simple" type="element">
+    <uuid uuid="{cff4397a-f27e-4fbb-8c17-917336893e31}"/>
     <names>
-        <name lang="fr">Compteur d'énergie active Wattheuremètre (en_60617)</name>
+        <name lang="it">Misuratore di Wh (en_60617)</name>
         <name lang="pl">Licznik watogodzin (en_60617)</name>
+        <name lang="nl">Watt uur meter (en_60617)</name>
+        <name lang="en">Watt hour meter (en_60617)</name>
+        <name lang="fr">Compteur d'énergie active Wattheuremètre (en_60617)</name>
+        <name lang="de">Wattstundenzähler (EN 60617)</name>
         <name lang="cs">Elektroměr</name>
         <name lang="ar">عدّاد طاقة فعّالة - وات ساعة متر -(en_60617) </name>
-        <name lang="it">Misuratore di Wh (en_60617)</name>
-        <name lang="de">Wattstundenzähler (EN 60617)</name>
-        <name lang="en">Watt hour meter (en_60617)</name>
-        <name lang="nl">Watt uur meter (en_60617)</name>
     </names>
+    <elementInformations/>
     <informations>https://github.com/jonasstein/qelectrotech-symbols
 EN 60617</informations>
     <description>
-        <input x="23" rotate="true" size="9" text="_" y="0.55" tagg="label"/>
-        <text x="-10" size="9" text="Wh" y="12"/>
-        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" antialias="false" y="-10" width="40"/>
-        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false" y="-30" width="40"/>
-        <terminal x="0" orientation="n" y="-34"/>
-        <terminal x="0" orientation="s" y="34"/>
+        <dynamic_text text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" y="-11.95" frame="false" text_from="ElementInfo" z="1" Valignment="AlignTop" x="23" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{d7b38eb5-37f9-4156-8c9c-7ac9ed712797}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text rotation="0" y="12" x="-10" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="Wh"/>
+        <rect height="40" y="-10" width="40" ry="0" x="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0"/>
+        <rect height="20" y="-30" width="40" ry="0" x="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0"/>
+        <terminal y="-34" x="0" name="" orientation="n" uuid="{700d7051-6aa4-46fb-858c-3d10e37ced89}" type="Generic"/>
+        <terminal y="34" x="0" name="" orientation="s" uuid="{5be27b48-202a-4c1b-bba1-8ee609cacc5e}" type="Generic"/>
     </description>
 </definition>

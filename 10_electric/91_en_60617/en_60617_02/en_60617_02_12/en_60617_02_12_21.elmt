@@ -1,19 +1,23 @@
-<definition hotspot_x="45" version="0.70" height="30" hotspot_y="15" width="70" type="element" link_type="simple">
-    <uuid uuid="{27e68db1-536d-4f6f-a5cc-e6f389b3f33b}"/>
+<definition link_type="simple" type="element" width="70" height="30" hotspot_y="15" hotspot_x="45" version="0.100.0">
+    <uuid uuid="{55b58209-7f4e-42c5-a2cd-59946321c409}"/>
     <names>
-        <name lang="fr">Frein serré</name>
+        <name lang="en">Brake, applied</name>
         <name lang="es">Motor eléctrico con freno aplicado</name>
         <name lang="de">Bremse eingelegt</name>
         <name lang="cs">Motor s působící brzdou</name>
-        <name lang="en">Brake, applied</name>
+        <name lang="fr">Frein serré</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <polygon x2="-10" x5="10" y2="0" y1="0" x3="-6" x4="6" y4="-8" antialias="false" y5="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-8" x1="10"/>
-        <line x2="20" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <circle y="-10" x="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
-        <text y="4" x="-35" text="M" size="9"/>
+        <dynamic_text uuid="{c5c4dfa7-b2c6-4e89-bb8a-367996c1ea3a}" frame="false" y="2.5" rotation="0" Halignment="AlignLeft" text_from="ElementInfo" z="1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x4="6" x5="10" x3="-6" y3="-8" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" y5="0" x2="-10" y4="-8" closed="false" antialias="false"/>
+        <line length1="1.5" end1="none" x1="-20" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" y2="0" x2="20" length2="1.5" end2="none" antialias="false"/>
+        <circle y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" x="-40" antialias="false"/>
+        <text y="4" rotation="0" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-35" text="M"/>
     </description>
 </definition>

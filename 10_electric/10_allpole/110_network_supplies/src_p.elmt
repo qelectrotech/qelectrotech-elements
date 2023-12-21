@@ -1,26 +1,30 @@
-<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="20" hotspot_y="10" type="element">
-    <uuid uuid="{7693c5e0-762b-4309-8d97-cb74619f9efd}"/>
+<definition hotspot_x="15" link_type="simple" type="element" height="20" hotspot_y="10" width="30" version="0.100.0">
+    <uuid uuid="{ce3d8040-f0da-4c98-ad3c-bd4e71811943}"/>
     <names>
-        <name lang="pt">Fonte de fase</name>
-        <name lang="es">Fuente fase</name>
-        <name lang="nl">Fase</name>
-        <name lang="el">Φάση</name>
-        <name lang="de">Phase</name>
-        <name lang="cs">Přípojnice L</name>
-        <name lang="pl">Przewód liniowy</name>
-        <name lang="it">Sorgente fase</name>
-        <name lang="ar">مصدر وجه</name>
         <name lang="en">Phase source</name>
         <name lang="fr">Source phase</name>
         <name lang="ru">Фаза</name>
-	    <name lang="hu">F</name>
+        <name lang="it">Sorgente fase</name>
+        <name lang="de">Phase</name>
+        <name lang="cs">Přípojnice L</name>
+        <name lang="nl">Fase</name>
+        <name lang="pl">Przewód liniowy</name>
+        <name lang="ar">مصدر وجه</name>
+        <name lang="el">Φάση</name>
+        <name lang="hu">F</name>
+        <name lang="pt">Fonte de fase</name>
+        <name lang="es">Fuente fase</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-6" y="-14.45" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <text x="-12" y="3" size="5" text="L"/>
-        <terminal x="10" y="0" orientation="e"/>
+        <dynamic_text keep_visual_rotation="false" text_from="ElementInfo" x="-6" Valignment="AlignTop" y="-26.95" z="1" frame="false" text_width="-1" Halignment="AlignLeft" uuid="{bee1abc2-d28e-468a-9cd3-e17af4e72e47}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" end2="none" x2="10" y1="0" antialias="false" x1="0" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
+        <text x="-12" y="3" color="#000000" text="L" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <terminal x="10" y="0" name="" orientation="e" type="Generic" uuid="{408c67e7-d136-41fd-8491-6729e384123d}"/>
     </description>
 </definition>

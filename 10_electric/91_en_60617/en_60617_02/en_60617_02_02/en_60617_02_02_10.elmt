@@ -1,21 +1,25 @@
-<definition version="0.70" width="30" hotspot_x="14" type="element" link_type="simple" height="20" hotspot_y="13">
-    <uuid uuid="{fe56f0c5-d8af-487d-a78c-b1b098c8f8b8}"/>
+<definition version="0.100.0" height="20" hotspot_y="13" link_type="simple" width="30" hotspot_x="14" type="element">
+    <uuid uuid="{19357bad-4453-469e-ad04-a42841e94d36}"/>
     <names>
-        <name lang="de">Wechselstrom, verschiedene Frequenzbereiche</name>
-        <name lang="fr">Courant alternatif, différentes bandes de fréquences</name>
         <name lang="es">Corriente alterna trifásica</name>
-        <name lang="cs">Střídavý proud - střední kmitočty</name>
+        <name lang="de">Wechselstrom, verschiedene Frequenzbereiche</name>
         <name lang="en">Alternating current (indication of frequency range: medium)</name>
+        <name lang="cs">Střídavý proud - střední kmitočty</name>
+        <name lang="fr">Courant alternatif, différentes bandes de fréquences</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" width="9" angle="124" start="56" antialias="true" height="5" x="-9.5"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-9.5" width="9" angle="124" start="56" antialias="true" height="5" x="-9.5"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" width="9" angle="124" start="234" antialias="true" height="5" x="0.5"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-9.5" width="9" angle="124" start="234" antialias="true" height="5" x="0.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-2" length1="1.5" end2="none" antialias="true" x2="2" y1="-9" y2="-5" end1="none" length2="1.5"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-2" length1="1.5" end2="none" antialias="false" x2="2" y1="-2" y2="2" end1="none" length2="1.5"/>
-        <input tagg="label" rotate="true" y="15" x="5" text="_" size="9"/>
+        <arc start="56" height="5" antialias="true" x="-9.5" width="9" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5"/>
+        <arc start="56" height="5" antialias="true" x="-9.5" width="9" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-9.5"/>
+        <arc start="234" height="5" antialias="true" x="0.5" width="9" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5"/>
+        <arc start="234" height="5" antialias="true" x="0.5" width="9" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-9.5"/>
+        <line x2="2" end2="none" antialias="true" length1="1.5" y2="-5" length2="1.5" x1="-2" y1="-9" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="2" end2="none" antialias="false" length1="1.5" y2="2" length2="1.5" x1="-2" y1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" rotation="0" x="5" Valignment="AlignTop" keep_visual_rotation="false" frame="false" Halignment="AlignLeft" uuid="{61f105bc-25d4-4b3e-a195-521775871441}" y="2.5" z="7" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
     </description>
 </definition>

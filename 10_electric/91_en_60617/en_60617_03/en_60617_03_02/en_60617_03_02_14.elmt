@@ -1,29 +1,33 @@
-<definition hotspot_x="54" version="0.70" height="130" hotspot_y="126" width="110" type="element" link_type="simple">
-    <uuid uuid="{7f9218fc-2dbb-4674-a847-889698c35c80}"/>
+<definition link_type="simple" height="130" hotspot_y="127" hotspot_x="54" type="element" width="110" version="0.100.0">
+    <uuid uuid="{2525d169-f5dd-46a9-8a34-850d78a3f0b1}"/>
     <names>
-        <name lang="fr">Alternateur triphasé</name>
         <name lang="de">Drehstrom-Synchrongenerator</name>
         <name lang="cs">Trojfázový synchronní alternátor</name>
         <name lang="en">Neutral point of a generator (single-line representation)</name>
+        <name lang="fr">Alternateur triphasé</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="0" y2="-30" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <polygon x2="-20" y2="0" y1="-10" x3="20" x4="20" y4="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="0" x1="-20"/>
-        <circle y="-90" x="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60"/>
-        <line x2="0" y2="-110" y1="-90" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="50" y2="-110" y1="-110" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50"/>
-        <text y="-113" x="-40" text="3~" size="6"/>
-        <line x2="-10" y2="-120" y1="-100" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30"/>
-        <line x2="0" y2="-120" y1="-100" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="-20" y2="-120" y1="-100" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="-10" y2="-40" y1="-50" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <line x2="0" y2="-40" y1="-50" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="10" y2="-40" y1="-50" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10"/>
-        <text y="-65" x="-8" text="GS" size="9"/>
-        <terminal y="-110" x="-50" orientation="w"/>
-        <terminal y="-110" x="50" orientation="e"/>
+        <dynamic_text text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" uuid="{d024bf7a-aa0d-4911-9a7f-8864f8e88ac7}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Valignment="AlignTop" x="5" rotation="0" y="2.5" keep_visual_rotation="false" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-30" y1="0" end1="none" length2="1.5" x2="0" length1="1.5" antialias="false" x1="0"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x4="20" closed="false" x3="20" y2="0" y3="0" y1="-10" x2="-20" y4="-10" antialias="false" x1="-20"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60" x="-30" y="-90" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-110" y1="-90" end1="none" length2="1.5" x2="0" length1="1.5" antialias="false" x1="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-110" y1="-110" end1="none" length2="1.5" x2="50" length1="1.5" antialias="false" x1="-50"/>
+        <text text="3~" font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="-40" color="#000000" rotation="0" y="-113"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-120" y1="-100" end1="none" length2="1.5" x2="-10" length1="1.5" antialias="false" x1="-30"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-120" y1="-100" end1="none" length2="1.5" x2="0" length1="1.5" antialias="false" x1="-20"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-120" y1="-100" end1="none" length2="1.5" x2="-20" length1="1.5" antialias="false" x1="-40"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" y1="-50" end1="none" length2="1.5" x2="-10" length1="1.5" antialias="false" x1="-10"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" y1="-50" end1="none" length2="1.5" x2="0" length1="1.5" antialias="false" x1="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-40" y1="-50" end1="none" length2="1.5" x2="10" length1="1.5" antialias="false" x1="10"/>
+        <text text="GS" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-8" color="#000000" rotation="0" y="-65"/>
+        <terminal uuid="{b81ad6be-0de4-4b1d-89e5-905abc3bce7e}" name="" x="-50" orientation="w" type="Generic" y="-110"/>
+        <terminal uuid="{726a4035-4647-474a-b81f-253a9526a2b0}" name="" x="50" orientation="e" type="Generic" y="-110"/>
     </description>
 </definition>

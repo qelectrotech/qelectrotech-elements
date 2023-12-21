@@ -1,27 +1,32 @@
-<definition link_type="simple" ic="true" height="50" width="60" version="0.4" hotspot_y="27" type="element" hotspot_x="34">
-<uuid uuid="{475F27F8-2FFD-41B7-B276-2850A86E6641}"/><names>
-        <name lang="ar">مضخة</name>
-        <name lang="el">Αντλία</name>
+<definition hotspot_y="27" width="60" link_type="simple" type="element" height="50" hotspot_x="34" version="0.100.0">
+    <uuid uuid="{b56f87e9-6c5d-4849-910d-fe002e0653b1}"/>
+    <names>
+        <name lang="fr">Groupe de pompe</name>
+        <name lang="ca">Grup de presió</name>
         <name lang="en">Pressure group</name>
         <name lang="es">Grupo de Presión</name>
-        <name lang="ca">Grup de presió</name>
+        <name lang="ar">مضخة</name>
         <name lang="cs">Pumpa</name>
-        <name lang="fr">Groupe de pompe</name>
+        <name lang="el">Αντλία</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" x="10" start="-180" antialias="true" height="4" width="6" y="-17" angle="-180"/>
-        <polygon y4="-10.6927" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-18.1636" y3="-3.2217" x3="-12.55" x2="-12.55" antialias="true" x4="0.05" y1="-10.6927" x1="0.05"/>
-        <polygon y4="10.3073" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="2.83639" y3="17.7783" x3="-12.55" x2="-12.55" antialias="true" x4="0.05" y1="10.3073" x1="0.05"/>
-        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="-18.1604" antialias="true" height="19.9766" width="19.6209" y="-20.6809"/>
-        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="-18.1604" antialias="true" height="19.9766" width="19.6209" y="0.31908"/>
-        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" x2="20.6052" antialias="false" y1="0" x1="-28.9433" length1="1.5"/>
-        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="4" antialias="true" height="17" width="12" y="-24"/>
-        <line length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none" x2="10" antialias="false" y1="-7" x1="10" length1="1.5"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" x="4" start="0" antialias="true" height="4" width="6" y="-17" angle="-180"/>
-        <input text="_" x="-25" tagg="label" size="4" y="-30" rotate="true"/>
-        <terminal x="20" y="0" orientation="e"/>
-        <terminal x="-29" y="0" orientation="w"/>
+        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" y="-17" height="4" x="10" start="-180" antialias="true"/>
+        <polygon y3="-3.2217" x4="0.05" y4="-10.6927" x1="0.05" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-10.6927" x3="-12.55" y2="-18.1636" x2="-12.55" antialias="true"/>
+        <polygon y3="17.7783" x4="0.05" y4="10.3073" x1="0.05" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="10.3073" x3="-12.55" y2="2.83639" x2="-12.55" antialias="true"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" width="19.6209" y="-20.6809" height="19.9766" x="-18.1604" antialias="true"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" width="19.6209" y="0.31908" height="19.9766" x="-18.1604" antialias="true"/>
+        <line length2="1.5" x1="-28.9433" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="0" length1="1.5" y2="0" x2="20.6052" end2="none" antialias="false"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" width="12" y="-24" height="17" x="4" antialias="true"/>
+        <line length2="1.5" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-7" length1="1.5" y2="0" x2="10" end2="none" antialias="false"/>
+        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" y="-17" height="4" x="4" start="0" antialias="true"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="-38" z="10" uuid="{e8071100-2f1d-4720-a8e2-6e4638e68d26}" rotation="0" frame="false" keep_visual_rotation="false" x="-25" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="e" name="" y="0" uuid="{61ca211a-9536-4848-9e83-c317f529284f}" type="Generic" x="20"/>
+        <terminal orientation="w" name="" y="0" uuid="{cf81211e-09ce-4769-8ab9-ebf3d862e219}" type="Generic" x="-29"/>
     </description>
 </definition>

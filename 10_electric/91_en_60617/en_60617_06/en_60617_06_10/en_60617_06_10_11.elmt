@@ -1,34 +1,38 @@
-<definition link_type="simple" type="element" hotspot_x="77" height="200" width="110" hotspot_y="180" version="0.70">
-    <uuid uuid="{d5d15e31-3175-480e-bfb7-86a807c921e3}"/>
+<definition type="element" hotspot_x="77" version="0.100.0" height="200" hotspot_y="181" link_type="simple" width="110">
+    <uuid uuid="{e3cc484b-7dd0-4384-b6a5-96195cd23dc8}"/>
     <names>
+        <name lang="cs">Trojfázová skupina tří jednofázových transformátorů
+ve spojení hvězda-trojúhelník</name>
+        <name lang="fr">Groupe de trois transformateurs monophasés,
+couplage étoile-triangle</name>
+        <name lang="en">Three-phase bank of single-phase transformers, connection star-delta</name>
         <name lang="de">Drehstromeinheit aus
 Einphasentransformatoren,
 Stern/Dreieckschaltung</name>
-        <name lang="fr">Groupe de trois transformateurs monophasés,
-couplage étoile-triangle</name>
-        <name lang="cs">Trojfázová skupina tří jednofázových transformátorů
-ve spojení hvězda-trojúhelník</name>
-        <name lang="en">Three-phase bank of single-phase transformers, connection star-delta</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" x="5" size="9" text="_" tagg="label"/>
-        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-120" x="-60" diameter="60"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-120" y1="-150" x2="-30"/>
-        <text y="-160" x="-74" size="9" text="Form 1 / Forme 1"/>
-        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-80" x="-60" diameter="60"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="10" y1="-20" x2="-30"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-140" y1="-130" x2="-20"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-145" y1="-135" x2="-20"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-10" y1="0" x2="-20"/>
-        <line length2="1.5" antialias="false" end1="none" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-5" y1="5" x2="-20"/>
-        <line length2="1.5" antialias="false" end1="none" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-90" y1="-80" x2="20"/>
-        <line length2="1.5" antialias="false" end1="none" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-95" y1="-90" x2="30"/>
-        <line length2="1.5" antialias="false" end1="none" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y2="-95" y1="-90" x2="10"/>
-        <polygon antialias="false" y3="-45" closed="false" x1="10" x4="10" y4="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" x3="20" y1="-30" x2="30"/>
-        <text y="-55" x="15" size="9" text="3"/>
-        <terminal orientation="n" y="-150" x="-30"/>
-        <terminal orientation="s" y="10" x="-30"/>
+        <dynamic_text z="1" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" uuid="{84b07de1-b7a0-43e4-80cd-d5c76089269b}" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-120" diameter="60" x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-30" y1="-150" y2="-120" end1="none" length2="1.5" length1="1.5" x1="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <text y="-160" text="Form 1 / Forme 1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-74" color="#000000" rotation="0"/>
+        <circle y="-80" diameter="60" x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-30" y1="-20" y2="10" end1="none" length2="1.5" length1="1.5" x1="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="-20" y1="-130" y2="-140" end1="none" length2="1.5" length1="1.5" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="-20" y1="-135" y2="-145" end1="none" length2="1.5" length1="1.5" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="-20" y1="0" y2="-10" end1="none" length2="1.5" length1="1.5" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="-20" y1="5" y2="-5" end1="none" length2="1.5" length1="1.5" x1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="20" y1="-80" y2="-90" end1="none" length2="1.5" length1="1.5" x1="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="30" y1="-90" y2="-95" end1="none" length2="1.5" length1="1.5" x1="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line x2="10" y1="-90" y2="-95" end1="none" length2="1.5" length1="1.5" x1="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <polygon y3="-45" x2="30" y1="-30" y2="-30" closed="false" x1="10" antialias="false" y4="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="20" x4="10"/>
+        <text y="-55" text="3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="15" color="#000000" rotation="0"/>
+        <terminal name="" y="-150" type="Generic" x="-30" uuid="{372cce0c-a81a-4c33-8d54-4fdc0ae76ec0}" orientation="n"/>
+        <terminal name="" y="10" type="Generic" x="-30" uuid="{ab81e5d3-d3d5-44f4-ab84-94a53fe0353b}" orientation="s"/>
     </description>
 </definition>

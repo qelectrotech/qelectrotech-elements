@@ -1,22 +1,26 @@
-<definition version="0.5" hotspot_x="20" hotspot_y="7" width="30" height="20" link_type="simple" type="element">
-    <uuid uuid="{7af53d6c-e80b-46a8-ad97-dac13b2105b5}"/>
+<definition width="30" type="element" hotspot_y="7" link_type="simple" height="20" version="0.100.0" hotspot_x="20">
+    <uuid uuid="{e5dd7fb6-245c-4f73-9ef5-dae345394ad0}"/>
     <names>
         <name lang="en">Two-way button</name>
         <name lang="es">Pulsador 2 posiciones</name>
-        <name lang="nl">Drukknop 2 standen</name>
         <name lang="fr">Bouton deux voies</name>
-        <name lang="pl">Przycisk o dwuch kierunkach działania</name>
         <name lang="it">Pulsante due vie</name>
+        <name lang="nl">Drukknop 2 standen</name>
+        <name lang="pl">Przycisk o dwuch kierunkach działania</name>
         <name lang="cs">Dvousměrové tlačítko</name>
         <name lang="ar">زرّ بمسارين</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-12" rotate="true" tagg="label" y="-8.45" text="_"/>
-        <ellipse antialias="true" width="6" style="line-style:normal;line-weight:normal;filling:none;color:black" height="12" x="-16" y="-3"/>
-        <line antialias="false" x1="-13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="9" y1="-3" end1="none" x2="-13"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="6" y1="6" end1="none" x2="5"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="0" end1="none" x2="5"/>
+        <dynamic_text z="1" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" y="-20.95" uuid="{6d3e5c62-a67e-4854-9370-8e1020864f0f}" keep_visual_rotation="false" x="-12">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse width="6" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" height="12" y="-3" x="-16"/>
+        <line length1="1.5" antialias="false" end2="none" x2="-13" y2="9" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" length2="1.5" end1="none" x1="-13"/>
+        <line length1="1.5" antialias="false" end2="none" x2="5" y2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="6" length2="1.5" end1="none" x1="-10"/>
+        <line length1="1.5" antialias="false" end2="none" x2="5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length2="1.5" end1="none" x1="-10"/>
     </description>
 </definition>

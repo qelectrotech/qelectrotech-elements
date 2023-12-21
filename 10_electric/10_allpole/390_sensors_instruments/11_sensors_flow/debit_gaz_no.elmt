@@ -1,28 +1,37 @@
-<definition width="40" version="0.3" hotspot_x="22" hotspot_y="31" height="60" type="element">
-<uuid uuid="{10BA781D-7FFD-431D-8F07-825282B90FDB}"/><names>
-        <name lang="el">Αισθητήρας ροής αερίου, ανοικτή επαφή</name>
+<definition version="0.100.0" height="50" width="30" type="element" link_type="simple" hotspot_y="24" hotspot_x="24">
+    <uuid uuid="{52937b73-fd5f-473a-a27f-629d382ca133}"/>
+    <names>
         <name lang="en">Actuated by the flow of a gas NO</name>
-        <name lang="de">Gasströmungsschalter Schliesser</name>
-        <name lang="it">Azionato dal flusso di un gas (NO)</name>
-        <name lang="fr">Actionné par le débit d'un gaz NO</name>
         <name lang="pl">Zestyk zwierny sterowany przepływem gazu</name>
-        <name lang="es">Accionado por el flujo de un gas NA</name>
         <name lang="cs">Průtokový spínač plynu  NO</name>
         <name lang="nl">Gasstroming (NO)</name>
+        <name lang="el">Αισθητήρας ροής αερίου, ανοικτή επαφή</name>
+        <name lang="es">Accionado por el flujo de un gas NA</name>
+        <name lang="it">Azionato dal flusso di un gas (NO)</name>
+        <name lang="fr">Actionné par le débit d'un gaz NO</name>
+        <name lang="de">Gasströmungsschalter Schliesser</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="10" x="-20" y="-5" antialias="false" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-10" y2="0" x2="-3"/>
-        <input x="-12" y="16" size="4" text="4"/>
-        <input x="-11" y="-16" size="4" text="3"/>
-        <input x="1" y="0.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="-7" y2="-5" x2="-10"/>
-        <circle x="-14" y="1" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2"/>
-        <terminal x="0" y="20" orientation="s"/>
-        <terminal x="0" y="-20" orientation="n"/>
+        <rect antialias="false" height="10" width="10" ry="0" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" rx="0"/>
+        <line antialias="false" y2="0" end2="none" x2="-3" end1="none" y1="0" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" x1="-10" length2="1.5"/>
+        <dynamic_text z="3" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft" x="-12" frame="false" Valignment="AlignTop" rotation="0" uuid="{bfbe7d23-0f6f-46e3-aedf-3fc6dc77e850}" text_width="-1" keep_visual_rotation="false" y="8">
+            <text>4</text>
+        </dynamic_text>
+        <dynamic_text z="4" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft" x="-11" frame="false" Valignment="AlignTop" rotation="0" uuid="{4db2e8e8-a6ae-4e49-8d4d-3cfa4ccd3233}" text_width="-1" keep_visual_rotation="false" y="-24">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text z="5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="1" frame="false" Valignment="AlignTop" rotation="0" uuid="{6c38ebbc-716f-4c19-8965-6c589fe4a404}" text_width="-1" keep_visual_rotation="false" y="-12">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon closed="false" antialias="true" y2="10" x2="0" y1="-10" x3="0" y3="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
+        <line antialias="false" y2="-10" end2="none" x2="0" end1="none" y1="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5"/>
+        <line antialias="false" y2="-5" end2="none" x2="-10" end1="none" y1="-5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" length2="1.5"/>
+        <circle antialias="true" diameter="2" x="-14" style="line-style:normal;line-weight:normal;filling:black;color:black" y="1"/>
+        <terminal orientation="s" type="Generic" x="0" name="" uuid="{668238f6-7a8b-4da0-b51a-e1e87c060c8f}" y="20"/>
+        <terminal orientation="n" type="Generic" x="0" name="" uuid="{0bc74259-30bb-42e7-91e6-0fcc83204c51}" y="-20"/>
     </description>
 </definition>

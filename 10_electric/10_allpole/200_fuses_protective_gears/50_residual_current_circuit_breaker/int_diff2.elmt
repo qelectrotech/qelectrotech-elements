@@ -1,39 +1,46 @@
-<definition width="60" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" link_type="master">
-<uuid uuid="{5CC664F7-A8EA-4401-9C05-60C77CB36CBA}"/><names>
+<definition width="30" link_type="master" type="element" height="60" hotspot_y="29" version="0.100.0" hotspot_x="11">
+    <uuid uuid="{eb255edf-ff7f-4872-bc1e-70923ab35bc6}"/>
+    <names>
         <name lang="ar">مفتاح تفاضلي</name>
         <name lang="de">Fehlerstromschutzschalter 2P</name>
         <name lang="ru">УЗО</name>
-        <name lang="pt">Interruptor diferencial</name>
-        <name lang="en">Differential switch</name>
-        <name lang="it">Interruttore differenziale</name>
-        <name lang="fr">Interrupteur différentiel</name>
-        <name lang="pl">Rozłącznik różnicowoprądowy</name>
         <name lang="es">Interruptor diferencial</name>
-        <name lang="cs">Proudový chránič 2P</name>
+        <name lang="en">Differential switch</name>
         <name lang="nl">Aardlekschakelaar</name>
+        <name lang="pl">Rozłącznik różnicowoprądowy</name>
         <name lang="hu">Hibaáram-védőkapcsoló 2P</name>
+        <name lang="cs">Proudový chránič 2P</name>
+        <name lang="it">Interruttore differenziale</name>
+        <name lang="pt">Interruptor diferencial</name>
+        <name lang="fr">Interrupteur différentiel</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="20" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-5" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="10" y2="20" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="5" y2="10" x2="10"/>
-        <input x="15" y="-3" size="9" text="_" tagg="label"/>
-        <ellipse width="20" x="-5" y="13" antialias="true" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-8" y2="0" x2="7"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="15" x1="-6" y2="15" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-8" y2="15" x2="-8"/>
-        <input x="19" y="14" size="5" rotate="true" text="___mA"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
-        <terminal x="10" y="-21" orientation="n"/>
-        <terminal x="10" y="21" orientation="s"/>
+        <line y2="-10" end1="none" x1="0" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length2="1.5" end2="none" antialias="false"/>
+        <line y2="20" end1="none" x1="0" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" length2="1.5" end2="none" antialias="false"/>
+        <line y2="10" end1="none" x1="-5" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length2="1.5" end2="none" antialias="true"/>
+        <line y2="-10" end1="none" x1="10" length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length2="1.5" end2="none" antialias="false"/>
+        <line y2="20" end1="none" x1="10" length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" length2="1.5" end2="none" antialias="false"/>
+        <line y2="10" end1="none" x1="5" length1="1.5" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length2="1.5" end2="none" antialias="true"/>
+        <dynamic_text Valignment="AlignTop" rotation="0" y="-15.5" z="7" uuid="{fd605da1-53f4-4266-8223-bf3a4a895804}" x="15" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" text_from="ElementInfo" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse width="20" y="13" height="4" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line y2="0" end1="none" x1="-8" length1="1.5" x2="7" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" length2="1.5" end2="none" antialias="false"/>
+        <line y2="15" end1="none" x1="-6" length1="1.5" x2="-8" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="15" length2="1.5" end2="none" antialias="false"/>
+        <line y2="15" end1="none" x1="-8" length1="1.5" x2="-8" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" length2="1.5" end2="none" antialias="false"/>
+        <dynamic_text Valignment="AlignTop" rotation="0" y="4.5" z="12" uuid="{548a8b66-de05-4d83-9556-0515eaec2ea1}" x="19" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" text_from="UserText" text_width="-1">
+            <text>___mA</text>
+        </dynamic_text>
+        <terminal y="-21" uuid="{3958f42f-d580-43d9-aaef-f09bfe721810}" x="0" type="Generic" orientation="n" name=""/>
+        <terminal y="21" uuid="{8c2ec67f-79d0-4e39-9198-ee89ed1f2090}" x="0" type="Generic" orientation="s" name=""/>
+        <terminal y="-21" uuid="{2d03cf98-c50e-4040-af43-e606d2e5308a}" x="10" type="Generic" orientation="n" name=""/>
+        <terminal y="21" uuid="{63deb4bb-ff1e-47d1-8dcd-c5f493eea075}" x="10" type="Generic" orientation="s" name=""/>
     </description>
 </definition>

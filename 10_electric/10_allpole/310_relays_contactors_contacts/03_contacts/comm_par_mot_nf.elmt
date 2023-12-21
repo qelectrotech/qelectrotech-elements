@@ -1,27 +1,36 @@
-<definition width="30" version="0.3" hotspot_x="20" hotspot_y="20" height="40" type="element">
-<uuid uuid="{17D620B0-D675-4E00-8002-76A02285B749}"/><names>
-        <name lang="en">Contact Motorized NC</name>
+<definition type="element" width="40" height="50" hotspot_x="26" hotspot_y="24" link_type="simple" version="0.100.0">
+    <uuid uuid="{998e303d-f845-4488-b1da-888ea9db62b0}"/>
+    <names>
         <name lang="es">Contacto motorizado NC</name>
         <name lang="fr">Commande par moteur électrique NF</name>
-        <name lang="de">Öffner Motor betätigt</name>
+        <name lang="it">Contatto NC motorizzato</name>
         <name lang="pl">Zestyk rozwierny sterowany silnikiem</name>
         <name lang="cs">Kontakt NC řízený motorem</name>
-        <name lang="it">Contatto NC motorizzato</name>
+        <name lang="en">Contact Motorized NC</name>
+        <name lang="de">Öffner Motor betätigt</name>
         <name lang="nl">Motor contact (NC)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-18" y="2" size="5" text="M"/>
-        <circle x="-20" y="-5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-10" y2="0" x2="3"/>
-        <input x="-10" y="16" size="4" text="2"/>
-        <input x="-10" y="-16" size="4" text="1"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="20" x1="0" y2="10" x2="0" y3="-10" x3="6"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="0" y2="-9" x2="7"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-9" x2="0"/>
-        <input x="8" y="0.5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <text text="M" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="2" x="-18" color="#000000" rotation="0"/>
+        <circle y="-5" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="10" antialias="true" x="-20"/>
+        <line end2="none" length2="1.5" length1="1.5" y1="0" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0" end1="none" antialias="false" x1="-10" x2="3"/>
+        <dynamic_text frame="false" uuid="{b7f5a572-0dad-4462-a046-e087edc108d9}" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft" text_from="UserText" y="8" text_width="-1" keep_visual_rotation="false" x="-10" z="4" rotation="0">
+            <text>2</text>
+        </dynamic_text>
+        <dynamic_text frame="false" uuid="{d9e9a2bc-5d16-4d19-9b7b-f57c18828214}" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Halignment="AlignLeft" text_from="UserText" y="-24" text_width="-1" keep_visual_rotation="false" x="-10" z="5" rotation="0">
+            <text>1</text>
+        </dynamic_text>
+        <polygon y3="-10" y1="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x3="6" antialias="true" x1="0" x2="0" closed="false"/>
+        <line end2="none" length2="1.5" length1="1.5" y1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" end1="none" antialias="false" x1="0" x2="7"/>
+        <line end2="none" length2="1.5" length1="1.5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" end1="none" antialias="false" x1="0" x2="0"/>
+        <dynamic_text frame="false" uuid="{c2572c76-cd7c-42c0-a06d-e0b9c8a5bace}" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_from="ElementInfo" y="-12" text_width="-1" keep_visual_rotation="false" x="8" z="9" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal type="Generic" uuid="{085f630c-65f6-4476-8f06-b0650a1ebadd}" name="" orientation="n" y="-20" x="0"/>
+        <terminal type="Generic" uuid="{6ba9522e-a06e-4e3f-97c5-bc68abc68b45}" name="" orientation="s" y="20" x="0"/>
     </description>
 </definition>

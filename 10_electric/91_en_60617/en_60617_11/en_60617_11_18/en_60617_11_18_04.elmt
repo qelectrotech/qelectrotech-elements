@@ -1,18 +1,22 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="45" width="50" hotspot_y="45">
-    <uuid uuid="{9740b54a-8c0a-4ade-85e8-5e08f08b6262}"/>
+<definition link_type="simple" height="50" type="element" hotspot_x="45" width="50" hotspot_y="45" version="0.100.0">
+    <uuid uuid="{29f5afad-87ac-44cc-a80f-c83c9458ccd7}"/>
     <names>
-        <name lang="de">Flugplatzfeuer, weiss, einseitig strahlend</name>
         <name lang="fr">Feu aéronautique au sol, faisceau blanc et
 unidirectionnel (en surface)</name>
         <name lang="cs">Letecké pozemní světelné návěstidlo
 bílé a jednosměrný svazek</name>
+        <name lang="de">Flugplatzfeuer, weiss, einseitig strahlend</name>
         <name lang="en">Aeronautical ground light, white colour and uni-directional beam, surface</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <polygon y1="-36" y2="-20" y3="-4" closed="false" x2="-40" antialias="false" x1="-8" x3="-8" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-40" antialias="false" x="-40" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Valignment="AlignTop" text_from="ElementInfo" rotation="0" Halignment="AlignLeft" z="1" keep_visual_rotation="false" x="5" y="12.5" uuid="{7c851d05-953a-4a33-8f6d-5d306ee3ad55}" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="-8" y3="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" x2="-40" closed="false" y1="-36" x3="-8"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-40" y="-40" diameter="40"/>
     </description>
 </definition>

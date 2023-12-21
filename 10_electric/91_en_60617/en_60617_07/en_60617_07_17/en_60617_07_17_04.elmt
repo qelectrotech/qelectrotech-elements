@@ -1,20 +1,24 @@
-<definition hotspot_x="65" hotspot_y="65" height="70" link_type="simple" version="0.70" type="element" width="70">
-    <uuid uuid="{c6c7b458-424c-42d1-8dec-f91d9370e709}"/>
+<definition height="70" hotspot_x="65" width="70" hotspot_y="65" version="0.100.0" type="element" link_type="simple">
+    <uuid uuid="{9cc59ce6-ce8b-4d10-ba15-0bfd9db9c4b6}"/>
     <names>
-        <name lang="de">Überstromrelais, verzögert</name>
         <name lang="fr">Relais à maximum de courant, à action
 retardée</name>
-        <name lang="cs">Zpožděné nadproudové relé</name>
+        <name lang="de">Überstromrelais, verzögert</name>
         <name lang="en">Delayed overcurrent relay</name>
+        <name lang="cs">Zpožděné nadproudové relé</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <rect y="-60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-60" width="60" antialias="false"/>
-        <text y="-35" size="9" text="I &gt;" x="-37"/>
-        <line y1="-15" length1="1.5" end2="none" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-10" length2="1.5" antialias="false" x1="-50"/>
-        <line y1="-18" length1="1.5" end2="none" y2="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-50" length2="1.5" antialias="false" x1="-50"/>
-        <line y1="-18" length1="1.5" end2="none" y2="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-10" length2="1.5" antialias="false" x1="-10"/>
+        <dynamic_text z="1" uuid="{e9da0f5e-13e6-45ad-9879-50056af38fde}" y="12.5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" x="5" frame="false" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="60" width="60" y="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" x="-60" rx="0" antialias="false"/>
+        <text y="-35" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text="I >" rotation="0" color="#000000" x="-37"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length1="1.5" y1="-15" length2="1.5" end1="none" x2="-10" end2="none" y2="-15" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length1="1.5" y1="-18" length2="1.5" end1="none" x2="-50" end2="none" y2="-12" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" length1="1.5" y1="-18" length2="1.5" end1="none" x2="-10" end2="none" y2="-12" antialias="false"/>
     </description>
 </definition>

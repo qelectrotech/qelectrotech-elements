@@ -1,13 +1,7 @@
-<definition hotspot_x="25" version="0.70" height="20" hotspot_y="10" width="50" type="element" link_type="simple">
-    <uuid uuid="{2eb4115f-2184-43c1-840c-1e6da9dc825c}"/>
+<definition link_type="simple" width="50" type="element" hotspot_y="10" height="20" hotspot_x="25" version="0.100.0">
+    <uuid uuid="{ee96a2dc-81e2-430e-a053-a15831e46c60}"/>
     <names>
-        <name lang="fr">Liaison, par exemple:
-- mécanique
-- pneumatique
-- hydraulique
-- optique
-- fonctionnelle</name>
-        <name lang="es">Enlace (uso solo en espacios muy restringidos)</name>
+        <name lang="en">Link</name>
         <name lang="de">Wirkverbindung, z.B.:
 - mechanische
 - pneumatische
@@ -20,13 +14,23 @@
 - hydraulické
 - optické
 - funkční</name>
-        <name lang="en">Link</name>
+        <name lang="es">Enlace (uso solo en espacios muy restringidos)</name>
+        <name lang="fr">Liaison, par exemple:
+- mécanique
+- pneumatique
+- hydraulique
+- optique
+- fonctionnelle</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="20" y2="4" y1="4" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
-        <line x2="20" y2="-4" y1="-4" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20"/>
+        <dynamic_text uuid="{2a5d18bb-b136-4616-817a-1c3aceb14e07}" x="5" text_width="-1" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" text_from="ElementInfo" y="2.5" frame="false" rotation="0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" y2="4" end1="none" y1="4" antialias="false" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" length2="1.5"/>
+        <line end2="none" y2="-4" end1="none" y1="-4" antialias="false" x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" length2="1.5"/>
     </description>
 </definition>

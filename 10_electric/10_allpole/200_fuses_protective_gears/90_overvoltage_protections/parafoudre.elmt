@@ -1,29 +1,31 @@
-<definition width="40" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" orientation="dnny">
-<uuid uuid="{5FC5912D-A466-4E02-8051-7F08868D3FB5}"/><names>
-        <name lang="de">Blitzschutz</name>
+<definition hotspot_x="10" hotspot_y="29" link_type="simple" height="60" type="element" width="20" version="0.100.0">
+    <uuid uuid="{46d067da-08ed-42a0-88b9-97b7c8286108}"/>
+    <names>
         <name lang="en">Surge protector</name>
-        <name lang="hu">Túlfeszültség védő</name>
-        <name lang="es">Protección contra descargas</name>
-        <name lang="it">Scaricatore</name>
-        <name lang="fr">Parafoudre</name>
-        <name lang="pl">Ogranicznik przepięć</name>
-        <name lang="cs">Bleskojistka, ochrana proti přepětí</name>
         <name lang="nl">Overspanning beveiliging</name>
+        <name lang="fr">Parafoudre</name>
+        <name lang="it">Scaricatore</name>
+        <name lang="pl">Ogranicznik przepięć</name>
+        <name lang="de">Blitzschutz</name>
+        <name lang="es">Protección contra descargas</name>
+        <name lang="hu">Túlfeszültség védő</name>
+        <name lang="cs">Bleskojistka, ochrana proti přepětí</name>
     </names>
-    <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
-    </kindInformations>
+    <elementInformations/>
     <informations>EN 60617: 07-22-03</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x1="0" y2="-20" x2="0"/>
-        <polygon x4="0" y5="-8" x5="-2" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-8" x1="-2" y2="-8" x2="-2" y3="-8" x3="2" y4="-2"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="20" x2="0"/>
-        <input x="7" y="3.6666" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="4" y2="-10" x2="4"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="-4" y2="10" x2="4"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="4" y2="-10" x2="-4"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-4" y2="10" x2="-4"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-8" y2="-20" end2="none" x1="0"/>
+        <polygon y5="-8" style="line-style:normal;line-weight:thin;filling:black;color:black" x2="-2" antialias="true" y3="-8" x4="0" y4="-2" x3="2" x5="-2" y1="-8" y2="-8" x1="-2"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" y2="20" end2="none" x1="0"/>
+        <dynamic_text Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="-8.8334" text_from="ElementInfo" z="4" rotation="0" uuid="{80de4c76-9f08-439a-90ab-282e114f489f}" keep_visual_rotation="false" x="7" frame="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" y2="-10" end2="none" x1="4"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="10" y2="10" end2="none" x1="-4"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" y2="-10" end2="none" x1="4"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" y2="10" end2="none" x1="-4"/>
+        <terminal orientation="n" y="-21" type="Generic" uuid="{5ce72bfd-208f-46ba-b35c-cc85f14d6847}" x="0" name=""/>
+        <terminal orientation="s" y="21" type="Generic" uuid="{737ad9f1-550b-40e3-9856-5ff648aa0c3e}" x="0" name=""/>
     </description>
 </definition>

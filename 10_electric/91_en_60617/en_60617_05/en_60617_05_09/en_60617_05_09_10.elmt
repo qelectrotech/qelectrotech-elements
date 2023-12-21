@@ -1,23 +1,27 @@
-<definition type="element" link_type="simple" height="250" width="200" version="0.70" hotspot_x="124" hotspot_y="245">
-    <uuid uuid="{d4fe8ad5-05e2-46ab-8822-9ac7e2d23e72}"/>
+<definition width="200" hotspot_y="245" type="element" hotspot_x="124" height="250" link_type="simple" version="0.100.0">
+    <uuid uuid="{20fb92b7-46f3-40c8-ae74-4a3661da966a}"/>
     <names>
-        <name lang="fr">Cavité résonnante, partiellement ou
-complètement extérieure au tube</name>
         <name lang="de">Hohlraumresonator, teilweise oder ganz
 außerhalb der Röhre</name>
+        <name lang="fr">Cavité résonnante, partiellement ou
+complètement extérieure au tube</name>
         <name lang="cs">Dutinový rezonátor vně elektronky</name>
         <name lang="en">Cavity resonator, partly or wholly external to the tube</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" tagg="label" y="15" x="5" rotate="true"/>
-        <line antialias="false" x1="0" y2="-180" length2="1.5" end1="none" length1="1.5" y1="-60" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <arc antialias="true" height="120" width="120" start="0" y="-120" x="-120" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc antialias="true" height="120" width="120" start="0" y="-240" x="-120" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x1="-120" y2="-60" length2="1.5" end1="none" length1="1.5" y1="-180" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-120"/>
-        <circle antialias="false" diameter="10" y="-115" x="9" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <circle antialias="false" diameter="10" y="-135" x="9" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <arc antialias="true" height="60" width="60" start="209" y="-150" x="12" angle="300" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="5" y="2.5" rotation="0" frame="false" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" z="1" uuid="{ebff0f21-52cc-434d-8457-4db29730d4d3}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length2="1.5" y1="-60" y2="-180" x1="0" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5"/>
+        <arc x="-120" width="120" start="0" y="-120" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" height="120" angle="-180"/>
+        <arc x="-120" width="120" start="0" y="-240" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" height="120" angle="180"/>
+        <line end1="none" length2="1.5" y1="-180" y2="-60" x1="-120" x2="-120" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5"/>
+        <circle x="9" y="-115" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" diameter="10"/>
+        <circle x="9" y="-135" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" diameter="10"/>
+        <arc x="12" width="60" start="209" y="-150" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" height="60" angle="300"/>
     </description>
 </definition>

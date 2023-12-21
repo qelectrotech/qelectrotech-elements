@@ -1,25 +1,29 @@
-<definition hotspot_x="15" hotspot_y="21" height="50" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{80ea845b-b805-4331-918c-b364f92e7126}"/>
+<definition width="30" version="0.100.0" hotspot_x="15" type="element" link_type="simple" height="50" hotspot_y="21">
+    <uuid uuid="{a6cdeba7-cc03-4863-9616-97cf46aa9270}"/>
     <names>
+        <name lang="en">Oven</name>
+        <name lang="it">Forno</name>
         <name lang="ru">Печь</name>
-        <name lang="fr">Four</name>
+        <name lang="es">Horno</name>
         <name lang="pl">Piekarnik elektryczny</name>
         <name lang="cs">Trouba</name>
         <name lang="el">Φούρνος</name>
-        <name lang="it">Forno</name>
         <name lang="de">Elektrobackofen</name>
-        <name lang="en">Oven</name>
-        <name lang="es">Horno</name>
         <name lang="nl">Elektrische Oven</name>
+        <name lang="fr">Four</name>
     </names>
+    <elementInformations/>
     <informations>Author: Jonas Stein
 </informations>
     <description>
-        <input x="-7" rotate="true" size="9" text="_" y="23.5" tagg="label"/>
-        <rect x="-9" style="line-style:normal;line-weight:none;filling:black;color:white" height="2" antialias="false" y="3" width="18"/>
-        <rect x="-9" style="line-style:normal;line-weight:none;filling:black;color:white" height="2" antialias="false" y="18" width="18"/>
-        <polygon y3="23" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-1" antialias="false" y2="23" x3="12" x2="-12" x4="12" x1="-12" y4="-1"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="false" y2="-1" end1="none" x2="0" length1="1.5" x1="0"/>
-        <terminal x="0" orientation="n" y="-13"/>
+        <dynamic_text y="11" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" uuid="{4a84a498-5fa7-4994-af40-2b1530b7bf4f}" x="-7" rotation="0" z="1" keep_visual_rotation="false" frame="false" Valignment="AlignTop" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="18" y="3" ry="0" rx="0" style="line-style:normal;line-weight:none;filling:black;color:white" x="-9" antialias="false" height="2"/>
+        <rect width="18" y="18" ry="0" rx="0" style="line-style:normal;line-weight:none;filling:black;color:white" x="-9" antialias="false" height="2"/>
+        <polygon y3="23" y4="-1" x3="12" x1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-1" y2="23" x4="12" x2="-12"/>
+        <line length1="1.5" end1="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-13" y2="-1" length2="1.5" end2="none" x2="0"/>
+        <terminal y="-13" type="Generic" uuid="{2a841274-f793-4554-83e8-ec35ff8d89ac}" name="" orientation="n" x="0"/>
     </description>
 </definition>

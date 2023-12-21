@@ -1,18 +1,22 @@
-<definition type="element" width="20" height="10" version="0.70" hotspot_x="6" hotspot_y="5" link_type="simple">
-    <uuid uuid="{87bdc413-6293-42ae-b053-c49432600903}"/>
+<definition hotspot_x="6" version="0.100.0" hotspot_y="5" type="element" height="10" width="20" link_type="simple">
+    <uuid uuid="{c78462a5-4894-494b-ad82-95c83659f535}"/>
     <names>
-        <name lang="fr">Transit de l'énergie vers les barres</name>
-        <name lang="es">Tránsito de energía a las barras</name>
-        <name lang="de">Energiefluß zur Sammelschiene hin</name>
-        <name lang="cs">Tok energie k přípojnici</name>
         <name lang="en">Energy flow towards the busbars</name>
+        <name lang="es">Tránsito de energía a las barras</name>
+        <name lang="cs">Tok energie k přípojnici</name>
+        <name lang="de">Energiefluß zur Sammelschiene hin</name>
+        <name lang="fr">Transit de l'énergie vers les barres</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="3"/>
-        <line antialias="false" x1="3" length2="1.5" end1="simple" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="10"/>
-        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
-        <line antialias="false" x1="-3" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="2" y1="-2" end2="none" x2="-3"/>
+        <line length2="1.5" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" x1="-3" y1="0" end2="none" y2="0"/>
+        <line length2="1.5" antialias="false" end1="simple" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" x1="3" y1="0" end2="none" y2="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" keep_visual_rotation="false" y="2.5" frame="false" text_width="-1" rotation="0" Valignment="AlignTop" z="3" uuid="{33183cac-b335-41ec-b910-f5625e812ade}" x="5" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-3" x1="-3" y1="-2" end2="none" y2="2"/>
     </description>
 </definition>

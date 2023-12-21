@@ -1,25 +1,29 @@
-<definition height="30" version="0.5" link_type="simple" width="30" hotspot_x="8" hotspot_y="24" type="element">
-    <uuid uuid="{ec604f5f-fbf7-4292-9560-a8f2f386cce8}"/>
+<definition link_type="simple" width="30" hotspot_x="8" type="element" hotspot_y="24" height="30" version="0.100.0">
+    <uuid uuid="{152ddaf3-bdde-4287-b52e-b1e449ac8b61}"/>
     <names>
-        <name lang="de">Abschalt-Thyristortriode</name>
-        <name lang="pl">Tyrystor triodowy odłączający z bramką niokreśloną</name>
-        <name lang="ar">ثايريستور ببوابة إطفاء GTO</name>
-        <name lang="it">Tiristore triodo bloccabile</name>
-        <name lang="en">Turn-off thyristor</name>
+        <name lang="nl">Thyristor uitschakel</name>
         <name lang="cs">Vypínací triodový tyristor</name>
         <name lang="fr">Thyristor triode blocable</name>
-        <name lang="nl">Thyristor uitschakel</name>
+        <name lang="ar">ثايريستور ببوابة إطفاء GTO</name>
+        <name lang="de">Abschalt-Thyristortriode</name>
+        <name lang="pl">Tyrystor triodowy odłączający z bramką niokreśloną</name>
+        <name lang="en">Turn-off thyristor</name>
+        <name lang="it">Tiristore triodo bloccabile</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-04-07</informations>
     <description>
-        <input tagg="label" y="-11.45" size="9" rotate="true" text="_" x="18"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" length1="1.5" antialias="false" end2="none" length2="1.5" x2="2" x1="2" end1="none" y2="-8"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="10" x1="10" end1="none" y2="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" antialias="false" end2="none" length2="1.5" x2="7" x1="0" end1="none" y2="-10"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="true" x3="10" y4="-15" y3="-5" x2="15" x1="5" x4="5" y2="-15"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" length1="1.5" antialias="false" end2="none" length2="1.5" x2="15" x1="5" end1="none" y2="-5"/>
-        <terminal y="-20" orientation="n" x="10"/>
-        <terminal y="0" orientation="s" x="10"/>
-        <terminal y="-10" orientation="w" x="0"/>
+        <dynamic_text rotation="0" uuid="{2799046e-08ee-4a2e-bafa-979db37574f1}" text_from="ElementInfo" Valignment="AlignTop" z="1" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" text_width="-1" y="-23.95" x="18" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" length2="1.5" x1="2" y1="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-8" end1="none" x2="2"/>
+        <line end2="none" length2="1.5" x1="10" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="0" end1="none" x2="10"/>
+        <line end2="none" length2="1.5" x1="0" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-10" end1="none" x2="7"/>
+        <polygon y3="-5" x1="5" closed="false" x4="5" y4="-15" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" antialias="true" y2="-15" x2="15"/>
+        <line end2="none" length2="1.5" x1="5" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-5" end1="none" x2="15"/>
+        <terminal uuid="{c4ed355c-20f5-461d-9758-fb8adfab4e55}" name="" type="Generic" orientation="n" y="-20" x="10"/>
+        <terminal uuid="{988e7b75-403f-48ff-bbbe-d1601b3cbf63}" name="" type="Generic" orientation="s" y="0" x="10"/>
+        <terminal uuid="{3d6467d8-ff89-4b51-849b-922a7dd7304e}" name="" type="Generic" orientation="w" y="-10" x="0"/>
     </description>
 </definition>

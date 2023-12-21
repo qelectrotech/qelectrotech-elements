@@ -1,19 +1,23 @@
-<definition width="70" height="70" type="element" hotspot_x="35" version="0.70" link_type="simple" hotspot_y="55">
-    <uuid uuid="{85e6e0e5-562a-46d6-b0b5-a9aa03156416}"/>
+<definition width="70" link_type="simple" hotspot_x="35" height="70" version="0.100.0" hotspot_y="55" type="element">
+    <uuid uuid="{0cd6a692-df00-46c1-9eea-f73b97c1d0a5}"/>
     <names>
+        <name lang="en">Gyro</name>
+        <name lang="cs">Volný setrvačník (gyro)</name>
         <name lang="de">Kreisel </name>
         <name lang="fr">Gyro</name>
-        <name lang="cs">Volný setrvačník (gyro)</name>
-        <name lang="en">Gyro</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <rect width="60" height="60" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-50" antialias="false"/>
-        <arc width="32" height="32" x="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-36" start="90" angle="180" antialias="true"/>
-        <polygon y3="-36" x4="-3" y2="-37" y1="-34" x1="-3" x2="-4" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-34" x3="1" antialias="false"/>
-        <rect width="60" height="20" x="-30" style="line-style:normal;line-weight:normal;filling:white;color:black" y="-30" antialias="false"/>
+        <dynamic_text rotation="0" uuid="{e759e2d2-9685-4ca7-a6a8-5932e0d14718}" Valignment="AlignTop" y="12.5" frame="false" text_from="ElementInfo" z="1" keep_visual_rotation="false" Halignment="AlignLeft" x="5" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" diameter="40"/>
+        <rect width="60" ry="0" y="-50" antialias="false" height="60" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-30"/>
+        <arc width="32" y="-36" antialias="true" height="32" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-16"/>
+        <polygon antialias="false" x1="-3" y3="-36" y4="-34" y2="-37" y1="-34" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="1" x2="-4" x4="-3"/>
+        <rect width="60" ry="0" y="-30" antialias="false" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-30"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition type="element" version="0.70" height="30" link_type="simple" hotspot_x="36" width="40" hotspot_y="5">
-    <uuid uuid="{af420b5b-39f0-4330-a008-09b7cec6d61e}"/>
+<definition version="0.100.0" hotspot_y="5" height="30" link_type="simple" width="40" hotspot_x="36" type="element">
+    <uuid uuid="{50c22f30-fde3-42b0-8e75-c73f9b0ef4ba}"/>
     <names>
-        <name lang="de">Endabdeckung</name>
-        <name lang="fr">Obturateur d'extrémité</name>
-        <name lang="cs">Koncový kryt</name>
         <name lang="en">End cover</name>
+        <name lang="fr">Obturateur d'extrémité</name>
+        <name lang="de">Endabdeckung</name>
+        <name lang="cs">Koncový kryt</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="55" tagg="label" size="9" x="35" text="_"/>
-        <line length1="1.5" end2="none" y1="10" y2="10" x2="-10" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="0" y2="20" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="0" y2="0" y3="20" closed="false" x2="0" antialias="false" x1="-20" x4="-20" y4="20" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="10" x="-30"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{69c43797-3b7c-4546-af10-ecbdd5c7ff27}" keep_visual_rotation="false" y="42.5" z="1" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo" frame="false" text_width="-1" x="35" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-10" end1="none" length1="1.5" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" end2="none" antialias="false" length2="1.5" y2="10"/>
+        <line x2="-10" end1="none" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" end2="none" antialias="false" length2="1.5" y2="20"/>
+        <polygon x2="0" y3="20" x4="-20" y1="0" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="20" x1="-20" closed="false" antialias="false" y2="0"/>
+        <terminal uuid="{955aec1b-75db-4d48-9135-462c213e3c86}" y="10" orientation="w" x="-30" type="Generic" name=""/>
     </description>
 </definition>

@@ -1,33 +1,43 @@
-<definition height="30" link_type="master" type="element" version="0.5" hotspot_y="24" width="120" hotspot_x="6">
-    <uuid uuid="{a5640741-dbdc-4f12-a7b0-d441c153629b}"/>
+<definition height="30" link_type="master" type="element" hotspot_x="6" hotspot_y="24" width="120" version="0.100.0">
+    <uuid uuid="{c4689724-e5f4-485c-b5b3-94c4d4318e72}"/>
     <names>
-        <name lang="it">Indirizzo fisico KNX</name>
+        <name lang="be">Fysiek adres KNX</name>
         <name lang="fr">Adresse physique KNX</name>
         <name lang="nl">Fysiek adres KNX</name>
-        <name lang="be">Fysiek adres KNX</name>
-        <name lang="de">Physikalische Adresse KNX</name>
         <name lang="en">Physical address KNX</name>
+        <name lang="de">Physikalische Adresse KNX</name>
         <name lang="cs">Fyzická adresa KNX</name>
+        <name lang="it">Indirizzo fisico KNX</name>
     </names>
     <kindInformations>
-        <kindInformation show="1" name="state">NO</kindInformation>
-        <kindInformation show="1" name="type">simple</kindInformation>
-        <kindInformation show="1" name="number">1</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>
 		Author: RDS for QelectroTech
 		
     </informations>
     <description>
-        <rect height="20" y="-20" x="42" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="21"/>
-        <rect height="20" y="-20" x="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="21"/>
-        <input rotate="true" y="-9.5" size="9" tagg="none" x="70" text="001"/>
-        <rect height="20" y="-20" x="63" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="46"/>
-        <input rotate="true" y="-9.5" size="9" tagg="none" x="3" text="F"/>
-        <input rotate="true" y="-9.5" size="9" tagg="none" x="41" text="01"/>
-        <input rotate="true" y="-9.5" size="9" tagg="none" x="20" text="01"/>
-        <rect height="20" y="-20" x="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="21"/>
-        <input rotate="true" y="-30" size="9" tagg="label" x="0" text="_"/>
-        <terminal y="-5" x="0" orientation="n"/>
+        <rect y="-20" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="42" width="21" antialias="false" ry="0"/>
+        <rect y="-20" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="21" width="21" antialias="false" ry="0"/>
+        <dynamic_text y="-22" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="3" rotation="0" x="70" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" uuid="{692b150c-3203-43c7-a9d4-96b20d27f7c3}" frame="false">
+            <text>001</text>
+        </dynamic_text>
+        <rect y="-20" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="63" width="46" antialias="false" ry="0"/>
+        <dynamic_text y="-22" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="5" rotation="0" x="3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" uuid="{0257c914-09a2-417e-8b6d-3805bba3717c}" frame="false">
+            <text>F</text>
+        </dynamic_text>
+        <dynamic_text y="-22" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="6" rotation="0" x="41" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" uuid="{8e24474d-bd91-4c22-a5a1-2bda8f7d6730}" frame="false">
+            <text>01</text>
+        </dynamic_text>
+        <dynamic_text y="-22" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="7" rotation="0" x="20" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" Valignment="AlignTop" uuid="{dbd6d888-3761-43ef-99a6-20beb7f29c49}" frame="false">
+            <text>01</text>
+        </dynamic_text>
+        <rect y="-20" height="20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" width="21" antialias="false" ry="0"/>
+        <dynamic_text y="-42.5" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="9" rotation="0" x="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop" uuid="{5a95de3f-533e-480e-ba00-3999adde90dc}" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-5" name="" type="Generic" x="0" orientation="n" uuid="{a206c54b-e492-418c-915e-1e3c86e6ad6d}"/>
     </description>
 </definition>

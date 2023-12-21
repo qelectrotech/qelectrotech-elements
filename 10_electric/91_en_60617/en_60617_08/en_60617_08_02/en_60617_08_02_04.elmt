@@ -1,17 +1,21 @@
-<definition type="element" width="50" height="50" link_type="simple" hotspot_y="45" hotspot_x="25" version="0.70">
-    <uuid uuid="{8eadd0f6-d2ed-4493-ab88-9ad8a455305a}"/>
+<definition width="50" version="0.100.0" type="element" hotspot_y="45" link_type="simple" hotspot_x="25" height="50">
+    <uuid uuid="{01fddf1b-54d1-4db3-8a13-64c89a870f88}"/>
     <names>
-        <name lang="de">Blindleistungsmeßgerät, anzeigend</name>
+        <name lang="cs">VArmetr</name>
         <name lang="fr">Varmètre,
 Indicateur de puissance réactive</name>
-        <name lang="cs">VArmetr</name>
+        <name lang="de">Blindleistungsmeßgerät, anzeigend</name>
         <name lang="en">Varmeter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" rotate="true" y="25" x="5"/>
-        <circle diameter="40" antialias="false" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
-        <text size="9" text="var" y="-16" x="-8"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{02c646f2-5414-4e9b-aa80-8d6f1a70d4f2}" Halignment="AlignLeft" x="5" frame="false" text_width="-1" text_from="ElementInfo" rotation="0" z="1" y="12.5" Valignment="AlignTop" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-40" diameter="40"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-8" text="var" rotation="0" color="#000000" y="-16"/>
     </description>
 </definition>

@@ -1,17 +1,21 @@
-<definition hotspot_x="25" version="0.70" height="30" hotspot_y="15" width="50" type="element" link_type="simple">
-    <uuid uuid="{6442efa5-38e1-454b-a502-879d5a03d501}"/>
+<definition version="0.100.0" type="element" link_type="simple" hotspot_y="15" height="30" hotspot_x="25" width="50">
+    <uuid uuid="{b3e05946-5321-43b7-8d6c-8db50fc89378}"/>
     <names>
-        <name lang="fr">Télécopie</name>
-        <name lang="es">fax</name>
         <name lang="de">Fernkopieren</name>
+        <name lang="fr">Télécopie</name>
         <name lang="cs">Fax</name>
+        <name lang="es">fax</name>
         <name lang="en">Facsimile</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <rect y="-10" x="-20" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20"/>
-        <rect y="-10" x="0" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20"/>
+        <dynamic_text x="5" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ca32277b-e294-43d6-b9d7-77dd37571031}" text_width="-1" Halignment="AlignLeft" z="1" y="2.5" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-20" antialias="false" ry="0" height="20" y="-10" rx="0" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect x="0" antialias="false" ry="0" height="20" y="-10" rx="0" width="20" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
     </description>
 </definition>

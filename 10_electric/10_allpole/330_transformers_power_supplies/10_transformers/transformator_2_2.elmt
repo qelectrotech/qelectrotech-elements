@@ -1,36 +1,41 @@
-<definition width="50" version="0.3" hotspot_x="18" hotspot_y="25" height="40" type="element" ic="true">
-<uuid uuid="{8B0D5A62-E7FD-4BBD-A471-A1B17B9B6015}"/><names>
+<definition hotspot_y="24" width="30" hotspot_x="14" height="40" link_type="simple" type="element" version="0.100.0">
+    <uuid uuid="{8e9ccdca-f4ca-4e9d-8a50-6de56ea5869b}"/>
+    <names>
+        <name lang="nl">Transformator gescheiden aftakking</name>
+        <name lang="fr">Transformateur à deux enroulements</name>
+        <name lang="cs">Trafo se dvěma vinutími</name>
+        <name lang="de">Transformator mit getrennten Wicklungen und Anzapfung</name>
         <name lang="el">Μετασχηματιστής δυο τυλιγμάτων</name>
+        <name lang="it">Trasformatore</name>
+        <name lang="pl">Transformator</name>
         <name lang="en">Two winding transformer</name>
         <name lang="es">Transformador dos bobinados</name>
-        <name lang="de">Transformator mit getrennten Wicklungen und Anzapfung</name>
-        <name lang="it">Trasformatore</name>
-        <name lang="fr">Transformateur à deux enroulements</name>
-        <name lang="pl">Transformator</name>
-        <name lang="cs">Trafo se dvěma vinutími</name>
-        <name lang="nl">Transformator gescheiden aftakking</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc width="5" x="-10" y="-2.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="10" y2="10" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-10" y2="10" x2="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-10" x2="-10"/>
-        <arc width="5" x="5" y="-11.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="0" y="-11.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="-5" y="-11.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="-10" y="-11.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="-180"/>
-        <arc width="5" x="5" y="-2.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180"/>
-        <arc width="5" x="0" y="-2.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180"/>
-        <arc width="5" x="-5" y="-2.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" angle="-180"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="0" y2="10" x2="0"/>
-        <input x="12" y="-4" size="9" rotate="true" text="_" tagg="label"/>
-        <terminal x="-10" y="-20" number="" name="" orientation="n"/>
-        <terminal x="10" y="-20" number="" name="" orientation="n"/>
-        <terminal x="-10" y="10" number="" name="" orientation="s"/>
-        <terminal x="10" y="10" number="" name="" orientation="s"/>
-        <terminal x="0" y="10" number="" name="" orientation="s"/>
+        <arc width="5" height="5" start="-180" antialias="true" x="-10" y="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <line end2="none" y2="10" x2="10" length1="1.5" x1="10" y1="0" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y2="10" x2="-10" length1="1.5" x1="-10" y1="0" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y2="-10" x2="10" length1="1.5" x1="10" y1="-20" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y2="-10" x2="-10" length1="1.5" x1="-10" y1="-20" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc width="5" height="5" start="0" antialias="true" x="5" y="-11.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="0" antialias="true" x="0" y="-11.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="0" antialias="true" x="-5" y="-11.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="0" antialias="true" x="-10" y="-11.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="-180" antialias="true" x="5" y="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="-180" antialias="true" x="0" y="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <arc width="5" height="5" start="-180" antialias="true" x="-5" y="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <line end2="none" y2="10" x2="0" length1="1.5" x1="0" y1="0" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text keep_visual_rotation="false" rotation="0" text_from="ElementInfo" Halignment="AlignLeft" uuid="{7be15677-0244-4bec-9ed6-566e961ca529}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" x="12" y="-16.5" z="14" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{e514010a-f286-4bfe-b514-6345b5ab5aa2}" x="-10" y="-20" name="" type="Generic" orientation="n"/>
+        <terminal uuid="{0d38919d-a5d0-49dd-88d2-b9072914454b}" x="10" y="-20" name="" type="Generic" orientation="n"/>
+        <terminal uuid="{b9e3da42-6913-4bfd-836a-9f3d5983ca09}" x="-10" y="10" name="" type="Generic" orientation="s"/>
+        <terminal uuid="{edf5e297-47bf-432f-b9d1-7c6f53ff360b}" x="10" y="10" name="" type="Generic" orientation="s"/>
+        <terminal uuid="{0d9614f3-65c0-4600-bdb3-6ff25450e8cd}" x="0" y="10" name="" type="Generic" orientation="s"/>
     </description>
 </definition>

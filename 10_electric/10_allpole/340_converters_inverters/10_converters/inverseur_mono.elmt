@@ -1,25 +1,29 @@
-<definition hotspot_y="19" type="element" height="40" width="20" hotspot_x="10" link_type="simple" version="0.5">
-    <uuid uuid="{f2412508-8fc1-4349-b4ca-0e31cddf2e4a}"/>
+<definition link_type="simple" height="40" version="0.100.0" type="element" hotspot_x="10" hotspot_y="19" width="20">
+    <uuid uuid="{1f185235-9401-4f25-b057-16a7d40fb6a6}"/>
     <names>
-        <name lang="cs">Obraceč fáze jednoduchého vedení</name>
-        <name lang="nl">Fasendraaier</name>
-        <name lang="it">Invertitore di fase monofilare</name>
         <name lang="pt">Inversor de sentido de fase monofilar</name>
         <name lang="de">Phasenumkehrer</name>
-        <name lang="en">Single line phases direction inverter</name>
-        <name lang="fr">Inverseur de sens des phases unifilaire</name>
-        <name lang="es">Inversor de fase monohilo</name>
-        <name lang="pl">Inwerter jednofazowy</name>
+        <name lang="cs">Obraceč fáze jednoduchého vedení</name>
         <name lang="ar">عاكس اتجاه الوجه أحادي الخط</name>
+        <name lang="it">Invertitore di fase monofilare</name>
+        <name lang="pl">Inwerter jednofazowy</name>
+        <name lang="en">Single line phases direction inverter</name>
+        <name lang="es">Inversor de fase monohilo</name>
+        <name lang="fr">Inverseur de sens des phases unifilaire</name>
+        <name lang="nl">Fasendraaier</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x3="5" x4="5" closed="false" y3="5" antialias="false" x1="-5" y2="-5" y1="-10" x2="-5" y4="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input text="_" rotate="true" y="-2.45" size="9" x="4" tagg="label"/>
-        <polygon x3="-5" x4="-5" closed="false" y3="5" antialias="false" x1="5" y2="-5" y1="-10" x2="5" y4="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="0" y2="10" end1="none" y1="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="11" orientation="s" x="0"/>
-        <terminal y="-11" orientation="n" x="0"/>
+        <polygon x1="-5" x3="5" y4="10" x4="5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="5" closed="false" y1="-10" antialias="false" x2="-5"/>
+        <dynamic_text y="-14.95" uuid="{8aaab0c4-91db-4578-b097-b5daed6062ad}" Valignment="AlignTop" keep_visual_rotation="false" frame="false" text_from="ElementInfo" text_width="-1" z="2" x="4" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="5" x3="-5" y4="10" x4="-5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="5" closed="false" y1="-10" antialias="false" x2="5"/>
+        <line x1="0" y2="10" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-10" antialias="false" x2="0"/>
+        <terminal y="11" uuid="{c461fd5d-075b-4802-b35c-60a0fc00968c}" orientation="s" x="0" type="Generic" name=""/>
+        <terminal y="-11" uuid="{3f1a4742-dfa9-4f3f-8021-ec7ca2e74ec5}" orientation="n" x="0" type="Generic" name=""/>
     </description>
 </definition>

@@ -1,23 +1,27 @@
-<definition link_type="simple" hotspot_x="25" hotspot_y="12" type="element" height="30" width="60" version="0.5">
-    <uuid uuid="{62c03a8b-4f5a-4ecf-8039-9d9eecfe5640}"/>
+<definition height="30" hotspot_y="12" width="60" link_type="simple" version="0.100.0" type="element" hotspot_x="25">
+    <uuid uuid="{6ccd9465-9093-4e31-84bc-1351a4d63728}"/>
     <names>
         <name lang="pl">Łączówka +5V</name>
-        <name lang="nl">Voedingrail +5v</name>
-        <name lang="fr">Liaisons 5volt</name>
-        <name lang="en">5 volt</name>
-        <name lang="cs">Napájení +5V</name>
         <name lang="it">Alim. +5v</name>
         <name lang="ar">توصيلة  5V</name>
+        <name lang="nl">Voedingrail +5v</name>
+        <name lang="cs">Napájení +5V</name>
+        <name lang="fr">Liaisons 5volt</name>
+        <name lang="en">5 volt</name>
     </names>
+    <elementInformations/>
     <informations>ezza</informations>
     <description>
-        <input size="7" text="5volt" rotate="true" y="2" tagg="label" x="-4"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="7" y="-6" width="1" x="-15"/>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="1" y="-3" width="7" x="-18"/>
-        <line y1="10" x1="-23" x2="33" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" end1="none" end2="none" length2="1.5" y2="10"/>
-        <line y1="10" x1="-15" x2="18" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" end1="none" end2="none" length2="1.5" y2="10"/>
-        <terminal orientation="s" y="10" x="-10"/>
-        <terminal orientation="s" y="10" x="0"/>
-        <terminal orientation="s" y="10" x="10"/>
+        <dynamic_text text_from="ElementInfo" rotation="0" uuid="{3f296a4d-83b5-4c2b-a9bc-42b12f00b737}" font="Sans Serif,7,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" z="1" x="-4" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" y="-8.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="7" width="1" ry="0" x="-15" antialias="false" rx="0" y="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="1" width="7" ry="0" x="-18" antialias="false" rx="0" y="-3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="10" end2="none" length2="1.5" x1="-23" length1="1.5" end1="none" antialias="false" x2="33" y1="10" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
+        <line y2="10" end2="none" length2="1.5" x1="-15" length1="1.5" end1="none" antialias="false" x2="18" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{4ec457eb-02f8-4a96-9a1a-6688c715f1e3}" x="-10" orientation="s" name="" type="Generic" y="10"/>
+        <terminal uuid="{7a13d76b-a4a0-4e7d-afaa-e85cea221eb5}" x="0" orientation="s" name="" type="Generic" y="10"/>
+        <terminal uuid="{aa9e9dce-a0bc-4560-8c08-d85c4bfe8978}" x="10" orientation="s" name="" type="Generic" y="10"/>
     </description>
 </definition>

@@ -1,25 +1,29 @@
-<definition version="0.5" link_type="simple" type="element" hotspot_x="25" width="50" hotspot_y="24" height="50">
-    <uuid uuid="{9ae57267-cfe6-40de-8a86-596a55f1c373}"/>
+<definition height="50" link_type="simple" version="0.100.0" width="50" hotspot_x="25" type="element" hotspot_y="24">
+    <uuid uuid="{0f147201-3b06-4265-952a-b83767a78b20}"/>
     <names>
-        <name lang="el">Κίνδυνος ηλεκτροπληξίας</name>
-        <name lang="it">Pericolo elettrico</name>
-        <name lang="fr">Danger electrique</name>
         <name lang="de">Hinweis elektrische Gefahr groß</name>
+        <name lang="fr">Danger electrique</name>
         <name lang="pl">Pod napięciem</name>
         <name lang="en">Danger electric</name>
-        <name lang="cs">Pozor! Pod napětím</name>
         <name lang="nl">Gevaar elektrisch groot</name>
+        <name lang="el">Κίνδυνος ηλεκτροπληξίας</name>
+        <name lang="cs">Pozor! Pod napětím</name>
+        <name lang="it">Pericolo elettrico</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" x="-4.5" y="24.55" tagg="label" text="_" size="1"/>
-        <polygon x1="-19" y4="20" y3="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x3="19" closed="false" x4="-19" antialias="true" y2="-18" y1="20"/>
-        <polygon x1="-20" y4="21" y3="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" x3="0" x4="-20" antialias="true" y2="21" y1="21"/>
-        <line x1="19" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="19" end2="none" antialias="false" y2="20" y1="21"/>
-        <line x1="-19" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="-19" end2="none" antialias="false" y2="20" y1="21"/>
-        <rect x="-19" style="line-style:normal;line-weight:normal;filling:black;color:black" y="20" width="37" antialias="false" height="1"/>
-        <polygon y4="-6" x6="-3" x1="-4" x5="4" style="line-style:normal;line-weight:thin;filling:black;color:black" x4="-2" y8="12" x7="2" x2="-1" y2="3" y6="2" antialias="true" y3="4" y1="12" x8="-4" y5="-6" x3="-5" y7="1"/>
-        <polygon x1="-5" y4="11" y3="16" style="line-style:normal;line-weight:thin;filling:black;color:black" x2="-2.5" x3="-6" x4="-5" antialias="true" y2="11.5" y1="11"/>
+        <dynamic_text text_from="ElementInfo" uuid="{e1383221-12f7-4b2d-aa2a-df0d94b14748}" text_width="-1" font="Sans Serif,1,-1,5,25,0,0,0,0,0" Valignment="AlignTop" z="1" keep_visual_rotation="false" x="-4.5" rotation="0" Halignment="AlignLeft" y="19.05" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="-19" y2="-18" x3="19" x2="0" x4="-19" closed="false" y1="20" y4="20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="20"/>
+        <polygon x1="-20" y2="21" x3="0" x2="20" x4="-20" y1="21" y4="21" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-19"/>
+        <line x1="19" y2="20" end2="none" x2="19" y1="21" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5"/>
+        <line x1="-19" y2="20" end2="none" x2="-19" y1="21" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5"/>
+        <rect height="1" rx="0" antialias="false" width="37" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-19" ry="0" y="20"/>
+        <polygon y1="12" y4="-6" y2="3" x3="-5" y5="-6" style="line-style:normal;line-weight:thin;filling:black;color:black" y7="1" x2="-1" x8="-4" x1="-4" x6="-3" x7="2" y8="12" antialias="true" y6="2" x5="4" x4="-2" y3="4"/>
+        <polygon x1="-5" y2="11.5" x3="-6" x2="-2.5" x4="-5" y1="11" y4="11" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y3="16"/>
     </description>
 </definition>

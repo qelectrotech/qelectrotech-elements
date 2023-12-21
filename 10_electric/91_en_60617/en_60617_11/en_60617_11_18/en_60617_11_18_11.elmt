@@ -1,6 +1,7 @@
-<definition type="element" version="0.70" height="90" link_type="simple" hotspot_x="45" width="50" hotspot_y="85">
-    <uuid uuid="{d1a78de0-0176-4526-b3b0-b31e9f120e56}"/>
+<definition width="50" hotspot_x="45" height="90" hotspot_y="85" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{4f1b6b2b-6829-460c-ac8f-f7ea5bbb3403}"/>
     <names>
+        <name lang="en">Aeronautical ground light, white omni-directional beam on top, and white uni-</name>
         <name lang="de">Flugplatzfeuer, oben weisses rundstrahlendes
 Licht, unten weisses einseitig strahlendes Licht</name>
         <name lang="fr">Feu aéronautique au sol, faisceau
@@ -8,15 +9,18 @@ omnidirectionnel blanc en haut et
 unidirectionnel blanc en bas (en hauteur)</name>
         <name lang="cs">Světelné návěstidlo nahoře bílý všesměrový svazek,
 dole bílý jednosměrný svazek</name>
-        <name lang="en">Aeronautical ground light, white omni-directional beam on top, and white uni-</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <rect y="-40" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-80" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-75" antialias="false" x="-35" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="0" y2="-20" y3="-40" closed="false" x2="-40" antialias="false" x1="0" x4="0" y4="0" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="12.5" Halignment="AlignLeft" Valignment="AlignTop" z="1" text_from="ElementInfo" frame="false" uuid="{47e96d6c-1893-4b21-b383-36d66e9a9177}" keep_visual_rotation="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="40" y="-40" height="40" ry="0" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40"/>
+        <rect width="40" y="-80" height="40" ry="0" rx="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40"/>
+        <circle diameter="30" y="-75" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35"/>
+        <polygon x4="0" y2="-20" closed="false" x1="0" x2="-40" y3="-40" y4="0" antialias="false" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
     </description>
 </definition>

@@ -1,17 +1,21 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="45" width="50" hotspot_y="45">
-    <uuid uuid="{59c20d11-bbbc-45be-ad35-2a75208ccac6}"/>
+<definition width="50" version="0.100.0" link_type="simple" hotspot_y="45" height="50" hotspot_x="45" type="element">
+    <uuid uuid="{41f2da86-d4ba-4af3-a1ee-dee84556a595}"/>
     <names>
-        <name lang="de">Landerichtungsanzeiger</name>
         <name lang="fr">Indicateur de direction d'atterrissage</name>
         <name lang="cs">Návěstní znak pro směr přistání</name>
+        <name lang="de">Landerichtungsanzeiger</name>
         <name lang="en">Landing direction indicator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <rect y="-40" height="40" antialias="false" x="-40" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-20" y2="-20" x2="-10" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-30" y2="-10" x2="-10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="1" uuid="{663e2f85-82c6-4690-a5e6-59bf00f0901d}" rotation="0" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo" frame="false" y="12.5" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" width="40" rx="0" height="40" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" antialias="false"/>
+        <line y2="-20" x2="-10" end2="none" x1="-30" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" antialias="false"/>
+        <line y2="-10" x2="-10" end2="none" x1="-10" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-30" antialias="false"/>
     </description>
 </definition>

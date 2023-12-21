@@ -1,29 +1,38 @@
-<definition width="60" version="0.3" hotspot_x="27" hotspot_y="30" height="60" type="element" link_type="master">
-<uuid uuid="{79946E07-4E92-42C6-A474-223CBB1F29C3}"/><names>
-        <name lang="el">Πηνίο ρελέ με μηχανική μανδάλωση</name>
-        <name lang="en">Relay with mechanical interlock</name>
-        <name lang="de">Relais mit mechanischer Verriegelung</name>
+<definition width="50" height="50" hotspot_x="30" hotspot_y="24" version="0.100.0" type="element" link_type="master">
+    <uuid uuid="{827b68ae-dd43-41ec-8f3c-4f6b1e6eaa4f}"/>
+    <names>
+        <name lang="cs">Mechanické blokovací relé</name>
         <name lang="it">Relè con interblocco meccanico</name>
         <name lang="fr">Relais à verrouillage mécanique</name>
+        <name lang="de">Relais mit mechanischer Verriegelung</name>
         <name lang="pl">Przekaźnik z blokadą mechaniczną</name>
         <name lang="es">Relé con enclavamiento mecánico</name>
-        <name lang="cs">Mechanické blokovací relé</name>
+        <name lang="el">Πηνίο ρελέ με μηχανική μανδάλωση</name>
+        <name lang="en">Relay with mechanical interlock</name>
         <name lang="hu">Relé mechanikus retesszel</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="10" x1="-15" y2="0" x2="-25" y3="-10" x3="-15"/>
-        <rect width="10" x="-25" y="-10" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect width="30" x="-15" y="-10" antialias="false" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <input x="-14" y="18" size="4" text="A2"/>
-        <input x="-14" y="-17" size="4" text="A1"/>
-        <input x="16" y="0.5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <polygon y1="10" antialias="true" x3="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-25" y2="0" y3="-10" x1="-15" closed="false"/>
+        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-25" width="10" rx="0" height="20" y="-10" ry="0"/>
+        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" width="30" rx="0" height="20" y="-10" ry="0"/>
+        <line y1="20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="10" end2="none" length1="1.5" length2="1.5" x1="0" end1="none"/>
+        <line y1="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-10" end2="none" length1="1.5" length2="1.5" x1="0" end1="none"/>
+        <dynamic_text Halignment="AlignLeft" x="-14" frame="false" keep_visual_rotation="false" text_width="-1" text_from="UserText" y="10" z="6" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Valignment="AlignTop" uuid="{afd5d514-4e1d-4ed2-ac8e-45042e4e9c15}">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" x="-14" frame="false" keep_visual_rotation="false" text_width="-1" text_from="UserText" y="-25" z="7" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Valignment="AlignTop" uuid="{d932ac3f-e79a-4844-a922-ac6a2481c342}">
+            <text>A1</text>
+        </dynamic_text>
+        <dynamic_text Halignment="AlignLeft" x="16" frame="false" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" y="-12" z="8" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{bb4dca1d-439b-4464-aa64-c58eafd8150b}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" name="" y="-20" orientation="n" type="Generic" uuid="{883ab328-7823-4be7-95f6-e590bb081d84}"/>
+        <terminal x="0" name="" y="20" orientation="s" type="Generic" uuid="{cfa8c9da-07e5-47f2-b118-9ebba4e7b9e3}"/>
     </description>
 </definition>

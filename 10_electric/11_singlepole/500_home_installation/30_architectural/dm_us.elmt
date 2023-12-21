@@ -1,20 +1,25 @@
-<definition width="40" version="0.4" hotspot_x="12" hotspot_y="19" height="40" link_type="simple" type="element">
-<uuid uuid="{56CCE89B-E166-46B8-90A9-4B4D8EA7F565}"/><names>
-        <name lang="en">Ultrasonic detector</name>        
-	<name lang="fr">Détecteur ultrasons</name>
+<definition type="element" width="40" height="30" hotspot_y="13" version="0.100.0" hotspot_x="12" link_type="simple">
+    <uuid uuid="{f0cfa1a3-2f99-4dd8-8c3b-d4385ca7295b}"/>
+    <names>
+        <name lang="en">Ultrasonic detector</name>
         <name lang="it">Sensore ad ultrasuoni</name>
         <name lang="pl">Czujnik ultradźwiękowy</name>
-	<name lang="de">Ultraschalldetektor</name>
-	<name lang="cs">Ultrazvukový detektor</name>
+        <name lang="cs">Ultrazvukový detektor</name>
+        <name lang="fr">Détecteur ultrasons</name>
+        <name lang="de">Ultraschalldetektor</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <arc width="4" x="14.5" y="-9.5" antialias="true" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="90"/>
-        <arc width="4" x="14.5" y="-9.5" antialias="true" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="270" angle="90"/>
-        <arc width="4" x="18.5" y="-11.5" antialias="true" height="24" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" angle="90"/>
-        <arc width="4" x="18.5" y="-13.5" antialias="true" height="28" style="line-style:normal;line-weight:normal;filling:none;color:black" start="270" angle="90"/>
-        <polygon x4="13" y5="-9" x5="13" y6="-9" x6="13" y7="-9" x7="13" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-9" x1="13" y2="1" x2="-7" y3="11" x3="13" y4="-9"/>
-        <input x="-47" y="1" size="9" rotate="true" text="DM" tagg="label"/>
-        <terminal x="-6" y="1" orientation="w"/>
+        <arc y="-9.5" start="0" width="4" height="20" angle="90" antialias="true" x="14.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc y="-9.5" start="270" width="4" height="20" angle="90" antialias="true" x="14.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc y="-11.5" start="0" width="4" height="24" angle="90" antialias="true" x="18.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc y="-13.5" start="270" width="4" height="28" angle="90" antialias="true" x="18.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y4="-9" x2="-7" x4="13" x5="13" y1="-9" y5="-9" y7="-9" y2="1" x3="13" x1="13" y6="-9" antialias="false" y3="11" x6="13" x7="13" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="-11.5" z="6" rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" uuid="{f2126a22-84df-46ed-96f3-4ddde8bb3eef}" text_from="ElementInfo" keep_visual_rotation="false" Valignment="AlignTop" x="-47">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="1" type="Generic" name="" orientation="w" uuid="{50d4849d-413f-4866-8734-325cdcbee591}" x="-6"/>
     </description>
 </definition>

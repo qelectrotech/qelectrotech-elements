@@ -1,25 +1,29 @@
-<definition width="10" hotspot_y="14" hotspot_x="5" height="30" link_type="terminal" version="0.70" type="element">
-    <uuid uuid="{b5abb4c2-455d-45ff-95f2-328521f4e2e1}"/>
+<definition version="0.100.0" type="element" link_type="terminal" hotspot_y="14" width="10" height="30" hotspot_x="4">
+    <uuid uuid="{c55dca3f-d064-4c64-b170-4b8a3d985678}"/>
     <names>
-        <name lang="en">Jump</name>
-        <name lang="de">Sprung</name>
+        <name lang="it">Salto</name>
+        <name lang="pl">Brak połączenia</name>
         <name lang="fr">Saut</name>
         <name lang="ar">قفز</name>
         <name lang="cs">Skok</name>
-        <name lang="it">Salto</name>
-        <name lang="pl">Brak połączenia</name>
         <name lang="ru">Перемычка</name>
         <name lang="es">Puente</name>
+        <name lang="en">Jump</name>
+        <name lang="de">Sprung</name>
         <name lang="hu">Átugrás összekötés nélkül</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
     <elementInformations/>
     <informations></informations>
     <description>
-        <arc x="-3" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" width="6" start="90" y="-3" height="6" angle="-180"/>
-        <dynamic_text font_size="1" x="1.5" text_from="UserText" z="2" y="-11.45" rotation="0" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" frame="false" text_width="-1">
+        <arc angle="-180" antialias="true" width="6" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" x="-3" height="6" y="-3"/>
+        <dynamic_text frame="false" text_width="-1" keep_visual_rotation="true" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,1,-1,5,0,0,0,0,0,0,normal" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" z="2" rotation="0" text_from="UserText" x="1.5" y="-11.45">
             <text>_</text>
         </dynamic_text>
-        <terminal x="0" y="-7" orientation="n"/>
-        <terminal x="0" y="7" orientation="s"/>
+        <terminal type="Generic" orientation="n" uuid="{0e526923-265b-4fca-902c-1c1ad8e47de5}" x="0" name="" y="-7"/>
+        <terminal type="Generic" orientation="s" uuid="{946e7afb-d591-4d8f-9cd7-dbc06a3734de}" x="0" name="" y="7"/>
     </description>
 </definition>

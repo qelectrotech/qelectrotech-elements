@@ -1,16 +1,20 @@
-<definition height="20" version="0.70" width="80" hotspot_x="35" type="element" hotspot_y="5" link_type="simple">
-    <uuid uuid="{4a1ad206-1594-4988-a0c4-e053ee5fc171}"/>
+<definition hotspot_x="35" hotspot_y="5" height="20" type="element" version="0.100.0" width="80" link_type="simple">
+    <uuid uuid="{04a48ed1-cbca-498f-a3a6-5cb7076677c4}"/>
     <names>
         <name lang="fr">Électrodes de déviation latérale</name>
+        <name lang="en">Storage electrode</name>
         <name lang="de">Speicherelektrode</name>
         <name lang="cs">Akumulační elektroda</name>
-        <name lang="en">Storage electrode</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="35" rotate="true" size="9" tagg="label" x="45" text="_"/>
-        <line x2="-30" y1="10" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" x1="40"/>
-        <rect y="0" height="10" width="10" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x="30"/>
+        <dynamic_text Valignment="AlignTop" frame="false" rotation="0" uuid="{835bf813-c4eb-4ba2-b8c0-091b09f6d71b}" y="22.5" z="1" x="45" text_from="ElementInfo" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-30" end2="none" x1="40" y1="10" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false"/>
+        <rect height="10" ry="0" y="0" x="30" rx="0" width="10" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
     </description>
 </definition>

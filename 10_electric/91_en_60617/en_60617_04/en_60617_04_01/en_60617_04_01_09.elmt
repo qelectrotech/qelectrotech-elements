@@ -1,23 +1,27 @@
-<definition width="70" height="40" type="element" hotspot_x="34" version="0.70" link_type="simple" hotspot_y="28">
-    <uuid uuid="{da61b5e3-a690-43ab-90f9-4cad3cfe80ca}"/>
+<definition hotspot_x="34" version="0.100.0" link_type="simple" height="40" width="70" type="element" hotspot_y="28">
+    <uuid uuid="{cc05438b-448d-499d-a307-472b4e32b8e1}"/>
     <names>
-        <name lang="de">Widerstand mit festen Anzapfungen</name>
-        <name lang="fr">Résistance avec prises fixes</name>
         <name lang="cs">Rezistor s pevnými odbočkami</name>
         <name lang="en">Resistor with fixed tappings</name>
+        <name lang="fr">Résistance avec prises fixes</name>
+        <name lang="de">Widerstand mit festen Anzapfungen</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-30" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <rect width="30" height="10" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="15" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-20" length2="1.5" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-20" length2="1.5" x1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="n" x="10" y="-20"/>
-        <terminal orientation="w" x="-30" y="0"/>
-        <terminal orientation="e" x="30" y="0"/>
-        <terminal orientation="n" x="-10" y="-20"/>
+        <dynamic_text frame="false" z="1" x="5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{696e171a-5c57-42d8-8e9c-fbe78d4aeec8}" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" y="12.5" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" end1="none" end2="none" length2="1.5" x1="-30" length1="1.5" antialias="false"/>
+        <rect height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" ry="0" x="-15" rx="0" antialias="false" y="-5"/>
+        <line x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" end1="none" end2="none" length2="1.5" x1="15" length1="1.5" antialias="false"/>
+        <line x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-5" end1="none" end2="none" length2="1.5" x1="-10" length1="1.5" antialias="false"/>
+        <line x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-5" end1="none" end2="none" length2="1.5" x1="10" length1="1.5" antialias="false"/>
+        <terminal orientation="n" type="Generic" x="10" name="" uuid="{89e202be-c163-4119-9a2a-9005bd039213}" y="-20"/>
+        <terminal orientation="w" type="Generic" x="-30" name="" uuid="{c49f5ddf-475a-4e25-a509-323772238c55}" y="0"/>
+        <terminal orientation="e" type="Generic" x="30" name="" uuid="{c86a6f28-e7e0-4320-9593-ed76a4e66d2b}" y="0"/>
+        <terminal orientation="n" type="Generic" x="-10" name="" uuid="{9b209ca9-a454-4792-a32e-0c6263bba35d}" y="-20"/>
     </description>
 </definition>

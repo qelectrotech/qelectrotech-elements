@@ -1,21 +1,25 @@
-<definition type="element" width="150" version="0.70" hotspot_y="24" height="30" link_type="simple" hotspot_x="144">
-    <uuid uuid="{48d97df2-b99f-4167-af0e-dbadd2473429}"/>
+<definition link_type="simple" height="30" hotspot_y="24" hotspot_x="144" version="0.100.0" width="150" type="element">
+    <uuid uuid="{6f7e39d0-de8a-4d5a-bf7f-214d7d0df851}"/>
     <names>
-        <name lang="fr">Ligne souterraine</name>
+        <name lang="cs">Vedení v zemi</name>
         <name lang="de">Leiter im Erdreich,
 Erdkabel</name>
-        <name lang="cs">Vedení v zemi</name>
         <name lang="en">Underground line</name>
+        <name lang="fr">Ligne souterraine</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <line x2="-65" end2="none" antialias="false" end1="none" length2="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-75" y1="-10" length1="1.5"/>
-        <line x2="-60" end2="none" antialias="false" end1="none" length2="1.5" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-80" y1="-15" length1="1.5"/>
-        <line x2="-55" end2="none" antialias="false" end1="none" length2="1.5" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-85" y1="-20" length1="1.5"/>
-        <terminal x="-140" orientation="w" y="0"/>
-        <terminal x="0" orientation="e" y="0"/>
+        <dynamic_text Valignment="AlignTop" z="1" y="12.5" frame="false" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{6744c393-e18d-44e9-90c2-06813bf974c5}" text_from="ElementInfo" rotation="0" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" y2="0" end1="none" length2="1.5" x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-140" antialias="false" length1="1.5"/>
+        <line y1="-10" y2="-10" end1="none" length2="1.5" x1="-75" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-65" antialias="false" length1="1.5"/>
+        <line y1="-15" y2="-15" end1="none" length2="1.5" x1="-80" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-60" antialias="false" length1="1.5"/>
+        <line y1="-20" y2="-20" end1="none" length2="1.5" x1="-85" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-55" antialias="false" length1="1.5"/>
+        <terminal y="0" x="-140" uuid="{4307c04e-f991-4d2e-8412-8f6d764d2006}" type="Generic" orientation="w" name=""/>
+        <terminal y="0" x="0" uuid="{7644ca5a-aba3-418a-9e27-074f205e6066}" type="Generic" orientation="e" name=""/>
     </description>
 </definition>

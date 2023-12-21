@@ -1,18 +1,22 @@
-<definition hotspot_x="14" version="0.70" height="10" hotspot_y="4" width="30" type="element" link_type="simple">
-    <uuid uuid="{3195ba60-e7cc-4848-bdb7-c478b2cc6695}"/>
+<definition version="0.100.0" hotspot_x="14" link_type="simple" width="30" hotspot_y="4" type="element" height="10">
+    <uuid uuid="{642bdb92-6a70-44ce-ba92-5ce6fd7dc6ce}"/>
     <names>
-        <name lang="fr">Perforation de bande ou utilisation de bande perforée</name>
-        <name lang="es">Perforación de la cinta o uso de cinta perforada</name>
         <name lang="de">Lochen von Streifen oder Verwendung von Lochstreifen</name>
         <name lang="cs">Děrování pásky nebo použití děrné pásky</name>
+        <name lang="es">Perforación de la cinta o uso de cinta perforada</name>
         <name lang="en">Perforating, tape; using perforated tape</name>
+        <name lang="fr">Perforation de bande ou utilisation de bande perforée</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="10" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="1" x="5" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" rotation="0" y="2.5" uuid="{80d95522-cb04-475d-80a8-dcc450ce62e3}" text_from="ElementInfo" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" x2="10" end2="none" x1="-10" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" y2="0" length2="1.5" end1="none" antialias="false"/>
+        <terminal orientation="w" name="" x="-10" y="0" uuid="{f4e21104-dc77-40e2-a569-d17605553cf2}" type="Generic"/>
+        <terminal orientation="e" name="" x="10" y="0" uuid="{f292b4f1-13d4-4862-8073-df68e285a3c1}" type="Generic"/>
     </description>
 </definition>

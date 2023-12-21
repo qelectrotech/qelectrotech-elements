@@ -1,19 +1,23 @@
-<definition type="element" version="0.70" height="80" link_type="simple" hotspot_x="45" width="70" hotspot_y="50">
-    <uuid uuid="{595534b5-bee7-4729-8cca-ef7b45653ce1}"/>
+<definition height="80" type="element" link_type="simple" hotspot_y="50" hotspot_x="45" width="70" version="0.100.0">
+    <uuid uuid="{d1784f4a-ae14-4603-b5ae-905e49f46062}"/>
     <names>
         <name lang="de">Wechselschalter, einpolig</name>
         <name lang="fr">Interrupteur unipolaire va-et-vient</name>
         <name lang="cs">Střídavý přepínač</name>
         <name lang="en">Two-way single pole switch</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <circle y="-20" antialias="false" x="-20" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-45" y2="-40" x2="20" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="25" y2="20" x2="-40" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="25" y2="-1" x2="-15" length2="1.5" antialias="false" x1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-45" y2="-19" x2="-5" length2="1.5" antialias="false" x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_width="-1" Valignment="AlignTop" uuid="{c5747b59-1168-416c-af39-18764936c73b}" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" frame="false" y="12.5" z="1" text_from="ElementInfo" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" x="-20"/>
+        <line x1="10" length1="1.5" antialias="false" y2="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="20" y1="-45"/>
+        <line x1="-30" length1="1.5" antialias="false" y2="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-40" y1="25"/>
+        <line x1="-30" length1="1.5" antialias="false" y2="-1" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-15" y1="25"/>
+        <line x1="10" length1="1.5" antialias="false" y2="-19" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-5" y1="-45"/>
     </description>
 </definition>

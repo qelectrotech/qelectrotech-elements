@@ -1,32 +1,37 @@
-<definition width="140" version="0.3" hotspot_x="0" hotspot_y="10" height="80" type="element">
-<uuid uuid="{42FB556A-4489-4298-BB64-FF7944F6FD73}"/><names>
-        <name lang="ar">محرك ساعة</name>
+<definition hotspot_x="37" hotspot_y="34" version="0.100.0" type="element" height="70" width="90" link_type="simple">
+    <uuid uuid="{69180102-ef9e-44d3-ac01-eb9db3f52635}"/>
+    <names>
+        <name lang="nl">Tijdmotor</name>
+        <name lang="pl">Zegar</name>
+        <name lang="cs">Motohodiny</name>
         <name lang="en">Clock motor</name>
+        <name lang="it">Motore orologio</name>
         <name lang="de">Motor Uhr</name>
         <name lang="fr">Moteur horloge</name>
-        <name lang="pl">Zegar</name>
         <name lang="es">Motor temporizado</name>
-        <name lang="cs">Motohodiny</name>
-        <name lang="it">Motore orologio</name>
-        <name lang="nl">Tijdmotor</name>
+        <name lang="ar">محرك ساعة</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="5" y="15" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
-        <input x="93" y="24.5" size="12" rotate="true" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="60" x1="20" y2="45" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="20" y2="14" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30" x1="20" y2="22" x2="27"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30" x1="20" y2="22" x2="13"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="22" x1="27" y2="38" x2="27"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="38" x1="13" y2="22" x2="13"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="28" x1="35" y2="28" x2="50"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="32" x1="35" y2="32" x2="50"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30" x1="70" y2="14" x2="70"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="30" x1="70" y2="30" x2="85"/>
-        <circle x="50" y="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40"/>
-        <terminal x="20" y="0" orientation="n"/>
-        <terminal x="20" y="60" orientation="s"/>
+        <circle diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" y="-15" antialias="true"/>
+        <dynamic_text font="Sans Serif,12,-1,5,50,0,0,0,0,0" uuid="{6b99a513-f4e9-4a80-b2b5-1e99e665a958}" keep_visual_rotation="false" text_from="ElementInfo" rotation="0" text_width="-1" Halignment="AlignLeft" x="53" y="-21" z="2" frame="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-20" y2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="30" end1="none" antialias="false" length1="1.5" x1="-20" length2="1.5"/>
+        <line x2="-20" y2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-30" end1="none" antialias="false" length1="1.5" x1="-20" length2="1.5"/>
+        <line x2="-13" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="true" length1="1.5" x1="-20" length2="1.5"/>
+        <line x2="-27" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="true" length1="1.5" x1="-20" length2="1.5"/>
+        <line x2="-13" y2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-8" end1="none" antialias="false" length1="1.5" x1="-13" length2="1.5"/>
+        <line x2="-27" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="8" end1="none" antialias="false" length1="1.5" x1="-27" length2="1.5"/>
+        <line x2="10" y2="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-2" end1="none" antialias="false" length1="1.5" x1="-5" length2="1.5"/>
+        <line x2="10" y2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="2" end1="none" antialias="false" length1="1.5" x1="-5" length2="1.5"/>
+        <line x2="30" y2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="false" length1="1.5" x1="30" length2="1.5"/>
+        <line x2="45" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="false" length1="1.5" x1="30" length2="1.5"/>
+        <circle diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="10" y="-20" antialias="true"/>
+        <terminal uuid="{5778823a-28b8-4ee1-b207-aea2614c9e0d}" x="-20" y="-30" orientation="n" type="Generic" name=""/>
+        <terminal uuid="{5c7d10a5-da46-4541-983f-79a243485407}" x="-20" y="30" orientation="s" type="Generic" name=""/>
     </description>
 </definition>

@@ -1,21 +1,25 @@
-<definition hotspot_x="34" version="0.70" height="50" hotspot_y="44" width="70" type="element" link_type="simple">
-    <uuid uuid="{4b5696e9-fc4e-47b2-9104-304b2c73ee31}"/>
+<definition type="element" width="70" version="0.100.0" hotspot_x="34" link_type="simple" hotspot_y="44" height="50">
+    <uuid uuid="{0cda89a3-26ed-4be5-94a8-2bfe9cdb1168}"/>
     <names>
-        <name lang="fr">Double liaison en T</name>
-        <name lang="de">Doppelabzweig von Leitern </name>
         <name lang="cs">Dvojnásobné spojení T</name>
         <name lang="en">Double junction of conductors</name>
+        <name lang="de">Doppelabzweig von Leitern </name>
+        <name lang="fr">Double liaison en T</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="30" y2="-20" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30"/>
-        <line x2="-10" y2="-20" y1="-40" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <line x2="15" y2="0" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15"/>
-        <terminal y="-20" x="30" orientation="e"/>
-        <terminal y="-40" x="-10" orientation="n"/>
-        <terminal y="-20" x="-30" orientation="w"/>
-        <terminal y="0" x="15" orientation="s"/>
+        <dynamic_text y="2.5" text_width="-1" z="1" rotation="0" x="5" text_from="ElementInfo" keep_visual_rotation="false" uuid="{232cb730-adfe-463a-9efb-dca98ccd1781}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-20" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="30" end2="none" length2="1.5" antialias="false" y2="-20" end1="none" length1="1.5"/>
+        <line y1="-40" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" end2="none" length2="1.5" antialias="false" y2="-20" end1="none" length1="1.5"/>
+        <line y1="-20" x1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15" end2="none" length2="1.5" antialias="false" y2="0" end1="none" length1="1.5"/>
+        <terminal name="" type="Generic" orientation="e" y="-20" x="30" uuid="{74dd21f9-4356-4f31-ad82-f9046c013452}"/>
+        <terminal name="" type="Generic" orientation="n" y="-40" x="-10" uuid="{8b8ac4b1-5ea8-4f58-b53e-846403c81436}"/>
+        <terminal name="" type="Generic" orientation="w" y="-20" x="-30" uuid="{ff440956-12ff-45e2-9e92-f49b1213afd6}"/>
+        <terminal name="" type="Generic" orientation="s" y="0" x="15" uuid="{ada6014c-ac49-4798-81da-c2e3d1619c12}"/>
     </description>
 </definition>

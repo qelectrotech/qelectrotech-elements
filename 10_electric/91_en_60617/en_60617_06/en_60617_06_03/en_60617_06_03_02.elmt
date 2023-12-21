@@ -1,17 +1,21 @@
-<definition link_type="simple" hotspot_x="35" hotspot_y="10" version="0.70" width="40" type="element" height="20">
-    <uuid uuid="{7d4454aa-3d66-40a5-bf11-784a5d276dbe}"/>
+<definition version="0.100.0" type="element" link_type="simple" hotspot_y="7" width="40" height="10" hotspot_x="35">
+    <uuid uuid="{b8189fb5-6fc8-4fe1-8ae0-540005f2e8a9}"/>
     <names>
         <name lang="fr">Enroulement série</name>
-        <name lang="de">Reihenschlußwicklung</name>
-        <name lang="cs">Sériové vinutí</name>
         <name lang="en">Winding of machine (different functions: series winding)</name>
+        <name lang="cs">Sériové vinutí</name>
+        <name lang="de">Reihenschlußwicklung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <arc x="-30" start="0" angle="180" y="-5" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-20" start="0" angle="180" y="-5" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-10" start="0" angle="180" y="-5" antialias="true" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="1" uuid="{663abf79-4ab6-43f0-8f70-36306187ae67}" Valignment="AlignTop" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" text_width="-1" y="12.5" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc start="0" angle="180" x="-30" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="true" height="10"/>
+        <arc start="0" angle="180" x="-20" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="true" height="10"/>
+        <arc start="0" angle="180" x="-10" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="true" height="10"/>
     </description>
 </definition>

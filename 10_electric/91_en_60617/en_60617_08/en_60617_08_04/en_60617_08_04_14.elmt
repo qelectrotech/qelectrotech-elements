@@ -1,20 +1,24 @@
-<definition width="50" height="110" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="45">
-    <uuid uuid="{525e7586-cc02-400d-afaa-b1a2311e868d}"/>
+<definition type="element" hotspot_y="45" width="50" hotspot_x="25" version="0.100.0" link_type="simple" height="110">
+    <uuid uuid="{51dab693-09a7-4f38-8c1c-bbc576771506}"/>
     <names>
         <name lang="de">Wattstundenzähler mit Maximumaufzeichnung</name>
+        <name lang="cs">Watthodinový měřič se zapisovačem maxima</name>
         <name lang="fr">ompteur d'énergie active avec enregistrement
 du maximum de la puissance moyenne</name>
-        <name lang="cs">Watthodinový měřič se zapisovačem maxima</name>
         <name lang="en">Watt-hour meter with maximum demand recorder</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="95"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
-        <text size="9" text="Wh" x="-8" y="4"/>
-        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="P max" x="-17" y="44"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="20" antialias="false"/>
+        <dynamic_text y="82.5" x="5" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" uuid="{a61ead11-0ecf-4cdd-a842-418d2667b53f}" text_width="-1" z="1" keep_visual_rotation="false" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-20" antialias="false" x="-20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="40"/>
+        <text y="4" x="-8" text="Wh" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <rect y="-40" antialias="false" x="-20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="20"/>
+        <text y="44" x="-17" text="P max" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <rect y="20" antialias="false" x="-20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" height="40"/>
     </description>
 </definition>

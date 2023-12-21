@@ -1,20 +1,24 @@
-<definition version="0.5" hotspot_x="20" hotspot_y="5" width="30" height="20" link_type="simple" type="element">
-    <uuid uuid="{f2a34b6f-6b55-4572-8da7-e86f37415ad2}"/>
+<definition width="30" version="0.100.0" link_type="simple" height="20" hotspot_y="5" type="element" hotspot_x="20">
+    <uuid uuid="{1643c6bb-831a-4bdd-957e-7c3e108b20be}"/>
     <names>
-        <name lang="en">Electrical command left</name>
         <name lang="es">Comando eléctrico izquierdo</name>
-        <name lang="nl">Spoel Elektrisch links</name>
-        <name lang="fr">Commande electrique gauche</name>
-        <name lang="pl">Elektryczne (strona lewa)</name>
-        <name lang="it">Comando elettrico Sx</name>
         <name lang="cs">Elektrické řízení (levá strana)</name>
+        <name lang="nl">Spoel Elektrisch links</name>
         <name lang="ar">تحكم كهربائي يسار</name>
+        <name lang="en">Electrical command left</name>
+        <name lang="it">Comando elettrico Sx</name>
+        <name lang="pl">Elektryczne (strona lewa)</name>
+        <name lang="fr">Commande electrique gauche</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="true" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="10" end1="none" x2="0"/>
-        <input size="9" x="-28" rotate="true" tagg="label" y="2.55" text="_"/>
-        <rect antialias="false" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" x="-15" y="0"/>
+        <line x1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x2="0" y2="0" end1="none" length2="1.5" antialias="true" end2="none"/>
+        <dynamic_text frame="false" rotation="0" z="2" Halignment="AlignLeft" x="-28" y="-9.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{0790a77e-41d1-439b-ab2a-60539c6f0a6a}" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="0" height="10" rx="0" ry="0" antialias="false"/>
     </description>
 </definition>

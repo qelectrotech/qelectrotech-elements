@@ -1,24 +1,28 @@
-<definition hotspot_x="16" hotspot_y="25" height="30" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{cb5b515b-073d-4f32-8be0-f958565ad13d}"/>
+<definition hotspot_x="16" type="element" link_type="simple" width="40" height="30" hotspot_y="25" version="0.100.0">
+    <uuid uuid="{2c8e59bd-4691-41d7-b7a8-e027ddc3dfc2}"/>
     <names>
-        <name lang="fr">Projecteur à faisceau peu divergent</name>
-        <name lang="pl">Projektor o świetle skupionym</name>
+        <name lang="nl">Spotlamp</name>
         <name lang="cs">Bodová světla</name>
+        <name lang="en">Slightly divergent beam projector</name>
         <name lang="ar">عاكس بشعاع قليل التباعد</name>
         <name lang="it">Faro a fascio stretto</name>
         <name lang="de">Punktleuchte</name>
-        <name lang="en">Slightly divergent beam projector</name>
-        <name lang="nl">Spotlamp</name>
+        <name lang="pl">Projektor o świetle skupionym</name>
+        <name lang="fr">Projecteur à faisceau peu divergent</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-15-08</informations>
     <description>
-        <line end2="triangle" length2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-7" antialias="false" y2="-7" end1="none" x2="20" length1="1.5" x1="8"/>
-        <input x="28" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <line end2="triangle" length2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-13" antialias="false" y2="-13" end1="none" x2="20" length1="1.5" x1="8"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="true" y2="-7" end1="none" x2="3" length1="1.5" x1="-3"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7" antialias="true" y2="-13" end1="none" x2="3" length1="1.5" x1="-3"/>
-        <circle x="-4.5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="9" antialias="true" y="-14.5"/>
-        <arc x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="true" start="-90" y="-20" angle="-180" width="20"/>
-        <terminal x="-10" orientation="w" y="-10"/>
+        <line x2="20" end2="triangle" length2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="8" y2="-7" y1="-7" end1="none" antialias="false"/>
+        <dynamic_text y="-21.95" text_from="ElementInfo" Halignment="AlignLeft" frame="false" z="2" uuid="{51c5f428-90f9-4a0c-a08f-8d7e751848b5}" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="28">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="20" end2="triangle" length2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="8" y2="-13" y1="-13" end1="none" antialias="false"/>
+        <line x2="3" end2="none" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-3" y2="-7" y1="-13" end1="none" antialias="true"/>
+        <line x2="3" end2="none" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-3" y2="-13" y1="-7" end1="none" antialias="true"/>
+        <circle y="-14.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.5" diameter="9" antialias="true"/>
+        <arc y="-20" angle="-180" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" height="20" x="-10" antialias="true"/>
+        <terminal y="-10" orientation="w" uuid="{e419ed90-edb3-4bc5-893f-92a8f5b9a45b}" type="Generic" x="-10" name=""/>
     </description>
 </definition>

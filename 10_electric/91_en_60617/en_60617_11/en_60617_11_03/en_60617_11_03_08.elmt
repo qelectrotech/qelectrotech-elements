@@ -1,19 +1,23 @@
-<definition type="element" width="150" version="0.70" hotspot_y="15" height="30" link_type="simple" hotspot_x="144">
-    <uuid uuid="{f5877205-770b-4a5c-a251-b80f4f6bc71b}"/>
+<definition type="element" width="150" link_type="simple" version="0.100.0" hotspot_x="144" height="30" hotspot_y="15">
+    <uuid uuid="{74bb5737-d7f3-4877-80cd-2c701315e375}"/>
     <names>
+        <name lang="de">Leiter gegen Gas oder Öl abgeschottet </name>
         <name lang="fr">Ligne avec bouchon d'étanchéité (gaz ou
 d'huile)</name>
-        <name lang="de">Leiter gegen Gas oder Öl abgeschottet </name>
         <name lang="cs">Vedení s plynotěsnou nebo olejotěsnou přepážkou</name>
         <name lang="en">Line with gas or oil block</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <line x2="-70" end2="none" antialias="false" end1="none" length2="1.5" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-70" y1="-10" length1="1.5"/>
-        <terminal x="-140" orientation="w" y="0"/>
-        <terminal x="0" orientation="e" y="0"/>
+        <dynamic_text Valignment="AlignTop" text_from="ElementInfo" uuid="{30ad51fc-d7b8-4938-b865-12a701f6bb68}" text_width="-1" keep_visual_rotation="false" y="12.5" z="1" x="5" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length2="1.5" x2="-140" end2="none" antialias="false" x1="0" y1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0"/>
+        <line end1="none" length2="1.5" x2="-70" end2="none" antialias="false" x1="-70" y1="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <terminal uuid="{d3480045-43a7-4746-b834-8207fc21fe44}" orientation="w" type="Generic" y="0" x="-140" name=""/>
+        <terminal uuid="{c320f545-e68f-48d6-8715-75cacc6e5783}" orientation="e" type="Generic" y="0" x="0" name=""/>
     </description>
 </definition>

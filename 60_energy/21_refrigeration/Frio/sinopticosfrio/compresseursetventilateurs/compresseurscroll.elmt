@@ -1,29 +1,33 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{23578d5a-43c1-44fd-94cd-b8d97897f98d}"/>
+<definition version="0.100.0" link_type="simple" height="40" hotspot_x="24" hotspot_y="20" width="50" type="element">
+    <uuid uuid="{199c76ae-f09f-4ace-acf7-d9e806e7eed5}"/>
     <names>
+        <name lang="el">Σπειροειδής συμπιεστής</name>
         <name lang="cs">Spirálový kompresor</name>
         <name lang="it">Compressore a chiocciola</name>
-        <name lang="pl">Kompresor spiralny</name>
         <name lang="en">Scroll compressor</name>
-        <name lang="nl">Scroll compressor</name>
-        <name lang="ar">ضاغط بالانتقال</name>
+        <name lang="pl">Kompresor spiralny</name>
         <name lang="fr">Compresseur scroll</name>
-        <name lang="el">Σπειροειδής συμπιεστής</name>
+        <name lang="ar">ضاغط بالانتقال</name>
+        <name lang="nl">Scroll compressor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="15.55" x="-7" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-13" x1="-7" x2="13"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="true" length2="1.5" end1="none" length1="1.5" y1="13" x1="-7" x2="13"/>
-        <arc width="9" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-4.5" x="-4.5" height="9"/>
-        <arc width="7" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-2.5" x="-3.5" height="7"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-2.5" x="-2.5" height="5"/>
-        <arc width="3" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-0.5" x="-1.5" height="3"/>
-        <terminal y="0" x="-16" orientation="w"/>
-        <terminal y="0" x="16" orientation="e"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" uuid="{b106cbd4-4afc-4919-b0e5-0965521de4d7}" rotation="0" text_from="ElementInfo" frame="false" Halignment="AlignLeft" x="-7" z="1" keep_visual_rotation="false" y="3.05">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="30" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-15" y="-15"/>
+        <line x1="-15" length2="1.5" x2="-16" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length1="1.5" end1="none" y1="0"/>
+        <line x1="15" length2="1.5" x2="16" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length1="1.5" end1="none" y1="0"/>
+        <line x1="-7" length2="1.5" x2="13" antialias="true" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" length1="1.5" end1="none" y1="-13"/>
+        <line x1="-7" length2="1.5" x2="13" antialias="true" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" length1="1.5" end1="none" y1="13"/>
+        <arc angle="-180" antialias="true" height="9" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.5" width="9" y="-4.5"/>
+        <arc angle="-180" antialias="true" height="7" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-3.5" width="7" y="-2.5"/>
+        <arc angle="-180" antialias="true" height="5" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5" width="5" y="-2.5"/>
+        <arc angle="-180" antialias="true" height="3" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-1.5" width="3" y="-0.5"/>
+        <terminal uuid="{db746cd1-33cf-4b84-a507-dd6f936d22c4}" name="" x="-16" orientation="w" type="Generic" y="0"/>
+        <terminal uuid="{684ff1f1-bf0a-4854-9d3f-f3151719385d}" name="" x="16" orientation="e" type="Generic" y="0"/>
     </description>
 </definition>

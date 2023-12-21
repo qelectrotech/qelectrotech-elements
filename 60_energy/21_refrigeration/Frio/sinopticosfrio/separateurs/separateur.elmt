@@ -1,22 +1,26 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="40" hotspot_y="18">
-    <uuid uuid="{4431b788-b578-45e0-a645-c1a191f33629}"/>
+<definition version="0.100.0" hotspot_x="14" hotspot_y="18" type="element" link_type="simple" width="30" height="40">
+    <uuid uuid="{ba687f8e-8637-40cc-966d-5e416f2fa623}"/>
     <names>
         <name lang="cs">Odlučovač</name>
-        <name lang="it">Separatore</name>
-        <name lang="pl">Separator</name>
-        <name lang="en">separator</name>
         <name lang="nl">Scheider</name>
+        <name lang="pl">Separator</name>
+        <name lang="it">Separatore</name>
         <name lang="ar">فاصلة</name>
+        <name lang="en">separator</name>
         <name lang="fr">Séparateur</name>
         <name lang="el">Διαχωριστής</name>
     </names>
+    <elementInformations/>
     <informations>Rotation possible</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-24.5" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-2" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" x1="0" x2="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-13" x4="0" x6="-8" antialias="false" y6="-13" y5="5" y1="-13" x1="-8" closed="false" x3="8" y3="5" y4="13" x2="8" x5="-8"/>
-        <terminal y="14" x="0" orientation="s"/>
-        <terminal y="-10" x="-9" orientation="w"/>
-        <terminal y="-10" x="9" orientation="e"/>
+        <dynamic_text frame="false" x="-7" z="1" Valignment="AlignTop" uuid="{0f7d1d75-851d-4cbf-8130-ddf49b098a1e}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" y="-37" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" length1="1.5" y1="-10" y2="-2" antialias="false" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end2="none"/>
+        <polygon x1="-8" x6="-8" closed="false" y3="5" y5="5" y1="-13" x5="-8" y2="-13" y4="13" antialias="false" y6="-13" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="8" x4="0" x2="8"/>
+        <terminal name="" type="Generic" x="0" uuid="{b21f8224-83a9-4e9a-9b5e-2f1ab9aa1769}" orientation="s" y="14"/>
+        <terminal name="" type="Generic" x="-9" uuid="{9fcc9fa3-ec54-4ff1-9877-997845b5dc1f}" orientation="w" y="-10"/>
+        <terminal name="" type="Generic" x="9" uuid="{6dbf513a-3174-4434-abde-bad3bfcaf7bf}" orientation="e" y="-10"/>
     </description>
 </definition>

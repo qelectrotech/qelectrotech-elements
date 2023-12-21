@@ -1,50 +1,55 @@
-<definition height="80" version="0.5" link_type="simple" type="element" hotspot_x="50" hotspot_y="39" width="100">
-<uuid uuid="{2E658A0D-14DF-4277-B23D-07E049AE0750}"/><names>
-        <name lang="de">Netzteil AC/DC 3-polig</name>
+<definition width="100" hotspot_y="39" type="element" hotspot_x="50" link_type="simple" height="80" version="0.100.0">
+    <uuid uuid="{2175495a-361d-44ac-bd3d-8399538a2220}"/>
+    <names>
         <name lang="fr">Alimentation AC/DC tripolaire</name>
         <name lang="pl">Zasilacz trójfazowy</name>
+        <name lang="de">Netzteil AC/DC 3-polig</name>
         <name lang="en">Power supply AC/DC 3 poles</name>
-        <name lang="es">Fuente de poder AC/DC 3 polos</name>
         <name lang="cs">Třífázový napájecí zdroj AC/DC</name>
+        <name lang="es">Fuente de poder AC/DC 3 polos</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 06-14-03</informations>
     <description>
-        <text x="-28" y="-7" text="AC 3~" size="5"/>
+        <text x="-28" rotation="0" text="AC 3~" y="-7" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
         <circle x="27.5" y="-32.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text x="9" y="24" text="-" size="6"/>
-        <text x="29" y="24" text="-" size="6"/>
-        <text x="-34" y="-19" text="L1" size="6"/>
-        <line length1="1.5" length2="1.5" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" antialias="false" end1="none" x1="13" end2="none" x2="27"/>
-        <text x="18" y="12" text="DC" size="5"/>
-        <line length1="1.5" length2="1.5" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" antialias="false" end1="none" x1="-7" end2="none" x2="7"/>
-        <line length1="1.5" length2="1.5" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" antialias="false" end1="none" x1="-27" end2="none" x2="-13"/>
-        <text x="-12" y="24" text="+" size="6"/>
-        <text x="-14" y="-19" text="L2" size="6"/>
+        <text x="9" rotation="0" text="-" y="24" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <text x="29" rotation="0" text="-" y="24" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <text x="-34" rotation="0" text="L1" y="-19" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <line end2="none" end1="none" length2="1.5" y1="30" length1="1.5" x2="27" x1="13" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text x="18" rotation="0" text="DC" y="12" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <line end2="none" end1="none" length2="1.5" y1="30" length1="1.5" x2="7" x1="-7" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length2="1.5" y1="30" length1="1.5" x2="-13" x1="-27" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text x="-12" rotation="0" text="+" y="24" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <text x="-14" rotation="0" text="L2" y="-19" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
         <circle x="-12.5" y="-32.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text x="25" y="-19" text="PE" size="6"/>
-        <text x="6" y="-19" text="L3" size="6"/>
+        <text x="25" rotation="0" text="PE" y="-19" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <text x="6" rotation="0" text="L3" y="-19" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
         <circle x="7.5" y="-32.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="-32.5" y="27.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="27.5" y="27.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="-12.5" y="27.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="7.5" y="27.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <input x="-80" y="-20.5" rotate="true" text="_" tagg="label" size="9"/>
-        <text x="-32" y="24" text="+" size="6"/>
-        <polygon x6="-33" closed="false" y1="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" antialias="false" y3="-29.8785" x1="-33" y4="-29.8785" x2="-45" y5="-29.8785" x3="-45" y6="-29.8785" x4="-33" x5="-33"/>
-        <polygon x6="33" closed="false" y1="-30.1383" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30.1383" antialias="false" y3="30" x1="33" y4="30" x2="45" y5="30" x3="45" y6="30" x4="33" x5="33"/>
-        <line length1="1.5" length2="1.5" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" antialias="false" end1="none" x1="-27" end2="none" x2="-13"/>
-        <line length1="1.5" length2="1.5" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" antialias="false" end1="none" x1="-7" end2="none" x2="7"/>
-        <line length1="1.5" length2="1.5" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" antialias="false" end1="none" x1="13" end2="none" x2="27"/>
-        <rect x="-30" y="-15" height="30" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" width="60"/>
-        <line length1="1.5" length2="1.5" y1="-15" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="15" antialias="false" end1="none" x1="30" end2="none" x2="-30"/>
+        <dynamic_text x="-80" rotation="0" uuid="{1d1a66f2-7ae1-4043-847e-596326505e42}" z="20" Halignment="AlignLeft" y="-33" text_width="-1" frame="false" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-32" rotation="0" text="+" y="24" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <polygon y4="-29.8785" y5="-29.8785" x3="-45" x4="-33" x5="-33" closed="false" y1="30" x6="-33" x2="-45" x1="-33" y3="-29.8785" y2="30" y6="-29.8785" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon y4="30" y5="30" x3="45" x4="33" x5="33" closed="false" y1="-30.1383" x6="33" x2="45" x1="33" y3="30" y2="-30.1383" y6="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length2="1.5" y1="-30" length1="1.5" x2="-13" x1="-27" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length2="1.5" y1="-30" length1="1.5" x2="7" x1="-7" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" end1="none" length2="1.5" y1="-30" length1="1.5" x2="27" x1="13" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect width="60" x="-30" y="-15" rx="0" ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black" height="30" antialias="false"/>
+        <line end2="none" end1="none" length2="1.5" y1="-15" length1="1.5" x2="-30" x1="30" y2="15" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
         <circle x="-32.5" y="-32.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="-10" y="-33" orientation="n"/>
-        <terminal x="-30" y="-33" orientation="n"/>
-        <terminal x="-30" y="33" orientation="s"/>
-        <terminal x="-10" y="33" orientation="s"/>
-        <terminal x="10" y="-33" orientation="n"/>
-        <terminal x="10" y="33" orientation="s"/>
-        <terminal x="30" y="33" orientation="s"/>
-        <terminal x="30" y="-33" orientation="n"/>
+        <terminal x="-10" uuid="{0aa55641-e8c0-4a0d-9ceb-5ef568239ebe}" type="Generic" y="-33" orientation="n" name=""/>
+        <terminal x="-30" uuid="{a91fc01d-7fa4-4329-9240-073e053f7b46}" type="Generic" y="-33" orientation="n" name=""/>
+        <terminal x="-30" uuid="{8a2ed22b-ae0e-442c-9238-79280db8ea98}" type="Generic" y="33" orientation="s" name=""/>
+        <terminal x="-10" uuid="{874f3c12-ecf3-437e-8512-2714ef4858bf}" type="Generic" y="33" orientation="s" name=""/>
+        <terminal x="10" uuid="{e3cd41a9-9f81-49c7-98af-5d5f55479295}" type="Generic" y="-33" orientation="n" name=""/>
+        <terminal x="10" uuid="{2e0fb606-a088-4bb1-b54d-e29cbfa0296a}" type="Generic" y="33" orientation="s" name=""/>
+        <terminal x="30" uuid="{b93d22c1-2ee7-4757-956e-33d70760854b}" type="Generic" y="33" orientation="s" name=""/>
+        <terminal x="30" uuid="{142af6c2-0341-431f-a324-8a9f7aafcf64}" type="Generic" y="-33" orientation="n" name=""/>
     </description>
 </definition>

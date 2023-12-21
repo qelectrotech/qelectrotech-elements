@@ -1,36 +1,41 @@
-<definition width="40" version="0.4" hotspot_x="22" hotspot_y="24" height="50" link_type="master" type="element">
-<uuid uuid="{B07B5DA8-E3EC-45DC-9CB4-1B4317BB57CD}"/><names>
-        <name lang="ar">مفتاح عزل ثلاثي بمصهرات</name>
-        <name lang="de">Sicherungstrenner 2-polig</name>
-        <name lang="el">Ασφαλειοδιακόπτης 2P</name>
+<definition height="50" hotspot_x="22" hotspot_y="24" type="element" link_type="master" width="40" version="0.100.0">
+    <uuid uuid="{dafc4538-d869-4e63-8f33-eb892deb489b}"/>
+    <names>
         <name lang="en">Fuse-disconnector</name>
-        <name lang="es">Seccionador con fusible 2P</name>
-        <name lang="it">Sezionatore con fusibile 2P</name>
-        <name lang="fr">Porte fusible 2P</name>
-        <name lang="pl">Odłącznik bezpiecznikowy</name>
+        <name lang="el">Ασφαλειοδιακόπτης 2P</name>
         <name lang="nl">Zekeringscheider 2</name>
         <name lang="cs">Pojistkový odpínač 2p</name>
+        <name lang="de">Sicherungstrenner 2-polig</name>
+        <name lang="es">Seccionador con fusible 2P</name>
+        <name lang="pl">Odłącznik bezpiecznikowy</name>
+        <name lang="it">Sezionatore con fusibile 2P</name>
         <name lang="hu">Olvadóbiztosítós szakaszoló karos működtetésű 2 pólusú</name>
+        <name lang="ar">مفتاح عزل ثلاثي بمصهرات</name>
+        <name lang="fr">Porte fusible 2P</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-15" y2="10" x2="-10" y3="20" x3="-10"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="5" y2="10" x2="10" y3="20" x3="10"/>
-        <polygon x4="8.19" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x1="4.31" y2="5.49" x2="6.81" y3="4.51" x3="10.69" y4="-5.49"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="8" y2="-10" x2="12"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
-        <polygon x4="-11.81" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x1="-15.69" y2="5.49" x2="-13.19" y3="4.51" x3="-9.31" y4="-5.49"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="-10" y2="-10" x2="-10"/>
-        <input x="30" y="0.5" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-8" y2="-10" x2="-12"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dotted;line-weight:thin;filling:none;color:black" y1="0" x1="-9.06857" y2="0" x2="5.0743"/>
-        <terminal x="-10" y="-20" orientation="n"/>
-        <terminal x="-10" y="20" orientation="s"/>
-        <terminal x="10" y="20" orientation="s"/>
-        <terminal x="10" y="-20" orientation="n"/>
+        <polygon y2="10" y3="20" x1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" closed="false" x3="-10" antialias="true" x2="-10"/>
+        <polygon y2="10" y3="20" x1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" closed="false" x3="10" antialias="true" x2="10"/>
+        <polygon y2="5.49" y3="4.51" x1="4.31" x4="8.19" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x3="10.69" y4="-5.49" antialias="true" x2="6.81"/>
+        <line y2="-10" x1="8" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" end1="none" end2="none" length2="1.5" antialias="false" x2="12"/>
+        <line y2="-10" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" end1="none" end2="none" length2="1.5" antialias="false" x2="10"/>
+        <polygon y2="5.49" y3="4.51" x1="-15.69" x4="-11.81" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x3="-9.31" y4="-5.49" antialias="true" x2="-13.19"/>
+        <line y2="-10" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" end1="none" end2="none" length2="1.5" antialias="false" x2="-10"/>
+        <dynamic_text Halignment="AlignLeft" keep_visual_rotation="false" y="-12" text_from="ElementInfo" frame="false" x="30" z="8" Valignment="AlignTop" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{60760ca9-6f9c-4907-b30a-82cdbb29abb7}" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="-10" x1="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" end1="none" end2="none" length2="1.5" antialias="false" x2="-12"/>
+        <line y2="0" x1="-9.06857" style="line-style:dotted;line-weight:thin;filling:none;color:black" y1="0" length1="1.5" end1="none" end2="none" length2="1.5" antialias="false" x2="5.0743"/>
+        <terminal name="" y="-20" type="Generic" x="-10" orientation="n" uuid="{1fcbf06c-4cb4-4df6-8bbd-e028642a18b2}"/>
+        <terminal name="" y="20" type="Generic" x="-10" orientation="s" uuid="{91d9df46-95ee-4aa1-a567-0e1a1c89d54e}"/>
+        <terminal name="" y="20" type="Generic" x="10" orientation="s" uuid="{22555d94-a84f-45b0-9a53-f57982efb8d0}"/>
+        <terminal name="" y="-20" type="Generic" x="10" orientation="n" uuid="{d0f5c515-01db-4690-95f7-ec98016233ba}"/>
     </description>
 </definition>

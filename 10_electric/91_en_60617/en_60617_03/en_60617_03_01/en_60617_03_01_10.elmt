@@ -1,26 +1,30 @@
-<definition hotspot_x="45" version="0.70" height="130" hotspot_y="125" width="90" type="element" link_type="simple">
-    <uuid uuid="{381d0f69-2358-4e3b-b45c-d6a018cd9508}"/>
+<definition height="130" link_type="simple" width="90" hotspot_y="125" version="0.100.0" hotspot_x="45" type="element">
+    <uuid uuid="{28830749-4e0b-457b-9967-cfdddeed9c8a}"/>
     <names>
-        <name lang="fr">Conducteur dans un câble</name>
-        <name lang="de">Leiter in einem Kabel</name>
         <name lang="cs">Pět vodičů, z nichž dva označené jsou v jednom kabelu</name>
+        <name lang="de">Leiter in einem Kabel</name>
         <name lang="en">Conductors in a cable</name>
+        <name lang="fr">Conducteur dans un câble</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="40" y2="-40" y1="-40" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="40" y2="-30" y1="-30" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="40" y2="-50" y1="-50" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="-10" y2="-90" y1="-110" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <line x2="10" y2="-90" y1="-110" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10"/>
-        <arc y="-120" x="-10" antialias="true" height="20" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" start="0"/>
-        <arc y="-100" x="-10" antialias="true" height="20" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="20" start="180"/>
-        <line x2="40" y2="-10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40"/>
-        <line x2="0" y2="-10" y1="-80" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <polygon x2="0" y2="-50" y1="-55" x3="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-55" x1="-5"/>
-        <polygon x2="0" y2="-10" y1="-15" x3="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-15" x1="-5"/>
+        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" y="2.5" z="1" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" uuid="{a65017c8-76d4-4e69-a4db-2ce941a19d65}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-40" x1="-40" x2="40" length1="1.5" end1="none" y1="-40"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-30" x1="-40" x2="40" length1="1.5" end1="none" y1="-30"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-50" x1="-40" x2="40" length1="1.5" end1="none" y1="-50"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-90" x1="-10" x2="-10" length1="1.5" end1="none" y1="-110"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-90" x1="10" x2="10" length1="1.5" end1="none" y1="-110"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-120" height="20" start="0" x="-10" width="20" angle="180"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-100" height="20" start="180" x="-10" width="20" angle="180"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-10" x1="-40" x2="40" length1="1.5" end1="none" y1="-10"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="0" x1="-40" x2="40" length1="1.5" end1="none" y1="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" antialias="false" y2="-10" x1="0" x2="0" length1="1.5" end1="none" y1="-80"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-50" x1="-5" x2="0" x3="5" closed="false" y3="-55" y1="-55"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-10" x1="-5" x2="0" x3="5" closed="false" y3="-15" y1="-15"/>
     </description>
 </definition>

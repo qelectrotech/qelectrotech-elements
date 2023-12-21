@@ -1,27 +1,31 @@
-<definition hotspot_x="64" version="0.70" height="80" hotspot_y="24" width="140" type="element" link_type="simple">
-    <uuid uuid="{0ee4e231-6287-4f80-94bc-123e6e697d22}"/>
+<definition width="140" hotspot_x="64" type="element" height="80" link_type="simple" hotspot_y="25" version="0.100.0">
+    <uuid uuid="{a89ec854-0c47-480c-8705-77d43edc451b}"/>
     <names>
+        <name lang="en">Junction box (single-line representation)</name>
+        <name lang="de">Abzweigmuffe, einpolige Darstellung</name>
         <name lang="fr">Boîte pour une dérivation avec trois
 conducteurs, représentation unifilaire</name>
-        <name lang="de">Abzweigmuffe, einpolige Darstellung</name>
         <name lang="cs">Odbočovací kabelová spojka, jednočárové zobrazení</name>
-        <name lang="en">Junction box (single-line representation)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="45" x="35" rotate="true" text="_" size="9" tagg="label"/>
-        <text y="20" x="13" text="3" size="6"/>
-        <line x2="60" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-60"/>
-        <polygon x2="0" x5="-20" y2="-10" y1="0" x3="20" x4="0" y4="10" antialias="false" y5="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="0" x1="-20"/>
-        <line x2="-30" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50"/>
-        <line x2="50" y2="-10" y1="10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30"/>
-        <text y="-12" x="-30" text="3" size="6"/>
-        <text y="-2" x="60" text="3" size="6"/>
-        <line x2="0" y2="10" y1="50" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0"/>
-        <line x2="10" y2="20" y1="40" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <terminal y="50" x="0" orientation="s"/>
-        <terminal y="10" x="-50" orientation="w"/>
-        <terminal y="10" x="70" orientation="e"/>
+        <dynamic_text rotation="0" uuid="{c028134e-f100-4559-ac0b-be6034a1b9a6}" z="1" y="32.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" Valignment="AlignTop" x="35" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text rotation="0" text="3" y="20" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="13"/>
+        <line length1="1.5" y1="0" y2="0" x2="60" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-60" end2="none"/>
+        <polygon y1="0" y2="-10" y4="10" x2="0" y3="0" x5="-20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="20" y5="0" antialias="false" x1="-20" x4="0"/>
+        <line length1="1.5" y1="10" y2="-10" x2="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-50" end2="none"/>
+        <line length1="1.5" y1="10" y2="-10" x2="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="30" end2="none"/>
+        <text rotation="0" text="3" y="-12" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="-30"/>
+        <text rotation="0" text="3" y="-2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="60"/>
+        <line length1="1.5" y1="50" y2="10" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="0" end2="none"/>
+        <line length1="1.5" y1="40" y2="20" x2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-10" end2="none"/>
+        <terminal name="" uuid="{a715e6b7-cd2f-45d7-b706-fe2d1e033c6e}" type="Generic" y="50" orientation="s" x="0"/>
+        <terminal name="" uuid="{91e84c60-21ff-45c6-972f-79a9d98e3a56}" type="Generic" y="10" orientation="w" x="-50"/>
+        <terminal name="" uuid="{94175434-d1aa-4f26-9001-600af7c32d76}" type="Generic" y="10" orientation="e" x="70"/>
     </description>
 </definition>
