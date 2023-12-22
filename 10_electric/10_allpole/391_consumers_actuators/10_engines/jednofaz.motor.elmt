@@ -1,58 +1,52 @@
-<definition type="element" width="80" link_type="simple" hotspot_x="28" height="80" hotspot_y="57" version="0.100.0">
-    <uuid uuid="{d88c78a4-1e6c-40e1-8004-7a5602c2d7cf}"/>
+<definition hotspot_y="57" height="80" type="element" hotspot_x="28" width="80" version="0.100.0" link_type="simple">
+    <uuid uuid="{e56d636d-d375-4ffb-a5d3-0de004eeae44}"/>
     <names>
-        <name lang="pt">Motor trifásico</name>
-        <name lang="en">One-phase engine</name>
-        <name lang="ar">محرّك ثلاثي الأوجه</name>
         <name lang="ru">Однофазный эл. мотор</name>
-        <name lang="es">Motor trifásico</name>
         <name lang="de">Drehstrom Motor</name>
-        <name lang="pl">Silnik trójfazowy</name>
-        <name lang="it">Motore trifase</name>
+        <name lang="pt">Motor trifásico</name>
+        <name lang="ar">محرّك ثلاثي الأوجه</name>
         <name lang="cs">Jednofázový motor</name>
-        <name lang="nl">Draaistroommotor</name>
+        <name lang="es">Motor trifásico</name>
+        <name lang="pl">Silnik trójfazowy</name>
+        <name lang="en">One-phase engine</name>
+        <name lang="it">Motore trifase</name>
         <name lang="fr">Moteur triphasé</name>
+        <name lang="nl">Draaistroommotor</name>
     </names>
     <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="2" color="#000000" y="-45" rotation="0" text="U2" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
-        <text x="22" color="#000000" y="-45" rotation="0" text="PE" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
-        <text x="-5" color="#000000" y="-2" rotation="0" text="M" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="true"/>
-        <dynamic_text x="-51" keep_visual_rotation="true" y="-11.5" rotation="0" uuid="{3afac6d2-0ab0-4395-883d-25092cbcf9f0}" Halignment="AlignLeft" z="5" text_from="ElementInfo" text_width="-1" Valignment="AlignTop" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <text x="2" color="#000000" y="-45" text="U2" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <polygon x1="20" x3="14" y1="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-15" y2="-23" closed="false" antialias="false" x2="20"/>
+        <text x="22" color="#000000" y="-45" text="PE" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <text x="-5" color="#000000" y="-2" text="M" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <circle x="-20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" antialias="true"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="-51" y="-11.5" keep_visual_rotation="true" z="5" rotation="0" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3afac6d2-0ab0-4395-883d-25092cbcf9f0}" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" end1="none" antialias="false" x1="0" y1="-51" x2="0" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-23" end1="none" antialias="false" x1="-20" y1="-51" x2="-20" end2="none"/>
-        <text x="-8" color="#000000" y="8" rotation="0" text="1 ~" font="Sans Serif,7,-1,5,50,0,0,0,0,0"/>
-        <text x="-18" color="#000000" y="-45" rotation="0" text="U1" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-23" end1="none" antialias="false" x1="20" y1="-45" x2="20" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40" end1="none" antialias="false" x1="-20" y1="-40" x2="40" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-22" end1="none" antialias="false" x1="40" y1="-29" x2="40" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-31" end1="none" antialias="false" x1="40" y1="-40" x2="40" end2="none"/>
-        <circle diameter="2" x="-21" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-41" antialias="false"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-46" end1="none" antialias="false" x1="20" y1="-51" x2="20" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9" end1="none" antialias="true" x1="40" y1="-22" x2="18" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-31" end1="none" antialias="false" x1="35" y1="-31" x2="45" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-29" end1="none" antialias="false" x1="35" y1="-29" x2="45" end2="none"/>
-        <dynamic_text x="-30" keep_visual_rotation="true" y="99" rotation="0" uuid="{82cbe610-484f-4b00-977a-774877ace119}" Halignment="AlignLeft" z="19" text_from="ElementInfo" text_width="-1" Valignment="AlignTop" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <line x1="0" length2="1.5" y1="-50" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="-20" antialias="false" x2="0"/>
+        <text x="-8" color="#000000" y="8" text="1 ~" rotation="0" font="Sans Serif,7,-1,5,50,0,0,0,0,0"/>
+        <text x="-18" color="#000000" y="-45" text="U1" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <circle x="-21" y="-41" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="2" antialias="false"/>
+        <line x1="35" length2="1.5" y1="-31" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="-31" antialias="false" x2="45"/>
+        <line x1="35" length2="1.5" y1="-29" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="-29" antialias="false" x2="45"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="-30" y="99" keep_visual_rotation="true" z="19" rotation="0" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{82cbe610-484f-4b00-977a-774877ace119}" text_width="-1">
             <text></text>
             <info_name>function</info_name>
         </dynamic_text>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" end1="none" antialias="false" x1="-20" y1="-23" x2="-14" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" end1="none" antialias="false" x1="0" y1="-30" x2="0" end2="none"/>
-        <line length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" end1="none" antialias="false" x1="20" y1="-23" x2="14" end2="none"/>
-        <dynamic_text x="-25" keep_visual_rotation="true" y="23" rotation="0" uuid="{786fb0d7-59c9-4f4f-913b-d023822c8ddb}" Halignment="AlignLeft" z="23" text_from="UserText" text_width="-1" Valignment="AlignTop" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <dynamic_text frame="false" Halignment="AlignLeft" x="-25" y="23" keep_visual_rotation="true" z="23" rotation="0" Valignment="AlignTop" text_from="UserText" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{786fb0d7-59c9-4f4f-913b-d023822c8ddb}" text_width="-1">
             <text>0,37kW
 2800 rpm
 2,4A
 230V/50Hz</text>
         </dynamic_text>
-        <terminal x="0" type="Generic" y="-50" uuid="{c85db54b-0416-4e38-aa0e-a61ef4d572d7}" name="" orientation="n"/>
-        <terminal x="-20" type="Generic" y="-50" uuid="{910af916-e6cc-4ec7-b17f-b7e557acba90}" name="" orientation="n"/>
-        <terminal x="20" type="Generic" y="-50" uuid="{6a233a5c-48d4-486e-bb7e-69190a856b3c}" name="" orientation="n"/>
+        <polygon x1="-20" x3="-14" y1="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-15" y2="-23" closed="false" antialias="false" x2="-20"/>
+        <polygon x1="-20" x3="40" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-31" y2="-40" closed="false" antialias="false" x2="40"/>
+        <polygon x1="40" x3="18" y1="-29" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-9" y2="-22" closed="false" antialias="false" x2="40"/>
+        <terminal x="20" y="-50" orientation="n" type="Generic" name="" uuid="{6a233a5c-48d4-486e-bb7e-69190a856b3c}"/>
+        <terminal x="0" y="-50" orientation="n" type="Generic" name="" uuid="{c85db54b-0416-4e38-aa0e-a61ef4d572d7}"/>
+        <terminal x="-20" y="-50" orientation="n" type="Generic" name="" uuid="{910af916-e6cc-4ec7-b17f-b7e557acba90}"/>
     </description>
 </definition>
