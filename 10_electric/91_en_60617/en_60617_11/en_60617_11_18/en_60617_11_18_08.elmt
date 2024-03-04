@@ -1,18 +1,22 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="15" width="50" hotspot_y="15">
-    <uuid uuid="{b2b53552-a26b-45cc-8e15-66a66b538ed1}"/>
+<definition type="element" hotspot_y="15" version="0.100.0" width="50" hotspot_x="15" height="50" link_type="simple">
+    <uuid uuid="{baf52ba0-31b4-44af-afcf-7dff50a64e94}"/>
     <names>
-        <name lang="de">Flugplatzfeuer, weiss, rundstrahlend</name>
         <name lang="fr">Feu aéronautique au sol, faisceau blanc et
 omnidirectionnel (en surface)</name>
+        <name lang="de">Flugplatzfeuer, weiss, rundstrahlend</name>
         <name lang="cs">Letecké pozemní světelné návěstidlo
 bílé a všesměrový svazek</name>
         <name lang="en">Aeronautical ground light, white colour and omni-directional beam, surface</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="55" tagg="label" size="9" x="35" text="_"/>
-        <ellipse height="38" y="-9" antialias="false" width="40" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-5" antialias="false" x="-5" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="42.5" uuid="{e719eea3-3b48-4789-a368-68ebd3097865}" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false" rotation="0" x="35" frame="false" Halignment="AlignLeft" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse width="40" y="-9" antialias="false" x="-10" height="38" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-5" diameter="30" antialias="false" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

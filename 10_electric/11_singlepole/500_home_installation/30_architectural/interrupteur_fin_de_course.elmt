@@ -1,23 +1,27 @@
-<definition hotspot_x="7" hotspot_y="16" height="30" type="element" link_type="simple" width="20" version="0.5">
-    <uuid uuid="{0c564c48-bd72-4d4a-965c-ed9086012af8}"/>
+<definition link_type="simple" width="20" hotspot_x="7" type="element" height="30" version="0.100.0" hotspot_y="16">
+    <uuid uuid="{011ec124-dbec-4b6f-ab64-8fee523894bc}"/>
     <names>
+        <name lang="nl">Eindschakelaar</name>
         <name lang="fr">Interrupteur fin de course</name>
-        <name lang="pl">Łącznik krańcowy</name>
-        <name lang="cs">Koncový spínač</name>
-        <name lang="ar">مفتاح نهاية مشوار</name>
         <name lang="el">Τερματικός διακόπτης</name>
+        <name lang="cs">Koncový spínač</name>
         <name lang="it">Interruttore fine corsa</name>
         <name lang="en">Limit switch</name>
+        <name lang="ar">مفتاح نهاية مشوار</name>
+        <name lang="pl">Łącznik krańcowy</name>
         <name lang="de">Endschalter</name>
-        <name lang="nl">Eindschakelaar</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="true" y2="-9" end1="none" x2="8" length1="1.5" x1="2"/>
-        <input x="5" rotate="true" size="9" text="_" y="1.55" tagg="label"/>
-        <circle x="7.75" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3.5" antialias="true" y="-12.75"/>
-        <circle x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" antialias="true" y="0"/>
-        <terminal x="0" orientation="n" y="0"/>
+        <line end1="none" y2="-9" x1="2" x2="8" antialias="true" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0"/>
+        <dynamic_text y="-10.95" uuid="{e04bf1c0-074b-4cf9-83da-168195794a91}" keep_visual_rotation="false" text_from="ElementInfo" z="2" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" x="5" rotation="0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-12.75" diameter="3.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="7.75"/>
+        <circle y="0" diameter="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5"/>
+        <terminal y="0" uuid="{b40e9163-7a23-4999-b1be-bd35172a7a0d}" orientation="n" type="Generic" name="" x="0"/>
     </description>
 </definition>

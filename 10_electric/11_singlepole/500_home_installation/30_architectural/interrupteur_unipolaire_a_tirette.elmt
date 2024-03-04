@@ -1,22 +1,26 @@
-<definition hotspot_x="11" hotspot_y="15" height="30" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{f00baca5-dcd0-41cd-8361-018bb7df074c}"/>
+<definition link_type="simple" version="0.100.0" hotspot_y="15" height="30" width="30" type="element" hotspot_x="11">
+    <uuid uuid="{abe4fe15-f186-4f61-9e09-0a59b593cc80}"/>
     <names>
-        <name lang="fr">Interrupteur unipolaire à tirette</name>
-        <name lang="pl">Łącznik pociągany</name>
-        <name lang="cs">Tahový vypínač</name>
+        <name lang="nl">Schakelaar met trekkoord</name>
         <name lang="ar">مفتاح أحادي القطب بسحّاب</name>
+        <name lang="pl">Łącznik pociągany</name>
         <name lang="el">Διακόπτης έλξης με κορδόνι</name>
-        <name lang="it">Interruttore unipolare a tirante</name>
+        <name lang="cs">Tahový vypínač</name>
         <name lang="de">Schalter 1-polig mit Zugschnur</name>
         <name lang="en">Pull-cord single pole switch</name>
-        <name lang="nl">Schakelaar met trekkoord</name>
+        <name lang="it">Interruttore unipolare a tirante</name>
+        <name lang="fr">Interrupteur unipolaire à tirette</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-14-09</informations>
     <description>
-        <input x="3" rotate="true" size="9" text="_" y="1.55" tagg="label"/>
-        <polygon y3="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="true" closed="false" y2="-11" x3="12" x2="9" x1="2"/>
-        <line end2="simple" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-10" antialias="false" y2="-5" end1="none" x2="9" length1="1.5" x1="9"/>
-        <circle x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" antialias="true" y="0"/>
-        <terminal x="0" orientation="n" y="0"/>
+        <dynamic_text z="1" frame="false" text_width="-1" rotation="0" Halignment="AlignLeft" y="-10.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b8568842-82ca-4566-ace9-e8f2189a6cf5}" keep_visual_rotation="false" x="3" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="2" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="9" x3="12" closed="false" antialias="true" y2="-11" y3="-9"/>
+        <line x1="9" y1="-10" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="9" antialias="false" end1="none" y2="-5" end2="simple" length1="1.5" length2="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="0" antialias="true" diameter="10" x="-5"/>
+        <terminal y="0" uuid="{5514ed18-9cee-4165-93b3-a0ad69a89d96}" orientation="n" name="" type="Generic" x="0"/>
     </description>
 </definition>

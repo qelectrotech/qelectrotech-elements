@@ -1,18 +1,22 @@
-<definition hotspot_x="14" version="0.70" height="10" hotspot_y="4" width="30" type="element" link_type="simple">
-    <uuid uuid="{5efeb305-fbfc-4f1b-9f1c-af4d4650557d}"/>
+<definition link_type="simple" hotspot_x="14" hotspot_y="4" type="element" version="0.100.0" width="30" height="10">
+    <uuid uuid="{f29eb5ec-7147-428c-b189-316ad13bf4d2}"/>
     <names>
         <name lang="fr">Impression sur Bande</name>
-        <name lang="es">Impresión de banda</name>
+        <name lang="en">Printing, tape</name>
         <name lang="de">Drucken auf einen Streifen </name>
         <name lang="cs">Tisk na pásku</name>
-        <name lang="en">Printing, tape</name>
+        <name lang="es">Impresión de banda</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="10" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <dynamic_text y="2.5" z="1" rotation="0" text_from="ElementInfo" Halignment="AlignLeft" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{6a924aae-bbf9-4ac3-b95f-8f1d4dfb95aa}" keep_visual_rotation="false" Valignment="AlignTop" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-10" y2="0" end2="none" y1="0" length2="1.5" x2="10" length1="1.5"/>
+        <terminal y="0" type="Generic" name="" uuid="{bb7e7bab-406c-483c-93bf-bb7b6dcf7c36}" orientation="w" x="-10"/>
+        <terminal y="0" type="Generic" name="" uuid="{5aff775e-6d0e-4ec1-9bae-69e042dea6c5}" orientation="e" x="10"/>
     </description>
 </definition>

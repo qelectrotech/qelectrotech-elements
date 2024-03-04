@@ -1,24 +1,28 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="13">
-    <uuid uuid="{f61cab44-59d5-4439-8ac3-961dabbecdf5}"/>
+<definition hotspot_x="14" type="element" link_type="simple" hotspot_y="13" height="20" version="0.100.0" width="30">
+    <uuid uuid="{36d639ec-dbef-4a3a-be78-957815f472c7}"/>
     <names>
-        <name lang="cs">Elektrický uzávěr 2V</name>
         <name lang="pl">Elektrozawór dwudrożny</name>
-        <name lang="it">Elettrovalvola 2vie acqua sanitaria</name>
-        <name lang="en">Solenoid 2V "health"</name>
-        <name lang="nl">Elketrische klep sanitair 2</name>
-        <name lang="ar">صمّام كهربائي 2V "صحي"</name>
-        <name lang="fr">Electro-vanne 2V "sanitaire"</name>
         <name lang="es">Solenoide 2V  "salud "</name>
+        <name lang="nl">Elketrische klep sanitair 2</name>
+        <name lang="it">Elettrovalvola 2vie acqua sanitaria</name>
+        <name lang="cs">Elektrický uzávěr 2V</name>
+        <name lang="ar">صمّام كهربائي 2V "صحي"</name>
+        <name lang="en">Solenoid 2V "health"</name>
+        <name lang="fr">Electro-vanne 2V "sanitaire"</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-7" x4="1" x6="3" antialias="false" y6="-7" y5="-7" y1="-7" x1="-3" closed="false" x3="-1" y3="-9" y4="-9" x2="-1" x5="1"/>
-        <input tagg="label" rotate="true" size="9" y="-21.5" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="0" x2="0"/>
-        <rect width="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-11" x="-4" height="6"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" x4="0" x6="8" antialias="true" y7="0" y6="4" y5="-4" y1="0" x1="0" x3="-8" y3="4" y4="0" x2="-8" x5="8" x7="0"/>
-        <terminal y="0" x="-8" orientation="w"/>
-        <terminal y="0" x="8" orientation="e"/>
+        <polygon closed="false" x2="-1" y3="-9" x5="1" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-7" y6="-7" x1="-3" x6="3" x3="-1" y1="-7" x4="1" y4="-9" y5="-7"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{7affb0e5-3791-4401-9d5b-481a4b236c4e}" y="-34" keep_visual_rotation="false" frame="false" text_from="ElementInfo" Valignment="AlignTop" x="-7" z="2" text_width="-1" rotation="0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="0" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="0" end2="none" length2="1.5" y1="-5"/>
+        <rect y="-11" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4" height="6" ry="0" rx="0" width="8"/>
+        <polygon x2="-8" y7="0" y3="4" x5="8" antialias="true" x7="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" y6="4" x1="0" x6="8" x3="-8" y1="0" x4="0" y4="0" y5="-4"/>
+        <terminal uuid="{50b980d1-f574-4754-b3c9-2b4a5d636cc1}" y="0" type="Generic" x="-8" orientation="w" name=""/>
+        <terminal uuid="{edea771f-8d01-406e-8b8a-bfed91310db7}" y="0" type="Generic" x="8" orientation="e" name=""/>
     </description>
 </definition>

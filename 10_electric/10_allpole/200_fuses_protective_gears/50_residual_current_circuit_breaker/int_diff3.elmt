@@ -1,44 +1,51 @@
-<definition width="70" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" link_type="master">
-<uuid uuid="{6874B5D9-0E30-4FE3-B1D9-CFC20B32ADBC}"/><names>
+<definition width="40" hotspot_y="29" version="0.100.0" type="element" hotspot_x="11" link_type="master" height="60">
+    <uuid uuid="{3cd9a5a6-c1fe-4fc8-8ed9-598a87279f5f}"/>
+    <names>
+        <name lang="en">Differential switch</name>
+        <name lang="hu">Hibaáram-védőkapcsoló 3P</name>
+        <name lang="es">Interruptor diferencial</name>
+        <name lang="nl">Aardlekschakelaar</name>
         <name lang="ar">مفتاح تفاضلي</name>
         <name lang="de">Fehlerstromschutzschalter 3P</name>
-        <name lang="ru">УЗО</name>
-        <name lang="pt">Interruptor diferencial</name>
-        <name lang="en">Differential switch</name>
-        <name lang="it">Interruttore differenziale</name>
-        <name lang="fr">Interrupteur différentiel</name>
-        <name lang="pl">Rozłącznik różnicowoprądowy</name>
-        <name lang="es">Interruptor diferencial</name>
         <name lang="cs">Proudový chránič 3P</name>
-        <name lang="nl">Aardlekschakelaar</name>
-        <name lang="hu">Hibaáram-védőkapcsoló 3P</name>
+        <name lang="ru">УЗО</name>
+        <name lang="it">Interruttore differenziale</name>
+        <name lang="pl">Rozłącznik różnicowoprądowy</name>
+        <name lang="fr">Interrupteur différentiel</name>
+        <name lang="pt">Interruptor diferencial</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="0" y2="20" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-5" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="10" y2="-10" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="10" y2="20" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="5" y2="10" x2="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="20" y2="-10" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" x1="20" y2="20" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="15" y2="10" x2="20"/>
-        <input x="25" y="-3" size="9" text="_" tagg="label"/>
-        <ellipse width="30" x="-5" y="13" antialias="true" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-8" y2="0" x2="17"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="15" x1="-6" y2="15" x2="-8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" x1="-8" y2="15" x2="-8"/>
-        <input x="29" y="14" size="5" rotate="true" text="___mA"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
-        <terminal x="10" y="-21" orientation="n"/>
-        <terminal x="10" y="21" orientation="s"/>
-        <terminal x="20" y="-21" orientation="n"/>
-        <terminal x="20" y="21" orientation="s"/>
+        <line x2="0" y1="-20" length2="1.5" end2="none" x1="0" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line x2="0" y1="10" length2="1.5" end2="none" x1="0" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+        <line x2="0" y1="-10" length2="1.5" end2="none" x1="-5" length1="1.5" end1="none" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <line x2="10" y1="-20" length2="1.5" end2="none" x1="10" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line x2="10" y1="10" length2="1.5" end2="none" x1="10" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+        <line x2="10" y1="-10" length2="1.5" end2="none" x1="5" length1="1.5" end1="none" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <line x2="20" y1="-20" length2="1.5" end2="none" x1="20" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line x2="20" y1="10" length2="1.5" end2="none" x1="20" length1="1.5" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+        <line x2="20" y1="-10" length2="1.5" end2="none" x1="15" length1="1.5" end1="none" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" y="-15.5" z="10" keep_visual_rotation="false" uuid="{a666c833-2009-4d19-9476-b9ce7250e5d4}" x="25" frame="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <ellipse width="30" y="13" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" height="4"/>
+        <line x2="17" y1="0" length2="1.5" end2="none" x1="-8" length1="1.5" end1="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0"/>
+        <line x2="-8" y1="15" length2="1.5" end2="none" x1="-6" length1="1.5" end1="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="15"/>
+        <line x2="-8" y1="0" length2="1.5" end2="none" x1="-8" length1="1.5" end1="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="15"/>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" text_from="UserText" Valignment="AlignTop" y="4.5" z="15" keep_visual_rotation="false" uuid="{7c2b3313-7197-4500-b0e7-563372d42244}" x="29" frame="false" Halignment="AlignLeft">
+            <text>___mA</text>
+        </dynamic_text>
+        <terminal orientation="n" y="-21" name="" type="Generic" uuid="{6cdcb917-639f-4479-ac9a-404b300f807c}" x="0"/>
+        <terminal orientation="s" y="21" name="" type="Generic" uuid="{204f1413-4ea5-4f2f-a5cb-251065b1e91d}" x="0"/>
+        <terminal orientation="n" y="-21" name="" type="Generic" uuid="{80c446de-14cc-433e-8e98-225e46ded6f6}" x="10"/>
+        <terminal orientation="s" y="21" name="" type="Generic" uuid="{ef436db0-0f0a-4506-b1fd-0b2e1da1bf43}" x="10"/>
+        <terminal orientation="n" y="-21" name="" type="Generic" uuid="{f9551583-4b9e-437f-8946-57efc99c5152}" x="20"/>
+        <terminal orientation="s" y="21" name="" type="Generic" uuid="{2de10457-9ffb-4e29-a5de-5dd31dea93b1}" x="20"/>
     </description>
 </definition>

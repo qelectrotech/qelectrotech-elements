@@ -1,24 +1,28 @@
-<definition hotspot_x="16" hotspot_y="19" height="50" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{2b315cff-241a-44a6-b789-76322bb451ac}"/>
+<definition hotspot_y="19" width="40" type="element" link_type="simple" version="0.100.0" hotspot_x="16" height="40">
+    <uuid uuid="{b3d90fb4-6299-4463-9496-243baa8787e6}"/>
     <names>
-        <name lang="fr">Socle de prise de courant (2)  (EN 60617 11-13-01)</name>
-        <name lang="pl">Gniazdo dwubiegunowe (EN 60617: 11-13-01)</name>
-        <name lang="cs">Dvojitá zásuvka</name>
         <name lang="ar">قاعدة مقبس تيّار (2) (EN 60617 11-13=01)</name>
-        <name lang="el">Ρευματοδότης διπλός</name>
+        <name lang="pl">Gniazdo dwubiegunowe (EN 60617: 11-13-01)</name>
         <name lang="it">Presa multipla 2x (EN 60617 11-13-01)</name>
-        <name lang="de">Mehrfachsteckdose (2) (EN 60617 11-13-01)</name>
         <name lang="en">2 electrical socket (EN 60617 11-13-01)</name>
+        <name lang="el">Ρευματοδότης διπλός</name>
+        <name lang="cs">Dvojitá zásuvka</name>
         <name lang="nl">Wandcontactdoos (2) (EN 60617 11-13-01)</name>
+        <name lang="fr">Socle de prise de courant (2)  (EN 60617 11-13-01)</name>
+        <name lang="de">Mehrfachsteckdose (2) (EN 60617 11-13-01)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="3" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <arc x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="true" start="-180" y="6.5" angle="-180" width="20"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="6" antialias="false" y2="-9" end1="none" x2="0" length1="1.5" x1="0"/>
-        <text x="11" size="7" text="2" y="7"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="6" antialias="true" y2="12" end1="none" x2="1" length1="1.5" x1="9"/>
-        <terminal x="0" orientation="n" y="-14"/>
+        <dynamic_text Valignment="AlignTop" text_from="ElementInfo" x="3" z="1" frame="false" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" uuid="{926b0a7c-52e7-402e-8381-620b013f6c7c}" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-21.95">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" start="-180" angle="-180" width="20" antialias="true" y="6.5" height="20"/>
+        <line y1="6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length1="1.5" length2="1.5" x1="0" antialias="false" x2="0" y2="-9"/>
+        <text x="11" text="2" color="#000000" font="Sans Serif,7,-1,5,50,0,0,0,0,0" rotation="0" y="7"/>
+        <line y1="6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" length1="1.5" length2="1.5" x1="9" antialias="true" x2="1" y2="12"/>
+        <terminal x="0" type="Generic" uuid="{ed5e4c9f-603c-433f-9561-fdf081b5a455}" orientation="n" name="" y="-14"/>
     </description>
 </definition>

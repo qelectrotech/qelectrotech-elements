@@ -1,34 +1,37 @@
-<definition width="90" hotspot_x="45" type="element" link_type="simple" version="0.5" height="70" hotspot_y="39">
-    <uuid uuid="{d5225de9-1d96-48ba-85c6-aa465047fde5}"/>
+<definition height="80" version="0.100.0" width="90" link_type="simple" hotspot_y="44" type="element" hotspot_x="45">
+    <uuid uuid="{6ad54f73-31c3-400e-9d8c-9997b7202d07}"/>
     <names>
         <name lang="cs">A nepřímý výměník A</name>
         <name lang="pl">A wymiennik pośredni</name>
         <name lang="it">A Scambio indiretto</name>
+        <name lang="fr">A échange indirecte</name>
         <name lang="en">A indirect exchange</name>
         <name lang="nl">type A wisselaar indirect</name>
-        <name lang="ar">تبادل غير مباشر</name>
-        <name lang="fr">A échange indirecte</name>
         <name lang="es">A intercambio indirecto</name>
-
+        <name lang="ar">تبادل غير مباشر</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-39.45" x="-7" text="_"/>
-        <text size="9" y="-23" x="-42" text="A"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="21" x4="24" antialias="true" y1="24" x1="24" x3="27" y3="27" y4="24" x2="27"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" x4="-28" antialias="true" y1="10" x1="-28" x3="-25" y3="13" y4="10" x2="-25"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8" y="20" x="22"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8" y="6" x="-30"/>
-        <rect width="32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-30" x="-16" height="59"/>
-        <polygon y3="9" x7="23" closed="false" y8="24" x8="23" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x6="43" y4="14" x1="23" x4="43" y6="24" x5="33" y5="19" y2="4" x2="43" x3="33" y7="24" y1="4"/>
-        <text size="4" y="2" x="-35" text="solaire"/>
-        <text size="4" y="16" x="18" text="chauff."/>
-        <text size="4" y="-11" x="21" text="ECS"/>
-        <text size="4" y="-21" x="-14" text="ballon"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x4="-43" x6="-43" antialias="true" y7="10" y6="10" y5="5" y1="-10" x1="-23" closed="false" x3="-33" y3="-5" y4="0" x2="-43" x5="-33" x7="-23"/>
-        <polygon y3="-5" x7="-22" closed="false" y8="10" x8="-22" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x6="-2" y4="0" x1="-22" x4="-2" y6="10" x5="-12" y5="5" y2="-10" x2="-2" x3="-12" y7="10" y1="-10"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" x4="3" x6="3" antialias="true" y7="24" y6="24" y5="19" y1="4" x1="23" closed="false" x3="13" y3="9" y4="14" x2="3" x5="13" x7="23"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-24" x4="3" x6="3" antialias="true" y7="-4" y6="-4" y5="-9" y1="-24" x1="23" closed="false" x3="13" y3="-19" y4="-14" x2="3" x5="13" x7="23"/>
+        <dynamic_text text_from="ElementInfo" rotation="0" x="-7" Halignment="AlignLeft" z="1" keep_visual_rotation="false" text_width="-1" uuid="{ba724574-564a-4634-bc3f-201883f1de62}" y="-51.95" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text rotation="0" x="-42" y="-23" text="A" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <polygon x4="24" y1="24" x2="27" y4="24" antialias="true" x1="24" y2="21" y3="27" x3="27" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="-28" y1="10" x2="-25" y4="10" antialias="true" x1="-28" y2="7" y3="13" x3="-25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="8" x="22" antialias="true" y="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="8" x="-30" antialias="true" y="6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="59" x="-16" width="32" antialias="false" rx="0" y="-30" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y5="19" y4="14" y7="24" x3="33" x8="23" y3="9" x1="23" x6="43" closed="false" x2="43" y2="4" x7="23" x4="43" y1="4" y8="24" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y6="24" x5="33"/>
+        <text rotation="0" x="-35" y="2" text="solaire" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" x="18" y="16" text="chauff." color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" x="21" y="-11" text="ECS" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" x="-14" y="-21" text="ballon" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <polygon x4="-43" y1="-10" x2="-43" y4="0" x5="-33" antialias="true" y5="5" x7="-23" y6="10" x6="-43" y7="10" x1="-23" y2="-10" y3="-5" closed="false" x3="-33" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y5="5" y4="0" y7="10" x3="-12" x8="-22" y3="-5" x1="-22" x6="-2" closed="false" x2="-2" y2="-10" x7="-22" x4="-2" y1="-10" y8="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y6="10" x5="-12"/>
+        <polygon x4="3" y1="4" x2="3" y4="14" x5="13" antialias="true" y5="19" x7="23" y6="24" x6="3" y7="24" x1="23" y2="4" y3="9" closed="false" x3="13" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="3" y1="-24" x2="3" y4="-14" x5="13" antialias="true" y5="-9" x7="23" y6="-4" x6="3" y7="-4" x1="23" y2="-24" y3="-19" closed="false" x3="13" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

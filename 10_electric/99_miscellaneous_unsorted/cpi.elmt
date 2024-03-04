@@ -1,29 +1,33 @@
-<definition width="50" link_type="simple" version="0.5" hotspot_x="36" height="60" hotspot_y="29" type="element">
-    <uuid uuid="{679e4e7e-d987-45c7-98bc-4014aa7da334}"/>
+<definition type="element" width="50" hotspot_x="36" version="0.100.0" height="60" hotspot_y="29" link_type="simple">
+    <uuid uuid="{a3521cbf-8f5c-46d8-bd77-b5d1060f887f}"/>
     <names>
-        <name lang="pt">Dispositivo de guarda de isolamento</name>
-        <name lang="es">Aparato de vigilencia de aislamiento</name>
-        <name lang="nl">Isolatiebewaking</name>
-        <name lang="de">Isolationsüberwachung (ICC)</name>
-        <name lang="cs">Kontrola izolačního stavu</name>
-        <name lang="pl">UKSI</name>
-        <name lang="it">Controllo isolamento</name>
-        <name lang="ar">مراقب دائم للعزل</name>
-        <name lang="en">Guard isolation</name>
         <name lang="fr">CPI</name>
+        <name lang="pt">Dispositivo de guarda de isolamento</name>
+        <name lang="pl">UKSI</name>
+        <name lang="de">Isolationsüberwachung (ICC)</name>
+        <name lang="en">Guard isolation</name>
         <name lang="ru">Контроль изоляции</name>
+        <name lang="cs">Kontrola izolačního stavu</name>
+        <name lang="ar">مراقب دائم للعزل</name>
+        <name lang="nl">Isolatiebewaking</name>
+        <name lang="es">Aparato de vigilencia de aislamiento</name>
+        <name lang="it">Controllo isolamento</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" x2="5" x1="3" x3="0" y2="-5" y3="-3" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="0"/>
-        <input x="13" y="5.55" tagg="label" size="9" rotate="true" text="_"/>
-        <circle x="-9" antialias="true" y="-9" diameter="18" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="4" end2="none" x1="-5" end1="none" y2="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5"/>
-        <text x="-31.5" y="4.75" size="9" text="CPI"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="9.5"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="-9.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
-        <terminal x="0" y="21" orientation="s"/>
-        <terminal x="0" y="-21" orientation="n"/>
+        <polygon x2="5" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="0" antialias="true" y2="-5" y3="-3" x1="3" y1="0"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" x="13" uuid="{d4b4ff03-d2f0-4d99-9dee-7f5bee1fc470}" keep_visual_rotation="false" rotation="0" y="-6.95" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-9" y="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="18"/>
+        <line end1="none" end2="none" x2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" y2="-4" length1="1.5" x1="-5" y1="5"/>
+        <text x="-31.5" rotation="0" y="4.75" color="#000000" text="CPI" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <line end1="none" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" y2="20" length1="1.5" x1="0" y1="9.5"/>
+        <line end1="none" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" y2="-9.5" length1="1.5" x1="0" y1="-20"/>
+        <terminal type="Generic" name="" x="0" uuid="{b94d18f8-9ad7-4c6a-a10c-1edd09d97b4f}" y="21" orientation="s"/>
+        <terminal type="Generic" name="" x="0" uuid="{fdc849e2-24c2-4da0-8749-c89aab1818c9}" y="-21" orientation="n"/>
     </description>
 </definition>

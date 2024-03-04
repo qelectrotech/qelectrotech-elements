@@ -1,22 +1,26 @@
-<definition link_type="simple" version="0.70" hotspot_x="17" hotspot_y="44" type="element" height="50" width="30">
-    <uuid uuid="{4b31bb17-99c6-4040-9694-7586e98d1463}"/>
+<definition height="50" type="element" hotspot_x="17" hotspot_y="44" link_type="simple" width="30" version="0.100.0">
+    <uuid uuid="{b2c49357-858d-4597-a35f-a8b55220f074}"/>
     <names>
+        <name lang="de">Abschalt-Thyristortriode, allgemein</name>
+        <name lang="en">Turn-off thyristor, gate not specified</name>
         <name lang="fr">Thyristor triode blocable, gâchette non
 spécifiée</name>
-        <name lang="de">Abschalt-Thyristortriode, allgemein</name>
         <name lang="cs">Vypínací tyristor, nespecifikované hradlo</name>
-        <name lang="en">Turn-off thyristor, gate not specified</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="none" x1="-5" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-15" y2="-20" antialias="false"/>
-        <line end1="none" end2="none" x1="-12" y1="-24" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="-12" y2="-16" antialias="false"/>
-        <terminal orientation="s" y="0" x="0"/>
-        <terminal orientation="n" y="-40" x="0"/>
+        <dynamic_text rotation="0" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" z="1" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" y="2.5" uuid="{8900cbfa-5804-4c30-ba39-6961f3b7e55a}" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="0" length2="1.5" y2="0" end1="none" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y1="-40"/>
+        <line x1="-10" length2="1.5" y2="-10" end1="none" antialias="false" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y1="-10"/>
+        <polygon x1="-10" y2="-30" x3="0" closed="false" y4="-30" antialias="false" x2="10" y3="-10" x4="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30"/>
+        <line x1="-5" length2="1.5" y2="-20" end1="none" antialias="false" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y1="-20"/>
+        <line x1="-12" length2="1.5" y2="-16" end1="none" antialias="false" x2="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" y1="-24"/>
+        <terminal type="Generic" x="0" name="" orientation="s" y="0" uuid="{0a486b5d-f8b0-4136-b6d2-2718288253f7}"/>
+        <terminal type="Generic" x="0" name="" orientation="n" y="-40" uuid="{464b0a79-1779-412d-8a9a-588160c59ada}"/>
     </description>
 </definition>

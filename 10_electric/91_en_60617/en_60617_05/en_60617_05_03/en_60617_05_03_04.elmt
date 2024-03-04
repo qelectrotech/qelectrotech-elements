@@ -1,24 +1,28 @@
-<definition link_type="simple" version="0.70" hotspot_x="15" hotspot_y="44" type="element" height="50" width="40">
-    <uuid uuid="{0497ec2f-8942-4c6e-9e4b-7c327302fc0b}"/>
+<definition height="50" version="0.100.0" link_type="simple" hotspot_y="44" width="40" type="element" hotspot_x="15">
+    <uuid uuid="{79572dd0-21dd-4256-8980-afd8117961b8}"/>
     <names>
-        <name lang="fr">Diode à capacité variable
-Varactor</name>
         <name lang="de">Kapazitätsdiode</name>
         <name lang="cs">Kapacitní dioda (varaktor)</name>
         <name lang="en">Variable capacitance diode; Varactor</name>
+        <name lang="fr">Diode à capacité variable
+Varactor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="none" x1="16" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="16" y2="-22" antialias="false"/>
-        <line end1="none" end2="none" x1="12" y1="-22" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-22" antialias="false"/>
-        <line end1="none" end2="none" x1="12" y1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="20" y2="-18" antialias="false"/>
-        <line end1="none" end2="none" x1="16" y1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="16" y2="-10" antialias="false"/>
-        <terminal orientation="n" y="-40" x="0"/>
-        <terminal orientation="s" y="0" x="0"/>
+        <dynamic_text keep_visual_rotation="false" z="1" rotation="0" uuid="{8cdae266-fecd-431a-9cef-4d3f92bdd6c1}" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" y="2.5" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" y2="0" antialias="false" x1="0" length1="1.5" end2="none" y1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
+        <line length2="1.5" y2="-10" antialias="false" x1="-10" length1="1.5" end2="none" y1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10"/>
+        <polygon closed="false" y4="-30" y2="-30" antialias="false" x1="-10" y1="-30" y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" x2="10" x3="0"/>
+        <line length2="1.5" y2="-22" antialias="false" x1="16" length1="1.5" end2="none" y1="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="16"/>
+        <line length2="1.5" y2="-22" antialias="false" x1="12" length1="1.5" end2="none" y1="-22" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20"/>
+        <line length2="1.5" y2="-18" antialias="false" x1="12" length1="1.5" end2="none" y1="-18" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20"/>
+        <line length2="1.5" y2="-10" antialias="false" x1="16" length1="1.5" end2="none" y1="-18" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="16"/>
+        <terminal uuid="{47deb9c0-811a-40ec-a3f4-d4432e3b86cf}" name="" orientation="n" type="Generic" y="-40" x="0"/>
+        <terminal uuid="{2a0be090-af67-413d-9010-d255fafb37c9}" name="" orientation="s" type="Generic" y="0" x="0"/>
     </description>
 </definition>

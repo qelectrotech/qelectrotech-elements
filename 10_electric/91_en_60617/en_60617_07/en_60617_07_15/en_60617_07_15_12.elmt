@@ -1,24 +1,28 @@
-<definition type="element" width="70" height="50" hotspot_y="24" hotspot_x="45" version="0.70" link_type="simple">
-    <uuid uuid="{9ead7fd0-7237-45b6-9354-4dc5761f8759}"/>
+<definition hotspot_y="24" type="element" hotspot_x="45" link_type="simple" height="50" width="70" version="0.100.0">
+    <uuid uuid="{23d88036-bd75-4e40-a171-245cef34783d}"/>
     <names>
         <name lang="de">elektromechanischer Antrieb eines
 Wechselstromrelais</name>
+        <name lang="cs">Cívka přístroje na střídavý proud</name>
         <name lang="fr">Organe de commande d'un relais à courant
 alternatif</name>
-        <name lang="cs">Cívka přístroje na střídavý proud</name>
         <name lang="en">Relay coil of an alternating current relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <rect antialias="false" width="40" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-20"/>
-        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
-        <rect antialias="false" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-40"/>
-        <arc antialias="true" width="8" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" start="0" angle="180" x="-38"/>
-        <arc antialias="true" width="8" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2.5" start="0" angle="-180" x="-30"/>
-        <terminal orientation="n" y="-20" x="0"/>
-        <terminal orientation="s" y="20" x="0"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" text_from="ElementInfo" rotation="0" uuid="{0990a9a0-1de3-4a2b-af84-e218c0cbbd6f}" y="12.5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" height="20" y="-10" ry="0" width="40" x="-20" antialias="false"/>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" x2="0" y1="-20" end2="none" length1="1.5" y2="-10" antialias="false"/>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" x2="0" y1="10" end2="none" length1="1.5" y2="20" antialias="false"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" height="20" y="-10" ry="0" width="20" x="-40" antialias="false"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" start="0" angle="180" y="-2.5" width="8" x="-38" antialias="true"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" start="0" angle="-180" y="-2.5" width="8" x="-30" antialias="true"/>
+        <terminal orientation="n" type="Generic" uuid="{165ffcc9-e707-4c2c-8b5e-73593705c1f0}" y="-20" name="" x="0"/>
+        <terminal orientation="s" type="Generic" uuid="{81f63ad4-df27-468b-a5a5-8f6145c345d9}" y="20" name="" x="0"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition width="50" height="50" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="45">
-    <uuid uuid="{a2b761e1-a612-4a15-a9ac-0ce9f3db9039}"/>
+<definition hotspot_y="45" type="element" width="50" height="50" hotspot_x="25" version="0.100.0" link_type="simple">
+    <uuid uuid="{35316296-8485-4b1e-8c82-8ea1160a5ad9}"/>
     <names>
-        <name lang="de">Hauptuhr</name>
         <name lang="fr">Horloge - mère</name>
-        <name lang="cs">Řídicí hodiny</name>
+        <name lang="de">Hauptuhr</name>
         <name lang="en">Master clock</name>
+        <name lang="cs">Řídicí hodiny</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <line y2="-20" length1="1.5" y1="-20" length2="1.5" x1="-14" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-36" length1="1.5" y1="-20" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <circle diameter="36" x="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-38" antialias="false"/>
+        <dynamic_text rotation="0" z="1" y="12.5" uuid="{5ddb2b15-9061-4977-ade2-fb70295c37c8}" Halignment="AlignLeft" frame="false" x="5" text_from="ElementInfo" Valignment="AlignTop" keep_visual_rotation="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false" x="-20"/>
+        <line y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-14" length2="1.5" y2="-20" end2="none" length1="1.5" end1="none"/>
+        <line y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length2="1.5" y2="-36" end2="none" length1="1.5" end1="none"/>
+        <circle diameter="36" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-38" antialias="false" x="-18"/>
     </description>
 </definition>

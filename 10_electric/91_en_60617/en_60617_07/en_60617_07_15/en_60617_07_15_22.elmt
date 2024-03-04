@@ -1,24 +1,28 @@
-<definition type="element" width="50" height="50" hotspot_y="24" hotspot_x="25" version="0.70" link_type="simple">
-    <uuid uuid="{3a0ef35a-fbde-4f69-b56a-140a68901f8e}"/>
+<definition hotspot_y="24" type="element" width="50" version="0.100.0" link_type="simple" hotspot_x="25" height="50">
+    <uuid uuid="{473e982a-f472-4e86-96e0-97402e398b61}"/>
     <names>
+        <name lang="en">Operating device of an electronic relay</name>
         <name lang="de">elektromechanischer Antrieb eines
 elektronischen Relais</name>
         <name lang="fr">Organe de commande d'un relais électronique</name>
         <name lang="cs">Popudový článek elektronického relé</name>
-        <name lang="en">Operating device of an electronic relay</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <rect antialias="false" width="40" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-20"/>
-        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="-10" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="-7" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="7" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="-3" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-7" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="4" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="7" end1="none" length1="1.5" length2="1.5"/>
-        <terminal orientation="n" y="-20" x="0"/>
-        <terminal orientation="s" y="20" x="0"/>
+        <dynamic_text uuid="{86b7a216-9f6c-4754-af09-85027a88d04b}" z="1" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" y="12.5" text_width="-1" frame="false" keep_visual_rotation="false" rotation="0" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect rx="0" antialias="false" width="40" ry="0" y="-10" x="-20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="-20" antialias="false" x2="0" y2="-10" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="10" antialias="false" x2="0" y2="20" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="0" antialias="false" x2="0" y2="0" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="-7" antialias="false" x2="0" y2="7" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="-3" antialias="false" x2="10" y2="-7" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" end2="none" length2="1.5" y1="4" antialias="false" x2="10" y2="7" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="n" uuid="{f9155f57-a052-43dc-9e67-d702ec11063b}" name="" type="Generic" y="-20" x="0"/>
+        <terminal orientation="s" uuid="{2cde2854-5b3c-4dbc-b463-8a6a040e4e72}" name="" type="Generic" y="20" x="0"/>
     </description>
 </definition>

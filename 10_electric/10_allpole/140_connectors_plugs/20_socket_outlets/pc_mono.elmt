@@ -1,30 +1,34 @@
-<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="50" hotspot_y="23" type="element">
-    <uuid uuid="{4288f955-7b7d-4baf-858a-5a97c21a5447}"/>
+<definition version="0.100.0" link_type="simple" hotspot_x="15" width="30" type="element" height="50" hotspot_y="23">
+    <uuid uuid="{8fb53e63-a269-4028-b24e-a83e9acc6e08}"/>
     <names>
-        <name lang="nl">Contact AC + aarde</name>
-        <name lang="de">Steckdose 3-polig</name>
-        <name lang="cs">Zásuvka jednofázová</name>
         <name lang="pl">Gniazdo wtyczkowe</name>
+        <name lang="nl">Contact AC + aarde</name>
+        <name lang="cs">Zásuvka jednofázová</name>
+        <name lang="de">Steckdose 3-polig</name>
         <name lang="it">Presa monofase</name>
+        <name lang="fr">PC mono</name>
         <name lang="ar">مقبس أحادي الوجه</name>
+        <name lang="hu">F + N + PE csatlakozó aljzat</name>
         <name lang="en">Outlet 3 poles</name>
         <name lang="es">Toma corriente 3P</name>
-        <name lang="fr">PC mono</name>
-        <name lang="hu">F + N + PE csatlakozó aljzat</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="13" y="-5.45" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="0" end2="none" x1="0" end1="none" y2="16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7"/>
-        <circle x="-10.0499" antialias="true" y="-10.0499" diameter="20.0998" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="-6" end2="none" x1="-6" end1="none" y2="-14" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8"/>
-        <circle x="-6" antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-2" antialias="true" y="3" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="6" end2="none" x1="6" end1="none" y2="-14" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8"/>
-        <circle x="2" antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-6" y="-15" orientation="n"/>
-        <terminal x="6" y="-15" orientation="n"/>
-        <terminal x="0" y="17" orientation="s"/>
+        <dynamic_text Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-17.95" uuid="{2b88f4ae-f822-4c12-bb99-6b61a8822fbd}" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" z="1" x="13" frame="false" rotation="0" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" antialias="false" length2="1.5" x1="0" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="7" x2="0" y2="16"/>
+        <circle antialias="true" y="-10.0499" diameter="20.0998" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10.0499"/>
+        <line end2="none" antialias="false" length2="1.5" x1="-6" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x2="-6" y2="-14"/>
+        <circle antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-6"/>
+        <circle antialias="true" y="3" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2"/>
+        <line end2="none" antialias="false" length2="1.5" x1="6" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" x2="6" y2="-14"/>
+        <circle antialias="true" y="-6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x="2"/>
+        <terminal y="-15" uuid="{a678e055-e8e7-4241-8267-8426f1d8497f}" orientation="n" x="-6" type="Generic" name=""/>
+        <terminal y="-15" uuid="{f9814f9c-9e57-4a8e-bce5-7d721bdb44c3}" orientation="n" x="6" type="Generic" name=""/>
+        <terminal y="17" uuid="{e82e2c68-8aee-4b06-8ac4-68f5abc1a99b}" orientation="s" x="0" type="Generic" name=""/>
     </description>
 </definition>

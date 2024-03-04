@@ -1,24 +1,28 @@
-<definition type="element" width="40" height="50" hotspot_y="24" hotspot_x="25" version="0.70" link_type="simple">
-    <uuid uuid="{b4abef7b-ce29-458a-b8c1-f985676457fa}"/>
+<definition version="0.100.0" link_type="simple" width="40" height="50" hotspot_x="25" hotspot_y="24" type="element">
+    <uuid uuid="{5f5c0fee-9c59-49d2-bebd-10142ff2302a}"/>
     <names>
+        <name lang="cs">Symetrická jistící výbojka</name>
+        <name lang="fr">Tube, à gaz limiteur de tension, symmétrique</name>
         <name lang="de">Überspannungsableiter in einer
 Gasentladungsröhre, symmetrisch</name>
-        <name lang="fr">Tube, à gaz limiteur de tension, symmétrique</name>
-        <name lang="cs">Symetrická jistící výbojka</name>
         <name lang="en">Protective gas discharge tube, symmetric</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" text="_" tagg="label" y="25" rotate="true" x="5"/>
-        <line antialias="false" x1="0" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-5" end1="none" length1="1.5" length2="1.5"/>
-        <line antialias="false" x1="0" y1="5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="20" end1="none" length1="1.5" length2="1.5"/>
-        <polygon y4="-8" antialias="false" x1="-2" y1="-8" x2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-8" x4="-2" x3="0" y3="-2"/>
-        <polygon y4="8" antialias="false" x1="-2" y1="8" x2="0" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="2" x4="-2" x3="2" y3="8"/>
-        <circle antialias="false" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" x="-10"/>
-        <circle antialias="false" diameter="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y="3" x="5"/>
-        <line antialias="false" x1="0" y1="0" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" length1="1.5" length2="1.5"/>
-        <terminal orientation="s" y="20" x="0"/>
-        <terminal orientation="n" y="-20" x="0"/>
+        <dynamic_text x="5" text_from="ElementInfo" y="12.5" Valignment="AlignTop" frame="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{f03a1172-7b48-49bf-b7c0-e81e01cf7399}" keep_visual_rotation="false" Halignment="AlignLeft" rotation="0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length1="1.5" y2="-5" x2="0" end2="none" length2="1.5" end1="none" y1="-20"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length1="1.5" y2="20" x2="0" end2="none" length2="1.5" end1="none" y1="5"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y4="-8" x1="-2" y2="-8" x2="2" x4="-2" x3="0" y3="-2" y1="-8"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y4="8" x1="-2" y2="2" x2="0" x4="-2" x3="2" y3="8" y1="8"/>
+        <circle x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-10" diameter="20"/>
+        <circle x="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" y="3" diameter="2"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" length1="1.5" y2="0" x2="-20" end2="none" length2="1.5" end1="none" y1="0"/>
+        <terminal x="0" y="20" uuid="{6b0d63d9-9ea4-45f8-b583-555ab943d580}" orientation="s" name="" type="Generic"/>
+        <terminal x="0" y="-20" uuid="{57cc35b9-f81b-4e1c-b018-b5859b754e4c}" orientation="n" name="" type="Generic"/>
     </description>
 </definition>

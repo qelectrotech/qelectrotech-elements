@@ -1,22 +1,26 @@
-<definition width="20" hotspot_x="13" type="element" link_type="simple" version="0.5" height="20" hotspot_y="10">
-    <uuid uuid="{9a078732-6cc5-4618-964e-5fb5afb5d855}"/>
+<definition height="20" hotspot_x="13" width="20" hotspot_y="10" link_type="simple" version="0.100.0" type="element">
+    <uuid uuid="{dc5081ab-f918-428a-ae9f-c5ca8bab9658}"/>
     <names>
         <name lang="cs">Čerpadlová klapka</name>
-        <name lang="pl">Zawór pompowy</name>
-        <name lang="it">Valvola di ritegno pompa</name>
-        <name lang="en">Valve pump</name>
         <name lang="es">Válvula de retención</name>
         <name lang="nl">Pompklep</name>
         <name lang="ar">صمّام مضخة</name>
+        <name lang="it">Valvola di ritegno pompa</name>
+        <name lang="en">Valve pump</name>
+        <name lang="pl">Zawór pompowy</name>
         <name lang="fr">Clapet pompe</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="3.55" x="-7" text="_"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" x4="3" antialias="true" y5="0" y1="0" x1="3" x3="-3" y3="5" y4="0" x2="-3" x5="3"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-7" x2="-3"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-4" x1="3" x2="3"/>
-        <terminal y="0" x="-7" orientation="w"/>
+        <dynamic_text text_width="-1" y="-8.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="-7" text_from="ElementInfo" keep_visual_rotation="false" rotation="0" Halignment="AlignLeft" frame="false" z="1" uuid="{3ee167f3-69a3-4145-aab9-0d1596844811}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x4="3" antialias="true" x2="-3" x1="3" x5="3" x3="-3" y4="0" y1="0" y3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" y5="0"/>
+        <line antialias="false" x2="-3" length1="1.5" x1="-7" end1="none" y1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" end2="none"/>
+        <line antialias="false" x2="3" length1="1.5" x1="3" end1="none" y1="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" end2="none"/>
+        <terminal y="0" x="-7" type="Generic" name="" orientation="w" uuid="{984ab940-d3b6-4599-afd9-342e6ff9e6d3}"/>
     </description>
 </definition>

@@ -1,28 +1,35 @@
-<definition width="70" version="0.3" hotspot_x="35" hotspot_y="35" height="70" type="element">
-<uuid uuid="{CB4A4F83-9B7E-42E5-86A5-ECD2D0EEC757}"/><names>
+<definition hotspot_x="34" version="0.100.0" height="60" type="element" hotspot_y="31" width="50" link_type="simple">
+    <uuid uuid="{ff274135-6471-4b68-9274-950950af9a1c}"/>
+    <names>
         <name lang="ar">راصد ضغط (برسوستات) - NC</name>
-        <name lang="de">Druckschalter Öffner</name>
-        <name lang="en">Presostat (NC)</name>
-        <name lang="fr">Pressostat NC</name>
-        <name lang="pl">Presostat (zestyk rozwierny)</name>
         <name lang="cs">Tlakový spínač NC</name>
         <name lang="it">Presostato (NC)</name>
+        <name lang="en">Presostat (NC)</name>
+        <name lang="pl">Presostat (zestyk rozwierny)</name>
         <name lang="es">Presóstato NC</name>
+        <name lang="de">Druckschalter Öffner</name>
+        <name lang="fr">Pressostat NC</name>
         <name lang="nl">Pressostaat 2 (NC)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-11" x1="5" y2="9" x2="0" y3="19" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="0" y2="-10" x2="6"/>
-        <input x="11" y="-11.5" size="8" rotate="true" text="_" tagg="label"/>
-        <text x="2" y="20" size="4" text="14"/>
-        <text x="2" y="-18" size="4" text="13"/>
-        <text x="-27" y="2.5" size="8" text="P"/>
-        <input x="6" y="2.3333" size="4" rotate="true" text="bar"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="circle" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x1="-1" y2="0" x2="-17"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <terminal x="0" y="-20" orientation="n"/>
-        <terminal x="0" y="20" orientation="s"/>
+        <polygon y1="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="19" closed="false" x3="0" y2="9" antialias="true" x1="5" x2="0"/>
+        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" y2="-10" antialias="false" length1="1.5" x1="0" x2="6"/>
+        <dynamic_text frame="false" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,8,-1,5,50,0,0,0,0,0" y="-23.5" Valignment="AlignTop" uuid="{fd4a1ef5-0e34-4215-87da-0930d1f33d9b}" rotation="0" text_width="-1" x="11" z="3" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="20" text="14" color="#000000" rotation="0" x="2"/>
+        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-18" text="13" color="#000000" rotation="0" x="2"/>
+        <text font="Sans Serif,8,-1,5,50,0,0,0,0,0" y="2.5" text="P" color="#000000" rotation="0" x="-27"/>
+        <dynamic_text frame="false" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="-5.6667" Valignment="AlignTop" uuid="{b9270a7c-53b6-4bee-9bff-252df29943b7}" rotation="0" text_width="-1" x="6" z="7" Halignment="AlignLeft">
+            <text>bar</text>
+        </dynamic_text>
+        <line y1="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="circle" y2="0" antialias="false" length1="1.5" x1="-1" x2="-17"/>
+        <line y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" end2="none" y2="-10" antialias="false" length1="1.5" x1="0" x2="0"/>
+        <terminal name="" y="-20" uuid="{020b1081-604f-4a83-924f-0d7fc00652de}" type="Generic" orientation="n" x="0"/>
+        <terminal name="" y="20" uuid="{08ba9176-9c84-4d80-bc71-0d35f56b3375}" type="Generic" orientation="s" x="0"/>
     </description>
 </definition>

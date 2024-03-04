@@ -1,21 +1,25 @@
-<definition width="80" height="70" type="element" hotspot_x="55" version="0.70" link_type="simple" hotspot_y="65">
-    <uuid uuid="{2390af53-81aa-4de9-9884-d7403ab0b819}"/>
+<definition link_type="simple" version="0.100.0" hotspot_x="55" width="80" hotspot_y="65" height="70" type="element">
+    <uuid uuid="{a9921be0-1b4d-44e4-bbbb-412b8d02084b}"/>
     <names>
+        <name lang="cs">Pomocný watthodinový měřič se zapisovačem</name>
         <name lang="de">Slave-Wattstundenzähler mit Drucker</name>
+        <name lang="en">Slave watt-hour meter (repeater) with printing device</name>
         <name lang="fr">Répétiteur d'un compteur d'énergie active avec
 dispositif d'impression</name>
-        <name lang="cs">Pomocný watthodinový měřič se zapisovačem</name>
-        <name lang="en">Slave watt-hour meter (repeater) with printing device</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="Wh" x="-8" y="-16"/>
-        <rect width="40" height="20" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false"/>
-        <line y2="-20" length1="1.5" y1="-20" length2="1.5" x1="-50" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon y3="-18" y2="-20" y1="-22" x1="-40" x2="-34" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-40" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="-10" length2="1.5" x1="-15" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <dynamic_text frame="false" keep_visual_rotation="false" text_width="-1" y="12.5" uuid="{12c7751f-2e3c-414c-bafe-ebb077b7b79d}" x="5" Valignment="AlignTop" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect antialias="false" width="40" ry="0" y="-40" height="40" x="-20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="Wh" y="-16" x="-8" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <rect antialias="false" width="40" ry="0" y="-60" height="20" x="-20" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" x1="-50" y1="-20" y2="-20" antialias="false" x2="-20" length2="1.5" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x3="-40" x1="-40" y1="-22" y3="-18" y2="-20" antialias="false" x2="-34" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" x1="-15" y1="-10" y2="-10" antialias="false" x2="15" length2="1.5" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

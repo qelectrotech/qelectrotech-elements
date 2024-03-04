@@ -1,36 +1,40 @@
-<definition height="40" type="element" width="60" hotspot_x="36" link_type="simple" version="0.5" hotspot_y="22">
-    <uuid uuid="{4f9c76e1-c9d0-433b-9c99-01f815585fd5}"/>
+<definition type="element" width="60" hotspot_x="36" hotspot_y="22" version="0.100.0" height="40" link_type="simple">
+    <uuid uuid="{8094556c-251c-44c8-9e7e-b78fca5b351e}"/>
     <names>
-        <name lang="ar">ملف حلقي بثلاث أقطاب</name>
-        <name lang="es">Núcleo toroide 3 polos</name>
         <name lang="pt">Núcleo toroidal de 3 polos</name>
-        <name lang="pl">Przekładnik prądowy trójtorowy</name>
         <name lang="el">Τοροειδές πηνίο 3 πόλων</name>
+        <name lang="nl">Stroomtransformator ringkern 3AC</name>
+        <name lang="es">Núcleo toroide 3 polos</name>
         <name lang="fr">Tore 3 pôles</name>
         <name lang="de">Stromwandler 3-polig</name>
-        <name lang="cs">Třípólový proudový transformátor</name>
-        <name lang="en">3-poles toroidal core</name>
         <name lang="it">Toroide a 3 poli</name>
-        <name lang="nl">Stroomtransformator ringkern 3AC</name>
+        <name lang="en">3-poles toroidal core</name>
+        <name lang="ar">ملف حلقي بثلاث أقطاب</name>
+        <name lang="cs">Třípólový proudový transformátor</name>
+        <name lang="pl">Przekładnik prądowy trójtorowy</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" size="9" rotate="true" text="_" x="-36" y="-12.45"/>
-        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="5" y2="-10" length1="1.5" end2="none" x1="5"/>
-        <line y1="-10" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="5" y2="-10" length1="1.5" end2="none" x1="14"/>
-        <line y1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" y2="0" length1="1.5" end2="none" x1="14"/>
-        <ellipse height="5" width="40" style="line-style:dashed;line-weight:thin;filling:white;color:black" antialias="true" x="-30" y="-2.5"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-10" y2="10" length1="1.5" end2="none" x1="-10"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" y2="10" length1="1.5" end2="none" x1="0"/>
-        <line y1="-15" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-20" y2="10" length1="1.5" end2="none" x1="-20"/>
-        <terminal orientation="n" x="0" y="-16"/>
-        <terminal orientation="s" x="0" y="11"/>
-        <terminal orientation="e" x="15" y="0"/>
-        <terminal orientation="e" x="15" y="-10"/>
-        <terminal orientation="n" x="-10" y="-16"/>
-        <terminal orientation="s" x="-10" y="11"/>
-        <terminal orientation="n" x="-20" y="-16"/>
-        <terminal orientation="s" x="-20" y="11"/>
+        <dynamic_text text_from="ElementInfo" x="-36" z="1" keep_visual_rotation="false" y="-24.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" uuid="{1d43283f-be5b-4723-832b-131de0467bf3}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" y1="0" end1="none" length2="1.5" antialias="false" x2="5" y2="-10" length1="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="14" y1="-10" end1="none" length2="1.5" antialias="false" x2="5" y2="-10" length1="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="14" y1="0" end1="none" length2="1.5" antialias="false" x2="10" y2="0" length1="1.5" end2="none"/>
+        <ellipse style="line-style:dashed;line-weight:thin;filling:white;color:black" x="-30" y="-2.5" width="40" height="5" antialias="true"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" y1="-15" end1="none" length2="1.5" antialias="false" x2="-10" y2="10" length1="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-15" end1="none" length2="1.5" antialias="false" x2="0" y2="10" length1="1.5" end2="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" y1="-15" end1="none" length2="1.5" antialias="false" x2="-20" y2="10" length1="1.5" end2="none"/>
+        <terminal type="Generic" orientation="n" name="" x="0" y="-16" uuid="{cb360af0-5f56-4594-b565-5c59dcbdf323}"/>
+        <terminal type="Generic" orientation="s" name="" x="0" y="11" uuid="{09060e57-819f-4599-acb8-7fcf875165c6}"/>
+        <terminal type="Generic" orientation="e" name="" x="15" y="0" uuid="{599c1781-deb4-4606-9104-ef66f6f7c893}"/>
+        <terminal type="Generic" orientation="e" name="" x="15" y="-10" uuid="{49322b34-9e05-490a-a743-95af52fd4362}"/>
+        <terminal type="Generic" orientation="n" name="" x="-10" y="-16" uuid="{0bc000ab-cf6b-4c3a-b72b-dc81ff10e672}"/>
+        <terminal type="Generic" orientation="s" name="" x="-10" y="11" uuid="{e41f546c-3aaf-485e-a531-cefa6c0299cc}"/>
+        <terminal type="Generic" orientation="n" name="" x="-20" y="-16" uuid="{1dec4470-3656-410c-8539-693f1e5030c4}"/>
+        <terminal type="Generic" orientation="s" name="" x="-20" y="11" uuid="{15652cca-ef1b-450d-b533-08e71a18c69c}"/>
     </description>
 </definition>

@@ -1,28 +1,42 @@
-<definition type="element" height="10" link_type="simple" version="0.60" hotspot_x="36" hotspot_y="5" width="90">
-    <uuid uuid="{e02f4582-b5dd-4f81-ba71-e3d5521b4152}"/>
+<definition width="90" link_type="simple" type="element" version="0.100.0" height="10" hotspot_y="5" hotspot_x="36">
+    <uuid uuid="{b2db5749-2da3-43fb-9eee-651b4bd98156}"/>
     <names>
-        <name lang="ru">Кабель 3 жилы + PE</name>
-        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
         <name lang="cs">Kabel 4G</name>
-        <name lang="de">Kabel 4G</name>
+        <name lang="pl">Oznaczenie przewodu czterożyłowego</name>
         <name lang="es">Cable 3 fases+tierra</name>
-        <name lang="it">Cavo 3 fasi + terra</name>
-        <name lang="fr">Cable 3 phases+terre</name>
         <name lang="hu">Kábel 3 + PE</name>
+        <name lang="it">Cavo 3 fasi + terra</name>
+        <name lang="ru">Кабель 3 жилы + PE</name>
+        <name lang="fr">Cable 3 phases+terre</name>
+        <name lang="de">Kabel 4G</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-2.05" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="1.95" y2="1.95" antialias="true"/>
-        <line x1="37.95" y1="-2.05" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="41.95" y2="1.95" antialias="true"/>
-        <line x1="18" y1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="22" y2="2" antialias="true"/>
-        <input size="7" tagg="none" rotate="true" x="-50" y="10" text="4G"/>
-        <line x1="-29.9373" y1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="47.932" y2="0" antialias="false"/>
-        <line x1="-22" y1="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" length2="1.5" x2="-18" y2="2" antialias="true"/>
-        <input size="7" tagg="label" rotate="true" x="-51" y="-9" text="_"/>
-        <input size="4" tagg="none" rotate="true" x="-22" y="-4" text="1"/>
-        <input size="4" tagg="none" rotate="true" x="-2" y="-4" text="2"/>
-        <input size="4" tagg="none" rotate="true" x="18" y="-4" text="3"/>
-        <input size="4" tagg="none" rotate="true" x="38" y="-4" text="PE"/>
+        <line y1="-2.05" x1="-2.05" end2="none" y2="1.95" x2="1.95" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line y1="-2.05" x1="37.95" end2="none" y2="1.95" x2="41.95" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line y1="-2" x1="18" end2="none" y2="2" x2="22" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{ceffff64-9368-4d18-90ca-49eeb4d6e543}" z="4" rotation="0" y="-0.5" text_width="-1" Halignment="AlignLeft" font="Sans Serif,7,-1,5,50,0,0,0,0,0" x="-50" text_from="UserText" Valignment="AlignTop" frame="false">
+            <text>4G</text>
+        </dynamic_text>
+        <line y1="0" x1="-29.9373" end2="none" y2="0" x2="47.932" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line y1="-2" x1="-22" end2="none" y2="2" x2="-18" length2="1.5" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{a71c5c93-fecc-4482-8749-fc6a3c14c6f8}" z="7" rotation="0" y="-19.5" text_width="-1" Halignment="AlignLeft" font="Sans Serif,7,-1,5,50,0,0,0,0,0" x="-51" text_from="ElementInfo" Valignment="AlignTop" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" uuid="{e46e13a6-bd57-4e2c-ae86-88f5b3b06724}" z="8" rotation="0" y="-12" text_width="-1" Halignment="AlignLeft" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-22" text_from="UserText" Valignment="AlignTop" frame="false">
+            <text>1</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" uuid="{bf028a8d-7e59-4a45-9aab-68c28a8c53d8}" z="9" rotation="0" y="-12" text_width="-1" Halignment="AlignLeft" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-2" text_from="UserText" Valignment="AlignTop" frame="false">
+            <text>2</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" uuid="{13a77a0d-7120-4bd3-9141-511b67dc16d7}" z="10" rotation="0" y="-12" text_width="-1" Halignment="AlignLeft" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="18" text_from="UserText" Valignment="AlignTop" frame="false">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" uuid="{911f1a20-f092-4c66-821e-24e72c157be4}" z="11" rotation="0" y="-12" text_width="-1" Halignment="AlignLeft" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="38" text_from="UserText" Valignment="AlignTop" frame="false">
+            <text>PE</text>
+        </dynamic_text>
     </description>
 </definition>

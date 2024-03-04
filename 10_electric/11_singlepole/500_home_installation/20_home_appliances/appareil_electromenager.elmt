@@ -1,23 +1,27 @@
-<definition hotspot_x="15" hotspot_y="21" height="50" type="element" link_type="simple" width="30" version="0.5">
-    <uuid uuid="{a66164c7-7f58-417b-ab73-6fb41c3abe12}"/>
+<definition hotspot_y="21" link_type="simple" version="0.100.0" hotspot_x="15" width="30" type="element" height="50">
+    <uuid uuid="{7a2bd508-7dc4-4575-a7ff-2c5c4a01b73b}"/>
     <names>
-        <name lang="fr">Appareil électroménager</name>
         <name lang="pl">Kuchenka elektryczna</name>
-        <name lang="cs">Elektrický spotřebič</name>
-        <name lang="ar">جهاز كهرومنزلي</name>
-        <name lang="el">Ηλεκτρική συσκευή</name>
-        <name lang="it">Apparecchio elettrico</name>
-        <name lang="en">Appliance</name>
-        <name lang="de">Haushaltsgerät</name>
         <name lang="nl">Elektrisch apparaat</name>
+        <name lang="en">Appliance</name>
+        <name lang="it">Apparecchio elettrico</name>
+        <name lang="fr">Appareil électroménager</name>
+        <name lang="cs">Elektrický spotřebič</name>
+        <name lang="el">Ηλεκτρική συσκευή</name>
+        <name lang="ar">جهاز كهرومنزلي</name>
+        <name lang="de">Haushaltsgerät</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-7" rotate="true" size="9" text="_" y="22.5" tagg="label"/>
-        <polygon y3="23" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-1" antialias="false" y2="23" x3="12" x2="-12" x4="12" x1="-12" y4="-1"/>
-        <text x="-4" size="9" text="E" y="14.3333"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-13" antialias="false" y2="-1" end1="none" x2="0" length1="1.5" x1="0"/>
-        <terminal x="0" orientation="n" y="-13"/>
+        <dynamic_text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b5538729-08f0-44d6-8720-506c322dea37}" frame="false" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" y="10" keep_visual_rotation="false" x="-7" z="1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x3="12" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-12" x4="12" x1="-12" y4="-1" y1="-1" y2="23" antialias="false" y3="23"/>
+        <text rotation="0" color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="14.3333" text="E" x="-4"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="0" length1="1.5" y1="-13" y2="-1" antialias="false" end1="none"/>
+        <terminal name="" uuid="{ef06a88a-c0e8-4238-b10c-bbbb6ae6ddc5}" orientation="n" y="-13" type="Generic" x="0"/>
     </description>
 </definition>

@@ -1,43 +1,53 @@
-<definition width="130" hotspot_x="65" type="element" link_type="simple" version="0.5" height="250" hotspot_y="121">
-    <uuid uuid="{4a15f335-370e-4d8e-88ef-f911c6f544bf}"/>
+<definition width="130" version="0.100.0" type="element" hotspot_x="65" link_type="simple" hotspot_y="121" height="250">
+    <uuid uuid="{f162db69-6c10-4407-9ead-ed808f0ce524}"/>
     <names>
-        <name lang="cs">Vrstvový zásobník 1000L</name>
-        <name lang="pl">Zasobnik warstwowy 1000L</name>
-        <name lang="it">Serbatoio a stratificazione 1000L</name>
-        <name lang="en">Stratification storage tank 1000L</name>
         <name lang="nl">Opslagtank 1000L</name>
+        <name lang="cs">Vrstvový zásobník 1000L</name>
+        <name lang="en">Stratification storage tank 1000L</name>
         <name lang="ar">خزّان تراتب</name>
         <name lang="fr">ballon 1000L chicane et strat</name>
         <name lang="es">Tanque de almacenamiento de estratificación 1000L</name>
+        <name lang="pl">Zasobnik warstwowy 1000L</name>
+        <name lang="it">Serbatoio a stratificazione 1000L</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="140.55" x="-7" text="_"/>
-        <input tagg="none" rotate="true" size="9" y="73.5" x="-25" text="2000L"/>
-        <rect width="16" style="line-style:dotted;line-weight:normal;filling:none;color:black" antialias="false" y="-116" x="-8" height="232"/>
-        <input tagg="none" rotation="-90" rotate="true" size="7" y="53" x="16" text="Stockage / Destockage"/>
-        <arc width="120" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" antialias="true" angle="-180" y="-117.5" x="-60" height="36"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="9"/>
-        <rect width="4" style="line-style:dotted;line-weight:thin;filling:none;color:black" antialias="false" y="-115" x="-2" height="110"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="4" y="98" x="48"/>
-        <rect width="4" style="line-style:dotted;line-weight:thin;filling:none;color:black" antialias="false" y="5" x="-2" height="110"/>
-        <arc width="120" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" antialias="true" angle="-180" y="82" x="-60" height="36"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="101" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-100" x1="60" x2="60"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="101" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-99" x1="-60" x2="-60"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="5.5" y="-112.75" x="-2.75"/>
-        <input tagg="none" rotation="-90" rotate="true" size="7" y="56" x="-17" text="Ballon Stratificateur"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="4" y="-102" x="48"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="5.5" y="107.25" x="-2.75"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="124" x4="40" antialias="true" y5="114" y1="109" x1="55" x3="40" y3="124" y4="114" x2="55" x5="40"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="124" x4="-40" antialias="true" y5="114" y1="109" x1="-55" x3="-40" y3="124" y4="114" x2="-55" x5="-40"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="4" y="28" x="48"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="4" y="-32" x="48"/>
-        <terminal y="-110" x="0" orientation="n"/>
-        <terminal y="110" x="0" orientation="s"/>
-        <terminal y="100" x="50" orientation="e"/>
-        <terminal y="-100" x="50" orientation="e"/>
-        <terminal y="-30" x="50" orientation="e"/>
-        <terminal y="30" x="50" orientation="e"/>
+        <dynamic_text x="-7" y="128.05" rotation="0" text_width="-1" frame="false" z="1" uuid="{2fc04d5a-d1d1-4ea3-9c84-785e8c88c498}" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text x="-25" y="61" rotation="0" text_width="-1" frame="false" z="2" uuid="{24416b7f-2c54-4e6e-a7e5-fc721882ba6a}" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
+            <text>2000L</text>
+        </dynamic_text>
+        <rect width="16" antialias="false" rx="0" x="-8" y="-116" ry="0" style="line-style:dotted;line-weight:normal;filling:none;color:black" height="232"/>
+        <dynamic_text x="5.5" y="53" rotation="-90" text_width="-1" frame="false" z="4" uuid="{e124e6ca-612f-4cec-876d-988a53c65a44}" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,7,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
+            <text>Stockage / Destockage</text>
+        </dynamic_text>
+        <arc width="120" antialias="true" x="-60" y="-117.5" angle="-180" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" height="36"/>
+        <line end2="none" antialias="false" end1="none" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="9" length1="1.5" length2="1.5" y1="0" y2="0"/>
+        <rect width="4" antialias="false" rx="0" x="-2" y="-115" ry="0" style="line-style:dotted;line-weight:thin;filling:none;color:black" height="110"/>
+        <circle diameter="4" antialias="true" x="48" y="98" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect width="4" antialias="false" rx="0" x="-2" y="5" ry="0" style="line-style:dotted;line-weight:thin;filling:none;color:black" height="110"/>
+        <arc width="120" antialias="true" x="-60" y="82" angle="-180" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="36"/>
+        <line end2="none" antialias="true" end1="none" x1="60" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="60" length1="1.5" length2="1.5" y1="-100" y2="101"/>
+        <line end2="none" antialias="false" end1="none" x1="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-60" length1="1.5" length2="1.5" y1="-99" y2="101"/>
+        <circle diameter="5.5" antialias="true" x="-2.75" y="-112.75" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="-27.5" y="56" rotation="-90" text_width="-1" frame="false" z="14" uuid="{2099e660-7df6-4acd-9e43-5050477fdbd4}" keep_visual_rotation="false" text_from="UserText" font="Sans Serif,7,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
+            <text>Ballon Stratificateur</text>
+        </dynamic_text>
+        <circle diameter="4" antialias="true" x="48" y="-102" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="5.5" antialias="true" x="-2.75" y="107.25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="40" antialias="true" x1="55" y4="114" x5="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="55" y3="124" y1="109" y2="124" x3="40" y5="114"/>
+        <polygon x4="-40" antialias="true" x1="-55" y4="114" x5="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-55" y3="124" y1="109" y2="124" x3="-40" y5="114"/>
+        <circle diameter="4" antialias="true" x="48" y="28" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="4" antialias="true" x="48" y="-32" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="0" y="-110" type="Generic" orientation="n" name="" uuid="{c66c42ad-3ed8-4ed1-8420-566d3efe26f6}"/>
+        <terminal x="0" y="110" type="Generic" orientation="s" name="" uuid="{e7dbbd91-d6a5-43d8-9287-cc3a1b2151eb}"/>
+        <terminal x="50" y="100" type="Generic" orientation="e" name="" uuid="{95050a40-0513-45de-a1c7-e2d25409b549}"/>
+        <terminal x="50" y="-100" type="Generic" orientation="e" name="" uuid="{4868d7d0-97f9-4340-a438-0650c9458fdf}"/>
+        <terminal x="50" y="-30" type="Generic" orientation="e" name="" uuid="{d0406062-42da-4f76-92ad-6e40188bfd3d}"/>
+        <terminal x="50" y="30" type="Generic" orientation="e" name="" uuid="{13341ea8-c045-4658-a588-9ea5bcf424da}"/>
     </description>
 </definition>

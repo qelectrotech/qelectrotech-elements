@@ -1,24 +1,29 @@
-<definition width="50" version="0.3" hotspot_x="20" hotspot_y="25" height="50" type="element" orientation="dnny">
-<uuid uuid="{D2160D6F-5DA2-44AD-9956-08913FB8AD65}"/><names>
+<definition hotspot_x="14" width="30" hotspot_y="24" height="50" version="0.100.0" link_type="simple" type="element">
+    <uuid uuid="{02212d96-4629-458e-894f-b06b77a9a200}"/>
+    <names>
         <name lang="ar">ترنزيستور ثنائي القطبيّة PNP</name>
         <name lang="en">Bipolar transistor pnp</name>
         <name lang="fr">Transistor bipolaire pnp</name>
-        <name lang="pl">Tranzystor biopolarny pnp</name>
         <name lang="cs">Bipolární tranzistor PNP</name>
-        <name lang="it">Transistor bipolare PNP</name>
         <name lang="nl">Transistor bipolare PNP</name>
+        <name lang="it">Transistor bipolare PNP</name>
+        <name lang="pl">Tranzystor biopolarny pnp</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="1" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-3" x1="1" y2="-8" x2="3" y3="-5" x3="6" y4="-3"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="3" x1="1" y2="12" x2="10" y3="20" x3="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="1" y2="0" x2="-10"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-3" x1="1" y2="-12" x2="10" y3="-20" x3="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="1" y2="5" x2="1"/>
-        <input x="14" y="3.6666" size="9" text="_" tagg="label"/>
-        <terminal x="10" y="-20" orientation="n"/>
-        <terminal x="10" y="20" orientation="s"/>
-        <terminal x="-10" y="0" orientation="w"/>
+        <polygon y1="-3" x1="1" x3="6" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black" x4="1" y2="-8" y4="-3" y3="-5" x2="3"/>
+        <polygon y1="3" x1="1" x3="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="12" y3="20" x2="10"/>
+        <line length2="1.5" length1="1.5" y1="0" x1="1" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y2="0" x2="-10"/>
+        <polygon y1="-3" x1="1" x3="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-12" y3="-20" x2="10"/>
+        <line length2="1.5" length1="1.5" y1="-5" x1="1" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" y2="5" x2="1"/>
+        <dynamic_text uuid="{505e05bc-b731-4a1b-8deb-6c0c85828c92}" keep_visual_rotation="false" rotation="0" x="14" frame="false" Valignment="AlignTop" y="-8.8334" z="6" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{44ba73f6-a1b9-467b-bd45-1ea2a6b53859}" x="10" orientation="n" y="-20" name="" type="Generic"/>
+        <terminal uuid="{d84ef76e-2925-4532-bcc0-6e0cb238b14c}" x="10" orientation="s" y="20" name="" type="Generic"/>
+        <terminal uuid="{8777c4fb-42ea-4c65-8977-f3682d9e6362}" x="-10" orientation="w" y="0" name="" type="Generic"/>
     </description>
 </definition>

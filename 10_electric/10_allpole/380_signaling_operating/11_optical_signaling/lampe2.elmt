@@ -1,29 +1,33 @@
-<definition height="60" link_type="simple" type="element" hotspot_y="29" version="0.5" hotspot_x="15" width="30">
-    <uuid uuid="{c8f5ab5f-4534-4307-90b4-c6601cc77abb}"/>
+<definition link_type="simple" height="60" hotspot_y="29" width="30" type="element" version="0.100.0" hotspot_x="15">
+    <uuid uuid="{37083a03-9860-4106-a519-0343ac9e545b}"/>
     <names>
+        <name lang="it">Luce</name>
+        <name lang="cs">Kontrolka</name>
+        <name lang="ar">مصباح</name>
+        <name lang="en">Light</name>
+        <name lang="ru">Лампа</name>
         <name lang="fr">Lampe</name>
         <name lang="de">Meldeleuchte</name>
-        <name lang="it">Luce</name>
         <name lang="es">Lámpara</name>
-        <name lang="ar">مصباح</name>
-        <name lang="ru">Лампа</name>
         <name lang="el">Λυχνία</name>
         <name lang="pt">Lâmpada</name>
-        <name lang="cs">Kontrolka</name>
-        <name lang="pl">Lampa</name>
         <name lang="nl">Lamp</name>
-        <name lang="en">Light</name>
+        <name lang="pl">Lampa</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-10" x="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="7.03" antialias="false" x1="7.03" y1="-7.03" length2="1.5" length1="1.5" x2="-7.03" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="7.03" antialias="false" x1="-7.03" y1="-7.03" length2="1.5" length1="1.5" x2="7.03" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="-10" antialias="false" x1="0" y1="-20" length2="1.5" length1="1.5" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y2="20" antialias="false" x1="0" y1="10" length2="1.5" length1="1.5" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input y="3" text="H_" x="15" size="9" tagg="label"/>
-        <terminal y="-21" x="0" orientation="n"/>
-        <terminal y="21" x="0" orientation="s"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" diameter="20" antialias="true" y="-10"/>
+        <line x2="-7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7.03" length2="1.5" y2="7.03" x1="7.03" length1="1.5" end1="none" antialias="false" end2="none"/>
+        <line x2="7.03" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-7.03" length2="1.5" y2="7.03" x1="-7.03" length1="1.5" end1="none" antialias="false" end2="none"/>
+        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length2="1.5" y2="-10" x1="0" length1="1.5" end1="none" antialias="false" end2="none"/>
+        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" length2="1.5" y2="20" x1="0" length1="1.5" end1="none" antialias="false" end2="none"/>
+        <dynamic_text rotation="0" x="15" z="6" uuid="{7c787e66-069c-4c07-853a-facb5c153948}" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" frame="false" y="-9.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" uuid="{e8f2916b-c880-40ab-99eb-0b6842bd3a4c}" name="" type="Generic" y="-20" orientation="n"/>
+        <terminal x="0" uuid="{144f0e22-3faf-4100-81eb-bc67fe9eaebe}" name="" type="Generic" y="20" orientation="s"/>
     </description>
 </definition>

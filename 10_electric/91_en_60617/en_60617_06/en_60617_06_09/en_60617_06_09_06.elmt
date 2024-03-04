@@ -1,20 +1,24 @@
-<definition link_type="simple" hotspot_x="81" hotspot_y="137" version="0.70" width="110" type="element" height="170">
-    <uuid uuid="{feb5205b-f916-4b24-823b-27b263219504}"/>
+<definition hotspot_x="80" hotspot_y="137" width="110" height="160" version="0.100.0" link_type="simple" type="element">
+    <uuid uuid="{e62c2f32-0563-43fe-ad4d-22b25cb19b09}"/>
     <names>
         <name lang="fr">Autotransformateur</name>
         <name lang="de">Spartransformator</name>
         <name lang="cs">Autotransformátor</name>
         <name lang="en">Auto-transformer, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-110" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-90" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-74" y="-120" text="Form 1 / Forme 1" size="9"/>
-        <line y1="0" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-60" start="0" angle="90" y="-90" antialias="true" width="60" height="120" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-30" orientation="n" y="-110"/>
+        <dynamic_text Valignment="AlignTop" rotation="0" keep_visual_rotation="false" frame="false" text_width="-1" text_from="ElementInfo" y="12.5" uuid="{9439aaa5-adb4-4eb5-8cd3-2894d22d6cbb}" Halignment="AlignLeft" x="5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" antialias="false" x="-60" diameter="60"/>
+        <line y1="-110" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-90" antialias="false" end1="none" x1="-30" x2="-30" end2="none" length2="1.5" length1="1.5"/>
+        <text rotation="0" y="-120" x="-74" color="#000000" text="Form 1 / Forme 1" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <line y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" end1="none" x1="-30" x2="-30" end2="none" length2="1.5" length1="1.5"/>
+        <arc angle="90" start="0" width="60" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-90" antialias="true" x="-60" height="120"/>
+        <terminal y="-110" uuid="{b9b20cca-6dde-4918-8b39-8f336cb9b51c}" orientation="n" x="-30" name="" type="Generic"/>
     </description>
 </definition>

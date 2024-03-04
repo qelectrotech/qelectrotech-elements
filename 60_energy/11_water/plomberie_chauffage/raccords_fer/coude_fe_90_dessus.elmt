@@ -1,21 +1,25 @@
-<definition link_type="simple" hotspot_x="14" version="0.51" hotspot_y="12" type="element" width="30" height="40">
-    <uuid uuid="{0547a11f-dc79-4893-b266-abcbf44abc84}"/>
+<definition hotspot_y="12" link_type="simple" type="element" height="40" width="30" hotspot_x="14" version="0.100.0">
+    <uuid uuid="{2b8786c5-fbfb-4aa9-ad63-5b2433f5247a}"/>
     <names>
         <name lang="fr">Coude n° 90 DF</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <input x="13" y="19" text="_" tagg="label" rotate="true" size="9"/>
-        <arc x="-9" y="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-90" width="2" height="2" angle="-180"/>
-        <arc x="7" y="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="90" width="2" height="2" angle="-180"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="21" end1="none" y2="21" end2="none" x1="-7" x2="7"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="6" end1="none" y2="20" end2="none" x1="-7" x2="-7"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="6" end1="none" y2="20" end2="none" x1="7" x2="7"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="23" end1="none" y2="23" end2="none" x1="-7" x2="7"/>
-        <circle x="-7" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="14"/>
-        <circle x="-9" y="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="18"/>
-        <terminal x="0" y="23" orientation="s"/>
-        <terminal x="8" y="0" orientation="e"/>
+        <dynamic_text x="13" Valignment="AlignTop" Halignment="AlignLeft" z="1" uuid="{9e6892d6-fc23-4799-84d4-31a7a99b5f00}" rotation="0" frame="false" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="6.5" text_width="-1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc x="-9" angle="-180" start="-90" height="2" width="2" antialias="true" y="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="7" angle="-180" start="90" height="2" width="2" antialias="true" y="21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="-7" end2="none" end1="none" y1="21" y2="21" antialias="false" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="-7" end2="none" end1="none" y1="6" y2="20" antialias="false" x2="-7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="7" end2="none" end1="none" y1="6" y2="20" antialias="false" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length2="1.5" x1="-7" end2="none" end1="none" y1="23" y2="23" antialias="false" x2="7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="14" x="-7" antialias="false" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="18" x="-9" antialias="false" y="-9" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal x="0" type="Generic" uuid="{b517a982-52e9-4986-8a7e-e4a466d9cb67}" orientation="s" name="" y="23"/>
+        <terminal x="8" type="Generic" uuid="{7d6774d6-7649-4db8-9832-fcbea8815693}" orientation="e" name="" y="0"/>
     </description>
 </definition>

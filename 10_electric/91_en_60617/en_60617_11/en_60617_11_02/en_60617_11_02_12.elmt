@@ -1,18 +1,22 @@
-<definition hotspot_x="45" hotspot_y="45" height="50" link_type="simple" version="0.70" type="element" width="50">
-    <uuid uuid="{13c87ba3-b37b-4fd6-90db-a6fd28d8eccc}"/>
+<definition width="50" hotspot_y="45" link_type="simple" type="element" height="50" version="0.100.0" hotspot_x="45">
+    <uuid uuid="{d4c31c98-9cd6-4ac3-b257-5bd7273193f4}"/>
     <names>
         <name lang="de">Kraftwerk mit Windenergie betrieben,
 Windkraftwerk (in Betrieb oder undefiniert)</name>
         <name lang="fr">Centrale éolienne (en service ou indéterminé)</name>
-        <name lang="cs">Větrná elektrárna ( v provozu)</name>
         <name lang="en">Wind generating station, in service or unspecified</name>
+        <name lang="cs">Větrná elektrárna ( v provozu)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <rect y="-40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" width="40" antialias="false"/>
-        <polygon y1="-40" y4="-40" x5="-20" y2="0" x4="0" y5="-40" y3="0" style="line-style:normal;line-weight:normal;filling:hor;color:black" x2="0" x3="-20" antialias="false" x1="-20"/>
-        <line y1="-20" length1="1.5" end2="none" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-10" length2="1.5" antialias="false" x1="-40"/>
+        <dynamic_text text_width="-1" z="1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{4a3c50e5-f2bc-40a2-ac87-f1bbaf661fb0}" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" x="5" keep_visual_rotation="false" y="12.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect width="40" rx="0" antialias="false" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" x="-40" y="-40"/>
+        <polygon y5="-40" x4="0" y1="-40" y2="0" x3="-20" y3="0" x2="0" x1="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:hor;color:black" x5="-20" y4="-40"/>
+        <line length2="1.5" end1="none" length1="1.5" y1="-20" y2="-20" x2="-10" x1="-40" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

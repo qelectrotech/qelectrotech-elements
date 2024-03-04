@@ -1,21 +1,25 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="8">
-    <uuid uuid="{3dde898a-361b-4032-8e29-4c9e89083b06}"/>
+<definition hotspot_y="8" version="0.100.0" link_type="simple" type="element" width="30" height="20" hotspot_x="14">
+    <uuid uuid="{4e8aec4a-3994-4e8c-bdcd-0ffecda401ec}"/>
     <names>
-        <name lang="cs">Vlásečnicové trubky</name>
+        <name lang="fr">Capillaire</name>
         <name lang="pl">Kapilara</name>
         <name lang="it">Capillare</name>
+        <name lang="ar">أنابيب شعريّة</name>
+        <name lang="cs">Vlásečnicové trubky</name>
         <name lang="en">Capillary tubing</name>
         <name lang="nl">Capilair pijpje</name>
-        <name lang="ar">أنابيب شعريّة</name>
-        <name lang="fr">Capillaire</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="6" y="0" x="-3"/>
-        <input tagg="label" rotate="true" size="9" y="-10.5" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="10"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="10" orientation="e"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="0" diameter="6" x="-3"/>
+        <dynamic_text z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" y="-23" uuid="{de39d6da-ca95-4785-910e-45e24f1226d7}" keep_visual_rotation="false" text_from="ElementInfo" x="-7" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x1="-10" end2="none" x2="10" y1="0" length2="1.5" end1="none"/>
+        <terminal name="" y="0" orientation="w" type="Generic" uuid="{607fcefc-72b4-4159-b0a0-ad2ec7b174b1}" x="-10"/>
+        <terminal name="" y="0" orientation="e" type="Generic" uuid="{5d9221a4-6e27-4d52-a990-8b8d89512a9c}" x="10"/>
     </description>
 </definition>

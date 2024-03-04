@@ -1,28 +1,33 @@
-<definition width="30" version="0.4" hotspot_x="14" hotspot_y="35" height="70" link_type="simple" type="element">
-<uuid uuid="{796D89A7-C2A1-4156-9FD5-C0C33CCF2C59}"/><names>
-        <name lang="en">Tachodynamo</name>
-        <name lang="es">Dinamo tacómetro</name>
-        <name lang="it">Dinamo tachimetrica</name>
-        <name lang="fr">Dynamo-tachymétrique</name>
-        <name lang="de">Dynamo</name>
-        <name lang="pl">Prądnica tachometryczna</name>
+<definition link_type="simple" version="0.100.0" hotspot_x="14" hotspot_y="34" width="30" type="element" height="70">
+    <uuid uuid="{5a82f24c-64e9-40a2-8f50-913a1333e9f4}"/>
+    <names>
         <name lang="cs">Tachodynamo</name>
+        <name lang="es">Dinamo tacómetro</name>
+        <name lang="en">Tachodynamo</name>
+        <name lang="de">Dynamo</name>
+        <name lang="fr">Dynamo-tachymétrique</name>
+        <name lang="it">Dinamo tachimetrica</name>
+        <name lang="pl">Prądnica tachometryczna</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-12.5" y="-12.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="25"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="5" y2="11.5" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="0" y2="27" x2="0"/>
-        <text x="-10" y="6" size="10" text="DT"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-27" x1="0" y2="-15" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="-5" y2="15" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-14.4215" x1="5" y2="-12.0433" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12.0433" x1="-5" y2="-14.4215" x2="-5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x1="-5" y2="-15" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="11.5" x1="-5" y2="15" x2="-5"/>
-        <input x="20" y="5" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-27" orientation="n"/>
-        <terminal x="0" y="27" orientation="s"/>
+        <circle x="-12.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="25" y="-12.5"/>
+        <line y1="15" x2="5" end1="none" y2="11.5" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" antialias="false"/>
+        <line y1="15" x2="0" end1="none" y2="27" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="false"/>
+        <text x="-10" color="#000000" rotation="0" text="DT" y="6" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+        <line y1="-27" x2="0" end1="none" y2="-15" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="false"/>
+        <line y1="15" x2="5" end1="none" y2="15" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" antialias="false"/>
+        <line y1="-14.4215" x2="5" end1="none" y2="-12.0433" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5" antialias="false"/>
+        <line y1="-12.0433" x2="-5" end1="none" y2="-14.4215" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" antialias="false"/>
+        <line y1="-15" x2="5" end1="none" y2="-15" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" antialias="false"/>
+        <line y1="11.5" x2="-5" end1="none" y2="15" length1="1.5" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" antialias="false"/>
+        <dynamic_text x="20" frame="false" Valignment="AlignTop" rotation="0" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{567081e7-cb95-4ac7-a3dd-9d9c1f9f3230}" z="11" y="-7.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" orientation="n" uuid="{0b02c5b0-f6d6-403e-b325-e78fa040a9fe}" y="-27" type="Generic" name=""/>
+        <terminal x="0" orientation="s" uuid="{4af7d167-13a5-4681-9a6a-cee782dfa9b3}" y="27" type="Generic" name=""/>
     </description>
 </definition>

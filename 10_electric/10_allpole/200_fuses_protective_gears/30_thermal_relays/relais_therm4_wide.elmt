@@ -1,46 +1,51 @@
-<definition width="80" version="0.4" hotspot_x="5" hotspot_y="25" height="50" type="element" ic="true" link_type="master">
-<uuid uuid="{F16E236C-6328-45D8-A5BD-F748E0AAFFE2}"/><names>
+<definition version="0.100.0" type="element" hotspot_y="29" height="60" width="60" hotspot_x="8" link_type="master">
+    <uuid uuid="{b2e252d1-e435-4c05-bd74-8631e9afdcf0}"/>
+    <names>
         <name lang="ar">مرحل حراري</name>
-        <name lang="de">Überstromrelais 3P</name>
-        <name lang="ru">Тепловое реле</name>
+        <name lang="it">Relè termico</name>
+        <name lang="es">Relé térmico</name>
         <name lang="pt">Relé térmico</name>
+        <name lang="fr">Relais thermique</name>
+        <name lang="ru">Тепловое реле</name>
         <name lang="el">Θερμικό</name>
         <name lang="en">Thermal relay wide</name>
-        <name lang="it">Relè termico</name>
-        <name lang="fr">Relais thermique</name>
+        <name lang="de">Überstromrelais 3P</name>
         <name lang="pl">Przekaźnik termiczny</name>
-        <name lang="es">Relé térmico</name>
         <name lang="cs">Tepelné relé 3P</name>
         <name lang="nl">Thermisch blok breed</name>
         <name lang="hu">Hőkioldó 3 pólusú </name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="50" y="2.5" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-5" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="0" y2="20" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="5" y2="5" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="0" y2="-5" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="0" y2="5" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="40" y2="-5" x2="40"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="40" y2="20" x2="40"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="45" y2="5" x2="45"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="40" y2="-5" x2="45"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="40" y2="5" x2="45"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="20" y2="-5" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="20" y2="20" x2="20"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="25" y2="5" x2="25"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x1="20" y2="-5" x2="25"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x1="20" y2="5" x2="25"/>
-        <terminal x="0" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="0" y="21" nameHidden="0" number="" name="" orientation="s"/>
-        <terminal x="40" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="40" y="21" nameHidden="0" number="" name="" orientation="s"/>
-        <terminal x="20" y="-21" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="20" y="21" nameHidden="0" number="" name="" orientation="s"/>
+        <dynamic_text uuid="{41ca1c56-2941-4056-9349-3c06e6181869}" x="50" y="-10" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false" rotation="0" text_from="ElementInfo" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x2="0"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="20" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="0"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="5"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="5"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="5"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x2="40"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="20" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="40"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="45" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="45"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="45"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="45"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x2="20"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="20" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="20"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="25" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="25"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="-5" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" x2="25"/>
+        <line length1="1.5" end2="none" length2="1.5" y2="5" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="5" x2="25"/>
+        <terminal uuid="{2d01b195-3d22-43de-ace4-14f83f07b8a1}" x="0" y="-21" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{701fe570-0b16-491b-adef-e27aed17be2f}" x="0" y="21" type="Generic" orientation="s" name=""/>
+        <terminal uuid="{3182c6b9-c1ad-4b8d-9926-80352e9cb613}" x="40" y="-21" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{1d1d2246-a77b-44cb-ab0e-a025313278fb}" x="40" y="21" type="Generic" orientation="s" name=""/>
+        <terminal uuid="{4bc9084e-930d-47a0-82d5-c3dc7b3de135}" x="20" y="-21" type="Generic" orientation="n" name=""/>
+        <terminal uuid="{7d0334bd-b4ac-4294-a1aa-b628765fdb81}" x="20" y="21" type="Generic" orientation="s" name=""/>
     </description>
 </definition>

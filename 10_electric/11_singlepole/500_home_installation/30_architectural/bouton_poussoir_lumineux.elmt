@@ -1,23 +1,27 @@
-<definition hotspot_x="9" hotspot_y="16" height="30" type="element" link_type="simple" width="20" version="0.5">
-    <uuid uuid="{123ce7c9-9be0-43ad-a8b3-096c074d036d}"/>
+<definition hotspot_x="9" hotspot_y="16" version="0.100.0" width="20" link_type="simple" type="element" height="30">
+    <uuid uuid="{a73d5008-41b7-49eb-a390-1b5682e4722f}"/>
     <names>
-        <name lang="fr">Bouton-poussoir lumineux</name>
-        <name lang="pl">Przycisk podświetlony</name>
-        <name lang="cs">Tlačítko s indikací</name>
-        <name lang="ar">زرّ ضاغط مُضيئ</name>
-        <name lang="el">Μπουτόν φωτιζόμενο</name>
         <name lang="it">Pulsante luminoso</name>
+        <name lang="pl">Przycisk podświetlony</name>
+        <name lang="ar">زرّ ضاغط مُضيئ</name>
         <name lang="de">Drucktaster beleuchtet</name>
+        <name lang="fr">Bouton-poussoir lumineux</name>
+        <name lang="cs">Tlačítko s indikací</name>
         <name lang="en">Push-button with indicator lamp</name>
         <name lang="nl">Drukknop met lamp</name>
+        <name lang="el">Μπουτόν φωτιζόμενο</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 11-14-11</informations>
     <description>
-        <input x="6" rotate="true" size="9" text="_" y="-10.45" tagg="label"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="3" antialias="false" y2="-3" end1="none" x2="3" length1="1.5" x1="-3"/>
-        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-3" antialias="false" y2="3" end1="none" x2="3" length1="1.5" x1="-3"/>
-        <circle x="-7.5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="15" antialias="true" y="-7.5"/>
-        <circle x="-4.25" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="8.5" antialias="true" y="-4.25"/>
-        <terminal x="0" orientation="n" y="-8"/>
+        <dynamic_text y="-22.95" uuid="{a5c6797b-de3e-45cd-8d96-0e7b6605a8d6}" Halignment="AlignLeft" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" Valignment="AlignTop" rotation="0" x="6" z="1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="3" end2="none" x2="3" end1="none" length2="1.5" x1="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="-3" antialias="false"/>
+        <line y1="-3" end2="none" x2="3" end1="none" length2="1.5" x1="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="3" antialias="false"/>
+        <circle y="-7.5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="15" x="-7.5" antialias="true"/>
+        <circle y="-4.25" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="8.5" x="-4.25" antialias="true"/>
+        <terminal y="-8" uuid="{1660b255-41ff-4374-a5d6-aee8d4e9f166}" name="" type="Generic" x="0" orientation="n"/>
     </description>
 </definition>

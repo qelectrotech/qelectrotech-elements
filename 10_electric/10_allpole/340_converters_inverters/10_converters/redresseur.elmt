@@ -1,32 +1,36 @@
-<definition hotspot_y="44" type="element" height="50" width="50" hotspot_x="34" link_type="simple" version="0.5">
-    <uuid uuid="{f466b24f-cdb3-468d-8076-f5931f5aa644}"/>
+<definition hotspot_x="34" width="50" height="50" link_type="simple" hotspot_y="44" version="0.100.0" type="element">
+    <uuid uuid="{da703cb7-fd6c-402f-911a-0d2f504cef6f}"/>
     <names>
-        <name lang="cs">Usměrňovač</name>
-        <name lang="nl">Gelijkrichter AC1/DC</name>
-        <name lang="it">Raddrizzatore AC/DC</name>
+        <name lang="ar">موحد محكوم</name>
+        <name lang="be">Gelijkrichter AC1/DC</name>
         <name lang="de">Gleichrichter</name>
+        <name lang="it">Raddrizzatore AC/DC</name>
+        <name lang="es">Rectificador</name>
+        <name lang="cs">Usměrňovač</name>
+        <name lang="pl">Zasilacz</name>
         <name lang="el">Ανορθωτής</name>
         <name lang="en">Rectiﬁer</name>
-        <name lang="es">Rectificador</name>
+        <name lang="nl">Gelijkrichter AC1/DC</name>
         <name lang="fr">Redresseur</name>
-        <name lang="pl">Zasilacz</name>
-        <name lang="be">Gelijkrichter AC1/DC</name>
-        <name lang="ar">موحد محكوم</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 06-14-03</informations>
     <description>
-        <input text="_" rotate="true" y="-49.5" size="9" x="-22" tagg="label"/>
-        <rect height="40" antialias="false" y="-40" width="40" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-6" y2="-5" end1="none" y1="-5" x2="-2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="1" y2="-5" end1="none" y1="-5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" length2="1.5" length1="1.5" antialias="false" x1="-6" y2="-7" end1="none" y1="-7" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="simple" length2="0" length1="0" antialias="true" x1="-30" y2="-40" end1="simple" y1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-175" height="5" antialias="true" y="-35.5" width="5" start="0" x="-19.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-175" height="5" antialias="true" y="-35.5" width="5" start="180" x="-24.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="0" orientation="s" x="-10"/>
-        <terminal y="-30" orientation="w" x="-30"/>
-        <terminal y="-10" orientation="e" x="10"/>
-        <terminal y="-30" orientation="e" x="10"/>
-        <terminal y="-10" orientation="w" x="-30"/>
+        <dynamic_text frame="false" text_width="-1" x="-22" z="1" rotation="0" Valignment="AlignTop" y="-62" uuid="{1cc11307-5aab-49c5-b546-f2504faab647}" keep_visual_rotation="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-30" width="40" height="40" rx="0" antialias="false" y="-40"/>
+        <line x2="-2" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-6" end1="none" end2="none" length2="1.5" y2="-5" length1="1.5"/>
+        <line x2="5" y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="1" end1="none" end2="none" length2="1.5" y2="-5" length1="1.5"/>
+        <line x2="5" y1="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-6" end1="none" end2="none" length2="1.5" y2="-7" length1="1.5"/>
+        <line x2="10" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x1="-30" end1="simple" end2="simple" length2="0" y2="-40" length1="0"/>
+        <arc start="0" angle="-175" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-19.5" width="5" height="5" antialias="true" y="-35.5"/>
+        <arc start="180" angle="-175" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-24.5" width="5" height="5" antialias="true" y="-35.5"/>
+        <terminal x="-10" name="" y="0" uuid="{fd21b1b1-7b76-4627-bdd3-a6e1bcb55f9f}" type="Generic" orientation="s"/>
+        <terminal x="-30" name="" y="-30" uuid="{dbd3917c-9f3c-48b5-aacd-e473d2678698}" type="Generic" orientation="w"/>
+        <terminal x="10" name="" y="-10" uuid="{e0546543-1dd2-4dfc-81f0-c8b983bf8b38}" type="Generic" orientation="e"/>
+        <terminal x="10" name="" y="-30" uuid="{7a3e2da8-8973-44a5-80b0-687ea141db0c}" type="Generic" orientation="e"/>
+        <terminal x="-30" name="" y="-10" uuid="{5d7f74c7-33ae-449b-9c8b-aaaf10bae5a2}" type="Generic" orientation="w"/>
     </description>
 </definition>

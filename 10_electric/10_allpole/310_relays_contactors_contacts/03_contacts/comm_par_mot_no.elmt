@@ -1,26 +1,35 @@
-<definition width="30" version="0.3" hotspot_x="20" hotspot_y="30" height="40" type="element">
-<uuid uuid="{A0CAA76A-0EDB-427B-A3FC-6070BB71AE64}"/><names>
-        <name lang="en">Contact Motorized NO</name>
-        <name lang="es">Contacto motorizado NA</name>
-        <name lang="de">Schliesser Motor betätigt</name>
-        <name lang="fr">Commande par moteur électrique NO</name>
+<definition width="30" version="0.100.0" hotspot_y="34" link_type="simple" height="50" type="element" hotspot_x="24">
+    <uuid uuid="{4b673524-7198-417e-8511-88c80c236c47}"/>
+    <names>
         <name lang="pl">Zestyk zwierny sterowany silnikiem</name>
-        <name lang="cs">Kontakt NO řízený motorem</name>
+        <name lang="es">Contacto motorizado NA</name>
+        <name lang="fr">Commande par moteur électrique NO</name>
         <name lang="it">Contatto NO motorizzato</name>
         <name lang="nl">Motor contact (NO)</name>
+        <name lang="de">Schliesser Motor betätigt</name>
+        <name lang="en">Contact Motorized NO</name>
+        <name lang="cs">Kontakt NO řízený motorem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-18" y="-8" size="5" text="M"/>
-        <circle x="-20" y="-15" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-10" x1="-10" y2="-10" x2="-3"/>
-        <input x="-10" y="6" size="4" text="4"/>
-        <input x="-10" y="-26" size="4" text="3"/>
-        <input x="1" y="-9.5" size="9" text="_" tagg="label"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-20" x1="-5" y2="0" x2="0" y3="10" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x1="0" y2="-20" x2="0"/>
-        <terminal x="0" y="10" orientation="s"/>
-        <terminal x="0" y="-30" orientation="n"/>
+        <text text="M" y="-8" rotation="0" x="-18" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <circle y="-15" x="-20" diameter="10" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line y2="-10" x2="-3" length1="1.5" end1="none" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" y1="-10" end2="none" x1="-10"/>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" uuid="{89336957-ea8a-4755-9159-82a067faf257}" z="4" y="-2" rotation="0" x="-10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" text_from="UserText" frame="false">
+            <text>4</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" uuid="{cafa6e93-2a4f-4832-8196-8c6c3af41057}" z="5" y="-34" rotation="0" x="-10" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" text_from="UserText" frame="false">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text keep_visual_rotation="false" Valignment="AlignTop" uuid="{d0e0bad5-0a16-401b-87b4-f638ec2350f5}" z="6" y="-22" rotation="0" x="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y2="0" x2="0" x3="0" y3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y1="-20" x1="-5" closed="false"/>
+        <line y2="-20" x2="0" length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y1="-30" end2="none" x1="0"/>
+        <terminal uuid="{e7010432-6b38-49dc-80e6-4a19fa371be9}" y="10" x="0" orientation="s" type="Generic" name=""/>
+        <terminal uuid="{2399461a-972a-492c-9ee5-1dd24fd7b838}" y="-30" x="0" orientation="n" type="Generic" name=""/>
     </description>
 </definition>

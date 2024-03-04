@@ -1,22 +1,26 @@
-<definition width="20" hotspot_x="12" type="element" link_type="simple" version="0.5" height="60" hotspot_y="29">
-    <uuid uuid="{c76e9f74-eb38-4c03-a42c-ac4fa8321843}"/>
+<definition type="element" width="20" height="60" version="0.100.0" hotspot_y="29" hotspot_x="12" link_type="simple">
+    <uuid uuid="{0444e7fd-3828-4472-812f-1ccf98f014da}"/>
     <names>
+        <name lang="ar">محدث شرر مزدوج</name>
         <name lang="cs">Dvojité jiskřiště</name>
-        <name lang="pl">Odgromnik trójelektrodowy</name>
-        <name lang="it">Dual Spark</name>
         <name lang="en">Dual Spark</name>
         <name lang="nl">Dubbele Vonk</name>
         <name lang="fr">Eclateur double</name>
-        <name lang="ar">محدث شرر مزدوج</name>
+        <name lang="it">Dual Spark</name>
+        <name lang="pl">Odgromnik trójelektrodowy</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="1" x2="-6"/>
-        <input tagg="label" rotate="true" size="9" y="-9.45" x="8" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="-5" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="5" x1="0" x2="0"/>
-        <terminal y="-21" x="0" orientation="n"/>
-        <terminal y="21" x="0" orientation="s"/>
+        <line antialias="false" y1="0" y2="0" x2="-6" length2="1.5" end2="none" x1="1" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text uuid="{d5763b23-610a-4e78-8078-f22e7b251425}" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" rotation="0" z="2" text_width="-1" x="8" y="-21.95" frame="false" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" y1="-5" y2="-20" x2="0" length2="1.5" end2="none" x1="0" length1="1.5" end1="simple" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line antialias="false" y1="5" y2="20" x2="0" length2="1.5" end2="none" x1="0" length1="1.5" end1="simple" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{88fa2b8c-310c-4a31-bb31-ea2c781949ea}" type="Generic" orientation="n" x="0" y="-21" name=""/>
+        <terminal uuid="{dcee0316-b7f4-40aa-8eed-b87f63eb0069}" type="Generic" orientation="s" x="0" y="21" name=""/>
     </description>
 </definition>

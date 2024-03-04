@@ -1,41 +1,46 @@
-<definition width="90" version="0.3" hotspot_x="28" hotspot_y="50" height="100" type="element" ic="true" link_type="master">
-<uuid uuid="{A3CD1303-3206-4137-B91B-7E677DAE3EFD}"/><names>
-        <name lang="ar">قاطع مغناطيسي-حراري GV</name>
-        <name lang="de">Motorschutzschalter</name>
-        <name lang="el">Θερμομαγνητικό</name>
-        <name lang="en">Magneto-thermal circuit breaker GV</name>
+<definition hotspot_y="54" version="0.100.0" type="element" width="50" link_type="master" height="110" hotspot_x="26">
+    <uuid uuid="{97970260-742a-4665-bcad-119e0e772c1d}"/>
+    <names>
         <name lang="es">Disyuntor termico magnetico mando manual</name>
-        <name lang="it">Interr. magneto-termico</name>
         <name lang="fr">Disjoncteur Magnéto-thermique GV</name>
-        <name lang="pl">Wyłącznik silnikowy</name>
+        <name lang="it">Interr. magneto-termico</name>
         <name lang="cs">Magnetotepelný jistič GV</name>
+        <name lang="pl">Wyłącznik silnikowy</name>
+        <name lang="en">Magneto-thermal circuit breaker GV</name>
+        <name lang="ar">قاطع مغناطيسي-حراري GV</name>
+        <name lang="el">Θερμομαγνητικό</name>
+        <name lang="de">Motorschutzschalter</name>
         <name lang="nl">Motorbeveiligingsschakelaar GV</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="14" y="39" size="4" text="2&#xa;T1"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-29" x1="12" y2="-25" x2="8"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-29" x1="8" y2="-25" x2="12"/>
-        <rect width="20" x="0" y="0" antialias="false" height="28" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="14" x1="0" y2="14" x2="20"/>
-        <text x="6" y="25" size="9" text="I>"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="40" x1="10" y2="29" x2="10"/>
-        <text x="14" y="-40" size="4" text="1&#xa;L1"/>
-        <polygon x4="15" y5="4" x5="10" y6="-6" x6="10" y7="-25" x7="3" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="14" x1="10" y2="10" x2="10" y3="10" x3="15" y4="4"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-27" x1="10" y2="-40" x2="10"/>
-        <rect width="12" x="-16" y="-22" antialias="false" height="12" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-16" x1="-4.06341" y2="-16" x2="-22.9415"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-20" x1="-23" y2="-12" x2="-23"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-16" x1="-4" y2="-16" x2="6"/>
-        <polygon antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" closed="false" y1="21" x1="0" y2="21" x2="-10" y3="-10" x3="-10"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="7" x1="0" y2="7" x2="-10"/>
-        <input x="40" y="0.5" size="9" rotate="true" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" y1="-10" x1="-10" y2="-22" x2="-10"/>
-        <terminal x="10" y="-40" nameHidden="0" number="" name="" orientation="n"/>
-        <terminal x="10" y="40" nameHidden="0" number="" name="" orientation="s"/>
+        <text text="2&#xa;T1" y="39" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" x="14"/>
+        <line x1="12" y1="-29" y2="-25" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="8"/>
+        <line x1="8" y1="-29" y2="-25" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="12"/>
+        <rect rx="0" ry="0" y="0" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="28" x="0"/>
+        <line x1="0" y1="14" y2="14" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="20"/>
+        <text text="I>" y="25" color="#000000" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="6"/>
+        <line x1="10" y1="40" y2="29" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="10"/>
+        <text text="1&#xa;L1" y="-40" color="#000000" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" x="14"/>
+        <polygon x4="15" closed="false" x1="10" y5="4" y1="14" y2="10" y6="-6" y7="-25" y4="4" x7="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x2="10" x3="15" y3="10" x5="10" x6="10"/>
+        <line x1="10" y1="-27" y2="-40" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x2="10"/>
+        <rect rx="0" ry="0" y="-22" width="12" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" height="12" x="-16"/>
+        <line x1="-4.06341" y1="-16" y2="-16" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" length1="1.5" x2="-22.9415"/>
+        <line x1="-23" y1="-20" y2="-12" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" length1="1.5" x2="-23"/>
+        <line x1="-4" y1="-16" y2="-16" end2="none" length2="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" length1="1.5" x2="6"/>
+        <polygon closed="false" x1="0" y1="21" y2="21" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" x2="-10" x3="-10" y3="-10"/>
+        <line x1="0" y1="7" y2="7" end2="none" length2="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" length1="1.5" x2="-10"/>
+        <dynamic_text text_width="-1" frame="false" Valignment="AlignTop" uuid="{64d73c9a-c980-43e3-8eb9-d471b5828c44}" y="-12" rotation="0" keep_visual_rotation="false" z="17" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="40" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-10" y1="-10" y2="-22" end2="none" length2="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" length1="1.5" x2="-10"/>
+        <terminal name="" uuid="{4bc9e22d-1147-4942-8dcd-2cbf3ed3805f}" orientation="n" y="-40" type="Generic" x="10"/>
+        <terminal name="" uuid="{10dd4536-c8b6-4992-b5b3-b54498fac41f}" orientation="s" y="40" type="Generic" x="10"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition type="element" version="0.70" height="30" link_type="simple" hotspot_x="25" width="30" hotspot_y="25">
-    <uuid uuid="{38937980-a4d9-4666-b43d-f537960b72ac}"/>
+<definition type="element" hotspot_y="25" version="0.100.0" link_type="simple" width="30" hotspot_x="25" height="30">
+    <uuid uuid="{d5822916-528f-43cc-a7b8-a9d7eadc5c4b}"/>
     <names>
-        <name lang="de">Taster mit Leuchte</name>
         <name lang="fr">Bouton-poussoir lumineux</name>
         <name lang="cs">Tlačítko s vestavěnou signálkou</name>
+        <name lang="de">Taster mit Leuchte</name>
         <name lang="en">Push-button with indicator lamp</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <circle y="-20" antialias="false" x="-20" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-15" antialias="false" x="-15" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-13" y2="-7" x2="-7" length2="1.5" antialias="false" x1="-13" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-13" y2="-7" x2="-13" length2="1.5" antialias="false" x1="-7" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text z="1" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" x="5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="12.5" uuid="{9d1811b4-eb8a-4c7f-b6d8-956d6470c08b}" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle x="-20" diameter="20" y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="-15" diameter="10" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line y1="-13" length1="1.5" length2="1.5" x2="-7" x1="-13" end1="none" end2="none" y2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line y1="-13" length1="1.5" length2="1.5" x2="-13" x1="-7" end1="none" end2="none" y2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
     </description>
 </definition>

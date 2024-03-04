@@ -1,19 +1,23 @@
-<definition type="element" version="0.70" height="20" link_type="simple" hotspot_x="24" width="50" hotspot_y="10">
-    <uuid uuid="{ef31ec00-9e49-4701-b765-24152e21e9bd}"/>
+<definition type="element" version="0.100.0" height="20" hotspot_x="24" hotspot_y="10" link_type="simple" width="50">
+    <uuid uuid="{a5cbaee7-d05d-4b66-b5d9-c505efa306ae}"/>
     <names>
         <name lang="de">Elektro-Installationskanal, allgemein</name>
-        <name lang="fr">Élément droit, symbole général</name>
         <name lang="cs">Rovný díl</name>
         <name lang="en">Straight section, general symbol</name>
+        <name lang="fr">Élément droit, symbole général</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="45" tagg="label" size="9" x="25" text="_"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-20" length2="1.5" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="-20" length2="1.5" antialias="false" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="20" length2="1.5" antialias="false" x1="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="w" y="0" x="-20"/>
-        <terminal orientation="e" y="0" x="20"/>
+        <dynamic_text x="25" text_from="ElementInfo" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" uuid="{6effd9d4-63df-4f50-bed8-2c78fa130c64}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" y="32.5" z="1" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" length2="1.5" y2="0" length1="1.5" end2="none" antialias="false" x2="-20" y1="0" end1="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" length2="1.5" y2="5" length1="1.5" end2="none" antialias="false" x2="-20" y1="-5" end1="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" length2="1.5" y2="5" length1="1.5" end2="none" antialias="false" x2="20" y1="-5" end1="none"/>
+        <terminal x="-20" type="Generic" orientation="w" uuid="{357184ea-ff04-4194-b255-7133171fe26f}" y="0" name=""/>
+        <terminal x="20" type="Generic" orientation="e" uuid="{ff935853-533c-4b66-b26e-c14f732789b8}" y="0" name=""/>
     </description>
 </definition>

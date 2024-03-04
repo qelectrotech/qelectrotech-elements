@@ -1,25 +1,29 @@
-<definition type="element" version="0.70" height="70" link_type="simple" hotspot_x="84" width="90" hotspot_y="45">
-    <uuid uuid="{7f95cb55-8d0e-450e-94f7-3abc7dd29cd6}"/>
+<definition height="70" type="element" width="90" version="0.100.0" hotspot_y="45" hotspot_x="84" link_type="simple">
+    <uuid uuid="{99dbf3d9-b2ae-4005-9cf1-6bf60e0db01a}"/>
     <names>
         <name lang="de">Gerader Elektro-Installationskanal mit
 Brandabschottung</name>
-        <name lang="fr">Élément droit avec barrière interne coupe-feu</name>
         <name lang="cs">Přímý díl s vnitřní protipožární přepážkou</name>
+        <name lang="fr">Élément droit avec barrière interne coupe-feu</name>
         <name lang="en">Straight section with internal fire barrier</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <line length1="1.5" end2="none" y1="-10" y2="-10" x2="-30" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-15" y2="-5" x2="-80" length2="1.5" antialias="false" x1="-80" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-15" y2="-5" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-30" height="40" antialias="false" x="-50" width="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-10" y2="-10" x2="-50" length2="1.5" antialias="false" x1="-80" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-40" y2="-30" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="20" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-30" y2="10" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="e" y="-10" x="0"/>
-        <terminal orientation="w" y="-10" x="-80"/>
+        <dynamic_text y="12.5" z="1" uuid="{6300bcab-c1c5-4fbb-8943-d34eb457d8e3}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" keep_visual_rotation="false" rotation="0" text_width="-1" x="5" text_from="ElementInfo" Valignment="AlignTop" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" y1="-10" length2="1.5" y2="-10" x2="-30" end1="none" length1="1.5" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-15" length2="1.5" y2="-5" x2="-80" end1="none" length1="1.5" antialias="false" x1="-80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-15" length2="1.5" y2="-5" x2="0" end1="none" length1="1.5" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect y="-30" height="40" width="20" x="-50" rx="0" antialias="false" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-10" length2="1.5" y2="-10" x2="-50" end1="none" length1="1.5" antialias="false" x1="-80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-40" length2="1.5" y2="-30" x2="-40" end1="none" length1="1.5" antialias="false" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="10" length2="1.5" y2="20" x2="-40" end1="none" length1="1.5" antialias="false" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y1="-30" length2="1.5" y2="10" x2="-40" end1="none" length1="1.5" antialias="false" x1="-40" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
+        <terminal y="-10" uuid="{d9d1424d-7ad1-47ef-aedb-47ece2573c46}" type="Generic" x="0" name="" orientation="e"/>
+        <terminal y="-10" uuid="{17522160-6134-4496-91e8-25b80db44fbe}" type="Generic" x="-80" name="" orientation="w"/>
     </description>
 </definition>

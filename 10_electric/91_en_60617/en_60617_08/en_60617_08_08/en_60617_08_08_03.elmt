@@ -1,20 +1,24 @@
-<definition width="50" height="50" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="45">
-    <uuid uuid="{7d2254db-7479-4730-b602-176bc1bd57b3}"/>
+<definition hotspot_y="45" width="50" height="50" version="0.100.0" link_type="simple" hotspot_x="25" type="element">
+    <uuid uuid="{cf6eaa81-1c62-4b81-b6f8-42edc11706f2}"/>
     <names>
-        <name lang="de">Uhr mit Kontaktgebe</name>
-        <name lang="fr">Horloge à contact</name>
         <name lang="cs">Hodiny se spínačem</name>
         <name lang="en">Clock with contact</name>
+        <name lang="de">Uhr mit Kontaktgebe</name>
+        <name lang="fr">Horloge à contact</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <line y2="-20" length1="1.5" y1="-20" length2="1.5" x1="-14" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-36" length1="1.5" y1="-20" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-14" length1="1.5" y1="-14" length2="1.5" x1="-16" x2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-14" length1="1.5" y1="-10" length2="1.5" x1="-6" x2="6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-14" length1="1.5" y1="-14" length2="1.5" x1="6" x2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
+        <dynamic_text rotation="0" uuid="{9122aad6-8f50-407b-98c0-1d78182681b1}" z="1" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" y="12.5" keep_visual_rotation="false" x="5" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" y="-40" x="-20" antialias="false"/>
+        <line y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" y2="-20" x2="0" end1="none" antialias="false" x1="-14"/>
+        <line y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" y2="-36" x2="0" end1="none" antialias="false" x1="0"/>
+        <line y1="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" y2="-14" x2="-6" end1="none" antialias="false" x1="-16"/>
+        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" y2="-14" x2="6" end1="none" antialias="false" x1="-6"/>
+        <line y1="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" length2="1.5" y2="-14" x2="16" end1="none" antialias="false" x1="6"/>
     </description>
 </definition>

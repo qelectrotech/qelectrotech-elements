@@ -1,24 +1,28 @@
-<definition version="0.5" link_type="simple" type="element" hotspot_x="17" width="30" hotspot_y="17" height="20">
-    <uuid uuid="{beff0979-ac60-4880-a8a2-87bc3e330487}"/>
+<definition width="30" link_type="simple" hotspot_y="17" height="20" hotspot_x="17" type="element" version="0.100.0">
+    <uuid uuid="{af61a365-220d-49ea-ac26-900e85632692}"/>
     <names>
+        <name lang="nl">Schakelstanden</name>
         <name lang="el">Διακόπτης με κλειδί</name>
         <name lang="it">Comando, selettore a chiave</name>
-        <name lang="fr">Boutons tournant à clé</name>
-        <name lang="pl">Pozycja wyjęcia kluczyka łącznika</name>
-        <name lang="en">Key switch positions</name>
-        <name lang="ar">زرّ دوّار بمفتاح</name>
         <name lang="cs">Přepínač 3 polohy s návratem zprava, uzamčení vlevo</name>
-        <name lang="nl">Schakelstanden</name>
+        <name lang="pl">Pozycja wyjęcia kluczyka łącznika</name>
+        <name lang="ar">زرّ دوّار بمفتاح</name>
+        <name lang="en">Key switch positions</name>
+        <name lang="fr">Boutons tournant à clé</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" x="4" y="-7.5" tagg="label" text="_" size="9"/>
-        <line x1="9" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" length1="1.5" x2="2" end2="simple" antialias="false" y2="-15" y1="-12"/>
-        <line x1="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="true" y2="0" y1="-10"/>
-        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="false" y2="-14" y1="-1"/>
-        <line x1="-9" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" x2="0" end2="none" antialias="true" y2="0" y1="-9"/>
-        <polygon x1="-12" y4="-12" y3="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-11" x3="-8" closed="false" x4="-11" antialias="true" y2="-8" y1="-11"/>
-        <circle x="-14.4142" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-14.4142" antialias="true" diameter="2.8284"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" x="4" text_width="-1" keep_visual_rotation="false" y="-20" text_from="ElementInfo" rotation="0" frame="false" z="1" uuid="{30c4756c-61d4-40cf-a4b6-78c5d3396ff3}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length2="1.5" y2="-15" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" end2="simple" x1="9" length1="1.5" y1="-12" x2="2"/>
+        <line end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" end2="none" x1="10" length1="1.5" y1="-10" x2="0"/>
+        <line end1="none" length2="1.5" y2="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="0" length1="1.5" y1="-1" x2="0"/>
+        <line end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" end2="none" x1="-9" length1="1.5" y1="-9" x2="0"/>
+        <polygon x3="-8" y2="-8" y4="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x4="-11" y3="-11" x1="-12" closed="false" y1="-11" x2="-11"/>
+        <circle diameter="2.8284" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-14.4142" y="-14.4142"/>
     </description>
 </definition>

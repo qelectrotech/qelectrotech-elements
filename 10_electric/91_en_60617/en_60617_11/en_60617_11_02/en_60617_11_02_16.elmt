@@ -1,20 +1,24 @@
-<definition hotspot_x="44" hotspot_y="57" height="60" link_type="simple" version="0.70" type="element" width="50">
-    <uuid uuid="{dda8acfe-6946-4855-8466-c3f7a1cfaf15}"/>
+<definition width="50" hotspot_y="57" link_type="simple" height="60" hotspot_x="44" version="0.100.0" type="element">
+    <uuid uuid="{9982ae06-9449-4bd0-81e8-2f7219105b6a}"/>
     <names>
         <name lang="de">Umrichterstation (in Betrieb oder undefiniert)</name>
+        <name lang="cs">Měničová stanice ( v provozu)</name>
         <name lang="fr">Sous-station de conversion (en service ou
 indéterminé)</name>
-        <name lang="cs">Měničová stanice ( v provozu)</name>
         <name lang="en">Converting substation, in service or unspecified</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" size="9" text="_" tagg="label" x="5" rotate="true"/>
-        <circle y="-55" diameter="40" style="line-style:normal;line-weight:normal;filling:bdiag;color:black" x="-40" antialias="false"/>
-        <arc y="-7.5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" x="-14" width="8" antialias="true" start="0"/>
-        <arc y="-7.5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180" x="-6" width="8" antialias="true" start="0"/>
-        <line y1="-5" length1="1.5" end2="none" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-25" length2="1.5" antialias="false" x1="-40"/>
-        <line y1="-10" length1="1.5" end2="none" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-22" length2="1.5" antialias="false" x1="-18"/>
+        <dynamic_text z="1" y="12.5" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" uuid="{27f5a691-6d7f-4675-9413-1c3e47ce65eb}" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-55" style="line-style:normal;line-weight:normal;filling:bdiag;color:black" diameter="40" antialias="false" x="-40"/>
+        <arc y="-7.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" angle="180" antialias="true" start="0" x="-14" height="5"/>
+        <arc y="-7.5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" angle="-180" antialias="true" start="0" x="-6" height="5"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" length1="1.5" antialias="false" y2="-5" x1="-40" end2="none" x2="-25" length2="1.5"/>
+        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" length1="1.5" antialias="false" y2="0" x1="-18" end2="none" x2="-22" length2="1.5"/>
     </description>
 </definition>

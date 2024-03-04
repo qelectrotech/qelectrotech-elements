@@ -1,22 +1,28 @@
-<definition width="50" hotspot_x="14" type="element" link_type="simple" version="0.5" height="20" hotspot_y="10">
-    <uuid uuid="{b693b711-32c0-49c5-8d4a-45c3ac6b4ea0}"/>
+<definition hotspot_x="14" hotspot_y="10" type="element" width="50" height="20" version="0.100.0" link_type="simple">
+    <uuid uuid="{031c7353-1650-47f9-a7a0-88aacbe01088}"/>
     <names>
-        <name lang="cs">Třížilový kabel</name>
-        <name lang="it">Linea trifase 2</name>
-        <name lang="pl">Trzy przewody - forma 2</name>
-        <name lang="en">Three-phase line -form 2</name>
-        <name lang="nl">Driefasen lijn </name>
-        <name lang="ar">خط ثلاثي الأوجه - الشكل 2</name>
-        <name lang="fr">Ligne triphase forme 2</name>
         <name lang="el">Τριφασική γραμμή - τύπος 2</name>
+        <name lang="it">Linea trifase 2</name>
+        <name lang="nl">Driefasen lijn </name>
+        <name lang="cs">Třížilový kabel</name>
+        <name lang="en">Three-phase line -form 2</name>
+        <name lang="fr">Ligne triphase forme 2</name>
+        <name lang="ar">خط ثلاثي الأوجه - الشكل 2</name>
+        <name lang="pl">Trzy przewody - forma 2</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 03-01-03</informations>
     <description>
-        <input tagg="none" rotate="true" size="5" y="-5.5" x="10" text="3"/>
-        <input tagg="label" rotate="true" size="9" y="3.55" x="4" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" antialias="true" length2="1.5" end1="none" length1="1.5" y1="-4" x1="13" x2="7"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-10" x2="30"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="0" x="30" orientation="e"/>
+        <dynamic_text y="-15" text_width="-1" rotation="0" z="1" text_from="UserText" frame="false" x="10" font="Sans Serif,5,-1,5,50,0,0,0,0,0" uuid="{86f2d4f8-2c38-47c2-85b5-749ff787e474}" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text>3</text>
+        </dynamic_text>
+        <dynamic_text y="-8.95" text_width="-1" rotation="0" z="2" text_from="ElementInfo" frame="false" x="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{b50e1cc2-0d4f-463c-8cae-456d0be98850}" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-4" end1="none" x1="13" y2="4" end2="none" x2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" antialias="true"/>
+        <line y1="0" end1="none" x1="-10" y2="0" end2="none" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" length1="1.5" antialias="false"/>
+        <terminal y="0" name="" type="Generic" orientation="w" x="-10" uuid="{2da6e7ba-2adc-4b2d-82ea-ccfedf8e03dd}"/>
+        <terminal y="0" name="" type="Generic" orientation="e" x="30" uuid="{407a95e9-87e7-4eef-9725-6c1bb1d53825}"/>
     </description>
 </definition>

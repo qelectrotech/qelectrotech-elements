@@ -1,16 +1,20 @@
-<definition width="50" height="50" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="45">
-    <uuid uuid="{3be73d9a-1a96-484d-90b0-8a0636190baf}"/>
+<definition hotspot_x="25" width="50" version="0.100.0" type="element" height="50" hotspot_y="45" link_type="simple">
+    <uuid uuid="{e1e3b61f-ea5b-4f45-8243-cc99bd41c21f}"/>
     <names>
-        <name lang="de">Wirkleistungsschreiber</name>
         <name lang="fr">Wattmètre enregistreur</name>
-        <name lang="cs">Zapisovací wattmetr</name>
         <name lang="en">Recording wattmeter</name>
+        <name lang="de">Wirkleistungsschreiber</name>
+        <name lang="cs">Zapisovací wattmetr</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-40" antialias="false"/>
-        <text size="9" text="W" x="-6" y="-16"/>
+        <dynamic_text text_width="-1" keep_visual_rotation="false" x="5" frame="false" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" Halignment="AlignLeft" uuid="{92192d5e-9fdf-443f-ad8b-091180cddfb8}" text_from="ElementInfo" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" ry="0" antialias="false" rx="0" y="-40" height="40"/>
+        <text x="-6" text="W" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" y="-16" rotation="0"/>
     </description>
 </definition>

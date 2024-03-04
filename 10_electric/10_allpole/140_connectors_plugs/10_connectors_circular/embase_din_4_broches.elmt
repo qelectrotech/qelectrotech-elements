@@ -1,38 +1,42 @@
-<definition width="70" link_type="simple" version="0.5" hotspot_x="34" height="50" hotspot_y="25" type="element">
-    <uuid uuid="{1b5c434d-630e-412b-98c0-c6f9f25a7016}"/>
+<definition version="0.100.0" height="50" type="element" hotspot_x="34" hotspot_y="25" width="70" link_type="simple">
+    <uuid uuid="{afdf63e8-6488-4e81-a0bc-7562d8f25c53}"/>
     <names>
-        <name lang="nl">DIN 4 Pin</name>
-        <name lang="de">Rundstecker 4-polig</name>
-        <name lang="cs">Kulatá zástrčka DIN 4 kolíky</name>
-        <name lang="pl">Złącze DIN czterostykowe</name>
         <name lang="it">DIN 4 Pin</name>
         <name lang="ar">قاعدة DINب 4 أطراف توصيل </name>
+        <name lang="nl">DIN 4 Pin</name>
         <name lang="en">4-pin DIN socket</name>
-        <name lang="es">Socket de 4 pines</name>
-        <name lang="fr">Embase DIN 4 broches</name>
         <name lang="hu">4 tűs DIN csatlakozó</name>
+        <name lang="pl">Złącze DIN czterostykowe</name>
+        <name lang="fr">Embase DIN 4 broches</name>
+        <name lang="de">Rundstecker 4-polig</name>
+        <name lang="cs">Kulatá zástrčka DIN 4 kolíky</name>
+        <name lang="es">Socket de 4 pines</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text x="-25" y="-12.6667" size="4" text="1"/>
-        <input x="18" y="20.55" tagg="label" size="9" rotate="true" text="_"/>
-        <text x="22" y="-12.6667" size="4" text="4"/>
-        <text x="23" y="6.3333" size="4" text="5"/>
-        <text x="-25" y="8.3333" size="4" text="2"/>
-        <line antialias="false" length1="1.5" x2="13" end2="none" x1="25" end1="none" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
-        <line antialias="false" length1="1.5" x2="-13" end2="none" x1="-25" end1="none" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10"/>
-        <arc x="-20" width="40" antialias="true" y="-20" angle="-348" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" start="84"/>
-        <line antialias="false" length1="1.5" x2="13" end2="none" x1="25" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
-        <line antialias="false" length1="1.5" x2="-13" end2="none" x1="-25" end1="none" y2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10"/>
-        <polygon antialias="false" x2="-2" x4="2" x1="-2" x3="2" y2="-16" y3="-16" closed="false" y4="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
-        <circle x="-12.5" antialias="true" y="-12.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="7.5" antialias="true" y="-12.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="7.5" antialias="true" y="7.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-12.5" antialias="true" y="7.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-26" y="10" orientation="w"/>
-        <terminal x="26" y="10" orientation="e"/>
-        <terminal x="-26" y="-10" orientation="w"/>
-        <terminal x="26" y="-10" orientation="e"/>
+        <text y="-12.6667" text="1" rotation="0" x="-25" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text y="8.05" frame="false" uuid="{ebef7c41-fd54-4754-8df3-a86e829675ca}" text_from="ElementInfo" keep_visual_rotation="false" rotation="0" x="18" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" z="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text y="-12.6667" text="4" rotation="0" x="22" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text y="6.3333" text="5" rotation="0" x="23" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text y="8.3333" text="2" rotation="0" x="-25" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line y2="-10" antialias="false" x1="25" x2="13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" end1="none" end2="none" length1="1.5"/>
+        <line y2="-10" antialias="false" x1="-25" x2="-13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" end1="none" end2="none" length1="1.5"/>
+        <arc start="84" antialias="true" y="-20" height="40" angle="-348" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" width="40"/>
+        <line y2="10" antialias="false" x1="25" x2="13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" end1="none" end2="none" length1="1.5"/>
+        <line y2="10" antialias="false" x1="-25" x2="-13" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" end1="none" end2="none" length1="1.5"/>
+        <polygon y2="-16" antialias="false" x1="-2" x2="-2" y4="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="2" y1="-20" y3="-16" x3="2" closed="false"/>
+        <circle antialias="true" y="-12.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-12.5"/>
+        <circle antialias="true" y="-12.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="7.5"/>
+        <circle antialias="true" y="7.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="7.5"/>
+        <circle antialias="true" y="7.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-12.5"/>
+        <terminal name="" y="10" uuid="{e7de8c45-09d9-4ff4-a934-b0b621d478a4}" type="Generic" x="-26" orientation="w"/>
+        <terminal name="" y="10" uuid="{30496612-55d1-4763-9466-965a77c4cfca}" type="Generic" x="26" orientation="e"/>
+        <terminal name="" y="-10" uuid="{29859c0c-6a17-4cc9-a625-a2fcd4905093}" type="Generic" x="-26" orientation="w"/>
+        <terminal name="" y="-10" uuid="{6a34f96b-c3c7-48ce-adb2-280bb1ef79e2}" type="Generic" x="26" orientation="e"/>
     </description>
 </definition>

@@ -1,27 +1,31 @@
-<definition height="30" version="0.5" link_type="simple" width="30" hotspot_x="4" hotspot_y="24" type="element">
-    <uuid uuid="{162e0efc-2e79-454a-9498-3fa7fe76e4d7}"/>
+<definition hotspot_y="24" link_type="simple" width="30" version="0.100.0" hotspot_x="4" type="element" height="30">
+    <uuid uuid="{5f893582-3e56-4c7a-9b98-b0029ae817ee}"/>
     <names>
-        <name lang="de">rückwärts sperrende Thyristortetriode</name>
-        <name lang="pl">Tyrystor tetrodowy blokujący wstecznie</name>
-        <name lang="ar">ثايريستور رباعي الأطراف مكبوح في الإنحياز العكسي</name>
         <name lang="it">Tiristore tetrodo bloccato nel sen-so inverso di conduzione</name>
+        <name lang="ar">ثايريستور رباعي الأطراف مكبوح في الإنحياز العكسي</name>
         <name lang="en">Reverse blocking thyristor tetrode type</name>
-        <name lang="cs">Tetrodový tyristor, blokující obráceně</name>
+        <name lang="nl">Thyristor tetrode</name>
         <name lang="fr">Thyristor tétrode bloqué en inverse
 </name>
-        <name lang="nl">Thyristor tetrode</name>
+        <name lang="pl">Tyrystor tetrodowy blokujący wstecznie</name>
+        <name lang="cs">Tetrodový tyristor, blokující obráceně</name>
+        <name lang="de">rückwärts sperrende Thyristortetriode</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-04-10</informations>
     <description>
-        <input tagg="label" y="-11.5" size="9" rotate="true" text="_" x="16"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="true" x3="12" y3="-5" x2="16" x1="20" y2="0"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="true" x3="8" y3="-15" x2="4" x1="0" y2="-20"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="10" x1="10" end1="none" y2="0"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="true" x3="10" y4="-15" y3="-5" x2="15" x1="5" x4="5" y2="-15"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" length1="1.5" antialias="false" end2="none" length2="1.5" x2="15" x1="5" end1="none" y2="-5"/>
-        <terminal y="-20" orientation="n" x="10"/>
-        <terminal y="0" orientation="s" x="10"/>
-        <terminal y="-20" orientation="w" x="0"/>
-        <terminal y="0" orientation="e" x="20"/>
+        <dynamic_text z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo" frame="false" Valignment="AlignTop" uuid="{426b0c8c-9fc8-4003-9bfb-f754c258fdd5}" text_width="-1" x="16" rotation="0" y="-24">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x3="12" y2="0" antialias="true" closed="false" x2="16" y3="-5" x1="20"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x3="8" y2="-20" antialias="true" closed="false" x2="4" y3="-15" x1="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="0" antialias="false" x2="10" length2="1.5" end1="none" length1="1.5" x1="10" end2="none"/>
+        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x3="10" y2="-15" x4="5" antialias="true" closed="false" x2="15" y4="-15" y3="-5" x1="5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" y2="-5" antialias="false" x2="15" length2="1.5" end1="none" length1="1.5" x1="5" end2="none"/>
+        <terminal orientation="n" uuid="{230590db-4662-461c-be59-a1f225af360e}" name="" x="10" type="Generic" y="-20"/>
+        <terminal orientation="s" uuid="{b2ec7a05-db8d-4887-bc45-710fd04d4c5c}" name="" x="10" type="Generic" y="0"/>
+        <terminal orientation="w" uuid="{82b6b5c4-07d7-4942-90b5-e0893a0556a6}" name="" x="0" type="Generic" y="-20"/>
+        <terminal orientation="e" uuid="{9ea592c9-555c-42ae-abe7-30bb373ba6ad}" name="" x="20" type="Generic" y="0"/>
     </description>
 </definition>

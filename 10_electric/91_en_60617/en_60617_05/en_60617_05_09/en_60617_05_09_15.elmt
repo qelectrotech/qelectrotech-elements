@@ -1,18 +1,22 @@
-<definition type="element" link_type="simple" height="30" width="60" version="0.70" hotspot_x="55" hotspot_y="25">
-    <uuid uuid="{333ee40c-7a9e-49ff-b825-872c208ad159}"/>
+<definition link_type="simple" height="30" hotspot_y="25" width="60" version="0.100.0" type="element" hotspot_x="55">
+    <uuid uuid="{e31905b6-0bda-49bf-af1b-316444ad5102}"/>
     <names>
-        <name lang="fr">Structure à retard de couplage</name>
-        <name lang="de">Verzögerungsleitungs-Koppler</name>
         <name lang="cs">Zpomalovací vazební člen</name>
+        <name lang="fr">Structure à retard de couplage</name>
         <name lang="en">Slow-wave coupler</name>
+        <name lang="de">Verzögerungsleitungs-Koppler</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" size="9" tagg="label" y="15" x="5" rotate="true"/>
-        <line antialias="false" x1="0" y2="0" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-50"/>
-        <line antialias="false" x1="-40" y2="-20" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40"/>
-        <line antialias="false" x1="-50" y2="-10" length2="1.5" end1="none" length1="1.5" y1="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40"/>
-        <line antialias="false" x1="-50" y2="-20" length2="1.5" end1="none" length1="1.5" y1="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40"/>
+        <dynamic_text frame="false" x="5" z="1" Halignment="AlignLeft" text_width="-1" uuid="{b26e9710-85be-4adf-97fb-c2f49e08dbf8}" y="2.5" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" length2="1.5" y1="0" x2="-50" end1="none" x1="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y2="-20" length2="1.5" y1="0" x2="-40" end1="none" x1="-40" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y2="-10" length2="1.5" y1="-10" x2="-40" end1="none" x1="-50" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
+        <line y2="-20" length2="1.5" y1="-20" x2="-40" end1="none" x1="-50" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none"/>
     </description>
 </definition>

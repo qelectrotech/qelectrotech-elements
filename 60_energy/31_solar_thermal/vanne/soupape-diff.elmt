@@ -1,15 +1,16 @@
-<definition width="40" hotspot_x="23" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{b78d01c9-098e-41be-87f6-75d60d25ead5}"/>
+<definition hotspot_y="20" height="40" version="0.100.0" hotspot_x="23" type="element" width="40" link_type="simple">
+    <uuid uuid="{29cb3090-4eb2-4b1d-9663-5909e15e1b5e}"/>
     <names>
-        <name lang="cs">Diferenciální ventil</name>
-        <name lang="pl">Zawór różnicowy klapowy</name>
-        <name lang="it">Valvola differenziale</name>
         <name lang="en">differential valve</name>
-        <name lang="es">Válvula diferencial</name>
         <name lang="nl">Drukverschil klep</name>
-        <name lang="ar">صمّام تفاضلي</name>
+        <name lang="it">Valvola differenziale</name>
         <name lang="fr">Soupape différentielle</name>
+        <name lang="pl">Zawór różnicowy klapowy</name>
+        <name lang="ar">صمّام تفاضلي</name>
+        <name lang="es">Válvula diferencial</name>
+        <name lang="cs">Diferenciální ventil</name>
     </names>
+    <elementInformations/>
     <informations>ne pas confondre 
 soupape de pression différentielle
 ( souvre a une pression)
@@ -17,11 +18,14 @@ et
 vanne de maintien de pression différentielle 
 ( maintien une pression diff. )</informations>
     <description>
-        <input tagg="label" rotate="true" size="3" y="-23.3333" x="-20" text="soupape&#xa;différentielle"/>
-        <polygon y3="-6" x7="-3" y9="-15" closed="false" y8="-14" x8="3" x12="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y12="-17" x6="3" x9="0" y4="-8" x1="0" x4="3" y10="-17" y6="-11" x5="-3" y5="-9" y2="-4" x2="0" x3="-3" x11="0" y11="-17" y7="-12" y1="0" x10="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" x4="-10" antialias="true" y5="15" y1="15" x1="-10" x3="0" y3="0" y4="15" x2="10" x5="-10"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x4="-15" antialias="true" y5="-10" y1="-10" x1="-15" x3="0" y3="0" y4="-10" x2="-15" x5="-15"/>
-        <terminal y="0" x="-15" orientation="w"/>
-        <terminal y="15" x="0" orientation="s"/>
+        <dynamic_text text_width="-1" x="-20" z="1" text_from="ElementInfo" y="-30.8333" frame="false" font="Sans Serif,3,-1,5,25,0,0,0,0,0" uuid="{4eeedca3-febb-42c4-90a2-d485cc01f0e6}" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon x1="0" x6="3" y12="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" y8="-14" y10="-17" x4="3" y11="-17" x8="3" y6="-11" x10="0" antialias="true" y9="-15" y1="0" y3="-6" x7="-3" y7="-12" y2="-4" x9="0" x3="-3" closed="false" x11="0" y4="-8" x2="0" x12="0" x5="-3" y5="-9"/>
+        <polygon x1="-10" x5="-10" x3="0" y4="15" y2="15" y5="15" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x4="-10" y3="0" antialias="true"/>
+        <polygon x1="-15" x5="-15" x3="0" y4="-10" y2="10" y5="-10" x2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x4="-15" y3="0" antialias="true"/>
+        <terminal x="-15" name="" y="0" uuid="{65a42a06-ad8d-4205-968d-4b78750c5b23}" orientation="w" type="Generic"/>
+        <terminal x="0" name="" y="15" uuid="{7a577768-753e-445c-98be-7dda698f349e}" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,30 +1,35 @@
-<definition width="20" version="0.4" hotspot_x="12" hotspot_y="29" height="60" link_type="master" type="element">
-<uuid uuid="{89D4ADF3-2AE3-4C05-828F-3F49C347A3DE}"/><names>
-        <name lang="ar">مفتاح عزل بمصهر</name>
-        <name lang="de">Sicherungstrenner 1-polig</name>
-        <name lang="ru">Выключатель-предохранитель</name>
-        <name lang="pt">Seccionador</name>
-        <name lang="el">Ασφαλειοδιακόπτης</name>
-        <name lang="en">switchfuses</name>
-        <name lang="it">Sezionatore con fusibile 1P</name>
-        <name lang="fr">Porte fusible mono</name>
-        <name lang="pl">Odłącznik bezpiecznikowy</name>
-        <name lang="es">Seccionador</name>
-        <name lang="nl">Zekeringscheider 1</name>
+<definition type="element" hotspot_x="12" height="60" hotspot_y="29" version="0.100.0" width="20" link_type="master">
+    <uuid uuid="{f9f487d8-b99c-4af0-b83f-4a5ab19f9fd1}"/>
+    <names>
         <name lang="cs">Pojistkový odpojovač</name>
+        <name lang="pl">Odłącznik bezpiecznikowy</name>
+        <name lang="ar">مفتاح عزل بمصهر</name>
+        <name lang="es">Seccionador</name>
+        <name lang="en">switchfuses</name>
+        <name lang="pt">Seccionador</name>
+        <name lang="fr">Porte fusible mono</name>
+        <name lang="it">Sezionatore con fusibile 1P</name>
+        <name lang="de">Sicherungstrenner 1-polig</name>
+        <name lang="el">Ασφαλειοδιακόπτης</name>
+        <name lang="ru">Выключатель-предохранитель</name>
+        <name lang="nl">Zekeringscheider 1</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <polygon x4="-1.81" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4.51" x1="-5.69" y2="5.49" x2="-3.19" y3="4.51" x3="0.69" y4="-5.49"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <input x="20" y="0.5" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="2" y2="-10" x2="-2"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <polygon x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" y1="-10" closed="false" antialias="true" y2="10" x1="-5" y3="20"/>
+        <polygon x2="-3.19" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0.69" y1="-4.51" y4="-5.49" antialias="true" y2="5.49" x4="-1.81" x1="-5.69" y3="4.51"/>
+        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-20" end1="none" antialias="false" y2="-10" length2="1.5" x1="0" end2="none"/>
+        <dynamic_text x="20" uuid="{2d972e1a-cd58-420a-a3b0-bd0f21357ca8}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_from="ElementInfo" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" text_width="-1" z="4" Valignment="AlignTop" y="-12">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-10" end1="none" antialias="false" y2="-10" length2="1.5" x1="2" end2="none"/>
+        <terminal x="0" name="" type="Generic" uuid="{8e806539-80f0-4097-bb4e-82c2bed51442}" orientation="n" y="-21"/>
+        <terminal x="0" name="" type="Generic" uuid="{1fb55a5a-0f15-41f6-8025-ac5fa6b8c01b}" orientation="s" y="21"/>
     </description>
 </definition>

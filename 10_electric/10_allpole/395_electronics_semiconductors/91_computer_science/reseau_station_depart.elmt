@@ -1,29 +1,35 @@
-<definition height="160" version="0.5" link_type="simple" width="80" hotspot_x="34" hotspot_y="72" type="element">
-    <uuid uuid="{3652cb52-560e-4ea3-9cf7-131ab7d77a66}"/>
+<definition hotspot_y="72" height="160" type="element" width="80" link_type="simple" version="0.100.0" hotspot_x="34">
+    <uuid uuid="{dcee98ad-02d0-49e9-a53d-dce9b68de7c6}"/>
     <names>
+        <name lang="fr">RESEAU STATION TETE</name>
+        <name lang="es">Estación de Red Principal</name>
         <name lang="de">Netzwerkstation Anfang</name>
         <name lang="pl">Stacja główna</name>
-        <name lang="ar">RESEAU STATION TETE</name>
-        <name lang="es">Estación de Red Principal</name>
-        <name lang="it">RETE Stazione di partenza</name>
         <name lang="en">Network station first</name>
-        <name lang="cs">Hlavní stanice</name>
-        <name lang="fr">RESEAU STATION TETE</name>
+        <name lang="ar">RESEAU STATION TETE</name>
+        <name lang="it">RETE Stazione di partenza</name>
         <name lang="nl">Netwerk Station eerste</name>
+        <name lang="cs">Hlavní stanice</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="none" y="-55.5" size="5" rotate="true" text="ADR : _" x="-14"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="76.575" angle="-90" antialias="true" start="-90" width="4.5" x="-31.2"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="-70" angle="-90" antialias="true" start="-180" width="4.5" x="-31.2"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="76.575" angle="-90" antialias="true" start="0" width="4.5" x="36.3"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" height="9.75" y="-70" angle="-90" antialias="true" start="90" width="4.5" x="36.3"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-70" length1="1.5" antialias="false" end2="none" length2="1.5" x2="38.4" x1="-28.8" end1="none" y2="-70"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-65.45" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-31.2" x1="-31.2" end1="none" y2="80.8"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-65.4396" length1="1.5" antialias="false" end2="none" length2="1.5" x2="40.8" x1="40.8" end1="none" y2="80.789"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="86.325" length1="1.5" antialias="false" end2="none" length2="1.5" x2="38.2212" x1="-29.2351" end1="none" y2="86.325"/>
-        <input tagg="label" y="44.5" size="5" rotate="true" text="STATION_" x="-20"/>
-        <terminal y="10" orientation="e" x="40.8"/>
+        <dynamic_text y="-65" Valignment="AlignTop" Halignment="AlignLeft" z="1" x="-14" text_width="-1" uuid="{bfd5a57b-6653-40ad-9130-0f6f53bde3a4}" frame="false" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="UserText">
+            <text>ADR : _</text>
+        </dynamic_text>
+        <arc y="76.575" height="9.75" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-90" x="-31.2" width="4.5" antialias="true" start="-90"/>
+        <arc y="-70" height="9.75" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-90" x="-31.2" width="4.5" antialias="true" start="-180"/>
+        <arc y="76.575" height="9.75" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-90" x="36.3" width="4.5" antialias="true" start="0"/>
+        <arc y="-70" height="9.75" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-90" x="36.3" width="4.5" antialias="true" start="90"/>
+        <line x2="38.4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-70" y2="-70" length2="1.5" x1="-28.8" antialias="false" end2="none"/>
+        <line x2="-31.2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-65.45" y2="80.8" length2="1.5" x1="-31.2" antialias="false" end2="none"/>
+        <line x2="40.8" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-65.4396" y2="80.789" length2="1.5" x1="40.8" antialias="false" end2="none"/>
+        <line x2="38.2212" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="86.325" y2="86.325" length2="1.5" x1="-29.2351" antialias="false" end2="none"/>
+        <dynamic_text y="35" Valignment="AlignTop" Halignment="AlignLeft" z="10" x="-20" text_width="-1" uuid="{da3ac573-a2db-43a9-9c15-854d879993cc}" frame="false" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="10" name="" type="Generic" x="40.8" uuid="{7f938f49-1b56-4e66-8e88-77063b37cec3}" orientation="e"/>
     </description>
 </definition>

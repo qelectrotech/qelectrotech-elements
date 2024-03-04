@@ -1,25 +1,30 @@
-<definition width="30" link_type="thumbnail" version="0.5" hotspot_x="15" height="30" hotspot_y="27" type="element">
-    <uuid uuid="{ed13daff-0855-4a2f-9160-49d69ef0b881}"/>
+<definition height="30" link_type="thumbnail" hotspot_y="27" width="30" type="element" version="0.100.0" hotspot_x="15">
+    <uuid uuid="{7db1001b-9edc-492e-aabd-d38dbbdd1e7c}"/>
     <names>
         <name lang="el">Ετικέτα, πάνω/κάτω</name>
-        <name lang="nl">Label houder omhoog/omlaag</name>
-        <name lang="de">Schild Pfeil oben/unten</name>
         <name lang="cs">Štítek ovladače Nahoru/Dolů</name>
-        <name lang="pl">Góra-dół</name>
-        <name lang="it">Etichetta - Su/Giù</name>
-        <name lang="ar">حامل مُلصق أعلى / أسفل</name>
         <name lang="en">Label holder up / down</name>
         <name lang="fr">Porte étiquette montée/descente</name>
+        <name lang="nl">Label houder omhoog/omlaag</name>
+        <name lang="de">Schild Pfeil oben/unten</name>
+        <name lang="it">Etichetta - Su/Giù</name>
+        <name lang="pl">Góra-dół</name>
+        <name lang="ar">حامل مُلصق أعلى / أسفل</name>
     </names>
+    <kindInformations/>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-7" y="-37.5" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="2" x2="5" end2="triangle" x1="5" end1="none" y2="-23" length2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-13"/>
-        <line antialias="false" length1="2" x2="-5" end2="triangle" x1="-5" end1="none" y2="-13" length2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-23"/>
-        <rect x="-10" width="20" antialias="false" y="-24" height="12" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="-11" end1="none" y2="-25" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-25"/>
-        <line antialias="false" length1="1.5" x2="11" end2="none" x1="11" end1="none" y2="-25" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <line antialias="false" length1="1.5" x2="-11" end2="none" x1="-11" end1="none" y2="-25" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
+        <dynamic_text z="1" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" x="-7" y="-50" uuid="{c79ff862-a01b-48ed-9945-b4ea0230d132}" text_from="ElementInfo" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-23" end2="triangle" x2="5" end1="none" antialias="false" x1="5" y1="-13" length2="2" length1="2"/>
+        <line style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-13" end2="triangle" x2="-5" end1="none" antialias="false" x1="-5" y1="-23" length2="2" length1="2"/>
+        <rect height="12" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" width="20" rx="0" x="-10" y="-24" ry="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-25" end2="none" x2="10" end1="none" antialias="false" x1="-11" y1="-25" length2="1.5" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-25" end2="none" x2="11" end1="none" antialias="false" x1="11" y1="0" length2="1.5" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-25" end2="none" x2="-11" end1="none" antialias="false" x1="-11" y1="0" length2="1.5" length1="1.5"/>
     </description>
 </definition>

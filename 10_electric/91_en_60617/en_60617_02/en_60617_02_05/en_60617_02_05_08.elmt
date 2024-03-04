@@ -1,18 +1,22 @@
-<definition type="element" width="20" height="10" version="0.70" hotspot_x="9" hotspot_y="5" link_type="simple">
-    <uuid uuid="{2acf818e-2db5-4885-b3f1-57fbb1db5d41}"/>
+<definition height="10" width="20" version="0.100.0" link_type="simple" hotspot_y="5" type="element" hotspot_x="9">
+    <uuid uuid="{13452e12-0763-429c-91d3-5c974db92d80}"/>
     <names>
-        <name lang="fr">Transit de l'énergie dans les deux sens</name>
         <name lang="es">Tránsito de energía en ambas direcciones</name>
-        <name lang="de">Energiefluß, bidirektional</name>
+        <name lang="fr">Transit de l'énergie dans les deux sens</name>
         <name lang="cs">Obousměrný tok energie</name>
         <name lang="en">Energy flow, bidirectional (towards and from the busbars)</name>
+        <name lang="de">Energiefluß, bidirektional</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="-6" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="simple" x2="6"/>
-        <line antialias="false" x1="0" length2="1.5" end1="simple" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" y1="0" end2="none" x2="7"/>
-        <input size="9" text="_" y="15" tagg="label" x="5" rotate="true"/>
-        <line antialias="false" x1="-6" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="2" y1="-2" end2="none" x2="-6"/>
+        <line end1="none" antialias="false" x2="6" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6" y1="0" end2="simple" length1="1.5"/>
+        <line end1="simple" antialias="false" x2="7" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" end2="none" length1="1.5"/>
+        <dynamic_text keep_visual_rotation="false" z="3" Valignment="AlignTop" rotation="0" uuid="{6f8699d6-1f41-4470-bd8b-7f3b2f4706e3}" text_width="-1" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="5" y="2.5" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" antialias="false" x2="-6" length2="1.5" y2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6" y1="-2" end2="none" length1="1.5"/>
     </description>
 </definition>

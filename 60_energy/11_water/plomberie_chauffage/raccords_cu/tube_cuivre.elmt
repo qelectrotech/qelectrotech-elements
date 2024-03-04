@@ -1,20 +1,30 @@
-<definition type="element" width="40" hotspot_x="29" version="0.51" link_type="terminal" height="20" hotspot_y="11">
-    <uuid uuid="{1251a098-31f6-4308-a0b6-9aa39a0580cd}"/>
+<definition width="40" link_type="terminal" height="20" hotspot_x="29" hotspot_y="11" version="0.100.0" type="element">
+    <uuid uuid="{1508beca-52ab-4a80-8ddf-cf8f67c714bb}"/>
     <names>
         <name lang="fr">Tube Cuivre</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <elementInformations/>
     <informations>Baboune41-2016</informations>
     <description>
-        <input y="-34" x="-3" rotate="true" tagg="label" text="_" size="5"/>
-        <line y1="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="2" end1="none" end2="none" length2="1.5" y2="4" length1="1.5" x2="2"/>
-        <line y1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-21" end1="none" end2="none" length2="1.5" y2="-5" length1="1.5" x2="2"/>
-        <line y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-21" end1="none" end2="none" length2="1.5" y2="5" length1="1.5" x2="2"/>
-        <text y="2" x="-18" text="Cu" size="5"/>
-        <ellipse y="0" style="line-style:normal;line-weight:thin;filling:gray;color:gray" x="-22.5" width="3" antialias="false" height="5"/>
-        <arc y="-5" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-22.5" start="-90" width="3" antialias="true" angle="-180" height="5"/>
-        <arc y="0" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-22.5" start="90" width="3" antialias="true" angle="-180" height="5"/>
-        <input y="-1" x="-14" rotate="true" tagg="none" text="22" size="5"/>
-        <terminal y="0" x="-22" orientation="w"/>
-        <terminal y="0" x="2" orientation="e"/>
+        <dynamic_text rotation="0" uuid="{dba75d31-a780-4366-9da1-4996149573e4}" frame="false" keep_visual_rotation="false" y="-43.5" text_from="ElementInfo" x="-3" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" z="1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="2" end2="none" antialias="false" x2="2" length2="1.5" y2="4" length1="1.5" y1="-4" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-21" end2="none" antialias="false" x2="2" length2="1.5" y2="-5" length1="1.5" y1="-5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-21" end2="none" antialias="false" x2="2" length2="1.5" y2="5" length1="1.5" y1="5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text rotation="0" text="Cu" y="2" x="-18" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <ellipse width="3" height="5" y="0" x="-22.5" antialias="false" style="line-style:normal;line-weight:thin;filling:gray;color:gray"/>
+        <arc width="3" height="5" y="-5" x="-22.5" antialias="true" angle="-180" start="-90" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <arc width="3" height="5" y="0" x="-22.5" antialias="true" angle="-180" start="90" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <dynamic_text rotation="0" uuid="{c22f4c22-33a4-46a4-b8bc-f2d9bc94086b}" frame="false" keep_visual_rotation="false" y="-10.5" text_from="UserText" x="-14" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" z="9" Valignment="AlignTop">
+            <text>22</text>
+        </dynamic_text>
+        <terminal orientation="w" uuid="{f7e1290d-028f-4dea-afa9-0775fea1122b}" y="0" x="-22" name="" type="Generic"/>
+        <terminal orientation="e" uuid="{e1446876-470b-428e-9bb6-d61bcf1854e7}" y="0" x="2" name="" type="Generic"/>
     </description>
 </definition>

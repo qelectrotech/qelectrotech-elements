@@ -1,25 +1,29 @@
-<definition width="30" hotspot_x="14" type="element" link_type="simple" version="0.5" height="40" hotspot_y="18">
-    <uuid uuid="{10310f28-387b-45a9-8636-e5d789e5fd15}"/>
+<definition type="element" version="0.100.0" link_type="simple" width="30" height="40" hotspot_x="14" hotspot_y="18">
+    <uuid uuid="{3c3dca0d-0c06-4732-a04b-f24199ef26e3}"/>
     <names>
-        <name lang="cs">Odlučovač oleje</name>
-        <name lang="it">Disoleatore</name>
-        <name lang="pl">Separator oleju</name>
         <name lang="en">Oil separator</name>
         <name lang="nl">Olie scheider</name>
+        <name lang="cs">Odlučovač oleje</name>
+        <name lang="pl">Separator oleju</name>
         <name lang="ar">فاصلة زيت</name>
+        <name lang="it">Disoleatore</name>
         <name lang="fr">Séparateur d'huile</name>
         <name lang="el">Διαχωριστής λαδιού</name>
     </names>
+    <elementInformations/>
     <informations>Rotation possible</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="2" antialias="false" y1="7" x1="1" closed="false" x3="9" y3="2" x2="6"/>
-        <input tagg="label" rotate="true" size="9" y="-23.5" x="-7" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-2" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" x1="0" x2="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-13" x4="0" x6="-8" antialias="false" y6="-13" y5="5" y1="-13" x1="-8" closed="false" x3="8" y3="5" y4="13" x2="8" x5="-8"/>
-        <ellipse width="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="7" x="-2" height="2"/>
-        <terminal y="14" x="0" orientation="s"/>
-        <terminal y="-10" x="-9" orientation="w"/>
-        <terminal y="-10" x="9" orientation="e"/>
-        <terminal y="2" x="9" orientation="e"/>
+        <polygon y1="7" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="6" y2="2" antialias="false" x3="9" x1="1" y3="2"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="-7" uuid="{fe1d74eb-44a1-4645-bb3f-3bdbfb22c5b7}" y="-36" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" z="2" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-2" length2="1.5" end1="none" antialias="false" x1="0" length1="1.5"/>
+        <polygon y1="-13" x5="-8" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="8" y2="-13" y6="-13" x4="0" y4="13" antialias="false" x6="-8" x3="8" x1="-8" y5="5" y3="5"/>
+        <ellipse style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2" width="4" y="7" height="2" antialias="true"/>
+        <terminal orientation="s" type="Generic" name="" x="0" uuid="{f31ea5ee-1c0d-4b6f-98d5-49f1b161db72}" y="14"/>
+        <terminal orientation="w" type="Generic" name="" x="-9" uuid="{0c3daea3-8220-44c6-8353-49bbe69f3b8a}" y="-10"/>
+        <terminal orientation="e" type="Generic" name="" x="9" uuid="{a2db4a6d-7220-4b46-8686-adc25c7d662e}" y="-10"/>
+        <terminal orientation="e" type="Generic" name="" x="9" uuid="{ed8256c8-eadc-45d1-9fd9-8c3151f1e230}" y="2"/>
     </description>
 </definition>

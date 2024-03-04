@@ -1,16 +1,23 @@
-<definition width="420" height="30" hotspot_x="5" hotspot_y="15" type="element" version="0.51" link_type="previous_report">
-    <uuid uuid="{9d0949c7-f39e-4750-b19a-46b6f47dfef3}"/>
+<definition version="0.100.0" height="40" width="420" hotspot_y="26" hotspot_x="5" link_type="previous_report" type="element">
+    <uuid uuid="{b9f0c681-5e84-4773-bfa9-16f99aa914ee}"/>
     <names>
         <name lang="fr">Texte de signal (référence croisée)</name>
-        <name lang="en">Signal text (cross reference)</name>
         <name lang="de">Signaltext (Verweis)</name>
+        <name lang="en">Signal text (cross reference)</name>
     </names>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="60" y="0.5" rotate="true" size="7" tagg="label" text="/"/>
-        <input x="110" y="0.5" rotate="true" size="7" tagg="none" text="Signaltext"/>
-        <input x="0" y="1" rotate="true" size="9" tagg="none" text="#"/>
-        <rect width="410" height="20" x="0" y="-10" antialias="false" style="line-style:normal;line-weight:none;filling:none;color:black"/>
+        <dynamic_text rotation="0" text_from="ElementInfo" font="Sans Serif,7,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="60" uuid="{d2f74e4a-61d4-4168-9328-18a56394a0e7}" y="-10" text_width="-1" frame="false" Halignment="AlignLeft" z="1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <dynamic_text rotation="0" text_from="UserText" font="Sans Serif,7,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="110" uuid="{51eb8353-3db4-45e9-863d-20972f6648fd}" y="-10" text_width="-1" frame="false" Halignment="AlignLeft" z="2" keep_visual_rotation="false">
+            <text>Signaltext</text>
+        </dynamic_text>
+        <dynamic_text rotation="0" text_from="UserText" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="0" uuid="{2320fa47-b4b4-405f-8cc7-ab56ab4ecccc}" y="-11.5" text_width="-1" frame="false" Halignment="AlignLeft" z="3" keep_visual_rotation="false">
+            <text>#</text>
+        </dynamic_text>
+        <rect height="20" rx="0" x="0" width="410" ry="0" style="line-style:normal;line-weight:none;filling:none;color:black" antialias="false" y="-10"/>
     </description>
 </definition>

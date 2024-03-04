@@ -1,31 +1,35 @@
-<definition height="30" version="0.5" link_type="simple" width="30" hotspot_x="8" hotspot_y="24" type="element">
-    <uuid uuid="{60ed48ed-0e7d-4094-9b03-d7e048070042}"/>
+<definition type="element" hotspot_y="24" version="0.100.0" hotspot_x="8" width="30" height="30" link_type="simple">
+    <uuid uuid="{8a5e4972-f823-4ba8-8e51-505f2d8a8077}"/>
     <names>
+        <name lang="nl">Thyristor N gate</name>
         <name lang="de">Abschalt-Thyristortriode, N-Gate (Anode
 gesteuert)
 </name>
-        <name lang="pl">Tyrystor triodowy odłączający z bramką N</name>
-        <name lang="ar">ثايريستور ببوابة إطفاءGTO  N  (محكوم من جهة الأنود)</name>
         <name lang="it">Tiristore triodo bloccabile, porta N (controllato sull’anodo)</name>
         <name lang="en"> Turn-off triode thyristor, N-gate
 (anode-side controlled)
 </name>
-        <name lang="cs">Vypínací triodový tyristor, brána N (řízeno na straně anody)</name>
+        <name lang="ar">ثايريستور ببوابة إطفاءGTO  N  (محكوم من جهة الأنود)</name>
         <name lang="fr">Thyristor triode blocable par la gâchette N
 (commandé côté anode)
 </name>
-        <name lang="nl">Thyristor N gate</name>
+        <name lang="cs">Vypínací triodový tyristor, brána N (řízeno na straně anody)</name>
+        <name lang="pl">Tyrystor triodowy odłączający z bramką N</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-04-08</informations>
     <description>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-22" length1="1.5" antialias="false" end2="none" length2="1.5" x2="2" x1="2" end1="none" y2="-18"/>
-        <input tagg="label" y="-12.45" size="9" rotate="true" text="_" x="16"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="true" x3="8" y3="-15" x2="4" x1="0" y2="-20"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" antialias="false" end2="none" length2="1.5" x2="10" x1="10" end1="none" y2="0"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="true" x3="10" y4="-15" y3="-5" x2="15" x1="5" x4="5" y2="-15"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-5" length1="1.5" antialias="false" end2="none" length2="1.5" x2="15" x1="5" end1="none" y2="-5"/>
-        <terminal y="-20" orientation="n" x="10"/>
-        <terminal y="0" orientation="s" x="10"/>
-        <terminal y="-20" orientation="w" x="0"/>
+        <line end2="none" y2="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-22" length1="1.5" x2="2" x1="2" length2="1.5" antialias="false"/>
+        <dynamic_text Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" x="16" keep_visual_rotation="false" uuid="{1d89ed54-1a15-4c67-abda-c39f7c19cdd3}" text_from="ElementInfo" rotation="0" y="-24.95" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y3="-15" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x3="8" x2="4" closed="false" x1="0" antialias="true"/>
+        <line end2="none" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-20" length1="1.5" x2="10" x1="10" length2="1.5" antialias="false"/>
+        <polygon y3="-5" y4="-15" x4="5" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" x3="10" x2="15" closed="false" x1="5" antialias="true"/>
+        <line end2="none" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-5" length1="1.5" x2="15" x1="5" length2="1.5" antialias="false"/>
+        <terminal type="Generic" x="10" uuid="{d3552b7c-3c82-4e4c-8448-f142929da52e}" y="-20" orientation="n" name=""/>
+        <terminal type="Generic" x="10" uuid="{20bd3f89-085c-4764-9973-19f65a9bdc09}" y="0" orientation="s" name=""/>
+        <terminal type="Generic" x="0" uuid="{9cf47eaf-e451-4b86-9246-4caa9b015546}" y="-20" orientation="w" name=""/>
     </description>
 </definition>

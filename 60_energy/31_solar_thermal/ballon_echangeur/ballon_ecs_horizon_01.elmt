@@ -1,29 +1,33 @@
-<definition width="210" hotspot_x="113" type="element" link_type="simple" version="0.5" height="130" hotspot_y="54">
-    <uuid uuid="{f0ecb77e-0827-4b79-b6e5-5eda4157058a}"/>
+<definition type="element" hotspot_x="113" hotspot_y="54" version="0.100.0" link_type="simple" width="210" height="130">
+    <uuid uuid="{ab8db0b2-155f-4770-b03a-e8d9cb6732c4}"/>
     <names>
-        <name lang="cs">Vodorovný zásobnik ECS</name>
-        <name lang="pl">Zasobnik poziomy CWU</name>
+        <name lang="ar">خزان ماء أفقي</name>
+        <name lang="nl">Boiler elektrisch</name>
         <name lang="it">Scambiatore orizzontale ACS</name>
         <name lang="en">DHW horizontal</name>
-        <name lang="nl">Boiler elektrisch</name>
-        <name lang="ar">خزان ماء أفقي</name>
+        <name lang="cs">Vodorovný zásobnik ECS</name>
+        <name lang="pl">Zasobnik poziomy CWU</name>
         <name lang="fr">Ballon ECS horizontal</name>
         <name lang="es">Balón horizontal ECS</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-22" x4="84" antialias="true" y5="-18" y1="-22" x1="83" closed="false" x3="90" y3="-18" y4="-18" x2="90" x5="84"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="42" x4="84" antialias="true" y1="42" x1="83" closed="false" x3="90" y3="38" y4="38" x2="90"/>
-        <rect width="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="60" x="58" height="10"/>
-        <rect width="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-50" x="-92" height="10"/>
-        <rect width="165" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-40" x="-94" height="100"/>
-        <input tagg="label" rotate="true" size="7" y="11" x="-60" text="Ballon ECS"/>
-        <arc width="28" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-40" x="58" height="100"/>
-        <arc width="28" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-40" x="-108" height="100"/>
-        <terminal y="-50" x="-90" orientation="n"/>
-        <terminal y="70" x="60" orientation="s"/>
-        <terminal y="-20" x="90" orientation="e"/>
-        <terminal y="40" x="90" orientation="e"/>
+        <polygon y1="-22" x3="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="83" x2="90" y4="-18" y2="-22" y3="-18" closed="false" x4="84" y5="-18" x5="84" antialias="true"/>
+        <polygon y1="42" x3="90" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="83" x2="90" y4="38" y2="42" y3="38" closed="false" x4="84" antialias="true"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="58" width="4" height="10" ry="0" y="60" rx="0" antialias="true"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-92" width="4" height="10" ry="0" y="-50" rx="0" antialias="true"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-94" width="165" height="100" ry="0" y="-40" rx="0" antialias="true"/>
+        <dynamic_text frame="false" z="6" rotation="0" uuid="{287a49aa-ce97-4c93-b850-dada66584aed}" keep_visual_rotation="false" x="-60" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" font="Sans Serif,7,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="0.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" x="58" width="28" height="100" angle="-180" y="-40" antialias="true"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" x="-108" width="28" height="100" angle="-180" y="-40" antialias="true"/>
+        <terminal uuid="{22c55c95-2b50-4bf8-923d-76f4f9540e97}" type="Generic" x="-90" name="" orientation="n" y="-50"/>
+        <terminal uuid="{c1468c1f-884e-4696-9f96-2ac0682f839f}" type="Generic" x="60" name="" orientation="s" y="70"/>
+        <terminal uuid="{d69ecef9-96d7-45fe-b484-1f1ccff0eafe}" type="Generic" x="90" name="" orientation="e" y="-20"/>
+        <terminal uuid="{433b8a55-b989-4bc9-9ad1-539f77b86fe6}" type="Generic" x="90" name="" orientation="e" y="40"/>
     </description>
 </definition>

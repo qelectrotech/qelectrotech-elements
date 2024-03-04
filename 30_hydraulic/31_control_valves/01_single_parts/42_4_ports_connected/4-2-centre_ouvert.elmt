@@ -1,31 +1,43 @@
-<definition version="0.5" hotspot_x="10" hotspot_y="34" width="40" height="60" link_type="simple" type="element">
-    <uuid uuid="{f14c033c-e5c0-4ac3-9001-69c798ece819}"/>
+<definition version="0.100.0" height="60" hotspot_y="34" hotspot_x="10" width="40" type="element" link_type="simple">
+    <uuid uuid="{3dc2b75d-0421-4675-aa14-918faf3ff3fc}"/>
     <names>
-        <name lang="en">4 holes - center open connected</name>
-        <name lang="nl">4 midden open P - T - B - A</name>
-        <name lang="fr">4 orifices centre ouvert connectés</name>
         <name lang="pl">4 otwory - otwarte w położeniu środkowym</name>
-        <name lang="it">4 porte - centro aperto connesse</name>
         <name lang="cs">4 otvory - ve středu otevřené spojené</name>
+        <name lang="nl">4 midden open P - T - B - A</name>
+        <name lang="it">4 porte - centro aperto connesse</name>
+        <name lang="en">4 holes - center open connected</name>
+        <name lang="fr">4 orifices centre ouvert connectés</name>
         <name lang="ar">فوهات مركز مفتوح مُتّصلة 4</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-5" y1="-5" end1="none" x2="20"/>
-        <input size="9" x="-22" rotate="true" tagg="label" y="-6.5" text="_"/>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="-30" end1="none" x2="20"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="20" y1="-30" end1="none" x2="0"/>
-        <circle antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-1.15" y="-6.15"/>
-        <circle antialias="true" diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" x="18.85" y="-6.15"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-5" y="-20"/>
-        <input size="5" x="-10" rotate="true" tagg="none" y="-25.5" text="a"/>
-        <input size="5" x="18" rotate="true" tagg="none" y="15.5" text="t"/>
-        <input size="5" x="-10" rotate="true" tagg="none" y="15.5" text="p"/>
-        <input size="5" x="18" rotate="true" tagg="none" y="-25.5" text="b"/>
-        <terminal orientation="s" x="0" y="20"/>
-        <terminal orientation="n" x="20" y="-30"/>
-        <terminal orientation="n" x="0" y="-30"/>
-        <terminal orientation="s" x="20" y="20"/>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="0" y2="-5" y1="-5" antialias="false" length1="1.5" x2="20" end1="none"/>
+        <dynamic_text uuid="{fb4b749b-00d6-468c-9d13-ae30225bd7b8}" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="ElementInfo" x="-22" y="-19" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="2" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="20" y2="20" y1="-30" antialias="false" length1="1.5" x2="20" end1="none"/>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="0" y2="20" y1="-30" antialias="false" length1="1.5" x2="0" end1="none"/>
+        <circle diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" x="-1.15" y="-6.15"/>
+        <circle diameter="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" x="18.85" y="-6.15"/>
+        <rect height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" x="-5" y="-20" ry="0" width="30"/>
+        <dynamic_text uuid="{45f2737d-26aa-4318-a797-51fe02b709b4}" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="UserText" x="-10" y="-35" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="8" frame="false">
+            <text>a</text>
+        </dynamic_text>
+        <dynamic_text uuid="{7886bc4e-b312-407e-8b5a-93b366f55401}" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="UserText" x="18" y="6" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="9" frame="false">
+            <text>t</text>
+        </dynamic_text>
+        <dynamic_text uuid="{8d3a34d0-efaa-45c1-acf8-d120dda4f3b8}" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="UserText" x="-10" y="6" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="10" frame="false">
+            <text>p</text>
+        </dynamic_text>
+        <dynamic_text uuid="{0d7a5d67-3230-4d33-95b0-8f1a05ef6c25}" keep_visual_rotation="false" Halignment="AlignLeft" text_width="-1" text_from="UserText" x="18" y="-35" rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="11" frame="false">
+            <text>b</text>
+        </dynamic_text>
+        <terminal name="" uuid="{e5f9f118-a93e-4ec0-bef9-7faeba25d859}" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal name="" uuid="{e2308e7a-3fbb-4200-b3f6-73f0d01317db}" x="20" y="-30" orientation="n" type="Generic"/>
+        <terminal name="" uuid="{872447da-075b-4d3e-8f2f-c655af74de74}" x="0" y="-30" orientation="n" type="Generic"/>
+        <terminal name="" uuid="{f78a004f-a093-4970-833d-19ce00500f18}" x="20" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

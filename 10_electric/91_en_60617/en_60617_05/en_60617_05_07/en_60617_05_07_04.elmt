@@ -1,16 +1,20 @@
-<definition height="80" version="0.70" width="50" hotspot_x="45" type="element" hotspot_y="75" link_type="simple">
-    <uuid uuid="{ae841f75-d048-43f6-8e2d-0968cc3f00e7}"/>
+<definition hotspot_y="75" type="element" link_type="simple" version="0.100.0" width="50" hotspot_x="45" height="80">
+    <uuid uuid="{55c35cd2-1787-4fbe-82eb-41c916799660}"/>
     <names>
         <name lang="fr">Cathode chaude, à chauffage indirect</name>
-        <name lang="de">heiße Kathode, indirekt geheizt </name>
-        <name lang="cs">Nepřímo žhavená katoda</name>
         <name lang="en">Hot cathode, indirectly heated</name>
+        <name lang="cs">Nepřímo žhavená katoda</name>
+        <name lang="de">heiße Kathode, indirekt geheizt </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" rotate="true" size="9" tagg="label" x="5" text="_"/>
-        <arc y="-70" height="40" width="40" angle="180" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" start="0"/>
-        <line x2="-40" y1="-50" end1="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" x1="-40"/>
+        <dynamic_text rotation="0" Halignment="AlignLeft" x="5" Valignment="AlignTop" keep_visual_rotation="false" y="2.5" frame="false" text_width="-1" uuid="{e0a25cbc-6708-4a72-b5eb-b7e6eb83580d}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc x="-40" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" y="-70" antialias="true" start="0" height="40"/>
+        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false" length1="1.5" x1="-40" x2="-40" y1="-50" y2="0" end1="none"/>
     </description>
 </definition>

@@ -1,18 +1,22 @@
-<definition link_type="simple" type="element" width="40" hotspot_y="10" height="20" version="0.70" hotspot_x="29">
-    <uuid uuid="{426cd82b-535e-4351-9f15-6b48becb8d66}"/>
+<definition hotspot_y="10" width="40" hotspot_x="29" link_type="simple" type="element" height="20" version="0.100.0">
+    <uuid uuid="{9ee21cc2-c8f8-4035-a8ff-57f0aa916efa}"/>
     <names>
-        <name lang="fr">Commande par moteur électrique</name>
-        <name lang="es">Accionado por un motor electrico</name>
         <name lang="de">Betätigung durch elektrischen Motor</name>
-        <name lang="cs">Ovládání elektromotorem</name>
+        <name lang="fr">Commande par moteur électrique</name>
         <name lang="en">Actuator (operated by electric motor)</name>
+        <name lang="es">Accionado por un motor electrico</name>
+        <name lang="cs">Ovládání elektromotorem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" tagg="label" text="_" size="9" x="5" y="15"/>
-        <line x2="6" antialias="false" y1="0" length1="1.5" end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" x1="-14" y2="0" length2="1.5"/>
-        <circle antialias="false" diameter="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-24" y="-5"/>
-        <text text="M" size="6" x="-22" y="3"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false" y="2.5" uuid="{c1a99b74-4326-49d9-bcba-bf80a616afaa}" text_width="-1" z="1" rotation="0" Halignment="AlignLeft" keep_visual_rotation="false" x="5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-14" x2="6" end2="none" length1="1.5" length2="1.5" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="0" y1="0" end1="none"/>
+        <circle y="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" x="-24"/>
+        <text color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="3" text="M" rotation="0" x="-22"/>
     </description>
 </definition>

@@ -1,25 +1,29 @@
-<definition version="0.5" hotspot_x="10" hotspot_y="24" width="40" height="40" link_type="simple" type="element">
-    <uuid uuid="{88e8ffae-36d3-4f09-adaa-24d980501bfd}"/>
+<definition type="element" width="40" link_type="simple" hotspot_y="24" height="40" hotspot_x="10" version="0.100.0">
+    <uuid uuid="{e47d9bd8-fd1e-4c0d-97b7-8947a85d7923}"/>
     <names>
-        <name lang="en">3 holes - P->A</name>
-        <name lang="nl">P -> T</name>
-        <name lang="fr">3 orifices - P->A</name>
         <name lang="pl">3 otwory P -> A</name>
-        <name lang="it">3 fori P -> T</name>
         <name lang="cs">3 otvory P -> A</name>
+        <name lang="nl">P -> T</name>
+        <name lang="en">3 holes - P->A</name>
+        <name lang="fr">3 orifices - P->A</name>
+        <name lang="it">3 fori P -> T</name>
         <name lang="ar">مسارات - P -> A 3</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-21" rotate="true" tagg="label" y="-5.45" text="_"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="9" y1="-16" end1="none" x2="0"/>
-        <line antialias="false" x1="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" y1="5" end1="none" x2="20"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-5" y="-20"/>
-        <line antialias="false" x1="18" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="5" y1="5" end1="none" x2="22"/>
-        <polygon antialias="true" y4="-19.875" x1="0" x4="0" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="-14.875" y1="-19.875" x3="2" x2="-2" y3="-14.875"/>
-        <terminal orientation="n" x="0" y="-20"/>
-        <terminal orientation="s" x="0" y="10"/>
-        <terminal orientation="s" x="20" y="10"/>
+        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" y="-17.95" text_width="-1" rotation="0" uuid="{11883526-16a4-4736-83d1-ca83b007b8ef}" frame="false" Halignment="AlignLeft" x="-21" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" length1="1.5" length2="1.5" antialias="false" y1="-16" x2="0" y2="9" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" length2="1.5" antialias="false" y1="5" x2="20" y2="10" end2="none" x1="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect width="30" antialias="false" rx="0" height="30" ry="0" y="-20" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" length1="1.5" length2="1.5" antialias="false" y1="5" x2="22" y2="5" end2="none" x1="18" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon antialias="true" y4="-19.875" y1="-19.875" x2="-2" y2="-14.875" y3="-14.875" x3="2" x4="0" x1="0" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <terminal type="Generic" name="" y="-20" orientation="n" uuid="{6fa28961-419d-4071-81d6-bb1ec433981b}" x="0"/>
+        <terminal type="Generic" name="" y="10" orientation="s" uuid="{a017bff7-08ed-4f98-8ba4-972577fbd0a1}" x="0"/>
+        <terminal type="Generic" name="" y="10" orientation="s" uuid="{b90720f1-683c-4087-ae9a-01feb7030d33}" x="20"/>
     </description>
 </definition>

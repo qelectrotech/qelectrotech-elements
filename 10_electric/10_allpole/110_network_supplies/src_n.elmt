@@ -1,26 +1,30 @@
-<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="20" hotspot_y="10" type="element">
-    <uuid uuid="{b5ad2e41-804d-4745-99be-e8951cffdf98}"/>
+<definition hotspot_x="15" link_type="simple" height="20" version="0.100.0" type="element" hotspot_y="10" width="30">
+    <uuid uuid="{5a12d2c5-7300-4506-a589-8f76538901fc}"/>
     <names>
-        <name lang="pt">Fonte de neutro</name>
-        <name lang="es">Fuente neutro</name>
-        <name lang="nl">Nul voeding</name>
-        <name lang="el">Ουδέτερος</name>
-        <name lang="de">Neutralleiter</name>
-        <name lang="cs">Přípojnice N</name>
-        <name lang="pl">Przewód neutralny</name>
+        <name lang="en">Neutral source</name>
         <name lang="it">Sorgente neutro</name>
         <name lang="ar">مصدر محايد</name>
-        <name lang="en">Neutral source</name>
         <name lang="fr">Source neutre</name>
         <name lang="ru">Нейтраль</name>
-	    <name lang="hu">N</name>
+        <name lang="hu">N</name>
+        <name lang="de">Neutralleiter</name>
+        <name lang="nl">Nul voeding</name>
+        <name lang="el">Ουδέτερος</name>
+        <name lang="es">Fuente neutro</name>
+        <name lang="cs">Přípojnice N</name>
+        <name lang="pl">Przewód neutralny</name>
+        <name lang="pt">Fonte de neutro</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <input x="-5" y="-14.45" tagg="label" size="9" rotate="true" text="_"/>
-        <text x="-12" y="3" size="5" text="N"/>
-        <terminal x="10" y="0" orientation="e"/>
+        <line x1="0" x2="10" antialias="false" length1="1.5" end2="none" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y1="0"/>
+        <dynamic_text x="-5" uuid="{a10ebacc-e729-4f96-af3f-24134a2f5848}" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" frame="false" z="2" y="-26.95" Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-12" color="#000000" text="N" y="3" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <terminal x="10" uuid="{b58c0935-084d-404f-ac30-22143250ba8c}" orientation="e" type="Generic" y="0" name=""/>
     </description>
 </definition>

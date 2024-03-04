@@ -1,19 +1,23 @@
-<definition version="0.70" width="50" type="element" hotspot_y="10" link_type="simple" hotspot_x="13" height="20">
-    <uuid uuid="{ef8c79cd-ecf8-4581-a504-7d4559129bea}"/>
+<definition type="element" height="20" hotspot_y="10" link_type="simple" width="50" hotspot_x="12" version="0.100.0">
+    <uuid uuid="{8c0dbba5-c0f0-4b8c-bcf5-168852540fdb}"/>
     <names>
-        <name lang="fr">Courant alternatif</name>
         <name lang="de">Wechselstrom und Spannung</name>
-        <name lang="es">Corriente alterna 50hz</name>
         <name lang="cs">Střídavý proud 50Hz</name>
         <name lang="en">Alternating current (indication of frequency)</name>
+        <name lang="fr">Courant alternatif</name>
+        <name lang="es">Corriente alterna 50hz</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc angle="124" width="7" x="-7.5" start="56" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
-        <arc angle="124" width="7" x="0.5" start="234" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" y="-2.5" antialias="true"/>
-        <line x2="2" y2="2" length2="1.5" length1="1.5" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-2" end2="none" antialias="false"/>
-        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
-        <text x="10" text="50 Hz" size="6" y="3"/>
+        <arc height="5" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-7.5" start="56" width="7" y="-2.5"/>
+        <arc height="5" angle="124" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="0.5" start="234" width="7" y="-2.5"/>
+        <line length1="1.5" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" y2="2" x2="2" x1="-2" y1="-2"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" z="4" uuid="{08f82798-16b8-43c9-a71d-56fe84239648}" x="5" frame="false" Valignment="AlignTop" text_from="ElementInfo" rotation="0" text_width="-1" y="2.5" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="50 Hz" color="#000000" x="10" rotation="0" y="3"/>
     </description>
 </definition>

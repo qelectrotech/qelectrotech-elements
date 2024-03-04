@@ -1,27 +1,31 @@
-<definition width="60" height="40" type="element" hotspot_x="24" version="0.70" link_type="simple" hotspot_y="28">
-    <uuid uuid="{e836a89b-324b-4e07-86c2-e0a0512a4ee0}"/>
+<definition width="60" height="40" type="element" hotspot_y="28" version="0.100.0" hotspot_x="24" link_type="simple">
+    <uuid uuid="{b19d3677-c8e5-42d8-8483-99044f45da15}"/>
     <names>
-        <name lang="de">Shunt
-Widerstand mit getrennten Strom- und
-Spannungsanschlüssen</name>
         <name lang="fr">Shunt
 Résistance à bornes "courant" et "tension"
 séparées</name>
-        <name lang="cs">Bočník s oddělenými vývody proudu a napětí</name>
         <name lang="en">Resistor with separate current and voltage terminals</name>
+        <name lang="de">Shunt
+Widerstand mit getrennten Strom- und
+Spannungsanschlüssen</name>
+        <name lang="cs">Bočník s oddělenými vývody proudu a napětí</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="-20" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <rect width="30" height="10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="0" length1="1.5" y1="0" length2="1.5" x1="20" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-6" length1="1.5" y1="-20" length2="1.5" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-5" length1="1.5" y1="-20" length2="1.5" x1="20" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="w" x="-20" y="0"/>
-        <terminal orientation="n" x="-10" y="-20"/>
-        <terminal orientation="e" x="30" y="0"/>
-        <terminal orientation="n" x="20" y="-20"/>
+        <dynamic_text Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" uuid="{e8ea2476-3b57-4e06-b990-0d896bcf56dd}" y="12.5" z="1" rotation="0" keep_visual_rotation="false" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length1="1.5" length2="1.5" y1="0" end1="none" x1="-20" x2="-10" antialias="false"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" x="-10" height="10" rx="0" y="-5" antialias="false" ry="0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" length1="1.5" length2="1.5" y1="0" end1="none" x1="20" x2="30" antialias="false"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-6" length1="1.5" length2="1.5" y1="-20" end1="none" x1="-10" x2="-10" antialias="false"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" length1="1.5" length2="1.5" y1="-20" end1="none" x1="20" x2="20" antialias="false"/>
+        <terminal orientation="w" x="-20" uuid="{fe9b84fb-c5f3-40dc-8689-5abf67c96a1a}" type="Generic" y="0" name=""/>
+        <terminal orientation="n" x="-10" uuid="{32c37110-d1cc-49b1-9f5d-fbdf2447fdcc}" type="Generic" y="-20" name=""/>
+        <terminal orientation="e" x="30" uuid="{c3e5b2b9-1980-4707-8152-c666731e12ff}" type="Generic" y="0" name=""/>
+        <terminal orientation="n" x="20" uuid="{df3d74f3-c9ba-4173-a6ab-d7555796b693}" type="Generic" y="-20" name=""/>
     </description>
 </definition>

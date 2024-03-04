@@ -1,21 +1,25 @@
-<definition hotspot_x="44" version="0.70" height="20" hotspot_y="10" width="90" type="element" link_type="simple">
-    <uuid uuid="{8d6c4bba-f682-4147-b658-99ac7960e9b2}"/>
+<definition hotspot_x="44" width="90" height="20" hotspot_y="10" type="element" version="0.100.0" link_type="simple">
+    <uuid uuid="{1c9b5095-d6e0-4929-89f5-e9b21f647181}"/>
     <names>
         <name lang="fr">Liaison flexible</name>
-        <name lang="de">bewegbare Verbindung</name>
-        <name lang="cs">Pohyblivé spojení</name>
         <name lang="en">Flexible connection</name>
+        <name lang="cs">Pohyblivé spojení</name>
+        <name lang="de">bewegbare Verbindung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <arc y="-5" x="-5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="180"/>
-        <arc y="-5" x="5" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="0"/>
-        <arc y="-5" x="-15" antialias="true" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="0"/>
-        <line x2="-40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-15"/>
-        <line x2="40" y2="0" y1="0" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15"/>
-        <terminal y="0" x="40" orientation="e"/>
-        <terminal y="0" x="-40" orientation="w"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="1" frame="false" text_from="ElementInfo" keep_visual_rotation="false" rotation="0" uuid="{4e1ade2b-d802-4fef-b767-1351b3efe94e}" x="5" y="2.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc antialias="true" width="10" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" y="-5" start="180"/>
+        <arc antialias="true" width="10" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="-5" start="0"/>
+        <arc antialias="true" width="10" height="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-5" start="0"/>
+        <line antialias="false" y2="0" y1="0" x1="-15" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" x2="-40"/>
+        <line antialias="false" y2="0" y1="0" x1="15" length2="1.5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" x2="40"/>
+        <terminal orientation="e" name="" type="Generic" uuid="{6cff637b-d86e-46fc-939d-64030e4db632}" x="40" y="0"/>
+        <terminal orientation="w" name="" type="Generic" uuid="{f61f3d95-d786-4d01-98fd-f00e972c10cb}" x="-40" y="0"/>
     </description>
 </definition>

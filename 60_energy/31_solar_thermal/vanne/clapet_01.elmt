@@ -1,25 +1,29 @@
-<definition width="20" hotspot_x="8" type="element" link_type="simple" version="0.5" height="30" hotspot_y="14">
-    <uuid uuid="{09ad5005-734b-4dcf-8842-b5c5f78f19ae}"/>
+<definition hotspot_x="8" link_type="simple" width="20" height="30" version="0.100.0" type="element" hotspot_y="14">
+    <uuid uuid="{77cdce77-e6ad-4cdf-8141-3b9a833879e0}"/>
     <names>
-        <name lang="cs">Gravitační pojistný ventil</name>
+        <name lang="ar">صمّام ضدّ الرجع بالجاذبية </name>
         <name lang="pl">Zawór zwrotny grawitacyjny</name>
+        <name lang="fr">Clapet anti-retour à Gravité </name>
         <name lang="it">Valvola di ritegno a gravità</name>
+        <name lang="nl">terugslagklep zonder veer</name>
+        <name lang="cs">Gravitační pojistný ventil</name>
         <name lang="en">Check valve to Gravity</name>
         <name lang="es">Válvula de retención a gravedad</name>
-        <name lang="nl">terugslagklep zonder veer</name>
-        <name lang="ar">صمّام ضدّ الرجع بالجاذبية </name>
-        <name lang="fr">Clapet anti-retour à Gravité </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end2="simple" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-5" antialias="false" length2="1.5" end1="none" length1="1.5" y1="7" x1="10" x2="10"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" antialias="false" length2="1.5" end1="none" length1="1.5" y1="4" x1="0" x2="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" x4="0" antialias="true" y1="4" x1="0" closed="false" x3="5" y3="-4" y4="4" x2="-5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="4" x1="-6" x2="6"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-10" x1="0" x2="0"/>
-        <input tagg="label" rotate="true" size="7" y="14" x="-13" text="clapet"/>
-        <terminal y="10" x="0" orientation="s"/>
-        <terminal y="-10" x="0" orientation="n"/>
+        <line end2="simple" x2="10" y2="-5" antialias="false" x1="10" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5" length2="1.5" y1="7" end1="none"/>
+        <line end2="none" x2="0" y2="10" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="4" end1="none"/>
+        <polygon x4="0" y4="4" y3="-4" x2="-5" y2="-4" antialias="true" closed="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="5" y1="4"/>
+        <line end2="none" x2="6" y2="4" antialias="false" x1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="4" end1="none"/>
+        <line end2="none" x2="0" y2="-4" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" end1="none"/>
+        <dynamic_text Valignment="AlignTop" x="-13" keep_visual_rotation="false" font="Sans Serif,7,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" Halignment="AlignLeft" y="3.5" text_from="ElementInfo" z="6" rotation="0" uuid="{ef48da1f-df3b-4c9c-b8cf-9bed5f0909aa}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" orientation="s" y="10" type="Generic" uuid="{fb90e11c-5a64-4b23-bf2d-218cb2b4f690}" name=""/>
+        <terminal x="0" orientation="n" y="-10" type="Generic" uuid="{ec7e54f8-d279-4356-86ac-99068f536d56}" name=""/>
     </description>
 </definition>

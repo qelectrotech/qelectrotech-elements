@@ -1,17 +1,21 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="65" version="0.70" width="70" type="element" height="70">
-    <uuid uuid="{837f528f-c277-470b-bbea-a1b40318fba8}"/>
+<definition width="70" type="element" height="70" hotspot_x="65" hotspot_y="65" link_type="simple" version="0.100.0">
+    <uuid uuid="{048eaeae-1867-4ebf-b25a-d0495a88de17}"/>
     <names>
         <name lang="fr">Moteur linéaire</name>
         <name lang="de">Linearmotor</name>
         <name lang="cs">Lineární motor</name>
         <name lang="en">Linear motor, general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-35" y="-25" text="M" size="9"/>
-        <line y1="-10" end1="none" length1="1.5" x1="-60" x2="0" end2="none" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" text_width="-1" uuid="{adbe301b-67c2-4b16-b27b-6add0dee449d}" text_from="ElementInfo" z="1" x="5" Halignment="AlignLeft" y="12.5" Valignment="AlignTop" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="60" x="-60" y="-60"/>
+        <text text="M" rotation="0" color="#000000" x="-35" y="-25" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x1="-60" x2="0" antialias="false" end2="none" length2="1.5" y2="-10" end1="none"/>
     </description>
 </definition>

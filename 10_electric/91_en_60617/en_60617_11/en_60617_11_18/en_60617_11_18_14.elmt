@@ -1,21 +1,25 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="42" width="70" hotspot_y="45">
-    <uuid uuid="{c0cda6f3-0f3c-49a7-ac27-ee771b9bdd55}"/>
+<definition version="0.100.0" link_type="simple" hotspot_y="45" hotspot_x="42" height="50" width="70" type="element">
+    <uuid uuid="{dcc4a66d-3241-47f8-b772-712c050a595b}"/>
     <names>
-        <name lang="de">Flugplatzfeuer, weiss blitzend, einseitig
-strahlend</name>
         <name lang="fr">Feu d'approche à éclats, faisceau
 unidirectionnel blanc (en surface)</name>
+        <name lang="de">Flugplatzfeuer, weiss blitzend, einseitig
+strahlend</name>
+        <name lang="en">Aeronautical ground light, white flashing uni-directional beam, surface</name>
         <name lang="cs">Letecké pozemní světelné návěstidlo
 bílé zábleskové, jednosměrný svazek</name>
-        <name lang="en">Aeronautical ground light, white flashing uni-directional beam, surface</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <circle y="-40" antialias="false" x="-40" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y5="-30" y1="-30" y2="-30" y3="-40" closed="false" x2="15" antialias="false" x6="25" x5="20" y6="-30" x1="10" x4="20" y4="-40" x3="15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-36" y2="-20" x2="-40" length2="1.5" antialias="false" x1="-8" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-20" y2="-4" x2="-8" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" z="1" rotation="0" keep_visual_rotation="false" x="5" y="12.5" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{69f29e18-d99a-41b1-b164-361bc6e1868d}" frame="false" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" x="-40" y="-40" antialias="false"/>
+        <polygon x3="15" y5="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x5="20" y2="-30" x1="10" y3="-40" x4="20" x6="25" y6="-30" closed="false" x2="15" antialias="false" y4="-40"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-36" end2="none" y2="-20" length1="1.5" x1="-8" length2="1.5" end1="none" x2="-40" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" y2="-4" length1="1.5" x1="-40" length2="1.5" end1="none" x2="-8" antialias="false"/>
     </description>
 </definition>

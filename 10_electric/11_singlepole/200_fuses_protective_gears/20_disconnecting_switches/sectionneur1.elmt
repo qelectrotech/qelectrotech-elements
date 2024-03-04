@@ -1,28 +1,33 @@
-<definition width="30" version="0.3" hotspot_x="10" hotspot_y="25" height="50" type="element" link_type="master">
-<uuid uuid="{EFC44997-BF61-4235-9D48-1BB480C1BEF0}"/><names>
+<definition width="20" link_type="master" type="element" hotspot_y="29" height="60" hotspot_x="11" version="0.100.0">
+    <uuid uuid="{b8c1b11d-8deb-497d-aba2-27a9b2d66f4e}"/>
+    <names>
+        <name lang="pl">Odłącznik</name>
         <name lang="ar">مفتاح عزل</name>
-        <name lang="de">Lasttrenner 1-polig</name>
         <name lang="ru">Разъеденитель</name>
+        <name lang="it">Sezionatore 1P</name>
+        <name lang="de">Lasttrenner 1-polig</name>
         <name lang="pt">Seccionador</name>
         <name lang="en">break isolator</name>
-        <name lang="it">Sezionatore 1P</name>
-        <name lang="fr">Sectionneur</name>
-        <name lang="pl">Odłącznik</name>
-        <name lang="es">Seccionador</name>
         <name lang="cs">Odpojovač</name>
         <name lang="nl">Lastschakelaar</name>
+        <name lang="es">Seccionador</name>
+        <name lang="fr">Sectionneur</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <input x="2.75" y="3" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="2" y2="-10" x2="-2"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <polygon x2="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" x1="-5" y1="-10" y2="10" antialias="true" y3="20"/>
+        <line x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-20" y2="-10" length1="1.5" end1="none" length2="1.5" antialias="false"/>
+        <dynamic_text text_width="-1" x="2.75" uuid="{b7a3eb88-7133-4a74-9b94-f9349c602196}" y="-9.5" frame="false" keep_visual_rotation="false" Halignment="AlignLeft" z="3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-2" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="2" y1="-10" y2="-10" length1="1.5" end1="none" length2="1.5" antialias="false"/>
+        <terminal x="0" type="Generic" uuid="{0893b585-f622-4b91-8123-43d2b66bae28}" y="-21" orientation="n" name=""/>
+        <terminal x="0" type="Generic" uuid="{0a3bea67-3612-4d4e-8c3b-9208004f10fa}" y="21" orientation="s" name=""/>
     </description>
 </definition>

@@ -1,22 +1,26 @@
-<definition type="element" link_type="simple" height="50" width="50" version="0.70" hotspot_x="45" hotspot_y="45">
-    <uuid uuid="{0a2d34ae-a49a-4a4d-90bf-a937fdf92ec7}"/>
+<definition version="0.100.0" width="50" hotspot_y="45" link_type="simple" hotspot_x="45" type="element" height="50">
+    <uuid uuid="{81bec736-1e0d-4476-97b7-c06a9fe75c54}"/>
     <names>
-        <name lang="fr">Onduleur</name>
-        <name lang="de">Wechselrichter</name>
         <name lang="cs">Invertor, střídač, převodník(měnič)
 stejnosměrného proudu na střídavý</name>
         <name lang="en">Inverter</name>
+        <name lang="fr">Onduleur</name>
+        <name lang="de">Wechselrichter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc antialias="true" height="5" width="10" start="0" y="-10.5" x="-25" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <input text="_" size="9" tagg="label" y="35" x="5" rotate="true"/>
-        <line antialias="false" x1="-40" y2="-40" length2="1.5" end1="none" length1="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0"/>
-        <arc antialias="true" height="5" width="10" start="0" y="-10.5" x="-15" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect antialias="false" height="40" width="40" y="-40" x="-40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x1="-36" y2="-36" length2="1.5" end1="none" length1="1.5" y1="-36" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20"/>
-        <line antialias="false" x1="-36" y2="-32" length2="1.5" end1="none" length1="1.5" y1="-32" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-30"/>
-        <line antialias="false" x1="-26" y2="-32" length2="1.5" end1="none" length1="1.5" y1="-32" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20"/>
+        <arc width="10" x="-25" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-10.5" height="5" angle="180"/>
+        <dynamic_text text_width="-1" Valignment="AlignTop" x="5" uuid="{ee4b9ccb-20f9-4418-a269-0836826da067}" rotation="0" Halignment="AlignLeft" y="22.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" z="2" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="0" x2="0" length1="1.5" length2="1.5" end2="none" x1="-40" y2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none"/>
+        <arc width="10" x="-15" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-10.5" height="5" angle="-180"/>
+        <rect width="40" x="-40" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-40" height="40" rx="0"/>
+        <line y1="-36" x2="-20" length1="1.5" length2="1.5" end2="none" x1="-36" y2="-36" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none"/>
+        <line y1="-32" x2="-30" length1="1.5" length2="1.5" end2="none" x1="-36" y2="-32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none"/>
+        <line y1="-32" x2="-20" length1="1.5" length2="1.5" end2="none" x1="-26" y2="-32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none"/>
     </description>
 </definition>

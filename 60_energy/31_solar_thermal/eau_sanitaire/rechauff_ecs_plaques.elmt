@@ -1,34 +1,38 @@
-<definition width="70" hotspot_x="30" type="element" link_type="simple" version="0.5" height="70" hotspot_y="35">
-    <uuid uuid="{facb5b6c-d703-42dc-ba98-01bef421dd61}"/>
+<definition link_type="simple" hotspot_x="30" height="70" type="element" width="70" hotspot_y="35" version="0.100.0">
+    <uuid uuid="{8a705ac6-99bf-4e96-849f-1fae8d68c737}"/>
     <names>
+        <name lang="es">placas calefactoras ECS</name>
+        <name lang="it">Riscaldatore ACS a placche</name>
         <name lang="cs">Deskový ohřívač ECS</name>
         <name lang="pl">Płytowy wymiennik CWU</name>
-        <name lang="it">Riscaldatore ACS a placche</name>
         <name lang="en">ECS heater plates</name>
         <name lang="nl">Tank met plaatwisselaar</name>
         <name lang="ar">سخّان ECS بلوحات</name>
         <name lang="fr">Réchauffeur ECS à Plaques</name>
-        <name lang="es">placas calefactoras ECS</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="35.55" x="-7" text="_"/>
-        <text size="4" y="-18" x="25" text="ECS"/>
-        <text size="4" y="28" x="25" text="EF"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30" antialias="false" length2="1.5" end1="triangle" length1="1.5" y1="30" x1="-26.55" x2="-19.55"/>
-        <line end2="triangle" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-30" x1="-27.55" x2="-20.55"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="-31" x="19"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="-31" x="-21"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="29" x="-21"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="2" y="29" x="19"/>
-        <rect width="40" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" y="-33" x="-20" height="65"/>
-        <polygon y3="-20" x7="-5" y9="30" closed="false" y8="30" x8="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x6="10" x9="20" y4="-10" x1="20" x4="10" y10="30" y6="10" x5="-5" y5="0" y2="-30" x2="10" x3="-5" y7="20" y1="-30" x10="20"/>
-        <polygon y3="-20" x7="-10" y9="30" closed="false" y8="30" x8="5" antialias="true" style="line-style:dashed;line-weight:normal;filling:none;color:black" x6="5" x9="-20" y4="-10" x1="-20" x4="5" y10="30" y6="10" x5="-10" y5="0" y2="-30" x2="5" x3="-10" y7="20" y1="-30" x10="-20"/>
-        <text size="4" y="9" x="18" text="Plaques"/>
-        <terminal y="30" x="20" orientation="e"/>
-        <terminal y="-30" x="-20" orientation="w"/>
-        <terminal y="-30" x="20" orientation="e"/>
-        <terminal y="30" x="-20" orientation="w"/>
+        <dynamic_text z="1" rotation="0" Valignment="AlignTop" frame="false" Halignment="AlignLeft" y="23.05" text_from="ElementInfo" x="-7" uuid="{d8ae2710-331d-4050-b07d-8ade3da59092}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text text="ECS" rotation="0" color="#000000" y="-18" x="25" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text text="EF" rotation="0" color="#000000" y="28" x="25" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line length1="1.5" y2="30" antialias="false" end1="triangle" x2="-19.55" end2="none" y1="30" x1="-26.55" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" y2="-30" antialias="false" end1="none" x2="-20.55" end2="triangle" y1="-30" x1="-27.55" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" diameter="2" y="-31" x="19" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" diameter="2" y="-31" x="-21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" diameter="2" y="29" x="-21" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="true" diameter="2" y="29" x="19" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect antialias="true" rx="0" height="65" y="-33" x="-20" width="40" ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="20" y10="30" y6="10" x2="10" y8="30" y2="-30" y3="-20" closed="false" x10="20" y5="0" y1="-30" y9="30" y7="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x9="20" y4="-10" x3="-5" antialias="true" x7="-5" x6="10" x4="10" x5="-5" x8="10"/>
+        <polygon x1="-20" y10="30" y6="10" x2="5" y8="30" y2="-30" y3="-20" closed="false" x10="-20" y5="0" y1="-30" y9="30" y7="20" style="line-style:dashed;line-weight:normal;filling:none;color:black" x9="-20" y4="-10" x3="-10" antialias="true" x7="-10" x6="5" x4="5" x5="-10" x8="5"/>
+        <text text="Plaques" rotation="0" color="#000000" y="9" x="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <terminal orientation="e" y="30" name="" x="20" uuid="{3c548839-8b66-4253-8105-08fb28aa11b2}" type="Generic"/>
+        <terminal orientation="w" y="-30" name="" x="-20" uuid="{b0722922-bb1d-48d7-b29a-573575ca00df}" type="Generic"/>
+        <terminal orientation="e" y="-30" name="" x="20" uuid="{6b8d7545-743f-4828-b114-736c23518d45}" type="Generic"/>
+        <terminal orientation="w" y="30" name="" x="-20" uuid="{24c175eb-d31c-4916-863f-702706de84b7}" type="Generic"/>
     </description>
 </definition>

@@ -1,22 +1,26 @@
-<definition link_type="simple" version="0.70" hotspot_x="12" hotspot_y="44" type="element" height="50" width="40">
-    <uuid uuid="{52cf23a8-aef4-49f5-8720-1939bc9d3815}"/>
+<definition link_type="simple" hotspot_x="12" width="40" type="element" hotspot_y="44" version="0.100.0" height="50">
+    <uuid uuid="{1bf05230-ec38-4db3-931f-21fbee8c9179}"/>
     <names>
-        <name lang="fr">Diode électroluminescente (LED), (symbole
-général)</name>
         <name lang="de">Leuchtdiode (LED)</name>
         <name lang="cs">Luminiscenční dioda (LED)</name>
+        <name lang="fr">Diode électroluminescente (LED), (symbole
+général)</name>
         <name lang="en">Light emitting diode (LED), general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input text="_" tagg="label" rotate="true" y="15" size="9" x="5"/>
-        <line end1="none" end2="none" x1="0" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="0" y2="0" antialias="false"/>
-        <line end1="none" end2="none" x1="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" x2="10" y2="-10" antialias="false"/>
-        <polygon x4="-10" x1="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" y3="-10" x2="10" y2="-30" antialias="false" x3="0" closed="false"/>
-        <line end1="none" end2="triangle" x1="10" y1="-20" style="line-style:normal;line-weight:normal;filling:black;color:black" length1="1.5" length2="1.5" x2="20" y2="-30" antialias="false"/>
-        <line end1="none" end2="triangle" x1="15" y1="-15" style="line-style:normal;line-weight:normal;filling:black;color:black" length1="1.5" length2="1.5" x2="25" y2="-25" antialias="false"/>
-        <terminal orientation="n" y="-40" x="0"/>
-        <terminal orientation="s" y="0" x="0"/>
+        <dynamic_text keep_visual_rotation="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" text_from="ElementInfo" y="2.5" frame="false" Valignment="AlignTop" Halignment="AlignLeft" x="5" uuid="{d32c0308-c6d7-4111-aa6d-13520d8036aa}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" antialias="false" x1="0" y1="-40" length1="1.5"/>
+        <line x2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" antialias="false" x1="-10" y1="-10" length1="1.5"/>
+        <polygon x2="10" y4="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" y2="-30" antialias="false" x1="-10" y1="-30" closed="false" x3="0" y3="-10"/>
+        <line x2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" end2="triangle" y2="-30" end1="none" antialias="false" x1="10" y1="-20" length1="1.5"/>
+        <line x2="25" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" end2="triangle" y2="-25" end1="none" antialias="false" x1="15" y1="-15" length1="1.5"/>
+        <terminal type="Generic" y="-40" orientation="n" name="" x="0" uuid="{e176ab13-fb8b-4ddc-b03f-6cd5574ebb00}"/>
+        <terminal type="Generic" y="0" orientation="s" name="" x="0" uuid="{b8b79291-1731-47ce-b023-4935bb2eebb6}"/>
     </description>
 </definition>

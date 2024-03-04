@@ -1,32 +1,41 @@
-<definition width="40" version="0.3" hotspot_x="20" hotspot_y="20" height="40" type="element" link_type="master">
-<uuid uuid="{9FEAFB37-47DA-4759-ADE0-CF4487890487}"/><names>
-        <name lang="ar">ملف</name>
-        <name lang="de">Spule</name>
-        <name lang="ru">Обмотка</name>
-        <name lang="el">Πηνίο</name>
-        <name lang="en">Coil</name>
+<definition link_type="master" type="element" hotspot_y="29" height="60" hotspot_x="20" version="0.100.0" width="40">
+    <uuid uuid="{a79a3d9e-a96a-4a04-8ef7-dc42eaff3e72}"/>
+    <names>
+        <name lang="cs">Cívka relé</name>
         <name lang="it">Bobina</name>
         <name lang="fr">Bobine</name>
-        <name lang="pl">Cewka</name>
-        <name lang="es">Bobina</name>
-        <name lang="cs">Cívka relé</name>
-        <name lang="nl">Spoel</name>
         <name lang="hu">Tekercs</name>
-        <name lang="be">Relais spoel (algemeen)</name> 
+        <name lang="ar">ملف</name>
+        <name lang="ru">Обмотка</name>
+        <name lang="el">Πηνίο</name>
+        <name lang="be">Relais spoel (algemeen)</name>
+        <name lang="en">Coil</name>
+        <name lang="de">Spule</name>
+        <name lang="pl">Cewka</name>
+        <name lang="nl">Spoel</name>
+        <name lang="es">Bobina</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="28" x="-14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-8" x2="0"/>
-        <input x="2" y="19.3333" size="4" rotate="true" text="A2"/>
-        <input x="2" y="-16.6667" size="4" rotate="true" text="A1"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
-        <input x="25" y="3.3333" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <rect ry="0" x="-14" height="16" y="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="28" rx="0"/>
+        <line y2="-8" end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="-20" x1="0" x2="0"/>
+        <dynamic_text font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1" x="2" frame="false" Halignment="AlignLeft" z="3" rotation="0" keep_visual_rotation="false" y="11.3333" text_from="UserText" uuid="{0a58bdda-9173-48ba-acaa-35f2dc00c4bb}" Valignment="AlignTop">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1" x="2" frame="false" Halignment="AlignLeft" z="4" rotation="0" keep_visual_rotation="false" y="-24.6667" text_from="UserText" uuid="{7e98ddfe-fde0-4715-a926-9f60cf750078}" Valignment="AlignTop">
+            <text>A1</text>
+        </dynamic_text>
+        <line y2="20" end1="none" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="8" x1="0" x2="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" x="25" frame="false" Halignment="AlignLeft" z="6" rotation="0" keep_visual_rotation="false" y="-9.1667" text_from="ElementInfo" uuid="{3ef105d2-add6-4c4b-a4cd-120c40096202}" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" type="Generic" y="-21" uuid="{8d0fa333-2d98-4a75-8a4e-21c81cce7ec3}" orientation="n" name=""/>
+        <terminal x="0" type="Generic" y="21" uuid="{c5376fd7-bdf1-4c10-985a-0d7d5f52c8f9}" orientation="s" name=""/>
     </description>
 </definition>

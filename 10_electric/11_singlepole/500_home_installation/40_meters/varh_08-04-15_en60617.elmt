@@ -1,23 +1,27 @@
-<definition hotspot_x="20" hotspot_y="34" height="60" type="element" link_type="simple" width="40" version="0.5">
-    <uuid uuid="{8ba6d821-3dde-4f7f-94af-ee121aa648b4}"/>
+<definition link_type="simple" width="40" version="0.100.0" hotspot_x="20" hotspot_y="34" type="element" height="60">
+    <uuid uuid="{9e0aaa07-5016-4382-9e26-7a50075bc279}"/>
     <names>
         <name lang="fr">Varheuremètre</name>
         <name lang="pl">Licznik warogodzin</name>
-        <name lang="cs">Jalový elektroměr</name>
         <name lang="el">Μετρητής αέργου ισχύος (βαρόμετρο)</name>
-        <name lang="it">Misuratore di varh</name>
-        <name lang="de">Blindverbrauchszähler</name>
-        <name lang="en">reactive energy meter</name>
         <name lang="nl">VAr energie meter</name>
+        <name lang="de">Blindverbrauchszähler</name>
+        <name lang="cs">Jalový elektroměr</name>
+        <name lang="en">reactive energy meter</name>
+        <name lang="it">Misuratore di varh</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="18" rotate="true" size="9" text="_" y="-9.45" tagg="label"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="26" antialias="false" y="-14" width="30"/>
-        <rect x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" antialias="false" y="-22" width="30"/>
-        <text x="-12" size="8" text="varh" y="4"/>
-        <terminal x="0" orientation="s" y="17"/>
-        <terminal x="0" orientation="n" y="-27"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" y="-21.95" uuid="{96132b2b-2c92-4f56-9b85-da2178835e49}" frame="false" x="18" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-14" x="-15" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" ry="0" antialias="false" height="26"/>
+        <rect y="-22" x="-15" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" ry="0" antialias="false" height="8"/>
+        <text y="4" x="-12" font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="varh"/>
+        <terminal name="" y="17" uuid="{3b810cc0-ccb2-4ea4-a4d5-33c5832d0942}" x="0" orientation="s" type="Generic"/>
+        <terminal name="" y="-27" uuid="{e4ebae84-ec7f-48b7-9a9f-9d331b330be3}" x="0" orientation="n" type="Generic"/>
     </description>
 </definition>

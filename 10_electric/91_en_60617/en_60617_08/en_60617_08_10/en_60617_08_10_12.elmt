@@ -1,19 +1,23 @@
-<definition width="40" height="80" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="64">
-    <uuid uuid="{d89252e0-1324-4936-b2ef-98fe5ec9ec60}"/>
+<definition hotspot_y="64" type="element" version="0.100.0" link_type="simple" height="80" width="40" hotspot_x="25">
+    <uuid uuid="{c2d8cf48-cec7-48c4-b6d9-877eaabf885d}"/>
     <names>
+        <name lang="cs">Píšťala, ovládaná elektricky</name>
         <name lang="de">Pfeife, elektrisch betätigt </name>
         <name lang="fr">Sifflet à commande électrique</name>
-        <name lang="cs">Píšťala, ovládaná elektricky</name>
         <name lang="en">Whistle, electrically operated</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <line y2="10" length1="1.5" y1="-10" length2="1.5" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="10" length1="1.5" y1="-10" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <polygon x8="-20" x7="10" x6="10" x1="-20" x5="0" x4="10" y5="-20" y3="-60" y1="-10" y6="-20" antialias="false" y2="-60" y7="-10" x2="-20" closed="false" x3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-40" y8="-10"/>
-        <terminal orientation="s" x="0" y="10"/>
-        <terminal orientation="s" x="-10" y="10"/>
+        <dynamic_text x="5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" y="12.5" rotation="0" keep_visual_rotation="false" uuid="{00f90478-69bd-4fb2-9020-8975e4a4ad10}" frame="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="-10" y1="-10" length1="1.5" length2="1.5" x2="-10"/>
+        <line y2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x1="0" y1="-10" length1="1.5" length2="1.5" x2="0"/>
+        <polygon x8="-20" closed="false" x2="-20" antialias="false" y7="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="10" y1="-10" y2="-60" x3="10" y8="-10" y5="-20" x7="10" y3="-60" x6="10" y6="-20" x1="-20" y4="-40" x5="0"/>
+        <terminal orientation="s" x="0" y="10" type="Generic" name="" uuid="{8b9cdcc2-656e-4fa4-9d28-3790dc439a15}"/>
+        <terminal orientation="s" x="-10" y="10" type="Generic" name="" uuid="{9d992bc3-ee44-4efe-aaf8-5751aaf8c3da}"/>
     </description>
 </definition>

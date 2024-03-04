@@ -1,6 +1,10 @@
-<definition hotspot_x="30" version="0.70" link_type="simple" height="60" hotspot_y="54" type="element" width="40">
-    <uuid uuid="{8ad4403d-c696-4a89-94f2-6ebb383bba5c}"/>
+<definition type="element" height="60" link_type="simple" hotspot_y="54" hotspot_x="30" width="40" version="0.100.0">
+    <uuid uuid="{7e8f8e48-e9a8-454b-8e35-2917a19506b1}"/>
     <names>
+        <name lang="en">Light dependent resistor (LDR); Photo resistor</name>
+        <name lang="cs">Fotorezistor
+Fotovodivý článek
+Fotovodivá součástka s nesymetrickou vodivostí</name>
         <name lang="fr">Photorésistance
 Cellule photoconductrice
 Dispositif photoconducteur à conductivité
@@ -9,21 +13,21 @@ symétrique</name>
 lichtempfindliche Zelle
 lichtempfindliches Element mit symmetrischer
 Leitfähigkeit</name>
-        <name lang="cs">Fotorezistor
-Fotovodivý článek
-Fotovodivá součástka s nesymetrickou vodivostí</name>
-        <name lang="en">Light dependent resistor (LDR); Photo resistor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" x="5" text="_" y="15" tagg="label"/>
-        <line x2="0" antialias="false" y1="-10" length2="1.5" y2="0" length1="1.5" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect antialias="false" height="30" x="-5" y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10"/>
-        <line x2="0" antialias="false" y1="-50" length2="1.5" y2="-40" length1="1.5" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="-10" antialias="false" y1="-40" length2="1.5" y2="-30" length1="1.5" end1="none" end2="triangle" x1="-20" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line x2="-15" antialias="false" y1="-35" length2="1.5" y2="-25" length1="1.5" end1="none" end2="triangle" x1="-25" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal orientation="n" x="0" y="-50"/>
-        <terminal orientation="s" x="0" y="0"/>
+        <dynamic_text text_width="-1" uuid="{fc2fd62f-f945-4e6b-a148-56317ac5ebc9}" y="2.5" x="5" keep_visual_rotation="false" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x2="0" y2="0" length1="1.5" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-10" antialias="false"/>
+        <rect height="30" ry="0" rx="0" y="-40" width="10" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end2="none" x2="0" y2="-40" length1="1.5" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-50" antialias="false"/>
+        <line end2="triangle" x2="-10" y2="-30" length1="1.5" x1="-20" end1="none" style="line-style:normal;line-weight:normal;filling:black;color:black" length2="1.5" y1="-40" antialias="false"/>
+        <line end2="triangle" x2="-15" y2="-25" length1="1.5" x1="-25" end1="none" style="line-style:normal;line-weight:normal;filling:black;color:black" length2="1.5" y1="-35" antialias="false"/>
+        <terminal type="Generic" uuid="{5392f09b-72c3-4709-80af-c082ce14c920}" y="-50" x="0" name="" orientation="n"/>
+        <terminal type="Generic" uuid="{7e5b1ca3-d61c-4a8a-af02-c586c190a973}" y="0" x="0" name="" orientation="s"/>
     </description>
 </definition>

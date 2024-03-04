@@ -1,18 +1,22 @@
-<definition type="element" width="150" version="0.70" hotspot_y="25" height="50" link_type="simple" hotspot_x="144">
-    <uuid uuid="{168f9d01-03f3-436a-a9f0-01b2eae39b74}"/>
+<definition link_type="simple" type="element" width="150" version="0.100.0" height="50" hotspot_x="144" hotspot_y="25">
+    <uuid uuid="{3c0782de-172a-47cd-ba92-0f607fad6fb6}"/>
     <names>
-        <name lang="fr">Ligne passant à travers une chambre d'accès</name>
-        <name lang="de">Leiter der einen Einstiegschacht kreuzt</name>
-        <name lang="cs">Vedení procházející vstupní komorou</name>
         <name lang="en">Line passing through an access chamber</name>
+        <name lang="fr">Ligne passant à travers une chambre d'accès</name>
+        <name lang="cs">Vedení procházející vstupní komorou</name>
+        <name lang="de">Leiter der einen Einstiegschacht kreuzt</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" tagg="label" text="_" x="5" y="25" rotate="true"/>
-        <line x2="-140" end2="none" antialias="false" end1="none" length2="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" length1="1.5"/>
-        <rect antialias="false" width="40" x="-90" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20"/>
-        <terminal x="0" orientation="e" y="0"/>
-        <terminal x="-140" orientation="w" y="0"/>
+        <dynamic_text rotation="0" frame="false" keep_visual_rotation="false" y="12.5" text_from="ElementInfo" z="1" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{c59183d9-67a6-4070-af8e-6d3575c0a95e}" x="5" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" x1="0" length2="1.5" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-140" length1="1.5" y2="0"/>
+        <rect y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="40" height="40" x="-90" rx="0" ry="0"/>
+        <terminal y="0" type="Generic" uuid="{e48a710c-4749-4b01-960c-4780406fe1ca}" x="0" orientation="e" name=""/>
+        <terminal y="0" type="Generic" uuid="{65bbb187-3800-4ef3-b38b-339843b14ed7}" x="-140" orientation="w" name=""/>
     </description>
 </definition>

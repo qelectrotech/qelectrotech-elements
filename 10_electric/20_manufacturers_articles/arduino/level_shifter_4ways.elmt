@@ -1,37 +1,41 @@
-<definition height="70" type="element" hotspot_x="40" version="0.51" hotspot_y="29" link_type="simple" width="90">
-    <uuid uuid="{ec372b24-376d-4d5c-b6fc-740773b3de74}"/>
+<definition hotspot_y="34" link_type="simple" width="90" hotspot_x="40" version="0.100.0" height="80" type="element">
+    <uuid uuid="{5670e352-a4f3-4263-a70b-54d75c302ae7}"/>
     <names>
-        <name lang="en">Level Shifter 4 ways</name>
         <name lang="cs">Převodník úrovně čtyřkanálový</name>
+        <name lang="en">Level Shifter 4 ways</name>
     </names>
+    <elementInformations/>
     <informations></informations>
     <description>
-        <text size="7" text="HV1" x="-24" y="-16"/>
-        <text size="7" text="HV2" x="-24" y="-6"/>
-        <text size="7" text="HV3" x="-24" y="24"/>
-        <text size="7" text="HV4" x="-24" y="35"/>
-        <text size="7" text="HV" x="-24" y="4"/>
-        <text size="7" text="GND" x="-24" y="14"/>
-        <text size="7" text="LV1" x="18" y="-16"/>
-        <text size="7" text="LV2" x="18" y="-6"/>
-        <text size="7" text="LV3" x="18" y="24"/>
-        <text size="7" text="LV4" x="18" y="34"/>
-        <text size="7" text="LV" x="24" y="4"/>
-        <text size="7" text="GND" x="13" y="14"/>
-        <input size="9" rotation="-1" tagg="label" text="_" x="-24" y="42"/>
-        <rect height="62" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="80" x="-35" y="-25"/>
-        <text size="5" rotation="90" text="Level shifter" x="2" y="-16"/>
-        <terminal orientation="w" x="-30" y="10"/>
-        <terminal orientation="w" x="-30" y="0"/>
-        <terminal orientation="w" x="-30" y="-10"/>
-        <terminal orientation="w" x="-30" y="-20"/>
-        <terminal orientation="e" x="40" y="10"/>
-        <terminal orientation="e" x="40" y="-20"/>
-        <terminal orientation="w" x="-30" y="20"/>
-        <terminal orientation="w" x="-30" y="31"/>
-        <terminal orientation="e" x="40" y="-10"/>
-        <terminal orientation="e" x="40" y="0"/>
-        <terminal orientation="e" x="40" y="30"/>
-        <terminal orientation="e" x="40" y="20"/>
+        <text x="-24" y="-16" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="HV1" rotation="0"/>
+        <text x="-24" y="-6" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="HV2" rotation="0"/>
+        <text x="-24" y="24" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="HV3" rotation="0"/>
+        <text x="-24" y="35" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="HV4" rotation="0"/>
+        <text x="-24" y="4" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="HV" rotation="0"/>
+        <text x="-24" y="14" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="GND" rotation="0"/>
+        <text x="18" y="-16" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="LV1" rotation="0"/>
+        <text x="18" y="-6" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="LV2" rotation="0"/>
+        <text x="18" y="24" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="LV3" rotation="0"/>
+        <text x="18" y="34" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="LV4" rotation="0"/>
+        <text x="24" y="4" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="LV" rotation="0"/>
+        <text x="13" y="14" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" text="GND" rotation="0"/>
+        <dynamic_text x="-24.2182" Halignment="AlignLeft" y="29.5019" text_from="ElementInfo" Valignment="AlignTop" frame="false" z="13" keep_visual_rotation="false" uuid="{b62bd4e5-7f0a-4608-86ce-b7fb87d75cf9}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" rotation="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect x="-35" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" antialias="false" width="80" ry="0" height="62"/>
+        <text x="2" y="-16" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" text="Level shifter" rotation="90"/>
+        <terminal x="-30" name="" y="10" orientation="w" uuid="{aae6203f-ce62-49cb-a7dc-dd696fc2309f}" type="Generic"/>
+        <terminal x="-30" name="" y="0" orientation="w" uuid="{b839d915-864d-4b61-aa02-126edd321c7c}" type="Generic"/>
+        <terminal x="-30" name="" y="-10" orientation="w" uuid="{79597b48-1e14-442d-a773-1dba898ebfbc}" type="Generic"/>
+        <terminal x="-30" name="" y="-20" orientation="w" uuid="{330f7f15-5c39-4095-8311-2b5959833b4a}" type="Generic"/>
+        <terminal x="40" name="" y="10" orientation="e" uuid="{a6ed1324-f25d-4f63-86f1-9505c0f7041b}" type="Generic"/>
+        <terminal x="40" name="" y="-20" orientation="e" uuid="{f9af466b-2aec-4853-ab64-e1d055a15bdd}" type="Generic"/>
+        <terminal x="-30" name="" y="20" orientation="w" uuid="{190663cb-538e-4c78-a10d-09d4be158342}" type="Generic"/>
+        <terminal x="-30" name="" y="31" orientation="w" uuid="{b6d0d925-a19d-4837-99ad-75638b0110fa}" type="Generic"/>
+        <terminal x="40" name="" y="-10" orientation="e" uuid="{861f8e06-2aa9-484e-a6e5-d3d9ecfee541}" type="Generic"/>
+        <terminal x="40" name="" y="0" orientation="e" uuid="{0c3cbc95-03ac-4e28-9561-ef931d188c5b}" type="Generic"/>
+        <terminal x="40" name="" y="30" orientation="e" uuid="{f1e10bd3-75a5-404f-8b89-07ed664a3b25}" type="Generic"/>
+        <terminal x="40" name="" y="20" orientation="e" uuid="{a0fd041c-d41e-48da-9361-bf454cc213ea}" type="Generic"/>
     </description>
 </definition>

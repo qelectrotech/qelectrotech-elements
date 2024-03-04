@@ -1,21 +1,25 @@
-<definition width="10" hotspot_x="4" type="element" link_type="simple" version="0.5" height="60" hotspot_y="29">
-    <uuid uuid="{01cc2a19-2d58-478f-b496-44d71f2cbcc9}"/>
+<definition version="0.100.0" width="10" hotspot_x="4" type="element" hotspot_y="29" link_type="simple" height="60">
+    <uuid uuid="{9dc94467-cab4-44a5-809c-d7df27a01e80}"/>
     <names>
-        <name lang="cs">Jednoduché jiskřiště</name>
-        <name lang="pl">Odgromnik dwuelektrodowy</name>
-        <name lang="it">Scarica semplice</name>
-        <name lang="en">Simple Spark</name>
         <name lang="nl">Enkele Vonk</name>
         <name lang="fr">Eclateur simple</name>
+        <name lang="cs">Jednoduché jiskřiště</name>
+        <name lang="pl">Odgromnik dwuelektrodowy</name>
+        <name lang="en">Simple Spark</name>
+        <name lang="it">Scarica semplice</name>
         <name lang="ar">مُحدث شرر بسيط</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-4.45" x="3" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="-5" x1="0" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" length2="1.5" end1="simple" length1="1.5" y1="5" x1="0" x2="0"/>
-        <terminal y="-21" x="0" orientation="n"/>
-        <terminal y="21" x="0" orientation="s"/>
+        <dynamic_text uuid="{04c1d691-1e23-4d40-a9f1-5c32524562bc}" Halignment="AlignLeft" keep_visual_rotation="false" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" x="3" Valignment="AlignTop" text_from="ElementInfo" y="-16.95">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="simple" y2="-20" length2="1.5" x1="0" length1="1.5" antialias="false" x2="0"/>
+        <line y1="5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="simple" y2="20" length2="1.5" x1="0" length1="1.5" antialias="false" x2="0"/>
+        <terminal uuid="{ca4054c0-76f8-441f-97c0-5f1cdaf68852}" orientation="n" type="Generic" x="0" y="-21" name=""/>
+        <terminal uuid="{26340fab-f363-42c1-a26d-c03204dedcf4}" orientation="s" type="Generic" x="0" y="21" name=""/>
     </description>
 </definition>

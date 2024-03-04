@@ -1,18 +1,23 @@
-<definition width="40" hotspot_y="44" hotspot_x="20" type="element" version="0.5" link_type="simple" height="60">
-<uuid uuid="{97EB6B3F-3B5D-41E1-8FFE-616349524F64}"/><names>
+<definition link_type="simple" type="element" version="0.100.0" hotspot_y="44" width="40" height="60" hotspot_x="20">
+    <uuid uuid="{30c3f79f-3cd4-44df-9fd4-714247a1af37}"/>
+    <names>
         <name lang="es">Calentador ACS</name>
+        <name lang="en">ACS heater</name>
         <name lang="ca">Escalfador ACS</name>
-	<name lang="en">ACS heater</name>
     </names>
+    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <line y1="7.03926" end1="none" x1="-9.5" end2="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" x2="-9.5" antialias="false" y2="-13.2671" length2="1.5"/>
-        <ellipse width="32.5" y="-41.306" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-16" antialias="true" height="31.306"/>
-        <text size="9" text="ACS" y="-22.5224" x="-12.1"/>
-        <line y1="7.31958" end1="none" x1="10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="10" antialias="false" y2="-12.4489" length2="1.5"/>
-        <input size="4" text="_" y="-48" tagg="label" x="-7" rotate="true"/>
-        <terminal y="10" orientation="s" x="10"/>
-        <terminal y="10" orientation="s" x="-10"/>
+        <line end1="none" length2="1.5" x1="-9.5" y1="7.03926" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="-13.2671" length1="1.5" end2="none" x2="-9.5"/>
+        <ellipse x="-16" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-41.306" width="32.5" height="31.306"/>
+        <text x="-12.1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" y="-22.5224" text="ACS"/>
+        <line end1="none" length2="1.5" x1="10" y1="7.31958" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-12.4489" length1="1.5" end2="none" x2="10"/>
+        <dynamic_text x="-7" z="5" text_from="ElementInfo" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{f2facab2-a241-4ec2-ba26-155eff6ca18d}" text_width="-1" rotation="0" keep_visual_rotation="false" y="-56" Valignment="AlignTop" frame="false" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="10" type="Generic" uuid="{215cd18a-3c5a-452f-9650-e40e24a09ce6}" y="10" name="" orientation="s"/>
+        <terminal x="-10" type="Generic" uuid="{07fe46d3-3c74-4bf3-b49e-a441e4f92ad9}" y="10" name="" orientation="s"/>
     </description>
 </definition>

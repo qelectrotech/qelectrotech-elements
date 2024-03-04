@@ -1,22 +1,26 @@
-<definition hotspot_x="27" version="0.70" link_type="simple" height="60" hotspot_y="54" type="element" width="40">
-    <uuid uuid="{b189e54b-feaf-4743-b928-7ff9b37755bb}"/>
+<definition hotspot_x="27" hotspot_y="54" height="60" type="element" version="0.100.0" width="40" link_type="simple">
+    <uuid uuid="{681c9c09-6ad7-45b0-8ea6-086e6243e88d}"/>
     <names>
-        <name lang="fr">Cellule photovoltaïque</name>
-        <name lang="de">Photozelle</name>
-        <name lang="cs">Fotoelektrický článek</name>
         <name lang="en">Photovoltaic cell</name>
+        <name lang="fr">Cellule photovoltaïque</name>
+        <name lang="cs">Fotoelektrický článek</name>
+        <name lang="de">Photozelle</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" x="5" text="_" y="15" tagg="label"/>
-        <line x2="0" antialias="false" y1="-22" length2="1.5" y2="0" length1="1.5" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="0" antialias="false" y1="-50" length2="1.5" y2="-28" length1="1.5" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="-10" antialias="false" y1="-40" length2="1.5" y2="-30" length1="1.5" end1="none" end2="triangle" x1="-20" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line x2="-15" antialias="false" y1="-35" length2="1.5" y2="-25" length1="1.5" end1="none" end2="triangle" x1="-25" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line x2="5" antialias="false" y1="-28" length2="1.5" y2="-28" length1="1.5" end1="none" end2="none" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="10" antialias="false" y1="-22" length2="1.5" y2="-22" length1="1.5" end1="none" end2="none" x1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="n" x="0" y="-50"/>
-        <terminal orientation="s" x="0" y="0"/>
+        <dynamic_text x="5" Halignment="AlignLeft" z="1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false" rotation="0" uuid="{627184fc-879d-43d9-bdb2-4abe1e65b895}" y="2.5" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="0" x1="0" y1="-22"/>
+        <line length2="1.5" antialias="false" y2="-28" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="0" x1="0" y1="-50"/>
+        <line length2="1.5" antialias="false" y2="-30" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" x2="-10" x1="-20" y1="-40"/>
+        <line length2="1.5" antialias="false" y2="-25" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" x2="-15" x1="-25" y1="-35"/>
+        <line length2="1.5" antialias="false" y2="-28" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="5" x1="-5" y1="-28"/>
+        <line length2="1.5" antialias="false" y2="-22" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="10" x1="-10" y1="-22"/>
+        <terminal x="0" orientation="n" type="Generic" uuid="{79418445-7be1-4862-b9a7-8e79ae1a57bd}" name="" y="-50"/>
+        <terminal x="0" orientation="s" type="Generic" uuid="{604839a2-c56d-4368-a582-3198d67e22e6}" name="" y="0"/>
     </description>
 </definition>

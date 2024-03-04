@@ -1,27 +1,31 @@
-<definition type="element" version="0.70" height="70" link_type="simple" hotspot_x="44" width="90" hotspot_y="15">
-    <uuid uuid="{429d3ff2-3c63-4c75-9018-f4634766ec89}"/>
+<definition type="element" version="0.100.0" width="90" hotspot_x="44" hotspot_y="15" link_type="simple" height="60">
+    <uuid uuid="{3a8571cf-c0a0-4b4c-a79a-748b5436dcc9}"/>
     <names>
+        <name lang="en">Straight section with fixed tap-off having socket-outlet with protective contact.</name>
+        <name lang="cs">Přímý díl s pevnou odbočkou se zásuvkou</name>
         <name lang="de">Gerader Elektro-Installationskanal mit festem
 Abzweig und Geräte-Steckdose mit
 Schutzkontakt</name>
         <name lang="fr">Élément droit avec dérivation fixe comprenant
 un socle de prise de courant, avec contact pour
 conducteur de protection</name>
-        <name lang="cs">Přímý díl s pevnou odbočkou se zásuvkou</name>
-        <name lang="en">Straight section with fixed tap-off having socket-outlet with protective contact.</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="35" tagg="label" size="9" x="45" text="_"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-40" length2="1.5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="40" length2="1.5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-10" antialias="false" x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="30" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="30" y2="30" x2="10" length2="1.5" antialias="false" x1="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc y="30" height="20" angle="180" antialias="true" x="-10" width="20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="e" y="0" x="40"/>
-        <terminal orientation="w" y="0" x="-40"/>
+        <dynamic_text y="22.5" frame="false" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" rotation="0" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{07741eec-221c-45cc-87a9-067a0d91c9c6}" text_from="ElementInfo" x="45">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" length2="1.5" y1="0" antialias="false" end1="none" length1="1.5" x1="40"/>
+        <line x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="5" length2="1.5" y1="-5" antialias="false" end1="none" length1="1.5" x1="-40"/>
+        <line x2="40" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="5" length2="1.5" y1="-5" antialias="false" end1="none" length1="1.5" x1="40"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" antialias="false" diameter="20" x="-10"/>
+        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" length2="1.5" y1="10" antialias="false" end1="none" length1="1.5" x1="0"/>
+        <line x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="30" length2="1.5" y1="30" antialias="false" end1="none" length1="1.5" x1="-10"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="30" start="0" width="20" antialias="true" angle="180" x="-10" height="20"/>
+        <terminal y="0" name="" type="Generic" orientation="e" uuid="{c30255d0-bba8-47e4-88a3-052c9dc715b0}" x="40"/>
+        <terminal y="0" name="" type="Generic" orientation="w" uuid="{8bddc859-ee6a-41e2-a768-7e351af31968}" x="-40"/>
     </description>
 </definition>

@@ -1,30 +1,34 @@
-<definition version="0.5" hotspot_x="16" hotspot_y="24" width="70" height="40" link_type="simple" type="element">
-    <uuid uuid="{fa9fe32f-938a-4453-a47b-085106ae8930}"/>
+<definition link_type="simple" width="70" hotspot_y="24" height="40" version="0.100.0" hotspot_x="16" type="element">
+    <uuid uuid="{adf1510e-91ac-44cd-b3ea-e3dcff36d529}"/>
     <names>
-        <name lang="en">hydraulic cylinder 1</name>
-        <name lang="es">Piston hidraulico 1</name>
-        <name lang="nl">Cylinder 1</name>
-        <name lang="el">Υδραυλικό έμβολο 1</name>
-        <name lang="fr">Verin hydraulique 1</name>
         <name lang="pl">Siłownik hydrauliczny dwustronnego działania</name>
-        <name lang="it">Pistone idraulico 1</name>
-        <name lang="cs">Vodní válec 1</name>
+        <name lang="en">hydraulic cylinder 1</name>
         <name lang="ar">اسطوانة هيدروليكية 1</name>
+        <name lang="es">Piston hidraulico 1</name>
+        <name lang="cs">Vodní válec 1</name>
+        <name lang="el">Υδραυλικό έμβολο 1</name>
+        <name lang="it">Pistone idraulico 1</name>
+        <name lang="nl">Cylinder 1</name>
+        <name lang="fr">Verin hydraulique 1</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x1="40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" y1="0" end1="none" x2="40"/>
-        <input size="9" x="-7" rotate="true" tagg="label" y="-29.45" text="_"/>
-        <polygon antialias="true" y4="-20" x5="42" x1="42" y5="-20" x4="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" closed="false" y1="-8" y6="-12" x3="-12" x2="42" y3="0" x6="42"/>
-        <polygon antialias="true" y4="0" x1="38" x4="38" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="0" y1="0" x3="40" x2="42" y3="-4"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="10" y1="0" end1="none" x2="-10"/>
-        <polygon antialias="true" y4="0" x1="-12" x4="-12" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="0" y1="0" x3="-10" x2="-8" y3="-4"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-8" y1="-8" end1="none" x2="50"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-12" y1="-12" end1="none" x2="50"/>
-        <line antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="-20" end1="none" x2="0"/>
-        <line antialias="false" x1="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="-20" end1="none" x2="-4"/>
-        <terminal orientation="s" x="40" y="10"/>
-        <terminal orientation="s" x="-10" y="10"/>
+        <line y1="0" y2="10" x2="40" length1="1.5" end1="none" x1="40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <dynamic_text text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" frame="false" z="2" uuid="{3b1a7703-311a-4a84-88d6-bc7d6a15900b}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" y="-41.95" x="-7" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y1="-8" y2="0" x6="42" x2="42" y5="-20" x3="-12" x1="42" y4="-20" x5="42" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-12" y3="0" closed="false" antialias="true" y6="-12"/>
+        <polygon y1="0" y2="0" x2="42" x3="40" x1="38" y4="0" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="38" y3="-4" antialias="true"/>
+        <line y1="0" y2="10" x2="-10" length1="1.5" end1="none" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <polygon y1="0" y2="0" x2="-8" x3="-10" x1="-12" y4="0" style="line-style:normal;line-weight:normal;filling:black;color:black" x4="-12" y3="-4" antialias="true"/>
+        <line y1="-8" y2="-8" x2="50" length1="1.5" end1="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <line y1="-12" y2="-12" x2="50" length1="1.5" end1="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <line y1="-20" y2="0" x2="0" length1="1.5" end1="none" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <line y1="-20" y2="0" x2="-4" length1="1.5" end1="none" x1="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" antialias="false"/>
+        <terminal uuid="{b9a4506e-b361-4e1c-95a6-8433b330fa95}" orientation="s" y="10" x="40" name="" type="Generic"/>
+        <terminal uuid="{7b8c9cff-28da-4b86-a2e3-2d0bdb57bd82}" orientation="s" y="10" x="-10" name="" type="Generic"/>
     </description>
 </definition>

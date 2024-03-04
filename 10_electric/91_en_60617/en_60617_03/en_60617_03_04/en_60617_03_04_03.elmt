@@ -1,18 +1,22 @@
-<definition hotspot_x="105" version="0.70" height="60" hotspot_y="47" width="130" type="element" link_type="simple">
-    <uuid uuid="{712fbf74-d3e9-4d36-b3a2-615fed91d6db}"/>
+<definition link_type="simple" height="60" hotspot_x="105" width="130" type="element" hotspot_y="47" version="0.100.0">
+    <uuid uuid="{67f3d218-8d18-4972-8c67-ac830d02d861}"/>
     <names>
         <name lang="fr">Boîte de jonction avec trois conducteurs</name>
-        <name lang="de">Verbindungsmuffe</name>
         <name lang="cs">Průběžná kabelová spojka se třemi vodiči</name>
+        <name lang="de">Verbindungsmuffe</name>
         <name lang="en">Straight-through joint box (multi-line representation)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="15" x="5" rotate="true" text="_" size="9" tagg="label"/>
-        <line x2="20" y2="-10" y1="-10" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-100"/>
-        <line x2="20" y2="-20" y1="-20" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-100"/>
-        <line x2="20" y2="-30" y1="-30" end1="none" length1="1.5" length2="1.5" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-100"/>
-        <polygon x2="0" x5="-80" y2="-5" y1="10" x3="0" x4="-40" y4="-45" y6="-5" antialias="false" x7="-40" y7="10" y5="-35" x6="-80" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-35" x1="-40"/>
+        <dynamic_text uuid="{89ab04c9-a9cc-4914-a063-153d73336833}" Halignment="AlignLeft" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="2.5" rotation="0" z="1" frame="false" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x1="-100" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-10" x2="20" length1="1.5" end1="none" length2="1.5" y1="-10"/>
+        <line x1="-100" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-20" x2="20" length1="1.5" end1="none" length2="1.5" y1="-20"/>
+        <line x1="-100" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-30" x2="20" length1="1.5" end1="none" length2="1.5" y1="-30"/>
+        <polygon x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-5" y5="-35" x2="0" y3="-35" x6="-80" y6="-5" x4="-40" x5="-80" y4="-45" y1="10" y7="10" x3="0" x7="-40" closed="false"/>
     </description>
 </definition>

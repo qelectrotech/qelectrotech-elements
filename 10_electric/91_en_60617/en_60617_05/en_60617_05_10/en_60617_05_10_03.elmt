@@ -1,17 +1,21 @@
-<definition width="130" height="170" hotspot_y="125" hotspot_x="65" link_type="simple" type="element" version="0.70">
-    <uuid uuid="{85910807-7d30-4e95-9f4e-adade5066238}"/>
+<definition width="130" height="170" version="0.100.0" link_type="simple" type="element" hotspot_y="125" hotspot_x="65">
+    <uuid uuid="{cfed34e9-3290-4193-8e15-b490bfb365be}"/>
     <names>
         <name lang="de">Flüssigkathode</name>
-        <name lang="fr">Cathode liquide</name>
-        <name lang="cs">Tekutá katoda</name>
         <name lang="en">Pool cathode</name>
+        <name lang="cs">Tekutá katoda</name>
+        <name lang="fr">Cathode liquide</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="45" size="9" tagg="label" text="_" x="35" rotate="true"/>
-        <circle y="-120" antialias="false" diameter="120" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-40" length1="1.5" x1="-56" antialias="false" x2="56" y2="-40" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" y1="-30" length1="1.5" x1="0" antialias="false" x2="0" y2="40" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="32.5" frame="false" uuid="{21531918-48a1-4ff5-9359-679c3f49827d}" Valignment="AlignTop" x="35" z="1" rotation="0" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="120" y="-120" x="-60" antialias="false"/>
+        <line x1="-56" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40" length1="1.5" end1="none" antialias="false" y1="-40" x2="56" end2="none"/>
+        <line x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="40" length1="1.5" end1="none" antialias="false" y1="-30" x2="0" end2="none"/>
     </description>
 </definition>

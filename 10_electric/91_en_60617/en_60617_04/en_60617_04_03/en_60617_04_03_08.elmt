@@ -1,27 +1,31 @@
-<definition height="60" type="element" width="70" hotspot_y="45" link_type="simple" version="0.70" hotspot_x="55">
-    <uuid uuid="{7d1dbe0b-18bb-45af-9bef-65fec6d80ba2}"/>
+<definition hotspot_y="45" height="60" width="70" type="element" link_type="simple" hotspot_x="55" version="0.100.0">
+    <uuid uuid="{01aa4f3b-3100-4077-81b2-e07d49ee1c8c}"/>
     <names>
         <name lang="fr">Variomètre</name>
-        <name lang="de">Variometer </name>
         <name lang="cs">Variometr </name>
         <name lang="en">Variometer</name>
+        <name lang="de">Variometer </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" tagg="label" text="_" rotate="true" x="5" size="9"/>
-        <arc angle="180" antialias="true" height="10" width="10" y="-35" x="-20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-5" x="-20" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="180" antialias="true" height="10" width="10" y="-35" x="-40" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-5" x="-40" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="180" antialias="true" height="10" width="10" y="-35" x="-10" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-5" x="-10" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="180" antialias="true" height="10" width="10" y="-35" x="-30" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc angle="-180" antialias="true" height="10" width="10" y="-5" x="-30" start="180" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-50" length1="1.5" length2="1.5" y1="0" y2="0" x1="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-50" length1="1.5" length2="1.5" y1="-31" y2="-31" x1="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon antialias="false" x2="10" closed="false" y3="0" y1="-30" y2="-30" x1="0" x4="0" y4="0" x3="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="10" y2="-40" x1="-40" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon antialias="false" x2="-4" y3="-41" y1="-36" y2="-38" x1="-1" x4="-1" y4="-36" x3="1" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <dynamic_text frame="false" y="12.5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" Valignment="AlignTop" x="5" uuid="{428b1b5a-7093-4ba1-afe8-be4bbf945bd5}" z="1" Halignment="AlignLeft" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc angle="180" height="10" y="-35" width="10" antialias="true" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="-180" height="10" y="-5" width="10" antialias="true" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="180" height="10" y="-35" width="10" antialias="true" x="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="-180" height="10" y="-5" width="10" antialias="true" x="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="180" height="10" y="-35" width="10" antialias="true" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="-180" height="10" y="-5" width="10" antialias="true" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="180" height="10" y="-35" width="10" antialias="true" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <arc angle="-180" height="10" y="-5" width="10" antialias="true" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="180"/>
+        <line x2="-50" length2="1.5" end2="none" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="0" x1="-40" length1="1.5"/>
+        <line x2="-50" length2="1.5" end2="none" antialias="false" y2="-31" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-31" x1="-40" length1="1.5"/>
+        <polygon x2="10" antialias="false" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y4="0" y1="-30" x3="10" x4="0" x1="0" y3="0"/>
+        <line x2="0" length2="1.5" end2="none" antialias="false" y2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="10" x1="-40" length1="1.5"/>
+        <polygon x2="-4" antialias="false" y2="-38" style="line-style:normal;line-weight:normal;filling:black;color:black" y4="-36" y1="-36" x3="1" x4="-1" x1="-1" y3="-41"/>
     </description>
 </definition>

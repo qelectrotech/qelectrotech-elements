@@ -1,19 +1,23 @@
-<definition type="element" version="0.70" height="30" link_type="simple" hotspot_x="34" width="70" hotspot_y="15">
-    <uuid uuid="{daf82945-6ad4-4aa7-93e7-6b05394fb4a5}"/>
+<definition width="70" hotspot_y="15" link_type="simple" height="30" type="element" hotspot_x="34" version="0.100.0">
+    <uuid uuid="{f4fe13e3-56f1-4aea-b117-ed7b4672314e}"/>
     <names>
-        <name lang="de">Endeinspeisung</name>
+        <name lang="en">End feeder unit</name>
         <name lang="fr">Élément d'alimentation d'extrémité</name>
         <name lang="cs">Koncový napájecí díl</name>
-        <name lang="en">End feeder unit</name>
+        <name lang="de">Endeinspeisung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="35" tagg="label" size="9" x="35" text="_"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-30" length2="1.5" antialias="false" x1="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="30" length2="1.5" antialias="false" x1="30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-10" y2="10" y3="0" closed="false" x2="10" antialias="false" x1="10" x4="10" y4="-10" x3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="e" y="0" x="30"/>
-        <terminal orientation="w" y="0" x="-30"/>
+        <dynamic_text z="1" frame="false" Valignment="AlignTop" x="35" text_from="ElementInfo" keep_visual_rotation="false" uuid="{a8cfe441-be57-44cf-9186-5ed9456668cb}" text_width="-1" Halignment="AlignLeft" y="22.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" end1="none" x1="30" y1="0" x2="-30" y2="0" length2="1.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" end1="none" x1="30" y1="-5" x2="30" y2="5" length2="1.5" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="10" x1="10" y1="-10" x3="-10" x2="10" y2="10" antialias="false" y3="0" y4="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="e" x="30" name="" uuid="{cb57094e-f86b-449c-a664-5496a61640df}" type="Generic" y="0"/>
+        <terminal orientation="w" x="-30" name="" uuid="{4222bfec-f296-4295-9dcb-868e4c02540c}" type="Generic" y="0"/>
     </description>
 </definition>

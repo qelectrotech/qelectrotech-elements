@@ -1,34 +1,43 @@
-<definition width="80" version="0.3" hotspot_x="17" hotspot_y="28" height="60" type="element" link_type="master">
-<uuid uuid="{98E0A6DC-B9E5-4880-8277-A8F076EDB8C1}"/><names>
-        <name lang="ar">ملف KA  بقفل ميكانيكي</name>
+<definition type="element" width="40" hotspot_x="17" link_type="master" height="60" hotspot_y="29" version="0.100.0">
+    <uuid uuid="{cce8210a-aed7-4e01-928f-fdccf0fe576a}"/>
+    <names>
         <name lang="ru">Обмотка</name>
+        <name lang="de">Relais mit mechanischer Verriegelung</name>
+        <name lang="cs">Mechanické blokovací relé</name>
+        <name lang="hu">Tekercs</name>
+        <name lang="pl">Cewka przekaźnika z blokadą mechaniczną</name>
+        <name lang="nl">spoel met vergrendeling</name>
+        <name lang="it">Bobina ad aggancio meccanico</name>
+        <name lang="be">Spoel KA met mechanische vergrendeling</name>
+        <name lang="ar">ملف KA  بقفل ميكانيكي</name>
+        <name lang="fr">Bobine KA à verrouillage mécanique</name>
         <name lang="el">Πηνίο με μηχανική μανδάλωση</name>
         <name lang="en">Coil</name>
-        <name lang="de">Relais mit mechanischer Verriegelung</name>
-        <name lang="it">Bobina ad aggancio meccanico</name>
-        <name lang="fr">Bobine KA à verrouillage mécanique</name>
-        <name lang="pl">Cewka przekaźnika z blokadą mechaniczną</name>
         <name lang="es">Bobina KA con enclavamiento mecánico</name>
-        <name lang="cs">Mechanické blokovací relé</name>
-        <name lang="nl">spoel met vergrendeling</name>
-        <name lang="hu">Tekercs</name>
-        <name lang="be">Spoel KA met mechanische vergrendeling</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">coil</kindInformation>
+        <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect width="6" x="14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-8" x1="14" y2="0" x2="20" y3="8" x3="14"/>
-        <rect width="28" x="-14" y="-8" antialias="false" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-8" x2="0"/>
-        <input x="2" y="19.3333" size="4" rotate="true" text="A2"/>
-        <input x="2" y="-16.6667" size="4" rotate="true" text="A1"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="20" x2="0"/>
-        <input x="30" y="3.3333" size="9" text="_" tagg="label"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <rect y="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" width="6" x="14" height="16" rx="0"/>
+        <polygon y1="-8" x2="20" x3="14" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="true" x1="14" y3="8" closed="false"/>
+        <rect y="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" antialias="false" width="28" x="-14" height="16" rx="0"/>
+        <line y1="-20" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-8" antialias="false" end2="none" length1="1.5" x1="0" length2="1.5"/>
+        <dynamic_text y="11.3333" Valignment="AlignTop" uuid="{7b0e9b37-934b-4b6c-bd1b-8b56c5bb71ef}" frame="false" x="2" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" z="5" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0">
+            <text>A2</text>
+        </dynamic_text>
+        <dynamic_text y="-24.6667" Valignment="AlignTop" uuid="{1bdcf53b-b3a3-460f-85f7-8e1a8bc88d9e}" frame="false" x="2" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" z="6" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0">
+            <text>A1</text>
+        </dynamic_text>
+        <line y1="8" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" end2="none" length1="1.5" x1="0" length2="1.5"/>
+        <dynamic_text y="-9.1667" Valignment="AlignTop" uuid="{d2db38ce-f882-483e-be73-4a4e141eddf1}" frame="false" x="30" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo" z="8" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal y="-21" type="Generic" uuid="{9334f72f-070c-4cae-b9e3-dd9e4925598b}" x="0" name="" orientation="n"/>
+        <terminal y="21" type="Generic" uuid="{43df8035-a4ad-4d02-9a04-80b7897179d1}" x="0" name="" orientation="s"/>
     </description>
 </definition>

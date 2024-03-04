@@ -1,23 +1,27 @@
-<definition version="0.70" width="30" type="element" hotspot_y="10" link_type="simple" hotspot_x="11" height="20">
-    <uuid uuid="{b3162826-a68d-49fb-a45f-32a12226b135}"/>
+<definition height="20" width="30" hotspot_x="11" type="element" link_type="simple" hotspot_y="10" version="0.100.0">
+    <uuid uuid="{07da15e2-cde7-4302-a8bc-70fa6c9d2fdb}"/>
     <names>
-        <name lang="fr">Profil de came</name>
-        <name lang="es">Accionado por perfil de leva</name>
         <name lang="de">Nockenprofil</name>
         <name lang="cs">Profil vačky</name>
         <name lang="en">Actuator (operated by cam/cam profile)</name>
+        <name lang="es">Accionado por perfil de leva</name>
+        <name lang="fr">Profil de came</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="12" y="-6" antialias="false"/>
-        <input x="5" text="_" size="9" rotate="true" tagg="label" y="15"/>
-        <circle x="6" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="8" y="-4" antialias="false"/>
-        <line x2="3" y2="6" length2="1.5" length1="1.5" y1="7" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="4" end2="none" antialias="false"/>
-        <line x2="6" y2="5" length2="1.5" length1="1.5" y1="4" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="5" end2="none" antialias="false"/>
-        <line x2="4" y2="7" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="6" end2="none" antialias="false"/>
-        <arc angle="180" width="10" x="-5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="3" y="-7.5" antialias="true"/>
-        <line x2="-4" y2="-5" length2="1.5" length1="1.5" y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="-5" end2="none" antialias="false"/>
-        <line x2="4" y2="-5" length2="1.5" length1="1.5" y1="-6" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x1="5" end2="none" antialias="false"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-6" y="-6" diameter="12"/>
+        <dynamic_text x="5" rotation="0" Valignment="AlignTop" y="2.5" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" z="2" uuid="{0c4918e6-caa0-42c8-8144-3cbb82367e56}" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="6" y="-4" diameter="8"/>
+        <line x2="3" y2="6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="4" end1="none" y1="7" length2="1.5" length1="1.5"/>
+        <line x2="6" y2="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="5" end1="none" y1="4" length2="1.5" length1="1.5"/>
+        <line x2="4" y2="7" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="6" end1="none" y1="5" length2="1.5" length1="1.5"/>
+        <arc antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" height="3" width="10" y="-7.5" angle="180" start="0"/>
+        <line x2="-4" y2="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-5" end1="none" y1="-6" length2="1.5" length1="1.5"/>
+        <line x2="4" y2="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="5" end1="none" y1="-6" length2="1.5" length1="1.5"/>
     </description>
 </definition>

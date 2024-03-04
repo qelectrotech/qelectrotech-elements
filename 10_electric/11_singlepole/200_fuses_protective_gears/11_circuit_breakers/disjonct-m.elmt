@@ -1,33 +1,38 @@
-<definition width="20" version="0.4" hotspot_x="10" hotspot_y="34" height="60" link_type="master" type="element">
-<uuid uuid="{38BB65BB-7001-40CE-9CCB-1B1859345616}"/><names>
-        <name lang="ar">قاطع أحدي القطب</name>
-        <name lang="de">Leitungsschutzschalter 1P</name>
-        <name lang="en">Circuit-breaker</name>
-        <name lang="es">Disyuntor termico magnetico</name>
-        <name lang="it">Int. Aut. Magneto-termico 1P</name>
+<definition height="60" link_type="master" width="20" hotspot_x="10" hotspot_y="34" type="element" version="0.100.0">
+    <uuid uuid="{bb356fd6-f991-46b3-a4a1-984d6afc490e}"/>
+    <names>
         <name lang="fr">Disjoncteur unipolaire</name>
-        <name lang="pl">Wyłącznik</name>
+        <name lang="en">Circuit-breaker</name>
+        <name lang="de">Leitungsschutzschalter 1P</name>
+        <name lang="ar">قاطع أحدي القطب</name>
+        <name lang="es">Disyuntor termico magnetico</name>
         <name lang="nl">Lastscheider 1</name>
+        <name lang="it">Int. Aut. Magneto-termico 1P</name>
         <name lang="cs">Jednopólový jistič</name>
+        <name lang="pl">Wyłącznik</name>
     </names>
     <kindInformations>
-        <kindInformation name="type" show="1">protection</kindInformation>
+        <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="16" x1="0" y2="20" x2="0"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="3" x1="0" y2="0" x2="0" y3="-20" x3="-5"/>
-        <input x="6" y="-6.3334" size="9" text="_" tagg="label"/>
-        <arc width="8" x="-4" y="10.5" antialias="true" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" angle="-180"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x1="0" y2="8" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="3" x1="5" y2="8" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="3" x1="0" y2="3" x2="5"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" x1="0" y2="-20" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-22" x1="2" y2="-18" x2="-2"/>
-        <line length1="1.5" length2="1.5" antialias="true" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-22" x1="-2" y2="-18" x2="2"/>
-        <terminal x="0" y="20" orientation="s"/>
-        <terminal x="0" y="-30" orientation="n"/>
+        <line x1="0" end1="none" y1="16" y2="20" end2="none" antialias="false" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <polygon x1="0" y1="3" y2="0" antialias="true" x2="0" x3="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y3="-20"/>
+        <dynamic_text frame="false" x="6" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop" text_width="-1" y="-18.8334" z="3" keep_visual_rotation="false" uuid="{82e66f8b-662d-4210-827c-af80b7a3bf24}" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="5" x="-4" width="8" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y="10.5" start="90" angle="-180"/>
+        <line x1="0" end1="none" y1="8" y2="10" end2="none" antialias="false" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="0" end1="none" y1="8" y2="8" end2="none" antialias="false" x2="5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="5" end1="none" y1="3" y2="8" end2="none" antialias="false" x2="5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="0" end1="none" y1="3" y2="3" end2="none" antialias="false" x2="5" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="0" end1="none" y1="-30" y2="-20" end2="none" antialias="false" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="2" end1="none" y1="-22" y2="-18" end2="none" antialias="true" x2="-2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <line x1="-2" end1="none" y1="-22" y2="-18" end2="none" antialias="true" x2="2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
+        <terminal x="0" name="" y="20" orientation="s" uuid="{70eb495d-96f1-4ccf-b66e-302f53908a73}" type="Generic"/>
+        <terminal x="0" name="" y="-30" orientation="n" uuid="{13a169d9-e203-4827-a82b-03e872834017}" type="Generic"/>
     </description>
 </definition>

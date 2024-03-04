@@ -1,27 +1,31 @@
-<definition width="50" hotspot_x="24" type="element" link_type="simple" version="0.5" height="40" hotspot_y="20">
-    <uuid uuid="{6e734340-3c48-4415-84d3-8572379da228}"/>
+<definition hotspot_y="20" height="40" type="element" hotspot_x="24" link_type="simple" width="50" version="0.100.0">
+    <uuid uuid="{278b5975-079e-45e4-ab8d-9396f4f36ef4}"/>
     <names>
-        <name lang="cs">Tlakové čerpadlo</name>
-        <name lang="it">Pompa a pistone</name>
-        <name lang="pl">Pompa tłokowa</name>
-        <name lang="en">Reciprocating pump</name>
-        <name lang="nl">Zuigerpomp</name>
         <name lang="ar">مضخّة متناوبة</name>
+        <name lang="en">Reciprocating pump</name>
+        <name lang="it">Pompa a pistone</name>
+        <name lang="cs">Tlakové čerpadlo</name>
         <name lang="fr">Pompe alternative</name>
+        <name lang="pl">Pompa tłokowa</name>
+        <name lang="nl">Zuigerpomp</name>
         <name lang="el">Παλινδρομική αντλία</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="12.55" x="-7" text="_"/>
-        <circle style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" diameter="30" y="-15" x="-15"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="0"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-4" x2="5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-5" x1="-5" x2="-5"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="-15" x2="-16"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" length2="1.5" end1="none" length1="1.5" y1="0" x1="15" x2="16"/>
-        <terminal y="0" x="16" orientation="e"/>
-        <terminal y="0" x="-16" orientation="w"/>
+        <dynamic_text Valignment="AlignTop" z="1" y="0.05" rotation="0" x="-7" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{30ccc876-5249-47fd-84ba-92cfa923c767}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-15" antialias="true" x="-15" style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="30"/>
+        <line antialias="false" x2="0" x1="15" y2="15" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5"/>
+        <line antialias="false" x2="0" x1="15" y2="-15" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5"/>
+        <line antialias="false" x2="5" x1="-4" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5"/>
+        <line antialias="false" x2="-5" x1="-5" y2="5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-5" length1="1.5"/>
+        <line antialias="false" x2="-16" x1="-15" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5"/>
+        <line antialias="false" x2="16" x1="15" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="0" length1="1.5"/>
+        <terminal y="0" x="16" type="Generic" orientation="e" uuid="{913f3c85-dd48-424c-9f74-5c82849dc110}" name=""/>
+        <terminal y="0" x="-16" type="Generic" orientation="w" uuid="{8b5626d0-4ac0-4f77-93da-08baffbde843}" name=""/>
     </description>
 </definition>

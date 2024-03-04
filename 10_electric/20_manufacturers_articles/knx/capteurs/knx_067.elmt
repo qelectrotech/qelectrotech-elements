@@ -1,31 +1,37 @@
-<definition height="40" link_type="simple" type="element" version="0.5" hotspot_y="19" width="40" hotspot_x="14">
-    <uuid uuid="{4e9bd5a6-c25c-45b2-aea9-cd87e15c3ebe}"/>
+<definition width="40" height="40" link_type="simple" hotspot_y="19" type="element" hotspot_x="14" version="0.100.0">
+    <uuid uuid="{69ed1654-0ce6-4d38-891f-ba6889826dab}"/>
     <names>
         <name lang="it">Ingresso digitale, 1 can</name>
-        <name lang="fr">Entrée binaire</name>
         <name lang="nl">Digitaal Ingang, enkel</name>
+        <name lang="fr">Entrée binaire</name>
         <name lang="pl">Wejście cyfrowe</name>
-        <name lang="en">Binary Input, single</name>
-        <name lang="es">Entrada digital, 1 via</name>
         <name lang="el">Ψηφιακή είσοδος, μονή</name>
+        <name lang="es">Entrada digital, 1 via</name>
         <name lang="cs">Digitální vstup</name>
+        <name lang="en">Binary Input, single</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect height="30" y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="30"/>
-        <input rotate="true" y="8.5" size="5" tagg="none" x="9" text="1"/>
-        <polygon y3="-12" x4="10" x5="10" closed="false" x1="-4" y1="0" y5="-12" x2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="3" y4="-12" antialias="false" y2="0"/>
-        <input rotate="true" y="-28" size="9" tagg="label" x="-14" text="_"/>
-        <terminal y="10" x="20" orientation="e"/>
-        <terminal y="-10" x="20" orientation="e"/>
-        <terminal y="15" x="0" orientation="s"/>
-        <terminal y="-15" x="10" orientation="n"/>
-        <terminal y="-15" x="0" orientation="n"/>
-        <terminal y="15" x="10" orientation="s"/>
-        <terminal y="10" x="-10" orientation="w"/>
-        <terminal y="0" x="-10" orientation="w"/>
-        <terminal y="-10" x="-10" orientation="w"/>
-        <terminal y="0" x="20" orientation="e"/>
+        <rect width="30" ry="0" height="30" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" rx="0" antialias="false"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{9de19dc4-4f02-4f45-be01-c6e2f9adc71e}" text_width="-1" text_from="UserText" y="-1" z="2" Valignment="AlignTop" x="9" rotation="0" frame="false" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0">
+            <text>1</text>
+        </dynamic_text>
+        <polygon x5="10" x1="-4" y3="-12" y2="0" y5="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y4="-12" x4="10" antialias="false" x2="3" x3="3" closed="false"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{6f5f394e-16ab-46d3-9834-cf8a808850b4}" text_width="-1" text_from="ElementInfo" y="-40.5" z="4" Valignment="AlignTop" x="-14" rotation="0" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="e" uuid="{d1b68072-0be4-40fe-a045-cac5e82e1f49}" y="10" name="" type="Generic" x="20"/>
+        <terminal orientation="e" uuid="{eca5e2f8-bc07-4ab7-a1c3-e97ccb205427}" y="-10" name="" type="Generic" x="20"/>
+        <terminal orientation="s" uuid="{ce09690c-e467-4583-9f05-cfacf74a7997}" y="15" name="" type="Generic" x="0"/>
+        <terminal orientation="n" uuid="{9cfeedcb-cde8-467c-9c38-2a247787d962}" y="-15" name="" type="Generic" x="10"/>
+        <terminal orientation="n" uuid="{0f2534d0-c177-4842-ba29-262b5fde3517}" y="-15" name="" type="Generic" x="0"/>
+        <terminal orientation="s" uuid="{5a55af06-04ee-4da6-8b09-2521217b8163}" y="15" name="" type="Generic" x="10"/>
+        <terminal orientation="w" uuid="{6d86ba9c-4ea7-4ed1-a6e2-e33778820497}" y="10" name="" type="Generic" x="-10"/>
+        <terminal orientation="w" uuid="{ec1aa7d6-65be-44af-8731-e2f843df721e}" y="0" name="" type="Generic" x="-10"/>
+        <terminal orientation="w" uuid="{5897bed2-a45b-47e7-bd0f-704afe8c59e4}" y="-10" name="" type="Generic" x="-10"/>
+        <terminal orientation="e" uuid="{2a255dc5-97da-4fa1-a747-b002e453a67c}" y="0" name="" type="Generic" x="20"/>
     </description>
 </definition>

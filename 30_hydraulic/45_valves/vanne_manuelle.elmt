@@ -1,22 +1,26 @@
-<definition version="0.5" hotspot_x="25" hotspot_y="15" width="50" height="30" link_type="simple" type="element">
-    <uuid uuid="{01f1f8da-59f4-4643-967c-a282dbab4bed}"/>
+<definition type="element" hotspot_x="25" height="30" link_type="simple" version="0.100.0" hotspot_y="15" width="50">
+    <uuid uuid="{aca95c10-75b7-49f7-aae3-da05fd2818af}"/>
     <names>
-        <name lang="en">Manual valve</name>
-        <name lang="nl">Klep hand</name>
         <name lang="fr">vanne manuelle</name>
         <name lang="pl">Zawór (symbol ogólny)</name>
         <name lang="it">Valvola manuale</name>
-        <name lang="cs">Ruční klapka</name>
+        <name lang="en">Manual valve</name>
         <name lang="ar">صمّام  يدوي</name>
+        <name lang="cs">Ruční klapka</name>
+        <name lang="nl">Klep hand</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="11" rotate="true" tagg="label" y="-21.45" text="_"/>
-        <line antialias="false" x1="-10.125" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="0" end1="none" x2="-19.5"/>
-        <line antialias="false" x1="10.0459" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="0" y1="0" end1="none" x2="19.459"/>
-        <polygon antialias="true" y4="9.8085" x5="-9.8085" x1="-10.0459" y5="-10.0459" x4="9.8877" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="9.8877" closed="false" y1="-10.0459" y6="-9.8085" x3="9.8877" x2="-10.0459" y3="-10.0459" x6="-9.5712"/>
-        <terminal orientation="w" x="-19.3799" y="0"/>
-        <terminal orientation="e" x="19.459" y="0"/>
+        <dynamic_text frame="false" x="11" y="-33.95" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" text_from="ElementInfo" uuid="{36018a21-f368-4f6d-9f06-72e6341c32c1}" Halignment="AlignLeft" z="1" rotation="0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y2="0" x1="-10.125" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-19.5" length1="1.5" antialias="false" length2="1.5" end2="none" y1="0"/>
+        <line y2="0" x1="10.0459" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="19.459" length1="1.5" antialias="false" length2="1.5" end2="none" y1="0"/>
+        <polygon y2="9.8877" y5="-10.0459" y3="-10.0459" x1="-10.0459" style="line-style:normal;line-weight:normal;filling:none;color:black" x5="-9.8085" x6="-9.5712" closed="false" y4="9.8085" x2="-10.0459" antialias="true" x4="9.8877" y1="-10.0459" x3="9.8877" y6="-9.8085"/>
+        <terminal type="Generic" x="-19.3799" y="0" name="" orientation="w" uuid="{635e382f-d873-473d-88a8-0f422f88c3fe}"/>
+        <terminal type="Generic" x="19.459" y="0" name="" orientation="e" uuid="{618b2723-1073-4553-8214-968e927e89c2}"/>
     </description>
 </definition>

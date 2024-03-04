@@ -1,26 +1,26 @@
-<definition type="element" height="50" width="40" link_type="simple" version="0.70" hotspot_x="14" hotspot_y="17">
-    <uuid uuid="{4c8df704-fb5c-4d79-b690-d178a6fdf5bc}"/>
+<definition hotspot_y="16" type="element" hotspot_x="14" width="40" link_type="simple" height="50" version="0.100.0">
+    <uuid uuid="{f9d8829c-4e90-4af6-a691-35d1da504640}"/>
     <names>
-        <name lang="cs">Jednofázový motor</name>
-        <name lang="es">Motor monofásico</name>
-        <name lang="ru">Однофазный эл. мотор</name>
-        <name lang="pt">Motor monofásico</name>
         <name lang="en">One-phase engine</name>
+        <name lang="es">Motor monofásico</name>
+        <name lang="cs">Jednofázový motor</name>
         <name lang="fr">Moteur monophasé</name>
+        <name lang="pt">Motor monofásico</name>
+        <name lang="ru">Однофазный эл. мотор</name>
     </names>
     <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text font="Sans Serif,18,-1,5,50,0,0,0,0,0" y="21" x="-6" text="M" rotation="0" color="#000000"/>
-        <circle antialias="true" y="-3" diameter="30" x="-10.25" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="20" y2="6.75" end2="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-5" x1="20" length1="1.5"/>
-        <line x2="-10" y2="7" end2="none" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y1="-7" x1="-10" length1="1.5"/>
-        <dynamic_text frame="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="7" uuid="{928dba5a-fd90-44a4-835b-b64f7fe1f6a9}" x="19" z="5" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" text_from="ElementInfo" rotation="0">
+        <text x="-6" color="#000000" font="Sans Serif,18,-1,5,50,0,0,0,0,0" y="21" text="M" rotation="0"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" x="-10.25" antialias="true" y="-3"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" y2="6.75" end1="none" length2="1.5" x1="20" y1="-5" x2="20"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" y2="7" end1="none" length2="1.5" x1="-10" y1="-7" x2="-10"/>
+        <dynamic_text Valignment="AlignTop" uuid="{928dba5a-fd90-44a4-835b-b64f7fe1f6a9}" x="19" frame="false" Halignment="AlignLeft" keep_visual_rotation="true" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="7" z="5" rotation="0" text_from="ElementInfo" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal orientation="n" y="-10" x="20"/>
-        <terminal orientation="n" y="-10" x="-10"/>
+        <terminal type="Generic" uuid="{43b5d68a-9a80-4d83-863d-29b28f607c37}" x="20" orientation="n" name="" y="-10"/>
+        <terminal type="Generic" uuid="{234caea0-2dbc-4092-81b4-4cb63ebc7e70}" x="-10" orientation="n" name="" y="-10"/>
     </description>
 </definition>

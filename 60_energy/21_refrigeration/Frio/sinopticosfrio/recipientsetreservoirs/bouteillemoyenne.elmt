@@ -1,31 +1,35 @@
-<definition width="40" hotspot_x="19" type="element" link_type="simple" version="0.5" height="30" hotspot_y="14">
-    <uuid uuid="{c723b217-294d-4fd0-9c22-ec79526615f7}"/>
+<definition link_type="simple" type="element" hotspot_x="19" width="40" height="30" hotspot_y="14" version="0.100.0">
+    <uuid uuid="{cded06c6-f117-4adc-98d2-e7e1615f1ee7}"/>
     <names>
         <name lang="cs">Střední láhev</name>
-        <name lang="it">Bottiglia media</name>
-        <name lang="pl">Średnia butla</name>
-        <name lang="en">Average bottle</name>
         <name lang="nl">Middel tank</name>
         <name lang="ar">قارورة متوسطة</name>
-        <name lang="fr">Bouteille moyenne</name>
         <name lang="el">Μέτρια φιάλη</name>
+        <name lang="pl">Średnia butla</name>
+        <name lang="fr">Bouteille moyenne</name>
+        <name lang="it">Bottiglia media</name>
+        <name lang="en">Average bottle</name>
     </names>
+    <elementInformations/>
     <informations>Rotation possible</informations>
     <description>
-        <input tagg="label" rotate="true" size="9" y="-16.5" x="-24" text="_"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="-7" x1="-12" x2="12"/>
-        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7" antialias="false" length2="1.5" end1="none" length1="1.5" y1="7" x1="-12" x2="12"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" angle="-180" y="-7" x="10" height="14"/>
-        <arc width="5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-90" antialias="true" angle="-180" y="-7" x="-15" height="14"/>
-        <terminal y="0" x="-15" orientation="w"/>
-        <terminal y="-7" x="10" orientation="n"/>
-        <terminal y="4" x="14" orientation="e"/>
-        <terminal y="-7" x="0" orientation="n"/>
-        <terminal y="7" x="0" orientation="s"/>
-        <terminal y="-4" x="14" orientation="e"/>
-        <terminal y="-7" x="-10" orientation="n"/>
-        <terminal y="7" x="-10" orientation="s"/>
-        <terminal y="7" x="10" orientation="s"/>
-        <terminal y="0" x="15" orientation="e"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" rotation="0" text_from="ElementInfo" frame="false" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" y="-29" uuid="{b4e4c4a7-5fcc-4c03-94c1-f2cd7fd36db6}" x="-24" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" x2="12" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-7" x1="-12" y1="-7" length1="1.5"/>
+        <line end2="none" x2="12" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="7" x1="-12" y1="7" length1="1.5"/>
+        <arc angle="-180" antialias="true" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="14" x="10" start="90"/>
+        <arc angle="-180" antialias="true" y="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" height="14" x="-15" start="-90"/>
+        <terminal type="Generic" name="" y="0" uuid="{1a68261e-e038-4840-9158-4e10340ed4cf}" orientation="w" x="-15"/>
+        <terminal type="Generic" name="" y="-7" uuid="{c950adc9-9e9a-4dab-9f0a-11e4da93dbff}" orientation="n" x="10"/>
+        <terminal type="Generic" name="" y="4" uuid="{05682458-e522-41f1-9e96-d93a3bf076de}" orientation="e" x="14"/>
+        <terminal type="Generic" name="" y="-7" uuid="{0fc7ee22-ba4a-4b4e-af0e-33d53bafadfa}" orientation="n" x="0"/>
+        <terminal type="Generic" name="" y="7" uuid="{7820b63d-2c6b-430f-8b58-d915b38ec718}" orientation="s" x="0"/>
+        <terminal type="Generic" name="" y="-4" uuid="{e6222579-d75f-4327-981c-da9767ba9e5b}" orientation="e" x="14"/>
+        <terminal type="Generic" name="" y="-7" uuid="{895be615-1bce-45d1-ad13-9e97e2d1b388}" orientation="n" x="-10"/>
+        <terminal type="Generic" name="" y="7" uuid="{0ef5136a-3110-4668-9819-33aa5ac22875}" orientation="s" x="-10"/>
+        <terminal type="Generic" name="" y="7" uuid="{ec2c21cb-949f-45d5-9eef-0c2f4f0a3670}" orientation="s" x="10"/>
+        <terminal type="Generic" name="" y="0" uuid="{307f8705-0837-493a-86c2-58502f1c7d20}" orientation="e" x="15"/>
     </description>
 </definition>

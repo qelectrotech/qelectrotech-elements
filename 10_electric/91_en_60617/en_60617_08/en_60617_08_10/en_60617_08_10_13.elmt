@@ -1,24 +1,28 @@
-<definition width="50" height="70" type="element" hotspot_x="36" version="0.70" link_type="simple" hotspot_y="44">
-    <uuid uuid="{c1b611f9-d1eb-4cdd-a1da-c23f22d07b1a}"/>
+<definition hotspot_y="44" link_type="simple" type="element" height="70" width="50" version="0.100.0" hotspot_x="36">
+    <uuid uuid="{9f06da9f-8f60-4765-99e2-af46437fbe1a}"/>
     <names>
-        <name lang="de">Leuchtmelder, versorgt durch eingebauten
-Transformator</name>
         <name lang="fr">Lampe de signalisation alimentée par
 transformateur incorporé</name>
-        <name lang="cs">Kontrolka s vestavěným transformátorem</name>
         <name lang="en">Indicator lamp energized by a built-in transformer</name>
+        <name lang="cs">Kontrolka s vestavěným transformátorem</name>
+        <name lang="de">Leuchtmelder, versorgt durch eingebauten
+Transformator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <circle diameter="20" x="-12" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
-        <line y2="-17" length1="1.5" y1="-3" length2="1.5" x1="-9" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-3" length1="1.5" y1="-17" length2="1.5" x1="-9" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <circle diameter="20" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
-        <line y2="-40" length1="1.5" y1="-20" length2="1.5" x1="-20" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="20" length1="1.5" y1="0" length2="1.5" x1="-20" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="n" x="-20" y="-40"/>
-        <terminal orientation="s" x="-20" y="20"/>
+        <dynamic_text y="12.5" rotation="0" uuid="{1a305460-3c51-487b-b464-b1848918ba10}" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" x="5" Halignment="AlignLeft" z="1" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="20" x="-12"/>
+        <line x1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="5" y2="-17" antialias="false" length2="1.5" length1="1.5" y1="-3" end2="none"/>
+        <line x1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="5" y2="-3" antialias="false" length2="1.5" length1="1.5" y1="-17" end2="none"/>
+        <circle y="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="20" x="-30"/>
+        <line x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-20" y2="-40" antialias="false" length2="1.5" length1="1.5" y1="-20" end2="none"/>
+        <line x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="-20" y2="20" antialias="false" length2="1.5" length1="1.5" y1="0" end2="none"/>
+        <terminal y="-40" uuid="{ed47fe2d-d3be-4a76-b039-ae6d4abe055f}" orientation="n" type="Generic" x="-20" name=""/>
+        <terminal y="20" uuid="{c8fbde00-821c-49c9-8735-cc5b4647a2d7}" orientation="s" type="Generic" x="-20" name=""/>
     </description>
 </definition>

@@ -1,13 +1,6 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="65" version="0.70" width="70" type="element" height="70">
-    <uuid uuid="{9b42e36d-d18b-46b0-a62a-6f69ea709f68}"/>
+<definition type="element" hotspot_x="65" version="0.100.0" link_type="simple" width="70" hotspot_y="65" height="70">
+    <uuid uuid="{d4cd3390-06ba-4115-9960-db12ce5511bd}"/>
     <names>
-        <name lang="en">Machine, general symbol (replace "*" by designation):
-C Rotary converter
-G Generator
-GS Synchronous generator
-M Motor
-MG Machine capable of use as a motor or generator
-MS Synchronous motor</name>
         <name lang="fr">Machine, par example (au lieu de
 l’astérisque):
 C Commutatrice
@@ -23,6 +16,13 @@ GS Synchrongenerator
 M Motor
 MG Motor/Generator
 MS Synchronmotor</name>
+        <name lang="en">Machine, general symbol (replace "*" by designation):
+C Rotary converter
+G Generator
+GS Synchronous generator
+M Motor
+MG Machine capable of use as a motor or generator
+MS Synchronous motor</name>
         <name lang="cs">Stroj, všeobecná značka:
 C rotační měnič
 G generátor
@@ -31,11 +31,15 @@ M motor
 MG motor/synchrogenerátor
 MS synchronní motor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="-27" x4="-31" x10="-30" y9="-27" y2="-29" y5="-33" y10="-28" x1="-33" x7="-27" x5="-30" y4="-31" x2="-32" y3="-31" y11="-27" y7="-31" x3="-33" x9="-27" x11="-33" x6="-29" y8="-29" antialias="false" x8="-28" style="line-style:normal;line-weight:normal;filling:black;color:black" y6="-31"/>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y7="-31" x10="-30" x11="-33" x7="-27" x9="-27" antialias="false" y1="-27" y6="-31" x5="-30" x6="-29" x3="-33" y8="-29" y2="-29" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-31" y9="-27" y11="-27" y4="-31" x2="-32" x4="-31" y5="-33" x8="-28" x1="-33" y10="-28"/>
+        <dynamic_text uuid="{0b43d403-6c87-4f81-967b-e47f55072ab6}" frame="false" rotation="0" z="2" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" x="5" text_width="-1" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="60" x="-60" y="-60"/>
     </description>
 </definition>

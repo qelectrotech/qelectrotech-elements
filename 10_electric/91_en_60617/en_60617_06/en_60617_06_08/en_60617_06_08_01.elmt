@@ -1,26 +1,30 @@
-<definition link_type="simple" hotspot_x="65" hotspot_y="86" version="0.70" width="70" type="element" height="90">
-    <uuid uuid="{b318e43e-5c3f-40a4-ad79-b1221bbf49c6}"/>
+<definition height="90" type="element" hotspot_y="86" hotspot_x="65" version="0.100.0" width="70" link_type="simple">
+    <uuid uuid="{3cfef6fb-3d98-45b6-9970-fdd45de9cebb}"/>
     <names>
         <name lang="fr">Moteur asynchrone triphasé, à rotor en court-
 circuit</name>
-        <name lang="de">Drehstrom-Asynchronmotor mit Käfigläufer </name>
         <name lang="cs">Trojfázový indukční motor s kotvou nakrátko</name>
         <name lang="en">Induction motor, three-phase, squirrel cage</name>
+        <name lang="de">Drehstrom-Asynchronmotor mit Käfigläufer </name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="5" rotate="true" y="25" text="_" tagg="label" size="9"/>
-        <circle x="-60" y="-60" antialias="false" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text x="-34" y="-32" text="M" size="9"/>
-        <text x="-45" y="-15" text="3" size="9"/>
-        <arc x="-35" start="0" angle="180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-25" start="0" angle="-180" y="-22.5" antialias="true" width="10" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-30" x2="-30" end2="none" antialias="false" y2="-60" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-50" x2="-50" end2="none" antialias="false" y2="-53" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-80" end1="none" length1="1.5" x1="-10" x2="-10" end2="none" antialias="false" y2="-53" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal x="-50" orientation="n" y="-80"/>
-        <terminal x="-10" orientation="n" y="-80"/>
-        <terminal x="-30" orientation="n" y="-80"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" text_from="ElementInfo" text_width="-1" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" y="12.5" frame="false" z="1" uuid="{b706131a-8a1b-430b-b9e4-62ae88b8883d}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="60" x="-60" y="-60" antialias="false"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" x="-34" text="M" rotation="0" y="-32"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" x="-45" text="3" rotation="0" y="-15"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" height="5" y="-22.5" width="10" start="0" antialias="true" angle="180"/>
+        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" x="-25" height="5" y="-22.5" width="10" start="0" antialias="true" angle="-180"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="-30" y2="-60" end1="none" x1="-30" length2="1.5" y1="-80" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="-50" y2="-53" end1="none" x1="-50" length2="1.5" y1="-80" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" x2="-10" y2="-53" end1="none" x1="-10" length2="1.5" y1="-80" antialias="false"/>
+        <terminal x="-50" name="" type="Generic" y="-80" orientation="n" uuid="{8ba4f918-a09e-4d37-b85f-83269f9f1b11}"/>
+        <terminal x="-10" name="" type="Generic" y="-80" orientation="n" uuid="{ac1c1ff2-e358-4bd3-a1eb-1b519e140edb}"/>
+        <terminal x="-30" name="" type="Generic" y="-80" orientation="n" uuid="{cad085ae-78a6-4d2d-9f63-0d7e31f6f6f3}"/>
     </description>
 </definition>

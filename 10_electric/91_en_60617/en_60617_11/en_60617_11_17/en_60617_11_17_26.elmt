@@ -1,26 +1,30 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="44" width="90" hotspot_y="26">
-    <uuid uuid="{9ee8f118-175b-43e3-960b-91f061d5d40e}"/>
+<definition width="90" hotspot_x="44" link_type="simple" height="50" type="element" hotspot_y="26" version="0.100.0">
+    <uuid uuid="{7fe435a5-8514-48ad-a29b-f773248b1c1a}"/>
     <names>
-        <name lang="de">Gerader Elektro-Installationskanal mit
-beweglichem Abzweig</name>
+        <name lang="en">Straight section with continuously movable tap-off</name>
         <name lang="fr">Élément droit avec dérivation déplaçable de
 façon continue</name>
+        <name lang="de">Gerader Elektro-Installationskanal mit
+beweglichem Abzweig</name>
         <name lang="cs">Přímý díl s plynule pohyblivou odbočkou</name>
-        <name lang="en">Straight section with continuously movable tap-off</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="35" tagg="label" size="9" x="45" text="_"/>
-        <line length1="1.5" end2="none" y1="0" y2="0" x2="-40" length2="1.5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="-40" length2="1.5" antialias="false" x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-5" y2="5" x2="40" length2="1.5" antialias="false" x1="40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-10" antialias="false" x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="10" y2="20" x2="0" length2="1.5" antialias="false" x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" end2="none" y1="-20" y2="-20" x2="15" length2="1.5" antialias="false" x1="-15" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-18" y2="-22" y3="-20" x2="-16" antialias="false" x1="-16" x4="-16" y4="-18" x3="-22" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <polygon y1="-18" y2="-22" y3="-20" x2="16" antialias="false" x1="16" x4="16" y4="-18" x3="22" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal orientation="e" y="0" x="40"/>
-        <terminal orientation="w" y="0" x="-40"/>
+        <dynamic_text x="45" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="22.5" keep_visual_rotation="false" rotation="0" text_width="-1" frame="false" Halignment="AlignLeft" z="1" text_from="ElementInfo" Valignment="AlignTop" uuid="{9ad67e61-5b86-4290-9180-8a576e34ff09}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line antialias="false" end1="none" y1="0" length1="1.5" end2="none" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="40" length2="1.5"/>
+        <line antialias="false" end1="none" y1="-5" length1="1.5" end2="none" x2="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x1="-40" length2="1.5"/>
+        <line antialias="false" end1="none" y1="-5" length1="1.5" end2="none" x2="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" x1="40" length2="1.5"/>
+        <circle x="-10" antialias="false" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
+        <line antialias="false" end1="none" y1="10" length1="1.5" end2="none" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="0" length2="1.5"/>
+        <line antialias="false" end1="none" y1="-20" length1="1.5" end2="none" x2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" x1="-15" length2="1.5"/>
+        <polygon antialias="false" y4="-18" y1="-18" x4="-16" x2="-16" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="-22" y2="-22" y3="-20" x1="-16"/>
+        <polygon antialias="false" y4="-18" y1="-18" x4="16" x2="16" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="22" y2="-22" y3="-20" x1="16"/>
+        <terminal x="40" y="0" orientation="e" type="Generic" uuid="{282b9320-3bd5-4f63-b45a-6f0729e17eaa}" name=""/>
+        <terminal x="-40" y="0" orientation="w" type="Generic" uuid="{4ed74c25-99fc-4efc-a501-76f6abc34597}" name=""/>
     </description>
 </definition>

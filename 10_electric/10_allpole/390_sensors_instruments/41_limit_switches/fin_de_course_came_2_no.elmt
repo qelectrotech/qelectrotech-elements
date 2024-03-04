@@ -1,28 +1,33 @@
-<definition width="50" version="0.3" hotspot_x="25" hotspot_y="25" height="50" type="element" orientation="dnny">
-<uuid uuid="{9AFC79D4-BB8A-4B2C-9BCB-348DD880057C}"/><names>
+<definition type="element" height="60" hotspot_x="23" version="0.100.0" link_type="simple" width="30" hotspot_y="29">
+    <uuid uuid="{c05eaec0-8780-4e0b-bdaa-69d21ee0fb50}"/>
+    <names>
+        <name lang="it">Finecorsa (NA)</name>
+        <name lang="cs">Koncový spínač s kladkou NO</name>
+        <name lang="el">Τερματικό, Ανοικτό</name>
         <name lang="ar">مفتاح نهاية مشوار بحدبة (NO)</name>
+        <name lang="en">Limitswitch (NO)</name>
         <name lang="de">Schliesser Einschaltnocken</name>
         <name lang="ru">Концевой контакт (НР)</name>
         <name lang="pt">Fim de curso (NO)</name>
-        <name lang="el">Τερματικό, Ανοικτό</name>
-        <name lang="en">Limitswitch (NO)</name>
-        <name lang="it">Finecorsa (NA)</name>
-        <name lang="fr">Fin de course came (no)</name>
         <name lang="pl">Zestyk zwierny łącznika krańcowego</name>
-        <name lang="es">Final de carrera</name>
-        <name lang="cs">Koncový spínač s kladkou NO</name>
+        <name lang="fr">Fin de course came (no)</name>
         <name lang="nl">eindschakelaar (NO)</name>
+        <name lang="es">Final de carrera</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x4="-17" y5="-12" x5="-19" y6="10" x6="-19" y7="10" x7="-19" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" y1="10" x1="-16" y2="-1" x2="-16" y3="-4" x3="-17" y4="-12"/>
-        <circle x="-16.5" y="-4.5" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="3"/>
-        <polygon antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y1="-10" x1="-5" y2="10" x2="0" y3="20" x3="0"/>
-        <input x="2.75" y="3" size="9" text="_" tagg="label"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" y2="-10" x2="0"/>
-        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-3" x1="-13.5" y2="-3" x2="-4"/>
-        <terminal x="0" y="-21" orientation="n"/>
-        <terminal x="0" y="21" orientation="s"/>
+        <polygon x2="-16" y2="-1" x5="-19" y1="10" y4="-12" x7="-19" x3="-17" y7="10" x4="-17" closed="false" y6="10" antialias="true" y3="-4" y5="-12" x1="-16" x6="-19" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <circle x="-16.5" antialias="true" diameter="3" y="-4.5" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x2="0" y2="10" y1="-10" x3="0" closed="false" antialias="true" y3="20" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="2.75" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" uuid="{a13f8683-7714-4fcb-9c47-ca09dff99c11}" text_width="-1" Valignment="AlignTop" rotation="0" frame="false" keep_visual_rotation="false" z="4" Halignment="AlignLeft" y="-9.5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line x2="0" y2="-10" y1="-20" end2="none" antialias="false" length2="1.5" x1="0" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-4" y2="-3" y1="-3" end2="none" antialias="false" length2="1.5" x1="-13.5" length1="1.5" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <terminal type="Generic" x="0" uuid="{18b94112-5b7e-4b02-b4bd-d8180fa6db5d}" orientation="n" y="-21" name=""/>
+        <terminal type="Generic" x="0" uuid="{1e2d545f-f9a5-4a6b-bf89-1cf00b745177}" orientation="s" y="21" name=""/>
     </description>
 </definition>

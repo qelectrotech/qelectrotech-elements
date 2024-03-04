@@ -1,29 +1,33 @@
-<definition height="60" version="0.5" link_type="simple" width="40" hotspot_x="25" hotspot_y="29" type="element">
-    <uuid uuid="{1db2be55-fa6c-40d6-afa6-e5da144931aa}"/>
+<definition link_type="simple" height="60" hotspot_y="29" width="40" type="element" hotspot_x="25" version="0.100.0">
+    <uuid uuid="{b6f0af07-209d-41ab-9886-ccda8f1429a8}"/>
     <names>
-        <name lang="de">NPN Transistor</name>
-        <name lang="el">Τρανζίστορ NPN</name>
         <name lang="pl">Tranzystor NPN</name>
+        <name lang="fr">Transistor NPN</name>
+        <name lang="cs">Bipolární tranzistor NPN</name>
+        <name lang="nl">Transistor NPN</name>
+        <name lang="en">NPN transistor</name>
         <name lang="ar">ترنزيستور NPN</name>
         <name lang="it">Transistor NPN</name>
-        <name lang="en">NPN transistor</name>
-        <name lang="cs">Bipolární tranzistor NPN</name>
-        <name lang="fr">Transistor NPN</name>
-        <name lang="nl">Transistor NPN</name>
+        <name lang="de">NPN Transistor</name>
+        <name lang="el">Τρανζίστορ NPN</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" y="-1.45" size="9" rotate="true" text="_" x="15"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x3="10" y4="-17" y3="-17" x2="10" x1="-5" x4="10" y2="-10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-5" x1="-5" end1="none" y2="8"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-9" x1="-5" end1="none" y2="0"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" length1="1.5" antialias="false" end2="none" length2="1.5" x2="-17" x1="-10" end1="none" y2="0"/>
-        <polygon closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false" x3="10" y4="17" y3="17" x2="10" x1="-5" x4="10" y2="10"/>
-        <circle diameter="19.6977" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-9.8488" antialias="true" x="-11.8488"/>
-        <polygon style="line-style:normal;line-weight:thin;filling:black;color:black" y1="-6.70367" antialias="false" x3="5" y4="-6.70367" y3="-6.70367" x5="0" y5="-6.70367" x2="3" x1="0" x4="0" y2="-2"/>
-        <terminal y="0" orientation="w" x="-21"/>
-        <terminal y="-21" orientation="n" x="10"/>
-        <terminal y="21" orientation="s" x="10"/>
+        <dynamic_text x="15" y="-13.95" z="1" keep_visual_rotation="false" text_from="ElementInfo" rotation="0" frame="false" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{427b5ab8-9512-4cc5-8481-a79bf2233146}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <polygon y4="-17" x2="10" antialias="false" y2="-10" x4="10" x3="10" y3="-17" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" closed="false"/>
+        <line end1="none" x2="-5" length2="1.5" antialias="false" y2="8" end2="none" length1="1.5" y1="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
+        <line end1="none" x2="-9" length2="1.5" antialias="false" y2="0" end2="none" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5"/>
+        <line end1="none" x2="-17" length2="1.5" antialias="false" y2="0" end2="none" length1="1.5" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
+        <polygon y4="17" x2="10" antialias="false" y2="10" x4="10" x3="10" y3="17" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-5" closed="false"/>
+        <circle diameter="19.6977" x="-11.8488" y="-9.8488" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y4="-6.70367" x2="3" y5="-6.70367" antialias="false" y2="-2" x4="0" x3="5" x5="0" y3="-6.70367" y1="-6.70367" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="0"/>
+        <terminal x="-21" y="0" orientation="w" type="Generic" uuid="{1d85cb1b-9226-41f1-ab65-2376dca141e7}" name=""/>
+        <terminal x="10" y="-21" orientation="n" type="Generic" uuid="{7f3726d6-cc0f-4632-acf0-6a8cd462ab7f}" name=""/>
+        <terminal x="10" y="21" orientation="s" type="Generic" uuid="{9c83a6e2-e515-4494-a895-f2960b8b6871}" name=""/>
     </description>
 </definition>

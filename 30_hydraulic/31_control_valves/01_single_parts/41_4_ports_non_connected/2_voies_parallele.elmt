@@ -1,26 +1,30 @@
-<definition version="0.5" hotspot_x="20" hotspot_y="14" width="40" height="40" link_type="simple" type="element">
-    <uuid uuid="{75ee5acb-c4aa-4eff-a816-06e22033113c}"/>
+<definition hotspot_y="14" height="40" link_type="simple" hotspot_x="20" version="0.100.0" width="40" type="element">
+    <uuid uuid="{0a8748b1-48d3-4a32-ac2e-b68d07663e48}"/>
     <names>
-        <name lang="en">4 ports parallel</name>
-        <name lang="nl">4 P -> A, B -> T </name>
-        <name lang="fr">4 voies parallèles</name>
-        <name lang="pl">4 drogi</name>
-        <name lang="it">4 porte parallele</name>
-        <name lang="cs">4 cesty souběžné</name>
         <name lang="ar">4سارات مُتّصلة 2</name>
+        <name lang="pl">4 drogi</name>
+        <name lang="cs">4 cesty souběžné</name>
+        <name lang="nl">4 P -> A, B -> T </name>
+        <name lang="it">4 porte parallele</name>
+        <name lang="en">4 ports parallel</name>
+        <name lang="fr">4 voies parallèles</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" x="-31" rotate="true" tagg="label" y="2.55" text="_"/>
-        <rect antialias="false" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" x="-15" y="-10"/>
-        <line antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-5" y1="20" end1="none" x2="-10"/>
-        <polygon antialias="true" y4="-9.95" x1="-9.95" x4="-9.95" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="-4.95" y1="-9.95" x3="-7.95" x2="-11.95" y3="-4.95"/>
-        <line antialias="false" x1="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" y2="-10" y1="16" end1="none" x2="10"/>
-        <polygon antialias="true" y4="15" x1="8" x4="8" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="15" y1="15" x3="10" x2="12" y3="20"/>
-        <terminal orientation="n" x="-10" y="-10"/>
-        <terminal orientation="s" x="-10" y="20"/>
-        <terminal orientation="n" x="10" y="-10"/>
-        <terminal orientation="s" x="10" y="20"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" y="-9.95" uuid="{8f4b4599-673f-4a2b-8ec3-a09773fc5af5}" x="-31" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0" text_from="ElementInfo" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-10" height="30" rx="0" ry="0" x="-15" width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" y1="20" y2="-5" end1="none" antialias="false" x2="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
+        <polygon y3="-4.95" y1="-9.95" x4="-9.95" y4="-9.95" y2="-4.95" x3="-7.95" antialias="true" x2="-11.95" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="-9.95"/>
+        <line end2="none" length2="1.5" y1="16" y2="-10" end1="none" antialias="false" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10"/>
+        <polygon y3="20" y1="15" x4="8" y4="15" y2="15" x3="10" antialias="true" x2="12" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="8"/>
+        <terminal y="-10" uuid="{612b183c-3c1b-4831-b781-fa52319e4d58}" x="-10" orientation="n" name="" type="Generic"/>
+        <terminal y="20" uuid="{d8a0d2b7-57b0-49ac-b00e-714b32d7b917}" x="-10" orientation="s" name="" type="Generic"/>
+        <terminal y="-10" uuid="{145778f5-01a4-4761-afca-beaaecada2f5}" x="10" orientation="n" name="" type="Generic"/>
+        <terminal y="20" uuid="{703c57ca-2eb8-49c2-8b37-d3aca1095237}" x="10" orientation="s" name="" type="Generic"/>
     </description>
 </definition>

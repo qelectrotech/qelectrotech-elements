@@ -1,35 +1,39 @@
-<definition type="element" version="0.5" hotspot_y="79" width="110" height="160" link_type="simple" hotspot_x="52">
-    <uuid uuid="{3bb778b5-d47f-4873-8683-c27b57d5e293}"/>
+<definition hotspot_x="56" type="element" hotspot_y="79" height="160" width="120" version="0.100.0" link_type="simple">
+    <uuid uuid="{d466ebc9-9219-4d95-bfb0-ec826014a33e}"/>
     <names>
-        <name lang="pl">FX3-CPU000000</name>
-        <name lang="nl">FX3-CPU000000</name>
-        <name lang="en">MAIN UNIT CPU000</name>
-        <name lang="it">UNITÀ CPU000</name>
         <name lang="es">UNIDAD PRINCIPAL CPU000</name>
-        <name lang="cs">FX3-CPU000000</name>
+        <name lang="pl">FX3-CPU000000</name>
         <name lang="fr">MAIN UNIT CPU000</name>
+        <name lang="nl">FX3-CPU000000</name>
+        <name lang="it">UNITÀ CPU000</name>
+        <name lang="cs">FX3-CPU000000</name>
+        <name lang="en">MAIN UNIT CPU000</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input tagg="label" y="-54.45" x="62.5" size="9" rotate="true" text="_"/>
-        <text y="-49" x="-46" size="4" text="MEMORY"/>
-        <rect y="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" x="22" width="16" antialias="false" height="10"/>
-        <line y1="74" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length2="1.5" antialias="false" y2="74" x2="50"/>
-        <text y="-61" x="25" size="6" text="A2"/>
-        <rect y="-57" style="line-style:normal;line-weight:normal;filling:none;color:black" x="46" width="8" antialias="false" height="122"/>
-        <text rotation="270" y="23" x="53" size="6" text="FLEX BUS +"/>
-        <line y1="-70" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length2="1.5" antialias="false" y2="-70" x2="50"/>
-        <line y1="-70" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length2="1.5" antialias="false" y2="74" x2="-50"/>
-        <line y1="-70" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="50" length2="1.5" antialias="false" y2="-58" x2="50"/>
-        <line y1="65" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="50" length2="1.5" antialias="false" y2="74" x2="50"/>
-        <text y="-61" x="-5" size="6" text="A1"/>
-        <rect y="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-50" width="90" antialias="false" height="25"/>
-        <line y1="-70" end2="none" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-20" length2="1.5" antialias="false" y2="-46" x2="-20"/>
-        <text y="-49" x="4" size="4" text="SUPPLY"/>
-        <rect y="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-9" width="16" antialias="false" height="10"/>
-        <text y="68" x="-37" size="7" text="FX3-CPU000000"/>
-        <terminal y="-70" x="0" orientation="n"/>
-        <terminal y="-70" x="30" orientation="n"/>
+        <dynamic_text uuid="{0115c8fc-b9a7-4aeb-aada-c814840a61dd}" rotation="0" frame="false" text_width="-1" Halignment="AlignLeft" x="62.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" y="-66.95">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text text="MEMORY" rotation="0" color="#000000" x="-46" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-49"/>
+        <rect antialias="false" rx="0" x="22" height="10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" y="-70"/>
+        <line antialias="false" y2="74" end1="none" length1="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-50" y1="74" length2="1.5"/>
+        <text text="A2" rotation="0" color="#000000" x="25" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-61"/>
+        <rect antialias="false" rx="0" x="46" height="122" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="8" y="-57"/>
+        <text text="FLEX BUS +" rotation="270" color="#000000" x="53" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="23"/>
+        <line antialias="false" y2="-70" end1="none" length1="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-50" y1="-70" length2="1.5"/>
+        <line antialias="false" y2="74" end1="none" length1="1.5" x2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-50" y1="-70" length2="1.5"/>
+        <line antialias="false" y2="-58" end1="none" length1="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="50" y1="-70" length2="1.5"/>
+        <line antialias="false" y2="74" end1="none" length1="1.5" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="50" y1="65" length2="1.5"/>
+        <text text="A1" rotation="0" color="#000000" x="-5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-61"/>
+        <rect antialias="false" rx="0" x="-50" height="25" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="90" y="-70"/>
+        <line antialias="false" y2="-46" end1="none" length1="1.5" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-20" y1="-70" length2="1.5"/>
+        <text text="SUPPLY" rotation="0" color="#000000" x="4" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-49"/>
+        <rect antialias="false" rx="0" x="-9" height="10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="16" y="-70"/>
+        <text text="FX3-CPU000000" rotation="0" color="#000000" x="-37" font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="68"/>
+        <terminal uuid="{1e125ece-c54a-4e33-bd0e-243192005e2b}" type="Generic" name="" orientation="n" x="0" y="-70"/>
+        <terminal uuid="{fccf4eb9-4307-45be-8e78-dedb6ebb9c45}" type="Generic" name="" orientation="n" x="30" y="-70"/>
     </description>
 </definition>

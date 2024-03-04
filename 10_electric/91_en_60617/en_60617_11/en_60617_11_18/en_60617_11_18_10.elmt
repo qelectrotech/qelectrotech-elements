@@ -1,20 +1,24 @@
-<definition type="element" version="0.70" height="50" link_type="simple" hotspot_x="42" width="50" hotspot_y="45">
-    <uuid uuid="{900f6d4b-62e1-48d5-9d62-832826a66abc}"/>
+<definition height="50" hotspot_y="45" width="50" version="0.100.0" type="element" link_type="simple" hotspot_x="42">
+    <uuid uuid="{4dab2f96-78ab-4728-b0ed-0ace878412a6}"/>
     <names>
+        <name lang="en">Curve light, white colour and uni-directional beam, surface</name>
         <name lang="de">Kurvenfeuer, weiss, einseitig strahlend</name>
         <name lang="fr">Feu de virage, faisceau blanc et unidirectionnel
 (en surface)</name>
         <name lang="cs">Světelné návěstidlo v zatáčce,
 barva bílá a jednosměrný svazek</name>
-        <name lang="en">Curve light, white colour and uni-directional beam, surface</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input rotate="true" y="25" tagg="label" size="9" x="5" text="_"/>
-        <circle y="-40" antialias="false" x="-40" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-40" height="40" antialias="false" x="-5" width="10" style="line-style:normal;line-weight:normal;filling:white;color:white"/>
-        <circle y="-35" antialias="false" x="-35" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="-31" y2="-20" y3="-10" closed="false" x2="-35" antialias="false" x1="-10" x3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text Halignment="AlignLeft" keep_visual_rotation="false" x="5" uuid="{7e515623-9b46-4cd0-b851-9e250373b9ef}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="1" frame="false" Valignment="AlignTop" y="12.5" rotation="0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <circle diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" antialias="false" y="-40"/>
+        <rect height="40" width="10" style="line-style:normal;line-weight:normal;filling:white;color:white" x="-5" ry="0" antialias="false" y="-40" rx="0"/>
+        <circle diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" antialias="false" y="-35"/>
+        <polygon y2="-20" x3="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" x2="-35" antialias="false" y1="-31" y3="-10"/>
     </description>
 </definition>

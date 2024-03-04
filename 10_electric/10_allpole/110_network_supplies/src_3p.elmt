@@ -1,32 +1,36 @@
-<definition width="30" link_type="simple" version="0.5" hotspot_x="15" height="60" hotspot_y="30" type="element">
-    <uuid uuid="{03b9e482-cb45-4bee-8030-96b93624fc60}"/>
+<definition hotspot_x="15" version="0.100.0" type="element" height="60" width="30" hotspot_y="30" link_type="simple">
+    <uuid uuid="{59eeb45e-f727-4bd8-b734-e9662f0c54f2}"/>
     <names>
-        <name lang="pt">Fonte tripolar</name>
-        <name lang="es">Fuente tripolar</name>
-        <name lang="nl">3fasen</name>
-        <name lang="el">Τριφασικό</name>
-        <name lang="de">Drehstrom</name>
-        <name lang="cs">Přípojnice 3f</name>
-        <name lang="pl">Linia trójfazowa (trójprzewodowa)</name>
         <name lang="it">Sorgente tripolare</name>
-        <name lang="ar">مصدر ثلاثي القطبيّة</name>
         <name lang="en">Three-pole source</name>
-        <name lang="fr">Source tripolaire</name>
+        <name lang="nl">3fasen</name>
         <name lang="ru">Трёхполюсный</name>
-	    <name lang="hu">3F</name>
+        <name lang="pt">Fonte tripolar</name>
+        <name lang="el">Τριφασικό</name>
+        <name lang="cs">Přípojnice 3f</name>
+        <name lang="hu">3F</name>
+        <name lang="de">Drehstrom</name>
+        <name lang="fr">Source tripolaire</name>
+        <name lang="ar">مصدر ثلاثي القطبيّة</name>
+        <name lang="es">Fuente tripolar</name>
+        <name lang="pl">Linia trójfazowa (trójprzewodowa)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input x="-2" y="-34.45" tagg="label" size="9" rotate="true" text="_"/>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20"/>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0"/>
-        <text x="-12" y="23" size="5" text="L3"/>
-        <text x="-12" y="3" size="5" text="L2"/>
-        <text x="-12" y="-17" size="5" text="L1"/>
-        <line antialias="false" length1="1.5" x2="10" end2="none" x1="0" end1="none" y2="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20"/>
-        <terminal x="10" y="-20" orientation="e"/>
-        <terminal x="10" y="0" orientation="e"/>
-        <terminal x="10" y="20" orientation="e"/>
+        <dynamic_text keep_visual_rotation="false" x="-2" y="-46.95" rotation="0" Valignment="AlignTop" Halignment="AlignLeft" z="1" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{ed455d12-2580-42c2-b1d9-110a5f44c563}">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" antialias="false" end1="none" length1="1.5" x2="10" x1="0" length2="1.5" y1="20"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" antialias="false" end1="none" length1="1.5" x2="10" x1="0" length2="1.5" y1="0"/>
+        <text x="-12" y="23" text="L3" rotation="0" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <text x="-12" y="3" text="L2" rotation="0" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <text x="-12" y="-17" text="L1" rotation="0" color="#000000" font="Sans Serif,5,-1,5,50,0,0,0,0,0"/>
+        <line end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" antialias="false" end1="none" length1="1.5" x2="10" x1="0" length2="1.5" y1="-20"/>
+        <terminal x="10" y="-20" name="" type="Generic" orientation="e" uuid="{4cc635ae-94c9-4c7b-8651-761927e3d8ac}"/>
+        <terminal x="10" y="0" name="" type="Generic" orientation="e" uuid="{f5d0482f-6b6e-4005-bb82-65de7d02c6c9}"/>
+        <terminal x="10" y="20" name="" type="Generic" orientation="e" uuid="{362176a0-0262-4761-a4f7-3f4ce364209e}"/>
     </description>
 </definition>

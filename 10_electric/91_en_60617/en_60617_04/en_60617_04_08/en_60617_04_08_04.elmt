@@ -1,30 +1,34 @@
-<definition height="60" type="element" width="110" hotspot_y="52" link_type="simple" version="0.70" hotspot_x="95">
-    <uuid uuid="{543e9f39-420b-4954-b708-195e6f19ca2b}"/>
+<definition height="60" hotspot_y="52" width="110" version="0.100.0" type="element" hotspot_x="95" link_type="simple">
+    <uuid uuid="{94c709ed-cc7b-4c27-b403-3e9e301ebded}"/>
     <names>
+        <name lang="cs">Zpožďovací linka s piezoměničem a pevným prostředím</name>
         <name lang="fr">Ligne à retard, type à matière solide avec
 transducteurs piézoélectriques</name>
         <name lang="de">Festkörper-Verzögerungsleitung mit
 piezoelektrischen Wandlern</name>
-        <name lang="cs">Zpožďovací linka s piezoměničem a pevným prostředím</name>
         <name lang="en">Delay line, solid material type with piezoelectric transducers</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input y="25" tagg="label" text="_" rotate="true" x="5" size="9"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-30" y2="-30" x1="-80" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-80" length1="1.5" length2="1.5" y1="-35" y2="-25" x1="-80" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-35" y2="-25" x1="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect antialias="false" height="10" width="20" y="-50" x="-50" style="line-style:normal;line-weight:normal;filling:bdiag;color:black"/>
-        <rect antialias="false" height="30" width="10" y="-25" x="-75" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect antialias="false" height="30" width="10" y="-25" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-80" length1="1.5" length2="1.5" y1="-20" y2="0" x1="-80" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-60" length1="1.5" length2="1.5" y1="-20" y2="0" x1="-60" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-20" length1="1.5" length2="1.5" y1="-20" y2="0" x1="-20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="0" length1="1.5" length2="1.5" y1="-20" y2="0" x1="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-30" length1="1.5" length2="1.5" y1="-10" y2="-10" x1="-20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-50" length1="1.5" length2="1.5" y1="-10" y2="-10" x1="-60" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="-90" length1="1.5" length2="1.5" y1="-10" y2="-10" x1="-80" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line antialias="false" x2="10" length1="1.5" length2="1.5" y1="-10" y2="-10" x1="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text y="12.5" z="1" text_from="ElementInfo" Halignment="AlignLeft" uuid="{c73ae2c9-e704-4122-847f-5026b7774728}" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" rotation="0" text_width="-1" x="5">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line y1="-30" end2="none" length2="1.5" y2="-30" end1="none" length1="1.5" antialias="false" x1="-80" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-35" end2="none" length2="1.5" y2="-25" end1="none" length1="1.5" antialias="false" x1="-80" x2="-80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-35" end2="none" length2="1.5" y2="-25" end1="none" length1="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect y="-50" rx="0" height="10" ry="0" antialias="false" width="20" style="line-style:normal;line-weight:normal;filling:bdiag;color:black" x="-50"/>
+        <rect y="-25" rx="0" height="30" ry="0" antialias="false" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-75"/>
+        <rect y="-25" rx="0" height="30" ry="0" antialias="false" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15"/>
+        <line y1="-20" end2="none" length2="1.5" y2="0" end1="none" length1="1.5" antialias="false" x1="-80" x2="-80" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" end2="none" length2="1.5" y2="0" end1="none" length1="1.5" antialias="false" x1="-60" x2="-60" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" end2="none" length2="1.5" y2="0" end1="none" length1="1.5" antialias="false" x1="-20" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" end2="none" length2="1.5" y2="0" end1="none" length1="1.5" antialias="false" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-10" end2="none" length2="1.5" y2="-10" end1="none" length1="1.5" antialias="false" x1="-20" x2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-10" end2="none" length2="1.5" y2="-10" end1="none" length1="1.5" antialias="false" x1="-60" x2="-50" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-10" end2="none" length2="1.5" y2="-10" end1="none" length1="1.5" antialias="false" x1="-80" x2="-90" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-10" end2="none" length2="1.5" y2="-10" end1="none" length1="1.5" antialias="false" x1="0" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

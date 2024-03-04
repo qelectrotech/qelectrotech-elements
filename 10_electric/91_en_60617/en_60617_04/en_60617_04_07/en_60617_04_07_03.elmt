@@ -1,21 +1,25 @@
-<definition width="50" height="70" type="element" hotspot_x="25" version="0.70" link_type="simple" hotspot_y="34">
-    <uuid uuid="{30c4c071-0e3b-4136-948f-fb4a70f886a5}"/>
+<definition hotspot_x="25" hotspot_y="34" width="50" type="element" height="70" link_type="simple" version="0.100.0">
+    <uuid uuid="{822eb03a-11bb-4bd0-b3fb-878f36aa9392}"/>
     <names>
-        <name lang="de">piezoelektrischer Kristall mit zwei Elektroden</name>
-        <name lang="fr">Cristal piézoélectrique avec deux électrodes</name>
-        <name lang="cs">Piezoelektrická jednotka se dvěma páry elektrod</name>
         <name lang="en">Piezoelectric crystal with two pairs of electrodes</name>
+        <name lang="de">piezoelektrischer Kristall mit zwei Elektroden</name>
+        <name lang="cs">Piezoelektrická jednotka se dvěma páry elektrod</name>
+        <name lang="fr">Cristal piézoélectrique avec deux électrodes</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <input size="9" rotate="true" tagg="label" text="_" x="5" y="25"/>
-        <rect width="40" height="10" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="-30" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="30" length1="1.5" y1="10" length2="1.5" x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="-10" length1="1.5" y1="-10" length2="1.5" x1="-10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <line y2="10" length1="1.5" y1="10" length2="1.5" x1="-10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false"/>
-        <terminal orientation="s" x="0" y="30"/>
-        <terminal orientation="n" x="0" y="-30"/>
+        <dynamic_text uuid="{e5dcc8c1-c671-4128-a3d2-c3e4d5244a5d}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop" y="12.5" text_width="-1" Halignment="AlignLeft" x="5" keep_visual_rotation="false" z="1" text_from="ElementInfo" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5" width="40" x="-20" height="10" rx="0" antialias="false"/>
+        <line length2="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" y1="-30" x2="0" length1="1.5" x1="0" antialias="false"/>
+        <line length2="1.5" y2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" y1="10" x2="0" length1="1.5" x1="0" antialias="false"/>
+        <line length2="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" y1="-10" x2="10" length1="1.5" x1="-10" antialias="false"/>
+        <line length2="1.5" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" y1="10" x2="10" length1="1.5" x1="-10" antialias="false"/>
+        <terminal uuid="{4ace019c-034e-45b8-9208-382c7b531389}" y="30" name="" type="Generic" x="0" orientation="s"/>
+        <terminal uuid="{a3945557-d245-4438-9bf3-205091785d63}" y="-30" name="" type="Generic" x="0" orientation="n"/>
     </description>
 </definition>
