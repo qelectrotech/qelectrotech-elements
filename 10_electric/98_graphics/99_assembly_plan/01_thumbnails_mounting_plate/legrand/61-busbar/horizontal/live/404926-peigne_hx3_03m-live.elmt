@@ -1,40 +1,44 @@
-<definition height="30" hotspot_y="14" link_type="terminal" version="0.80" type="element" width="90" hotspot_x="34">
-    <uuid uuid="{f813ff14-324a-46a3-be08-e3b111ade19e}"/>
+<definition version="0.100.0" width="90" hotspot_y="14" height="30" link_type="terminal" type="element" hotspot_x="34">
+    <uuid uuid="{494393eb-b7a7-416a-82a7-19abf8367f6f}"/>
     <names>
-        <name lang="fr">404926 - Peigne P+N HX³ - 3 modules</name>
         <name lang="cs">404926 - Lišta P+N HX³ - 3 moduly</name>
+        <name lang="fr">404926 - Peigne P+N HX³ - 3 modules</name>
     </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
     <elementInformations>
-        <elementInformation name="manufacturer" show="1">Legrand</elementInformation>
-        <elementInformation name="quantity" show="1"></elementInformation>
-        <elementInformation name="description" show="1">Peigne d'alimentation universel Phase + Neutre HX³ horizontale 1P - longueur 13 modules</elementInformation>
-        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
-        <elementInformation name="comment" show="1"></elementInformation>
-        <elementInformation name="label" show="1"></elementInformation>
-        <elementInformation name="unity" show="1"></elementInformation>
-        <elementInformation name="designation" show="1">4049 26</elementInformation>
-        <elementInformation name="supplier" show="1"></elementInformation>
-        <elementInformation name="plant" show="1"></elementInformation>
-        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="description">Peigne d'alimentation universel Phase + Neutre HX³ horizontale 1P - longueur 13 modules</elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="designation">4049 26</elementInformation>
+        <elementInformation show="1" name="manufacturer">Legrand</elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
     </elementInformations>
     <informations>Arnaud Valmary</informations>
     <description>
-        <rect height="20" style="line-style:normal;line-weight:thin;filling:gray;color:black" antialias="false" ry="0" rx="0" y="-10" width="82" x="-31"/>
-        <dynamic_text text_from="ElementInfo" uuid="{58b7ce38-810c-4865-8f14-ee41cd829a36}" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-28" frame="false" rotation="0" x="-31" z="2">
+        <rect y="-10" x="-31" style="line-style:normal;line-weight:thin;filling:gray;color:black" width="82" rx="0" height="20" ry="0" antialias="false"/>
+        <dynamic_text y="-28" x="-31" rotation="0" keep_visual_rotation="true" uuid="{58b7ce38-810c-4865-8f14-ee41cd829a36}" text_width="-1" text_from="ElementInfo" z="2" frame="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <dynamic_text text_from="ElementInfo" uuid="{e4a56c36-b376-4dc5-954e-049d43f23ce2}" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" font="DejaVu Sans,4,-1,5,50,0,0,0,0,0" y="-9.5" frame="false" rotation="0" x="-30.7266" z="3">
+        <dynamic_text y="-9.5" x="-30.73" rotation="0" keep_visual_rotation="true" uuid="{e4a56c36-b376-4dc5-954e-049d43f23ce2}" text_width="-1" text_from="ElementInfo" z="3" frame="false" font="DejaVu Sans,4,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
             <text>4049 26</text>
             <info_name>designation</info_name>
         </dynamic_text>
-        <dynamic_text text_from="ElementInfo" uuid="{2cd5e253-a1e3-4469-8a78-30128ccd7d74}" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" font="DejaVu Sans,4,-1,5,50,0,0,0,0,0" y="-9.5" frame="false" rotation="0" x="-3.72656" z="4">
+        <dynamic_text y="-9.5" x="-3.73" rotation="0" keep_visual_rotation="true" uuid="{2cd5e253-a1e3-4469-8a78-30128ccd7d74}" text_width="-1" text_from="ElementInfo" z="4" frame="false" font="DejaVu Sans,4,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop">
             <text>Legrand</text>
             <info_name>manufacturer</info_name>
         </dynamic_text>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="4" x3="50" antialias="false" y2="-8" closed="false" x2="-30" y3="-8" x1="-30"/>
-        <terminal orientation="s" y="10" x="-30"/>
-        <terminal orientation="s" y="10" x="50"/>
-        <terminal orientation="s" y="10" x="10"/>
+        <polygon closed="false" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-30" y1="4" x1="-30" x3="50" y3="-8" antialias="false"/>
+        <terminal y="10" x="-30" uuid="{9c727aba-b645-f56b-2639-c2846384c20c}" type="Generic" name="" orientation="s"/>
+        <terminal y="10" x="50" uuid="{d32328c7-2f6f-690c-c6f0-dbbed40f3677}" type="Generic" name="" orientation="s"/>
+        <terminal y="10" x="10" uuid="{307eafd3-836d-4ce4-e3d8-0abfae17380c}" type="Generic" name="" orientation="s"/>
     </description>
 </definition>
