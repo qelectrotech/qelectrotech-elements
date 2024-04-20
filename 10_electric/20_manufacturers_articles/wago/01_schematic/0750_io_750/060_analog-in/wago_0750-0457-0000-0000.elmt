@@ -1,5 +1,5 @@
 <definition type="element" width="740" version="0.80" link_type="simple" height="110" hotspot_y="51" hotspot_x="370">
-    <uuid uuid="{738f5267-b351-85ad-617e-9fb6bdfc387b}"/>
+    <uuid uuid="{54867568-4260-e241-d825-aa1f60536e59}"/>
     <names>
         <name lang="de">750-457</name>
         <name lang="fr">750-457</name>
@@ -42,9 +42,9 @@ License:see https://qelectrotech.org/wiki_new/doc/elements_license
         <text y="-24" color="#000000" rotation="0" text="GND" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-39"/>
         <text y="-24" color="#000000" rotation="0" text="AI3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="42"/>
         <text y="-42" color="#000000" rotation="0" text="3" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="46"/>
-        <polygon x2="-356" y2="-10" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false" x1="-362" y1="-10" closed="false"/>
+        <polygon style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false" closed="false" x1="-362" y1="-10" x2="-356" y2="-10"/>
         <arc y="-12.5" start="90" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" antialias="true" x="360"/>
-        <polygon x2="-356" y2="10" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false" x1="-362" y1="10" closed="false"/>
+        <polygon style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false" closed="false" x1="-362" y1="10" x2="-356" y2="10"/>
         <arc y="7.5" start="90" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" antialias="true" x="360"/>
         <circle y="-42.5" diameter="5" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" x="117.5"/>
         <circle y="-42.5" diameter="5" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" x="-122.5"/>
@@ -54,17 +54,17 @@ License:see https://qelectrotech.org/wiki_new/doc/elements_license
         <circle y="-42.5" diameter="5" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" x="-282.5"/>
         <circle y="-42.5" diameter="5" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" x="37.5"/>
         <circle y="-42.5" diameter="5" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true" x="-42.5"/>
-        <terminal y="10" orientation="e" x="360" type="Generic" name="" uuid="{d3c6f3fc-4e95-cfbb-da47-7217c15b6036}"/>
-        <terminal y="-10" orientation="e" x="360" type="Generic" name="" uuid="{437ae897-30ea-a859-c79f-e46a870763ae}"/>
-        <terminal y="-40" orientation="n" x="-120" type="Generic" name="" uuid="{aa39db76-8eb1-1144-32fc-cd7b98564961}"/>
-        <terminal y="-40" orientation="n" x="-200" type="Generic" name="" uuid="{b799b479-5a2a-8531-5bbc-9c42845c7f78}"/>
-        <terminal y="-40" orientation="n" x="-280" type="Generic" name="" uuid="{1417179f-c3d8-fb29-e78c-7b725735ac06}"/>
-        <terminal y="-40" orientation="n" x="200" type="Generic" name="" uuid="{f130e17d-ee15-adfd-0283-ed990cd1a4fb}"/>
-        <terminal y="-40" orientation="n" x="120" type="Generic" name="" uuid="{7c2b147f-5f33-ba30-a162-029397a28b8c}"/>
-        <terminal y="-40" orientation="n" x="280" type="Generic" name="" uuid="{8bdeca27-284d-be4e-0956-012f582e2b48}"/>
-        <terminal y="-40" orientation="n" x="-40" type="Generic" name="" uuid="{cbcef6b1-561e-85f1-ba84-0f4fa4fbbd8c}"/>
-        <terminal y="-40" orientation="n" x="40" type="Generic" name="" uuid="{df6de636-ae5b-fe49-47ff-7fe6b2889286}"/>
-        <terminal y="10" orientation="w" x="-360" type="Generic" name="" uuid="{f7750bb7-5f6d-2777-76ce-7bcd0550e40d}"/>
-        <terminal y="-10" orientation="w" x="-360" type="Generic" name="" uuid="{397876ee-4c29-8c8d-4ca7-3e2f88653735}"/>
+        <terminal uuid="{8d8cdc69-1f91-e944-3542-81006033654b}" name="Pow.L.In" x="-360" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{fbc1d0d5-07ed-b7e4-443d-4ce0794ca0ab}" name="Pow.N.In" x="-360" y="10" orientation="w" type="Generic"/>
+        <terminal uuid="{5214ffaf-2d90-3fd7-0724-b710eea9b117}" name="Pow.L.Out" x="360" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{840144d5-c92a-f7a0-5342-c2c89f3ba9d8}" name="Pow.N.Out" x="360" y="10" orientation="e" type="Generic"/>
+        <terminal uuid="{5ce379bd-44ea-4aa4-92cf-d556c3025824}" name="1" x="-280" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{0d76cf3c-2b57-0242-b017-9223bf609572}" name="5" x="-200" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{7d8ba63b-1323-e88e-2a59-7513afb340b1}" name="2" x="-120" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{34c6a3c1-9c13-84ff-af2b-699e64cf9e94}" name="6" x="-40" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{2655dc24-a5d1-3154-40bd-af9b2126a0f9}" name="3" x="40" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{a2fa4e8f-c41f-8d8d-0ab4-ac88a05a868f}" name="7" x="120" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{d851cd60-9ff7-bb0d-4d56-78a7bc18f0d6}" name="4" x="200" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{f6ec425e-b375-611c-1529-b7269d124a3c}" name="8" x="280" y="-40" orientation="n" type="Generic"/>
     </description>
 </definition>

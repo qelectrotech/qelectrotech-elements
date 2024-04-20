@@ -1,5 +1,5 @@
 <definition height="110" link_type="simple" width="740" hotspot_x="370" type="element" hotspot_y="43" version="0.80">
-    <uuid uuid="{eda744c0-8c0f-17ac-7702-be5289bec521}"/>
+    <uuid uuid="{161076f8-c3e6-c1fe-4aa2-c0278b1de02b}"/>
     <names>
         <name lang="de">750-597</name>
         <name lang="fr">750-597</name>
@@ -89,29 +89,29 @@ License:see https://qelectrotech.org/wiki_new/doc/elements_license
         <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="46" color="#000000" x="-146" text="AO3" rotation="0"/>
         <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="58" color="#000000" x="-147" text="3" rotation="0"/>
         <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-27" color="#000000" x="-127" text="8AO 0-10V/±10V DC" rotation="0"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:black" x2="-356" y2="-10" x1="-362" y1="-10" closed="false"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:black" closed="false" x1="-362" y1="-10" x2="-356" y2="-10"/>
         <arc height="5" start="90" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="360" width="5" angle="180" y="-12.5"/>
-        <polygon antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:black" x2="-356" y2="10" x1="-362" y1="10" closed="false"/>
+        <polygon antialias="false" style="line-style:normal;line-weight:hight;filling:none;color:black" closed="false" x1="-362" y1="10" x2="-356" y2="10"/>
         <arc height="5" start="90" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="360" width="5" angle="180" y="7.5"/>
-        <terminal y="50" orientation="s" x="290" name="M.16" type="Generic" uuid="{74795dc3-2591-3114-7384-1441ff95f0d4}"/>
-        <terminal y="50" orientation="s" x="250" name="AO8" type="Generic" uuid="{65ecece3-7e81-87dd-ae24-839e57f9632c}"/>
-        <terminal y="50" orientation="s" x="210" name="M.15" type="Generic" uuid="{49a033af-b837-d3c2-2d80-ca419b0bc0ba}"/>
-        <terminal y="50" orientation="s" x="170" name="AO7" type="Generic" uuid="{1c7ad76a-8d08-335b-d4d4-7200dccd2f6b}"/>
-        <terminal y="50" orientation="s" x="130" name="M.14" type="Generic" uuid="{ffae03df-87b1-dce5-3582-e890b7f0e613}"/>
-        <terminal y="50" orientation="s" x="90" name="AO6" type="Generic" uuid="{376f2c39-6eb4-c09d-1c87-fbd873e1cb87}"/>
-        <terminal y="50" orientation="s" x="50" name="M.13" type="Generic" uuid="{711f5ff3-8de3-035b-5337-9df0ea362634}"/>
-        <terminal y="50" orientation="s" x="10" name="AO5" type="Generic" uuid="{e2f82818-67bc-b71d-7a8f-d9fc8de9c215}"/>
-        <terminal y="50" orientation="s" x="-30" name="M.12" type="Generic" uuid="{69f41f71-24b0-9c6a-d6e9-dfd24952b8bd}"/>
-        <terminal y="50" orientation="s" x="-70" name="AO4" type="Generic" uuid="{a0126dea-e045-e661-4fa7-a6d07514842c}"/>
-        <terminal y="50" orientation="s" x="-110" name="M.11" type="Generic" uuid="{289880cc-66e7-9233-90a5-72c44a642eba}"/>
-        <terminal y="50" orientation="s" x="-150" name="AO3" type="Generic" uuid="{2d8666fd-272e-5ae8-ea7d-0e5bfbf725a1}"/>
-        <terminal y="50" orientation="s" x="-190" name="M.10" type="Generic" uuid="{f8970605-7992-fe7c-abad-ce2f9d8c7438}"/>
-        <terminal y="50" orientation="s" x="-230" name="AO2" type="Generic" uuid="{9086e9b0-7316-5fc2-cbde-c93f4012bd96}"/>
-        <terminal y="50" orientation="s" x="-270" name="M.9" type="Generic" uuid="{8476a80a-e015-a510-900f-0e725acbf91f}"/>
-        <terminal y="50" orientation="s" x="-310" name="AO1" type="Generic" uuid="{574d49a8-08c4-4d99-d462-d2c992207dfc}"/>
-        <terminal y="10" orientation="w" x="-360" name="0V.IN" type="Generic" uuid="{3bad5b4a-bbfb-da94-1b6b-168d2f409ce5}"/>
-        <terminal y="-10" orientation="e" x="360" name="24V.OUT" type="Generic" uuid="{9bb9ec52-119e-99a8-6fe8-3c666662676d}"/>
-        <terminal y="10" orientation="e" x="360" name="0V.OUT" type="Generic" uuid="{ff58dfa7-ee54-f9f1-78bb-86285f6b905f}"/>
-        <terminal y="-10" orientation="w" x="-360" name="24V.IN" type="Generic" uuid="{5cd2d536-65c3-c45e-3f57-88e48b030101}"/>
+        <terminal uuid="{b89745db-6425-c04d-5b72-3beb3cc62301}" name="Pow.N.Out" x="360" y="10" orientation="e" type="Generic"/>
+        <terminal uuid="{bc17aafd-1a59-2a19-ea13-35dcceaee869}" name="Pow.L.Out" x="360" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{2bbd804e-dc70-eea6-6cfc-bffc8a841201}" name="Pow.N.In" x="-360" y="10" orientation="w" type="Generic"/>
+        <terminal uuid="{785212cc-c659-b565-fa1c-bd8e989510d2}" name="Pow.L.In" x="-360" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{fc6b3875-6cb1-34bc-19a3-9f286e03b361}" name="1" x="-310" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{ffbd02ed-16cb-0379-0378-008bb81b0113}" name="9" x="-270" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{356acb9e-addd-065c-1508-510c2ca9d8de}" name="2" x="-230" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{80e82907-03c5-9e85-404e-8ca050757c2a}" name="10" x="-190" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{6b272df6-2c95-8ddf-f64f-49aa936be007}" name="3" x="-150" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{ce7b7606-ae03-6d55-d441-8ce6f16eb72b}" name="11" x="-110" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{b75955d2-0911-2a7e-850a-23f8b2a15c51}" name="4" x="-70" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{efe97050-776f-9e60-9041-0fcc17b64668}" name="12" x="-30" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{e19a138b-ad3c-3181-ab60-b30e328911a7}" name="5" x="10" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{ed200d53-5150-3073-6051-4390a8edc889}" name="13" x="50" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{1e0849c8-c304-a189-3043-04594bac5bfe}" name="6" x="90" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{ab114edf-59c6-2079-5b04-17a71b8eedb0}" name="14" x="130" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{0872f906-f137-4a28-ebed-def989ec2388}" name="7" x="170" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{ae18f682-71b0-c997-42db-cd3aafe2b99b}" name="15" x="210" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{1b811746-2335-1225-10d7-17eaf4911c68}" name="8" x="250" y="50" orientation="s" type="Generic"/>
+        <terminal uuid="{50b1e50f-df8b-b877-0a8d-ed51daefd870}" name="16" x="290" y="50" orientation="s" type="Generic"/>
     </description>
 </definition>
