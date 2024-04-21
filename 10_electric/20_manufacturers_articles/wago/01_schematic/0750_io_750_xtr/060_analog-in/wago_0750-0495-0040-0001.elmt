@@ -1,5 +1,5 @@
 <definition type="element" height="110" hotspot_y="50" version="0.90" link_type="simple" width="730" hotspot_x="365">
-    <uuid uuid="{420600fe-ccaa-018f-17f0-33b72e12fa23}"/>
+    <uuid uuid="{c719fa78-dba7-a0fc-0640-fbbd7b7eecdb}"/>
     <names>
         <name lang="cs">750-495/040-001</name>
         <name lang="en">750-495/040-001</name>
@@ -25,14 +25,10 @@ License:see https://qelectrotech.org/wiki_new/doc/elements_license
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="105" text="I2−"/>
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="165" text="I3+"/>
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-275" text="L3"/>
-        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-137" text="n.c."/>
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-295" text="L2"/>
-        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-117" text="n.c."/>
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-315" text="L1"/>
-        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-97" text="n.c."/>
         <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="45" color="#000000" rotation="0" x="-339" text="WAGO 750-495/040-001"/>
         <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-254" text="N"/>
-        <text font="Sans Serif,7,-1,5,50,0,0,0,0,0" y="-23" color="#000000" rotation="0" x="-157" text="n.c."/>
         <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="45" color="#000000" rotation="0" x="-130" text="3-ph. power measurement 690V / 5A /XTR"/>
         <circle antialias="true" y="-42.5" diameter="5" x="187.5" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
         <dynamic_text Halignment="AlignLeft" uuid="{f448b8e7-91ea-42e3-a32d-44e7eb0ef305}" keep_visual_rotation="true" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="29.5" text_width="-1" text_from="ElementInfo" Valignment="AlignTop" z="21" frame="false" rotation="0" x="220">
@@ -54,17 +50,17 @@ License:see https://qelectrotech.org/wiki_new/doc/elements_license
         <circle antialias="true" y="-42.5" diameter="5" x="-312.5" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
         <circle antialias="true" y="-42.5" diameter="5" x="-152.5" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
         <circle antialias="true" y="-42.5" diameter="5" x="-252.5" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
-        <terminal type="Generic" uuid="{0b7637db-2b2a-4775-8819-2953f7905b68}" name="" orientation="n" y="-40" x="170"/>
-        <terminal type="Generic" uuid="{52de5c94-c67a-4470-951d-266177b33c67}" name="" orientation="n" y="-40" x="250"/>
-        <terminal type="Generic" uuid="{fb0ec567-7409-4425-bf81-43e9790314ef}" name="" orientation="n" y="-40" x="30"/>
-        <terminal type="Generic" uuid="{905e4af7-bdbf-47a4-af30-59143dd12c15}" name="" orientation="n" y="-40" x="190"/>
-        <terminal type="Generic" uuid="{df57357a-a4ab-4e00-8f62-31a189945956}" name="" orientation="n" y="-40" x="90"/>
-        <terminal type="Generic" uuid="{7868a1bc-0c1a-44d2-93e8-d2692d234ae9}" name="" orientation="n" y="-40" x="-270"/>
-        <terminal type="Generic" uuid="{82199d9b-78e8-4f13-b27a-aa1a10f40392}" name="" orientation="n" y="-40" x="-290"/>
-        <terminal type="Generic" uuid="{4a29ac30-1af4-4144-8d11-1ed80d494b17}" name="" orientation="n" y="-40" x="-250"/>
-        <terminal type="Generic" uuid="{71525239-93e4-457a-a5a2-5c17f07b61a6}" name="" orientation="n" y="-40" x="270"/>
-        <terminal type="Generic" uuid="{85145279-ad4f-4c75-9b2b-0f7c2b746fd2}" name="" orientation="n" y="-40" x="10"/>
-        <terminal type="Generic" uuid="{f9e30037-4b8e-45ae-aa95-79a2384cc84a}" name="" orientation="n" y="-40" x="110"/>
-        <terminal type="Generic" uuid="{4560df44-89a8-4068-97cf-3f933147c271}" name="" orientation="n" y="-40" x="-310"/>
+        <terminal uuid="{d4c68108-2f3f-c7cf-22af-b77f3ae6fbfe}" name="L1" x="-310" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{5ed4e2a8-48ad-55ec-2f3b-f83c8ee9d061}" name="L2" x="-290" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{ca060796-2666-6e82-5ef1-d6d5fc917ae9}" name="L3" x="-270" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{5a0e0f9a-e09c-4f8f-412d-b616c93b2328}" name="N" x="-250" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{09377a9a-fc89-1b99-dc14-410287af9aa5}" name="I1+" x="10" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{03b7d4ac-1e01-6509-20b6-1ae1639267eb}" name="I1-" x="30" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{2eb4faf2-8a0c-e437-f008-15192806f97f}" name="I2+" x="90" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{0319e84b-fba4-2dec-6ca1-a6cc81ecbf51}" name="I2-" x="110" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{2959aa21-678a-57f3-dbcf-e1dc4ba00d14}" name="I3+" x="170" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{290fcc49-b772-a193-275b-438d276cb3e1}" name="I3-" x="190" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{c1fdf97c-585a-ca56-6403-5659a2bfd10b}" name="IN+" x="250" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{6f54aa9d-1a42-5d5e-b1d9-69b09c97d5af}" name="IN-" x="270" y="-40" orientation="n" type="Generic"/>
     </description>
 </definition>
