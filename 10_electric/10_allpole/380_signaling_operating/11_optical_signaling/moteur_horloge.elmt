@@ -1,13 +1,13 @@
-<definition hotspot_x="37" hotspot_y="34" version="0.100.0" type="element" height="70" width="90" link_type="simple">
-    <uuid uuid="{69180102-ef9e-44d3-ac01-eb9db3f52635}"/>
+<definition height="70" link_type="simple" hotspot_y="34" version="0.100.0" type="element" width="90" hotspot_x="37">
+    <uuid uuid="{d30b71e3-6b8c-4a01-9d1a-2dc46b25799b}"/>
     <names>
-        <name lang="nl">Tijdmotor</name>
-        <name lang="pl">Zegar</name>
-        <name lang="cs">Motohodiny</name>
         <name lang="en">Clock motor</name>
         <name lang="it">Motore orologio</name>
         <name lang="de">Motor Uhr</name>
         <name lang="fr">Moteur horloge</name>
+        <name lang="nl">Tijdmotor</name>
+        <name lang="pl">Zegar</name>
+        <name lang="cs">Motohodiny</name>
         <name lang="es">Motor temporizado</name>
         <name lang="ar">محرك ساعة</name>
     </names>
@@ -15,23 +15,17 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-35" y="-15" antialias="true"/>
-        <dynamic_text font="Sans Serif,12,-1,5,50,0,0,0,0,0" uuid="{6b99a513-f4e9-4a80-b2b5-1e99e665a958}" keep_visual_rotation="false" text_from="ElementInfo" rotation="0" text_width="-1" Halignment="AlignLeft" x="53" y="-21" z="2" frame="false" Valignment="AlignTop">
+        <line length2="1.5" y1="30" antialias="false" x1="-20" x2="-20" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30"/>
+        <circle y="-15" antialias="true" diameter="30" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-35"/>
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-21" z="3" Halignment="AlignLeft" frame="false" font="Sans Serif,12,-1,5,50,0,0,0,0,0" uuid="{6b99a513-f4e9-4a80-b2b5-1e99e665a958}" x="53" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="-20" y2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="30" end1="none" antialias="false" length1="1.5" x1="-20" length2="1.5"/>
-        <line x2="-20" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-30" end1="none" antialias="false" length1="1.5" x1="-20" length2="1.5"/>
-        <line x2="-13" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="true" length1="1.5" x1="-20" length2="1.5"/>
-        <line x2="-27" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="true" length1="1.5" x1="-20" length2="1.5"/>
-        <line x2="-13" y2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-8" end1="none" antialias="false" length1="1.5" x1="-13" length2="1.5"/>
-        <line x2="-27" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="8" end1="none" antialias="false" length1="1.5" x1="-27" length2="1.5"/>
-        <line x2="10" y2="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-2" end1="none" antialias="false" length1="1.5" x1="-5" length2="1.5"/>
-        <line x2="10" y2="2" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="2" end1="none" antialias="false" length1="1.5" x1="-5" length2="1.5"/>
-        <line x2="30" y2="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="false" length1="1.5" x1="30" length2="1.5"/>
-        <line x2="45" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" end1="none" antialias="false" length1="1.5" x1="30" length2="1.5"/>
-        <circle diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="10" y="-20" antialias="true"/>
-        <terminal uuid="{5778823a-28b8-4ee1-b207-aea2614c9e0d}" x="-20" y="-30" orientation="n" type="Generic" name=""/>
-        <terminal uuid="{5c7d10a5-da46-4541-983f-79a243485407}" x="-20" y="30" orientation="s" type="Generic" name=""/>
+        <circle y="-20" antialias="true" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="10"/>
+        <polygon y1="8" antialias="false" x1="-27" x2="-27" x3="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-8" y5="8" y4="-8" y3="0" closed="false" x4="-13" x5="-13"/>
+        <polygon y1="-16" antialias="false" x1="30" x2="30" x3="45" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y3="0" closed="false"/>
+        <rect height="4" y="-2" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="15" x="-5"/>
+        <terminal y="-30" orientation="n" name="A1" type="Generic" uuid="{5778823a-28b8-4ee1-b207-aea2614c9e0d}" x="-20"/>
+        <terminal y="30" orientation="s" name="A2" type="Generic" uuid="{5c7d10a5-da46-4541-983f-79a243485407}" x="-20"/>
     </description>
 </definition>
