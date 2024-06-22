@@ -1,48 +1,48 @@
-<definition hotspot_x="10" height="30" hotspot_y="19" width="20" version="0.100.0" type="element" link_type="terminal">
-    <uuid uuid="{bfd0efb7-dc43-4f24-8298-13674531a064}"/>
+<definition height="30" link_type="terminal" hotspot_y="19" version="0.100.0" type="element" width="20" hotspot_x="10">
+    <uuid uuid="{f2cdd94f-4db6-4c58-8056-8f1527fa4129}"/>
     <names>
-        <name lang="fr">Terre</name>
-        <name lang="ar">تأريض</name>
-        <name lang="nl">Aarde</name>
-        <name lang="ru">Земля</name>
         <name lang="it">Terra</name>
         <name lang="en">Ground</name>
-        <name lang="pl">Uziemienie</name>
-        <name lang="es">Tierra</name>
-        <name lang="cs">Uzemnění</name>
-        <name lang="el">Γείωση</name>
         <name lang="pt">Terra</name>
-        <name lang="hu">Földelő</name>
         <name lang="de">Erde</name>
+        <name lang="fr">Terre</name>
+        <name lang="el">Γείωση</name>
+        <name lang="nl">Aarde</name>
+        <name lang="pl">Uziemienie</name>
+        <name lang="hu">Földelő</name>
+        <name lang="cs">Uzemnění</name>
+        <name lang="es">Tierra</name>
+        <name lang="ar">تأريض</name>
+        <name lang="ru">Земля</name>
     </names>
     <kindInformations>
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
     <elementInformations>
-        <elementInformation name="supplier" show="1"></elementInformation>
-        <elementInformation name="designation" show="1"></elementInformation>
-        <elementInformation name="comment" show="1"></elementInformation>
-        <elementInformation name="unity" show="1"></elementInformation>
-        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
-        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
-        <elementInformation name="description" show="1"></elementInformation>
-        <elementInformation name="manufacturer" show="1"></elementInformation>
-        <elementInformation name="label" show="1"></elementInformation>
-        <elementInformation name="quantity" show="1"></elementInformation>
-        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
     </elementInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" rotation="0" uuid="{0af57a27-1887-4576-8b51-200ca996e582}" y="-22.5" frame="false" Valignment="AlignTop" x="2" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="true" text_from="ElementInfo">
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-22.5" z="1" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{0af57a27-1887-4576-8b51-200ca996e582}" x="2" keep_visual_rotation="true" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-3" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" y1="4" antialias="false" y2="4" length1="1.5" length2="1.5" end1="none"/>
-        <line x1="-5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5" y1="2" antialias="false" y2="2" length1="1.5" length2="1.5" end1="none"/>
-        <line x1="-7" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="7" y1="0" antialias="false" y2="0" length1="1.5" length2="1.5" end1="none"/>
-        <line x1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="-10" antialias="false" y2="0" length1="1.5" length2="1.5" end1="none"/>
-        <terminal uuid="{f52570dd-b18e-012e-919f-8d749298ae42}" orientation="n" y="-11" name="" x="0" type="Generic"/>
+        <line length2="1.5" y1="4" antialias="false" x1="-3" x2="3" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="4"/>
+        <line length2="1.5" y1="2" antialias="false" x1="-5" x2="5" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="2"/>
+        <line length2="1.5" y1="0" antialias="false" x1="-7" x2="7" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0"/>
+        <line length2="1.5" y1="-10" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0"/>
+        <terminal y="-11" orientation="n" name="PE" type="Generic" uuid="{f52570dd-b18e-012e-919f-8d749298ae42}" x="0"/>
     </description>
 </definition>

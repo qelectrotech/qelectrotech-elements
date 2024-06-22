@@ -1,33 +1,33 @@
-<definition version="0.100.0" link_type="simple" height="40" hotspot_y="20" hotspot_x="15" type="element" width="30">
-    <uuid uuid="{7d81ac52-28c1-433e-afce-b886b2d3c932}"/>
+<definition height="40" link_type="simple" hotspot_y="20" version="0.100.0" type="element" width="30" hotspot_x="15">
+    <uuid uuid="{a6eaf760-953c-4276-98a6-4df62d74192e}"/>
     <names>
-        <name lang="cs">Přípojnice 1f+N</name>
         <name lang="en">Single-pole source + neutral</name>
-        <name lang="es">Fuente unipolo + neutro</name>
-        <name lang="nl">Wisselspanning L + nul N</name>
         <name lang="de">Wechselstrom L + N</name>
         <name lang="pt">Fonte unipolar + neutro</name>
+        <name lang="it">Sorgente unipolare + neutro</name>
         <name lang="fr">Source unipolaire + neutre</name>
         <name lang="el">Μονοφασικό + Ουδέτερος</name>
-        <name lang="ru">Однополюсный + нейтраль</name>
+        <name lang="nl">Wisselspanning L + nul N</name>
         <name lang="pl">Linia jednofazowa (dwuprzewodowa)</name>
-        <name lang="ar">مصدر وحيد القطبية + محايد N</name>
-        <name lang="it">Sorgente unipolare + neutro</name>
         <name lang="hu">F + N</name>
+        <name lang="cs">Přípojnice 1f+N</name>
+        <name lang="es">Fuente unipolo + neutro</name>
+        <name lang="ru">Однополюсный + нейтраль</name>
+        <name lang="ar">مصدر وحيد القطبية + محايد N</name>
     </names>
     <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-37.95" x="-5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" keep_visual_rotation="false" frame="false" uuid="{0299e777-d64a-454c-9d71-3cd926dfafde}" Halignment="AlignLeft" text_from="ElementInfo" text_width="-1" Valignment="AlignTop" rotation="0">
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-37.95" z="1" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{0299e777-d64a-454c-9d71-3cd926dfafde}" x="-5" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end2="none" y1="-10" length1="1.5" y2="-10" x2="10" antialias="false" end1="none" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end2="none" y1="10" length1="1.5" y2="10" x2="10" antialias="false" end1="none" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text y="13" text="N" x="-12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
-        <text y="-7" text="L" x="-12" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
-        <terminal y="-10" x="10" uuid="{d0cbef7a-4588-4641-9727-e601c0a646ed}" orientation="e" type="Generic" name=""/>
-        <terminal y="10" x="10" uuid="{3b036ac7-3dd0-4f87-8054-e80140a36823}" orientation="e" type="Generic" name=""/>
+        <line length2="1.5" y1="-10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line length2="1.5" y1="10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <text rotation="0" text="N" y="13" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L" y="-7" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <terminal y="-10" orientation="e" name="L" type="Generic" uuid="{d0cbef7a-4588-4641-9727-e601c0a646ed}" x="10"/>
+        <terminal y="10" orientation="e" name="N" type="Generic" uuid="{3b036ac7-3dd0-4f87-8054-e80140a36823}" x="10"/>
     </description>
 </definition>
