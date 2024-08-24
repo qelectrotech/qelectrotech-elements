@@ -1,16 +1,16 @@
-<definition version="0.100.0" width="10" link_type="terminal" type="element" hotspot_y="14" hotspot_x="4" height="30">
-    <uuid uuid="{3b84ad2c-f4a7-4c03-948c-45df49a2b8b8}"/>
+<definition link_type="terminal" version="0.100.0" type="element" hotspot_y="14" hotspot_x="4" width="10" height="30">
+    <uuid uuid="{175c2166-202d-42b8-a5b9-5524ab2deaf4}"/>
     <names>
-        <name lang="de">Sprung</name>
-        <name lang="fr">Saut</name>
-        <name lang="es">Puente</name>
         <name lang="hu">Átugrás összekötés nélkül</name>
-        <name lang="it">Salto</name>
-        <name lang="ar">قفز</name>
-        <name lang="pl">Brak połączenia</name>
-        <name lang="en">Jump</name>
+        <name lang="fr">Saut</name>
+        <name lang="de">Sprung</name>
         <name lang="cs">Skok</name>
+        <name lang="pl">Brak połączenia</name>
+        <name lang="ar">قفز</name>
         <name lang="ru">Перемычка</name>
+        <name lang="it">Salto</name>
+        <name lang="es">Puente</name>
+        <name lang="en">Jump</name>
     </names>
     <kindInformations>
         <kindInformation name="type">generic</kindInformation>
@@ -19,11 +19,13 @@
     <elementInformations/>
     <informations></informations>
     <description>
-        <arc width="6" start="90" x="-3" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-3" angle="-180" height="6"/>
-        <dynamic_text Valignment="AlignTop" text_width="-1" x="1.5" Halignment="AlignLeft" text_from="UserText" rotation="0" z="2" font="Sans Serif,1,-1,5,0,0,0,0,0,0,normal" y="-11.45" frame="false" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" keep_visual_rotation="true">
+        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" y="-3" x="-3" width="6" height="6"/>
+        <dynamic_text font="Sans Serif,1,-1,5,0,0,0,0,0,0,normal" frame="false" z="2" Halignment="AlignLeft" y="-11.45" text_from="UserText" Valignment="AlignTop" x="1.5" keep_visual_rotation="true" rotation="0" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" text_width="-1">
             <text>_</text>
         </dynamic_text>
-        <terminal x="0" orientation="n" type="Generic" y="-7" uuid="{0e526923-265b-4fca-902c-1c1ad8e47de5}" name="1"/>
-        <terminal x="0" orientation="s" type="Generic" y="7" uuid="{946e7afb-d591-4d8f-9cd7-dbc06a3734de}" name="2"/>
+        <line y1="-7" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-3" x2="0" end1="none" end2="none"/>
+        <line y1="3" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="7" x2="0" end1="none" end2="none"/>
+        <terminal orientation="n" name="1" type="Generic" y="-7" x="0" uuid="{0e526923-265b-4fca-902c-1c1ad8e47de5}"/>
+        <terminal orientation="s" name="2" type="Generic" y="7" x="0" uuid="{946e7afb-d591-4d8f-9cd7-dbc06a3734de}"/>
     </description>
 </definition>
