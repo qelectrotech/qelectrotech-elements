@@ -1,35 +1,35 @@
-<definition type="element" version="0.100.0" width="40" hotspot_x="20" link_type="simple" height="60" hotspot_y="33">
-    <uuid uuid="{49500af3-4fa1-4c33-be26-21cb9088eed4}"/>
+<definition hotspot_x="20" version="0.100.0" hotspot_y="33" link_type="simple" type="element" width="40" height="60">
+    <uuid uuid="{072a3714-778b-4f1e-b4ee-7dfc2c65b5cc}"/>
     <names>
-        <name lang="fr">Génératrice triphasée</name>
-        <name lang="de">Drehstromgenerator</name>
-        <name lang="it">Generatore trifase</name>
         <name lang="ar">مُولد ثلاثي الأوجه</name>
-        <name lang="nl_BE">Generator driefase AC3</name>
-        <name lang="pt">Gerador trifásico</name>
-        <name lang="pl">Generator trójfazowy</name>
-        <name lang="nl">Generator driefase AC3</name>
-        <name lang="el">Τριφασική γεννήτρια</name>
-        <name lang="es">Generador trifasico</name>
-        <name lang="ru">Трёхфазный генератор</name>
-        <name lang="en">Three-phase generator</name>
         <name lang="cs">Třífázový generátor</name>
+        <name lang="de">Drehstromgenerator</name>
+        <name lang="el">Τριφασική γεννήτρια</name>
+        <name lang="en">Three-phase generator</name>
+        <name lang="es">Generador trifasico</name>
+        <name lang="fr">Génératrice triphasée</name>
+        <name lang="it">Generatore trifase</name>
+        <name lang="nl_BE">Generator driefase AC3</name>
+        <name lang="nl">Generator driefase AC3</name>
+        <name lang="pl">Generator trójfazowy</name>
+        <name lang="pt">Gerador trifásico</name>
+        <name lang="ru">Трёхфазный генератор</name>
     </names>
     <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-25" x="-15" diameter="30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text font="Sans Serif,18,-1,5,50,0,0,0,0,0" y="-2" x="-10.25" rotation="0" color="#000000" text="G"/>
-        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-17.75" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{7d5098c6-219f-4144-aeb6-04d294649614}" x="18" text_from="ElementInfo" z="3" rotation="0" Valignment="AlignTop" frame="false">
+        <circle antialias="true" diameter="30" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15"/>
+        <text font="Sans Serif,18,-1,5,50,0,0,0,0,0" rotation="0" text="G" y="-2" color="#000000" x="-10.25"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" z="3" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" uuid="{7d5098c6-219f-4144-aeb6-04d294649614}" y="-17.75" text_from="ElementInfo" x="18" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end2="none" end1="none" y1="20" y2="5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="0" x1="0"/>
-        <line end2="none" end1="none" y1="20" y2="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="10" x1="10"/>
-        <line end2="none" end1="none" y1="20" y2="1.5" length2="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" x2="-10" x1="-10"/>
-        <terminal type="Generic" y="21" uuid="{971298f8-0fae-47df-8884-9b988ff0a4bc}" x="0" orientation="s" name=""/>
-        <terminal type="Generic" y="21" uuid="{5f850b01-b7cf-423f-b8b4-cedc7e538adb}" x="-10" orientation="s" name=""/>
-        <terminal type="Generic" y="21" uuid="{2e4221fc-45e7-4ced-9a05-7d2078406463}" x="10" orientation="s" name=""/>
+        <line x2="0" antialias="false" length2="1.5" x1="0" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" length1="1.5"/>
+        <line x2="10" antialias="false" length2="1.5" x1="10" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.5" length1="1.5"/>
+        <line x2="-10" antialias="false" length2="1.5" x1="-10" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.5" length1="1.5"/>
+        <terminal orientation="s" type="Generic" uuid="{2e4221fc-45e7-4ced-9a05-7d2078406463}" name="" y="20" x="10"/>
+        <terminal orientation="s" type="Generic" uuid="{5f850b01-b7cf-423f-b8b4-cedc7e538adb}" name="" y="20" x="-10"/>
+        <terminal orientation="s" type="Generic" uuid="{971298f8-0fae-47df-8884-9b988ff0a4bc}" name="" y="20" x="0"/>
     </description>
 </definition>
