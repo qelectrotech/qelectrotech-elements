@@ -1,62 +1,49 @@
-<definition type="element" width="120" hotspot_y="7" link_type="terminal" hotspot_x="63" height="140" version="0.80">
-    <uuid uuid="{e02cd0bb-9851-4092-07ba-e07da3c5a4c0}"/>
+<definition type="element" hotspot_y="6" link_type="simple" height="140" hotspot_x="55" width="110" version="0.100.0">
+    <uuid uuid="{cd53dcad-e1d9-4ea8-aaac-1c8274838533}"/>
     <names>
-        <name lang="fr">Capteur Gaz</name>
         <name lang="cs">Senzor plynu</name>
+        <name lang="de">Gas-Sensor</name>
+        <name lang="fr">Capteur Gaz</name>
     </names>
-    <elementInformations>
-        <elementInformation name="manufacturer" show="1"/>
-        <elementInformation name="plant" show="1"/>
-        <elementInformation name="supplier" show="1"/>
-        <elementInformation name="quantity" show="1"/>
-        <elementInformation name="label" show="1"/>
-        <elementInformation name="comment" show="1"/>
-        <elementInformation name="designation" show="1"/>
-        <elementInformation name="description" show="1"/>
-        <elementInformation name="unity" show="1"/>
-    </elementInformations>
-    <informations/>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <text x="25" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="VCC" color="#000000" y="16"/>
-        <text x="-48" font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" text="CO2, Alcool......." color="#000000" y="56"/>
-        <text x="40" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="270" text="PWR" color="#000000" y="36"/>
-        <text x="-17" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="AOUT" color="#000000" y="16"/>
-        <text x="6" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="GND" color="#000000" y="16"/>
-        <text x="-18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="+" color="#000000" y="78"/>
-        <text x="-15" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="DOUT ADJ" color="#000000" y="71"/>
-        <text x="-36" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="270" text="DAT" color="#000000" y="36"/>
-        <circle x="-35" diameter="10" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y="71"/>
-        <text x="-37" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" text="DOUT" color="#000000" y="16"/>
-        <text x="-32" font="Sans Serif,10,-1,5,50,0,0,0,0,0" rotation="0" text="Gas Sensor" color="#000000" y="38"/>
-        <line end2="none" x1="-20" y2="10" antialias="false" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="0"/>
-        <line end2="none" x1="0" y2="10" antialias="false" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="0"/>
-        <line end2="none" x1="20" y2="10" antialias="false" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="0"/>
-        <line end2="none" x1="40" y2="10" antialias="false" x2="40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="0"/>
-        <rect x="0" width="20" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" y="10"/>
-        <rect x="20" width="20" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" y="10"/>
-        <line end2="none" x1="51" y2="10" antialias="false" x2="51" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="130"/>
-        <line end2="none" x1="-36" y2="10" antialias="false" x2="-51" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="10"/>
-        <line end2="none" x1="-51" y2="130" antialias="false" x2="-51" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="10"/>
-        <rect x="-40" width="80" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" y="0"/>
-        <line end2="none" x1="50" y2="10" antialias="false" x2="36" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="10"/>
-        <line end2="none" x1="-51" y2="130" antialias="false" x2="50" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="130"/>
-        <arc x="-40" start="0" angle="179" width="20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" y="66"/>
-        <line end2="none" x1="-20" y2="71" antialias="false" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="76"/>
-        <line end2="none" x1="-20" y2="72" antialias="false" x2="-22" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" y1="76"/>
-        <line end2="none" x1="-27" y2="79" antialias="false" x2="-33" style="line-style:normal;line-weight:normal;filling:white;color:white" end1="none" length1="1.5" length2="1.5" y1="73"/>
-        <rect x="-40" width="20" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" y="10"/>
-        <rect x="-20" width="20" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="10" y="10"/>
-        <rect x="10" width="10" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="0" y="10"/>
-        <rect x="-48" width="6" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:blue;color:blue" height="14" y="24"/>
-        <rect x="42" width="6" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:blue;color:blue" height="14" y="24"/>
-        <dynamic_text x="-48" z="33" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" frame="false" Halignment="AlignLeft" text_width="-1" text_from="UserText" uuid="{5d1db3b8-0749-48b7-a774-1d2bd08fcbc8}" y="103">
+        <rect style="line-style:normal;line-weight:normal;filling:white;color:black" x="-50" y="10" ry="0" antialias="false" height="120" width="100" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:white;color:black" x="-40" y="0" ry="0" antialias="false" height="10" width="80" rx="0"/>
+        <text color="#000000" x="25" y="16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="VCC"/>
+        <text color="#000000" x="-48" y="56" rotation="0" font="Sans Serif,8,-1,5,50,0,0,0,0,0" text="CO2, Alcohol, ..."/>
+        <text color="#000000" x="40" y="36" rotation="270" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="PWR"/>
+        <text color="#000000" x="-17" y="16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="AOUT"/>
+        <text color="#000000" x="6" y="16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="GND"/>
+        <text color="#000000" x="-18" y="78" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="+"/>
+        <text color="#000000" x="-15" y="71" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="DOUT ADJ"/>
+        <text color="#000000" x="-36" y="36" rotation="270" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="DAT"/>
+        <circle diameter="10" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-35" y="71" antialias="false"/>
+        <text color="#000000" x="-37" y="16" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="DOUT"/>
+        <text color="#000000" x="-32" y="38" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" text="Gas Sensor"/>
+        <line x1="-20" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="-20" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="0" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="0" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="20" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="20" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="40" y1="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" x2="40" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" y="10" ry="0" antialias="false" height="10" width="20" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="20" y="10" ry="0" antialias="false" height="10" width="20" rx="0"/>
+        <arc angle="179" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" y="66" start="0" antialias="true" height="20" width="20"/>
+        <line x1="-20" y1="76" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="71" x2="-20" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="-20" y1="76" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="72" x2="-22" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <line x1="-27" y1="73" end2="none" style="line-style:normal;line-weight:normal;filling:white;color:white" y2="79" x2="-33" antialias="false" length2="1.5" end1="none" length1="1.5"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-40" y="10" ry="0" antialias="false" height="10" width="20" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" y="10" ry="0" antialias="false" height="10" width="20" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" x="10" y="10" ry="0" antialias="false" height="0" width="10" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:blue;color:blue" x="-48" y="24" ry="0" antialias="false" height="14" width="6" rx="0"/>
+        <rect style="line-style:normal;line-weight:normal;filling:blue;color:blue" x="42" y="24" ry="0" antialias="false" height="14" width="6" rx="0"/>
+        <dynamic_text text_from="UserText" x="-48" keep_visual_rotation="true" y="103" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="29" text_width="-1" uuid="{5d1db3b8-0749-48b7-a774-1d2bd08fcbc8}" Halignment="AlignLeft" frame="false">
             <text>MQ7</text>
         </dynamic_text>
-        <circle x="0" diameter="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="85"/>
-        <circle x="5" diameter="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="90"/>
-        <terminal x="-10" orientation="n" y="0" type="Generic" name="" uuid="{c6c77758-d083-3373-2faf-112c7239b711}"/>
-        <terminal x="30" orientation="n" y="0" type="Generic" name="" uuid="{771001fe-a4db-5b04-fa81-a4b5c3339164}"/>
-        <terminal x="-30" orientation="n" y="0" type="Generic" name="" uuid="{38d3e72e-394a-9079-ea6b-d604700702a0}"/>
-        <terminal x="10" orientation="n" y="0" type="Generic" name="" uuid="{ae71b6fb-5f0d-452b-b16e-28f58b746602}"/>
+        <circle diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" y="85" antialias="false"/>
+        <circle diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" x="5" y="90" antialias="false"/>
+        <terminal orientation="n" type="Generic" x="-10" y="0" name="" uuid="{c6c77758-d083-3373-2faf-112c7239b711}"/>
+        <terminal orientation="n" type="Generic" x="30" y="0" name="" uuid="{771001fe-a4db-5b04-fa81-a4b5c3339164}"/>
+        <terminal orientation="n" type="Generic" x="10" y="0" name="" uuid="{ae71b6fb-5f0d-452b-b16e-28f58b746602}"/>
+        <terminal orientation="n" type="Generic" x="-30" y="0" name="" uuid="{38d3e72e-394a-9079-ea6b-d604700702a0}"/>
     </description>
 </definition>
