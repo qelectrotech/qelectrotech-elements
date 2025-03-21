@@ -1,25 +1,24 @@
-<definition height="50" hotspot_x="24" width="50" hotspot_y="44" version="0.100.0" link_type="simple" type="element">
-    <uuid uuid="{d432604d-5038-4a0a-bfac-ce62b08a1a5d}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="60" hotspot_x="30" hotspot_y="50">
+    <uuid uuid="{20642553-91c8-efaf-629d-20aa9cb018c2}"/>
     <names>
+        <name lang="cs">Dvojnásobné spojení T</name>
         <name lang="de">Doppelabzweig von Leitern</name>
         <name lang="en">Double junction of conductors</name>
         <name lang="fr">Double liaison en T</name>
-        <name lang="cs">Dvojnásobné spojení T</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" text_width="-1" keep_visual_rotation="false" z="1" rotation="0" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{5cba4e13-04e4-4536-b032-4aa78b9528f2}" Halignment="AlignLeft" frame="false" text_from="ElementInfo" y="2.5">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5cba4e13-04e4-4536-b032-4aa78b9528f2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end1="none" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" length1="1.5" x1="-20" length2="1.5" y2="-20" x2="20"/>
-        <line end1="none" antialias="false" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-40" length1="1.5" x1="0" length2="1.5" y2="0" x2="0"/>
-        <circle x="-2.5" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="5" y="-22.5"/>
-        <terminal x="0" name="" uuid="{ae0bfeb7-1246-416b-8a0f-f020272f270c}" orientation="n" type="Generic" y="-40"/>
-        <terminal x="0" name="" uuid="{c8161911-7b1b-44e2-a209-7219433a5330}" orientation="s" type="Generic" y="0"/>
-        <terminal x="20" name="" uuid="{8a011b1b-7c2d-422d-9679-2c6989b98ef5}" orientation="e" type="Generic" y="-20"/>
-        <terminal x="-20" name="" uuid="{53f3e7ea-1b05-4745-8017-a8f31a54acaa}" orientation="w" type="Generic" y="-20"/>
+        <line x1="-20" y1="-20" x2="20" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-2.5" y="-22.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <terminal uuid="{ae0bfeb7-1246-416b-8a0f-f020272f270c}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{c8161911-7b1b-44e2-a209-7219433a5330}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <terminal uuid="{8a011b1b-7c2d-422d-9679-2c6989b98ef5}" name="" x="20" y="-20" orientation="e" type="Generic"/>
+        <terminal uuid="{53f3e7ea-1b05-4745-8017-a8f31a54acaa}" name="" x="-20" y="-20" orientation="w" type="Generic"/>
     </description>
 </definition>

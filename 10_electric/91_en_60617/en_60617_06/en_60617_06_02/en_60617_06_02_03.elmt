@@ -1,22 +1,21 @@
-<definition type="element" hotspot_y="25" height="30" hotspot_x="25" version="0.100.0" width="30" link_type="simple">
-    <uuid uuid="{36e614f6-dd4a-495e-8e74-a97ce46d2b1e}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="30" hotspot_x="25" hotspot_y="25">
+    <uuid uuid="{512635f3-ccbb-2f1a-d856-d809d1fdbe44}"/>
     <names>
+        <name lang="cs">Čtyřfázové vinutí s vyvedeným nulovým uzlem</name>
+        <name lang="de">Vierphasenwicklung, Neutralleiter</name>
         <name lang="en">Four-phase winding with neutral brought out</name>
         <name lang="fr">Enroulement tétraphasé, avec neutre sorti</name>
-        <name lang="de">Vierphasenwicklung, Neutralleiter</name>
-        <name lang="cs">Čtyřfázové vinutí s vyvedeným nulovým uzlem</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{8be0fcbc-8e27-47ae-851d-43ee512fbd08}" frame="false" rotation="0" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" y="2.5" z="1" keep_visual_rotation="false" text_width="-1">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8be0fcbc-8e27-47ae-851d-43ee512fbd08}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end1="none" x2="-20" antialias="false" length1="1.5" length2="1.5" y1="-20" x1="0" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" x2="0" antialias="false" length1="1.5" length2="1.5" y1="-20" x1="-20" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line end1="none" x2="0" antialias="false" length1="1.5" length2="1.5" y1="-10" x1="-10" y2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-12.5" antialias="false" diameter="5" y="-12.5" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line x1="0" y1="-20" x2="-20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="-20" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="-10" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-12.5" y="-12.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
     </description>
 </definition>

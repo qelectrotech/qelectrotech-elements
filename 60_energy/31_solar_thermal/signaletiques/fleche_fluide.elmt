@@ -1,27 +1,26 @@
-<definition type="element" hotspot_x="14" hotspot_y="4" width="30" link_type="simple" height="10" version="0.100.0">
-    <uuid uuid="{f8bec898-6fa4-4d34-805e-d884040e9658}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="20" hotspot_x="15" hotspot_y="10">
+    <uuid uuid="{48e3c311-f6f5-d8a2-5ee8-1afb920e76ea}"/>
     <names>
-        <name lang="es">Sentido del fluido</name>
-        <name lang="pl">Kierunek przepływu cieczy</name>
         <name lang="ar">اتجاه سائل</name>
-        <name lang="nl">richting</name>
-        <name lang="it">Direzione</name>
-        <name lang="en">Sense fluid</name>
         <name lang="cs">Směr průtoku kapaliny</name>
         <name lang="de">Flussrichtung</name>
+        <name lang="en">Sense fluid</name>
+        <name lang="es">Sentido del fluido</name>
         <name lang="fr">Sens fluide</name>
+        <name lang="it">Direzione</name>
+        <name lang="nl">richting</name>
+        <name lang="pl">Kierunek przepływu cieczy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Valignment="AlignTop" text_width="-1" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="-7" keep_visual_rotation="false" rotation="0" uuid="{e8c25ed0-7b95-4b27-bbe5-a7fbdb671013}" y="-25" frame="false" Halignment="AlignLeft">
+        <dynamic_text x="-7" y="-25" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e8c25ed0-7b95-4b27-bbe5-a7fbdb671013}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end1="none" antialias="false" x2="0" x1="-8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="0" end2="triangle" y2="0"/>
-        <line end1="none" antialias="false" x2="0" x1="8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="0" end2="none" y2="0"/>
-        <terminal type="Generic" name="" orientation="w" x="-8" uuid="{28afdd38-dd53-42b6-bbb1-90f80540926c}" y="0"/>
-        <terminal type="Generic" name="" orientation="e" x="8" uuid="{bf659ef9-48cd-4fe8-bd98-765242698199}" y="0"/>
+        <line x1="-8" y1="0" x2="0" y2="0" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="8" y1="0" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{28afdd38-dd53-42b6-bbb1-90f80540926c}" name="" x="-8" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{bf659ef9-48cd-4fe8-bd98-765242698199}" name="" x="8" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

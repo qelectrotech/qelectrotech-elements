@@ -1,32 +1,31 @@
-<definition link_type="simple" hotspot_y="24" width="40" height="50" type="element" hotspot_x="31" version="0.100.0">
-    <uuid uuid="{b2543a85-d29b-4ab9-9c66-df9fe97d1b45}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{4cb31d50-2393-0d5d-02be-929d8f9bd16a}"/>
     <names>
+        <name lang="ar">مُلامس طردي (NO)</name>
+        <name lang="cs">Odstředivý spínač (NO)</name>
+        <name lang="de">Schliesser Fliehkraft betätigt</name>
+        <name lang="el">Φυγοκεντρική επαφή, ανοικτή</name>
+        <name lang="en">Centrifugal contact (No)</name>
+        <name lang="es">Contacto centrífugo NA</name>
         <name lang="fr">Contact centrifuge (No)</name>
         <name lang="it">Contatto a comando centrifugo (NO)</name>
-        <name lang="de">Schliesser Fliehkraft betätigt</name>
-        <name lang="pl">Zestyk zwierny łącznika odśrodkowego</name>
         <name lang="nl">Rotatie contact (NO)</name>
-        <name lang="ar">مُلامس طردي (NO)</name>
-        <name lang="es">Contacto centrífugo NA</name>
-        <name lang="cs">Odstředivý spínač (NO)</name>
-        <name lang="en">Centrifugal contact (No)</name>
-        <name lang="el">Φυγοκεντρική επαφή, ανοικτή</name>
+        <name lang="pl">Zestyk zwierny łącznika odśrodkowego</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="4.47214" y="-12.2361" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-21.2361" antialias="true"/>
-        <polygon x2="0" closed="false" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" y3="20" x1="-5" y2="10" antialias="true"/>
-        <polygon x2="-25" closed="false" y1="-8" style="line-style:normal;line-weight:thin;filling:none;color:black" x3="-20" y3="7" y4="7" x1="-20" y2="0" x4="-20" antialias="true"/>
-        <dynamic_text text_from="ElementInfo" frame="false" Halignment="AlignLeft" rotation="0" y="-9.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="2.75" Valignment="AlignTop" text_width="-1" z="4" uuid="{cbd4eb0e-4eb9-455f-be57-4f5fb57ead48}" keep_visual_rotation="false">
+        <ellipse x="-21.24" y="-12.24" width="4.47" height="4.47" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-20" y1="-8" x2="-25" y2="0" x3="-20" y3="7" closed="false" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <dynamic_text x="2.75" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{cbd4eb0e-4eb9-455f-be57-4f5fb57ead48}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle diameter="4.47214" y="6.76393" style="line-style:normal;line-weight:thin;filling:none;color:black" x="-21.2361" antialias="true"/>
-        <line x2="0" length1="1.5" y1="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="0" y2="-10" end1="none" antialias="false"/>
-        <line x2="-3" length1="1.5" y1="0" end2="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="-25" y2="0" end1="none" antialias="false"/>
-        <terminal orientation="n" y="-20" x="0" name="" type="Generic" uuid="{685c159f-a3f3-4d06-a69e-962ad44eb814}"/>
-        <terminal orientation="s" y="20" x="0" name="" type="Generic" uuid="{ca77a223-1429-4254-b9d0-3033b9d3753b}"/>
+        <ellipse x="-21.24" y="6.76" width="4.47" height="4.47" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-25" y1="0" x2="-3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{685c159f-a3f3-4d06-a69e-962ad44eb814}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{ca77a223-1429-4254-b9d0-3033b9d3753b}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

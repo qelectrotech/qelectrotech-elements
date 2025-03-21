@@ -1,18 +1,18 @@
-<definition height="50" version="0.100.0" hotspot_y="24" hotspot_x="8" link_type="slave" width="20" type="element">
-    <uuid uuid="{a9e0c9ac-200e-4259-984c-a1b614991650}"/>
+<definition version="0.100.0" type="element" link_type="slave" width="20" height="60" hotspot_x="9" hotspot_y="30">
+    <uuid uuid="{a48a492d-e5e9-8768-2997-a2e4ec843957}"/>
     <names>
-        <name lang="pl">Zestyk rozwierny</name>
+        <name lang="ar">مُلامس بسيط (NC)</name>
         <name lang="cs">Rozpínací kontakt</name>
-        <name lang="pt">Contacto simples (NC)</name>
-        <name lang="it">Contatto semplice (NC)</name>
-        <name lang="nl">contact normaal gesloten enkel simpel (NC)</name>
         <name lang="de">Öffner</name>
         <name lang="el">Απλή επαφή, κλειστή</name>
         <name lang="en">Simple contact (NC)</name>
-        <name lang="fr">Contact simple (NF)</name>
-        <name lang="ru">Проктой контакт (НЗ)</name>
-        <name lang="ar">مُلامس بسيط (NC)</name>
         <name lang="es">Contactor simple (NC)</name>
+        <name lang="fr">Contact simple (NF)</name>
+        <name lang="it">Contatto semplice (NC)</name>
+        <name lang="nl">contact normaal gesloten enkel simpel (NC)</name>
+        <name lang="pl">Zestyk rozwierny</name>
+        <name lang="pt">Contacto simples (NC)</name>
+        <name lang="ru">Проктой контакт (НЗ)</name>
     </names>
     <kindInformations>
         <kindInformation name="type">simple</kindInformation>
@@ -22,14 +22,14 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" closed="false" y3="20" y1="-10" x3="0" antialias="true" y2="10"/>
-        <line end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="6" end1="none" length1="1.5" length2="1.5" y1="-9" antialias="false" y2="-9"/>
-        <line end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end1="none" length1="1.5" length2="1.5" y1="-20" antialias="false" y2="-9"/>
-        <dynamic_text y="-9.5" Valignment="AlignTop" frame="false" text_from="ElementInfo" z="4" text_width="-1" Halignment="AlignLeft" x="5.75" rotation="0" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{a146a302-ef1b-41e3-8587-76ab60f555e6}">
+        <polygon x1="5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-9" x2="6" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5.75" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a146a302-ef1b-41e3-8587-76ab60f555e6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="-20" orientation="n" name="" x="0" uuid="{d6e0cd1d-504b-405a-810c-7d5ae24c981d}" type="Generic"/>
-        <terminal y="20" orientation="s" name="" x="0" uuid="{9472aef6-8807-4083-bb2c-e774011a97d9}" type="Generic"/>
+        <terminal uuid="{d6e0cd1d-504b-405a-810c-7d5ae24c981d}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{9472aef6-8807-4083-bb2c-e774011a97d9}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

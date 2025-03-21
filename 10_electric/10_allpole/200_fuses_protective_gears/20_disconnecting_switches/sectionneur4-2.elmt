@@ -1,48 +1,47 @@
-<definition type="element" link_type="master" version="0.100.0" hotspot_y="29" width="40" hotspot_x="11" height="60">
-    <uuid uuid="{1b854a67-03dc-4294-8bce-46cdff60c2b9}"/>
+<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="10" hotspot_y="30">
+    <uuid uuid="{931b2e6e-80cc-6bcf-d13f-405f15a71ba9}"/>
     <names>
-        <name lang="cs">Odpínač 3P</name>
-        <name lang="ru">Выключатель-разъеденитель</name>
         <name lang="ar">مفتاح عزل</name>
-        <name lang="hu">Terheléskapcsoló</name>
-        <name lang="el">Διακόπτης φορτίου</name>
+        <name lang="cs">Odpínač 3P</name>
         <name lang="de">Trennschalter 3P</name>
-        <name lang="pt">Seccionador</name>
-        <name lang="pl">Rozłącznik</name>
-        <name lang="nl">Scheidingsschakelaar</name>
+        <name lang="el">Διακόπτης φορτίου</name>
         <name lang="en">Disconnecting switch</name>
         <name lang="es">Seccionador</name>
-        <name lang="it">Sezionatore 3P</name>
         <name lang="fr">Sectionneur</name>
+        <name lang="hu">Terheléskapcsoló</name>
+        <name lang="it">Sezionatore 3P</name>
+        <name lang="nl">Scheidingsschakelaar</name>
+        <name lang="pl">Rozłącznik</name>
+        <name lang="pt">Seccionador</name>
+        <name lang="ru">Выключатель-разъеденитель</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="18" antialias="true" y="-12" diameter="4"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="8" antialias="true" y="-12" diameter="4"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2" antialias="true" y="-12" diameter="4"/>
-        <polygon y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" x1="-5" antialias="true" y3="20" x2="0" y2="10" closed="false"/>
-        <polygon y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="20" x1="15" antialias="true" y3="20" x2="20" y2="10" closed="false"/>
-        <polygon y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="10" x1="5" antialias="true" y3="20" x2="10" y2="10" closed="false"/>
-        <dynamic_text uuid="{376579cb-8c04-4934-bc93-586d64654d6c}" x="22.75" Halignment="AlignLeft" frame="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="7" y="-9.5" Valignment="AlignTop" rotation="0" text_width="-1" keep_visual_rotation="false">
+        <ellipse x="18" y="-12" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="8" y="-12" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-2" y="-12" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="15" y1="-10" x2="20" y2="10" x3="20" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="5" y1="-10" x2="10" y2="10" x3="10" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="22.75" y="-9.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{376579cb-8c04-4934-bc93-586d64654d6c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y1="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length1="1.5" end2="none" end1="none" antialias="false" x2="0" y2="-12"/>
-        <line y1="-12" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="2" length1="1.5" end2="none" end1="none" antialias="false" x2="-2" y2="-12"/>
-        <line y1="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" length1="1.5" end2="none" end1="none" antialias="false" x2="10" y2="-12"/>
-        <line y1="-12" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="12" length1="1.5" end2="none" end1="none" antialias="false" x2="8" y2="-12"/>
-        <line y1="-20" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="20" length1="1.5" end2="none" end1="none" antialias="false" x2="20" y2="-12"/>
-        <line y1="-12" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="22" length1="1.5" end2="none" end1="none" antialias="false" x2="18" y2="-12"/>
-        <terminal type="Generic" uuid="{d8112c39-fc25-4058-95e9-890d1f8031da}" x="0" name="" orientation="n" y="-21"/>
-        <terminal type="Generic" uuid="{201a86ee-b19d-4eab-8fa1-f3bcf105fa5c}" x="0" name="" orientation="s" y="21"/>
-        <terminal type="Generic" uuid="{5a22e4b7-f745-4955-a2d4-a82f1730c656}" x="20" name="" orientation="n" y="-21"/>
-        <terminal type="Generic" uuid="{d9b925e8-b1ad-442d-a3e9-2d3422fa48b2}" x="20" name="" orientation="s" y="21"/>
-        <terminal type="Generic" uuid="{3e7f6453-bd9d-4f4b-a383-69505be36644}" x="10" name="" orientation="n" y="-21"/>
-        <terminal type="Generic" uuid="{aa87767a-839e-433e-95e5-3e20866ec3eb}" x="10" name="" orientation="s" y="21"/>
+        <line x1="0" y1="-20" x2="0" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="2" y1="-12" x2="-2" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="-20" x2="10" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="12" y1="-12" x2="8" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="-20" x2="20" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="22" y1="-12" x2="18" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{d8112c39-fc25-4058-95e9-890d1f8031da}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{201a86ee-b19d-4eab-8fa1-f3bcf105fa5c}" name="" x="0" y="21" orientation="s" type="Generic"/>
+        <terminal uuid="{5a22e4b7-f745-4955-a2d4-a82f1730c656}" name="" x="20" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{d9b925e8-b1ad-442d-a3e9-2d3422fa48b2}" name="" x="20" y="21" orientation="s" type="Generic"/>
+        <terminal uuid="{3e7f6453-bd9d-4f4b-a383-69505be36644}" name="" x="10" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{aa87767a-839e-433e-95e5-3e20866ec3eb}" name="" x="10" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

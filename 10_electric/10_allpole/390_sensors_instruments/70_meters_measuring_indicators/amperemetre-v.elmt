@@ -1,31 +1,30 @@
-<definition hotspot_y="24" width="30" type="element" version="0.90" hotspot_x="15" height="50" link_type="simple">
-    <uuid uuid="{8eac8be8-6e24-462c-8630-e943e2c7b67b}"/>
+<definition version="0.90" type="element" link_type="simple" width="40" height="60" hotspot_x="23" hotspot_y="30">
+    <uuid uuid="{0884e6d4-b392-7a9a-0f2e-fad32ae33d11}"/>
     <names>
-        <name lang="en">Vertical ammeter</name>
-        <name lang="el">Αμπερόμετρο κατακόρυφο</name>
-        <name lang="cs">Svislý ampérmetr</name>
-        <name lang="it">Amperometro verticale</name>
         <name lang="ar">أمبيرمتر عمودي</name>
-        <name lang="pl">Amperomierz (pionowo)</name>
-        <name lang="fr">Ampèremètre vertical</name>
-        <name lang="nl">Amperemeter</name>
-        <name lang="es">Amperímetro vertical</name>
-        <name lang="ru">Амперметр (вертикальный)</name>
+        <name lang="cs">Svislý ampérmetr</name>
         <name lang="de">Amperemeter senkrecht</name>
+        <name lang="el">Αμπερόμετρο κατακόρυφο</name>
+        <name lang="en">Vertical ammeter</name>
+        <name lang="es">Amperímetro vertical</name>
+        <name lang="fr">Ampèremètre vertical</name>
+        <name lang="it">Amperometro verticale</name>
+        <name lang="nl">Amperemeter</name>
+        <name lang="pl">Amperomierz (pionowo)</name>
         <name lang="pt">Amperímetro vertical</name>
+        <name lang="ru">Амперметр (вертикальный)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y1="-20" length2="1.5" antialias="false" x2="0" end1="none" length1="1.5" end2="none" y2="20" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text uuid="{ab294d09-1d2d-4f7e-8ef5-ebf0b33ad106}" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" x="8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" y="-25.95" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" frame="false">
+        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="8" y="-25.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ab294d09-1d2d-4f7e-8ef5-ebf0b33ad106}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle x="-10" y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
-        <text text="A" color="#000000" rotation="0" x="-5" font="Sans Serif,12,-1,5,50,0,0,0,0,0" y="5"/>
-        <terminal uuid="{ee5e578a-43cd-41cb-be2a-1f19c553d556}" type="Generic" x="0" y="20" name="" orientation="s"/>
-        <terminal uuid="{f73618cd-586c-45b7-8b88-3af7b5168596}" type="Generic" x="0" y="-20" name="" orientation="n"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
+        <text text="A" x="-5" y="5" rotation="0" font="Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{ee5e578a-43cd-41cb-be2a-1f19c553d556}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{f73618cd-586c-45b7-8b88-3af7b5168596}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

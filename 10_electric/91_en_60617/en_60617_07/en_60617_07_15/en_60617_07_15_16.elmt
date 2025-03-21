@@ -1,6 +1,8 @@
-<definition hotspot_x="34" version="0.100.0" hotspot_y="24" width="90" type="element" height="50" link_type="simple">
-    <uuid uuid="{e5a92ec0-6f2c-42d9-a5d9-0b565ac9f642}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="90" height="60" hotspot_x="34" hotspot_y="30">
+    <uuid uuid="{49292342-3d33-a3fa-1839-5c91146fe6e8}"/>
     <names>
+        <name lang="cs">Polarizované relé se samočinným návratem,
+které je v činnosti jen při jednom směru proudu ve vinutí</name>
         <name lang="de">polarisiertes Relais, selbsttätig rückstellend,
 arbeitet nur bei der angegebenen
 Stromrichtung</name>
@@ -8,36 +10,33 @@ Stromrichtung</name>
         <name lang="fr">Relais polarisé fonctionnant pour un seul sens
 du courant et retournant en position de repos
 après coupure</name>
-        <name lang="cs">Polarizované relé se samočinným návratem,
-které je v činnosti jen při jednom směru proudu ve vinutí</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{d82e78a6-a8c9-4cc6-992d-8e8d0dcd67c0}" x="5" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" z="1" frame="false" text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d82e78a6-a8c9-4cc6-992d-8e8d0dcd67c0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-20" width="40" height="20" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" y="-10"/>
-        <line x1="0" y1="-20" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="0" y1="10" x2="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <rect x="-30" width="10" height="20" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" rx="0" y="-10"/>
-        <rect x="-30" width="10" height="5" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" rx="0" y="-10"/>
-        <rect x="-30" width="10" height="5" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" rx="0" y="5"/>
-        <rect x="-25" width="5" height="10" ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" rx="0" y="-5"/>
-        <line x1="35" y1="-20" x2="35" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="35" y1="-10" x2="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="45" y1="-20" x2="45" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="40" y1="10" x2="38" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="40" y1="10" x2="40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <line x1="20" y1="0" x2="39" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="0" end1="none" end2="none" length1="1.5" length2="1.5"/>
-        <circle x="8" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="4" y="13"/>
-        <circle x="48" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="4" y="-17"/>
-        <terminal uuid="{bb64b1a8-d7c0-4ddf-8f66-bc73cc458f8a}" orientation="n" x="45" type="Generic" name="" y="-20"/>
-        <terminal uuid="{885ec40b-e016-406f-91eb-fea1356322d1}" orientation="s" x="0" type="Generic" name="" y="20"/>
-        <terminal uuid="{8fc486f0-231f-45e9-b1f3-4d08a7ba29b9}" orientation="n" x="0" type="Generic" name="" y="-20"/>
-        <terminal uuid="{cd97844f-6961-4e9f-a076-12434199dda5}" orientation="s" x="40" type="Generic" name="" y="20"/>
-        <terminal uuid="{1232b845-9a1b-4177-b40a-371e4ca886c9}" orientation="n" x="35" type="Generic" name="" y="-20"/>
+        <rect x="-20" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-30" y="-10" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-30" y="-10" width="10" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <rect x="-30" y="5" width="10" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <rect x="-25" y="-5" width="5" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <line x1="35" y1="-20" x2="35" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="35" y1="-10" x2="40" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="45" y1="-20" x2="45" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="10" x2="38" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="10" x2="40" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="0" x2="39" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="8" y="13" width="4" height="4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <ellipse x="48" y="-17" width="4" height="4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <terminal uuid="{bb64b1a8-d7c0-4ddf-8f66-bc73cc458f8a}" name="" x="45" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{885ec40b-e016-406f-91eb-fea1356322d1}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{8fc486f0-231f-45e9-b1f3-4d08a7ba29b9}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{cd97844f-6961-4e9f-a076-12434199dda5}" name="" x="40" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{1232b845-9a1b-4177-b40a-371e4ca886c9}" name="" x="35" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

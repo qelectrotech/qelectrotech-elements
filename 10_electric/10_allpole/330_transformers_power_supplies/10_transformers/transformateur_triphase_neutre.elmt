@@ -1,53 +1,52 @@
-<definition width="70" type="element" hotspot_x="40" hotspot_y="46" link_type="simple" height="90" version="0.100.0">
-    <uuid uuid="{9dcc286f-1eb5-4b95-8c20-323ca7bdf593}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="90" hotspot_x="42" hotspot_y="45">
+    <uuid uuid="{071d2167-87aa-a6f2-428f-972a303de5bc}"/>
     <names>
-        <name lang="pl">Transformator trójfazowy</name>
         <name lang="ar">محول ثلاثي الأوجه + خط محايد</name>
-        <name lang="en">Three-phase + neutral transducer</name>
-        <name lang="el">Μετασχηματιστής τριφασικός + ουδέτερος</name>
-        <name lang="es">Transformador delta-estrella</name>
-        <name lang="de">Transformator Drehstrom + Neutralleiter</name>
-        <name lang="nl">driefase transformator + Nul</name>
         <name lang="cs">Třífázový transformátor + neutrál</name>
+        <name lang="de">Transformator Drehstrom + Neutralleiter</name>
+        <name lang="el">Μετασχηματιστής τριφασικός + ουδέτερος</name>
+        <name lang="en">Three-phase + neutral transducer</name>
+        <name lang="es">Transformador delta-estrella</name>
         <name lang="fr">Transformateur triphasé + neutre</name>
         <name lang="it">Trasformatore trifase + neutro</name>
+        <name lang="nl">driefase transformator + Nul</name>
+        <name lang="pl">Transformator trójfazowy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-34" y3="19" antialias="false" y2="30" x4="-12" x2="-34" y4="19" x3="-27" closed="false" y1="35"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="-31.6667" text="A1" rotation="0" x="-16"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="11" y3="35" antialias="false" y2="30" x2="17" x3="17" closed="false" y1="21"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-11" y3="35" antialias="false" y2="30" x2="-17" x3="-17" closed="false" y1="21"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-11" y3="-35" antialias="false" y2="-30" x2="-17" x3="-17" closed="false" y1="-21"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x1="11" y3="-35" antialias="false" y2="-30" x2="17" x3="17" closed="false" y1="-21"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="34.3333" text="B2" rotation="0" x="2"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="34.3333" text="A2" rotation="0" x="-16"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="-31.6667" text="C1" rotation="0" x="18"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="-31.6667" text="B1" rotation="0" x="1"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" y="-5" antialias="true" x="-15"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="34.3333" text="C2" rotation="0" x="18"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" y="35.3333" text="N" rotation="0" x="-33"/>
-        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" Halignment="AlignLeft" y="7.5" z="14" text_from="UserText" uuid="{1c639f67-303d-48e2-a5ff-6bcf34101e9c}" keep_visual_rotation="false" rotation="0" text_width="-1" x="20">
+        <polygon x1="-34" y1="35" x2="-34" y2="30" x3="-27" y3="19" x4="-12" y4="19" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="A1" x="-16" y="-31.67" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <polygon x1="11" y1="21" x2="17" y2="30" x3="17" y3="35" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-11" y1="21" x2="-17" y2="30" x3="-17" y3="35" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-11" y1="-21" x2="-17" y2="-30" x3="-17" y3="-35" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="11" y1="-21" x2="17" y2="-30" x3="17" y3="-35" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="B2" x="2" y="34.33" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="A2" x="-16" y="34.33" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="C1" x="18" y="-31.67" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="B1" x="1" y="-31.67" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <ellipse x="-15" y="-5" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="C2" x="18" y="34.33" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="N" x="-33" y="35.33" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="20" y="7.5" z="14" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{1c639f67-303d-48e2-a5ff-6bcf34101e9c}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
             <text>___V</text>
         </dynamic_text>
-        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" Halignment="AlignLeft" y="-22.5" z="15" text_from="UserText" uuid="{e0986397-ae3d-4ee6-92ac-449ce10f5377}" keep_visual_rotation="false" rotation="0" text_width="-1" x="20">
+        <dynamic_text x="20" y="-22.5" z="15" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{e0986397-ae3d-4ee6-92ac-449ce10f5377}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
             <text>___V</text>
         </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="false" y2="35" x2="0" end1="none" length1="1.5" end2="none" length2="1.5" y1="25"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30" y="-25" antialias="true" x="-15"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" Halignment="AlignLeft" y="-8.5" z="18" text_from="ElementInfo" uuid="{6cc21e11-7939-4a94-9aed-6ed825ffe9bf}" keep_visual_rotation="false" rotation="0" text_width="-1" x="17.75">
+        <line x1="0" y1="25" x2="0" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-15" y="-25" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="17.75" y="-8.5" z="18" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6cc21e11-7939-4a94-9aed-6ed825ffe9bf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="false" y2="-25" x2="0" end1="none" length1="1.5" end2="none" length2="1.5" y1="-35"/>
-        <terminal orientation="n" y="-36" type="Generic" uuid="{898b61ae-6bef-4372-8601-e31683dc9909}" name="" x="17"/>
-        <terminal orientation="n" y="-36" type="Generic" uuid="{03466edc-5053-45ac-8394-5b72a7f07c88}" name="" x="0"/>
-        <terminal orientation="n" y="-36" type="Generic" uuid="{472b0bfb-fe56-45e5-9200-c16f2b873bb1}" name="" x="-17"/>
-        <terminal orientation="s" y="36" type="Generic" uuid="{0599c3ae-6d77-416e-9af5-2bad3f2318c9}" name="" x="-17"/>
-        <terminal orientation="s" y="36" type="Generic" uuid="{7f3ebc53-6786-4438-8785-57a90113b7a5}" name="" x="0"/>
-        <terminal orientation="s" y="36" type="Generic" uuid="{e31b2caf-38ec-4325-ba27-c5e7619f533e}" name="" x="17"/>
-        <terminal orientation="s" y="36" type="Generic" uuid="{86d9340a-27d7-4b1c-8ea8-4a2f2c27d91f}" name="" x="-34"/>
+        <line x1="0" y1="-35" x2="0" y2="-25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{898b61ae-6bef-4372-8601-e31683dc9909}" name="" x="17" y="-36" orientation="n" type="Generic"/>
+        <terminal uuid="{03466edc-5053-45ac-8394-5b72a7f07c88}" name="" x="0" y="-36" orientation="n" type="Generic"/>
+        <terminal uuid="{472b0bfb-fe56-45e5-9200-c16f2b873bb1}" name="" x="-17" y="-36" orientation="n" type="Generic"/>
+        <terminal uuid="{0599c3ae-6d77-416e-9af5-2bad3f2318c9}" name="" x="-17" y="36" orientation="s" type="Generic"/>
+        <terminal uuid="{7f3ebc53-6786-4438-8785-57a90113b7a5}" name="" x="0" y="36" orientation="s" type="Generic"/>
+        <terminal uuid="{e31b2caf-38ec-4325-ba27-c5e7619f533e}" name="" x="17" y="36" orientation="s" type="Generic"/>
+        <terminal uuid="{86d9340a-27d7-4b1c-8ea8-4a2f2c27d91f}" name="" x="-34" y="36" orientation="s" type="Generic"/>
     </description>
 </definition>

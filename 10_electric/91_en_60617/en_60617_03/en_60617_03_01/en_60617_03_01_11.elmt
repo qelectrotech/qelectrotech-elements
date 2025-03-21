@@ -1,23 +1,22 @@
-<definition type="element" hotspot_y="10" link_type="simple" hotspot_x="44" height="20" version="0.100.0" width="90">
-    <uuid uuid="{f12ded27-569c-40e0-bb48-86b7de5b7259}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="100" height="20" hotspot_x="50" hotspot_y="10">
+    <uuid uuid="{9e3e9771-ffb5-c18c-bb2b-f84f01226db1}"/>
     <names>
-        <name lang="de">Koaxialkabel</name>
-        <name lang="fr">Paire coaxiale</name>
         <name lang="cs">Koaxiální kabel</name>
+        <name lang="de">Koaxialkabel</name>
         <name lang="en">Coaxial pair</name>
+        <name lang="fr">Paire coaxiale</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="2.5" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" uuid="{b5a74dff-ce97-4b99-9ce5-55966634fed1}" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" x="5">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b5a74dff-ce97-4b99-9ce5-55966634fed1}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-40" end1="none" length2="1.5" antialias="false" end2="none" x2="40" y2="0" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <circle diameter="10" y="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5"/>
-        <line x1="-5" end1="none" length2="1.5" antialias="false" end2="none" x2="5" y2="5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <terminal y="0" type="Generic" uuid="{e0e95208-16b5-44b0-8a1a-978f25cee97b}" orientation="e" name="" x="40"/>
-        <terminal y="0" type="Generic" uuid="{7676e271-6432-422d-8dee-d5e92c293485}" orientation="w" name="" x="-40"/>
+        <line x1="-40" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-5" y="-5" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-5" y1="5" x2="5" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{e0e95208-16b5-44b0-8a1a-978f25cee97b}" name="" x="40" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{7676e271-6432-422d-8dee-d5e92c293485}" name="" x="-40" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

@@ -1,36 +1,35 @@
-<definition height="40" width="90" hotspot_x="44" link_type="simple" hotspot_y="34" version="0.100.0" type="element">
-    <uuid uuid="{5b0b5abd-8bda-4418-b625-1811db3c076f}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="100" height="70" hotspot_x="50" hotspot_y="58">
+    <uuid uuid="{4fc67a67-465a-513b-17c4-9bbf417d1180}"/>
     <names>
-        <name lang="en">Three-phase circuit</name>
-        <name lang="fr">Circuit à courant triphasé</name>
         <name lang="cs">Třífázový obvod</name>
         <name lang="de">Dreiphasen-Vierleitersystem</name>
+        <name lang="en">Three-phase circuit</name>
+        <name lang="fr">Circuit à courant triphasé</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text keep_visual_rotation="false" frame="false" text_from="ElementInfo" uuid="{3c8457c3-c112-4feb-a372-ce64e12c54d5}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" x="5" text_width="-1" z="1" rotation="0" Valignment="AlignTop" Halignment="AlignLeft">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3c8457c3-c112-4feb-a372-ce64e12c54d5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length1="1.5" y1="-30" length2="1.5" x2="40" y2="-30" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" end2="none"/>
-        <dynamic_text keep_visual_rotation="false" frame="false" text_from="UserText" uuid="{6edfe0dc-28a3-4b4d-b792-8a8fed1a36a4}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-46" x="-35" text_width="-1" z="3" rotation="0" Valignment="AlignTop" Halignment="AlignLeft">
+        <line x1="-40" y1="-30" x2="40" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-35" y="-46" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{6edfe0dc-28a3-4b4d-b792-8a8fed1a36a4}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
             <text>3N ~ 50 Hz 400 V</text>
         </dynamic_text>
-        <dynamic_text keep_visual_rotation="false" frame="false" text_from="UserText" uuid="{70728b14-36e9-4235-b402-3f955316422a}" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="-5" x="-25" text_width="-1" z="4" rotation="0" Valignment="AlignTop" Halignment="AlignLeft">
+        <dynamic_text x="-25" y="-5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{70728b14-36e9-4235-b402-3f955316422a}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
             <text>2 x 120 mm² AI</text>
         </dynamic_text>
-        <line length1="1.5" y1="0" length2="1.5" x2="40" y2="0" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" end2="none"/>
-        <line length1="1.5" y1="-10" length2="1.5" x2="40" y2="-10" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" end2="none"/>
-        <line length1="1.5" y1="-20" length2="1.5" x2="40" y2="-20" x1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" end2="none"/>
-        <terminal uuid="{10e43ac0-af6f-45c0-9df7-fb8fb605dbce}" y="-30" orientation="w" x="-40" name="" type="Generic"/>
-        <terminal uuid="{1fa3c31c-440a-4e96-a403-0829dece9db7}" y="-20" orientation="e" x="40" name="" type="Generic"/>
-        <terminal uuid="{2fc725c9-fea0-4fd7-ab9a-afde999fb5ab}" y="0" orientation="e" x="40" name="" type="Generic"/>
-        <terminal uuid="{883efa7f-fc0d-4df3-9fe3-3ca825c8ca12}" y="-20" orientation="w" x="-40" name="" type="Generic"/>
-        <terminal uuid="{c54e2526-3558-4342-a65e-7b664b587a83}" y="0" orientation="w" x="-40" name="" type="Generic"/>
-        <terminal uuid="{09d01d8b-4b65-4bf0-8ded-6bd6438ec764}" y="-10" orientation="w" x="-40" name="" type="Generic"/>
-        <terminal uuid="{78641d13-7d84-4f53-ae20-9ab812a27e5c}" y="-10" orientation="e" x="40" name="" type="Generic"/>
-        <terminal uuid="{54004850-0077-4bed-ada0-5c6524a33065}" y="-30" orientation="e" x="40" name="" type="Generic"/>
+        <line x1="-40" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-40" y1="-10" x2="40" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-40" y1="-20" x2="40" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{10e43ac0-af6f-45c0-9df7-fb8fb605dbce}" name="" x="-40" y="-30" orientation="w" type="Generic"/>
+        <terminal uuid="{1fa3c31c-440a-4e96-a403-0829dece9db7}" name="" x="40" y="-20" orientation="e" type="Generic"/>
+        <terminal uuid="{2fc725c9-fea0-4fd7-ab9a-afde999fb5ab}" name="" x="40" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{883efa7f-fc0d-4df3-9fe3-3ca825c8ca12}" name="" x="-40" y="-20" orientation="w" type="Generic"/>
+        <terminal uuid="{c54e2526-3558-4342-a65e-7b664b587a83}" name="" x="-40" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{09d01d8b-4b65-4bf0-8ded-6bd6438ec764}" name="" x="-40" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{78641d13-7d84-4f53-ae20-9ab812a27e5c}" name="" x="40" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{54004850-0077-4bed-ada0-5c6524a33065}" name="" x="40" y="-30" orientation="e" type="Generic"/>
     </description>
 </definition>

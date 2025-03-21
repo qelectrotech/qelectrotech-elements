@@ -1,35 +1,34 @@
-<definition height="60" link_type="master" width="20" version="0.100.0" hotspot_x="14" hotspot_y="29" type="element">
-    <uuid uuid="{150dbe47-b9f1-4e6f-83da-e63564afbc5b}"/>
+<definition version="0.100.0" type="element" link_type="master" width="20" height="60" hotspot_x="12" hotspot_y="30">
+    <uuid uuid="{0d256453-ab42-30c1-1d91-b3ec0fb1298c}"/>
     <names>
-        <name lang="el">Μπουτόν, ανοικτή επαφή</name>
-        <name lang="pt">Botão de pressão (NA)</name>
-        <name lang="en">Push-button</name>
-        <name lang="de">Drucktaster Schliesser</name>
-        <name lang="it">Pulsante (NA)</name>
-        <name lang="es">Pulsador</name>
         <name lang="ar">زرّ ضاغط</name>
         <name lang="cs">Tlačítko</name>
+        <name lang="de">Drucktaster Schliesser</name>
+        <name lang="el">Μπουτόν, ανοικτή επαφή</name>
+        <name lang="en">Push-button</name>
+        <name lang="es">Pulsador</name>
+        <name lang="fr">Bouton poussoir</name>
+        <name lang="it">Pulsante (NA)</name>
         <name lang="nl">Drukknop (NO)</name>
         <name lang="pl">Łącznik przyciskowy z powrotem samoczynnym</name>
+        <name lang="pt">Botão de pressão (NA)</name>
         <name lang="ru">Кнопка (НР)</name>
-        <name lang="fr">Bouton poussoir</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y2="10" antialias="true" y1="-10" x3="0" y3="20" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x2="0" x1="-5"/>
-        <line y2="-10" end1="none" antialias="false" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" end2="none" x1="0" length1="1.5" length2="1.5"/>
-        <dynamic_text text_from="ElementInfo" uuid="{3ac3e811-49e9-45f5-bf98-2082cf23b2f9}" x="2.75" y="-9.5" z="3" frame="false" Valignment="AlignTop" keep_visual_rotation="false" rotation="0" text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="2.75" y="-9.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3ac3e811-49e9-45f5-bf98-2082cf23b2f9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y2="0" end1="none" antialias="false" y1="0" style="line-style:dashed;line-weight:thin;filling:none;color:black" x2="-3" end2="none" x1="-10" length1="1.5" length2="1.5"/>
-        <polygon y2="-5" y4="5" antialias="false" y1="-5" x3="-10" y3="5" x4="-7" style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" x2="-10" x1="-7"/>
-        <terminal orientation="n" uuid="{1db4e4bd-ec1e-4fdb-84cb-2d7d0b7cac74}" x="0" y="-21" name="" type="Generic"/>
-        <terminal orientation="s" uuid="{2c393aa3-238f-446c-bc5d-022946342bb8}" x="0" y="21" name="" type="Generic"/>
+        <line x1="-10" y1="0" x2="-3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <polygon x1="-7" y1="-5" x2="-10" y2="-5" x3="-10" y3="5" x4="-7" y4="5" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal uuid="{1db4e4bd-ec1e-4fdb-84cb-2d7d0b7cac74}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{2c393aa3-238f-446c-bc5d-022946342bb8}" name="" x="0" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

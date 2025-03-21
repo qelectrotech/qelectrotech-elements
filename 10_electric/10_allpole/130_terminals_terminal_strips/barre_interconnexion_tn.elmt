@@ -1,31 +1,30 @@
-<definition version="0.100.0" type="element" width="20" link_type="simple" hotspot_x="10" hotspot_y="39" height="80">
-    <uuid uuid="{e127b531-cd5f-40d6-ba81-34fd375ee128}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="10" hotspot_y="40">
+    <uuid uuid="{1e80b822-e8f3-7823-08b4-56122244bdb3}"/>
     <names>
+        <name lang="ar">شريط ربط</name>
+        <name lang="cs">Propojovací svorka TN</name>
         <name lang="de">TN-Verbindungsschiene</name>
         <name lang="en">Bar interconnection TN</name>
-        <name lang="fr">Barre d'interconnection TN</name>
-        <name lang="cs">Propojovací svorka TN</name>
-        <name lang="ar">شريط ربط</name>
-        <name lang="pl">Oddzielacz w stanie zamknięcia</name>
         <name lang="es">Barra de interconexión TN</name>
-        <name lang="it">Barra di connessione TN</name>
+        <name lang="fr">Barre d'interconnection TN</name>
         <name lang="hu">Belső sínösszekötő TN</name>
+        <name lang="it">Barra di connessione TN</name>
+        <name lang="pl">Oddzielacz w stanie zamknięcia</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-31.95" Halignment="AlignLeft" uuid="{08617f49-a52d-48b7-8bfa-0b17e40a7598}" frame="false" keep_visual_rotation="false" x="13" Valignment="AlignTop" rotation="0" z="1" text_width="-1">
+        <dynamic_text x="13" y="-31.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{08617f49-a52d-48b7-8bfa-0b17e40a7598}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" y="-19" x="-5" antialias="true"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" y="9" x="-5" antialias="true"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="12" width="16" start="0" x="-8" height="16" antialias="true" angle="-180"/>
-        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-8" x2="-8" y2="20" end2="none" y1="-20" length2="1.5" antialias="false" end1="none"/>
-        <arc style="line-style:normal;line-weight:normal;filling:none;color:black" y="-28" width="16" start="180" x="-8" height="16" antialias="true" angle="-180"/>
-        <line length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="8" x2="8" y2="20" end2="none" y1="-20" length2="1.5" antialias="false" end1="none"/>
-        <terminal type="Generic" y="32" name="" orientation="s" uuid="{fae932b8-e100-4e36-b870-4379eb4f2c2f}" x="0"/>
-        <terminal type="Generic" y="-32" name="" orientation="n" uuid="{1bb1b26e-9419-4861-bab8-c63553ea069c}" x="0"/>
+        <ellipse x="-5" y="-19" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-5" y="9" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-8" y="12" width="16" height="16" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-8" y1="-20" x2="-8" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-8" y="-28" width="16" height="16" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="8" y1="-20" x2="8" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{fae932b8-e100-4e36-b870-4379eb4f2c2f}" name="" x="0" y="32" orientation="s" type="Generic"/>
+        <terminal uuid="{1bb1b26e-9419-4861-bab8-c63553ea069c}" name="" x="0" y="-32" orientation="n" type="Generic"/>
     </description>
 </definition>

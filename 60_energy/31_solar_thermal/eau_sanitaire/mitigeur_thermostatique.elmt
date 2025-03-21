@@ -1,38 +1,37 @@
-<definition type="element" link_type="simple" height="40" hotspot_x="20" width="40" version="0.100.0" hotspot_y="20">
-    <uuid uuid="{87e1d228-0589-441a-b27c-17469479df11}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="40" hotspot_x="26" hotspot_y="17">
+    <uuid uuid="{c4fb8560-ea3b-3c6b-c035-7896253a6d6c}"/>
     <names>
         <name lang="ar">صمّام خلط ترموستاتي ECS</name>
-        <name lang="it">Valvola miscelatrice termostatica</name>
-        <name lang="nl">Mengklep thermostatisch</name>
         <name lang="cs">Termostatický uzávěr ECS</name>
         <name lang="en">Thermostatic mixing valve ECS</name>
-        <name lang="pl">Zawór termostatyczny CWU</name>
         <name lang="es">Válvula termostática de mezcla ECS</name>
         <name lang="fr">Mitigeur thermostatique ECS</name>
+        <name lang="it">Valvola miscelatrice termostatica</name>
+        <name lang="nl">Mengklep thermostatisch</name>
+        <name lang="pl">Zawór termostatyczny CWU</name>
     </names>
-    <elementInformations/>
     <informations>Le mitigeur thermostatique posé en sortie de ballon permet de distribuer l'eau chaude sanitaire à une température constante.</informations>
     <description>
-        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-13" diameter="26" y="-13"/>
-        <dynamic_text z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1" rotation="0" keep_visual_rotation="false" x="-7" Halignment="AlignLeft" y="-38.95" uuid="{a09daf6c-eb1f-4a86-9ab9-5b6701a263be}" frame="false" text_from="ElementInfo">
+        <ellipse x="-13" y="-13" width="26" height="26" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-7" y="-38.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a09daf6c-eb1f-4a86-9ab9-5b6701a263be}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc antialias="true" height="16" angle="-97" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-7" width="14" y="-9" start="-221"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" x="-4" y="-2" text="°C"/>
-        <line x1="0" antialias="false" x2="0" y2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" y1="-8"/>
-        <line x1="5" antialias="false" x2="6" y2="-7" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" y1="-6"/>
-        <line x1="-5" antialias="false" x2="-6" y2="-7" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" y1="-6"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" x="12" y="-10" text="EF"/>
-        <text font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000" rotation="0" x="-17" y="-10" text="EC"/>
-        <rect antialias="false" height="2" style="line-style:normal;line-weight:normal;filling:none;color:black" x="13" width="2" y="-1" ry="0" rx="0"/>
-        <rect antialias="false" height="2" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-1" width="2" y="13" ry="0" rx="0"/>
-        <rect antialias="false" height="2" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" width="2" y="-1" ry="0" rx="0"/>
-        <polygon x1="0" antialias="true" x2="-6" y2="10" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="10" x4="0" y4="1" x3="6" y1="1"/>
-        <polygon x1="10" antialias="true" x2="10" y2="6" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="0" x4="10" y4="-5" x3="1" y1="-5"/>
-        <polygon x1="-10" antialias="true" x2="-10" y2="6" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="0" x4="-10" y4="-6" x3="-1" y1="-6"/>
-        <terminal type="Generic" x="14" name="" orientation="e" y="0" uuid="{72c129f0-22cf-4f2f-b5a0-00263dd16f45}"/>
-        <terminal type="Generic" x="0" name="" orientation="s" y="14" uuid="{fc4dcf14-3b8a-40fc-8cb7-626d08d691bf}"/>
-        <terminal type="Generic" x="-14" name="" orientation="w" y="0" uuid="{386e2c34-54d4-4bac-a795-a7c6d826e716}"/>
+        <arc x="-7" y="-9" width="14" height="16" start="42" angle="97" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="°C" x="-4" y="-2" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="0" y1="-8" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="5" y1="-6" x2="6" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-5" y1="-6" x2="-6" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="EF" x="12" y="-10" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="EC" x="-17" y="-10" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <rect x="13" y="-1" width="2" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-1" y="13" width="2" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-1" width="2" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="0" y1="1" x2="-6" y2="10" x3="6" y3="10" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="10" y1="-5" x2="10" y2="6" x3="1" y3="0" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="-10" y1="-6" x2="-10" y2="6" x3="-1" y3="0" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal uuid="{72c129f0-22cf-4f2f-b5a0-00263dd16f45}" name="" x="14" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{fc4dcf14-3b8a-40fc-8cb7-626d08d691bf}" name="" x="0" y="14" orientation="s" type="Generic"/>
+        <terminal uuid="{386e2c34-54d4-4bac-a795-a7c6d826e716}" name="" x="-14" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

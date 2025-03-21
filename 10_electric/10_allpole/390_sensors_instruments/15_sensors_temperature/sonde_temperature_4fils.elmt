@@ -1,49 +1,36 @@
-<definition height="50" link_type="simple" hotspot_y="29" version="0.100.0" type="element" width="60" hotspot_x="29">
-    <uuid uuid="{28091a93-33e4-4a64-a1ba-9df473b9c847}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="60" hotspot_x="36" hotspot_y="31">
+    <uuid uuid="{b68ce426-0e5e-4438-3f88-a7e2980a37ab}"/>
     <names>
-        <name lang="it">Sonda di temperatura</name>
-        <name lang="en">Temperature sensor 4 wire</name>
+        <name lang="cs">Snímač teploty 4 vodiče</name>
         <name lang="de">Temperaturfühler</name>
-        <name lang="fr">Sonde de temperature 4 fils</name>
         <name lang="el">Αισθητήρας θερμοκρασίας</name>
+        <name lang="en">Temperature sensor 4 wire</name>
+        <name lang="es">Sensor de temperatura</name>
+        <name lang="fr">Sonde de temperature 4 fils</name>
+        <name lang="it">Sonda di temperatura</name>
         <name lang="nl">Temperatuur sensor</name>
         <name lang="pl">Czujnik temperatury</name>
-        <name lang="cs">Snímač teploty 4 vodiče</name>
-        <name lang="es">Sensor de temperatura</name>
     </names>
-    <elementInformations>
-        <elementInformation show="1" name="manufacturer"></elementInformation>
-        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
-        <elementInformation show="1" name="description"></elementInformation>
-        <elementInformation show="1" name="supplier"></elementInformation>
-        <elementInformation show="1" name="label"></elementInformation>
-        <elementInformation show="1" name="quantity"></elementInformation>
-        <elementInformation show="1" name="designation"></elementInformation>
-        <elementInformation show="1" name="comment"></elementInformation>
-        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
-        <elementInformation show="1" name="plant"></elementInformation>
-        <elementInformation show="1" name="unity"></elementInformation>
-    </elementInformations>
     <informations>S.DEFFAUX
 Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="-20" antialias="false" x1="15" x2="15" x3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" y5="-20" y4="0" y3="0" closed="false" x4="25" x5="25"/>
-        <polygon y1="-20" antialias="false" x1="-25" x2="-25" x3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y5="-20" y4="-10" y3="0" closed="false" x4="-15" x5="-15"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-25.5" z="3" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e858b8a4-392c-4210-9875-5c5b9d4474d2}" x="-12" keep_visual_rotation="true" Valignment="AlignTop">
+        <polygon x1="15" y1="-20" x2="15" y2="-10" x3="10" y3="0" x4="25" y4="0" x5="25" y5="-20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-25" y1="-20" x2="-25" y2="0" x3="-10" y3="0" x4="-15" y4="-10" x5="-15" y5="-20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="-12" y="-25.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{e858b8a4-392c-4210-9875-5c5b9d4474d2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect height="10" y="-5" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="20" x="-10"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="UserText" y="13" z="6" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{248791a5-4c4b-4f63-82c0-4b3fe8bfa7ac}" x="-10" keep_visual_rotation="true" Valignment="AlignTop">
+        <rect x="-10" y="-5" width="20" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-10" y="13" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="UserText" uuid="{248791a5-4c4b-4f63-82c0-4b3fe8bfa7ac}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text>S_</text>
         </dynamic_text>
-        <polygon y1="10" antialias="true" x1="-10" x2="-5" x3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" y4="-10" y3="-10" closed="false" x4="10"/>
-        <text rotation="0" text="+" y="9" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-23" color="#000000"/>
-        <text rotation="0" text="-" y="9" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="16" color="#000000"/>
-        <terminal y="-20" orientation="n" name="S2" type="Generic" uuid="{e44d5434-4ce8-4da2-b9d2-19060d21f3af}" x="15"/>
-        <terminal y="-20" orientation="n" name="1" type="Generic" uuid="{07b0efc0-5045-46b0-aa84-658da17b4f44}" x="-25"/>
-        <terminal y="-20" orientation="n" name="2" type="Generic" uuid="{76ae8b68-2c15-4d8d-b759-dd6accd75537}" x="25"/>
-        <terminal y="-20" orientation="n" name="S1" type="Generic" uuid="{18f7d690-6b89-4a04-9461-791c66ee8669}" x="-15"/>
+        <polygon x1="-10" y1="10" x2="-5" y2="10" x3="5" y3="-10" x4="10" y4="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="+" x="-23" y="9" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="-" x="16" y="9" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{e44d5434-4ce8-4da2-b9d2-19060d21f3af}" name="S2" x="15" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{07b0efc0-5045-46b0-aa84-658da17b4f44}" name="1" x="-25" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{76ae8b68-2c15-4d8d-b759-dd6accd75537}" name="2" x="25" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{18f7d690-6b89-4a04-9461-791c66ee8669}" name="S1" x="-15" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

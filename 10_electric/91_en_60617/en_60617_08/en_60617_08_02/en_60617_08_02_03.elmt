@@ -1,24 +1,23 @@
-<definition type="element" width="70" hotspot_x="45" height="50" hotspot_y="45" version="0.100.0" link_type="simple">
-    <uuid uuid="{b6e373d9-4de1-4f92-8c94-8a081df757a8}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="50" hotspot_x="45" hotspot_y="45">
+    <uuid uuid="{533198cd-bab9-3900-3dd7-ef5336fb384a}"/>
     <names>
+        <name lang="cs">Indikátor maximálního odběru</name>
         <name lang="de">Blindstrommeßgerät, anzeigend
 Amperemeter für Blindstrom</name>
-        <name lang="cs">Indikátor maximálního odběru</name>
-        <name lang="fr">Indicateur de maximum de puissance</name>
         <name lang="en">Maximum demand indicator</name>
+        <name lang="fr">Indicateur de maximum de puissance</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" text_width="-1" Halignment="AlignLeft" uuid="{2aea8175-9d03-4f89-b332-2f516589a058}" Valignment="AlignTop" x="5" keep_visual_rotation="false" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" z="1" text_from="ElementInfo">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2aea8175-9d03-4f89-b332-2f516589a058}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" antialias="false" x="-20" y="-40"/>
-        <text rotation="0" color="#000000" text="W" x="-5" y="-26" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <text rotation="0" color="#000000" text="P max" x="-17" y="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
-        <line y1="-20" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" x1="-40" y2="-20" length1="1.5" length2="1.5"/>
-        <polygon y1="-24" y3="-16" x2="-28" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x3="-32" antialias="false" x1="-32" y2="-20"/>
+        <ellipse x="-20" y="-40" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="W" x="-5" y="-26" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="P max" x="-17" y="-12" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-40" y1="-20" x2="-20" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-32" y1="-24" x2="-28" y2="-20" x3="-32" y3="-16" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
     </description>
 </definition>

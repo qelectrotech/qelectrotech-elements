@@ -1,33 +1,32 @@
-<definition type="element" height="10" hotspot_y="4" width="40" link_type="simple" hotspot_x="19" version="0.100.0">
-    <uuid uuid="{1cbf7420-4f9e-44ba-8bfa-852dcc0b23bd}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="20" hotspot_x="25" hotspot_y="10">
+    <uuid uuid="{39d834ab-c7ac-c283-de74-f22dde2d3bba}"/>
     <names>
-        <name lang="en">flexible piping</name>
-        <name lang="el">Εύκαμπτη σωλήνα</name>
-        <name lang="fr">Tuyauterie souple</name>
         <name lang="ar">أنابيب مرنة</name>
-        <name lang="nl">Flexibele Pijp</name>
         <name lang="cs">Pružné potrubí</name>
-        <name lang="pl">Przewód elestyczny</name>
+        <name lang="el">Εύκαμπτη σωλήνα</name>
+        <name lang="en">flexible piping</name>
+        <name lang="fr">Tuyauterie souple</name>
         <name lang="it">Tubatura flessibile</name>
+        <name lang="nl">Flexibele Pijp</name>
+        <name lang="pl">Przewód elestyczny</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" uuid="{8c1ccbe5-1cdd-4c8e-b06f-daae8ed5e748}" rotation="0" text_width="-1" Valignment="AlignTop" y="-9.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="-6" frame="false" text_from="ElementInfo" Halignment="AlignLeft">
+        <dynamic_text x="-6" y="-9.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8c1ccbe5-1cdd-4c8e-b06f-daae8ed5e748}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="0" y="-2.5" antialias="true" x="-7.5" angle="-180"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="-220" y="-2.5" antialias="true" x="-12.5" angle="-50"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="-35" y="-5" antialias="true" x="-17" angle="-45"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="90" y="-2.5" antialias="true" x="7.5" angle="-50"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="-90" y="-5" antialias="true" x="12" angle="-50"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="-180" y="-2.5" antialias="true" x="7.5" angle="-90"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="90" y="-2.5" antialias="true" x="-12.5" angle="-90"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="0" y="-2.5" antialias="true" x="2.5" angle="-180"/>
-        <arc height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" width="5" start="-180" y="-2.5" antialias="true" x="-2.5" angle="-180"/>
-        <terminal uuid="{ec144273-d5d6-4d62-af42-0bb582a503d0}" type="Generic" orientation="e" name="" y="0" x="15"/>
-        <terminal uuid="{faa6c8be-6e89-496b-8628-ae0ce1b43322}" type="Generic" orientation="w" name="" y="0" x="-15"/>
+        <arc x="-7.5" y="-2.5" width="5" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-12.5" y="-2.5" width="5" height="5" start="90" angle="50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-17" y="-5" width="5" height="5" start="280" angle="45" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="7.5" y="-2.5" width="5" height="5" start="40" angle="50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="12" y="-5" width="5" height="5" start="220" angle="50" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="7.5" y="-2.5" width="5" height="5" start="90" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-12.5" y="-2.5" width="5" height="5" start="0" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="2.5" y="-2.5" width="5" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-2.5" y="-2.5" width="5" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{ec144273-d5d6-4d62-af42-0bb582a503d0}" name="" x="15" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{faa6c8be-6e89-496b-8628-ae0ce1b43322}" name="" x="-15" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

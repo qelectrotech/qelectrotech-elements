@@ -1,38 +1,25 @@
-<definition link_type="thumbnail" width="30" version="0.80" hotspot_y="15" type="element" height="30" hotspot_x="15">
-    <uuid uuid="{536ce002-0468-46a2-a55e-04c874353ef9}"/>
+<definition version="0.80" type="element" link_type="thumbnail" width="30" height="30" hotspot_x="15" hotspot_y="15">
+    <uuid uuid="{263892ec-aaf6-9fa6-7bc2-26b63ad2b6ea}"/>
     <names>
-        <name lang="nl">Lamp</name>
         <name lang="ar">مُؤشر ضوئي</name>
         <name lang="cs">Kontrolka</name>
-        <name lang="en">Light</name>
-        <name lang="pl">Lampka sygnalizacyjna</name>
-        <name lang="it">Lampada spia</name>
-        <name lang="el">Λάμπα</name>
         <name lang="de">Meldeleuchte</name>
+        <name lang="el">Λάμπα</name>
+        <name lang="en">Light</name>
         <name lang="fr">Voyant vert</name>
+        <name lang="it">Lampada spia</name>
+        <name lang="nl">Lamp</name>
+        <name lang="pl">Lampka sygnalizacyjna</name>
     </names>
-    <elementInformations>
-        <elementInformation show="1" name="quantity"></elementInformation>
-        <elementInformation show="1" name="designation"></elementInformation>
-        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
-        <elementInformation show="1" name="manufacturer"></elementInformation>
-        <elementInformation show="1" name="unity"></elementInformation>
-        <elementInformation show="1" name="plant"></elementInformation>
-        <elementInformation show="1" name="supplier"></elementInformation>
-        <elementInformation show="1" name="comment"></elementInformation>
-        <elementInformation show="1" name="description"></elementInformation>
-        <elementInformation show="1" name="label"></elementInformation>
-        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
-    </elementInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-11" style="line-style:normal;line-weight:normal;filling:green;color:black" diameter="22" x="-11" antialias="true"/>
-        <dynamic_text y="-35.45" text_from="ElementInfo" z="2" frame="false" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" Halignment="AlignLeft" x="-7" text_width="-1" uuid="{7c438efe-40e0-4a15-accf-50ff83b690a0}">
+        <ellipse x="-11" y="-11" width="22" height="22" style="line-style:normal;line-weight:normal;filling:green;color:black" antialias="true"/>
+        <dynamic_text x="-7" y="-35.45" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" text_from="ElementInfo" uuid="{7c438efe-40e0-4a15-accf-50ff83b690a0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc y="-7" start="0" style="line-style:normal;line-weight:thin;filling:none;color:black" width="14" height="14" x="-7" antialias="true" angle="-270"/>
-        <circle y="-10" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="20" x="-10" antialias="true"/>
+        <arc x="-7" y="-7" width="14" height="14" start="90" angle="270" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
     </description>
 </definition>

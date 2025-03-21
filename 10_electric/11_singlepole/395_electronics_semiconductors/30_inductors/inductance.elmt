@@ -1,27 +1,26 @@
-<definition link_type="simple" version="0.100.0" width="40" hotspot_y="34" type="element" hotspot_x="20" height="70">
-    <uuid uuid="{537536bf-dcc6-4727-ace6-d3f65b75c358}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="80" hotspot_x="20" hotspot_y="40">
+    <uuid uuid="{388f5890-8f13-8c6e-79ac-d53af6b3345b}"/>
     <names>
-        <name lang="de">Induktivität</name>
         <name lang="cs">Reaktor</name>
+        <name lang="de">Induktivität</name>
         <name lang="el">Επαγωγή</name>
+        <name lang="en">Inductor</name>
+        <name lang="fr">Inductance</name>
+        <name lang="it">Induttanze</name>
         <name lang="nl">Inductor</name>
         <name lang="pl">Cewka (forma 1)</name>
-        <name lang="en">Inductor</name>
-        <name lang="it">Induttanze</name>
-        <name lang="fr">Inductance</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" end2="none" length1="1.5" x1="0" y2="30" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="15" end1="none"/>
-        <dynamic_text x="17" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{f54838ff-fc19-4ea3-bd26-f650549162e0}" keep_visual_rotation="false" Halignment="AlignLeft" text_from="UserText" y="-12.5" z="2" frame="false" text_width="-1" Valignment="AlignTop">
+        <line x1="0" y1="15" x2="0" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="17" y="-12.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{f54838ff-fc19-4ea3-bd26-f650549162e0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text>_</text>
         </dynamic_text>
-        <arc x="-15" antialias="true" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" start="-180" y="-15" angle="-270" height="30"/>
-        <line antialias="false" end2="none" length1="1.5" x1="-15" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="0" end1="none"/>
-        <line antialias="false" end2="none" length1="1.5" x1="0" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y1="-30" end1="none"/>
-        <terminal x="0" uuid="{faae405c-fd69-4575-b50f-6e0473814498}" orientation="n" y="-30" type="Generic" name=""/>
-        <terminal x="0" uuid="{58117b96-0448-43b2-bfae-cf3f014a75f8}" orientation="s" y="30" type="Generic" name=""/>
+        <arc x="-15" y="-15" width="30" height="30" start="270" angle="270" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-15" y1="0" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-30" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{faae405c-fd69-4575-b50f-6e0473814498}" name="" x="0" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{58117b96-0448-43b2-bfae-cf3f014a75f8}" name="" x="0" y="30" orientation="s" type="Generic"/>
     </description>
 </definition>

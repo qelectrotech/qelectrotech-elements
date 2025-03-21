@@ -1,36 +1,35 @@
-<definition link_type="simple" hotspot_x="32" width="100" version="0.100.0" hotspot_y="37" type="element" height="70">
-    <uuid uuid="{2311c05c-0d5f-4ec6-9f2b-c9e946fb81ce}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="80" hotspot_x="35" hotspot_y="43">
+    <uuid uuid="{bd04a1f4-7a1a-e85e-7a14-63ad82e19cf3}"/>
     <names>
+        <name lang="ar">سخّان أنبوبي</name>
         <name lang="cs">Trubkový ohřívač ECS</name>
-        <name lang="fr">réchauffeur ECS tubulaire</name>
-        <name lang="nl">tank met pijpwisselaar</name>
         <name lang="en">ECS tubular heater</name>
         <name lang="es">Calentador tubular ECS</name>
-        <name lang="pl">Ogrzewacz CWU</name>
+        <name lang="fr">réchauffeur ECS tubulaire</name>
         <name lang="it">Riscaldatore ACS tubolare</name>
-        <name lang="ar">سخّان أنبوبي</name>
+        <name lang="nl">tank met pijpwisselaar</name>
+        <name lang="pl">Ogrzewacz CWU</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text rotation="0" x="13" text="EF" y="-27" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <dynamic_text Halignment="AlignLeft" rotation="0" x="-7" z="2" frame="false" y="18.05" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" uuid="{b7c82c75-5819-4abd-945f-66bf82dfd4ad}">
+        <text text="EF" x="13" y="-27" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="-7" y="18.05" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b7c82c75-5819-4abd-945f-66bf82dfd4ad}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text rotation="0" x="-26" text="ECS" y="-27" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" x1="-17" x2="-23" y2="15" antialias="false" end1="none" end2="triangle"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-16" x1="-23" x2="-16" y2="-16" antialias="false" end1="none" end2="triangle"/>
-        <polygon y8="10" x3="14" y6="0" x10="-15" x11="10" x8="-15" x7="14" y11="20" y4="-10" y7="5" x1="-10" y5="-5" y2="-20" x4="-15" x6="-15" y1="-32" x2="-10" x5="14" x12="10" y3="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x9="14" y12="-32" y9="15" closed="false" y10="20" antialias="false"/>
-        <text rotation="0" x="25" text="réchauffeur ecs" y="21" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-25" x1="-20" x2="-20" y2="26" antialias="true" end1="none" end2="none"/>
-        <line length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-25" x1="20" x2="20" y2="26" antialias="true" end1="none" end2="none"/>
-        <arc x="-20" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-29.5" angle="-180" width="40" antialias="true" height="8"/>
-        <arc x="-20" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="22.5" angle="-180" width="40" antialias="true" height="8"/>
-        <terminal x="-22" y="15" name="" orientation="w" type="Generic" uuid="{79f25fe9-1886-4fae-8c70-ebe609e9aa7e}"/>
-        <terminal x="-10" y="-32" name="" orientation="n" type="Generic" uuid="{fba6727d-a8e6-4d3a-886f-3c8944e7f5f3}"/>
-        <terminal x="-23" y="-16" name="" orientation="w" type="Generic" uuid="{3479fb50-dd61-4b70-a4ac-5c95ef9118a8}"/>
-        <terminal x="10" y="-32" name="" orientation="n" type="Generic" uuid="{c76a15ec-d4d8-4fb0-b2d0-7e41ba20bebe}"/>
+        <text text="ECS" x="-26" y="-27" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-17" y1="15" x2="-23" y2="15" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-23" y1="-16" x2="-16" y2="-16" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-10" y1="-32" x2="-10" y2="-20" x3="14" y3="-15" x4="-15" y4="-10" x5="14" y5="-5" x6="-15" y6="0" x7="14" y7="5" x8="-15" y8="10" x9="14" y9="15" x10="-15" y10="20" x11="10" y11="20" x12="10" y12="-32" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <text text="réchauffeur ecs" x="25" y="21" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-20" y1="-25" x2="-20" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="20" y1="-25" x2="20" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-20" y="-29.5" width="40" height="8" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-20" y="22.5" width="40" height="8" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{79f25fe9-1886-4fae-8c70-ebe609e9aa7e}" name="" x="-22" y="15" orientation="w" type="Generic"/>
+        <terminal uuid="{fba6727d-a8e6-4d3a-886f-3c8944e7f5f3}" name="" x="-10" y="-32" orientation="n" type="Generic"/>
+        <terminal uuid="{3479fb50-dd61-4b70-a4ac-5c95ef9118a8}" name="" x="-23" y="-16" orientation="w" type="Generic"/>
+        <terminal uuid="{c76a15ec-d4d8-4fb0-b2d0-7e41ba20bebe}" name="" x="10" y="-32" orientation="n" type="Generic"/>
     </description>
 </definition>

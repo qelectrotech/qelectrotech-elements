@@ -1,24 +1,23 @@
-<definition version="0.100.0" height="30" link_type="simple" hotspot_y="24" width="50" hotspot_x="24" type="element">
-    <uuid uuid="{e0e6628e-cb21-417e-ad96-ee68924f0cd4}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="40" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{d054ac5c-f89a-7b4d-9c5c-7357aa117117}"/>
     <names>
-        <name lang="de">T-Verbindung, Abzweigung</name>
-        <name lang="fr">Liaison en T</name>
-        <name lang="en">T-connection</name>
         <name lang="cs">T-spojení</name>
+        <name lang="de">T-Verbindung, Abzweigung</name>
+        <name lang="en">T-connection</name>
+        <name lang="fr">Liaison en T</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" text_width="-1" frame="false" Valignment="AlignTop" keep_visual_rotation="false" uuid="{15c767e1-62d7-43d2-9806-a78cdd22e02c}" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" rotation="0" x="5" y="2.5">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{15c767e1-62d7-43d2-9806-a78cdd22e02c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="20" y2="-20" length1="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-20" y1="-20" end2="none"/>
-        <line x2="0" y2="0" length1="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="0" y1="-20" end2="none"/>
-        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="5" x="-2.5" y="-22.5"/>
-        <terminal name="" uuid="{d3e3ab3e-d37c-498a-93c9-23ba736a200a}" x="-20" orientation="w" type="Generic" y="-20"/>
-        <terminal name="" uuid="{ae8e9b1b-a6fd-4871-b637-4ca7f0b00a1f}" x="20" orientation="e" type="Generic" y="-20"/>
-        <terminal name="" uuid="{f0a5d4b3-4bd7-4f03-897c-d527c757d7d0}" x="0" orientation="s" type="Generic" y="0"/>
+        <line x1="-20" y1="-20" x2="20" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-2.5" y="-22.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <terminal uuid="{d3e3ab3e-d37c-498a-93c9-23ba736a200a}" name="" x="-20" y="-20" orientation="w" type="Generic"/>
+        <terminal uuid="{ae8e9b1b-a6fd-4871-b637-4ca7f0b00a1f}" name="" x="20" y="-20" orientation="e" type="Generic"/>
+        <terminal uuid="{f0a5d4b3-4bd7-4f03-897c-d527c757d7d0}" name="" x="0" y="0" orientation="s" type="Generic"/>
     </description>
 </definition>

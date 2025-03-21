@@ -1,41 +1,40 @@
-<definition height="10" version="0.100.0" width="30" hotspot_x="14" hotspot_y="4" link_type="simple" type="element">
-    <uuid uuid="{783f1aa9-f19a-4c71-bc26-bbd5769935b0}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="20" hotspot_x="20" hotspot_y="10">
+    <uuid uuid="{76d2498b-847b-23c3-79e5-1d76eb605bfe}"/>
     <names>
-        <name lang="hu">kábelcsatlakozás</name>
-        <name lang="es">conexión de cable</name>
-        <name lang="nl">kabelverbinding</name>
+        <name lang="ar">اتصال سلكي</name>
+        <name lang="ca">connexió de cable</name>
         <name lang="cs">kabelové připojení</name>
-        <name lang="fr">câble de connexion</name>
+        <name lang="da">kabelforbindelse</name>
+        <name lang="de">Kabelanschluss</name>
         <name lang="el">καλωδιακή σύνδεση</name>
-        <name lang="pl">połączenie przewodowe</name>
+        <name lang="en">cable connection</name>
+        <name lang="es">conexión de cable</name>
+        <name lang="fr">câble de connexion</name>
+        <name lang="hr">kabelska veza</name>
+        <name lang="hu">kábelcsatlakozás</name>
+        <name lang="it">collegamento via cavo</name>
+        <name lang="ja">ケーブル接続</name>
         <name lang="mn">кабель холболт</name>
         <name lang="nb">kabeltilkobling</name>
-        <name lang="de">Kabelanschluss</name>
-        <name lang="ca">connexió de cable</name>
-        <name lang="sr">кабловску везу</name>
-        <name lang="da">kabelforbindelse</name>
-        <name lang="hr">kabelska veza</name>
-        <name lang="en">cable connection</name>
-        <name lang="it">collegamento via cavo</name>
+        <name lang="nl">kabelverbinding</name>
+        <name lang="pl">połączenie przewodowe</name>
         <name lang="pt">conexão à cabo</name>
-        <name lang="ru">кабельное соединение</name>
-        <name lang="ja">ケーブル接続</name>
         <name lang="ro">conexiune prin cablu</name>
+        <name lang="ru">кабельное соединение</name>
         <name lang="sl">kabelska povezava</name>
-        <name lang="ar">اتصال سلكي</name>
+        <name lang="sr">кабловску везу</name>
         <name lang="tr">kablo bağlantısı</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle antialias="true" x="-1.15" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-1.15" diameter="2.3"/>
-        <dynamic_text Halignment="AlignLeft" frame="false" text_from="ElementInfo" x="-14" rotation="0" text_width="-1" keep_visual_rotation="false" z="2" Valignment="AlignTop" y="-22" uuid="{3bedcd12-b18c-416e-8f59-52fd03262f3b}" font="Sans Serif,7,-1,5,50,0,0,0,0,0">
+        <ellipse x="-1.15" y="-1.15" width="2.3" height="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <dynamic_text x="-14" y="-22" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3bedcd12-b18c-416e-8f59-52fd03262f3b}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-10" antialias="false" length2="1.5" y2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x2="10" end1="none" end2="none"/>
-        <terminal name="" x="-10" orientation="w" y="0" uuid="{b1fad7ea-99a3-49ea-b463-0059edb35cda}" type="Generic"/>
-        <terminal name="" x="10" orientation="e" y="0" uuid="{e5c9e75c-6ae2-460a-a49f-621a95d9fe52}" type="Generic"/>
+        <line x1="-10" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{b1fad7ea-99a3-49ea-b463-0059edb35cda}" name="" x="-10" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{e5c9e75c-6ae2-460a-a49f-621a95d9fe52}" name="" x="10" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

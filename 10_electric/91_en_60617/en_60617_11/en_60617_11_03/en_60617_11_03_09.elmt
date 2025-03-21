@@ -1,22 +1,21 @@
-<definition type="element" version="0.100.0" width="150" hotspot_y="15" link_type="simple" hotspot_x="144" height="30">
-    <uuid uuid="{8acd3a1a-7ae3-4a5b-8bdc-28257ce7478e}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="160" height="30" hotspot_x="150" hotspot_y="15">
+    <uuid uuid="{a1b44f1f-9170-b126-806a-6cf4dbd32dff}"/>
     <names>
-        <name lang="fr">Ligne avec vanne d'arrêt de gaz ou d'huile</name>
         <name lang="cs">Vedení s plynotěsným nebo olejotěsným uzavíracím ventilem</name>
         <name lang="de">Leiter mi Absperrventil für Öl oder Gas</name>
         <name lang="en">Line with gas or oil stop valve</name>
+        <name lang="fr">Ligne avec vanne d'arrêt de gaz ou d'huile</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" uuid="{36cf6b71-c286-4f5f-b860-a8d8c06fbe9e}" Valignment="AlignTop" x="5" rotation="0" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{36cf6b71-c286-4f5f-b860-a8d8c06fbe9e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" length1="1.5" x1="0" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-140" antialias="false" y2="0" end1="none"/>
-        <polygon y4="-10" x1="-90" y1="10" x4="-50" closed="false" x3="-50" y3="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-90" antialias="false" y5="10" y2="-10" x5="-90"/>
-        <terminal type="Generic" uuid="{5842cc6a-2242-44c5-8f2c-52d0086b0940}" x="-140" y="0" orientation="w" name=""/>
-        <terminal type="Generic" uuid="{d5026573-fa88-416c-baf2-2f14e0b805a1}" x="0" y="0" orientation="e" name=""/>
+        <line x1="0" y1="0" x2="-140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-90" y1="10" x2="-90" y2="-10" x3="-50" y3="10" x4="-50" y4="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{5842cc6a-2242-44c5-8f2c-52d0086b0940}" name="" x="-140" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{d5026573-fa88-416c-baf2-2f14e0b805a1}" name="" x="0" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

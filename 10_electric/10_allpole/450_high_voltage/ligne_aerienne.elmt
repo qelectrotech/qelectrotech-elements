@@ -1,26 +1,25 @@
-<definition type="element" hotspot_y="10" height="20" hotspot_x="24" version="0.100.0" width="50" link_type="simple">
-    <uuid uuid="{09342206-431a-4d1a-b3ca-4edbe7f3909f}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="20" hotspot_x="30" hotspot_y="10">
+    <uuid uuid="{30d93c4f-3d8b-613e-cdc9-00622b0df150}"/>
     <names>
-        <name lang="el">Εναέρια γραμμή</name>
-        <name lang="de">Leiter, oberirdisch, Freileitung</name>
-        <name lang="cs">Vzdušné vedení</name>
-        <name lang="it">Linea aerea</name>
-        <name lang="en">Air line</name>
-        <name lang="nl">Lucht lijn </name>
-        <name lang="fr">Ligne aérienne</name>
-        <name lang="pl">Linia napowietrzna</name>
         <name lang="ar">خط هوائي</name>
+        <name lang="cs">Vzdušné vedení</name>
+        <name lang="de">Leiter, oberirdisch, Freileitung</name>
+        <name lang="el">Εναέρια γραμμή</name>
+        <name lang="en">Air line</name>
+        <name lang="fr">Ligne aérienne</name>
+        <name lang="it">Linea aerea</name>
+        <name lang="nl">Lucht lijn</name>
+        <name lang="pl">Linia napowietrzna</name>
     </names>
-    <elementInformations/>
     <informations>EN 60617: 11-03-03</informations>
     <description>
-        <circle x="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="8" y="-4"/>
-        <dynamic_text text_width="-1" x="-7" rotation="0" z="2" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" Valignment="AlignTop" uuid="{c1da9283-b9d8-4305-a155-3aa7d47e6c58}" y="-6.95">
+        <ellipse x="-4" y="-4" width="8" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-7" y="-6.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c1da9283-b9d8-4305-a155-3aa7d47e6c58}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y2="0" end1="none" end2="none" antialias="false" y1="0" x2="20" length2="1.5"/>
-        <terminal type="Generic" x="-20" orientation="w" name="" uuid="{026d4632-08a2-466f-833e-eb027d0e787c}" y="0"/>
-        <terminal type="Generic" x="20" orientation="e" name="" uuid="{71f4e316-a6db-4b84-9d5e-c8655b16790d}" y="0"/>
+        <line x1="-20" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{026d4632-08a2-466f-833e-eb027d0e787c}" name="" x="-20" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{71f4e316-a6db-4b84-9d5e-c8655b16790d}" name="" x="20" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

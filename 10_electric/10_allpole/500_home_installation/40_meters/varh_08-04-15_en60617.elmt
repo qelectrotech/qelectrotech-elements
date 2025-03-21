@@ -1,33 +1,32 @@
-<definition link_type="simple" type="element" height="60" width="40" hotspot_y="34" version="0.80" hotspot_x="20">
-    <uuid uuid="{72fab75c-53f0-49ae-993b-62959e5d171d}"/>
+<definition version="0.80" type="element" link_type="simple" width="40" height="70" hotspot_x="22" hotspot_y="40">
+    <uuid uuid="{ac305b74-020e-968d-0e36-9ae5c093e2b4}"/>
     <names>
-        <name lang="nl">VAr energie meter</name>
-        <name lang="fr">Varheuremètre</name>
+        <name lang="cs">Jalový elektroměr</name>
+        <name lang="de">Blindverbrauchszähler</name>
         <name lang="el">Μετρητής αέργου ισχύος (βαρόμετρο)</name>
         <name lang="en">reactive energy meter</name>
-        <name lang="de">Blindverbrauchszähler</name>
-        <name lang="pl">Licznik warogodzin</name>
-        <name lang="cs">Jalový elektroměr</name>
+        <name lang="fr">Varheuremètre</name>
         <name lang="it">Misuratore di varh</name>
+        <name lang="nl">VAr energie meter</name>
+        <name lang="pl">Licznik warogodzin</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" text_width="-1" frame="false" x="18" z="1" uuid="{8416f61b-53c9-4b63-ac6f-13a011b22354}" text_from="ElementInfo" y="-20.95" Halignment="AlignLeft">
+        <dynamic_text x="18" y="-20.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" text_from="ElementInfo" uuid="{8416f61b-53c9-4b63-ac6f-13a011b22354}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" height="26" width="30" ry="0" x="-15" rx="0" y="-14"/>
-        <rect antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" height="8" width="30" ry="0" x="-15" rx="0" y="-22"/>
-        <text text="varh" font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" x="-12" y="4" color="#000000"/>
-        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-22" length2="1.5" length1="1.5" x2="-10" y1="-30" x1="-10" end2="none"/>
-        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="-22" length2="1.5" length1="1.5" x2="10" y1="-30" x1="10" end2="none"/>
-        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="20" length2="1.5" length1="1.5" x2="-10" y1="12" x1="-10" end2="none"/>
-        <line antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" y2="20" length2="1.5" length1="1.5" x2="10" y1="13" x1="10" end2="none"/>
-        <terminal orientation="n" name="" x="10" uuid="{50652be6-92b3-4320-a2f6-895bb52b7583}" y="-30"/>
-        <terminal orientation="s" name="" x="10" uuid="{a8f1556e-e8ba-4f17-ab11-cbbcfde7c2e5}" y="20"/>
-        <terminal orientation="n" name="" x="-10" uuid="{53c40b71-e9d6-43e8-91ed-753e115296eb}" y="-30"/>
-        <terminal orientation="s" name="" x="-10" uuid="{8b99cbb4-f3ad-4068-b148-ad59d6d92329}" y="20"/>
+        <rect x="-15" y="-14" width="30" height="26" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-22" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="varh" x="-12" y="4" rotation="0" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-10" y1="-30" x2="-10" y2="-22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="-30" x2="10" y2="-22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="12" x2="-10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="13" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{50652be6-92b3-4320-a2f6-895bb52b7583}" name="" x="10" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{a8f1556e-e8ba-4f17-ab11-cbbcfde7c2e5}" name="" x="10" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{53c40b71-e9d6-43e8-91ed-753e115296eb}" name="" x="-10" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{8b99cbb4-f3ad-4068-b148-ad59d6d92329}" name="" x="-10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

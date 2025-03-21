@@ -1,23 +1,22 @@
-<definition hotspot_y="3" width="50" height="30" link_type="simple" type="element" hotspot_x="2" version="0.100.0">
-    <uuid uuid="{6a0821f1-76a8-45f0-8710-9847e932ae60}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="30" hotspot_x="3" hotspot_y="2">
+    <uuid uuid="{218d3054-dbbb-7b00-8e53-258cef6cc540}"/>
     <names>
-        <name lang="fr">Enroulement polyphasé, à m phases séparées</name>
         <name lang="cs">m-fázové vinutí, fáze nejsou propojeny</name>
         <name lang="de">m getrennte Wicklungen, m-Phasensystem</name>
         <name lang="en">m-phase winding, phases not interconnected</name>
+        <name lang="fr">Enroulement polyphasé, à m phases séparées</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc x="25" start="0" width="10" height="5" angle="180" y="12.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="5" z="2" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" Halignment="AlignLeft" y="22.5" rotation="0" uuid="{e634634e-0554-44d7-b469-ef863e233535}" frame="false">
+        <arc x="25" y="12.5" width="10" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="5" y="22.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e634634e-0554-44d7-b469-ef863e233535}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc x="35" start="0" width="10" height="5" angle="-180" y="12.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" length2="1.5" end2="none" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none" length1="1.5" y1="0" x2="0"/>
-        <text x="5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="10" rotation="0" text="m" color="#000000"/>
-        <text x="15" font="Sans Serif,6,-1,5,50,0,0,0,0,0" y="20" rotation="0" text="m" color="#000000"/>
+        <arc x="35" y="12.5" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="m" x="5" y="10" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="m" x="15" y="20" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
     </description>
 </definition>

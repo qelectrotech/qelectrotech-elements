@@ -1,35 +1,34 @@
-<definition height="50" hotspot_y="24" hotspot_x="21" version="0.100.0" type="element" link_type="master" width="30">
-    <uuid uuid="{7d10babb-ee04-4639-a21b-14dead057832}"/>
+<definition version="0.100.0" type="element" link_type="master" width="30" height="60" hotspot_x="22" hotspot_y="30">
+    <uuid uuid="{a4dd3329-8ba7-9738-33ee-aae9c49c2886}"/>
     <names>
         <name lang="ar">مفتاح تفاضلي</name>
         <name lang="cs">Proudový chránič</name>
-        <name lang="nl">Aardlekschakelaar</name>
-        <name lang="fr">Interrupteur différentiel</name>
-        <name lang="pt">Interruptor diferencial</name>
-        <name lang="it">Interruttore differenziale</name>
         <name lang="de">Fehlerstromschutzschalter</name>
-        <name lang="ru">УЗО</name>
-        <name lang="es">Interruptor diferencial</name>
         <name lang="en">Differential switch</name>
+        <name lang="es">Interruptor diferencial</name>
+        <name lang="fr">Interrupteur différentiel</name>
+        <name lang="it">Interruttore differenziale</name>
+        <name lang="nl">Aardlekschakelaar</name>
         <name lang="pl">Wyłącznik różnicowoprądowy</name>
+        <name lang="pt">Interruptor diferencial</name>
+        <name lang="ru">УЗО</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="4" x="-2"/>
-        <line x2="-2" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="-10" end2="none" x1="2" length1="1.5" length2="1.5"/>
-        <dynamic_text y="-12" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" text_width="-1" text_from="ElementInfo" uuid="{e8d711af-feda-4712-8ee9-2555820dbe4b}" Valignment="AlignTop" x="1" z="3" Halignment="AlignLeft">
+        <ellipse x="-2" y="-10" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="2" y1="-10" x2="-2" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="1" y="-12" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e8d711af-feda-4712-8ee9-2555820dbe4b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x2="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y3="20" y2="10" x3="0" closed="false" x1="-5"/>
-        <line x2="0" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-10" end2="none" x1="0" length1="1.5" length2="1.5"/>
-        <text y="3" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0" text="IΔ" color="#000000" x="-14"/>
-        <terminal y="20" name="" type="Generic" uuid="{1e3dd70e-51e0-4a59-a3d8-4fe9a6d14fb5}" x="0" orientation="s"/>
-        <terminal y="-20" name="" type="Generic" uuid="{28c4e763-4df3-4a6b-aac4-ceb09cdbe6a8}" x="0" orientation="n"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="IΔ" x="-14" y="3" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{1e3dd70e-51e0-4a59-a3d8-4fe9a6d14fb5}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{28c4e763-4df3-4a6b-aac4-ceb09cdbe6a8}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

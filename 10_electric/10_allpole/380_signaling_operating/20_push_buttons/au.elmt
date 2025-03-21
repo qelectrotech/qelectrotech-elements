@@ -1,38 +1,37 @@
-<definition width="30" version="0.100.0" type="element" hotspot_x="17" link_type="master" height="50" hotspot_y="24">
-    <uuid uuid="{8a857788-0e87-4467-ae49-0e334a72b0de}"/>
+<definition version="0.100.0" type="element" link_type="master" width="30" height="60" hotspot_x="17" hotspot_y="30">
+    <uuid uuid="{c9099a0b-57a3-1c9e-0fda-3b624c0f1fdc}"/>
     <names>
         <name lang="ar">زرّ توقف طارئ (NC)</name>
-        <name lang="pl">Łącznik przyciskowy (przycisk bezpieczeństwa)</name>
-        <name lang="nl">Noodstop drukknop (NC)</name>
-        <name lang="en">Emergency stop (NC)</name>
-        <name lang="de">Pilzdrucktaster Öffner</name>
-        <name lang="fr">Arrêt d'urgence (NF)</name>
-        <name lang="ru">Аварийный стоп</name>
-        <name lang="it">Arresto d'emergenza</name>
-        <name lang="es">Paro de emergencia (NC)</name>
-        <name lang="pt">Paragem de emergência (NC)</name>
         <name lang="cs">Nouzové zastavení</name>
+        <name lang="de">Pilzdrucktaster Öffner</name>
+        <name lang="en">Emergency stop (NC)</name>
+        <name lang="es">Paro de emergencia (NC)</name>
+        <name lang="fr">Arrêt d'urgence (NF)</name>
+        <name lang="it">Arresto d'emergenza</name>
+        <name lang="nl">Noodstop drukknop (NC)</name>
+        <name lang="pl">Łącznik przyciskowy (przycisk bezpieczeństwa)</name>
+        <name lang="pt">Paragem de emergência (NC)</name>
+        <name lang="ru">Аварийный стоп</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x3="0" y1="-10" x2="0" y3="20" y2="10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="5"/>
-        <line y1="-2" x2="-1" y2="0" length1="1.5" antialias="true" end2="none" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-4" length2="1.5"/>
-        <arc y="-5" width="8" angle="-180" height="10" antialias="true" x="-11" start="-90" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <line y1="-2" x2="-4" y2="0" length1="1.5" antialias="false" end2="none" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-4" length2="1.5"/>
-        <line y1="-9" x2="6" y2="-9" length1="1.5" antialias="false" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5"/>
-        <line y1="-20" x2="0" y2="-9" length1="1.5" antialias="false" end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5"/>
-        <dynamic_text y="-9.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false" uuid="{432659fd-c060-446e-82c3-c02d79582d12}" text_width="-1" x="5.75" Halignment="AlignLeft" z="7" frame="false" rotation="0">
+        <polygon x1="5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-4" y1="-2" x2="-1" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <arc x="-11" y="-5" width="8" height="10" start="90" angle="180" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line x1="-4" y1="-2" x2="-4" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-9" x2="6" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5.75" y="-9.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{432659fd-c060-446e-82c3-c02d79582d12}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y1="-5" x2="-7" y2="5" length1="1.5" antialias="false" end2="none" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-7" length2="1.5"/>
-        <line y1="0" x2="3" y2="0" length1="1.5" antialias="false" end2="none" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x1="-7" length2="1.5"/>
-        <terminal y="-20" type="Generic" name="" orientation="n" uuid="{43589fb5-a41d-497e-b6c5-48d3edfbda33}" x="0"/>
-        <terminal y="20" type="Generic" name="" orientation="s" uuid="{33b13070-9354-4aa1-9c2e-3d05c62e3ade}" x="0"/>
+        <line x1="-7" y1="-5" x2="-7" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-7" y1="0" x2="3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{43589fb5-a41d-497e-b6c5-48d3edfbda33}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{33b13070-9354-4aa1-9c2e-3d05c62e3ade}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

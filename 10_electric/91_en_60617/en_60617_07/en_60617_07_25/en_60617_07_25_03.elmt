@@ -1,34 +1,33 @@
-<definition height="60" width="80" hotspot_y="34" hotspot_x="65" version="0.100.0" type="element" link_type="simple">
-    <uuid uuid="{2f3bbded-022c-48cd-b2f1-b706969ed3c2}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="80" height="70" hotspot_x="65" hotspot_y="40">
+    <uuid uuid="{6392f23e-b97e-a839-14de-e32a62b988b9}"/>
     <names>
+        <name lang="cs">Statický spínač propuštějící proud v jednom směru</name>
         <name lang="de">elektronischer Schalter, nur in einer Richtung
 stromdurchlässig</name>
-        <name lang="cs">Statický spínač propuštějící proud v jednom směru</name>
         <name lang="en">Static switch, unidirectional</name>
         <name lang="fr">Interrupteur à semiconducteur, (statique)
 passage du courant dans un seul sens</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x2="-60" y3="0" closed="false" x4="-50" x3="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y4="15" x1="-50" y1="15" y2="0"/>
-        <line x2="-40" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-60" y1="15" length2="1.5" y2="15" end2="none"/>
-        <dynamic_text uuid="{f039a17e-51f6-4545-a527-1e248d6c415d}" y="12.5" Valignment="AlignTop" frame="false" z="3" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="5" text_from="ElementInfo" text_width="-1">
+        <polygon x1="-50" y1="15" x2="-60" y2="0" x3="-40" y3="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-60" y1="15" x2="-40" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5" y="12.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f039a17e-51f6-4545-a527-1e248d6c415d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="10" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-10" y1="0" length2="1.5" y2="0" end2="none"/>
-        <line x2="-50" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-50" y1="0" length2="1.5" y2="20" end2="none"/>
-        <line x2="0" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" y1="0" length2="1.5" y2="20" end2="none"/>
-        <line x2="-50" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-50" y1="-20" length2="1.5" y2="-30" end2="none"/>
-        <line x2="0" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" y1="-20" length2="1.5" y2="-30" end2="none"/>
-        <line x2="-57" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-50" y1="0" length2="1.5" y2="-21" end2="none"/>
-        <line x2="-7" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" y1="0" length2="1.5" y2="-21" end2="none"/>
-        <polygon x2="-10" y3="0" closed="false" x4="10" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y4="15" x1="10" y1="15" y2="15"/>
-        <terminal uuid="{80bd8e53-1ca0-4a81-8244-79d14b483fa3}" orientation="s" y="20" x="0" type="Generic" name=""/>
-        <terminal uuid="{ed11ca22-b2a9-4976-834f-2a179014603d}" orientation="n" y="-30" x="0" type="Generic" name=""/>
-        <terminal uuid="{5a5f1db5-0ae5-4ac6-81e4-bf89c90de2ca}" orientation="s" y="20" x="-50" type="Generic" name=""/>
-        <terminal uuid="{ba0c73df-afe5-4502-af1e-30816eb9f664}" orientation="n" y="-30" x="-50" type="Generic" name=""/>
+        <line x1="-10" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-50" y1="0" x2="-50" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-50" y1="-20" x2="-50" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-50" y1="0" x2="-57" y2="-21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="0" x2="-7" y2="-21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="10" y1="15" x2="-10" y2="15" x3="0" y3="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{80bd8e53-1ca0-4a81-8244-79d14b483fa3}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{ed11ca22-b2a9-4976-834f-2a179014603d}" name="" x="0" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{5a5f1db5-0ae5-4ac6-81e4-bf89c90de2ca}" name="" x="-50" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{ba0c73df-afe5-4502-af1e-30816eb9f664}" name="" x="-50" y="-30" orientation="n" type="Generic"/>
     </description>
 </definition>

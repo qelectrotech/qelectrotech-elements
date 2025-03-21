@@ -1,45 +1,44 @@
-<definition version="0.100.0" hotspot_x="44" hotspot_y="19" type="element" link_type="simple" width="70" height="40">
-    <uuid uuid="{fa1cca47-1273-40af-bbf7-d1b9af9a42f7}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="80" height="50" hotspot_x="49" hotspot_y="25">
+    <uuid uuid="{02511de4-4e62-8011-0256-84802e031740}"/>
     <names>
-        <name lang="es">Conector de módulo + botón pulsador</name>
-        <name lang="nl">Modulekontakt + Drukknop enkel</name>
         <name lang="cs">Modul spínače + tlačítko</name>
         <name lang="en">Switch. Act. mod. + PB single</name>
-        <name lang="pl">Moduł łącznika + przycisk</name>
-        <name lang="it">Modulo contatto + pulsante</name>
+        <name lang="es">Conector de módulo + botón pulsador</name>
         <name lang="fr">Connecteur de module + bouton poussoir</name>
+        <name lang="it">Modulo contatto + pulsante</name>
+        <name lang="nl">Modulekontakt + Drukknop enkel</name>
+        <name lang="pl">Moduł łącznika + przycisk</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect y="-15" x="-40" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="30" height="30"/>
-        <circle y="4" x="9" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="8"/>
-        <circle y="6" x="11" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="4"/>
-        <rect y="-15" x="-10" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="30" height="30"/>
-        <line end1="none" length1="1.5" end2="none" length2="1.5" antialias="true" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" y1="15" x1="-10"/>
-        <dynamic_text y="-9" x="10" font="Sans Serif,5,-1,5,50,0,0,0,0,0" uuid="{ebe27619-5264-4fc0-8e3b-c8441f541575}" z="6" rotation="0" text_width="-1" text_from="UserText" Halignment="AlignLeft" Valignment="AlignTop" frame="false" keep_visual_rotation="false">
+        <rect x="-40" y="-15" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="9" y="4" width="8" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="11" y="6" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-10" y="-15" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="15" x2="20" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="10" y="-9" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{ebe27619-5264-4fc0-8e3b-c8441f541575}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
             <text>1</text>
         </dynamic_text>
-        <polygon x3="-20" y3="-3" antialias="true" x2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="0" y1="0" x1="-35"/>
-        <line end1="none" length1="1.5" end2="none" length2="1.5" antialias="false" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y1="0" x1="-15"/>
-        <dynamic_text y="-38.5" x="-42" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{f42efec4-1b4a-415c-bece-660ff6ccaecf}" z="9" rotation="0" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" frame="false" keep_visual_rotation="false">
+        <polygon x1="-35" y1="0" x2="-30" y2="0" x3="-20" y3="-3" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-15" y1="0" x2="-20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-42" y="-38.5" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f42efec4-1b4a-415c-bece-660ff6ccaecf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="10" x="-40" name="" uuid="{bc452254-6cad-44d2-bdc3-9e5aceb275e5}" type="Generic" orientation="w"/>
-        <terminal y="0" x="-40" name="" uuid="{f38b677f-373f-415e-bf88-f47b15c10803}" type="Generic" orientation="w"/>
-        <terminal y="-10" x="-40" name="" uuid="{0492a287-0adb-4bfe-a64e-bbf39c0438a2}" type="Generic" orientation="w"/>
-        <terminal y="0" x="20" name="" uuid="{f5896ecd-2a5a-4615-8088-714908c83a80}" type="Generic" orientation="e"/>
-        <terminal y="10" x="21" name="" uuid="{8b235889-0439-4b43-aabb-80813c306c59}" type="Generic" orientation="e"/>
-        <terminal y="-10" x="20" name="" uuid="{920547b0-dce9-4621-baba-ea7417c88469}" type="Generic" orientation="e"/>
-        <terminal y="15" x="-30" name="" uuid="{8ce2f157-5f40-4009-98b0-fa23dc781b76}" type="Generic" orientation="s"/>
-        <terminal y="-15" x="-20" name="" uuid="{f8e20bce-55b4-4800-8f10-97ae0a53b7cb}" type="Generic" orientation="n"/>
-        <terminal y="-15" x="0" name="" uuid="{a27b3b7f-bb35-49d5-a4ad-578776d43a93}" type="Generic" orientation="n"/>
-        <terminal y="-15" x="-30" name="" uuid="{13bef6d4-88ad-4635-aa9d-1984dc97690d}" type="Generic" orientation="n"/>
-        <terminal y="15" x="-20" name="" uuid="{836b87e1-3487-4874-b69b-018b537a3dee}" type="Generic" orientation="s"/>
-        <terminal y="15" x="10" name="" uuid="{34a72366-9e30-4e1d-a2c2-1585041d077f}" type="Generic" orientation="s"/>
-        <terminal y="15" x="0" name="" uuid="{ccb8c2da-4ffa-46e4-baa3-063eb8d2e700}" type="Generic" orientation="s"/>
-        <terminal y="-15" x="10" name="" uuid="{eee89e2d-1b78-46fb-b3df-60384e98219c}" type="Generic" orientation="n"/>
+        <terminal uuid="{bc452254-6cad-44d2-bdc3-9e5aceb275e5}" name="" x="-40" y="10" orientation="w" type="Generic"/>
+        <terminal uuid="{f38b677f-373f-415e-bf88-f47b15c10803}" name="" x="-40" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{0492a287-0adb-4bfe-a64e-bbf39c0438a2}" name="" x="-40" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{f5896ecd-2a5a-4615-8088-714908c83a80}" name="" x="20" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{8b235889-0439-4b43-aabb-80813c306c59}" name="" x="21" y="10" orientation="e" type="Generic"/>
+        <terminal uuid="{920547b0-dce9-4621-baba-ea7417c88469}" name="" x="20" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{8ce2f157-5f40-4009-98b0-fa23dc781b76}" name="" x="-30" y="15" orientation="s" type="Generic"/>
+        <terminal uuid="{f8e20bce-55b4-4800-8f10-97ae0a53b7cb}" name="" x="-20" y="-15" orientation="n" type="Generic"/>
+        <terminal uuid="{a27b3b7f-bb35-49d5-a4ad-578776d43a93}" name="" x="0" y="-15" orientation="n" type="Generic"/>
+        <terminal uuid="{13bef6d4-88ad-4635-aa9d-1984dc97690d}" name="" x="-30" y="-15" orientation="n" type="Generic"/>
+        <terminal uuid="{836b87e1-3487-4874-b69b-018b537a3dee}" name="" x="-20" y="15" orientation="s" type="Generic"/>
+        <terminal uuid="{34a72366-9e30-4e1d-a2c2-1585041d077f}" name="" x="10" y="15" orientation="s" type="Generic"/>
+        <terminal uuid="{ccb8c2da-4ffa-46e4-baa3-063eb8d2e700}" name="" x="0" y="15" orientation="s" type="Generic"/>
+        <terminal uuid="{eee89e2d-1b78-46fb-b3df-60384e98219c}" name="" x="10" y="-15" orientation="n" type="Generic"/>
     </description>
 </definition>

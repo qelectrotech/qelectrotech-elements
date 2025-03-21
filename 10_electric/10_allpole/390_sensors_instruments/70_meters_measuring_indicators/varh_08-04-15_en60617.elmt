@@ -1,27 +1,26 @@
-<definition hotspot_y="34" link_type="simple" type="element" hotspot_x="20" version="0.100.0" height="60" width="40">
-    <uuid uuid="{f3422921-05ea-4383-9b50-c5fcfb0f6a4f}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="22" hotspot_y="35">
+    <uuid uuid="{de8184c2-2428-0f00-251e-375a8076a719}"/>
     <names>
+        <name lang="cs">Jalový elektroměr</name>
         <name lang="de">Blindverbrauchszähler</name>
         <name lang="el">Μετρητής αέργου ισχύος (βαρόμετρο)</name>
-        <name lang="nl">VAr energie meter</name>
         <name lang="en">reactive energy meter</name>
-        <name lang="it">Misuratore di varh</name>
-        <name lang="pl">Licznik warogodzin</name>
-        <name lang="cs">Jalový elektroměr</name>
         <name lang="fr">Varheuremètre</name>
+        <name lang="it">Misuratore di varh</name>
+        <name lang="nl">VAr energie meter</name>
+        <name lang="pl">Licznik warogodzin</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="15" text_from="ElementInfo" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-25.95" frame="false" uuid="{ee384187-ce94-40e1-9bb1-19e429231644}" z="1" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" keep_visual_rotation="false">
+        <dynamic_text x="15" y="-25.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ee384187-ce94-40e1-9bb1-19e429231644}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-15" rx="0" y="-14" ry="0" height="26" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" antialias="false"/>
-        <rect x="-15" rx="0" y="-22" ry="0" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" width="30" antialias="false"/>
-        <text x="-12" font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" y="4" color="#000000" text="varh"/>
-        <terminal x="0" y="-27" orientation="n" type="Generic" uuid="{afb0c719-5b9a-4f4e-b848-25ab938d1169}" name=""/>
-        <terminal x="0" y="17" orientation="s" type="Generic" uuid="{e09d181d-03ad-45c5-921d-389fb301b419}" name=""/>
+        <rect x="-15" y="-14" width="30" height="26" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-22" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="varh" x="-12" y="4" rotation="0" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{afb0c719-5b9a-4f4e-b848-25ab938d1169}" name="" x="0" y="-27" orientation="n" type="Generic"/>
+        <terminal uuid="{e09d181d-03ad-45c5-921d-389fb301b419}" name="" x="0" y="17" orientation="s" type="Generic"/>
     </description>
 </definition>
