@@ -1,37 +1,36 @@
-<definition hotspot_x="18" version="0.100.0" width="40" height="90" type="element" link_type="simple" hotspot_y="44">
-    <uuid uuid="{74f0e36d-9169-415b-b7ae-9bc6d186b0b3}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="90" hotspot_x="20" hotspot_y="45">
+    <uuid uuid="{f8c6f495-ab47-5a5c-df6e-0ee3ab9748fc}"/>
     <names>
-        <name lang="es">Autotransformador monofásico</name>
-        <name lang="el">Αυτομετασχηματιστής μονοφασικός</name>
         <name lang="ar">مُحوّل ذاتي أحادي الوجه</name>
-        <name lang="de">Spartransformator einphasig</name>
         <name lang="cs">Jednofázový autotransformátor</name>
+        <name lang="de">Spartransformator einphasig</name>
+        <name lang="el">Αυτομετασχηματιστής μονοφασικός</name>
         <name lang="en">Single phase autotransducer</name>
-        <name lang="nl">enkelfase autotransformator</name>
-        <name lang="it">Autotrasformatore monofase</name>
+        <name lang="es">Autotransformador monofásico</name>
         <name lang="fr">Autotransformateur monophasé</name>
+        <name lang="it">Autotrasformatore monofase</name>
+        <name lang="nl">enkelfase autotransformator</name>
         <name lang="pl">Autotransformator jednofazowy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line antialias="false" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" length2="1.5" x1="8" y2="-35" y1="-20"/>
-        <line antialias="false" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" length2="1.5" x1="-8" y2="-35" y1="-13"/>
-        <arc antialias="true" x="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" width="50" height="50" angle="-110" start="-180"/>
-        <line antialias="false" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" length2="1.5" x1="8" y2="35" y1="18"/>
-        <line antialias="false" x2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" length1="1.5" length2="1.5" x1="-8" y2="35" y1="18"/>
-        <dynamic_text text_from="UserText" Valignment="AlignTop" x="20" frame="false" keep_visual_rotation="false" y="8.1667" text_width="-1" z="6" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{176ca445-6b9d-4984-9e13-e3176e1a6fd1}" rotation="0">
+        <line x1="8" y1="-20" x2="8" y2="-35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-8" y1="-13" x2="-8" y2="-35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-15" y="-20" width="50" height="50" start="70" angle="110" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="8" y1="18" x2="8" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-8" y1="18" x2="-8" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="20" y="8.17" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{176ca445-6b9d-4984-9e13-e3176e1a6fd1}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
             <text>___V</text>
         </dynamic_text>
-        <circle antialias="true" x="-15" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10"/>
-        <dynamic_text text_from="ElementInfo" Valignment="AlignTop" x="17.75" frame="false" keep_visual_rotation="false" y="-8.5" text_width="-1" z="8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{3cfb8bf2-8fa0-4db7-81ee-07db242b39a5}" rotation="0">
+        <ellipse x="-15" y="-10" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="17.75" y="-8.5" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3cfb8bf2-8fa0-4db7-81ee-07db242b39a5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal x="8" y="-36" name="" uuid="{2fc343aa-82c7-4e57-a512-f340b2a30c40}" type="Generic" orientation="n"/>
-        <terminal x="-8" y="-36" name="" uuid="{8486575f-3dc2-4723-9fde-698de82197da}" type="Generic" orientation="n"/>
-        <terminal x="-8" y="36" name="" uuid="{537edc56-1909-4e81-af1c-ee886795040b}" type="Generic" orientation="s"/>
-        <terminal x="8" y="36" name="" uuid="{50e01505-a538-4b8c-88e8-0e85f04f715b}" type="Generic" orientation="s"/>
+        <terminal uuid="{2fc343aa-82c7-4e57-a512-f340b2a30c40}" name="" x="8" y="-36" orientation="n" type="Generic"/>
+        <terminal uuid="{8486575f-3dc2-4723-9fde-698de82197da}" name="" x="-8" y="-36" orientation="n" type="Generic"/>
+        <terminal uuid="{537edc56-1909-4e81-af1c-ee886795040b}" name="" x="-8" y="36" orientation="s" type="Generic"/>
+        <terminal uuid="{50e01505-a538-4b8c-88e8-0e85f04f715b}" name="" x="8" y="36" orientation="s" type="Generic"/>
     </description>
 </definition>

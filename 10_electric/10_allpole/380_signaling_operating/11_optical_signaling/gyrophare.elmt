@@ -1,34 +1,33 @@
-<definition height="50" link_type="simple" hotspot_y="24" version="0.100.0" type="element" width="50" hotspot_x="24">
-    <uuid uuid="{2f38a456-3999-4bf5-b4fc-40fcc31a6591}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="60" hotspot_x="24" hotspot_y="30">
+    <uuid uuid="{5ea7b279-f9e6-7a6b-1564-bab6add79014}"/>
     <names>
+        <name lang="ar">مصباح برّاق</name>
+        <name lang="cs">Maják</name>
         <name lang="de">Rundumleuchte</name>
-        <name lang="en">Flashing light</name>
-        <name lang="it">Lampaggiatore</name>
-        <name lang="fr">Gyrophare</name>
         <name lang="el">Φάρος</name>
+        <name lang="en">Flashing light</name>
+        <name lang="es">Luz intermitente</name>
+        <name lang="fr">Gyrophare</name>
+        <name lang="it">Lampaggiatore</name>
         <name lang="nl">Lamp Alarm</name>
         <name lang="pl">Sygnalizator świetlny napędzany silnikiem</name>
-        <name lang="cs">Maják</name>
-        <name lang="es">Luz intermitente</name>
-        <name lang="ar">مصباح برّاق</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text rotation="0" text="M" y="2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="7" color="#000000"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-11.95" z="2" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ef58990b-2378-43d8-8ebb-5e53bc0f4ef9}" x="28" keep_visual_rotation="false" Valignment="AlignTop">
+        <text text="M" x="7" y="2" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="28" y="-11.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ef58990b-2378-43d8-8ebb-5e53bc0f4ef9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle y="-8" antialias="true" diameter="16" style="line-style:normal;line-weight:normal;filling:none;color:black" x="3"/>
-        <circle y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="1"/>
-        <circle y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="-3" x2="-17" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="-17" x2="-3" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-20" antialias="false" x1="-10" x2="-10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
-        <line length2="1.5" y1="10" antialias="false" x1="-10" x2="-10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
-        <terminal y="-20" orientation="n" name="A1" type="Generic" uuid="{5b31eea4-ed41-4a2c-958d-944839cccd38}" x="-10"/>
-        <terminal y="20" orientation="s" name="A2" type="Generic" uuid="{838c2581-c0f0-43c2-9e1a-661ca0f53e80}" x="-10"/>
+        <ellipse x="3" y="-8" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="1" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-20" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-3" y1="-7" x2="-17" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-17" y1="-7" x2="-3" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="-20" x2="-10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="10" x2="-10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{5b31eea4-ed41-4a2c-958d-944839cccd38}" name="A1" x="-10" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{838c2581-c0f0-43c2-9e1a-661ca0f53e80}" name="A2" x="-10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

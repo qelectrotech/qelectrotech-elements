@@ -1,5 +1,5 @@
-<definition link_type="simple" height="50" type="element" hotspot_x="30" width="60" hotspot_y="25" version="0.90">
-    <uuid uuid="{053130dc-4ebb-42de-b381-ed70d7e6a277}"/>
+<definition version="0.90" type="element" link_type="simple" width="60" height="60" hotspot_x="31" hotspot_y="30">
+    <uuid uuid="{fc7a5d48-601f-a121-2919-0c8d4497fbf5}"/>
     <names>
         <name lang="ar">توقيت هوائي</name>
         <name lang="ca">temporitzador pneumàtic</name>
@@ -26,25 +26,24 @@
         <name lang="sr">пнеуматски тајмер</name>
         <name lang="tr">pnömatik zamanlayıcı</name>
     </names>
-    <elementInformations/>
-    <informations></informations>
+    <informations>edited with "QET_ElementScaler"</informations>
     <description>
-        <dynamic_text z="1" x="8" font="MS Shell Dlg 2,9,-1,5,50,0,0,0,0,0,Normál" keep_visual_rotation="true" text_width="-1" rotation="0" uuid="{c7fe176a-401d-4fd6-ab54-84b1ec282477}" text_from="ElementInfo" frame="false" y="-47" Halignment="AlignLeft" Valignment="AlignTop">
+        <dynamic_text x="8" y="-47" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{c7fe176a-401d-4fd6-ab54-84b1ec282477}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text x="12" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="20" text="1"/>
-        <text x="-14" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="20" text="2"/>
-        <text x="13" font="Sans Serif,7,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="-1" text="t1"/>
-        <text x="-4" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="-16" text="3"/>
-        <line x1="16" length1="1.5" x2="-17" end2="none" end1="none" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="5" antialias="false"/>
-        <line x1="-17" length1="1.5" x2="-17" end2="none" end1="none" y1="2" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="8" antialias="false"/>
-        <line x1="17" length1="1.5" x2="17" end2="none" end1="none" y1="2" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="8" antialias="false"/>
-        <line x1="-10" length1="1.5" x2="10" end2="simple" end1="none" y1="9" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y2="-1" antialias="false"/>
-        <text x="-20" font="Sans Serif,7,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" y="-1" text="t0"/>
-        <rect x="-25" height="30" rx="0" width="50" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" antialias="false"/>
-        <terminal x="10" type="Generic" name="" uuid="{c9510c17-2a71-42f3-833c-77b994b1be8a}" orientation="s" y="20"/>
-        <terminal x="0" type="Generic" name="" uuid="{af1cce47-2db4-422c-a64a-8b37e6e6f489}" orientation="n" y="-20"/>
-        <terminal x="-10" type="Generic" name="" uuid="{8021e182-085f-4a81-b6e1-10d3367d2bf7}" orientation="s" y="20"/>
+        <text text="1" x="12" y="20" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="2" x="-14" y="20" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="t1" x="13" y="-1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="3" x="-4" y="-16" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="16" y1="5" x2="-17" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-17" y1="2" x2="-17" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="17" y1="2" x2="17" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="9" x2="10" y2="-1" end1="none" end2="simple" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="t0" x="-20" y="-1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <rect x="-25" y="-15" width="50" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{c9510c17-2a71-42f3-833c-77b994b1be8a}" name="" x="10" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{af1cce47-2db4-422c-a64a-8b37e6e6f489}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{8021e182-085f-4a81-b6e1-10d3367d2bf7}" name="" x="-10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

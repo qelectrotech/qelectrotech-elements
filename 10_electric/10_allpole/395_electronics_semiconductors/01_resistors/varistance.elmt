@@ -1,28 +1,27 @@
-<definition type="element" width="30" hotspot_x="11" hotspot_y="24" version="0.90" link_type="simple" height="50">
-    <uuid uuid="{f2d81774-85a0-4cbe-839a-5e14b3f7d11e}"/>
+<definition version="0.90" type="element" link_type="simple" width="30" height="60" hotspot_x="11" hotspot_y="30">
+    <uuid uuid="{b4effcf4-0a8d-64ba-6eaf-d0624e1fe7ed}"/>
     <names>
+        <name lang="ar">مقاومة مرتبطة بالجهد (فاريستور)</name>
         <name lang="cs">Varistor</name>
         <name lang="de">Varistor</name>
-        <name lang="pl">Warystor</name>
-        <name lang="it">Varistore</name>
         <name lang="en">Varistor</name>
         <name lang="es">Varistor</name>
-        <name lang="nl">Varistor VDR</name>
-        <name lang="ar">مقاومة مرتبطة بالجهد (فاريستور)</name>
         <name lang="fr">Varistance</name>
+        <name lang="it">Varistore</name>
+        <name lang="nl">Varistor VDR</name>
+        <name lang="pl">Warystor</name>
     </names>
-    <elementInformations/>
     <informations>EN 60617: 04-01-04</informations>
     <description>
-        <line antialias="false" y1="20" x2="0" length2="1.5" y2="-20" x1="0" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none"/>
-        <rect antialias="false" x="-4" ry="0" width="8" y="-10" rx="0" height="20" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
-        <text font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" x="9" y="10" text="U" color="#000000"/>
-        <polygon antialias="true" y3="-10" closed="false" y1="10" x2="7" y2="5" x3="-7" x1="7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false" x="6" uuid="{570cd854-578d-4c4b-bd2a-3498353e46b6}" text_width="-1" y="-11.5" text_from="ElementInfo" z="5" Halignment="AlignLeft" Valignment="AlignTop">
+        <line x1="0" y1="20" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-4" y="-10" width="8" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false"/>
+        <text text="U" x="9" y="10" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <polygon x1="7" y1="10" x2="7" y2="5" x3="-7" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="6" y="-11.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{570cd854-578d-4c4b-bd2a-3498353e46b6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal x="0" uuid="{4410c57c-3796-4696-b63b-d8d5a0c9b788}" type="Generic" orientation="n" y="-20" name="A1"/>
-        <terminal x="0" uuid="{09a3060b-a0fd-41ad-b605-f5c0ae63901e}" type="Generic" orientation="s" y="20" name="A2"/>
+        <terminal uuid="{4410c57c-3796-4696-b63b-d8d5a0c9b788}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{09a3060b-a0fd-41ad-b605-f5c0ae63901e}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

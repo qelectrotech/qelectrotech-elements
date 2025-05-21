@@ -1,34 +1,33 @@
-<definition hotspot_x="15" link_type="simple" width="30" height="60" type="element" hotspot_y="29" version="0.100.0">
-    <uuid uuid="{77eea8fc-66ac-4617-8ba8-cca7c7c365b9}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{004a9bff-369c-9e44-a697-b2d9320322d0}"/>
     <names>
-        <name lang="es">Fuente de corriente (antiguo)</name>
-        <name lang="pt">Fonte de corrente (antigo)</name>
-        <name lang="pl">Źródło prądu (stary)</name>
-        <name lang="ru">Источник тока (старый)</name>
-        <name lang="el">Παροχή έντασης (παλιό)</name>
-        <name lang="nl">Stroombron oud</name>
+        <name lang="ar">مصدر تيّار (قديم)</name>
         <name lang="cs">Zdroj proudu (starý)</name>
         <name lang="de">Stromquelle (alt)</name>
-        <name lang="it">Generatore di corrente (vecchio)</name>
-        <name lang="fr">Source de courant (vieux)</name>
+        <name lang="el">Παροχή έντασης (παλιό)</name>
         <name lang="en">Current source (old)</name>
-        <name lang="ar">مصدر تيّار (قديم)</name>
+        <name lang="es">Fuente de corriente (antiguo)</name>
+        <name lang="fr">Source de courant (vieux)</name>
+        <name lang="it">Generatore di corrente (vecchio)</name>
+        <name lang="nl">Stroombron oud</name>
+        <name lang="pl">Źródło prądu (stary)</name>
+        <name lang="pt">Fonte de corrente (antigo)</name>
+        <name lang="ru">Источник тока (старый)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-15" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="20"/>
-        <polygon x3="3" x2="0" y3="-8" y2="-12" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="-3" antialias="true" y1="-8"/>
-        <line x2="0" y2="12" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end2="none" length2="1.5" antialias="false" end1="none" length1="1.5" y1="-9"/>
-        <circle y="-5" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="20"/>
-        <line x2="0" y2="15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end2="none" length2="1.5" antialias="false" end1="none" length1="1.5" y1="20"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="-9.5" text_width="-1" x="12.75" frame="false" uuid="{5100c76d-087d-4363-980c-426367949312}" z="6" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft">
+        <ellipse x="-10" y="-15" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="-3" y1="-8" x2="0" y2="-12" x3="3" y3="-8" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <line x1="0" y1="-9" x2="0" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-10" y="-5" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="20" x2="0" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="12.75" y="-9.5" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5100c76d-087d-4363-980c-426367949312}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="0" y2="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end2="none" length2="1.5" antialias="false" end1="none" length1="1.5" y1="-20"/>
-        <terminal name="" y="-20" x="0" uuid="{d5adaba2-c24e-47c1-9d48-f626f3fc18c5}" orientation="n" type="Generic"/>
-        <terminal name="" y="20" x="0" uuid="{2ae0a234-d592-4b2d-9003-b8221320f48c}" orientation="s" type="Generic"/>
+        <line x1="0" y1="-20" x2="0" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{d5adaba2-c24e-47c1-9d48-f626f3fc18c5}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{2ae0a234-d592-4b2d-9003-b8221320f48c}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

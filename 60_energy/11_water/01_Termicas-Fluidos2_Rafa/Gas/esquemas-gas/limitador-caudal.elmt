@@ -1,23 +1,22 @@
-<definition height="30" link_type="simple" hotspot_x="14" version="0.100.0" hotspot_y="16" type="element" width="30">
-    <uuid uuid="{18fbb9c5-53b1-46f5-81b7-8e6e1e2ee9d0}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="30" hotspot_x="20" hotspot_y="15">
+    <uuid uuid="{e56606ae-b498-2451-b2a9-ce595dd811e0}"/>
     <names>
         <name lang="es">Limitador de caudal</name>
     </names>
-    <elementInformations/>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" end2="none" x1="5" end1="none" y1="0" x2="10" length1="1.5"/>
-        <rect height="10" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" rx="0" y="-5" x="-5" width="10"/>
-        <text color="#000000" rotation="0" y="3" x="-3" text="Q" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
-        <line length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="0" end2="none" x1="-10" end1="none" y1="0" x2="-5" length1="1.5"/>
-        <circle diameter="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-10" x="2"/>
-        <polygon y3="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-8" x1="2" closed="false" x3="0" y1="-8" x2="0" x4="0" y4="-5"/>
-        <dynamic_text rotation="0" z="7" Halignment="AlignLeft" keep_visual_rotation="false" y="-23" uuid="{38ca8cb8-e831-4264-8754-4fa223f08eb6}" x="-7" frame="false" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_width="-1">
+        <line x1="5" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-5" y="-5" width="10" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="Q" x="-3" y="3" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-10" y1="0" x2="-5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="2" y="-10" width="3" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="2" y1="-8" x2="0" y2="-8" x3="0" y3="-5" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="-7" y="-23" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{38ca8cb8-e831-4264-8754-4fa223f08eb6}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal name="" y="0" uuid="{7ce7f6af-7df4-43d1-87be-3abd5ce347cc}" x="10" orientation="e" type="Generic"/>
-        <terminal name="" y="0" uuid="{64071fb2-9450-4bb8-b487-ef3cc6891cae}" x="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{7ce7f6af-7df4-43d1-87be-3abd5ce347cc}" name="" x="10" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{64071fb2-9450-4bb8-b487-ef3cc6891cae}" name="" x="-10" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

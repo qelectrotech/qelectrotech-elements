@@ -1,30 +1,29 @@
-<definition version="0.100.0" width="40" hotspot_x="19" link_type="simple" type="element" height="50" hotspot_y="35">
-    <uuid uuid="{a40e92b8-f217-4b95-b174-938125d7b9f5}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="25" hotspot_y="35">
+    <uuid uuid="{6fdfe889-6a34-5a48-9abf-3bf683b10031}"/>
     <names>
-        <name lang="it">Valvola</name>
-        <name lang="es">Válvula de 2 vías</name>
         <name lang="ar">صمّام بمسارين</name>
         <name lang="cs">Dvoucestný ventil</name>
-        <name lang="pl">Zawór dwudrożny</name>
         <name lang="en">2-way valve</name>
-        <name lang="nl">klep 2</name>
+        <name lang="es">Válvula de 2 vías</name>
         <name lang="fr">Vanne 2 voies</name>
+        <name lang="it">Valvola</name>
+        <name lang="nl">klep 2</name>
+        <name lang="pl">Zawór dwudrożny</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" x="-7" y="-1.95" uuid="{7b0630a9-c23a-424e-99ae-7b29092b0629}" Valignment="AlignTop" text_from="ElementInfo" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <dynamic_text x="-7" y="-1.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7b0630a9-c23a-424e-99ae-7b29092b0629}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-10" y="-31" width="20" ry="0" rx="0" height="20"/>
-        <text x="-5" y="-19" color="#000000" text="V1" font="Sans Serif,6,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <line y2="-1" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="1" antialias="false" x2="1" length1="2.5" end2="none" length2="1.5" y1="-10"/>
-        <line y2="-1" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-1" antialias="false" x2="-1" length1="1.5" end2="none" length2="1.5" y1="-10"/>
-        <polygon y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" antialias="true" x3="15" x4="15" y4="10" x2="0" y5="10" y1="10" y3="-10" x5="15"/>
-        <polygon y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="true" x3="-15" x4="0" y4="0" x2="-15" y5="0" y1="0" y3="10" x5="0"/>
-        <terminal x="-15" y="0" uuid="{4eae772b-c943-4e96-b07a-5b7366f2fd5c}" name="" orientation="w" type="Generic"/>
-        <terminal x="15" y="0" uuid="{380867c6-1f13-407b-a28c-cf342ea36b70}" name="" orientation="e" type="Generic"/>
+        <rect x="-10" y="-31" width="20" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="V1" x="-5" y="-19" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="1" y1="-10" x2="1" y2="-1" end1="none" end2="none" length1="2.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-1" y1="-10" x2="-1" y2="-1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="15" y1="10" x2="0" y2="0" x3="15" y3="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="0" y1="0" x2="-15" y2="-10" x3="-15" y3="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{4eae772b-c943-4e96-b07a-5b7366f2fd5c}" name="" x="-15" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{380867c6-1f13-407b-a28c-cf342ea36b70}" name="" x="15" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

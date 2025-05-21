@@ -1,37 +1,36 @@
-<definition width="40" type="element" hotspot_x="27" hotspot_y="26" height="50" version="0.100.0" link_type="simple">
-    <uuid uuid="{a84c73a8-bdf0-4641-8ebc-7d5a38c9c37a}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="33" hotspot_y="25">
+    <uuid uuid="{c8b46d53-e37b-c851-ef1e-8dc8252a787e}"/>
     <names>
-        <name lang="en">Flowmeter pulse</name>
         <name lang="ar">مقياس تدفق بالنبضات</name>
+        <name lang="cs">Průtokoměr impulzní</name>
+        <name lang="de">Durchflusszähler</name>
+        <name lang="en">Flowmeter pulse</name>
+        <name lang="es">Medidor de flujo de pulsos</name>
         <name lang="fr">Débitmètre à impulsions</name>
         <name lang="it">Flussimetro a impulsi</name>
-        <name lang="de">Durchflusszähler</name>
-        <name lang="pl">Przepływomierz impulsowy</name>
         <name lang="nl">Debietmeter puls</name>
-        <name lang="es">Medidor de flujo de pulsos</name>
-        <name lang="cs">Průtokoměr impulzní</name>
+        <name lang="pl">Przepływomierz impulsowy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" y="-10" antialias="true"/>
-        <text color="#000000" text="13" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" x="2" y="-12.6667"/>
-        <text color="#000000" text="14" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" x="2" y="15"/>
-        <dynamic_text Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" z="4" font="Sans Serif,8,-1,5,50,0,0,0,0,0" uuid="{37a7bdec-1af9-4f2e-a07a-13235ca8d5fb}" rotation="0" frame="false" x="11" y="-21.5" keep_visual_rotation="false">
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="13" x="2" y="-12.67" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="14" x="2" y="15" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="11" y="-21.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{37a7bdec-1af9-4f2e-a07a-13235ca8d5fb}" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" text_width="-1" Halignment="AlignLeft" text_from="UserText" z="5" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{5c479056-d3ce-41c9-b0e6-9eff1bbc7a9e}" rotation="0" frame="false" x="10" y="2.3333" keep_visual_rotation="false">
+        <dynamic_text x="10" y="2.33" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{5c479056-d3ce-41c9-b0e6-9eff1bbc7a9e}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>__ imp/l</text>
         </dynamic_text>
-        <line end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-2" x1="-13" y2="2" x2="-13" length1="1.5" antialias="false"/>
-        <text color="#000000" text="Q" font="Sans Serif,8,-1,5,50,0,0,0,0,0" rotation="0" x="-23" y="2.5"/>
-        <line end2="none" end1="none" style="line-style:dashed;line-weight:normal;filling:none;color:black" length2="1.5" y1="0" x1="-13" y2="0" x2="-2" length1="1.5" antialias="false"/>
-        <line end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-6" x1="-3" y2="6" x2="0" length1="1.5" antialias="true"/>
-        <line end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="6" x1="0" y2="15" x2="0" length1="1.5" antialias="false"/>
-        <line end2="none" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-15" x1="0" y2="-6" x2="0" length1="1.5" antialias="false"/>
-        <terminal orientation="n" type="Generic" uuid="{7261dc81-c841-493f-abda-ed2eb225277d}" name="" x="0" y="-15"/>
-        <terminal orientation="s" type="Generic" uuid="{306be9da-1ac1-4300-a12e-390b79bb5326}" name="" x="0" y="15"/>
+        <line x1="-13" y1="-2" x2="-13" y2="2" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="Q" x="-23" y="2.5" rotation="0" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-13" y1="0" x2="-2" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-3" y1="-6" x2="0" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="6" x2="0" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-15" x2="0" y2="-6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{7261dc81-c841-493f-abda-ed2eb225277d}" name="" x="0" y="-15" orientation="n" type="Generic"/>
+        <terminal uuid="{306be9da-1ac1-4300-a12e-390b79bb5326}" name="" x="0" y="15" orientation="s" type="Generic"/>
     </description>
 </definition>

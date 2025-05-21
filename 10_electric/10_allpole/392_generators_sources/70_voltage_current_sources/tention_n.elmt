@@ -1,30 +1,29 @@
-<definition width="30" hotspot_y="29" version="0.100.0" type="element" hotspot_x="15" link_type="simple" height="60">
-    <uuid uuid="{b8be95a0-f756-43ff-81e5-6345d0e4891a}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{afce6fe7-cf0d-2f58-5034-5b6b011f8e14}"/>
     <names>
-        <name lang="cs">Zdroj napětí (nový)</name>
-        <name lang="ru">Источник напряжения (новый)</name>
-        <name lang="fr">Source de tension (nouveau)</name>
-        <name lang="el">Παροχή τάσης (νεο)</name>
-        <name lang="de">Spannungsquelle (neu)</name>
-        <name lang="es">Fuente de tensión (nuevo)</name>
         <name lang="ar">مصدر جهد (جديد)</name>
-        <name lang="pt">Fonte de tensão (novo)</name>
-        <name lang="pl">Źródło napięcia (nowy)</name>
-        <name lang="nl">Spanningsbron nieuw</name>
+        <name lang="cs">Zdroj napětí (nový)</name>
+        <name lang="de">Spannungsquelle (neu)</name>
+        <name lang="el">Παροχή τάσης (νεο)</name>
         <name lang="en">Voltage source (new)</name>
+        <name lang="es">Fuente de tensión (nuevo)</name>
+        <name lang="fr">Source de tension (nouveau)</name>
         <name lang="it">Generatore di tensione (nuovo)</name>
+        <name lang="nl">Spanningsbron nieuw</name>
+        <name lang="pl">Źródło napięcia (nowy)</name>
+        <name lang="pt">Fonte de tensão (novo)</name>
+        <name lang="ru">Источник напряжения (новый)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle diameter="20" x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" rotation="0" x="12.75" y="-9.5" frame="false" text_from="ElementInfo" Valignment="AlignTop" uuid="{747441a4-9f21-4d26-80c5-4198a1d2abdf}" keep_visual_rotation="false" z="2">
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="12.75" y="-9.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{747441a4-9f21-4d26-80c5-4198a1d2abdf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="0" end2="none" antialias="false" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end1="none" length2="1.5" y2="20"/>
-        <terminal x="0" y="-20" type="Generic" uuid="{0bf05fd2-2d74-4300-b575-40374e91319c}" name="" orientation="n"/>
-        <terminal x="0" y="20" type="Generic" uuid="{2f272e4f-7582-44a7-abb4-a45638c66936}" name="" orientation="s"/>
+        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{0bf05fd2-2d74-4300-b575-40374e91319c}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{2f272e4f-7582-44a7-abb4-a45638c66936}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

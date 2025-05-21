@@ -1,30 +1,29 @@
-<definition width="50" version="0.100.0" hotspot_y="8" height="20" hotspot_x="24" link_type="simple" type="element">
-    <uuid uuid="{c444c29e-1dd4-431d-8bb8-f3aea2c92eea}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="20" hotspot_x="30" hotspot_y="9">
+    <uuid uuid="{4e9b8e3e-61fd-726b-d530-b5197891b0c3}"/>
     <names>
-        <name lang="de">Flexibler Anschluss</name>
-        <name lang="pl">Przewód giętki</name>
-        <name lang="fr">Connection souple</name>
+        <name lang="ar">توصيلة مرنة</name>
         <name lang="cs">Pružné spojení</name>
+        <name lang="de">Flexibler Anschluss</name>
         <name lang="el">Εύκαμπτη σύνδεση</name>
+        <name lang="en">Flexible Connection</name>
+        <name lang="fr">Connection souple</name>
         <name lang="it">Connessione flessibile</name>
         <name lang="nl">Buigzame leiding</name>
-        <name lang="ar">توصيلة مرنة</name>
-        <name lang="en">Flexible Connection</name>
+        <name lang="pl">Przewód giętki</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x1="10" y1="0" end2="none" length2="1.5" y2="0"/>
-        <dynamic_text x="10" text_width="-1" frame="false" uuid="{3d481745-5c12-4d7d-8658-a0c4b9f51449}" z="2" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" y="-23.95" keep_visual_rotation="false" rotation="0" font="Sans Serif,7,-1,5,50,0,0,0,0,0">
+        <line x1="10" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="10" y="-23.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3d481745-5c12-4d7d-8658-a0c4b9f51449}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="-10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" x1="-20" y1="0" end2="none" length2="1.5" y2="0"/>
-        <circle x="8.85" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" diameter="2.3" y="-1.15"/>
-        <circle x="-11.15" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" diameter="2.3" y="-1.15"/>
-        <arc x="-11.5" angle="-110" width="23" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" height="23" y="-17.5" start="-35"/>
-        <terminal x="20" uuid="{8bbd1f94-b1dc-4994-be76-d1a4fe446486}" name="" y="0" orientation="e" type="Generic"/>
-        <terminal x="-20" uuid="{23c5f320-4df9-41ea-8e56-263c67602132}" name="" y="0" orientation="w" type="Generic"/>
+        <line x1="-20" y1="0" x2="-10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="8.85" y="-1.15" width="2.3" height="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <ellipse x="-11.15" y="-1.15" width="2.3" height="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <arc x="-11.5" y="-17.5" width="23" height="23" start="215" angle="110" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{8bbd1f94-b1dc-4994-be76-d1a4fe446486}" name="" x="20" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{23c5f320-4df9-41ea-8e56-263c67602132}" name="" x="-20" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

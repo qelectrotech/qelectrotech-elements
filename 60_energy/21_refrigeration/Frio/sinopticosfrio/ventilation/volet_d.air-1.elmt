@@ -1,26 +1,25 @@
-<definition version="0.100.0" link_type="simple" type="element" height="30" width="30" hotspot_y="25" hotspot_x="14">
-    <uuid uuid="{a161f932-ac1f-49f9-8ca6-15b7772013fe}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="30" hotspot_x="20" hotspot_y="25">
+    <uuid uuid="{fbd03f9b-1dd4-ed08-d358-051bfe5a0d98}"/>
     <names>
-        <name lang="el">Διάφραγμα αέρα</name>
-        <name lang="pl">Przepustnica</name>
-        <name lang="it">Serranda</name>
-        <name lang="fr">Volet d'air</name>
-        <name lang="nl">Luchtklep</name>
-        <name lang="en">Air damper</name>
         <name lang="cs">Vzduchová klapka</name>
+        <name lang="el">Διάφραγμα αέρα</name>
+        <name lang="en">Air damper</name>
+        <name lang="fr">Volet d'air</name>
+        <name lang="it">Serranda</name>
+        <name lang="nl">Luchtklep</name>
+        <name lang="pl">Przepustnica</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-4.05" x2="3.95" end2="none" y2="-14.05" y1="-6.05" length1="1.5" antialias="false" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text frame="false" text_from="ElementInfo" rotation="0" text_width="-1" Valignment="AlignTop" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-41.95" x="-7" uuid="{aa125996-9543-48a1-85ac-ce425969f6d5}" z="2">
+        <line x1="-4.05" y1="-6.05" x2="3.95" y2="-14.05" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-7" y="-41.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{aa125996-9543-48a1-85ac-ce425969f6d5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect height="20" width="20" antialias="false" y="-20" ry="0" x="-10" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle diameter="2" antialias="true" y="-11.05" x="-1.05" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal name="" type="Generic" orientation="w" y="-10" x="-10" uuid="{12516a8f-f7b9-4aa8-94e9-e31df34988ce}"/>
-        <terminal name="" type="Generic" orientation="e" y="-10" x="10" uuid="{cb5a85d0-8221-49cc-9617-b4f854493025}"/>
+        <rect x="-10" y="-20" width="20" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-1.05" y="-11.05" width="2" height="2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <terminal uuid="{12516a8f-f7b9-4aa8-94e9-e31df34988ce}" name="" x="-10" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{cb5a85d0-8221-49cc-9617-b4f854493025}" name="" x="10" y="-10" orientation="e" type="Generic"/>
     </description>
 </definition>

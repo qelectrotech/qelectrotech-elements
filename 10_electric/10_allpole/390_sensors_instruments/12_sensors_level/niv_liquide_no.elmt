@@ -1,36 +1,35 @@
-<definition type="element" height="50" hotspot_y="24" version="0.100.0" width="30" hotspot_x="25" link_type="simple">
-    <uuid uuid="{ed8ee72d-9147-42f7-9c7f-4c89ddc4d6cc}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="28" hotspot_y="31">
+    <uuid uuid="{4ff2d672-6e08-d961-4553-d45f196fded4}"/>
     <names>
-        <name lang="en">NO Actuated by the level of a liquid</name>
-        <name lang="de">Niveauschalter Schliesser</name>
-        <name lang="fr">Actionné par le niveau d'un liquide NO</name>
         <name lang="cs">Hladinový spínač NO</name>
-        <name lang="it">Azionato dal livello di un liquido NO</name>
+        <name lang="de">Niveauschalter Schliesser</name>
+        <name lang="en">NO Actuated by the level of a liquid</name>
         <name lang="es">Accionado por el nivel de un liquido NA</name>
+        <name lang="fr">Actionné par le niveau d'un liquide NO</name>
+        <name lang="it">Azionato dal livello di un liquido NO</name>
         <name lang="nl">vloeistofniveau 2 (NO)</name>
         <name lang="pl">Zestyk zwierny sterowany poziomem cieczy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc angle="-140" height="7" y="-4.5" width="12" start="-20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-22"/>
-        <arc angle="-140" height="7" y="-2.5" width="12" start="-200" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-22"/>
-        <dynamic_text Halignment="AlignLeft" z="3" frame="false" uuid="{7ea3c266-5c7f-4bf8-a91d-e5e7254740ba}" Valignment="AlignTop" y="8" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" text_width="-1" keep_visual_rotation="false" x="-10" rotation="0">
+        <arc x="-22" y="-4.5" width="12" height="7" start="200" angle="140" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-22" y="-2.5" width="12" height="7" start="20" angle="140" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-10" y="8" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{7ea3c266-5c7f-4bf8-a91d-e5e7254740ba}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>4</text>
         </dynamic_text>
-        <dynamic_text Halignment="AlignLeft" z="4" frame="false" uuid="{b964c35b-4245-444a-92ea-4385c5479b37}" Valignment="AlignTop" y="-24" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" text_width="-1" keep_visual_rotation="false" x="-10" rotation="0">
+        <dynamic_text x="-10" y="-24" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{b964c35b-4245-444a-92ea-4385c5479b37}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>3</text>
         </dynamic_text>
-        <dynamic_text Halignment="AlignLeft" z="5" frame="false" uuid="{a83ed575-f881-42d7-b1e7-37cb5403b503}" Valignment="AlignTop" y="-12" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false" x="1" rotation="0">
+        <dynamic_text x="1" y="-12" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a83ed575-f881-42d7-b1e7-37cb5403b503}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="-5" x2="0" closed="false" x3="0" y1="-10" y2="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="20"/>
-        <line x1="0" x2="0" length1="1.5" end2="none" end1="none" y1="-20" length2="1.5" y2="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-16" x2="-16" length1="1.5" end2="none" end1="none" y1="-6" length2="1.5" y2="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-10" x2="-3" length1="1.5" end2="none" end1="none" y1="0" length2="1.5" y2="0" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <terminal type="Generic" uuid="{a266c180-c141-4f48-9142-73cd9c5ec131}" y="20" name="" orientation="s" x="0"/>
-        <terminal type="Generic" uuid="{e3639557-9864-42a0-be9f-17b24b7e8dfc}" y="-20" name="" orientation="n" x="0"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-16" y1="-6" x2="-16" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="0" x2="-3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{a266c180-c141-4f48-9142-73cd9c5ec131}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{e3639557-9864-42a0-be9f-17b24b7e8dfc}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

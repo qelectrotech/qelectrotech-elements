@@ -1,26 +1,25 @@
-<definition type="element" link_type="simple" height="20" version="0.100.0" width="70" hotspot_x="24" hotspot_y="10">
-    <uuid uuid="{970ac750-f7ae-4132-9c4e-1213b6343db9}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="80" height="20" hotspot_x="30" hotspot_y="10">
+    <uuid uuid="{96cd6ad2-0da3-ad1a-094e-fb83f71dbdc7}"/>
     <names>
-        <name lang="fr">Fiche et prise de connecteur, par exemple
-cavalier, mâle-mâle</name>
         <name lang="cs">Zásuvková spojka s U kolíkem</name>
         <name lang="de">Steckverbindung, zwei Buchsen durch einen</name>
         <name lang="en">Plug and socket-type connector, male-male</name>
+        <name lang="fr">Fiche et prise de connecteur, par exemple
+cavalier, mâle-mâle</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" Valignment="AlignTop" y="2.5" x="5" rotation="0" uuid="{d1e83f3b-138a-4813-bf45-246209010fb4}" text_from="ElementInfo" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d1e83f3b-138a-4813-bf45-246209010fb4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect height="6" ry="0" y="-3" x="0" style="line-style:normal;line-weight:normal;filling:black;color:black" width="20" antialias="false" rx="0"/>
-        <line end2="none" end1="none" length2="1.5" length1="1.5" x2="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="25" antialias="false" y2="0"/>
-        <line end2="none" end1="none" length2="1.5" length1="1.5" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x1="-5" antialias="false" y2="0"/>
-        <arc height="10" y="-5" x="-5" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="90" antialias="true"/>
-        <arc height="10" y="-5" x="15" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" width="10" start="270" antialias="true"/>
-        <terminal type="Generic" y="0" x="40" uuid="{507085a7-01d1-49af-82a4-1f9c1d6001fc}" name="" orientation="e"/>
-        <terminal type="Generic" y="0" x="-20" uuid="{ac5ca4cf-47ed-4708-b64d-034649b9efda}" name="" orientation="w"/>
+        <rect x="0" y="-3" width="20" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <line x1="25" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-5" y1="0" x2="-20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-5" y="-5" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="15" y="-5" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{507085a7-01d1-49af-82a4-1f9c1d6001fc}" name="" x="40" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{ac5ca4cf-47ed-4708-b64d-034649b9efda}" name="" x="-20" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

@@ -1,28 +1,27 @@
-<definition link_type="simple" width="40" type="element" height="50" version="0.100.0" hotspot_y="28" hotspot_x="20">
-    <uuid uuid="{a460084f-2983-4eb4-baa0-b05606c6b1a7}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="21" hotspot_y="34">
+    <uuid uuid="{c7f8782c-e714-e83e-3da2-934745edf1d6}"/>
     <names>
+        <name lang="ar">أمبيرساعة متر</name>
         <name lang="cs">Měřič Ampérhodin</name>
-        <name lang="nl">Ampere uur meter</name>
-        <name lang="el">Μετρητής κατανάλωσης, Αμπερώρια (Ah)</name>
-        <name lang="pl">Licznik amperogodzin</name>
         <name lang="de">Amperestundenzähler</name>
-        <name lang="it">Misuratore di Ah</name>
+        <name lang="el">Μετρητής κατανάλωσης, Αμπερώρια (Ah)</name>
         <name lang="en">Ampere Hour Meter</name>
         <name lang="fr">Ampèreheuremètre</name>
-        <name lang="ar">أمبيرساعة متر </name>
+        <name lang="it">Misuratore di Ah</name>
+        <name lang="nl">Ampere uur meter</name>
+        <name lang="pl">Licznik amperogodzin</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" z="1" y="-16.95" Halignment="AlignLeft" x="18" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" rotation="0" uuid="{f2bc6fea-d0fe-46af-b094-84e813349e10}">
+        <dynamic_text x="18" y="-16.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f2bc6fea-d0fe-46af-b094-84e813349e10}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="Ah" y="2.3333" x="-8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
-        <rect y="-11" width="30" x="-15" height="22" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-19" width="30" x="-15" height="8" antialias="false" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="-23" name="" x="0" type="Generic" orientation="n" uuid="{7f85b73a-c3c2-4873-8f27-23ac0eae61be}"/>
-        <terminal y="15" name="" x="0" type="Generic" orientation="s" uuid="{05f9f5a1-68cd-4d3a-a64b-8ad5dc21427d}"/>
+        <text text="Ah" x="-8" y="2.33" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <rect x="-15" y="-11" width="30" height="22" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-19" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{7f85b73a-c3c2-4873-8f27-23ac0eae61be}" name="" x="0" y="-23" orientation="n" type="Generic"/>
+        <terminal uuid="{05f9f5a1-68cd-4d3a-a64b-8ad5dc21427d}" name="" x="0" y="15" orientation="s" type="Generic"/>
     </description>
 </definition>

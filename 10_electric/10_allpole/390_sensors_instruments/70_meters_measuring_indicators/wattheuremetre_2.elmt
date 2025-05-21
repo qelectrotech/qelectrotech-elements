@@ -1,31 +1,30 @@
-<definition width="40" type="element" height="50" hotspot_x="20" version="0.90" link_type="simple" hotspot_y="24">
-    <uuid uuid="{825ab432-7c51-4c55-8fe5-d8b61d557c9c}"/>
+<definition version="0.90" type="element" link_type="simple" width="40" height="60" hotspot_x="22" hotspot_y="30">
+    <uuid uuid="{adc156db-d3ac-43e7-ccef-7db754d99399}"/>
     <names>
+        <name lang="ar">عدّاد طاقة فعّالة - وات ساعة متر -</name>
         <name lang="cs">Činný elektroměr</name>
-        <name lang="it">Misuratore di Wh</name>
         <name lang="de">Wattstundenzähler</name>
+        <name lang="el">Μετρητής βατ/ώρα</name>
         <name lang="en">Watt hour meter</name>
         <name lang="fr">Compteur d'énergie active Wattheuremètre</name>
-        <name lang="ar">عدّاد طاقة فعّالة - وات ساعة متر -</name>
-        <name lang="el">Μετρητής βατ/ώρα</name>
-        <name lang="pl">Licznik watogodzin</name>
+        <name lang="it">Misuratore di Wh</name>
         <name lang="nl">Watt uur meter</name>
+        <name lang="pl">Licznik watogodzin</name>
     </names>
-    <elementInformations/>
-    <informations></informations>
+    <informations>edited with "QET_ElementScaler"</informations>
     <description>
-        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-20" x2="-10" length1="1.5" end2="none" x1="-10" antialias="false" y2="20"/>
-        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-20" x2="10" length1="1.5" end2="none" x1="10" antialias="false" y2="20"/>
-        <rect width="30" rx="0" style="line-style:normal;line-weight:normal;filling:white;color:black" height="30" ry="0" y="-15" antialias="false" x="-15"/>
-        <dynamic_text Halignment="AlignLeft" z="4" Valignment="AlignTop" y="-21.5" uuid="{c6273b25-dae0-4113-8bf7-29bb12749b73}" frame="false" text_from="ElementInfo" text_width="-1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="15">
+        <line x1="-10" y1="-20" x2="-10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="-20" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-15" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false"/>
+        <dynamic_text x="15" y="-21.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c6273b25-dae0-4113-8bf7-29bb12749b73}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="Wh" y="7.3333" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="-10" color="#000000"/>
-        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" y1="-7" x2="15" length1="1.5" end2="none" x1="-15" antialias="false" y2="-7"/>
-        <terminal type="Generic" y="-20" uuid="{33064eff-e1af-48fe-887b-ab577ad81ca0}" orientation="n" x="10" name="N"/>
-        <terminal type="Generic" y="20" uuid="{c5518603-6161-4a2b-be7d-9d45f8157319}" orientation="s" x="10" name="N.1"/>
-        <terminal type="Generic" y="-20" uuid="{a5a22122-75a8-4814-b3d2-5d3247066c46}" orientation="n" x="-10" name="L1"/>
-        <terminal type="Generic" y="20" uuid="{a1f83453-2a04-444f-a6f1-190c10eb5fec}" orientation="s" x="-10" name="L1.1"/>
+        <text text="Wh" x="-10" y="7.33" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-15" y1="-7" x2="15" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{33064eff-e1af-48fe-887b-ab577ad81ca0}" name="N" x="10" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{c5518603-6161-4a2b-be7d-9d45f8157319}" name="N.1" x="10" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{a5a22122-75a8-4814-b3d2-5d3247066c46}" name="L1" x="-10" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{a1f83453-2a04-444f-a6f1-190c10eb5fec}" name="L1.1" x="-10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

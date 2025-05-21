@@ -1,25 +1,24 @@
-<definition type="element" link_type="simple" hotspot_y="12" hotspot_x="144" width="150" height="30" version="0.100.0">
-    <uuid uuid="{2f2a6955-b66e-425d-88cd-f62e6819d450}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="160" height="30" hotspot_x="150" hotspot_y="12">
+    <uuid uuid="{707cf782-9813-f6e4-c091-86508e834fcb}"/>
     <names>
+        <name lang="cs">Vedení s přemostěním plynotěsné nebo olejotěsné přepážky</name>
         <name lang="de">Leiter mit Umgehung der Abschottung von Gas
 oder Öl</name>
         <name lang="en">Line with gas or oil block by-pass</name>
-        <name lang="cs">Vedení s přemostěním plynotěsné nebo olejotěsné přepážky</name>
         <name lang="fr">Ligne avec bouchon d'étanchéité à gaz ou
 d'huile, avec contournement</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" text_width="-1" uuid="{71007aba-dbed-4a61-a7ac-275fbec3e2b9}" x="5" text_from="ElementInfo" y="12.5" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" rotation="0" keep_visual_rotation="false">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{71007aba-dbed-4a61-a7ac-275fbec3e2b9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" y2="0" antialias="false" end2="none" length1="1.5" y1="0" end1="none" x1="0" x2="-140" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" y2="10" antialias="false" end2="none" length1="1.5" y1="-10" end1="none" x1="-70" x2="-70" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <arc x="-85" start="0" angle="-180" y="-15" antialias="true" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal type="Generic" uuid="{212cf2e3-73cf-492b-abb7-2e4041a8dbc2}" x="-140" y="0" name="" orientation="w"/>
-        <terminal type="Generic" uuid="{1c366afb-0a29-417f-9f28-c3d2552d5648}" x="0" y="0" name="" orientation="e"/>
+        <line x1="0" y1="0" x2="-140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-70" y1="-10" x2="-70" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-85" y="-15" width="30" height="30" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{212cf2e3-73cf-492b-abb7-2e4041a8dbc2}" name="" x="-140" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{1c366afb-0a29-417f-9f28-c3d2552d5648}" name="" x="0" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

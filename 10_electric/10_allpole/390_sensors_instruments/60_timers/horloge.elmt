@@ -1,33 +1,32 @@
-<definition hotspot_y="30" link_type="simple" width="40" height="60" version="0.90" hotspot_x="29" type="element">
-    <uuid uuid="{302c9278-373c-410d-aabb-0623d12f97c2}"/>
+<definition version="0.90" type="element" link_type="simple" width="40" height="60" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{a7bad70b-206f-14c6-e081-cc53430f8055}"/>
     <names>
-        <name lang="nl">contact Klok</name>
-        <name lang="pl">Zegar sterujący</name>
-        <name lang="it">Contatto orologio NO</name>
         <name lang="ar">مفتاح ساعة</name>
         <name lang="cs">Časový spínač NO</name>
-        <name lang="fr">Contact horloge</name>
-        <name lang="en">Timer NO</name>
-        <name lang="es">Contacto temporizado</name>
         <name lang="de">Zeitschalter Schliesser</name>
         <name lang="el">Επαφή χρονοδιακόπτη</name>
+        <name lang="en">Timer NO</name>
+        <name lang="es">Contacto temporizado</name>
+        <name lang="fr">Contact horloge</name>
+        <name lang="it">Contatto orologio NO</name>
+        <name lang="nl">contact Klok</name>
+        <name lang="pl">Zegar sterujący</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" diameter="12" y="-6" x="-27"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="20.8" x="2" color="#000000" text="14"/>
-        <text rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0" y="-17.7" x="2" color="#000000" text="13"/>
-        <line y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x1="-3" end1="none" antialias="false" length2="1.5" end2="none" x2="-15" length1="1.5"/>
-        <polygon y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x1="-5" antialias="true" x3="0" closed="false" y3="20" x2="0"/>
-        <line y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x1="0" end1="none" antialias="false" length2="1.5" end2="none" x2="0" length1="1.5"/>
-        <dynamic_text frame="false" rotation="0" z="10" uuid="{a4214204-a2be-4c03-9f96-47489328466a}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-8.5" text_width="-1" x="2.75" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo">
+        <ellipse x="-27" y="-6" width="12" height="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="14" x="2" y="20.8" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="13" x="2" y="-17.7" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-3" y1="0" x2="-15" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="2.75" y="-8.5" z="10" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a4214204-a2be-4c03-9f96-47489328466a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-4" x1="-23" antialias="false" x3="-18" closed="false" y3="0" x2="-21"/>
-        <terminal uuid="{887ec901-2e95-4f4d-8878-1da94937a77e}" y="20" x="0" name="" orientation="s" type="Generic"/>
-        <terminal uuid="{66bd0d09-de35-42c9-8622-db73fae43bc9}" y="-20" x="0" name="" orientation="n" type="Generic"/>
+        <polygon x1="-23" y1="-4" x2="-21" y2="0" x3="-18" y3="0" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{887ec901-2e95-4f4d-8878-1da94937a77e}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{66bd0d09-de35-42c9-8622-db73fae43bc9}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

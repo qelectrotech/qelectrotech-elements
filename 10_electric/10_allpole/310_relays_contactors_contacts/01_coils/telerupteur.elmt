@@ -1,39 +1,38 @@
-<definition type="element" version="0.100.0" hotspot_x="20" link_type="master" hotspot_y="24" height="50" width="40">
-    <uuid uuid="{4d0187f3-592e-4c11-a22b-6131e963eb01}"/>
+<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="20" hotspot_y="32">
+    <uuid uuid="{c3e27fcc-0fdf-5566-6ea8-c7477e48e0e2}"/>
     <names>
-        <name lang="el">Τηλεχειριζόμενος διακόπτης</name>
-        <name lang="de">Stromstossrelais</name>
-        <name lang="en">Remote controlled switch</name>
-        <name lang="hu">Távoli vezérlésű relé</name>
         <name lang="cs">Dálkově ovládaný spínač</name>
-        <name lang="it">Teleruttore</name>
+        <name lang="de">Stromstossrelais</name>
+        <name lang="el">Τηλεχειριζόμενος διακόπτης</name>
+        <name lang="en">Remote controlled switch</name>
         <name lang="es">Interruptor a control remoto 1P1T</name>
         <name lang="fr">Télérupteur</name>
-        <name lang="pl">Łącznik zdalnie sterowany</name>
+        <name lang="hu">Távoli vezérlésű relé</name>
+        <name lang="it">Teleruttore</name>
         <name lang="nl">Afstand bestuurbaar schakelaar</name>
+        <name lang="pl">Łącznik zdalnie sterowany</name>
     </names>
     <kindInformations>
         <kindInformation name="type">coil</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect y="-8" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="16" width="28" x="-14" antialias="false"/>
-        <line end2="none" x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x2="0" length2="1.5" y2="-8" end1="none" antialias="false"/>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" y="10" text_from="UserText" rotation="0" frame="false" keep_visual_rotation="false" z="3" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="2" uuid="{e7d01fa3-624d-4352-ab91-3835a857eb6c}" Valignment="AlignTop">
+        <rect x="-14" y="-8" width="28" height="16" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="2" y="10" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{e7d01fa3-624d-4352-ab91-3835a857eb6c}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>A2</text>
         </dynamic_text>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" y="-25" text_from="UserText" rotation="0" frame="false" keep_visual_rotation="false" z="4" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="2" uuid="{8991dfc2-0aad-4335-a32b-e3c7f259ee89}" Valignment="AlignTop">
+        <dynamic_text x="2" y="-25" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{8991dfc2-0aad-4335-a32b-e3c7f259ee89}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>A1</text>
         </dynamic_text>
-        <line end2="none" x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" x2="0" length2="1.5" y2="20" end1="none" antialias="false"/>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" y="-9" text_from="ElementInfo" rotation="0" frame="false" keep_visual_rotation="false" z="6" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="25" uuid="{a722277c-64df-4d4c-a1ec-16ac6ad26741}" Valignment="AlignTop">
+        <line x1="0" y1="8" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="25" y="-9" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a722277c-64df-4d4c-a1ec-16ac6ad26741}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="-9" closed="false" y5="-4" y3="-4" x5="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="4" x3="0" y4="-4" x2="0" y2="4" x4="10" antialias="false"/>
-        <terminal type="Generic" orientation="n" y="-20" name="A1" x="0" uuid="{c7aed243-b486-4579-915f-a2e2ef0f4f13}"/>
-        <terminal type="Generic" orientation="s" y="20" name="A2" x="0" uuid="{a2a00a77-40e7-4067-ae33-d55c3b0236b9}"/>
+        <polygon x1="-9" y1="4" x2="0" y2="4" x3="0" y3="-4" x4="10" y4="-4" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{c7aed243-b486-4579-915f-a2e2ef0f4f13}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{a2a00a77-40e7-4067-ae33-d55c3b0236b9}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,28 +1,27 @@
-<definition link_type="simple" width="40" hotspot_x="20" version="0.100.0" height="50" hotspot_y="28" type="element">
-    <uuid uuid="{35989ef9-0d25-4167-841b-920619551681}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="20" hotspot_y="34">
+    <uuid uuid="{4fccca52-165a-d447-d478-a75aaa1d736a}"/>
     <names>
         <name lang="ar">عدّاد زمني</name>
-        <name lang="it">Conta tempo</name>
-        <name lang="fr">Compteur horaire</name>
-        <name lang="de">Betriebsstundenzähler</name>
-        <name lang="pl">Licznik godzin</name>
-        <name lang="nl">Bedrijfsurenteller</name>
         <name lang="cs">Měřič provozních hodin</name>
-        <name lang="en">Hour counter</name>
+        <name lang="de">Betriebsstundenzähler</name>
         <name lang="el">Ωρόμετρο</name>
+        <name lang="en">Hour counter</name>
+        <name lang="fr">Compteur horaire</name>
+        <name lang="it">Conta tempo</name>
+        <name lang="nl">Bedrijfsurenteller</name>
+        <name lang="pl">Licznik godzin</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text rotation="0" color="#000000" text="h" x="-3" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.3333"/>
-        <dynamic_text rotation="0" keep_visual_rotation="false" frame="false" text_width="-1" uuid="{3c03b9bc-284c-419e-bfaa-92132ba93dc4}" Halignment="AlignLeft" z="2" text_from="ElementInfo" x="18" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-21.95" Valignment="AlignTop">
+        <text text="h" x="-3" y="2.33" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="18" y="-21.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3c03b9bc-284c-419e-bfaa-92132ba93dc4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect width="30" height="22" rx="0" x="-15" ry="0" y="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect width="30" height="8" rx="0" x="-15" ry="0" y="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal orientation="n" uuid="{b6db9876-20e3-4f5c-85df-e1dbeedc5449}" name="" x="0" y="-23" type="Generic"/>
-        <terminal orientation="s" uuid="{4ae01a6c-29d1-4e8b-8ed1-bb8e4af00cd5}" name="" x="0" y="15" type="Generic"/>
+        <rect x="-15" y="-11" width="30" height="22" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-19" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{b6db9876-20e3-4f5c-85df-e1dbeedc5449}" name="" x="0" y="-23" orientation="n" type="Generic"/>
+        <terminal uuid="{4ae01a6c-29d1-4e8b-8ed1-bb8e4af00cd5}" name="" x="0" y="15" orientation="s" type="Generic"/>
     </description>
 </definition>

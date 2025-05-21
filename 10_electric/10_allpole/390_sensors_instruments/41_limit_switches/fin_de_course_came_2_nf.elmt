@@ -1,34 +1,33 @@
-<definition type="element" hotspot_x="21" link_type="simple" width="30" hotspot_y="29" height="60" version="0.100.0">
-    <uuid uuid="{b12f7948-ea69-45b0-93df-6e5b3839e733}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="21" hotspot_y="30">
+    <uuid uuid="{e60b0666-8ca2-2db1-8b64-23ef32cd4c59}"/>
     <names>
-        <name lang="ru">Концевой контакт (НЗ)</name>
         <name lang="ar">مفتاح نهاية مشوار بحدبة (NC)</name>
-        <name lang="de">Öffner Ausschaltnocken</name>
         <name lang="cs">Koncový spínač s kladkou NC</name>
+        <name lang="de">Öffner Ausschaltnocken</name>
         <name lang="el">Τερματικό, κλειστό</name>
-        <name lang="pt">Fim de curso (NC)</name>
         <name lang="en">Limitswitch (NC)</name>
-        <name lang="it">Finecorsa (NC)</name>
         <name lang="es">Final de carrera (NC)</name>
-        <name lang="pl">Zestyk rozwierny łącznika krańcowego</name>
         <name lang="fr">Fin de course  à came (NF)</name>
+        <name lang="it">Finecorsa (NC)</name>
         <name lang="nl">eindschakelaar (NC)</name>
+        <name lang="pl">Zestyk rozwierny łącznika krańcowego</name>
+        <name lang="pt">Fim de curso (NC)</name>
+        <name lang="ru">Концевой контакт (НЗ)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-16" x3="-17" closed="false" y1="10" x4="-17" y5="-12" style="line-style:normal;line-weight:thin;filling:none;color:black" y6="10" y7="10" x2="-16" y2="-1" x5="-19" y3="-4" x7="-19" y4="-12" x6="-19" antialias="true"/>
-        <circle x="-16.5" style="line-style:normal;line-weight:thin;filling:none;color:black" y="-4.5" diameter="3" antialias="true"/>
-        <line x1="-13.5" y1="-3" end1="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x2="3" end2="none" y2="-3" antialias="false"/>
-        <polygon x1="5" x3="0" closed="false" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="10" y3="20" antialias="true"/>
-        <line x1="0" y1="-9" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="6" end2="none" y2="-9" antialias="false"/>
-        <line x1="0" y1="-20" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0" end2="none" y2="-9" antialias="false"/>
-        <dynamic_text Halignment="AlignLeft" x="5.75" rotation="0" frame="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-9.5" uuid="{eac7ab4a-6f54-4249-ac68-e607aeccb4c9}" text_width="-1" z="7" keep_visual_rotation="false" Valignment="AlignTop">
+        <polygon x1="-16" y1="10" x2="-16" y2="-1" x3="-17" y3="-4" x4="-17" y4="-12" x5="-19" y5="-12" x6="-19" y6="10" closed="false" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <ellipse x="-16.5" y="-4.5" width="3" height="3" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line x1="-13.5" y1="-3" x2="3" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <polygon x1="5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-9" x2="6" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5.75" y="-9.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{eac7ab4a-6f54-4249-ac68-e607aeccb4c9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal x="0" type="Generic" y="-21" uuid="{c5824412-f03d-44a6-808f-38e12cbb260a}" orientation="n" name=""/>
-        <terminal x="0" type="Generic" y="21" uuid="{1bba40f5-83a1-4434-8f91-d30529bc232a}" orientation="s" name=""/>
+        <terminal uuid="{c5824412-f03d-44a6-808f-38e12cbb260a}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{1bba40f5-83a1-4434-8f91-d30529bc232a}" name="" x="0" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

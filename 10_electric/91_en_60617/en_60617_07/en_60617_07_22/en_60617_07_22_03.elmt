@@ -1,24 +1,23 @@
-<definition link_type="simple" width="20" version="0.100.0" type="element" hotspot_y="24" height="50" hotspot_x="10">
-    <uuid uuid="{e74144c0-af29-4fb0-b714-79739ece37a8}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="10" hotspot_y="30">
+    <uuid uuid="{493f819d-4f26-bedd-3f23-ffeab86bfd7e}"/>
     <names>
         <name lang="cs">Rázový svodič, svodič přepětí</name>
-        <name lang="en">Surge diverter; Lightning arrester</name>
         <name lang="de">Überspannungsableiter</name>
+        <name lang="en">Surge diverter; Lightning arrester</name>
         <name lang="fr">Parafoudre</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_from="ElementInfo" z="1" uuid="{87af276f-8868-4612-a5f9-d03714fd1718}" frame="false" text_width="-1" Valignment="AlignTop" x="5" Halignment="AlignLeft">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{87af276f-8868-4612-a5f9-d03714fd1718}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length1="1.5" y1="-20" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" x1="0" y2="-5" length2="1.5"/>
-        <line length1="1.5" y1="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" x1="0" y2="20" length2="1.5"/>
-        <polygon x3="0" x4="-2" y4="-8" y1="-8" x2="2" style="line-style:normal;line-weight:normal;filling:black;color:black" y3="-2" antialias="false" x1="-2" y2="-8"/>
-        <rect width="10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" ry="0" x="-5" height="20" rx="0"/>
-        <terminal y="-20" name="" type="Generic" uuid="{12a9ad2b-eaca-46e6-9660-6e57c9f30037}" orientation="n" x="0"/>
-        <terminal y="20" name="" type="Generic" uuid="{9845a78d-8c18-4a6b-bed3-8c2e69964627}" orientation="s" x="0"/>
+        <line x1="0" y1="-20" x2="0" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-2" y1="-8" x2="2" y2="-8" x3="0" y3="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <rect x="-5" y="-10" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{12a9ad2b-eaca-46e6-9660-6e57c9f30037}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{9845a78d-8c18-4a6b-bed3-8c2e69964627}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

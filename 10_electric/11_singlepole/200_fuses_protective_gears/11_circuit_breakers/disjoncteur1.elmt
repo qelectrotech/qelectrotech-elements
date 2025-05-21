@@ -1,36 +1,35 @@
-<definition type="element" version="0.100.0" height="50" link_type="master" width="20" hotspot_x="9" hotspot_y="24">
-    <uuid uuid="{808c2b0d-6b1b-4ace-b3a4-d78857ca3163}"/>
+<definition version="0.100.0" type="element" link_type="master" width="20" height="60" hotspot_x="9" hotspot_y="30">
+    <uuid uuid="{fb584aa9-2af6-6bbb-b4f1-8d0486c07670}"/>
     <names>
+        <name lang="ar">قاطع</name>
+        <name lang="cs">Vypínač</name>
         <name lang="de">Lastschalter 1P</name>
+        <name lang="en">Circuit-breaker</name>
         <name lang="es">Disyuntor</name>
+        <name lang="fr">Disjoncteur</name>
         <name lang="it">Sezionatore 1P</name>
         <name lang="nl">Lastscheider 1</name>
-        <name lang="cs">Vypínač</name>
-        <name lang="pt">Disjuntor</name>
-        <name lang="ar">قاطع</name>
-        <name lang="fr">Disjoncteur</name>
-        <name lang="en">Circuit-breaker</name>
         <name lang="pl">Wyłącznik</name>
+        <name lang="pt">Disjuntor</name>
         <name lang="ru">Выключатель</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" x="2.75" uuid="{b5acbe58-4754-4302-9694-1a7ea0ccad06}" Halignment="AlignLeft" keep_visual_rotation="false" y="-9.5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" rotation="0" frame="false" Valignment="AlignTop">
+        <dynamic_text x="2.75" y="-9.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b5acbe58-4754-4302-9694-1a7ea0ccad06}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon y4="-10" y2="10" x5="-5" y3="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x3="-5" y5="-10" antialias="true" x4="-5" x1="0" x2="0" closed="false"/>
-        <line end2="none" end1="none" y2="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="false" length2="1.5" x1="0" x2="0"/>
-        <line end2="none" end1="none" y2="-12" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-8" antialias="false" length2="1.5" x1="2" x2="-2"/>
-        <line end2="none" end1="none" y2="-8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" antialias="false" length2="1.5" x1="2" x2="-2"/>
-        <text x="2" y="-14" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="1" rotation="0" color="#000000"/>
-        <text x="3" y="18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="2" rotation="0" color="#000000"/>
-        <terminal type="Generic" name="" x="0" uuid="{4e7a9570-9e8c-479a-a93e-885e5eb61fbd}" orientation="n" y="-20"/>
-        <terminal type="Generic" name="" x="0" uuid="{1a054f15-da3d-40a8-af9b-bf78bfe06a88}" orientation="s" y="20"/>
+        <polygon x1="0" y1="20" x2="0" y2="10" x3="-5" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="2" y1="-8" x2="-2" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="2" y1="-12" x2="-2" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="1" x="2" y="-14" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="2" x="3" y="18" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{4e7a9570-9e8c-479a-a93e-885e5eb61fbd}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{1a054f15-da3d-40a8-af9b-bf78bfe06a88}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>
