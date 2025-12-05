@@ -1,22 +1,24 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="20" hotspot_x="25" hotspot_y="12">
-    <uuid uuid="{4f343531-23e7-4629-0232-6c0990a2b8a6}"/>
+<definition version="0.100.0" hotspot_y="12" height="20" type="element" width="50" hotspot_x="25" link_type="simple">
+    <uuid uuid="{0d2726cd-c1c7-4194-876d-3466702b032c}"/>
     <names>
-        <name lang="cs">Zarážka zapnuta</name>
+        <name lang="ca">Detent, compromès</name>
+        <name lang="es">Seguro ocupado</name>
         <name lang="de">Raste, eingerastet</name>
         <name lang="en">Detent, engaged</name>
-        <name lang="es">Seguro ocupado</name>
+        <name lang="cs">Zarážka zapnuta</name>
         <name lang="fr">Crantage, engagé</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{35d56a1e-5304-401e-8565-620c5ab9821c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" text_from="ElementInfo" x="5" rotation="0" frame="false" uuid="{35d56a1e-5304-401e-8565-620c5ab9821c}" y="2.5" Valignment="AlignTop" z="1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-20" y1="0" x2="-5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-5" y1="0" x2="0" y2="5" x3="5" y3="0" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="5" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-10" x2="0" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x2="-5" y2="0" end2="none" antialias="false" end1="none" length2="1.5" x1="-20" length1="1.5"/>
+        <polygon y3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x2="0" y2="5" antialias="false" closed="false" x3="5" x1="-5"/>
+        <line style="line-style:dashed;line-weight:normal;filling:none;color:black" y1="0" x2="20" y2="0" end2="none" antialias="false" end1="none" length2="1.5" x1="5" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" x2="0" y2="-3" end2="none" antialias="false" end1="none" length2="1.5" x1="0" length1="1.5"/>
     </description>
 </definition>

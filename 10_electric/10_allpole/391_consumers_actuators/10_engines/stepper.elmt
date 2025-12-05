@@ -1,39 +1,51 @@
-<definition version="0.100.0" type="element" link_type="simple" width="80" height="60" hotspot_x="40" hotspot_y="40">
-    <uuid uuid="{c5a6e20c-8b90-a746-0eb4-f559a7164c7a}"/>
+<definition height="60" type="element" width="80" link_type="simple" hotspot_x="36" hotspot_y="39" version="0.100.0">
+    <uuid uuid="{ba9365a5-2fca-4471-9ced-e7911cd115fe}"/>
     <names>
+        <name lang="ca">Motor pas a pas</name>
         <name lang="cs">Krokový motor</name>
         <name lang="de">Schrittmotor</name>
-        <name lang="en">Stepper motor</name>
         <name lang="fr">moteur pas à pas</name>
+        <name lang="en">Stepper motor</name>
     </names>
+    <elementInformations>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="manufacturer"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+    </elementInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <ellipse x="-15" y="-15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text text="A2" x="-8.95" y="-26" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="B2" x="31.14" y="-26" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <dynamic_text x="-46" y="-3" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{5d6b4935-398b-4999-ae36-818b4796a984}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-15" diameter="30"/>
+        <text text="A2" color="#000000" x="-8.95313" y="-26" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text text="B2" color="#000000" x="31.1406" y="-26" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <dynamic_text text_width="-1" z="3" x="-46" uuid="{5d6b4935-398b-4999-ae36-818b4796a984}" keep_visual_rotation="true" Halignment="AlignLeft" y="-3" text_from="ElementInfo" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <dynamic_text x="-20" y="24" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{3f25d559-525f-4f82-ac21-8a51e33d9a4a}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" z="4" x="-20" uuid="{3f25d559-525f-4f82-ac21-8a51e33d9a4a}" keep_visual_rotation="true" Halignment="AlignLeft" y="24" text_from="ElementInfo" frame="false" font="Sans Serif,7,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop">
             <text></text>
         </dynamic_text>
-        <dynamic_text x="-10" y="44" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{d2f22986-69e5-4e41-97b6-d9e2805837e7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" z="5" x="-10" uuid="{d2f22986-69e5-4e41-97b6-d9e2805837e7}" keep_visual_rotation="true" Halignment="AlignLeft" y="44" text_from="ElementInfo" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop">
             <text></text>
             <info_name>tension-protocol</info_name>
         </dynamic_text>
-        <text text="M" x="-5" y="1" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="B1" x="11.09" y="-26" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <polygon x1="-6" y1="8" x2="-6" y2="5" x3="6" y3="5" x4="6" y4="2" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-10" y1="-30" x2="-10" y2="-20" x3="-7" y3="-14" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="10" y1="-30" x2="10" y2="-20" x3="7" y3="-14" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="30" y1="-30" x2="30" y2="-20" x3="13" y3="-8" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-30" y1="-30" x2="-30" y2="-20" x3="-13" y3="-8" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="A1" x="-29" y="-26" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <terminal uuid="{d22ba9cc-4143-48e5-815c-2f7d7cb3ea7e}" name="B2" x="30" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{d9790c8c-bb47-4cb2-a6c7-d3a4e693e05d}" name="A2" x="-10" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{3114302f-4d80-4402-b9f2-254ee3f93fbd}" name="B1" x="10" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{e9ee7c82-61f9-4482-b2f7-4ade84ed77bb}" name="A1" x="-30" y="-30" orientation="n" type="Generic"/>
+        <text text="M" color="#000000" x="-5" y="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text text="B1" color="#000000" x="11.0937" y="-26" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <polygon antialias="false" y3="5" x4="6" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-6" y4="2" y2="5" x3="6" x2="-6" y1="8" closed="false"/>
+        <polygon antialias="false" y3="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" y2="-20" x3="-7" x2="-10" y1="-30" closed="false"/>
+        <polygon antialias="false" y3="-14" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10" y2="-20" x3="7" x2="10" y1="-30" closed="false"/>
+        <polygon antialias="false" y3="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" y2="-20" x3="13" x2="30" y1="-30" closed="false"/>
+        <polygon antialias="false" y3="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" y2="-20" x3="-13" x2="-30" y1="-30" closed="false"/>
+        <text text="A1" color="#000000" x="-29" y="-26" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <terminal type="Generic" name="B2" x="30" uuid="{d22ba9cc-4143-48e5-815c-2f7d7cb3ea7e}" y="-30" orientation="n"/>
+        <terminal type="Generic" name="A2" x="-10" uuid="{d9790c8c-bb47-4cb2-a6c7-d3a4e693e05d}" y="-30" orientation="n"/>
+        <terminal type="Generic" name="B1" x="10" uuid="{3114302f-4d80-4402-b9f2-254ee3f93fbd}" y="-30" orientation="n"/>
+        <terminal type="Generic" name="A1" x="-30" uuid="{e9ee7c82-61f9-4482-b2f7-4ade84ed77bb}" y="-30" orientation="n"/>
     </description>
 </definition>

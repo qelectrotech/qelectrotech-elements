@@ -1,29 +1,31 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="10" hotspot_y="31">
-    <uuid uuid="{b62a80d7-0dc8-9cca-88d6-ddb7d97304cf}"/>
+<definition type="element" width="10" height="50" link_type="simple" version="0.100.0" hotspot_y="24" hotspot_x="4">
+    <uuid uuid="{1ef156d4-80a4-4843-b843-ef0dd5e8ff85}"/>
     <names>
+        <name lang="ca">Elèctrode</name>
+        <name lang="pt">Eléctrodo</name>
+        <name lang="it">Elettrodo</name>
+        <name lang="fr">Electrode</name>
+        <name lang="en">Electrode</name>
         <name lang="ar">الكترود</name>
         <name lang="cs">Elektroda</name>
-        <name lang="de">Elektrode</name>
-        <name lang="el">Ηλεκτρόδιο</name>
-        <name lang="en">Electrode</name>
-        <name lang="es">Electrodo</name>
-        <name lang="fr">Electrode</name>
-        <name lang="it">Elettrodo</name>
         <name lang="nl">Elektrode</name>
         <name lang="pl">Elektroda</name>
-        <name lang="pt">Eléctrodo</name>
+        <name lang="es">Electrodo</name>
+        <name lang="de">Elektrode</name>
+        <name lang="el">Ηλεκτρόδιο</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="6" y="-9" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ad9f2279-ea0e-4ab6-ba90-1375d0314d0b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{ad9f2279-ea0e-4ab6-ba90-1375d0314d0b}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="6" z="1" frame="false" Valignment="AlignTop" y="-9" Halignment="AlignLeft" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="-1" y1="20" x2="1" y2="20" x3="0" y3="23" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <line x1="1" y1="-10" x2="1" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-1" y1="-10" x2="-1" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="20" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{a3dbfbe5-6efd-42df-bd24-b833ef5f54e0}" name="1" x="0" y="-20" orientation="n" type="Generic"/>
+        <polygon x2="1" style="line-style:normal;line-weight:normal;filling:black;color:black" x3="0" y1="20" x1="-1" y2="20" y4="20" antialias="true" y3="23" x4="-1"/>
+        <line x2="1" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-10" x1="1" length2="1.5" y2="20" end2="none" antialias="false"/>
+        <line x2="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="-10" x1="-1" length2="1.5" y2="20" end2="none" antialias="false"/>
+        <line x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" y1="20" x1="0" length2="1.5" y2="-20" end2="none" antialias="false"/>
+        <terminal uuid="{a3dbfbe5-6efd-42df-bd24-b833ef5f54e0}" type="Generic" x="0" name="1" y="-20" orientation="n"/>
     </description>
 </definition>

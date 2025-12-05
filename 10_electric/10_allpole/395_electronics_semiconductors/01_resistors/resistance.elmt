@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="10" hotspot_y="30">
-    <uuid uuid="{2becfcef-f6f6-6a63-ef49-65f12026c4f8}"/>
+<definition height="50" link_type="simple" hotspot_y="24" version="0.100.0" type="element" width="20" hotspot_x="10">
+    <uuid uuid="{fa7d7d30-b4db-4f94-aa82-4aa5da683c9f}"/>
     <names>
-        <name lang="ar">مُقاومة</name>
-        <name lang="cs">Odpor</name>
-        <name lang="de">Widerstand</name>
-        <name lang="el">Αντίσταση</name>
-        <name lang="en">Resistor</name>
-        <name lang="es">Resistencia</name>
-        <name lang="fr">Résistance</name>
+        <name lang="ca">Resistència</name>
+        <name lang="pt">Resistência</name>
         <name lang="it">Resistore</name>
+        <name lang="de">Widerstand</name>
+        <name lang="en">Resistor</name>
+        <name lang="fr">Résistance</name>
+        <name lang="el">Αντίσταση</name>
         <name lang="nl">Weerstand</name>
         <name lang="pl">Rezystor</name>
-        <name lang="pt">Resistência</name>
+        <name lang="cs">Odpor</name>
+        <name lang="es">Resistencia</name>
         <name lang="ru">Резистор</name>
+        <name lang="ar">مُقاومة</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 04-01-01</informations>
     <description>
-        <line x1="0" y1="20" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-4" y="-10" width="8" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="false"/>
-        <dynamic_text x="6" y="-11.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{570cd854-578d-4c4b-bd2a-3498353e46b6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line length2="1.5" y1="20" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20"/>
+        <rect height="20" y="-10" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:white;color:black" ry="0" width="8" x="-4"/>
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-11.5" z="7" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{570cd854-578d-4c4b-bd2a-3498353e46b6}" x="6" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{09a3060b-a0fd-41ad-b605-f5c0ae63901e}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{4410c57c-3796-4696-b63b-d8d5a0c9b788}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal y="20" orientation="s" name="A2" type="Generic" uuid="{09a3060b-a0fd-41ad-b605-f5c0ae63901e}" x="0"/>
+        <terminal y="-20" orientation="n" name="A1" type="Generic" uuid="{4410c57c-3796-4696-b63b-d8d5a0c9b788}" x="0"/>
     </description>
 </definition>

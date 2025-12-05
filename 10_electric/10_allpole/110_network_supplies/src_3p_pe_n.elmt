@@ -1,40 +1,42 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="100" hotspot_x="21" hotspot_y="48">
-    <uuid uuid="{a706f19b-f4af-3bf7-a05d-7dfa5b0efe3f}"/>
+<definition height="100" link_type="simple" hotspot_y="50" version="0.100.0" type="element" width="30" hotspot_x="15">
+    <uuid uuid="{d72ead60-83c8-4f3c-a0b7-b83793834ac5}"/>
     <names>
-        <name lang="ar">مصدر ثلاثي القطبية + PE + N</name>
-        <name lang="cs">Přípojnice 3f+N+PE</name>
+        <name lang="ca">Font tripolar + PE + N</name>
         <name lang="de">Drehstrom + PE +N</name>
-        <name lang="el">Τριφασικό +N +PE</name>
         <name lang="en">Three-pole source + PE +N</name>
-        <name lang="es">Fuente tripolar + PE +N</name>
-        <name lang="fr">Source tripolaire + PE +N</name>
-        <name lang="hu">3F + N + PE</name>
         <name lang="it">Sorgente tripolare +PE + N</name>
+        <name lang="fr">Source tripolaire + PE +N</name>
+        <name lang="el">Τριφασικό +N +PE</name>
         <name lang="nl">driefase + aarde + nul</name>
         <name lang="pl">Linia trójfazowa (pięcioprzewodowa)</name>
+        <name lang="hu">3F + N + PE</name>
+        <name lang="cs">Přípojnice 3f+N+PE</name>
+        <name lang="es">Fuente tripolar + PE +N</name>
         <name lang="ru">Трёхполюсный + PE +N</name>
+        <name lang="ar">مصدر ثلاثي القطبية + PE + N</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="3" y="-71.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{84be326c-d5bc-4be1-8573-30d29ed894d7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-71.95" z="1" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{84be326c-d5bc-4be1-8573-30d29ed894d7}" x="3" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="40" x2="10" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="PE" x="-12" y="43" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="0" y1="-20" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="20" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="N" x="-12" y="23" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L3" x="-12" y="3" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L2" x="-12" y="-17" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L1" x="-12" y="-37" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="0" y1="-40" x2="10" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{639ce249-0313-4c33-8ce4-0c09df4b43ab}" name="L2" x="10" y="-20" orientation="e" type="Generic"/>
-        <terminal uuid="{6996d331-855c-4aaa-9dd0-02ca5028d882}" name="L1" x="10" y="-40" orientation="e" type="Generic"/>
-        <terminal uuid="{91bca3aa-68f6-4026-8bb9-d22de4ab6b33}" name="L3" x="10" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{1ca64835-095b-4f91-943e-829d6702e206}" name="N" x="10" y="20" orientation="e" type="Generic"/>
-        <terminal uuid="{2954e6c9-5956-4ddd-83d6-f7cbfc729027}" name="PE" x="10" y="40" orientation="e" type="Generic"/>
+        <line length2="1.5" y1="40" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="40"/>
+        <line length2="1.5" y1="0" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0"/>
+        <text rotation="0" text="PE" y="43" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <line length2="1.5" y1="-20" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20"/>
+        <line length2="1.5" y1="20" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+        <text rotation="0" text="N" y="23" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L3" y="3" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L2" y="-17" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L1" y="-37" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <line length2="1.5" y1="-40" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40"/>
+        <terminal y="-20" orientation="e" name="L2" type="Generic" uuid="{639ce249-0313-4c33-8ce4-0c09df4b43ab}" x="10"/>
+        <terminal y="-40" orientation="e" name="L1" type="Generic" uuid="{6996d331-855c-4aaa-9dd0-02ca5028d882}" x="10"/>
+        <terminal y="0" orientation="e" name="L3" type="Generic" uuid="{91bca3aa-68f6-4026-8bb9-d22de4ab6b33}" x="10"/>
+        <terminal y="20" orientation="e" name="N" type="Generic" uuid="{1ca64835-095b-4f91-943e-829d6702e206}" x="10"/>
+        <terminal y="40" orientation="e" name="PE" type="Generic" uuid="{2954e6c9-5956-4ddd-83d6-f7cbfc729027}" x="10"/>
     </description>
 </definition>

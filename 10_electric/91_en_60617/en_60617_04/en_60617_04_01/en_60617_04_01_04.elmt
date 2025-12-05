@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="70" height="50" hotspot_x="30" hotspot_y="17">
-    <uuid uuid="{0a6e8ce7-2273-bfa9-416d-edcbe17b0ad6}"/>
+<definition link_type="simple" width="60" hotspot_y="18" type="element" version="0.100.0" hotspot_x="24" height="50">
+    <uuid uuid="{a2d46c23-6945-4371-b59b-83cf4fd1b5a3}"/>
     <names>
-        <name lang="cs">Napěťově závislý rezistor - Varistor</name>
+        <name lang="ca">Resistència, dependent de la tensió</name>
         <name lang="de">Widerstand, spannungsabhängig
 Varistor</name>
-        <name lang="en">Resistor, voltage dependent</name>
+        <name lang="cs">Napěťově závislý rezistor - Varistor</name>
         <name lang="fr">Résistance dépendant de la tension
 Varistance</name>
+        <name lang="en">Resistor, voltage dependent</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3ce6b59c-6e48-45c4-b49c-f662740f7ea9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" rotation="0" uuid="{3ce6b59c-6e48-45c4-b49c-f662740f7ea9}" keep_visual_rotation="false" z="1" text_width="-1" Valignment="AlignTop" x="5" y="12.5" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-20" y1="0" x2="-10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-10" y="-5" width="30" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="0" x2="30" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-15" y1="15" x2="-10" y2="15" x3="15" y3="-15" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="U" x="-15" y="25" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <terminal uuid="{b3f4b7c2-df4b-4ea2-9a98-29c061d300cb}" name="" x="30" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{6957b1d8-797e-419a-9da3-ecc4f902ec82}" name="" x="-20" y="0" orientation="w" type="Generic"/>
+        <line x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none" length1="1.5" length2="1.5" y1="0" x1="-20" end2="none" y2="0"/>
+        <rect width="30" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="10" rx="0" x="-10" y="-5"/>
+        <line x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end1="none" length1="1.5" length2="1.5" y1="0" x1="20" end2="none" y2="0"/>
+        <polygon closed="false" x2="-10" x3="15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y3="-15" y1="15" x1="-15" y2="15"/>
+        <text color="#000000" rotation="0" text="U" x="-15" y="25" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <terminal type="Generic" uuid="{b3f4b7c2-df4b-4ea2-9a98-29c061d300cb}" name="" orientation="e" x="30" y="0"/>
+        <terminal type="Generic" uuid="{6957b1d8-797e-419a-9da3-ecc4f902ec82}" name="" orientation="w" x="-20" y="0"/>
     </description>
 </definition>

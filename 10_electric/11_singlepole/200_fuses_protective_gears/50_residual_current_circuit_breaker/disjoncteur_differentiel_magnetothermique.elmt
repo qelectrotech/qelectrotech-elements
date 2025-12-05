@@ -1,38 +1,40 @@
-<definition version="0.100.0" type="element" link_type="master" width="50" height="80" hotspot_x="15" hotspot_y="50">
-    <uuid uuid="{5db72e5c-0f77-5dfd-d799-bd69f1c46904}"/>
+<definition type="element" width="20" height="70" link_type="master" hotspot_x="12" hotspot_y="44" version="0.100.0">
+    <uuid uuid="{3e08ff7b-301b-4507-91ae-f237f98abcc0}"/>
     <names>
-        <name lang="ar">قاطع تفاضلي مغناطيسي - حراري</name>
-        <name lang="cs">Jističochránič</name>
-        <name lang="de">Kombischalter 1-polig</name>
+        <name lang="ca">Interruptor diferencial magnetotèrmic</name>
         <name lang="el">Θερμομαγνητικός διαφορικός διακόπτης</name>
-        <name lang="en">Magneto-thermal differential switch</name>
-        <name lang="fr">Disjoncteur différentiel magnéto-thermique</name>
-        <name lang="it">Interr. magneto-termico differenziale</name>
         <name lang="nl">Aardlekschakelaar + automaat</name>
+        <name lang="it">Interr. magneto-termico differenziale</name>
         <name lang="pl">Wyłącznik różnicowoprądowy z członem nadprądowym</name>
+        <name lang="cs">Jističochránič</name>
+        <name lang="ar">قاطع تفاضلي مغناطيسي - حراري</name>
+        <name lang="en">Magneto-thermal differential switch</name>
+        <name lang="de">Kombischalter 1-polig</name>
+        <name lang="fr">Disjoncteur différentiel magnéto-thermique</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc x="-2.5" y="10.5" width="5" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="-40" x2="0" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="20" y="-28" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{77235313-3b21-4ec6-818f-e1c2bf86b704}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <arc width="5" y="10.5" height="5" angle="-180" x="-2.5" start="90" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y2="-30" x2="0" end1="none" length1="1.5" antialias="false" y1="-40" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="-28" keep_visual_rotation="false" text_from="ElementInfo" frame="false" x="20" uuid="{77235313-3b21-4ec6-818f-e1c2bf86b704}" z="3" rotation="0" Halignment="AlignLeft" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="2" y1="-32" x2="-2" y2="-28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="-32" x2="2" y2="-28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-5" y="-6" width="10" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="24" y="-8" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{db1fbbd5-dcfe-4dbf-a095-922ea0989d0e}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
+        <line x1="2" y2="-28" x2="-2" end1="none" length1="1.5" antialias="false" y1="-32" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-2" y2="-28" x2="2" end1="none" length1="1.5" antialias="false" y1="-32" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse width="10" height="4" y="-6" x="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_width="-1" y="-8" keep_visual_rotation="false" text_from="UserText" frame="false" x="24" uuid="{db1fbbd5-dcfe-4dbf-a095-922ea0989d0e}" z="7" rotation="0" Halignment="AlignLeft" Valignment="AlignTop">
             <text>___mA</text>
         </dynamic_text>
-        <polygon x1="-7" y1="-29" x2="0" y2="-10" x3="0" y3="0" x4="5" y4="0" x5="5" y5="6" x6="0" y6="6" x7="0" y7="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="20" x2="0" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-4" y1="-20" x2="-10" y2="-20" x3="-10" y3="-4" x4="-5" y4="-4" closed="false" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <terminal uuid="{821c51bd-5d59-4845-bbf7-b544f5c04895}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{de74bf3d-b041-46ad-b3ee-9abf3a782faa}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <polygon x1="-7" y7="10" closed="false" x6="0" y2="-10" y3="0" x7="0" x2="0" x5="5" x4="5" y6="6" antialias="false" y1="-29" y5="6" x3="0" y4="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y2="16" x2="0" end1="none" length1="1.5" antialias="false" y1="20" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-4" closed="false" y2="-20" y3="-4" x2="-10" x4="-5" antialias="false" y1="-20" x3="-10" y4="-4" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <terminal type="Generic" y="20" orientation="s" x="0" uuid="{821c51bd-5d59-4845-bbf7-b544f5c04895}" name=""/>
+        <terminal type="Generic" y="-40" orientation="n" x="0" uuid="{de74bf3d-b041-46ad-b3ee-9abf3a782faa}" name=""/>
     </description>
 </definition>

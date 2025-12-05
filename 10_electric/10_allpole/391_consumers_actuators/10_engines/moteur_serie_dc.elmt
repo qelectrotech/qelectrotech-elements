@@ -1,37 +1,39 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="70" hotspot_x="30" hotspot_y="40">
-    <uuid uuid="{9271a3c2-d3af-7ffa-9318-001e27ef3b2d}"/>
+<definition link_type="simple" height="70" type="element" hotspot_x="24" width="50" hotspot_y="38" version="0.100.0">
+    <uuid uuid="{960f2ffc-8438-4dce-a0db-7113e48d2f5d}"/>
     <names>
-        <name lang="ar">محرّك توالي مستمرّ</name>
-        <name lang="cs">Sériový DC motor</name>
+        <name lang="ca">Motor sèrie DC</name>
         <name lang="el">Σειριακό μοτέρ συνεχούς</name>
-        <name lang="en">Series motor DC</name>
         <name lang="es">Motor serie DC</name>
         <name lang="fr">Moteur série,DC</name>
-        <name lang="it">Motore CC</name>
-        <name lang="nl">Motor DC Serie</name>
         <name lang="pl">Silnik szeregowy prądu stałego</name>
+        <name lang="it">Motore CC</name>
+        <name lang="en">Series motor DC</name>
+        <name lang="ar">محرّك توالي مستمرّ</name>
+        <name lang="nl">Motor DC Serie</name>
+        <name lang="cs">Sériový DC motor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-20" y1="-30" x2="-20" y2="10" x3="-15" y3="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="20" y1="1" x2="20" y2="10" x3="16" y3="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="6" y1="14" x2="10" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="14" x2="2" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-9" y1="14" x2="-3" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-9" y1="12" x2="10" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-15" y="-5" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="16.5" y="-19" width="7" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text text="M" x="-4" y="7" rotation="0" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <arc x="16.5" y="-9" width="7" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="16.5" y="-4" width="7" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="19" y="4" z="12" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{06e0c25f-3421-4b7e-825a-7b83dbf850ad}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon x4="-15" x2="-20" antialias="false" x1="-20" x3="-15" y2="10" y4="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-30" y3="10"/>
+        <polygon x4="16" x2="20" antialias="false" x1="20" x3="16" y2="10" y4="10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="1" y3="10"/>
+        <line length1="1.5" x2="10" antialias="false" x1="6" y2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="14" end2="none"/>
+        <line length1="1.5" x2="2" antialias="false" x1="0" y2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="14" end2="none"/>
+        <line length1="1.5" x2="-3" antialias="false" x1="-9" y2="14" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="14" end2="none"/>
+        <line length1="1.5" x2="10" antialias="false" x1="-9" y2="12" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="12" end2="none"/>
+        <circle x="-15" antialias="true" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="30"/>
+        <arc x="16.5" height="5" antialias="true" y="-19" angle="-180" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="7"/>
+        <text x="-4" y="7" rotation="0" color="#000000" font="Sans Serif,8,-1,5,50,0,0,0,0,0" text="M"/>
+        <arc x="16.5" height="5" antialias="true" y="-9" angle="-180" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="7"/>
+        <arc x="16.5" height="5" antialias="true" y="-4" angle="-180" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="7"/>
+        <dynamic_text x="19" uuid="{06e0c25f-3421-4b7e-825a-7b83dbf850ad}" y="4" rotation="0" z="12" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc x="16.5" y="-14" width="7" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="20" y1="-29" x2="20" y2="-19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{a9066f02-f0a2-48f3-b290-132dbed97039}" name="" x="20" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{1607e1bc-e022-4a95-9f28-cf8fe61be35d}" name="" x="-20" y="-30" orientation="n" type="Generic"/>
+        <arc x="16.5" height="5" antialias="true" y="-14" angle="-180" start="90" style="line-style:normal;line-weight:normal;filling:none;color:black" width="7"/>
+        <line length1="1.5" x2="20" antialias="false" x1="20" y2="-19" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length2="1.5" y1="-29" end2="none"/>
+        <terminal x="20" uuid="{a9066f02-f0a2-48f3-b290-132dbed97039}" name="" y="-30" type="Generic" orientation="n"/>
+        <terminal x="-20" uuid="{1607e1bc-e022-4a95-9f28-cf8fe61be35d}" name="" y="-30" type="Generic" orientation="n"/>
     </description>
 </definition>

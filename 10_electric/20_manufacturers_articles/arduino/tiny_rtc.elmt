@@ -1,58 +1,69 @@
-<definition version="0.100.0" type="element" link_type="simple" width="100" height="80" hotspot_x="57" hotspot_y="57">
-    <uuid uuid="{4bcf3a1b-16aa-d530-e2d4-b43d8c3fea3b}"/>
+<definition type="element" hotspot_y="57" width="90" link_type="simple" version="0.100.0" height="80" hotspot_x="51">
+    <uuid uuid="{c0342191-202b-4ce5-bd8a-0c595b4bd6d0}"/>
     <names>
-        <name lang="cs">Tiny RTC (hodiny a kalendář)</name>
-        <name lang="en">Tiny RTC real time clock)</name>
-        <name lang="fr">Tiny RTC (horloge temps réel)</name>
-        <name lang="it">Tiny RTC (orologio e calendario)</name>
-        <name lang="nl">Tiny RTC Tijdklok</name>
+        <name lang="ca">Petit rellotge en temps real RTC)</name>
         <name lang="pl">Tiny RTC</name>
+        <name lang="cs">Tiny RTC (hodiny a kalendář)</name>
+        <name lang="it">Tiny RTC (orologio e calendario)</name>
+        <name lang="fr">Tiny RTC (horloge temps réel)</name>
+        <name lang="nl">Tiny RTC Tijdklok</name>
+        <name lang="en">Tiny RTC real time clock)</name>
     </names>
     <elementInformations>
+        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
+        <elementInformation show="1" name="comment"></elementInformation>
+        <elementInformation show="1" name="quantity"></elementInformation>
+        <elementInformation show="1" name="supplier"></elementInformation>
+        <elementInformation show="1" name="plant"></elementInformation>
+        <elementInformation show="1" name="label"></elementInformation>
+        <elementInformation show="1" name="description"></elementInformation>
+        <elementInformation show="1" name="designation"></elementInformation>
+        <elementInformation show="1" name="unity"></elementInformation>
         <elementInformation show="1" name="manufacturer">Arduino</elementInformation>
     </elementInformations>
     <informations>Charles Ferrand 
 novembre 2013</informations>
     <description>
-        <text text="SCL" x="6" y="-8" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="DS" x="15" y="-6" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="P1" x="-42" y="13" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="35.84" y1="14" x2="30.22" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="SQ" x="23" y="-6" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Bat" x="-30" y="-6" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="SDA" x="-2" y="-9" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="GND" x="-21" y="-10" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Vcc" x="-11" y="-7" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <rect x="-31" y="8" width="62" height="7" rx="0" ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <text text="DS" x="15" y="-42" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="P2" x="-33" y="-40" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="SCL" x="6" y="-42" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="SDA" x="-3" y="-42" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Vcc" x="-12" y="-41" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="GND" x="-21" y="-42" rotation="90" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <rect x="-21" y="-49" width="42" height="7" rx="0" ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="-31" y1="14" x2="-47" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-47" y1="14" x2="-47" y2="-47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-47" y1="-47" x2="-21" y2="-47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="21" y1="-47" x2="36" y2="-47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="36" y1="-47" x2="36" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="Tiny RTC" x="-44" y="-38" rotation="90" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <ellipse x="-21" y="-40" width="41" height="42" style="line-style:dotted;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="-55" y="-71" z="25" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{6ed3866d-4969-4549-b724-04009ad2fe7f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="SCL" y="-8" x="6"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="DS" y="-6" x="15"/>
+        <text rotation="0" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="P1" y="13" x="-42"/>
+        <line x2="30.22" y1="14" antialias="false" y2="14" x1="35.84" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="SQ" y="-6" x="23"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="Bat" y="-6" x="-30"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="SDA" y="-9" x="-2"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="GND" y="-10" x="-21"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="Vcc" y="-7" x="-11"/>
+        <rect ry="0" antialias="false" width="62" style="line-style:normal;line-weight:thin;filling:none;color:black" rx="0" height="7" y="8" x="-31"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="DS" y="-42" x="15"/>
+        <text rotation="0" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="P2" y="-40" x="-33"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="SCL" y="-42" x="6"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="SDA" y="-42" x="-3"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="Vcc" y="-41" x="-12"/>
+        <text rotation="90" color="#000000" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="GND" y="-42" x="-21"/>
+        <rect ry="0" antialias="false" width="42" style="line-style:normal;line-weight:thin;filling:none;color:black" rx="0" height="7" y="-49" x="-21"/>
+        <line x2="-47" y1="14" antialias="false" y2="14" x1="-31" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line x2="-47" y1="14" antialias="false" y2="-47" x1="-47" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line x2="-21" y1="-47" antialias="false" y2="-47" x1="-47" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line x2="36" y1="-47" antialias="false" y2="-47" x1="21" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <line x2="36" y1="-47" antialias="false" y2="14" x1="36" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5"/>
+        <text rotation="90" color="#000000" font="Sans Serif,7,-1,5,50,0,0,0,0,0" text="Tiny RTC" y="-38" x="-44"/>
+        <ellipse antialias="true" width="41" style="line-style:dotted;line-weight:thin;filling:none;color:black" height="42" y="-40" x="-21"/>
+        <dynamic_text text_width="-1" rotation="0" text_from="ElementInfo" uuid="{6ed3866d-4969-4549-b724-04009ad2fe7f}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Valignment="AlignTop" y="-71" Halignment="AlignLeft" z="25" keep_visual_rotation="true" x="-55">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{2139e9db-3c0e-259c-8730-272c887e1a72}" name="" x="-9" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{3602b3d5-edfc-7e06-fcaf-a7b6233d4ed2}" name="" x="0" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{bf08171a-62f1-4f48-5ed9-ff7bc522bb91}" name="" x="-18" y="-48" orientation="n" type="Generic"/>
-        <terminal uuid="{b12f3a4a-5714-1eaa-7fd9-9c4afdf398c8}" name="" x="-18" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{e61ca186-f809-37fb-1c40-525dd7d12189}" name="" x="-27" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{b7b929f6-1191-67db-0d0a-fef633a98621}" name="" x="27" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{b8f92f20-e3a6-ec97-d126-46e2c4063056}" name="" x="-9" y="-48" orientation="n" type="Generic"/>
-        <terminal uuid="{0731e506-f063-3b59-cf6b-00cad44867d5}" name="" x="0" y="-48" orientation="n" type="Generic"/>
-        <terminal uuid="{f6b81869-6f98-6aae-12ec-0bd3f5109b65}" name="" x="9" y="-48" orientation="n" type="Generic"/>
-        <terminal uuid="{c5ddffde-e219-2398-c629-713278c8ae6f}" name="" x="18" y="-48" orientation="n" type="Generic"/>
-        <terminal uuid="{04dd6932-f688-991f-d93b-023a48056dd7}" name="" x="9" y="13" orientation="s" type="Generic"/>
-        <terminal uuid="{b5e10eb3-ec7b-c114-6700-daef1421c1f0}" name="" x="18" y="13" orientation="s" type="Generic"/>
+        <terminal type="Generic" uuid="{2139e9db-3c0e-259c-8730-272c887e1a72}" name="" orientation="s" y="13" x="-9"/>
+        <terminal type="Generic" uuid="{3602b3d5-edfc-7e06-fcaf-a7b6233d4ed2}" name="" orientation="s" y="13" x="0"/>
+        <terminal type="Generic" uuid="{bf08171a-62f1-4f48-5ed9-ff7bc522bb91}" name="" orientation="n" y="-48" x="-18"/>
+        <terminal type="Generic" uuid="{b12f3a4a-5714-1eaa-7fd9-9c4afdf398c8}" name="" orientation="s" y="13" x="-18"/>
+        <terminal type="Generic" uuid="{e61ca186-f809-37fb-1c40-525dd7d12189}" name="" orientation="s" y="13" x="-27"/>
+        <terminal type="Generic" uuid="{b7b929f6-1191-67db-0d0a-fef633a98621}" name="" orientation="s" y="13" x="27"/>
+        <terminal type="Generic" uuid="{b8f92f20-e3a6-ec97-d126-46e2c4063056}" name="" orientation="n" y="-48" x="-9"/>
+        <terminal type="Generic" uuid="{0731e506-f063-3b59-cf6b-00cad44867d5}" name="" orientation="n" y="-48" x="0"/>
+        <terminal type="Generic" uuid="{f6b81869-6f98-6aae-12ec-0bd3f5109b65}" name="" orientation="n" y="-48" x="9"/>
+        <terminal type="Generic" uuid="{c5ddffde-e219-2398-c629-713278c8ae6f}" name="" orientation="n" y="-48" x="18"/>
+        <terminal type="Generic" uuid="{04dd6932-f688-991f-d93b-023a48056dd7}" name="" orientation="s" y="13" x="9"/>
+        <terminal type="Generic" uuid="{b5e10eb3-ec7b-c114-6700-daef1421c1f0}" name="" orientation="s" y="13" x="18"/>
     </description>
 </definition>

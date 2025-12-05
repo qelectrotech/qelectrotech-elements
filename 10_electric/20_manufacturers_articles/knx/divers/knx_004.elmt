@@ -1,29 +1,31 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="40" hotspot_x="20" hotspot_y="20">
-    <uuid uuid="{11c0cc64-a725-b9d2-995f-aa462532d0df}"/>
+<definition version="0.100.0" link_type="simple" type="element" width="20" hotspot_y="20" hotspot_x="14" height="40">
+    <uuid uuid="{06c2a50c-9052-4a0c-b7d3-45fcdfdaec6a}"/>
     <names>
-        <name lang="ar">ملف خانق</name>
-        <name lang="cs">Škrticí klapka</name>
-        <name lang="de">Drossel</name>
+        <name lang="ca">Sufocar</name>
         <name lang="el">Φίλτρο</name>
-        <name lang="en">Choke</name>
-        <name lang="es">Choke</name>
-        <name lang="fr">Dispositif de blocage</name>
-        <name lang="it">Dispositivo di blocco</name>
-        <name lang="nl">Weerstand</name>
-        <name lang="pl">Dławik</name>
         <name lang="pt">Bloqueio</name>
+        <name lang="pl">Dławik</name>
+        <name lang="es">Choke</name>
+        <name lang="ar">ملف خانق</name>
+        <name lang="en">Choke</name>
+        <name lang="de">Drossel</name>
+        <name lang="it">Dispositivo di blocco</name>
+        <name lang="cs">Škrticí klapka</name>
+        <name lang="nl">Weerstand</name>
+        <name lang="fr">Dispositif de blocage</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-10" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-5" y1="-12" x2="-5" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-7" y="-10" width="4" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <dynamic_text x="-26" y="-40.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{294baa43-c213-4dcc-8ccd-68b557f86467}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <rect y="-15" antialias="false" x="-10" rx="0" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="30" ry="0"/>
+        <line length2="1.5" antialias="false" x2="-5" end1="none" length1="1.5" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" y2="12" end2="none"/>
+        <rect y="-10" antialias="false" x="-7" rx="0" width="4" style="line-style:normal;line-weight:normal;filling:black;color:black" height="20" ry="0"/>
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-40.5" rotation="0" x="-26" Halignment="AlignLeft" uuid="{294baa43-c213-4dcc-8ccd-68b557f86467}" text_from="ElementInfo" z="4" keep_visual_rotation="false" Valignment="AlignTop" frame="false" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{1c4ad873-5e00-444f-a284-f03bbbb14cef}" name="" x="-10" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{fd8fbe54-8e59-4bd8-a8cc-f98c76389a1b}" name="" x="0" y="0" orientation="e" type="Generic"/>
+        <terminal y="0" x="-10" orientation="w" uuid="{1c4ad873-5e00-444f-a284-f03bbbb14cef}" type="Generic" name=""/>
+        <terminal y="0" x="0" orientation="e" uuid="{fd8fbe54-8e59-4bd8-a8cc-f98c76389a1b}" type="Generic" name=""/>
     </description>
 </definition>

@@ -1,27 +1,29 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="22" hotspot_y="35">
-    <uuid uuid="{a2c0984b-d8b4-4c98-cec9-df0ab3c14777}"/>
+<definition hotspot_y="29" type="element" link_type="simple" height="50" version="0.100.0" width="40" hotspot_x="20">
+    <uuid uuid="{243d22c6-25f5-4d97-928e-19dc9483db93}"/>
     <names>
         <name lang="ar">عدّاد طاقة فعّالة مع تجاوز قدرة</name>
-        <name lang="cs">Měřič překročení maxima</name>
-        <name lang="de">Überverbrauchszähler, Spitzenzähler</name>
-        <name lang="en">Excess watt-hour meter</name>
+        <name lang="ca">Excés de watt-hora</name>
         <name lang="fr">Compteur à énergie active à dépassement de puissance</name>
+        <name lang="de">Überverbrauchszähler, Spitzenzähler</name>
         <name lang="it">Contatore di energia attiva a supero di potenza</name>
-        <name lang="nl">Overcapaciteit teller</name>
+        <name lang="cs">Měřič překročení maxima</name>
+        <name lang="en"> Excess watt-hour meter</name>
         <name lang="pl">Licznik watogodzin szczytowy</name>
+        <name lang="nl">Overcapaciteit teller</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="18" y="-21.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{54620702-a0d8-4dc9-a63e-a37124527690}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" z="1" keep_visual_rotation="false" x="18" rotation="0" y="-21.95" frame="false" text_from="ElementInfo" Valignment="AlignTop" uuid="{54620702-a0d8-4dc9-a63e-a37124527690}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="P >" x="-10" y="7" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Wh" x="-10" y="-3" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <rect x="-15" y="-12" width="30" height="22" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-15" y="-20" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{f016262f-b088-4688-b669-c93e14f4e96f}" name="" x="0" y="14" orientation="s" type="Generic"/>
-        <terminal uuid="{39c14a1c-09d5-49ad-ac7b-2807bbd570f0}" name="" x="0" y="-24" orientation="n" type="Generic"/>
+        <text color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-10" rotation="0" y="7" text="P >"/>
+        <text color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-10" rotation="0" y="-3" text="Wh"/>
+        <rect antialias="false" ry="0" height="22" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-12" width="30" rx="0"/>
+        <rect antialias="false" ry="0" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-20" width="30" rx="0"/>
+        <terminal orientation="s" type="Generic" name="" x="0" y="14" uuid="{f016262f-b088-4688-b669-c93e14f4e96f}"/>
+        <terminal orientation="n" type="Generic" name="" x="0" y="-24" uuid="{39c14a1c-09d5-49ad-ac7b-2807bbd570f0}"/>
     </description>
 </definition>

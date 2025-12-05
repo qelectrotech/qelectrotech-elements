@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="140" height="80" hotspot_x="62" hotspot_y="21">
-    <uuid uuid="{8bd4990f-4b00-5233-3cc7-042d2882e5fc}"/>
+<definition width="140" hotspot_x="64" type="element" height="80" link_type="simple" hotspot_y="25" version="0.100.0">
+    <uuid uuid="{a89ec854-0c47-480c-8705-77d43edc451b}"/>
     <names>
-        <name lang="cs">Odbočovací kabelová spojka, jednočárové zobrazení</name>
-        <name lang="de">Abzweigmuffe, einpolige Darstellung</name>
+        <name lang="ca">Caixa de connexió (representació d'una sola línia)</name>
         <name lang="en">Junction box (single-line representation)</name>
+        <name lang="de">Abzweigmuffe, einpolige Darstellung</name>
         <name lang="fr">Boîte pour une dérivation avec trois
 conducteurs, représentation unifilaire</name>
+        <name lang="cs">Odbočovací kabelová spojka, jednočárové zobrazení</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="35" y="32.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c028134e-f100-4559-ac0b-be6034a1b9a6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" uuid="{c028134e-f100-4559-ac0b-be6034a1b9a6}" z="1" y="32.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Halignment="AlignLeft" frame="false" keep_visual_rotation="false" Valignment="AlignTop" x="35" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="3" x="13" y="20" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="-60" y1="0" x2="60" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-20" y1="0" x2="0" y2="-10" x3="20" y3="0" x4="0" y4="10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-50" y1="10" x2="-30" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="30" y1="10" x2="50" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="3" x="-30" y="-12" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="3" x="60" y="-2" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="0" y1="50" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="40" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{a715e6b7-cd2f-45d7-b706-fe2d1e033c6e}" name="" x="0" y="50" orientation="s" type="Generic"/>
-        <terminal uuid="{91e84c60-21ff-45c6-972f-79a9d98e3a56}" name="" x="-50" y="10" orientation="w" type="Generic"/>
-        <terminal uuid="{94175434-d1aa-4f26-9001-600af7c32d76}" name="" x="70" y="10" orientation="e" type="Generic"/>
+        <text rotation="0" text="3" y="20" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="13"/>
+        <line length1="1.5" y1="0" y2="0" x2="60" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-60" end2="none"/>
+        <polygon y1="0" y2="-10" y4="10" x2="0" y3="0" x5="-20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="20" y5="0" antialias="false" x1="-20" x4="0"/>
+        <line length1="1.5" y1="10" y2="-10" x2="-30" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-50" end2="none"/>
+        <line length1="1.5" y1="10" y2="-10" x2="50" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="30" end2="none"/>
+        <text rotation="0" text="3" y="-12" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="-30"/>
+        <text rotation="0" text="3" y="-2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000" x="60"/>
+        <line length1="1.5" y1="50" y2="10" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="0" end2="none"/>
+        <line length1="1.5" y1="40" y2="20" x2="10" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" antialias="false" x1="-10" end2="none"/>
+        <terminal name="" uuid="{a715e6b7-cd2f-45d7-b706-fe2d1e033c6e}" type="Generic" y="50" orientation="s" x="0"/>
+        <terminal name="" uuid="{91e84c60-21ff-45c6-972f-79a9d98e3a56}" type="Generic" y="10" orientation="w" x="-50"/>
+        <terminal name="" uuid="{94175434-d1aa-4f26-9001-600af7c32d76}" type="Generic" y="10" orientation="e" x="70"/>
     </description>
 </definition>

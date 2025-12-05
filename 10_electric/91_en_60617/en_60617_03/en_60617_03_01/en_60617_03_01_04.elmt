@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="100" height="40" hotspot_x="50" hotspot_y="28">
-    <uuid uuid="{50b2517b-cce7-b9d6-4a0b-21137bbb5d5f}"/>
+<definition link_type="simple" hotspot_y="12" type="element" hotspot_x="44" width="90" version="0.100.0" height="20">
+    <uuid uuid="{d6fe302d-3ab5-479a-88bf-2c3f42187184}"/>
     <names>
+        <name lang="ca">Circuit de corrent continu</name>
+        <name lang="fr">Circuit à courant continu</name>
         <name lang="cs">Obvod se stejnosměrným proudem</name>
         <name lang="de">Gleichstromkreis</name>
         <name lang="en">Direct current circuit</name>
-        <name lang="fr">Circuit à courant continu</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7d302a20-f5b1-4f90-b1ab-fb3cd99ad882}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{7d302a20-f5b1-4f90-b1ab-fb3cd99ad882}" rotation="0" y="2.5" text_from="ElementInfo" Halignment="AlignLeft" x="5" keep_visual_rotation="false" frame="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-40" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-15" y1="-7" x2="-8" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-15" y1="-5" x2="-8" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dotted;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-9" y="-16" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{cfceca22-dbaf-49ed-9474-1876513ffa36}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
+        <line end2="none" y2="0" end1="none" length2="1.5" antialias="false" x1="-40" y1="0" x2="40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y2="-7" end1="none" length2="1.5" antialias="false" x1="-15" y1="-7" x2="-8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" y2="-5" end1="none" length2="1.5" antialias="false" x1="-15" y1="-5" x2="-8" length1="1.5" style="line-style:dotted;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text uuid="{cfceca22-dbaf-49ed-9474-1876513ffa36}" rotation="0" y="-16" text_from="UserText" Halignment="AlignLeft" x="-9" keep_visual_rotation="false" frame="false" z="5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1">
             <text>110 V</text>
         </dynamic_text>
-        <dynamic_text x="-25" y="-5" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{82d49e86-8c98-4005-8119-45a6ede00698}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{82d49e86-8c98-4005-8119-45a6ede00698}" rotation="0" y="-5" text_from="UserText" Halignment="AlignLeft" x="-25" keep_visual_rotation="false" frame="false" z="6" font="Sans Serif,6,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_width="-1">
             <text>2 x 120 mm² AI</text>
         </dynamic_text>
-        <terminal uuid="{2408a18c-5f06-42be-bf36-45817cf81be1}" name="" x="-40" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{a02db11c-6e59-40fd-9c4b-e3211e0e7c1f}" name="" x="40" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{2408a18c-5f06-42be-bf36-45817cf81be1}" type="Generic" y="0" x="-40" orientation="w" name=""/>
+        <terminal uuid="{a02db11c-6e59-40fd-9c4b-e3211e0e7c1f}" type="Generic" y="0" x="40" orientation="e" name=""/>
     </description>
 </definition>

@@ -1,39 +1,41 @@
-<definition version="0.100.0" type="element" link_type="master" width="50" height="60" hotspot_x="12" hotspot_y="30">
-    <uuid uuid="{4b6db5d1-7fab-8ca0-cb7a-9c79b76d1c71}"/>
+<definition width="50" hotspot_y="24" hotspot_x="13" version="0.100.0" type="element" link_type="master" height="50">
+    <uuid uuid="{a72cb5dc-ec32-49c1-86a8-21e3c2b88acd}"/>
     <names>
-        <name lang="ar">مفتاح دوّار بوضعين</name>
+        <name lang="ca">Interruptor de 2 posicions</name>
         <name lang="cs">Otočný spínač s klíčkem - 2 polohy</name>
-        <name lang="de">Drehschalter 1-polig Schliesser ein/aus Schlüsselbetätigung tastend</name>
-        <name lang="el">Διακόπτης 2 θέσεων, με επαναφορά</name>
         <name lang="en">Switch 2 positions</name>
-        <name lang="fr">Interrupteur rotatif 1-0-2</name>
         <name lang="it">Selettore a 2 posizioni stabili</name>
-        <name lang="nl">keuzeschakelaar 2 pos terugverend (NO)</name>
+        <name lang="fr">Interrupteur rotatif 1-0-2</name>
         <name lang="pl">Łącznik obrotowy przełączny, uruchamiany kluczykiem z samoczynnym powrotem</name>
+        <name lang="el">Διακόπτης 2 θέσεων, με επαναφορά</name>
+        <name lang="de">Drehschalter 1-polig Schliesser ein/aus Schlüsselbetätigung tastend</name>
+        <name lang="ar">مفتاح دوّار بوضعين</name>
+        <name lang="nl">keuzeschakelaar 2 pos terugverend (NO)</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="15" y1="-4" x2="11" y2="-4" end1="none" end2="simple" length1="1.5" length2="0.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="-6" y1="0" x2="11" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="13" y1="3" x2="17" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <text text="1" x="6" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <polygon x1="30" y1="20" x2="30" y2="10" x3="24" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-8" y1="0" x2="-9" y2="4" x3="-5" y3="4" x4="-6" y4="0" closed="false" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <polygon x1="15" y1="0" x2="18" y2="0" x3="20" y3="3" x4="22" y4="0" x5="27" y5="0" closed="false" antialias="true" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <ellipse x="-9.24" y="-4.24" width="4.47" height="4.47" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <line x1="13" y1="3" x2="9" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <line x1="30" y1="-20" x2="30" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-3" y1="4" x2="0" y2="4" x3="0" y3="-4" x4="3" y4="-4" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <dynamic_text x="35" y="-11" z="12" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e10a4c2b-87bc-4bef-8a99-e8796bf0565f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line y1="-4" antialias="false" length1="1.5" end2="simple" y2="-4" end1="none" length2="0.5" x1="15" x2="11" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y1="0" antialias="false" length1="1.5" end2="none" y2="0" end1="none" length2="1.5" x1="-6" x2="11" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <line y1="3" antialias="true" length1="1.5" end2="none" y2="-3" end1="none" length2="1.5" x1="13" x2="17" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <text rotation="0" x="6" color="#000000" y="-5" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="1"/>
+        <polygon y1="20" closed="false" antialias="true" y2="10" x1="30" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" x3="24"/>
+        <polygon x4="-6" y1="0" closed="false" antialias="true" y4="0" y2="4" x1="-8" x2="-9" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="4" x3="-5"/>
+        <polygon x4="22" y1="0" closed="false" antialias="true" y4="0" y2="0" y5="0" x1="15" x2="18" style="line-style:dashed;line-weight:thin;filling:none;color:black" y3="3" x3="20" x5="27"/>
+        <circle antialias="true" x="-9.2361" diameter="4.4721" y="-4.236" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y1="3" antialias="true" length1="1.5" end2="none" y2="-3" end1="none" length2="1.5" x1="13" x2="9" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line y1="-20" antialias="false" length1="1.5" end2="none" y2="-9" end1="none" length2="1.5" x1="30" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="3" y1="4" closed="false" antialias="false" y4="-4" y2="4" x1="-3" x2="0" style="line-style:normal;line-weight:thin;filling:none;color:black" y3="-4" x3="0"/>
+        <dynamic_text rotation="0" text_width="-1" x="35" z="12" uuid="{e10a4c2b-87bc-4bef-8a99-e8796bf0565f}" Valignment="AlignTop" Halignment="AlignLeft" y="-11" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="2" x="17" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <terminal uuid="{c67c98b9-2116-433c-84e2-6b9734f3745f}" name="" x="30" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{989577e9-4d1a-4620-b4ec-dd684d568ae6}" name="" x="30" y="20" orientation="s" type="Generic"/>
+        <text rotation="0" x="17" color="#000000" y="-5" font="Sans Serif,4,-1,5,50,0,0,0,0,0" text="2"/>
+        <terminal x="30" name="" uuid="{c67c98b9-2116-433c-84e2-6b9734f3745f}" orientation="n" y="-20" type="Generic"/>
+        <terminal x="30" name="" uuid="{989577e9-4d1a-4620-b4ec-dd684d568ae6}" orientation="s" y="20" type="Generic"/>
     </description>
 </definition>

@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="60" hotspot_x="35" hotspot_y="30">
-    <uuid uuid="{4cc10855-7486-b9be-ac7c-7ffa603e3c16}"/>
+<definition type="element" link_type="simple" height="50" hotspot_x="35" version="0.100.0" width="60" hotspot_y="24">
+    <uuid uuid="{08bb9902-28f1-4a16-b5c1-f9b3e449cfff}"/>
     <names>
-        <name lang="cs">Cívka přístroje se zpožděním při odpadu</name>
+        <name lang="ca">Bobina de relé d'un relé d'alliberament lent</name>
+        <name lang="fr">Organe de commande d'un relais à mise au
+repos retardée</name>
+        <name lang="en">Relay coil of a slow-releasing relay</name>
         <name lang="de">elektromechanischer Antrieb mit
 Rückfallverzögerungelektromechanischer Antrieb,
 Relaisspule, allgemein</name>
-        <name lang="en">Relay coil of a slow-releasing relay</name>
-        <name lang="fr">Organe de commande d'un relais à mise au
-repos retardée</name>
+        <name lang="cs">Cívka přístroje se zpožděním při odpadu</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a269b2b8-0241-4e82-a103-fab7df66142c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Halignment="AlignLeft" y="12.5" text_width="-1" frame="false" text_from="ElementInfo" Valignment="AlignTop" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" rotation="0" keep_visual_rotation="false" uuid="{a269b2b8-0241-4e82-a103-fab7df66142c}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-20" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-30" y="-10" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <terminal uuid="{edea5ee8-b4a8-421e-b306-c2f802f545d2}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{da1baf3b-3e96-4210-a5e1-3f201462d7d7}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <rect y="-10" rx="0" height="20" antialias="false" width="40" x="-20" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="-10" end2="none" antialias="false" length2="1.5" x1="0" y1="-20" end1="none" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="20" end2="none" antialias="false" length2="1.5" x1="0" y1="10" end1="none" length1="1.5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect y="-10" rx="0" height="20" antialias="false" width="10" x="-30" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal type="Generic" y="20" x="0" orientation="s" name="" uuid="{edea5ee8-b4a8-421e-b306-c2f802f545d2}"/>
+        <terminal type="Generic" y="-20" x="0" orientation="n" name="" uuid="{da1baf3b-3e96-4210-a5e1-3f201462d7d7}"/>
     </description>
 </definition>

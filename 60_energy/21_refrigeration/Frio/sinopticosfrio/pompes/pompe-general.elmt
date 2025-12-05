@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="40" hotspot_x="25" hotspot_y="20">
-    <uuid uuid="{95b314c7-d136-b727-5e9e-7fb81ed235d5}"/>
+<definition width="50" version="0.100.0" link_type="simple" hotspot_x="24" type="element" height="40" hotspot_y="20">
+    <uuid uuid="{15530f67-6cf8-430d-b6b3-d2848efb6130}"/>
     <names>
-        <name lang="ar">مضخّة (رمز عام)</name>
-        <name lang="cs">Čerpadlo (obecný symbol)</name>
-        <name lang="el">Αντλία, γενικό σύμβολο</name>
-        <name lang="en">Pump general</name>
-        <name lang="fr">Pompe (général)</name>
-        <name lang="it">Pompa (segno geberale)</name>
+        <name lang="ca">Bomba general</name>
         <name lang="nl">Pomp algemeen</name>
+        <name lang="en">Pump general</name>
+        <name lang="el">Αντλία, γενικό σύμβολο</name>
+        <name lang="fr">Pompe (général)</name>
         <name lang="pl">Pompa, symbol ogólny</name>
+        <name lang="cs">Čerpadlo (obecný symbol)</name>
+        <name lang="it">Pompa (segno geberale)</name>
+        <name lang="ar">مضخّة (رمز عام)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-7" y="4.05" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a946d04d-880b-4134-b500-18bcf3d9ca11}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" z="1" keep_visual_rotation="false" y="4.05" x="-7" uuid="{a946d04d-880b-4134-b500-18bcf3d9ca11}" rotation="0" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-15" y="-15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
-        <line x1="15" y1="0" x2="0" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="15" y1="0" x2="0" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-15" y1="0" x2="-16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="15" y1="0" x2="16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{f235518c-040a-4717-983e-834d9b132034}" name="" x="-16" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{67da780d-6f5b-4670-bd59-be5887a7b2ab}" name="" x="16" y="0" orientation="e" type="Generic"/>
+        <circle antialias="true" diameter="30" y="-15" x="-15" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
+        <line antialias="false" y2="15" x1="15" length1="1.5" x2="0" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end1="none"/>
+        <line antialias="false" y2="-15" x1="15" length1="1.5" x2="0" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end1="none"/>
+        <line antialias="false" y2="0" x1="-15" length1="1.5" x2="-16" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end1="none"/>
+        <line antialias="false" y2="0" x1="15" length1="1.5" x2="16" end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end1="none"/>
+        <terminal y="0" x="-16" uuid="{f235518c-040a-4717-983e-834d9b132034}" type="Generic" orientation="w" name=""/>
+        <terminal y="0" x="16" uuid="{67da780d-6f5b-4670-bd59-be5887a7b2ab}" type="Generic" orientation="e" name=""/>
     </description>
 </definition>

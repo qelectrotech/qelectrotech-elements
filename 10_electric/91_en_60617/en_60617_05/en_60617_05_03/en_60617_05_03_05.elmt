@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="50">
-    <uuid uuid="{1ad98263-fb1d-0833-3c70-f03daabed2ba}"/>
+<definition height="50" version="0.100.0" type="element" link_type="simple" width="30" hotspot_x="15" hotspot_y="44">
+    <uuid uuid="{75d1df95-a227-4967-a5f8-7784ec8abdd1}"/>
     <names>
-        <name lang="cs">Tunelová (esakiho) dioda</name>
-        <name lang="de">Tunneldiode
-Esaki-Diode</name>
+        <name lang="ca">Díode túnel; </name>
         <name lang="en">Tunnel diode; Esaki diode</name>
         <name lang="fr">Diode tunnel
 Diode Esaki</name>
+        <name lang="de">Tunneldiode
+Esaki-Diode</name>
+        <name lang="cs">Tunelová (esakiho) dioda</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a1183e60-9cbd-4e03-92f6-6581e5793aba}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="5" text_from="ElementInfo" uuid="{a1183e60-9cbd-4e03-92f6-6581e5793aba}" Valignment="AlignTop" z="1" frame="false" text_width="-1" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" keep_visual_rotation="false" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-10" y1="-30" x2="10" y2="-30" x3="0" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-10" y1="-15" x2="-10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="-15" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{49f5abc0-da4b-493d-87e6-86e1a9bb112f}" name="" x="0" y="0" orientation="s" type="Generic"/>
-        <terminal uuid="{4045d313-5d50-418e-bbff-c62cdd1c65ed}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <line end1="none" length2="1.5" y2="0" x1="0" length1="1.5" y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="0" end2="none"/>
+        <line end1="none" length2="1.5" y2="-10" x1="-10" length1="1.5" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" end2="none"/>
+        <polygon x3="0" y2="-30" closed="false" y4="-30" x1="-10" y3="-10" x4="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10"/>
+        <line end1="none" length2="1.5" y2="-10" x1="-10" length1="1.5" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="-10" end2="none"/>
+        <line end1="none" length2="1.5" y2="-10" x1="10" length1="1.5" y1="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x2="10" end2="none"/>
+        <terminal x="0" type="Generic" uuid="{49f5abc0-da4b-493d-87e6-86e1a9bb112f}" y="0" name="" orientation="s"/>
+        <terminal x="0" type="Generic" uuid="{4045d313-5d50-418e-bbff-c62cdd1c65ed}" y="-40" name="" orientation="n"/>
     </description>
 </definition>

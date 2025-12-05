@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="80" hotspot_x="7" hotspot_y="40">
-    <uuid uuid="{2f681b6d-2712-6482-eeaf-bc048aa82820}"/>
+<definition hotspot_x="7" type="element" height="70" link_type="simple" width="40" version="0.100.0" hotspot_y="34">
+    <uuid uuid="{d0275690-7054-44d2-b174-850f6c8ca602}"/>
     <names>
+        <name lang="ca">fusible; </name>
+        <name lang="en">Fuse; Striker fuse</name>
+        <name lang="fr">Fusible à percuteur (à liaison mécanique)</name>
         <name lang="cs">Tavná pojistka s mechanickým spojením</name>
         <name lang="de">Sicherung mit mechanischer Auslösemeldung
 (Schlagbolzensicherung)</name>
-        <name lang="en">Fuse; Striker fuse</name>
-        <name lang="fr">Fusible à percuteur (à liaison mécanique)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8a510c5c-78d4-4537-a8f2-58a6dde2778a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text y="12.5" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8a510c5c-78d4-4537-a8f2-58a6dde2778a}" Halignment="AlignLeft" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" rotation="0" z="1" x="5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-30" x2="0" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-5" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="5" y1="0" x2="30" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{4caf7f6b-7d9e-414b-92ed-1de9acd34d06}" name="" x="0" y="30" orientation="s" type="Generic"/>
-        <terminal uuid="{2d40a6ab-cc4d-41a7-8e96-394ca28803bb}" name="" x="0" y="-30" orientation="n" type="Generic"/>
+        <line x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" y1="-30" y2="30" antialias="false" x2="0" length2="1.5" end1="none" end2="none"/>
+        <rect ry="0" y="-15" rx="0" height="30" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-5"/>
+        <line x1="5" style="line-style:dashed;line-weight:normal;filling:none;color:black" length1="1.5" y1="0" y2="0" antialias="false" x2="30" length2="1.5" end1="none" end2="none"/>
+        <terminal type="Generic" y="30" uuid="{4caf7f6b-7d9e-414b-92ed-1de9acd34d06}" name="" orientation="s" x="0"/>
+        <terminal type="Generic" y="-30" uuid="{2d40a6ab-cc4d-41a7-8e96-394ca28803bb}" name="" orientation="n" x="0"/>
     </description>
 </definition>

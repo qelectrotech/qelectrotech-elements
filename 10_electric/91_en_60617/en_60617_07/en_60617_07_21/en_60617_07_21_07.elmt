@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="10" hotspot_y="40">
-    <uuid uuid="{27b6c3d4-1989-1dcd-753e-14ebd6b2160c}"/>
+<definition hotspot_x="12" hotspot_y="34" link_type="simple" width="20" type="element" version="0.100.0" height="70">
+    <uuid uuid="{be881ebd-5da1-4f7c-9f4c-001098caf62e}"/>
     <names>
-        <name lang="cs">Pojistkový spínač</name>
+        <name lang="ca">Fusible-interruptor</name>
         <name lang="de">Sicherungsschalter</name>
-        <name lang="en">Fuse-switch</name>
+        <name lang="cs">Pojistkový spínač</name>
         <name lang="fr">Fusible interrupteur</name>
+        <name lang="en">Fuse-switch</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{651fddb6-30dc-45e7-8470-172e2b37ce91}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="5" z="1" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" y="12.5" frame="false" Valignment="AlignTop" uuid="{651fddb6-30dc-45e7-8470-172e2b37ce91}" text_from="ElementInfo" keep_visual_rotation="false" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="30" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="10" x2="-5" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-10" x2="0" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-3" y1="6" x2="-6" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="-6" x2="1" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="1" y1="5" x2="-3" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="-6" x2="-6" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{820992b8-7221-4ef4-ae12-5ae97cdb89be}" name="" x="0" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{9621230d-49c8-43c1-b4ef-afe6072241ba}" name="" x="0" y="30" orientation="s" type="Generic"/>
+        <line x2="0" y1="30" x1="0" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="10" end1="none"/>
+        <line x2="-5" y1="10" x1="0" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-10" end1="none"/>
+        <line x2="0" y1="-10" x1="0" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-30" end1="none"/>
+        <line x2="-6" y1="6" x1="-3" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-5" end1="none"/>
+        <line x2="1" y1="-6" x1="-2" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="5" end1="none"/>
+        <line x2="-3" y1="5" x1="1" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="6" end1="none"/>
+        <line x2="-6" y1="-6" x1="-2" length2="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-5" end1="none"/>
+        <terminal x="0" orientation="n" y="-30" uuid="{820992b8-7221-4ef4-ae12-5ae97cdb89be}" name="" type="Generic"/>
+        <terminal x="0" orientation="s" y="30" uuid="{9621230d-49c8-43c1-b4ef-afe6072241ba}" name="" type="Generic"/>
     </description>
 </definition>

@@ -1,35 +1,37 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="80" hotspot_x="21" hotspot_y="38">
-    <uuid uuid="{05ce9c3f-3dc6-9f84-29d0-9e27d2baa874}"/>
+<definition height="80" link_type="simple" hotspot_y="40" version="0.100.0" type="element" width="30" hotspot_x="15">
+    <uuid uuid="{087ed698-9a1d-4cf0-8a55-69bf825fcb4d}"/>
     <names>
-        <name lang="cs">Přípojnice 3f+PE</name>
-        <name lang="de">Dreiphasig + PE</name>
-        <name lang="en">Three-pole source + PE</name>
-        <name lang="es">Fuente tripolar + PE</name>
-        <name lang="fr">Source tripolaire + PE</name>
-        <name lang="hu">3F + PE</name>
-        <name lang="it">Sorgente tripolare + PE</name>
-        <name lang="nl">Driefasen + PE</name>
-        <name lang="pl">Linia trójfazowa (czteroprzewodowa)</name>
+        <name lang="ca">Font tripolar + PE</name>
         <name lang="pt">Fonte tripolar + PE</name>
+        <name lang="it">Sorgente tripolare + PE</name>
+        <name lang="en">Three-pole source + PE</name>
+        <name lang="de">Dreiphasig + PE</name>
+        <name lang="fr">Source tripolaire + PE</name>
+        <name lang="nl">Driefasen + PE</name>
+        <name lang="hu">3F + PE</name>
+        <name lang="pl">Linia trójfazowa (czteroprzewodowa)</name>
+        <name lang="cs">Přípojnice 3f+PE</name>
+        <name lang="es">Fuente tripolar + PE</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-7" y="-56.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3a4e94ae-dd0d-4762-b657-0a5fe8b6cb18}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-56.95" z="1" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{3a4e94ae-dd0d-4762-b657-0a5fe8b6cb18}" x="-7" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="10" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="30" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="PE" x="-12" y="33" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L3" x="-12" y="13" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L2" x="-12" y="-7" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="L1" x="-12" y="-27" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="0" y1="-30" x2="10" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{01faa4e7-482d-4045-baa4-61a2dc225632}" name="L3" x="10" y="10" orientation="e" type="Generic"/>
-        <terminal uuid="{7be3baab-0831-441e-b36f-14b8a0db9cdb}" name="PE" x="10" y="30" orientation="e" type="Generic"/>
-        <terminal uuid="{1f253f63-14f6-4da1-ab17-6d48cdbcd362}" name="L1" x="10" y="-30" orientation="e" type="Generic"/>
-        <terminal uuid="{2812deae-d483-41c8-b053-354464a4305c}" name="L2" x="10" y="-10" orientation="e" type="Generic"/>
+        <line length2="1.5" y1="10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <line length2="1.5" y1="-10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
+        <line length2="1.5" y1="30" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30"/>
+        <text rotation="0" text="PE" y="33" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L3" y="13" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L2" y="-7" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <text rotation="0" text="L1" y="-27" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
+        <line length2="1.5" y1="-30" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30"/>
+        <terminal y="10" orientation="e" name="L3" type="Generic" uuid="{01faa4e7-482d-4045-baa4-61a2dc225632}" x="10"/>
+        <terminal y="30" orientation="e" name="PE" type="Generic" uuid="{7be3baab-0831-441e-b36f-14b8a0db9cdb}" x="10"/>
+        <terminal y="-30" orientation="e" name="L1" type="Generic" uuid="{1f253f63-14f6-4da1-ab17-6d48cdbcd362}" x="10"/>
+        <terminal y="-10" orientation="e" name="L2" type="Generic" uuid="{2812deae-d483-41c8-b053-354464a4305c}" x="10"/>
     </description>
 </definition>

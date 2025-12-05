@@ -1,37 +1,39 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="20" hotspot_y="25">
-    <uuid uuid="{a32e8104-e041-8826-37b6-8cf87a2b0107}"/>
+<definition height="40" hotspot_y="19" link_type="simple" version="0.100.0" hotspot_x="14" type="element" width="40">
+    <uuid uuid="{3a7e1066-bfad-48ac-a7aa-eb00b87abdcd}"/>
     <names>
-        <name lang="cs">Napájení</name>
-        <name lang="el">Τροφοδοτικό</name>
-        <name lang="en">Power supply</name>
+        <name lang="ca">Font d'alimentació</name>
         <name lang="es">Fuente de alimentación</name>
         <name lang="fr">Alimentation</name>
+        <name lang="en">Power supply</name>
         <name lang="it">Alimentatore</name>
-        <name lang="nl">Voeding</name>
+        <name lang="cs">Napájení</name>
         <name lang="pl">Zasilacz</name>
+        <name lang="el">Τροφοδοτικό</name>
+        <name lang="nl">Voeding</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-10" y="-15" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-0.5" y="-11.5" width="5" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-10" y1="15" x2="20" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="6" y1="8" x2="16" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="6" y1="10" x2="16" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-5.5" y="-11.5" width="5" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="-14" y="-38.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4a438ef8-c7bf-425f-b689-09753f95cd40}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <rect y="-15" height="30" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" x="-10" width="30" antialias="false"/>
+        <arc y="-11.5" height="5" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-0.5" width="5" angle="-180" antialias="true"/>
+        <line x2="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="15" y2="-15" x1="-10" end1="none" length2="1.5" end2="none" antialias="true"/>
+        <line x2="16" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" y2="8" x1="6" end1="none" length2="1.5" end2="none" antialias="false"/>
+        <line x2="16" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="10" y2="10" x1="6" end1="none" length2="1.5" end2="none" antialias="false"/>
+        <arc y="-11.5" height="5" start="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5.5" width="5" angle="-180" antialias="true"/>
+        <dynamic_text y="-38.5" z="7" Valignment="AlignTop" uuid="{4a438ef8-c7bf-425f-b689-09753f95cd40}" text_from="ElementInfo" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" x="-14" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{c4251f6d-e89a-4c86-a21e-13556f013900}" name="" x="-10" y="10" orientation="w" type="Generic"/>
-        <terminal uuid="{0dd240fb-44f6-4f16-afb5-6b9c4926c3bc}" name="" x="0" y="15" orientation="s" type="Generic"/>
-        <terminal uuid="{b6935080-5452-4481-90d5-e2042701dc9e}" name="" x="10" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{b3196e7d-8938-44ab-850f-d704e71762f0}" name="" x="0" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{8f3f884e-9f01-41c8-9e7e-f3f207c31e75}" name="" x="10" y="15" orientation="s" type="Generic"/>
-        <terminal uuid="{7bacf27a-ff23-4dfe-aef2-cacb052dc255}" name="" x="-10" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{9f57ed1f-c36a-48b3-9e0f-80f2a59d4a63}" name="" x="-10" y="-10" orientation="w" type="Generic"/>
-        <terminal uuid="{e20e24fc-aa85-4bb6-a20a-e46b17af64b5}" name="" x="20" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{c983ef1c-684d-4859-b7c4-fa1a4a401d3e}" name="" x="20" y="10" orientation="e" type="Generic"/>
-        <terminal uuid="{7391f625-2ad9-45c1-8a03-4a1928762bc5}" name="" x="20" y="-10" orientation="e" type="Generic"/>
+        <terminal y="10" uuid="{c4251f6d-e89a-4c86-a21e-13556f013900}" name="" x="-10" orientation="w" type="Generic"/>
+        <terminal y="15" uuid="{0dd240fb-44f6-4f16-afb5-6b9c4926c3bc}" name="" x="0" orientation="s" type="Generic"/>
+        <terminal y="-15" uuid="{b6935080-5452-4481-90d5-e2042701dc9e}" name="" x="10" orientation="n" type="Generic"/>
+        <terminal y="-15" uuid="{b3196e7d-8938-44ab-850f-d704e71762f0}" name="" x="0" orientation="n" type="Generic"/>
+        <terminal y="15" uuid="{8f3f884e-9f01-41c8-9e7e-f3f207c31e75}" name="" x="10" orientation="s" type="Generic"/>
+        <terminal y="0" uuid="{7bacf27a-ff23-4dfe-aef2-cacb052dc255}" name="" x="-10" orientation="w" type="Generic"/>
+        <terminal y="-10" uuid="{9f57ed1f-c36a-48b3-9e0f-80f2a59d4a63}" name="" x="-10" orientation="w" type="Generic"/>
+        <terminal y="0" uuid="{e20e24fc-aa85-4bb6-a20a-e46b17af64b5}" name="" x="20" orientation="e" type="Generic"/>
+        <terminal y="10" uuid="{c983ef1c-684d-4859-b7c4-fa1a4a401d3e}" name="" x="20" orientation="e" type="Generic"/>
+        <terminal y="-10" uuid="{7391f625-2ad9-45c1-8a03-4a1928762bc5}" name="" x="20" orientation="e" type="Generic"/>
     </description>
 </definition>

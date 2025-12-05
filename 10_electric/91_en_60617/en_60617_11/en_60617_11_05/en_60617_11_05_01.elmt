@@ -1,21 +1,23 @@
-<definition version="0.100.0" type="element" link_type="simple" width="70" height="80" hotspot_x="45" hotspot_y="75">
-    <uuid uuid="{55e0a344-1f8e-d981-4af2-8e15979bf109}"/>
+<definition version="0.100.0" width="70" link_type="simple" type="element" hotspot_y="75" height="80" hotspot_x="45">
+    <uuid uuid="{ee0d7c61-0614-4fe8-93b4-405b581e497d}"/>
     <names>
-        <name lang="cs">Místo příjmu s lokální anténou</name>
+        <name lang="ca">Capçal amb antena local</name>
         <name lang="de">Kabelkopf (Empfangsstelle) mit Ortsantenne</name>
         <name lang="en">Head end with local antenna</name>
         <name lang="fr">Tête de réseau avec antenne locale</name>
+        <name lang="cs">Místo příjmu s lokální anténou</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3bc0a6db-8787-4b7e-993a-abe64ef49ec0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" uuid="{3bc0a6db-8787-4b7e-993a-abe64ef49ec0}" z="1" frame="false" y="12.5" x="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-40" y="-70" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-37" y1="-60" x2="-3" y2="-60" x3="-20" y3="-30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-20" y1="-60" x2="-20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-4" y1="-37" x2="20" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-70" x="-40" diameter="40"/>
+        <polygon x4="-37" y1="-60" x2="-3" antialias="false" x3="-20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-30" y4="-60" x1="-37" y2="-60"/>
+        <line y1="-60" x2="-20" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-20" y2="0"/>
+        <line y1="-37" x2="20" antialias="false" end1="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-4" y2="-20"/>
     </description>
 </definition>

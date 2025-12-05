@@ -1,39 +1,41 @@
-<definition version="0.80" type="element" link_type="simple" width="50" height="80" hotspot_x="30" hotspot_y="40">
-    <uuid uuid="{01537342-5f30-18d2-71e0-2fb0584bb616}"/>
+<definition type="element" link_type="simple" height="70" width="50" hotspot_y="34" version="0.80" hotspot_x="28">
+    <uuid uuid="{ff3971b1-115b-4ccc-bcd6-8a6c51a2760b}"/>
     <names>
-        <name lang="cs">Motor s cizím buzením</name>
+        <name lang="ca">Motor de corrent continu d'excitació independent</name>
+        <name lang="it">Eccitazione separata del motore CC</name>
+        <name lang="pt">Excitação separada do motor DC</name>
+        <name lang="ru">Раздельное возбуждение двигателя постоянного тока</name>
         <name lang="de">Gleichstrommotor Fremderregt</name>
         <name lang="en">Separate excitation DC motor</name>
         <name lang="es">Excitación separada del motor DC</name>
         <name lang="fr">Moteur DC excitation séparée</name>
-        <name lang="it">Eccitazione separata del motore CC</name>
-        <name lang="pt">Excitação separada do motor DC</name>
-        <name lang="ru">Раздельное возбуждение двигателя постоянного тока</name>
+        <name lang="cs">Motor s cizím buzením</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-3" y="-17" width="6" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="M" x="-6" y="5" rotation="0" font="Liberation Sans,11,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="K" x="-18" y="26" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <arc x="-23.5" y="8" width="7" height="5" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-15" y="-15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text text="A2" x="2" y="26" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="I" x="-18" y="-22" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="A1" x="2" y="-22" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <arc x="-23.5" y="-12" width="7" height="5" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="17" x2="0" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-23.5" y="-2" width="7" height="5" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-23.5" y="3" width="7" height="5" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-23.5" y="-7" width="7" height="5" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="-30" x2="0" y2="-17" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-20" y1="-30" x2="-20" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-20" y1="30" x2="-20" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-6" y1="8" x2="6" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-3" y="15" width="6" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{ebcfbf4f-3065-4c64-901a-4f6c8f69a6e9}" name="A1" x="0" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{a5e81d4a-16bc-4a34-8b34-dc0fd7b44196}" name="I" x="-20" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{739f6f62-22e8-43bc-aecf-b454a2c2b90e}" name="K" x="-20" y="30" orientation="s" type="Generic"/>
-        <terminal uuid="{8152411b-db39-4479-abd1-02ca189b041f}" name="A2" x="0" y="30" orientation="s" type="Generic"/>
+        <rect x="-3" height="2" antialias="false" width="6" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-17" ry="0"/>
+        <text x="-6" text="M" rotation="0" y="5" font="Sans Serif,11,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <text x="-18" text="K" rotation="0" y="26" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <arc x="-23.5" angle="-180" height="5" antialias="true" width="7" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="8"/>
+        <circle x="-15" diameter="30" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15"/>
+        <text x="2" text="A2" rotation="0" y="26" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <text x="-18" text="I" rotation="0" y="-22" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <text x="2" text="A1" rotation="0" y="-22" font="Sans Serif,4,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <arc x="-23.5" angle="-180" height="5" antialias="true" width="7" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-12"/>
+        <line x1="0" end1="none" y2="30" antialias="false" y1="17" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0"/>
+        <arc x="-23.5" angle="-180" height="5" antialias="true" width="7" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-2"/>
+        <arc x="-23.5" angle="-180" height="5" antialias="true" width="7" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="3"/>
+        <arc x="-23.5" angle="-180" height="5" antialias="true" width="7" start="-90" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-7"/>
+        <line x1="0" end1="none" y2="-17" antialias="false" y1="-30" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0"/>
+        <line x1="-20" end1="none" y2="-12" antialias="false" y1="-30" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-20"/>
+        <line x1="-20" end1="none" y2="13" antialias="false" y1="30" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="-20"/>
+        <line x1="-6" end1="none" y2="8" antialias="false" y1="8" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="6"/>
+        <rect x="-3" height="2" antialias="false" width="6" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="15" ry="0"/>
+        <terminal x="0" orientation="n" uuid="{ebcfbf4f-3065-4c64-901a-4f6c8f69a6e9}" name="A1" y="-30"/>
+        <terminal x="-20" orientation="n" uuid="{a5e81d4a-16bc-4a34-8b34-dc0fd7b44196}" name="I" y="-30"/>
+        <terminal x="-20" orientation="s" uuid="{739f6f62-22e8-43bc-aecf-b454a2c2b90e}" name="K" y="30"/>
+        <terminal x="0" orientation="s" uuid="{8152411b-db39-4479-abd1-02ca189b041f}" name="A2" y="30"/>
     </description>
 </definition>

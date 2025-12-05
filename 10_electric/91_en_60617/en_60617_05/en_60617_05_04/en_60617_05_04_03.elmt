@@ -1,27 +1,29 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="60" hotspot_x="25" hotspot_y="50">
-    <uuid uuid="{5d6877d6-f183-a111-3e70-2f3a9415dd35}"/>
+<definition height="50" hotspot_y="44" width="50" hotspot_x="25" link_type="simple" type="element" version="0.100.0">
+    <uuid uuid="{6350a4da-a337-4081-bc5f-63d4800b5e91}"/>
     <names>
-        <name lang="cs">Obousměrný diodový tyristor, diak</name>
-        <name lang="de">Thyristordiode, bidirektional
-Diac</name>
-        <name lang="en">Bidirectional diode thyristor; Diac</name>
+        <name lang="ca">tiristor de díode bidireccional; </name>
         <name lang="fr">Thyristor diode bidirectionelle
 Diac</name>
+        <name lang="de">Thyristordiode, bidirektional
+Diac</name>
+        <name lang="cs">Obousměrný diodový tyristor, diak</name>
+        <name lang="en">Bidirectional diode thyristor; Diac</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b2a71ab8-22ad-4ae5-98a1-31cb49a95d41}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" Valignment="AlignTop" Halignment="AlignLeft" y="2.5" z="1" uuid="{b2a71ab8-22ad-4ae5-98a1-31cb49a95d41}" frame="false" x="5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-20" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-20" y1="-30" x2="0" y2="-30" x3="-10" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="15" y1="-20" x2="-15" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="0" y1="-10" x2="10" y2="-30" x3="20" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="-30" x2="20" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{761326b8-0635-4a94-8cf6-8f4bc581c653}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{13ad1d1c-11bd-4f35-b987-98ce0f35c811}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <line y1="-40" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" x2="0" antialias="false" x1="0" y2="0"/>
+        <line y1="-10" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" x2="10" antialias="false" x1="-20" y2="-10"/>
+        <polygon x3="-10" y3="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" closed="false" antialias="false" y4="-30" x1="-20" y2="-30" x4="-20"/>
+        <line y1="-20" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" x2="-15" antialias="false" x1="15" y2="-20"/>
+        <polygon x3="20" y3="-10" y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" closed="false" antialias="false" y4="-10" x1="0" y2="-30" x4="0"/>
+        <line y1="-30" length2="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length1="1.5" x2="20" antialias="false" x1="0" y2="-30"/>
+        <terminal y="-40" uuid="{761326b8-0635-4a94-8cf6-8f4bc581c653}" name="" x="0" type="Generic" orientation="n"/>
+        <terminal y="0" uuid="{13ad1d1c-11bd-4f35-b987-98ce0f35c811}" name="" x="0" type="Generic" orientation="s"/>
     </description>
 </definition>

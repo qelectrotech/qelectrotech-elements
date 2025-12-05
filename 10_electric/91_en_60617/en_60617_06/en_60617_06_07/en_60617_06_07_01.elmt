@@ -1,32 +1,34 @@
-<definition version="0.100.0" type="element" link_type="simple" width="70" height="110" hotspot_x="65" hotspot_y="87">
-    <uuid uuid="{2a74aafb-5864-60fc-171c-34773c11c039}"/>
+<definition width="70" hotspot_x="65" type="element" hotspot_y="86" height="110" version="0.100.0" link_type="simple">
+    <uuid uuid="{635f7e20-c638-4bce-a728-b3053bb7c427}"/>
     <names>
-        <name lang="cs">Trojfázový synchronní generátor
-s buzením permanentním magnetem</name>
-        <name lang="de">Drehstrom-Synchrongenerator mit
-Dauermagneterregung</name>
+        <name lang="ca">Generador síncron, trifàsic amb imant permanent</name>
         <name lang="en">Synchronous generator, three-phase with permanent magnet</name>
         <name lang="fr">Alternateur synchrone à aimant permanent,
 triphasé</name>
+        <name lang="de">Drehstrom-Synchrongenerator mit
+Dauermagneterregung</name>
+        <name lang="cs">Trojfázový synchronní generátor
+s buzením permanentním magnetem</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f42c1da0-ed30-45e0-8720-1c6c5b86b987}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="5" text_from="ElementInfo" keep_visual_rotation="false" y="12.5" uuid="{f42c1da0-ed30-45e0-8720-1c6c5b86b987}" text_width="-1" rotation="0" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-60" y="-60" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="M" x="-34" y="-32" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="3" x="-45" y="-15" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <arc x="-35" y="-22.5" width="10" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-25" y="-22.5" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-30" y1="-80" x2="-30" y2="-60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-50" y1="-80" x2="-50" y2="-53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-80" x2="-10" y2="-53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-40" y1="10" x2="-50" y2="10" x3="-50" y3="20" x4="-10" y4="20" x5="-10" y5="10" x6="-20" y6="10" x7="-20" y7="15" x8="-40" y8="15" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal uuid="{2b2920ca-5a73-44fc-9793-dc886c5c2fc9}" name="" x="-10" y="-80" orientation="n" type="Generic"/>
-        <terminal uuid="{e7485f58-6797-4d36-8ab4-fc7c2fe12120}" name="" x="-50" y="-80" orientation="n" type="Generic"/>
-        <terminal uuid="{2b699b10-db76-4b91-8760-60374b2968a6}" name="" x="-30" y="-80" orientation="n" type="Generic"/>
+        <circle x="-60" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-60" diameter="60"/>
+        <text x="-34" y="-32" text="M" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <text x="-45" y="-15" text="3" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <arc x="-35" width="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" y="-22.5" angle="180" height="5"/>
+        <arc x="-25" width="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" y="-22.5" angle="-180" height="5"/>
+        <line y1="-80" antialias="false" y2="-60" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-30" length2="1.5" x2="-30" end1="none"/>
+        <line y1="-80" antialias="false" y2="-53" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length2="1.5" x2="-50" end1="none"/>
+        <line y1="-80" antialias="false" y2="-53" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" length2="1.5" x2="-10" end1="none"/>
+        <polygon x2="-50" x7="-20" x8="-40" y2="10" x3="-50" x9="-40" y7="15" x4="-10" x6="-20" style="line-style:normal;line-weight:normal;filling:black;color:black" x1="-40" y8="15" y9="10" y3="20" y6="10" y1="10" antialias="false" y5="10" x5="-10" y4="20"/>
+        <terminal x="-10" orientation="n" y="-80" uuid="{2b2920ca-5a73-44fc-9793-dc886c5c2fc9}" name="" type="Generic"/>
+        <terminal x="-50" orientation="n" y="-80" uuid="{e7485f58-6797-4d36-8ab4-fc7c2fe12120}" name="" type="Generic"/>
+        <terminal x="-30" orientation="n" y="-80" uuid="{2b699b10-db76-4b91-8760-60374b2968a6}" name="" type="Generic"/>
     </description>
 </definition>

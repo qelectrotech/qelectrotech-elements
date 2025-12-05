@@ -1,23 +1,26 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="30" hotspot_x="32" hotspot_y="15">
-    <uuid uuid="{44417d94-b773-e812-dd18-68c033c53654}"/>
+<definition hotspot_y="15" link_type="simple" version="0.100.0" width="70" type="element" height="30" hotspot_x="37">
+    <uuid uuid="{52785665-f266-4a41-943d-1d108f0bf7c3}"/>
     <names>
-        <name lang="cs">Výstupní Jack</name>
+        <name lang="ca">Jack de sortida</name>
         <name lang="en">Output Jack</name>
+        <name lang="cs">Výstupní Jack</name>
     </names>
+    <elementInformations/>
     <informations>Author: Thomas McMillan Grant Bennett
 Name: Output Jack
 Purpose:  To assiste in drawing guitar wiring diagrams
-License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+License: see http://qelectrotech.org/wiki/doc/elements_license
+</informations>
     <description>
-        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-5" y="-5" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-25" y="-2.5" width="20" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <rect x="10" y="-2.5" width="10" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-22" y="-25.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ec61c473-3d3f-4c57-8f18-12786e250114}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
+        <circle diameter="20" antialias="false" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
+        <circle diameter="10" antialias="false" y="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5"/>
+        <rect rx="0" antialias="false" y="-2.5" width="20" style="line-style:normal;line-weight:normal;filling:black;color:black" height="5" x="-25" ry="0"/>
+        <rect rx="0" antialias="false" y="-2.5" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" x="10" ry="0"/>
+        <dynamic_text Valignment="AlignTop" text_width="-1" y="-25.5" rotation="0" uuid="{ec61c473-3d3f-4c57-8f18-12786e250114}" frame="false" keep_visual_rotation="false" text_from="ElementInfo" x="-22" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" z="5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{b9c19500-f905-4f51-a1c1-700e4f9b3947}" name="" x="-25" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{c724e88d-0e59-47da-858c-55ad06ead5b2}" name="" x="20" y="0" orientation="w" type="Generic"/>
+        <terminal orientation="e" y="0" uuid="{b9c19500-f905-4f51-a1c1-700e4f9b3947}" type="Generic" x="-25" name=""/>
+        <terminal orientation="w" y="0" uuid="{c724e88d-0e59-47da-858c-55ad06ead5b2}" type="Generic" x="20" name=""/>
     </description>
 </definition>

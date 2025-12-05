@@ -1,29 +1,31 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="30" hotspot_y="30">
-    <uuid uuid="{6cf668c2-a8c9-97fb-3e56-1b6cc81b8657}"/>
+<definition width="30" height="50" version="0.100.0" link_type="simple" hotspot_y="24" type="element" hotspot_x="24">
+    <uuid uuid="{3fa5e4f8-e6e3-4a83-b694-39e5a99f67dd}"/>
     <names>
-        <name lang="ar">ترنزيستور ثنائي القطبيّة ببوابة معزولة IBGT</name>
-        <name lang="cs">Bipolární tranzistor IGBT</name>
-        <name lang="de">Bipolar Transistor IGBT</name>
+        <name lang="ca">Transistor bipolar IGBT</name>
         <name lang="en">Bipolar transistor IGBT</name>
         <name lang="fr">Transistor bipolaire à grille isolée IGBT</name>
-        <name lang="it">transistor bipolare IGBT</name>
-        <name lang="nl">transistor bipolare IGBT</name>
+        <name lang="ar">ترنزيستور ثنائي القطبيّة ببوابة معزولة IBGT</name>
         <name lang="pl">Tranzystor biopolarny IGBT</name>
+        <name lang="cs">Bipolární tranzistor IGBT</name>
+        <name lang="it">transistor bipolare IGBT</name>
+        <name lang="de">Bipolar Transistor IGBT</name>
+        <name lang="nl">transistor bipolare IGBT</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-2" y1="6" x2="-6" y2="10" x3="0" y3="12" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line x1="-11" y1="0" x2="-20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="0" y1="20" x2="0" y2="12" x3="-9" y3="3" x4="-9" y4="-3" x5="0" y5="-12" x6="0" y6="-20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-10.5" y1="-5" x2="-10.5" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-9" y1="-5" x2="-9" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="3" y="-9" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b71b17a5-4755-4081-8e78-8c041c0d7192}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon y2="10" antialias="true" y3="12" x4="-2" x1="-2" x3="0" y1="6" x2="-6" y4="6" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <line y2="0" end2="none" antialias="false" length2="1.5" x1="-11" end1="none" y1="0" length1="1.5" x2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y2="12" antialias="false" closed="false" y3="3" x4="-9" x1="0" x3="-9" x5="0" y1="20" x6="0" x2="0" y4="-3" y6="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y5="-12"/>
+        <line y2="5" end2="none" antialias="false" length2="1.5" x1="-10.5" end1="none" y1="-5" length1="1.5" x2="-10.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y2="5" end2="none" antialias="false" length2="1.5" x1="-9" end1="none" y1="-5" length1="1.5" x2="-9" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" uuid="{b71b17a5-4755-4081-8e78-8c041c0d7192}" Valignment="AlignTop" frame="false" text_from="ElementInfo" z="7" y="-9" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="3">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{fdcab149-0f1a-424b-a497-2f76286fdee2}" name="E" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{890fb7e0-7d23-4e7e-a3f2-641e6c4d6155}" name="G" x="-20" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{400db929-3416-460d-9587-1b7945d74d35}" name="C" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal name="E" uuid="{fdcab149-0f1a-424b-a497-2f76286fdee2}" type="Generic" y="20" x="0" orientation="s"/>
+        <terminal name="G" uuid="{890fb7e0-7d23-4e7e-a3f2-641e6c4d6155}" type="Generic" y="0" x="-20" orientation="w"/>
+        <terminal name="C" uuid="{400db929-3416-460d-9587-1b7945d74d35}" type="Generic" y="-20" x="0" orientation="n"/>
     </description>
 </definition>

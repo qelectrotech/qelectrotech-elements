@@ -1,29 +1,31 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="50" hotspot_x="20" hotspot_y="20">
-    <uuid uuid="{c8101d0f-b7d1-4d2d-1d0d-4213af8a1efa}"/>
+<definition hotspot_y="14" height="40" link_type="simple" hotspot_x="20" version="0.100.0" width="40" type="element">
+    <uuid uuid="{0a8748b1-48d3-4a32-ac2e-b68d07663e48}"/>
     <names>
         <name lang="ar">4سارات مُتّصلة 2</name>
+        <name lang="ca">4 ports paral·lels</name>
+        <name lang="pl">4 drogi</name>
         <name lang="cs">4 cesty souběžné</name>
+        <name lang="nl">4 P -> A, B -> T </name>
+        <name lang="it">4 porte parallele</name>
         <name lang="en">4 ports parallel</name>
         <name lang="fr">4 voies parallèles</name>
-        <name lang="it">4 porte parallele</name>
-        <name lang="nl">4 P -&gt; A, B -&gt; T</name>
-        <name lang="pl">4 drogi</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-31" y="-9.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8f4b4599-673f-4a2b-8ec3-a09773fc5af5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" y="-9.95" uuid="{8f4b4599-673f-4a2b-8ec3-a09773fc5af5}" x="-31" frame="false" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" rotation="0" text_from="ElementInfo" z="1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-15" y="-10" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="20" x2="-10" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-9.95" y1="-9.95" x2="-11.95" y2="-4.95" x3="-7.95" y3="-4.95" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line x1="10" y1="16" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="8" y1="15" x2="12" y2="15" x3="10" y3="20" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <terminal uuid="{612b183c-3c1b-4831-b781-fa52319e4d58}" name="" x="-10" y="-10" orientation="n" type="Generic"/>
-        <terminal uuid="{d8a0d2b7-57b0-49ac-b00e-714b32d7b917}" name="" x="-10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{145778f5-01a4-4761-afca-beaaecada2f5}" name="" x="10" y="-10" orientation="n" type="Generic"/>
-        <terminal uuid="{703c57ca-2eb8-49c2-8b37-d3aca1095237}" name="" x="10" y="20" orientation="s" type="Generic"/>
+        <rect y="-10" height="30" rx="0" ry="0" x="-15" width="30" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end2="none" length2="1.5" y1="20" y2="-5" end1="none" antialias="false" x2="-10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10"/>
+        <polygon y3="-4.95" y1="-9.95" x4="-9.95" y4="-9.95" y2="-4.95" x3="-7.95" antialias="true" x2="-11.95" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="-9.95"/>
+        <line end2="none" length2="1.5" y1="16" y2="-10" end1="none" antialias="false" x2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="10"/>
+        <polygon y3="20" y1="15" x4="8" y4="15" y2="15" x3="10" antialias="true" x2="12" style="line-style:normal;line-weight:thin;filling:black;color:black" x1="8"/>
+        <terminal y="-10" uuid="{612b183c-3c1b-4831-b781-fa52319e4d58}" x="-10" orientation="n" name="" type="Generic"/>
+        <terminal y="20" uuid="{d8a0d2b7-57b0-49ac-b00e-714b32d7b917}" x="-10" orientation="s" name="" type="Generic"/>
+        <terminal y="-10" uuid="{145778f5-01a4-4761-afca-beaaecada2f5}" x="10" orientation="n" name="" type="Generic"/>
+        <terminal y="20" uuid="{703c57ca-2eb8-49c2-8b37-d3aca1095237}" x="10" orientation="s" name="" type="Generic"/>
     </description>
 </definition>

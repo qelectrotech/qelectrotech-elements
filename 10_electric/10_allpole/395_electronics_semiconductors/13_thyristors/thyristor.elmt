@@ -1,32 +1,34 @@
-<definition version="0.90" type="element" link_type="simple" width="30" height="60" hotspot_x="20" hotspot_y="30">
-    <uuid uuid="{aef60b7b-75ce-9706-521b-48eca02543d2}"/>
+<definition hotspot_y="24" type="element" hotspot_x="18" width="30" version="0.90" height="50" link_type="simple">
+    <uuid uuid="{21f27795-2617-45aa-ad1a-84fbd734473e}"/>
     <names>
-        <name lang="ar">ثايريستور</name>
-        <name lang="cs">Tyristor</name>
-        <name lang="de">Thyristor</name>
-        <name lang="el">Θυρίστορ</name>
-        <name lang="en">Thyristor</name>
+        <name lang="ca">Tiristor</name>
         <name lang="es">Tiristor</name>
+        <name lang="el">Θυρίστορ</name>
+        <name lang="de">Thyristor</name>
+        <name lang="en">Thyristor</name>
         <name lang="fr">Thyristor</name>
+        <name lang="pl">Tyrystor</name>
+        <name lang="ar">ثايريستور</name>
+        <name lang="ru">Тиристор</name>
+        <name lang="pt">Tiristor</name>
+        <name lang="cs">Tyristor</name>
         <name lang="it">Tiristore</name>
         <name lang="nl">Thyristor</name>
-        <name lang="pl">Tyrystor</name>
-        <name lang="pt">Tiristor</name>
-        <name lang="ru">Тиристор</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-10" y1="10" x2="-4" y2="10" x3="-2" y3="5.5" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-5" y1="5" x2="5" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-5" y1="-5" x2="5" y2="-5" x3="0" y3="5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="7.75" y="-8.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4d6f66e2-ace8-43a1-b597-bb5123554a16}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon x1="-10" closed="false" antialias="true" y1="10" x2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="-2" y2="10" y3="5.5"/>
+        <line x1="-5" antialias="false" y1="5" end1="none" x2="5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" length2="1.5" length1="1.5"/>
+        <polygon x1="-5" antialias="true" y1="-5" x2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" y2="-5" y3="5"/>
+        <dynamic_text Valignment="AlignTop" x="7.75" rotation="0" text_width="-1" uuid="{4d6f66e2-ace8-43a1-b597-bb5123554a16}" frame="false" Halignment="AlignLeft" y="-8.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" keep_visual_rotation="false" z="4">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{6737544f-cf5c-4668-a622-ed576b77e344}" name="G" x="-10" y="10" orientation="w" type="Generic"/>
-        <terminal uuid="{fb2a5471-ae89-4797-b248-4fd0d7a8d3b0}" name="A" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{d6d5a9da-b770-402e-9d66-4dec9bda5a9b}" name="K" x="0" y="20" orientation="s" type="Generic"/>
+        <line x1="0" antialias="false" y1="-20" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" length2="1.5" length1="1.5"/>
+        <terminal type="Generic" x="-10" uuid="{6737544f-cf5c-4668-a622-ed576b77e344}" y="10" name="G" orientation="w"/>
+        <terminal type="Generic" x="0" uuid="{fb2a5471-ae89-4797-b248-4fd0d7a8d3b0}" y="-20" name="A" orientation="n"/>
+        <terminal type="Generic" x="0" uuid="{d6d5a9da-b770-402e-9d66-4dec9bda5a9b}" y="20" name="K" orientation="s"/>
     </description>
 </definition>

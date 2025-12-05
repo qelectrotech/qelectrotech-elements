@@ -1,32 +1,34 @@
-<definition version="0.100.0" type="element" link_type="terminal" width="30" height="30" hotspot_x="15" hotspot_y="15">
-    <uuid uuid="{6677d3a7-ff0b-78a7-47c1-4b370ddaf408}"/>
+<definition hotspot_y="9" version="0.100.0" hotspot_x="9" type="element" width="20" link_type="terminal" height="20">
+    <uuid uuid="{0ee5ef87-1fb7-4c76-8c3c-0be09b322456}"/>
     <names>
-        <name lang="ar">صليب</name>
-        <name lang="cs">Kříž</name>
+        <name lang="ca">Creu</name>
         <name lang="de">Kreuz</name>
-        <name lang="en">Cross</name>
-        <name lang="es">Cruzar</name>
-        <name lang="fr">Croix</name>
         <name lang="hu">Kereszt alakú</name>
         <name lang="it">Croce</name>
-        <name lang="pl">Połączenie 2</name>
         <name lang="ru">Пересечение</name>
+        <name lang="es">Cruzar</name>
+        <name lang="pl">Połączenie 2</name>
+        <name lang="fr">Croix</name>
+        <name lang="en">Cross</name>
+        <name lang="ar">صليب</name>
+        <name lang="cs">Kříž</name>
     </names>
     <kindInformations>
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
-    <informations>edited with "QET_ElementScaler"</informations>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <ellipse x="-1" y="-1" width="2" height="2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
-        <dynamic_text x="-0.5" y="-9.45" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="UserText" uuid="{fc5c039b-1fca-40d9-a6ff-a9e1775de38b}" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,Regular">
+        <circle style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" y="-1" x="-1" diameter="2"/>
+        <dynamic_text font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text_from="UserText" uuid="{fc5c039b-1fca-40d9-a6ff-a9e1775de38b}" frame="false" text_width="-1" Halignment="AlignLeft" y="-9.45" x="-0.5" z="2" Valignment="AlignTop" rotation="0" keep_visual_rotation="true">
             <text>_</text>
         </dynamic_text>
-        <line x1="-4" y1="0" x2="4" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-4" x2="0" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{667d83d2-8840-40ec-bf41-8dc659926fe2}" name="1" x="0" y="-4" orientation="n" type="Generic"/>
-        <terminal uuid="{c9b40e74-5d24-4cd5-9dc7-3be318007661}" name="3" x="0" y="4" orientation="s" type="Generic"/>
-        <terminal uuid="{935e3f1e-3dc0-4b41-8252-6e7ee9f1a3e1}" name="4" x="-4" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{340c983a-1f7e-4939-b844-c50c8e28302d}" name="2" x="4" y="0" orientation="e" type="Generic"/>
+        <line x2="4" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-4" end2="none" antialias="false" length2="1.5" y1="0" end1="none" length1="1.5"/>
+        <line x2="0" y2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end2="none" antialias="false" length2="1.5" y1="-4" end1="none" length1="1.5"/>
+        <terminal name="1" uuid="{667d83d2-8840-40ec-bf41-8dc659926fe2}" y="-4" orientation="n" x="0" type="Generic"/>
+        <terminal name="3" uuid="{c9b40e74-5d24-4cd5-9dc7-3be318007661}" y="4" orientation="s" x="0" type="Generic"/>
+        <terminal name="4" uuid="{935e3f1e-3dc0-4b41-8252-6e7ee9f1a3e1}" y="0" orientation="w" x="-4" type="Generic"/>
+        <terminal name="2" uuid="{340c983a-1f7e-4939-b844-c50c8e28302d}" y="0" orientation="e" x="4" type="Generic"/>
     </description>
 </definition>

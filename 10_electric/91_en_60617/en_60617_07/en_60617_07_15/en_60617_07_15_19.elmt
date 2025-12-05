@@ -1,25 +1,27 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="60" hotspot_x="35" hotspot_y="30">
-    <uuid uuid="{18505d40-84c7-88df-8c6d-41ea899d1fd1}"/>
+<definition hotspot_x="35" height="50" type="element" width="60" version="0.100.0" hotspot_y="24" link_type="simple">
+    <uuid uuid="{ed5f65c6-f0db-4501-a59e-0197546c529c}"/>
     <names>
+        <name lang="ca">Bobina de relé d'un relé remanent</name>
+        <name lang="en">Relay coil of a remanent relay</name>
+        <name lang="fr">Organe de commande d'un relais à rémanence</name>
         <name lang="cs">Cívka relé s magnetickým přidržením</name>
         <name lang="de">elektromechanischer Antrieb eines
 Remanenzrelais</name>
-        <name lang="en">Relay coil of a remanent relay</name>
-        <name lang="fr">Organe de commande d'un relais à rémanence</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e8e97ae9-2355-42cb-aebb-143a36e2575c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text frame="false" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="5" z="1" uuid="{e8e97ae9-2355-42cb-aebb-143a36e2575c}" text_from="ElementInfo" y="12.5" rotation="0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-20" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-30" y="-10" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-30" y1="10" x2="-20" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{8077a2d1-c171-4572-9067-aa01cb640699}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{53b30cbc-ed4e-4f55-a78c-68453f2fc8d4}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <rect ry="0" height="20" width="40" antialias="false" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" rx="0"/>
+        <line end2="none" y2="-10" end1="none" length2="1.5" antialias="false" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" x1="0"/>
+        <line end2="none" y2="20" end1="none" length2="1.5" antialias="false" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" x1="0"/>
+        <rect ry="0" height="20" width="10" antialias="false" x="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-10" rx="0"/>
+        <line end2="none" y2="-10" end1="none" length2="1.5" antialias="false" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" length1="1.5" x1="-30"/>
+        <terminal type="Generic" orientation="s" x="0" uuid="{8077a2d1-c171-4572-9067-aa01cb640699}" name="" y="20"/>
+        <terminal type="Generic" orientation="n" x="0" uuid="{53b30cbc-ed4e-4f55-a78c-68453f2fc8d4}" name="" y="-20"/>
     </description>
 </definition>

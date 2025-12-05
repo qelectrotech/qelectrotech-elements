@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="7" hotspot_y="50">
-    <uuid uuid="{0bfa381a-cb09-2a6d-0856-eb4e81a4f024}"/>
+<definition hotspot_x="6" link_type="simple" type="element" hotspot_y="44" version="0.100.0" width="20" height="70">
+    <uuid uuid="{bf8aa729-f9cf-4be2-aded-52dec86723c4}"/>
     <names>
+        <name lang="ca">Contactor; </name>
         <name lang="cs">Stykač, Hlavní vypínací kontakt stykače</name>
         <name lang="de">Schütz,
 Leistungskontakt eines Schützes
 (Kontakt geschlossen)</name>
-        <name lang="en">Contactor; Main break contact of a contactor</name>
         <name lang="fr">Rupteur,
 Contact principal à ouverture d'un contacteur
 (contact fermé)</name>
+        <name lang="en">Contactor; Main break contact of a contactor</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-20" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{062d8e91-11e5-47ce-b0b9-7c75c8599adb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" y1="-20" y2="-40" length1="1.5" length2="1.5" x1="0" x2="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" y1="0" y2="20" length1="1.5" length2="1.5" x1="0" x2="0"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" y1="0" y2="-23" length1="1.5" length2="1.5" x1="0" x2="8"/>
+        <dynamic_text Valignment="AlignTop" uuid="{062d8e91-11e5-47ce-b0b9-7c75c8599adb}" Halignment="AlignLeft" y="12.5" z="4" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" keep_visual_rotation="false" frame="false" text_width="-1" x="5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-2.5" y="-25.5" width="5" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <terminal uuid="{bc95ae68-48ee-4fea-8d79-20e9ff0ed833}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{9c06ecb5-e017-46ee-9cc4-01a1060b8812}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none" antialias="false" y1="-20" y2="-20" length1="1.5" length2="1.5" x1="0" x2="10"/>
+        <arc y="-25.5" style="line-style:normal;line-weight:normal;filling:none;color:black" start="270" angle="180" antialias="true" width="5" x="-2.5" height="5"/>
+        <terminal uuid="{bc95ae68-48ee-4fea-8d79-20e9ff0ed833}" orientation="n" type="Generic" y="-40" x="0" name=""/>
+        <terminal uuid="{9c06ecb5-e017-46ee-9cc4-01a1060b8812}" orientation="s" type="Generic" y="20" x="0" name=""/>
     </description>
 </definition>

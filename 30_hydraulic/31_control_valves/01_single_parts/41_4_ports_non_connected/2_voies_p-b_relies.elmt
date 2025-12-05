@@ -1,31 +1,33 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="50" hotspot_x="20" hotspot_y="20">
-    <uuid uuid="{886594c9-b25c-bd29-8f92-b19481533537}"/>
+<definition height="40" hotspot_y="14" version="0.100.0" link_type="simple" hotspot_x="20" width="40" type="element">
+    <uuid uuid="{1a0bface-f3f3-43e7-aa87-78810c9d6edb}"/>
     <names>
-        <name lang="ar">مسارات -P  -&gt; B  مُتصلة 2</name>
-        <name lang="cs">4 cesty - P -&gt; B spojené</name>
-        <name lang="en">4 ports - P -&gt; B connected</name>
-        <name lang="fr">4 voies - P -&gt; B relies</name>
-        <name lang="it">4 porte - P -&gt; B connesse</name>
-        <name lang="nl">4 P -&gt; B</name>
-        <name lang="pl">4 drogi - P -&gt; B połączone</name>
+        <name lang="ca">4 ports - P -u003e B connectats</name>
+        <name lang="it">4 porte - P -> B connesse</name>
+        <name lang="pl">4 drogi - P -> B połączone</name>
+        <name lang="en">4 ports - P -> B connected</name>
+        <name lang="ar">مسارات -P  -> B  مُتصلة 2</name>
+        <name lang="cs">4 cesty - P -> B spojené</name>
+        <name lang="nl">4 P -> B</name>
+        <name lang="fr">4 voies - P -> B relies</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-31" y="-9.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0a16f846-c886-4a97-98b8-f108abdec159}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Valignment="AlignTop" y="-9.95" uuid="{0a16f846-c886-4a97-98b8-f108abdec159}" frame="false" keep_visual_rotation="false" rotation="0" x="-31" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1" z="1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-10" y1="-10" x2="-10" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10.15" y1="20.1" x2="7.85" y2="-6.9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <rect x="-15" y="-10" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="9.85" y1="-9.9" x2="4.85" y2="-5.9" x3="7.85" y3="-3.9" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line x1="9.93" y1="14.95" x2="9.93" y2="19.95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="7.93" y1="14.95" x2="11.93" y2="14.95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-12" y1="-5" x2="-8" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{2e7f992a-da4f-463d-b2bd-aa0428744108}" name="" x="-10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{9f9061cc-d8e5-40b6-9df1-a98e461bdfc9}" name="" x="10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{69d22248-caa7-47d0-ba98-8cf1deb62b48}" name="" x="10" y="-10" orientation="n" type="Generic"/>
-        <terminal uuid="{b5df8d5e-99d4-4c78-af96-bd9a0b9c389e}" name="" x="-10" y="-10" orientation="n" type="Generic"/>
+        <line x2="-10" antialias="false" x1="-10" end1="none" end2="none" length2="1.5" length1="1.5" y1="-10" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="7.85" antialias="true" x1="-10.15" end1="none" end2="none" length2="1.5" length1="1.5" y1="20.1" y2="-6.9" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="30" y="-10" ry="0" antialias="false" x="-15" rx="0" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x2="4.85" y3="-3.9" antialias="true" x1="9.85" x3="7.85" x4="9.85" y4="-9.9" y1="-9.9" y2="-5.9" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <line x2="9.925" antialias="false" x1="9.925" end1="none" end2="none" length2="1.5" length1="1.5" y1="14.95" y2="19.95" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="11.925" antialias="false" x1="7.925" end1="none" end2="none" length2="1.5" length1="1.5" y1="14.95" y2="14.95" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x2="-8.025" antialias="false" x1="-12.025" end1="none" end2="none" length2="1.5" length1="1.5" y1="-5" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="20" uuid="{2e7f992a-da4f-463d-b2bd-aa0428744108}" x="-10" orientation="s" name="" type="Generic"/>
+        <terminal y="20" uuid="{9f9061cc-d8e5-40b6-9df1-a98e461bdfc9}" x="10" orientation="s" name="" type="Generic"/>
+        <terminal y="-10" uuid="{69d22248-caa7-47d0-ba98-8cf1deb62b48}" x="10" orientation="n" name="" type="Generic"/>
+        <terminal y="-10" uuid="{b5df8d5e-99d4-4c78-af96-bd9a0b9c389e}" x="-10" orientation="n" name="" type="Generic"/>
     </description>
 </definition>

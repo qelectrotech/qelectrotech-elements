@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="30" hotspot_x="12" hotspot_y="3">
-    <uuid uuid="{50ecb3cf-1919-00a4-75d2-63272edfeed1}"/>
+<definition hotspot_x="12" width="50" hotspot_y="5" version="0.100.0" type="element" height="30" link_type="simple">
+    <uuid uuid="{0aa87c9b-e9e2-4d27-8374-81e2ac784833}"/>
     <names>
+        <name lang="ca">Bobinat trifàsic, fases no interconnectades</name>
         <name lang="cs">Trojfázové vinutí, fáze nejsou propojeny</name>
-        <name lang="de">drei getrennte Wicklungen, Dreiphasen-System</name>
         <name lang="en">Three-phase winding, phases not interconnected</name>
         <name lang="fr">Enroulement triphasé, à phases séparées</name>
+        <name lang="de">drei getrennte Wicklungen, Dreiphasen-System</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="22.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ec4c133a-8063-40ba-847f-49efe1c08c15}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="5" frame="false" keep_visual_rotation="false" z="1" rotation="0" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="22.5" uuid="{ec4c133a-8063-40ba-847f-49efe1c08c15}" text_width="-1" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="0" x2="-10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-5" y1="0" x2="-5" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="3" x="5" y="15" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <arc x="15" y="7.5" width="10" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="25" y="7.5" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line end1="none" end2="none" antialias="false" x1="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length1="1.5" y2="20" y1="0"/>
+        <line end1="none" end2="none" antialias="false" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-10" length1="1.5" y2="20" y1="0"/>
+        <line end1="none" end2="none" antialias="false" x1="-5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-5" length1="1.5" y2="20" y1="0"/>
+        <text x="5" color="#000000" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="15" text="3"/>
+        <arc x="15" width="10" antialias="true" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" y="7.5" height="5"/>
+        <arc x="25" width="10" antialias="true" angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" start="0" y="7.5" height="5"/>
     </description>
 </definition>

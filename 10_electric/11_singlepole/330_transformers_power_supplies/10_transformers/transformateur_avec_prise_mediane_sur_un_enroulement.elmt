@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="100" hotspot_x="22" hotspot_y="50">
-    <uuid uuid="{1af67b15-72c7-028c-f20c-86b3e32e50c6}"/>
+<definition height="90" link_type="simple" hotspot_x="22" type="element" width="50" hotspot_y="44" version="0.100.0">
+    <uuid uuid="{826e00ce-655c-452b-b070-59070d74f143}"/>
     <names>
         <name lang="ar">مُحوّل برابط قابل للتعديل</name>
-        <name lang="cs">Jednofázový transformátor, nastavitelný</name>
-        <name lang="de">Stelltransformator mit Anzapfung</name>
-        <name lang="en">Transformer with variable coupling</name>
-        <name lang="es">Transformador con acoplamiento variable</name>
-        <name lang="fr">Transformateur à couplage réglable</name>
-        <name lang="it">Trasformatore monofase con ac- coppiamento regolabile</name>
+        <name lang="ca">Transformador amb acoblament variable</name>
         <name lang="nl">transformator met variabele koppeling</name>
         <name lang="pl">Transformator regulacyjny</name>
+        <name lang="es">Transformador con acoplamiento variable</name>
+        <name lang="cs">Jednofázový transformátor, nastavitelný</name>
+        <name lang="it">Trasformatore monofase con ac- coppiamento regolabile</name>
+        <name lang="en">Transformer with variable coupling</name>
+        <name lang="fr">Transformateur à couplage réglable</name>
+        <name lang="de">Stelltransformator mit Anzapfung</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <ellipse x="-15" y="-25" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-15" y="-5" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="-40" x2="0" y2="-25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="25" x2="0" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="17" y="-12.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0caf8b6c-9571-419e-982a-f956a15a998e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <circle antialias="true" x="-15" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-25"/>
+        <circle antialias="true" x="-15" diameter="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-5"/>
+        <line antialias="false" y1="-40" x1="0" y2="-25" length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x2="0"/>
+        <line antialias="false" y1="25" x1="0" y2="40" length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x2="0"/>
+        <dynamic_text x="17" Valignment="AlignTop" z="5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" text_from="ElementInfo" keep_visual_rotation="false" y="-12.5" rotation="0" uuid="{0caf8b6c-9571-419e-982a-f956a15a998e}" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-20" y1="10" x2="20" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="19" y1="-12" x2="21" y2="-8" x3="26" y3="-14" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <terminal uuid="{9b0489f7-de83-477d-a8c5-14844714e370}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{be4ae340-592b-4473-a3c7-28cf2ac0cbe6}" name="" x="0" y="40" orientation="s" type="Generic"/>
+        <line antialias="false" y1="10" x1="-20" y2="-10" length1="1.5" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x2="20"/>
+        <polygon antialias="true" y1="-12" x1="19" y2="-8" y4="-12" x4="19" style="line-style:normal;line-weight:thin;filling:black;color:black" x3="26" x2="21" y3="-14"/>
+        <terminal x="0" name="" orientation="n" type="Generic" y="-40" uuid="{9b0489f7-de83-477d-a8c5-14844714e370}"/>
+        <terminal x="0" name="" orientation="s" type="Generic" y="40" uuid="{be4ae340-592b-4473-a3c7-28cf2ac0cbe6}"/>
     </description>
 </definition>

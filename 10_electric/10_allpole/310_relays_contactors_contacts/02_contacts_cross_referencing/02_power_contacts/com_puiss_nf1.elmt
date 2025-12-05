@@ -1,18 +1,19 @@
-<definition version="0.100.0" type="element" link_type="slave" width="20" height="60" hotspot_x="9" hotspot_y="30">
-    <uuid uuid="{27131d43-b61a-0c4d-3d63-846201d45a22}"/>
+<definition type="element" width="20" hotspot_y="24" height="50" link_type="slave" hotspot_x="8" version="0.100.0">
+    <uuid uuid="{e0b033fc-bff2-46b7-843e-641788b1721c}"/>
     <names>
-        <name lang="ar">مُلامس قدرة كونتكتور (NC)</name>
-        <name lang="cs">Rozpínací silový kontakt</name>
+        <name lang="ca">Contactor de potència de contacte (NC)</name>
         <name lang="de">Leistungsöffner 1-polig</name>
-        <name lang="el">Επαφή ρελέ ισχύος, κλειστή</name>
+        <name lang="ru">Контакт контактора (НЗ)</name>
+        <name lang="fr">Contact puissance contacteur (NF)</name>
+        <name lang="ar">مُلامس قدرة كونتكتور (NC)</name>
+        <name lang="nl">Last contact (NC)</name>
         <name lang="en">Contact power contactor (NC)</name>
         <name lang="es">Interruptor de potencia contactor (NC)</name>
-        <name lang="fr">Contact puissance contacteur (NF)</name>
-        <name lang="it">Contatto NC di potenza</name>
-        <name lang="nl">Last contact (NC)</name>
         <name lang="pl">Stycznik</name>
+        <name lang="cs">Rozpínací silový kontakt</name>
+        <name lang="el">Επαφή ρελέ ισχύος, κλειστή</name>
+        <name lang="it">Contatto NC di potenza</name>
         <name lang="pt">Interruptor de potência contactor (NC)</name>
-        <name lang="ru">Контакт контактора (НЗ)</name>
     </names>
     <kindInformations>
         <kindInformation name="type">power</kindInformation>
@@ -22,15 +23,15 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="-9" x2="6" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5.75" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{812953f3-1394-4c33-ac02-285ca7cf40cb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon x3="0" y3="20" y2="10" antialias="true" y1="-10" x1="5" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
+        <line end1="none" y2="-9" end2="none" antialias="false" y1="-9" x1="0" x2="6" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line end1="none" y2="-9" end2="none" antialias="false" y1="-20" x1="0" x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <dynamic_text rotation="0" uuid="{812953f3-1394-4c33-ac02-285ca7cf40cb}" Halignment="AlignLeft" z="4" y="-9.5" text_from="ElementInfo" x="5.75" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc x="-2.5" y="-14.5" width="5" height="5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <terminal uuid="{125a741d-2f55-46e2-bcae-42b36c925235}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{997005f8-92c7-4a12-932b-b975525a787d}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <arc width="5" start="90" angle="-180" height="5" y="-14.5" antialias="true" x="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal type="Generic" uuid="{125a741d-2f55-46e2-bcae-42b36c925235}" y="20" x="0" name="" orientation="s"/>
+        <terminal type="Generic" uuid="{997005f8-92c7-4a12-932b-b975525a787d}" y="-20" x="0" name="" orientation="n"/>
     </description>
 </definition>

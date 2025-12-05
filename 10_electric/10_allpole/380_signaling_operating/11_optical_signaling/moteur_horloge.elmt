@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="90" height="80" hotspot_x="37" hotspot_y="40">
-    <uuid uuid="{d5b469d8-1b77-749c-f4f9-fb3cb80ba22e}"/>
+<definition height="70" link_type="simple" hotspot_y="34" version="0.100.0" type="element" width="90" hotspot_x="37">
+    <uuid uuid="{d30b71e3-6b8c-4a01-9d1a-2dc46b25799b}"/>
     <names>
-        <name lang="ar">محرك ساعة</name>
-        <name lang="cs">Motohodiny</name>
-        <name lang="de">Motor Uhr</name>
+        <name lang="ca">Motor del rellotge</name>
         <name lang="en">Clock motor</name>
-        <name lang="es">Motor temporizado</name>
-        <name lang="fr">Moteur horloge</name>
         <name lang="it">Motore orologio</name>
+        <name lang="de">Motor Uhr</name>
+        <name lang="fr">Moteur horloge</name>
         <name lang="nl">Tijdmotor</name>
         <name lang="pl">Zegar</name>
+        <name lang="cs">Motohodiny</name>
+        <name lang="es">Motor temporizado</name>
+        <name lang="ar">محرك ساعة</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-20" y1="30" x2="-20" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-35" y="-15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
-        <dynamic_text x="53" y="-21" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6b99a513-f4e9-4a80-b2b5-1e99e665a958}" font="Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular">
+        <line length2="1.5" y1="30" antialias="false" x1="-20" x2="-20" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30"/>
+        <circle y="-15" antialias="true" diameter="30" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-35"/>
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-21" z="3" Halignment="AlignLeft" frame="false" font="Sans Serif,12,-1,5,50,0,0,0,0,0" uuid="{6b99a513-f4e9-4a80-b2b5-1e99e665a958}" x="53" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="10" y="-20" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <polygon x1="-27" y1="8" x2="-27" y2="-8" x3="-20" y3="0" x4="-13" y4="-8" x5="-13" y5="8" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="30" y1="-16" x2="30" y2="0" x3="45" y3="0" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-5" y="-2" width="15" height="4" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{5778823a-28b8-4ee1-b207-aea2614c9e0d}" name="A1" x="-20" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{5c7d10a5-da46-4541-983f-79a243485407}" name="A2" x="-20" y="30" orientation="s" type="Generic"/>
+        <circle y="-20" antialias="true" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" x="10"/>
+        <polygon y1="8" antialias="false" x1="-27" x2="-27" x3="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-8" y5="8" y4="-8" y3="0" closed="false" x4="-13" x5="-13"/>
+        <polygon y1="-16" antialias="false" x1="30" x2="30" x3="45" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y3="0" closed="false"/>
+        <rect height="4" y="-2" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" width="15" x="-5"/>
+        <terminal y="-30" orientation="n" name="A1" type="Generic" uuid="{5778823a-28b8-4ee1-b207-aea2614c9e0d}" x="-20"/>
+        <terminal y="30" orientation="s" name="A2" type="Generic" uuid="{5c7d10a5-da46-4541-983f-79a243485407}" x="-20"/>
     </description>
 </definition>

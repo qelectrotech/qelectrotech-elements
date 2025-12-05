@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="20" hotspot_x="29" hotspot_y="10">
-    <uuid uuid="{d69f7dd0-afc5-d59c-e6de-89dec61e0d06}"/>
+<definition link_type="simple" version="0.100.0" type="element" hotspot_x="29" height="20" hotspot_y="10" width="40">
+    <uuid uuid="{fbda6b58-bec2-4b0a-a356-0e3ce7300371}"/>
     <names>
+        <name lang="ca">Actuador (accionat per volant)</name>
         <name lang="cs">Ovládání řídícím kolem</name>
-        <name lang="de">Betätigung durch Handrad</name>
         <name lang="en">Actuator (operated by handwheel)</name>
-        <name lang="es">Accionado por volante</name>
         <name lang="fr">Commande par volant</name>
+        <name lang="de">Betätigung durch Handrad</name>
+        <name lang="es">Accionado por volante</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5a22ef57-b7b9-4c30-bffb-cc7e627f5795}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="2.5" text_width="-1" Halignment="AlignLeft" z="1" x="5" rotation="0" Valignment="AlignTop" uuid="{5a22ef57-b7b9-4c30-bffb-cc7e627f5795}" keep_visual_rotation="false" text_from="ElementInfo" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-14" y1="0" x2="6" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-19" y1="-5" x2="-19" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-24" y="-5" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-19" y1="0" x2="-22" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-19" y1="0" x2="-16" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-14" length2="1.5" y1="0" end1="none" length1="1.5" y2="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x2="6"/>
+        <line x1="-19" length2="1.5" y1="-5" end1="none" length1="1.5" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x2="-19"/>
+        <circle y="-5" diameter="10" x="-24" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-19" length2="1.5" y1="0" end1="none" length1="1.5" y2="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x2="-22"/>
+        <line x1="-19" length2="1.5" y1="0" end1="none" length1="1.5" y2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" x2="-16"/>
     </description>
 </definition>

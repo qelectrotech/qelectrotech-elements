@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="30" hotspot_x="10" hotspot_y="27">
-    <uuid uuid="{d232570e-9daf-70ae-c5da-7b354f5b9e6a}"/>
+<definition type="element" version="0.100.0" hotspot_y="25" link_type="simple" height="30" hotspot_x="10" width="20">
+    <uuid uuid="{e48a242a-23bc-471e-a0d2-9e71740c229f}"/>
     <names>
-        <name lang="ar">طرف دخل</name>
-        <name lang="cs">Vstupní svorka</name>
-        <name lang="de">Steckverbindung Stecker</name>
+        <name lang="ca">Contacte masculí</name>
+        <name lang="it">Terminale di ingresso</name>
         <name lang="el">Ακροδέκτης εισόδου</name>
         <name lang="en">Male contact</name>
-        <name lang="es">Terminal de entrada</name>
         <name lang="fr">Contact male</name>
-        <name lang="it">Terminale di ingresso</name>
+        <name lang="es">Terminal de entrada</name>
         <name lang="nl">Steker mannelijk</name>
+        <name lang="ar">طرف دخل</name>
         <name lang="pl">Wtyk</name>
         <name lang="pt">Terminal de entrada</name>
         <name lang="ru">Штырь (стар.)</name>
+        <name lang="cs">Vstupní svorka</name>
+        <name lang="de">Steckverbindung Stecker</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-4" y1="-5" x2="0" y2="1" x3="4" y3="-5" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="3" y="-26.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2e984347-1a48-46f3-851b-408afc4765f5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon closed="false" y1="-5" antialias="true" y3="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-4" x2="0" x3="4" y2="1"/>
+        <dynamic_text text_from="ElementInfo" uuid="{2e984347-1a48-46f3-851b-408afc4765f5}" frame="false" x="3" y="-26.95" z="2" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop" keep_visual_rotation="false" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{871dfd92-e64b-458e-9e44-739deb3e35f3}" name="1" x="0" y="-20" orientation="n" type="Generic"/>
+        <line length2="1.5" y1="-20" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" x2="0" end2="none" length1="1.5" y2="0"/>
+        <terminal name="1" orientation="n" uuid="{871dfd92-e64b-458e-9e44-739deb3e35f3}" type="Generic" x="0" y="-20"/>
     </description>
 </definition>

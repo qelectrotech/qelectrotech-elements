@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="30" hotspot_x="30" hotspot_y="15">
-    <uuid uuid="{a449cde0-69c1-24b9-3410-b81e4fa7964a}"/>
+<definition type="element" height="30" version="0.100.0" hotspot_y="15" link_type="simple" hotspot_x="29" width="60">
+    <uuid uuid="{1f3806ac-40bf-443c-8cc4-b28ee22687be}"/>
     <names>
-        <name lang="ar">جلفانومتر أفقي</name>
-        <name lang="cs">Galvanometr, vodorovný</name>
+        <name lang="ca">Galvàmetre h</name>
+        <name lang="it">Galvanometro orizzontale</name>
+        <name lang="fr">Galvanomètre horizontal</name>
+        <name lang="pl">Galwanomert (poziomo)</name>
+        <name lang="es">Galvanómetro horizontal</name>
+        <name lang="nl">Galvanometer</name>
         <name lang="de">Galvanometer waagerecht</name>
         <name lang="el">Γαλβανόμετρο οριζόντιο</name>
         <name lang="en">Galvanometer h</name>
-        <name lang="es">Galvanómetro horizontal</name>
-        <name lang="fr">Galvanomètre horizontal</name>
-        <name lang="it">Galvanometro orizzontale</name>
-        <name lang="nl">Galvanometer</name>
-        <name lang="pl">Galwanomert (poziomo)</name>
+        <name lang="ar">جلفانومتر أفقي</name>
+        <name lang="cs">Galvanometr, vodorovný</name>
         <name lang="pt">Galvanómetro horizontal</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="8" y="-25" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{12bc7412-6d77-4e67-9442-150dd9d2e930}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="8" text_from="ElementInfo" frame="false" Halignment="AlignLeft" y="-25" uuid="{12bc7412-6d77-4e67-9442-150dd9d2e930}" keep_visual_rotation="false" text_width="-1" rotation="0" Valignment="AlignTop" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="7" x2="0" y2="-8" end1="none" end2="simple" length1="1.5" length2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="0" x2="21" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-21" y1="0" x2="-10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{670884e8-82a4-4cff-a23c-73cd5843da65}" name="" x="21" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{dc4874ff-8018-46f7-956f-0c431d79d69f}" name="" x="-21" y="0" orientation="w" type="Generic"/>
+        <circle x="-10" antialias="true" y="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" y2="-8" end2="simple" x1="0" length1="1.5" length2="3" x2="0" y1="7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" y2="0" end2="none" x1="10" length1="1.5" length2="1.5" x2="21" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" y2="0" end2="none" x1="-21" length1="1.5" length2="1.5" x2="-10" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal type="Generic" x="21" orientation="e" y="0" uuid="{670884e8-82a4-4cff-a23c-73cd5843da65}" name=""/>
+        <terminal type="Generic" x="-21" orientation="w" y="0" uuid="{dc4874ff-8018-46f7-956f-0c431d79d69f}" name=""/>
     </description>
 </definition>

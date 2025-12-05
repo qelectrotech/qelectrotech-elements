@@ -1,5 +1,5 @@
-<definition version="0.90" type="element" link_type="simple" width="30" height="40" hotspot_x="10" hotspot_y="12">
-    <uuid uuid="{a262367f-6f29-e2aa-5c18-55dc6070b170}"/>
+<definition hotspot_x="10" height="40" type="element" version="0.90" width="30" hotspot_y="13" link_type="simple">
+    <uuid uuid="{f21b79bd-76d1-4e55-8d94-b28f876a98c8}"/>
     <names>
         <name lang="ar">الضغط التفاضلي</name>
         <name lang="ca">Pressió diferencial</name>
@@ -26,19 +26,20 @@
         <name lang="sr">Диференцијални притисак</name>
         <name lang="tr">Diferansiyel basınç</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-18" y="-22" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{626bc3ce-662b-4448-9b76-fc8f3ca51dd7}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
+        <line y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" x1="0" end1="none" length1="1.5" y1="10" end2="none"/>
+        <dynamic_text frame="false" y="-22" keep_visual_rotation="false" x="-18" rotation="0" z="2" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,7,-1,5,50,0,0,0,0,0" uuid="{626bc3ce-662b-4448-9b76-fc8f3ca51dd7}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="10" y1="6" x2="3" y2="-1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-5" y="-9" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <polygon x1="2" y1="1" x2="5" y2="-2" x3="0" y3="-4" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <line x1="10" y1="10" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{78768ded-c4bf-4150-b057-e591c17a8de5}" name="" x="10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{89b5be46-f356-4d98-a0c3-8679c584e87a}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <line y2="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="3" antialias="false" length2="1.5" x1="10" end1="none" length1="1.5" y1="6" end2="none"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-9" x="-5" diameter="20"/>
+        <polygon y2="-2" style="line-style:normal;line-weight:thin;filling:black;color:black" x2="5" x4="2" y4="1" antialias="true" x1="2" y3="-4" y1="1" x3="0"/>
+        <line y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" antialias="false" length2="1.5" x1="10" end1="none" length1="1.5" y1="10" end2="none"/>
+        <terminal y="20" x="10" type="Generic" orientation="s" uuid="{78768ded-c4bf-4150-b057-e591c17a8de5}" name=""/>
+        <terminal y="20" x="0" type="Generic" orientation="s" uuid="{89b5be46-f356-4d98-a0c3-8679c584e87a}" name=""/>
     </description>
 </definition>

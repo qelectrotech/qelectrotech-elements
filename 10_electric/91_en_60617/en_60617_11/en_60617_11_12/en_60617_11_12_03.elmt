@@ -1,21 +1,23 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="40" hotspot_x="35" hotspot_y="35">
-    <uuid uuid="{112df9cc-8ddc-7765-f416-248f5c2c385a}"/>
+<definition height="40" hotspot_x="35" width="40" link_type="simple" hotspot_y="35" version="0.100.0" type="element">
+    <uuid uuid="{1c49cff7-2e54-451a-870a-b8a17f3d2997}"/>
     <names>
+        <name lang="ca">Cablejat que passa verticalment</name>
         <name lang="cs">Probíhající stoupací vedení</name>
         <name lang="de">Leitung, nach unten und oben durchführend</name>
         <name lang="en">Wiring passing through vertically</name>
         <name lang="fr">Canalisation traversant verticalement</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4efbe98a-af14-4ed4-aa89-6c09a4cf2b50}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" y="12.5" z="1" keep_visual_rotation="false" uuid="{4efbe98a-af14-4ed4-aa89-6c09a4cf2b50}" frame="false" Halignment="AlignLeft" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_width="-1" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-30" y1="0" x2="0" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-17" y="-17" width="4" height="4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <polygon x1="0" y1="-28" x2="-2" y2="-30" x3="2" y3="-32" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <polygon x1="-28" y1="0" x2="-30" y2="-2" x3="-32" y3="2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <line y2="-30" length1="1.5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x1="-30" end1="none" length2="1.5" y1="0" end2="none"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" y="-17" diameter="4" x="-17"/>
+        <polygon y2="-30" antialias="false" y3="-32" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="-2" x1="0" x3="2" y4="-28" y1="-28" x4="0"/>
+        <polygon y2="-2" antialias="false" y3="2" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="-30" x1="-28" x3="-32" y4="0" y1="0" x4="-28"/>
     </description>
 </definition>

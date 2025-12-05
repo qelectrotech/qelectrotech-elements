@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="40" hotspot_x="25" hotspot_y="20">
-    <uuid uuid="{676a5dbc-c9c5-f141-1a6f-a7bb20a1a065}"/>
+<definition link_type="simple" hotspot_y="20" height="40" width="50" hotspot_x="24" version="0.100.0" type="element">
+    <uuid uuid="{85eb443c-04ba-4e30-85fe-7f18e5bf3dea}"/>
     <names>
-        <name lang="ar">ضاغط ببرغي</name>
-        <name lang="cs">Šroubový kompresor</name>
-        <name lang="el">Κοχλιωτός συμπιεστής</name>
-        <name lang="en">Screw compressor</name>
-        <name lang="fr">Compresseur à vis</name>
+        <name lang="ca">Compressor de cargol</name>
         <name lang="it">Compressore a vite</name>
-        <name lang="nl">Schroef compressor</name>
+        <name lang="en">Screw compressor</name>
+        <name lang="cs">Šroubový kompresor</name>
         <name lang="pl">Kompresor śrubowy</name>
+        <name lang="fr">Compresseur à vis</name>
+        <name lang="el">Κοχλιωτός συμπιεστής</name>
+        <name lang="nl">Schroef compressor</name>
+        <name lang="ar">ضاغط ببرغي</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="-7" y="3.05" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{45f5b471-bf84-456e-b751-18b1c0fa4471}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" y="3.05" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{45f5b471-bf84-456e-b751-18b1c0fa4471}" x="-7" frame="false" Valignment="AlignTop" z="1" text_width="-1" Halignment="AlignLeft" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-15" y="-15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
-        <line x1="-15" y1="0" x2="-16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="15" y1="0" x2="16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-7" y1="-13" x2="13" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-7" y1="13" x2="13" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <polygon x1="0" y1="-5" x2="5" y2="0" x3="0" y3="5" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-4" y1="-5" x2="1" y2="0" x3="-4" y3="5" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal uuid="{56ca0133-da2e-4f44-b2a5-1222fae6b0fd}" name="" x="-16" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{16d738f8-5998-49d7-8d54-3586383059ff}" name="" x="16" y="0" orientation="e" type="Generic"/>
+        <circle y="-15" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-15" antialias="true" diameter="30"/>
+        <line y2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-15" length1="1.5" antialias="false" y1="0" end2="none" length2="1.5" x2="-16"/>
+        <line y2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="15" length1="1.5" antialias="false" y1="0" end2="none" length2="1.5" x2="16"/>
+        <line y2="-7" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" length1="1.5" antialias="true" y1="-13" end2="none" length2="1.5" x2="13"/>
+        <line y2="7" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-7" length1="1.5" antialias="true" y1="13" end2="none" length2="1.5" x2="13"/>
+        <polygon y2="0" x3="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" antialias="false" y1="-5" y3="5" x2="5"/>
+        <polygon y2="0" x3="-4" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-4" antialias="false" y1="-5" y3="5" x2="1"/>
+        <terminal orientation="w" y="0" uuid="{56ca0133-da2e-4f44-b2a5-1222fae6b0fd}" x="-16" name="" type="Generic"/>
+        <terminal orientation="e" y="0" uuid="{16d738f8-5998-49d7-8d54-3586383059ff}" x="16" name="" type="Generic"/>
     </description>
 </definition>

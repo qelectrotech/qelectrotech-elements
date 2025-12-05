@@ -1,35 +1,37 @@
-<definition version="0.100.0" type="element" link_type="master" width="20" height="60" hotspot_x="10" hotspot_y="30">
-    <uuid uuid="{58785ce5-2ada-572a-f4de-9487747d32c7}"/>
+<definition version="0.100.0" link_type="master" height="60" type="element" hotspot_y="29" hotspot_x="4" width="10">
+    <uuid uuid="{ed7c0406-e28d-4144-ace9-24d3c57d4e48}"/>
     <names>
-        <name lang="ar">مصهر</name>
-        <name lang="cs">Pojistka</name>
-        <name lang="de">Sicherung</name>
-        <name lang="el">Ασφάλεια</name>
-        <name lang="en">Fuse</name>
-        <name lang="es">Fusible</name>
-        <name lang="fr">Fusible</name>
-        <name lang="it">Fusibile</name>
-        <name lang="nl">Zekering</name>
-        <name lang="pl">Bezpiecznik topikowy</name>
-        <name lang="pt">Fusível</name>
+        <name lang="ca">Fusible</name>
         <name lang="ru">Предохранитель</name>
+        <name lang="fr">Fusible</name>
+        <name lang="de">Sicherung</name>
+        <name lang="ar">مصهر</name>
+        <name lang="nl">Zekering</name>
+        <name lang="pt">Fusível</name>
+        <name lang="en">Fuse</name>
+        <name lang="pl">Bezpiecznik topikowy</name>
+        <name lang="el">Ασφάλεια</name>
+        <name lang="es">Fusible</name>
+        <name lang="cs">Pojistka</name>
+        <name lang="it">Fusibile</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="2" y1="10" x2="2" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="10" x2="2" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4c4874b6-a55f-4c98-a39d-9626f03d330d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line end2="none" length1="1.5" length2="1.5" y1="-20" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="0" y2="20"/>
+        <line end2="none" length1="1.5" length2="1.5" y1="10" x2="2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="2" y2="-10"/>
+        <line end2="none" length1="1.5" length2="1.5" y1="10" x2="2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-2" y2="10"/>
+        <dynamic_text uuid="{4c4874b6-a55f-4c98-a39d-9626f03d330d}" x="5" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" Valignment="AlignTop" text_width="-1" frame="false" z="4" Halignment="AlignLeft" rotation="0" y="-9.5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="2" y1="-10" x2="-2" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="-10" x2="-2" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{108e9800-cbc2-4a46-af6f-f0e74436e319}" name="" x="0" y="-21" orientation="n" type="Generic"/>
-        <terminal uuid="{655cd47e-bd82-45ac-bd14-0341377404af}" name="" x="0" y="21" orientation="s" type="Generic"/>
+        <line end2="none" length1="1.5" length2="1.5" y1="-10" x2="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="2" y2="-10"/>
+        <line end2="none" length1="1.5" length2="1.5" y1="-10" x2="-2" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-2" y2="10"/>
+        <terminal orientation="n" uuid="{108e9800-cbc2-4a46-af6f-f0e74436e319}" type="Generic" x="0" name="" y="-21"/>
+        <terminal orientation="s" uuid="{655cd47e-bd82-45ac-bd14-0341377404af}" type="Generic" x="0" name="" y="21"/>
     </description>
 </definition>

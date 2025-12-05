@@ -1,24 +1,26 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="80" hotspot_x="11" hotspot_y="50">
-    <uuid uuid="{6f2b374c-b2e8-f0cb-0288-1f4f4bb8f181}"/>
+<definition version="0.100.0" link_type="simple" height="70" type="element" hotspot_y="44" hotspot_x="5" width="20">
+    <uuid uuid="{2549f5d2-b855-41bb-a3f8-43313484dbf0}"/>
     <names>
-        <name lang="cs">Vypínací kontakt vypínající se zpožděním</name>
+        <name lang="ca">Trencament de contacte, obertura tardana</name>
         <name lang="de">nacheilender Öffner</name>
+        <name lang="cs">Vypínací kontakt vypínající se zpožděním</name>
         <name lang="en">Break contact, late opening</name>
         <name lang="fr">Contact à ouverture tardive</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-20" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d8e2c7b7-d5d8-48f7-84d3-4c0e0e1f0ad7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line length1="1.5" antialias="false" x2="0" end1="none" y1="-20" x1="0" length2="1.5" y2="-40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" antialias="false" x2="0" end1="none" y1="0" x1="0" length2="1.5" y2="20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" antialias="false" x2="8" end1="none" y1="0" x1="0" length2="1.5" y2="-23" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" text_width="-1" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="4" x="5" rotation="0" text_from="ElementInfo" keep_visual_rotation="false" uuid="{d8e2c7b7-d5d8-48f7-84d3-4c0e0e1f0ad7}" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="12" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="8" y1="-23" x2="6" y2="-24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{2c7b94ec-bb8d-4e08-932b-250d1af5c8b6}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{9c78bc67-b2c5-4e3d-bcaf-ec33410e3846}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <line length1="1.5" antialias="false" x2="12" end1="none" y1="-20" x1="0" length2="1.5" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" antialias="false" x2="6" end1="none" y1="-23" x1="8" length2="1.5" y2="-24" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal name="" orientation="s" y="20" type="Generic" x="0" uuid="{2c7b94ec-bb8d-4e08-932b-250d1af5c8b6}"/>
+        <terminal name="" orientation="n" y="-40" type="Generic" x="0" uuid="{9c78bc67-b2c5-4e3d-bcaf-ec33410e3846}"/>
     </description>
 </definition>

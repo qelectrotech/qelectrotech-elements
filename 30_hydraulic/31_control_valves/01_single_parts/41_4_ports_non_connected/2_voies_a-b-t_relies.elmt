@@ -1,31 +1,33 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="50" hotspot_x="10" hotspot_y="30">
-    <uuid uuid="{8d646edb-158e-9dca-3463-75d4468e3ae4}"/>
+<definition width="40" height="40" hotspot_x="10" hotspot_y="24" version="0.100.0" type="element" link_type="simple">
+    <uuid uuid="{790a53dc-bba0-4530-97ff-0e1d39a6a9f7}"/>
     <names>
+        <name lang="ca">4 ports - A-B-T connectats</name>
+        <name lang="nl">4 A - B - T</name>
+        <name lang="pl">4 drogi - A-B-T połączone</name>
         <name lang="ar">مسارات -A-B-T مُتصلة 2</name>
         <name lang="cs">4 cesty - A-B-T spojené</name>
         <name lang="en">4 ports - A-B-T connected</name>
         <name lang="fr">4 voies - A-B-T Relies</name>
         <name lang="it">4 porte - A-B-T connesse</name>
-        <name lang="nl">4 A - B - T</name>
-        <name lang="pl">4 drogi - A-B-T połączone</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-6" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-19" y="-19.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0b42b920-2a8e-4377-be8c-d83108f33420}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line y2="-20" length1="1.5" y1="-6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" x1="0" end1="none" end2="none"/>
+        <dynamic_text uuid="{0b42b920-2a8e-4377-be8c-d83108f33420}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" rotation="0" y="-19.95" x="-19" frame="false" text_from="ElementInfo" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-2" y1="5" x2="2" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-5" y="-20" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="-20" x2="20" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="5" x2="0" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-6" x2="20" y2="-6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="18.85" y="-7.15" width="2.3" height="2.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
-        <terminal uuid="{8472f546-8378-4669-8ad9-2dfd98f205cf}" name="" x="20" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{234b05dc-cff7-4770-8f82-304b120adb48}" name="" x="0" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{d605c29b-979e-4000-ab0a-0ad19059de05}" name="" x="20" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{e2297bad-8af4-4f15-9779-97b936d71880}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <line y2="5" length1="1.5" y1="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="2" length2="1.5" x1="-2" end1="none" end2="none"/>
+        <rect y="-20" width="30" height="30" antialias="false" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-5" ry="0"/>
+        <line y2="10" length1="1.5" y1="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" length2="1.5" x1="20" end1="none" end2="none"/>
+        <line y2="9" length1="1.5" y1="5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" x1="0" end1="none" end2="none"/>
+        <line y2="-6" length1="1.5" y1="-6" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" length2="1.5" x1="0" end1="none" end2="none"/>
+        <circle diameter="2.3" y="-7.15" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="18.85"/>
+        <terminal uuid="{8472f546-8378-4669-8ad9-2dfd98f205cf}" y="10" name="" orientation="s" x="20" type="Generic"/>
+        <terminal uuid="{234b05dc-cff7-4770-8f82-304b120adb48}" y="10" name="" orientation="s" x="0" type="Generic"/>
+        <terminal uuid="{d605c29b-979e-4000-ab0a-0ad19059de05}" y="-20" name="" orientation="n" x="20" type="Generic"/>
+        <terminal uuid="{e2297bad-8af4-4f15-9779-97b936d71880}" y="-20" name="" orientation="n" x="0" type="Generic"/>
     </description>
 </definition>

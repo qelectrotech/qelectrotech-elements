@@ -1,27 +1,29 @@
-<definition version="0.100.0" type="element" link_type="simple" width="160" height="70" hotspot_x="150" hotspot_y="59">
-    <uuid uuid="{6dc0911e-679b-5cf5-750c-c10d4b044130}"/>
+<definition hotspot_y="34" type="element" link_type="simple" width="150" hotspot_x="144" height="40" version="0.100.0">
+    <uuid uuid="{382d82a7-57c1-484b-9c6b-8e75f66c7b7b}"/>
     <names>
-        <name lang="cs">Vedení v šesti kanálech</name>
+        <name lang="ca">Línia dins d'un conducte de sis vies</name>
         <name lang="de">Leiter in einem sechsfachen Kabelkanal</name>
+        <name lang="cs">Vedení v šesti kanálech</name>
         <name lang="en">Line within a six-way-duct</name>
-        <name lang="fr">Ligne dans un conduit à six voies</name>
         <name lang="nl_BE">een bundel van x buizen</name>
+        <name lang="fr">Ligne dans un conduit à six voies</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="13.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{31db9eb6-de84-49e1-a775-40752cd8c3de}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{31db9eb6-de84-49e1-a775-40752cd8c3de}" rotation="0" text_width="-1" z="1" x="5" y="13.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" frame="false" keep_visual_rotation="true" text_from="ElementInfo" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="0" x2="-140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-80" y="-30" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-65" y1="-25" x2="-60" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-60" y="-45" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="UserText" uuid="{76b20b7e-ea58-4658-aba7-7e6710eefc17}" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,Regular">
+        <line end1="none" x2="-140" length2="1.5" antialias="false" x1="0" y1="0" y2="0" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle antialias="false" x="-80" y="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
+        <line end1="none" x2="-60" length2="1.5" antialias="false" x1="-65" y1="-25" y2="-30" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text uuid="{76b20b7e-ea58-4658-aba7-7e6710eefc17}" rotation="0" text_width="-1" z="5" x="-60" y="-45" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" frame="false" keep_visual_rotation="true" text_from="UserText" Halignment="AlignLeft">
             <text>X</text>
             <info_name>quantity</info_name>
         </dynamic_text>
-        <terminal uuid="{be52ab9d-4322-0f44-27d2-cb2da7db5a33}" name="" x="0" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{1e131079-b652-8ad2-7609-d28d52c1817d}" name="" x="-140" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{be52ab9d-4322-0f44-27d2-cb2da7db5a33}" type="Generic" x="0" y="0" orientation="e" name=""/>
+        <terminal uuid="{1e131079-b652-8ad2-7609-d28d52c1817d}" type="Generic" x="-140" y="0" orientation="w" name=""/>
     </description>
 </definition>

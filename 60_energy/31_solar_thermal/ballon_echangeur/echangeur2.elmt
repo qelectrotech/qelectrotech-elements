@@ -1,36 +1,38 @@
-<definition version="0.100.0" type="element" link_type="simple" width="90" height="130" hotspot_x="12" hotspot_y="85">
-    <uuid uuid="{9b170fec-ded9-a4fd-721e-971ec47c34a1}"/>
+<definition version="0.100.0" height="130" hotspot_x="14" width="90" hotspot_y="85" link_type="simple" type="element">
+    <uuid uuid="{fbe311f8-2d81-426a-ad3a-8cde27849790}"/>
     <names>
-        <name lang="ar">لوحة مبادل حراري</name>
-        <name lang="cs">Deskový výměník tepla</name>
-        <name lang="en">Plate heat exchanger</name>
-        <name lang="es">Intercambiador de placas</name>
-        <name lang="fr">Echangeur à Plaques2</name>
-        <name lang="it">Scambiatore a piastre</name>
+        <name lang="ca">Bescanviador de calor de plaques</name>
         <name lang="nl">plaat warmtewisselaar</name>
         <name lang="pl">Płytowy wymiennik ciepła</name>
+        <name lang="es">Intercambiador de placas</name>
+        <name lang="it">Scambiatore a piastre</name>
+        <name lang="en">Plate heat exchanger</name>
+        <name lang="fr">Echangeur à Plaques2</name>
+        <name lang="cs">Deskový výměník tepla</name>
+        <name lang="ar">لوحة مبادل حراري</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="0" y="-80" width="60" height="120" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="60" y1="-70" x2="55" y2="-70" x3="20" y3="-50" x4="50" y4="-40" x5="20" y5="-20" x6="55" y6="-5" x7="20" y7="10" x8="55" y8="30" x9="60" y9="30" x10="55" y10="30" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="0" y1="-70" x2="43" y2="-70" x3="10" y3="-50" x4="40" y4="-40" x5="9" y5="-20" x6="42" y6="-6" x7="8" y7="10" x8="43" y8="30" x9="3" y9="30" x10="0" y10="30" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="56.28" y1="-47.74" x2="56.28" y2="-15.3" end1="simple" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="5.44" y1="-34.76" x2="5.44" y2="-2.32" end1="none" end2="simple" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="10" y="50" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{d09759b9-9615-4373-9464-4fff06d75f3a}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
+        <rect y="-80" antialias="false" height="120" width="60" rx="0" x="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon y4="-40" closed="false" y7="10" x1="60" y5="-20" x10="55" antialias="true" x2="55" y3="-50" x5="20" y8="30" y10="30" x7="20" y6="-5" x8="55" y1="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" x9="60" x3="20" y9="30" y2="-70" x4="50" x6="55"/>
+        <polygon y4="-40" closed="false" y7="10" x1="0" y5="-20" x10="0" antialias="true" x2="43" y3="-50" x5="9" y8="30" y10="30" x7="8" y6="-6" x8="43" y1="-70" style="line-style:normal;line-weight:normal;filling:none;color:black" x9="3" x3="10" y9="30" y2="-70" x4="40" x6="42"/>
+        <line length2="1.5" antialias="false" y2="-15.3" x1="56.28" x2="56.28" end1="simple" y1="-47.74" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none"/>
+        <line length2="1.5" antialias="false" y2="-2.32" x1="5.44" x2="5.44" end1="none" y1="-34.76" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="simple"/>
+        <dynamic_text uuid="{d09759b9-9615-4373-9464-4fff06d75f3a}" Valignment="AlignTop" text_from="ElementInfo" y="50" keep_visual_rotation="true" Halignment="AlignLeft" text_width="-1" font="Sans Serif,7,-1,5,50,0,0,0,0,0" frame="false" x="10" rotation="0" z="6">
             <text></text>
             <info_name>description</info_name>
         </dynamic_text>
-        <text text="Secondaire" x="70" y="-5" rotation="-90" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Primaire" x="-4.27" y="-7.18" rotation="-90" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <ellipse x="58" y="28" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-2" y="28" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="58" y="-72" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-1.58" y="-72.46" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <terminal uuid="{5b749f26-48cc-b9a3-9c32-f9bf7c45dcb3}" name="" x="60" y="30" orientation="e" type="Generic"/>
-        <terminal uuid="{2d849225-2296-ed49-156a-cf4e286eae90}" name="" x="60" y="-70" orientation="e" type="Generic"/>
-        <terminal uuid="{590d7635-c312-31c2-4eef-0c8c32cd24b7}" name="" x="0" y="-70" orientation="w" type="Generic"/>
-        <terminal uuid="{0b4151d0-3ba6-3ac6-09e3-a705c2b05897}" name="" x="-4" y="30" orientation="w" type="Generic"/>
+        <text y="-5" font="Sans Serif,4,-1,5,50,0,0,0,0,0" x="70" text="Secondaire" rotation="-90" color="#000000"/>
+        <text y="-7.18" font="Sans Serif,4,-1,5,50,0,0,0,0,0" x="-4.27" text="Primaire" rotation="-90" color="#000000"/>
+        <circle diameter="4" y="28" antialias="true" x="58" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="4" y="28" antialias="true" x="-2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="4" y="-72" antialias="true" x="58" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle diameter="4" y="-72.46" antialias="true" x="-1.58" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{5b749f26-48cc-b9a3-9c32-f9bf7c45dcb3}" y="30" x="60" type="Generic" name="" orientation="e"/>
+        <terminal uuid="{2d849225-2296-ed49-156a-cf4e286eae90}" y="-70" x="60" type="Generic" name="" orientation="e"/>
+        <terminal uuid="{590d7635-c312-31c2-4eef-0c8c32cd24b7}" y="-70" x="0" type="Generic" name="" orientation="w"/>
+        <terminal uuid="{0b4151d0-3ba6-3ac6-09e3-a705c2b05897}" y="30" x="-4" type="Generic" name="" orientation="w"/>
     </description>
 </definition>

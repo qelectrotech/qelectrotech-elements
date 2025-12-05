@@ -1,36 +1,38 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="10" hotspot_y="40">
-    <uuid uuid="{45b06f8b-7c5d-0c69-bc31-03c910efb3d4}"/>
+<definition height="50" link_type="simple" width="30" version="0.100.0" hotspot_y="34" type="element" hotspot_x="4">
+    <uuid uuid="{56bf4afa-d3e8-4207-b936-c56fc37d6498}"/>
     <names>
-        <name lang="ar">مفتاح ب 3 وضعيات بما في ذلك خط محايد</name>
-        <name lang="cs">Třípolohový spínač včetně nulové</name>
-        <name lang="de">Wahlschalter 3 Positionen</name>
-        <name lang="el">Διακόπτης 3 θέσεων, 1-0-2</name>
-        <name lang="en">Switch 3 positions including neutral</name>
-        <name lang="es">Interruptor 3 posiciones incluso neutro</name>
-        <name lang="fr">Interrupteur 3 positions dont neutre</name>
+        <name lang="ca">Interruptor de 3 posicions inclòs neutre</name>
         <name lang="it">Interruttore a 3 posizioni, centrale neutra</name>
-        <name lang="nl">Op/Neer contact 3 pos (NO/NO)</name>
-        <name lang="pl">Zestyk przełączny, otwrty w pozycji pośredniej</name>
+        <name lang="ar">مفتاح ب 3 وضعيات بما في ذلك خط محايد</name>
         <name lang="pt">Interruptor 3 posições com neutro</name>
+        <name lang="en">Switch 3 positions including neutral</name>
+        <name lang="nl">Op/Neer contact 3 pos (NO/NO)</name>
         <name lang="ru">Переключатель 3-х позиционный со средним положением</name>
+        <name lang="pl">Zestyk przełączny, otwrty w pozycji pośredniej</name>
+        <name lang="de">Wahlschalter 3 Positionen</name>
+        <name lang="es">Interruptor 3 posiciones incluso neutro</name>
+        <name lang="cs">Třípolohový spínač včetně nulové</name>
+        <name lang="fr">Interrupteur 3 positions dont neutre</name>
+        <name lang="el">Διακόπτης 3 θέσεων, 1-0-2</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="10" y1="1" x2="8" y2="4" x3="12" y3="4" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="22" y="-19.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{dea46881-1fae-4029-a205-10f87d59ebd2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon x1="10" x2="8" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="12" y2="4" y3="4" antialias="true" y1="1"/>
+        <dynamic_text text_from="ElementInfo" z="2" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" frame="false" Halignment="AlignLeft" x="22" uuid="{dea46881-1fae-4029-a205-10f87d59ebd2}" y="-19.5" text_width="-1" rotation="0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="10" y1="-13" x2="10" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="18.5" y="-1.5" width="3" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="8.5" y="-16.5" width="3" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-1.5" y="-1.5" width="3" height="3" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="2" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="2" x2="20" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="-17" x2="10" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{f72242fb-337e-4c2b-9fcd-1d43a1c3a6ae}" name="" x="0" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{b3e9eb68-da33-4137-9409-0fe440c9ff1b}" name="" x="20" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{684bd52f-9e40-408f-b86a-6738038d5010}" name="" x="10" y="-30" orientation="n" type="Generic"/>
+        <line x1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1" end1="none" length2="1.5" end2="none" antialias="false" y1="-13" length1="1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3" x="18.5" antialias="true" y="-1.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3" x="8.5" antialias="true" y="-16.5"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3" x="-1.5" antialias="true" y="-1.5"/>
+        <line x1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end1="none" length2="1.5" end2="none" antialias="false" y1="2" length1="1.5"/>
+        <line x1="20" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10" end1="none" length2="1.5" end2="none" antialias="false" y1="2" length1="1.5"/>
+        <line x1="10" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" end1="none" length2="1.5" end2="none" antialias="false" y1="-17" length1="1.5"/>
+        <terminal orientation="s" x="0" uuid="{f72242fb-337e-4c2b-9fcd-1d43a1c3a6ae}" name="" type="Generic" y="10"/>
+        <terminal orientation="s" x="20" uuid="{b3e9eb68-da33-4137-9409-0fe440c9ff1b}" name="" type="Generic" y="10"/>
+        <terminal orientation="n" x="10" uuid="{684bd52f-9e40-408f-b86a-6738038d5010}" name="" type="Generic" y="-30"/>
     </description>
 </definition>

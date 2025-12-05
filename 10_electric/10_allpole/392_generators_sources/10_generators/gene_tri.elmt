@@ -1,7 +1,8 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="60" hotspot_x="31" hotspot_y="30">
-    <uuid uuid="{a97d128e-f585-a0c4-8491-4017be8e4164}"/>
+<definition hotspot_x="20" version="0.100.0" hotspot_y="33" link_type="simple" type="element" width="40" height="60">
+    <uuid uuid="{072a3714-778b-4f1e-b4ee-7dfc2c65b5cc}"/>
     <names>
         <name lang="ar">مُولد ثلاثي الأوجه</name>
+        <name lang="ca">Generador trifàsic</name>
         <name lang="cs">Třífázový generátor</name>
         <name lang="de">Drehstromgenerator</name>
         <name lang="el">Τριφασική γεννήτρια</name>
@@ -9,26 +10,27 @@
         <name lang="es">Generador trifasico</name>
         <name lang="fr">Génératrice triphasée</name>
         <name lang="it">Generatore trifase</name>
-        <name lang="nl">Generator driefase AC3</name>
         <name lang="nl_BE">Generator driefase AC3</name>
+        <name lang="nl">Generator driefase AC3</name>
         <name lang="pl">Generator trójfazowy</name>
         <name lang="pt">Gerador trifásico</name>
         <name lang="ru">Трёхфазный генератор</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <ellipse x="-15" y="-25" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text text="G" x="-10.25" y="-2" rotation="0" font="Liberation Sans,18,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <dynamic_text x="18" y="-17.75" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7d5098c6-219f-4144-aeb6-04d294649614}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <circle antialias="true" diameter="30" y="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15"/>
+        <text font="Sans Serif,18,-1,5,50,0,0,0,0,0" rotation="0" text="G" y="-2" color="#000000" x="-10.25"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" z="3" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" uuid="{7d5098c6-219f-4144-aeb6-04d294649614}" y="-17.75" text_from="ElementInfo" x="18" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="20" x2="0" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="20" x2="10" y2="1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="20" x2="-10" y2="1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{2e4221fc-45e7-4ced-9a05-7d2078406463}" name="" x="10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{5f850b01-b7cf-423f-b8b4-cedc7e538adb}" name="" x="-10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{971298f8-0fae-47df-8884-9b988ff0a4bc}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <line x2="0" antialias="false" length2="1.5" x1="0" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" length1="1.5"/>
+        <line x2="10" antialias="false" length2="1.5" x1="10" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.5" length1="1.5"/>
+        <line x2="-10" antialias="false" length2="1.5" x1="-10" y1="20" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1.5" length1="1.5"/>
+        <terminal orientation="s" type="Generic" uuid="{2e4221fc-45e7-4ced-9a05-7d2078406463}" name="" y="20" x="10"/>
+        <terminal orientation="s" type="Generic" uuid="{5f850b01-b7cf-423f-b8b4-cedc7e538adb}" name="" y="20" x="-10"/>
+        <terminal orientation="s" type="Generic" uuid="{971298f8-0fae-47df-8884-9b988ff0a4bc}" name="" y="20" x="0"/>
     </description>
 </definition>

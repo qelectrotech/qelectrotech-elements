@@ -1,35 +1,37 @@
-<definition version="0.100.0" type="element" link_type="master" width="20" height="60" hotspot_x="8" hotspot_y="30">
-    <uuid uuid="{64db5cfc-627d-f245-37e9-d26b6d4a7b8f}"/>
+<definition height="60" hotspot_y="29" version="0.100.0" type="element" hotspot_x="8" link_type="master" width="20">
+    <uuid uuid="{545b41e8-dfd0-405f-8751-73cd3e7ba474}"/>
     <names>
-        <name lang="ar">مفتاح بسحّاب</name>
-        <name lang="cs">Stiskací vypínač</name>
-        <name lang="de">Zugschalter</name>
-        <name lang="el">Μπουτόν</name>
+        <name lang="ca">Tire de l'interruptor</name>
         <name lang="en">Pull switch</name>
+        <name lang="pl">Łącznik przyciskowy z powrotem samoczynnym</name>
+        <name lang="cs">Stiskací vypínač</name>
         <name lang="es">Pulsador</name>
+        <name lang="el">Μπουτόν</name>
+        <name lang="de">Zugschalter</name>
+        <name lang="ar">مفتاح بسحّاب</name>
         <name lang="fr">Tirette</name>
         <name lang="it">Pulsante a tirante</name>
-        <name lang="nl">fout symbool</name>
-        <name lang="pl">Łącznik przyciskowy z powrotem samoczynnym</name>
         <name lang="ru">Кнопка (НР)</name>
+        <name lang="nl">fout symbool</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-2" y1="0" x2="8" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="12" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a6e3922c-b358-4442-b5cb-1589c40e5bcc}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line antialias="false" y2="0" x2="8" end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" end2="none" length2="1.5" x1="-2" length1="1.5" y1="0"/>
+        <polygon y3="20" antialias="true" y2="10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x1="-5" y1="-10" x3="0"/>
+        <line antialias="false" y2="-10" x2="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x1="0" length1="1.5" y1="-20"/>
+        <dynamic_text text_width="-1" keep_visual_rotation="false" y="-9.5" rotation="0" x="12" text_from="ElementInfo" z="4" frame="false" Valignment="AlignTop" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{a6e3922c-b358-4442-b5cb-1589c40e5bcc}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="9" y1="-5" x2="9" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="6" y1="-5" x2="9" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <line x1="6" y1="5" x2="9" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{4c57e78a-224f-441d-92ef-70824f420b67}" name="" x="0" y="-21" orientation="n" type="Generic"/>
-        <terminal uuid="{032d7333-6ab5-4590-b52a-258c44cbff87}" name="" x="0" y="21" orientation="s" type="Generic"/>
+        <line antialias="false" y2="5" x2="9" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none" length2="1.5" x1="9" length1="1.5" y1="-5"/>
+        <line antialias="false" y2="-5" x2="9" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none" length2="1.5" x1="6" length1="1.5" y1="-5"/>
+        <line antialias="false" y2="5" x2="9" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" end2="none" length2="1.5" x1="6" length1="1.5" y1="5"/>
+        <terminal orientation="n" y="-21" name="" x="0" type="Generic" uuid="{4c57e78a-224f-441d-92ef-70824f420b67}"/>
+        <terminal orientation="s" y="21" name="" x="0" type="Generic" uuid="{032d7333-6ab5-4590-b52a-258c44cbff87}"/>
     </description>
 </definition>

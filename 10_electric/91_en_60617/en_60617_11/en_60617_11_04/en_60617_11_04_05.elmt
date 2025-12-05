@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="120" height="40" hotspot_x="110" hotspot_y="30">
-    <uuid uuid="{31498538-8b17-db06-afe1-eb4e2f79685c}"/>
+<definition version="0.100.0" type="element" width="110" height="40" hotspot_y="30" link_type="simple" hotspot_x="104">
+    <uuid uuid="{88b2f917-2e99-487d-b597-f84a9c90faa0}"/>
     <names>
+        <name lang="ca">Concentrador de línia en un pal</name>
         <name lang="cs">Sdružovací zařízení na sloupu</name>
-        <name lang="de">Leitungskonzentrator an einem Mast</name>
         <name lang="en">Line concentrator on a pole</name>
+        <name lang="de">Leitungskonzentrator an einem Mast</name>
         <name lang="fr">Concentrateur de lignes sur poteau</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{42ee5bef-e292-43b5-b4ca-8e58c6e70c3f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Valignment="AlignTop" z="1" frame="false" y="12.5" rotation="0" x="5" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{42ee5bef-e292-43b5-b4ca-8e58c6e70c3f}" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-60" y="-25" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-50" y1="-20" x2="-50" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-50" y1="-15" x2="-43" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-50" y1="-19" x2="-56" y2="-19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-50" y1="-11" x2="-56" y2="-11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-55" y="-5" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="-100" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{6f62e2f6-e054-425a-8cb0-955c84ee7cd9}" name="" x="0" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{38e002b8-b564-40f4-a02b-b5ef5d8ee877}" name="" x="-100" y="0" orientation="w" type="Generic"/>
+        <circle y="-25" antialias="false" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20"/>
+        <line end2="none" x2="-50" antialias="false" y2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-20" end1="none" length1="1.5"/>
+        <line end2="none" x2="-43" antialias="false" y2="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-15" end1="none" length1="1.5"/>
+        <line end2="none" x2="-56" antialias="false" y2="-19" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-19" end1="none" length1="1.5"/>
+        <line end2="none" x2="-56" antialias="false" y2="-11" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" y1="-11" end1="none" length1="1.5"/>
+        <circle y="-5" antialias="false" x="-55" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10"/>
+        <line end2="none" x2="-100" antialias="false" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="0" end1="none" length1="1.5"/>
+        <terminal y="0" type="Generic" x="0" name="" uuid="{6f62e2f6-e054-425a-8cb0-955c84ee7cd9}" orientation="e"/>
+        <terminal y="0" type="Generic" x="-100" name="" uuid="{38e002b8-b564-40f4-a02b-b5ef5d8ee877}" orientation="w"/>
     </description>
 </definition>

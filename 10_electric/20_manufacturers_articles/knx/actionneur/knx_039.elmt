@@ -1,40 +1,42 @@
-<definition version="0.100.0" type="element" link_type="simple" width="60" height="50" hotspot_x="30" hotspot_y="25">
-    <uuid uuid="{1a36d00e-c70b-9622-2c64-b6a60a026c5f}"/>
+<definition hotspot_x="24" type="element" link_type="simple" width="50" height="40" hotspot_y="19" version="0.100.0">
+    <uuid uuid="{06e4489c-c677-4460-b94d-a7c3f7313e3f}"/>
     <names>
-        <name lang="cs">Dva analogové výstupy</name>
-        <name lang="el">Αναλογική έξοδος, διπλή</name>
-        <name lang="en">Analog output, 2-fold</name>
-        <name lang="es">Dos salidas analógicas</name>
+        <name lang="ca">Sortida analògica, 2 vegades</name>
         <name lang="fr">Deux sorties analogiques</name>
         <name lang="it">Uscita analogica, 2 can</name>
         <name lang="nl">Analoog uitgang, 2 voud</name>
+        <name lang="es">Dos salidas analógicas</name>
+        <name lang="en">Analog output, 2-fold</name>
         <name lang="pl">Dwa wyjścia analogowe</name>
+        <name lang="el">Αναλογική έξοδος, διπλή</name>
+        <name lang="cs">Dva analogové výstupy</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-10" y="-15" width="30" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-20" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-16" y1="-11" x2="-16" y2="11" x3="-15" y3="12" x4="-14" y4="11" x5="-14" y5="-11" x6="-15" y6="-12" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-18" y1="-9" x2="-15" y2="-12" x3="-12" y3="-9" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-18" y1="9" x2="-15" y2="12" x3="-12" y3="9" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="15" y1="2" x2="15" y2="-4" x3="-7" y3="2" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="2" x="11" y="11" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <dynamic_text x="-22" y="-38.5" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{332a965c-da64-45b8-9e15-00eeb3ced68c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" width="30" antialias="false" x="-10" height="30" rx="0"/>
+        <rect ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" width="10" antialias="false" x="-20" height="30" rx="0"/>
+        <polygon x1="-16" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="-16" y7="-11" x5="-14" y6="-12" y5="-11" y2="11" x3="-15" antialias="true" y4="11" x2="-16" y3="12" x4="-14" y1="-11" x6="-15"/>
+        <polygon x1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-12" x3="-12" closed="false" antialias="true" x2="-15" y3="-9" y1="-9"/>
+        <polygon x1="-18" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="12" x3="-12" closed="false" antialias="true" x2="-15" y3="9" y1="9"/>
+        <polygon x1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-4" x3="-7" antialias="true" y4="2" x2="15" y3="2" x4="15" y1="2"/>
+        <text text="2" y="11" rotation="0" color="#000000" x="11" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
+        <dynamic_text y="-38.5" uuid="{332a965c-da64-45b8-9e15-00eeb3ced68c}" rotation="0" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" x="-22" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" z="8">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{67584135-9cc8-40ce-8e5e-677fa5811a9d}" name="" x="-20" y="10" orientation="w" type="Generic"/>
-        <terminal uuid="{cff8a9e7-94a8-4ecc-ae03-bba7878f8150}" name="" x="-20" y="0" orientation="w" type="Generic"/>
-        <terminal uuid="{aa397dfc-a0ab-458b-8127-c847a42b7523}" name="" x="-20" y="-10" orientation="w" type="Generic"/>
-        <terminal uuid="{73e91d00-63c4-4361-86d6-639259dab679}" name="" x="20" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{bca69142-0c96-4302-b3fa-237374427df0}" name="" x="20" y="10" orientation="e" type="Generic"/>
-        <terminal uuid="{0830b877-234f-4dd2-b490-64e60ec33a4c}" name="" x="20" y="-10" orientation="e" type="Generic"/>
-        <terminal uuid="{2d95fb6c-7605-4090-a015-505642bd96cd}" name="" x="-10" y="15" orientation="s" type="Generic"/>
-        <terminal uuid="{c2777c77-cd72-42b9-bd7e-789f176f23dc}" name="" x="0" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{7ca64f5c-4fb1-417b-b68a-71361a47f979}" name="" x="10" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{dc062ba8-746c-4ad5-bdee-adeba3488c44}" name="" x="-10" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{2dc95874-0dc2-45b5-9b03-d2321f8a8da2}" name="" x="0" y="15" orientation="s" type="Generic"/>
-        <terminal uuid="{06dcb47b-b9cf-44f2-a36c-45e0443e0b46}" name="" x="10" y="15" orientation="s" type="Generic"/>
+        <terminal y="10" uuid="{67584135-9cc8-40ce-8e5e-677fa5811a9d}" type="Generic" x="-20" orientation="w" name=""/>
+        <terminal y="0" uuid="{cff8a9e7-94a8-4ecc-ae03-bba7878f8150}" type="Generic" x="-20" orientation="w" name=""/>
+        <terminal y="-10" uuid="{aa397dfc-a0ab-458b-8127-c847a42b7523}" type="Generic" x="-20" orientation="w" name=""/>
+        <terminal y="0" uuid="{73e91d00-63c4-4361-86d6-639259dab679}" type="Generic" x="20" orientation="e" name=""/>
+        <terminal y="10" uuid="{bca69142-0c96-4302-b3fa-237374427df0}" type="Generic" x="20" orientation="e" name=""/>
+        <terminal y="-10" uuid="{0830b877-234f-4dd2-b490-64e60ec33a4c}" type="Generic" x="20" orientation="e" name=""/>
+        <terminal y="15" uuid="{2d95fb6c-7605-4090-a015-505642bd96cd}" type="Generic" x="-10" orientation="s" name=""/>
+        <terminal y="-15" uuid="{c2777c77-cd72-42b9-bd7e-789f176f23dc}" type="Generic" x="0" orientation="n" name=""/>
+        <terminal y="-15" uuid="{7ca64f5c-4fb1-417b-b68a-71361a47f979}" type="Generic" x="10" orientation="n" name=""/>
+        <terminal y="-15" uuid="{dc062ba8-746c-4ad5-bdee-adeba3488c44}" type="Generic" x="-10" orientation="n" name=""/>
+        <terminal y="15" uuid="{2dc95874-0dc2-45b5-9b03-d2321f8a8da2}" type="Generic" x="0" orientation="s" name=""/>
+        <terminal y="15" uuid="{06dcb47b-b9cf-44f2-a36c-45e0443e0b46}" type="Generic" x="10" orientation="s" name=""/>
     </description>
 </definition>

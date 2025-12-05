@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="17" hotspot_y="50">
-    <uuid uuid="{cbd7a256-493a-955d-60c2-bc0919cd70a3}"/>
+<definition width="30" hotspot_y="44" type="element" hotspot_x="17" version="0.100.0" height="50" link_type="simple">
+    <uuid uuid="{b23f3a5f-5d7f-4356-938d-e809d491a465}"/>
     <names>
-        <name lang="cs">Triodový tyristor</name>
+        <name lang="ca">Tiristor de triode, tipus no especificat</name>
         <name lang="de">Thyristortriode, allgemein</name>
         <name lang="en">Triode thyristor, type unspecified</name>
+        <name lang="cs">Triodový tyristor</name>
         <name lang="fr">Thyristor triode, type non spécifié</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{421cab41-58d8-49b4-98b0-5fbeb9c2bde9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text frame="false" rotation="0" x="5" Valignment="AlignTop" keep_visual_rotation="false" uuid="{421cab41-58d8-49b4-98b0-5fbeb9c2bde9}" z="1" Halignment="AlignLeft" y="2.5" text_width="-1" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-10" y1="-30" x2="10" y2="-30" x3="0" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-5" y1="-20" x2="-15" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{4677e673-46dd-420b-8df2-17d98664130e}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{3a26d666-546e-46ea-b57b-bf7ec57b6918}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <line x2="0" antialias="false" x1="0" y1="-40" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" end2="none"/>
+        <line x2="10" antialias="false" x1="-10" y1="-10" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" end2="none"/>
+        <polygon x2="10" y3="-10" antialias="false" x1="-10" y1="-30" y2="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y4="-30" x4="-10" x3="0"/>
+        <line x2="-15" antialias="false" x1="-5" y1="-20" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end1="none" length1="1.5" end2="none"/>
+        <terminal name="" x="0" type="Generic" uuid="{4677e673-46dd-420b-8df2-17d98664130e}" orientation="n" y="-40"/>
+        <terminal name="" x="0" type="Generic" uuid="{3a26d666-546e-46ea-b57b-bf7ec57b6918}" orientation="s" y="0"/>
     </description>
 </definition>

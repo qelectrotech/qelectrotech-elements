@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="7" hotspot_y="50">
-    <uuid uuid="{40b0e551-25a5-09cd-cd30-1e1a86002ec4}"/>
+<definition hotspot_x="6" hotspot_y="44" width="20" link_type="simple" type="element" version="0.100.0" height="70">
+    <uuid uuid="{062ee48f-3ab6-44b6-b182-963b3af18054}"/>
     <names>
+        <name lang="ca">Trenca el contacte</name>
+        <name lang="fr">Contact à ouverture (contact de repos)</name>
         <name lang="cs">Vypínací kontakt</name>
         <name lang="de">Öffner</name>
         <name lang="en">Break contact</name>
-        <name lang="fr">Contact à ouverture (contact de repos)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-20" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{80ab1f33-ea51-4332-a188-a2cb9a22f787}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line y1="-20" x2="0" length2="1.5" y2="-40" length1="1.5" x1="0" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="0" x2="0" length2="1.5" y2="20" length1="1.5" x1="0" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="0" x2="8" length2="1.5" y2="-23" length1="1.5" x1="0" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text text_from="ElementInfo" Halignment="AlignLeft" frame="false" x="5" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" keep_visual_rotation="false" y="12.5" z="4" uuid="{80ab1f33-ea51-4332-a188-a2cb9a22f787}" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{3e5f9678-da85-4c73-8640-8fc4ae6edac7}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{678905fe-de03-433f-b9ec-fa79a8275171}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <line y1="-20" x2="10" length2="1.5" y2="-20" length1="1.5" x1="0" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal orientation="n" name="" type="Generic" x="0" y="-40" uuid="{3e5f9678-da85-4c73-8640-8fc4ae6edac7}"/>
+        <terminal orientation="s" name="" type="Generic" x="0" y="20" uuid="{678905fe-de03-433f-b9ec-fa79a8275171}"/>
     </description>
 </definition>

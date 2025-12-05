@@ -1,25 +1,27 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="11" hotspot_y="50">
-    <uuid uuid="{37bb943b-b806-f2b4-316f-6d3d3b763445}"/>
+<definition hotspot_x="13" width="20" hotspot_y="44" type="element" link_type="simple" height="70" version="0.100.0">
+    <uuid uuid="{61310e0b-97b3-4a56-9215-beec1b0073e4}"/>
     <names>
+        <name lang="ca">Poseu-vos en contacte, manteniu-vos-hi</name>
+        <name lang="de">Schließer mit nicht selbsttätigem Rückgang </name>
+        <name lang="en">Make contact, stay put</name>
         <name lang="cs">Zapínací kontakt bez samočinného návratu
 Zapínací kontakt se stálou polohou</name>
-        <name lang="de">Schließer mit nicht selbsttätigem Rückgang</name>
-        <name lang="en">Make contact, stay put</name>
         <name lang="fr">Contact à fermeture, sans retour automatique
 Contact à fermeture, à position maintenue</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="-8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bb90e421-7650-4302-927e-2f4b8e8b7c10}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x1="0" y1="0" y2="20" end1="none" antialias="false" x2="0" length1="1.5"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x1="0" y1="0" y2="-23" end1="none" antialias="false" x2="-8" length1="1.5"/>
+        <dynamic_text Halignment="AlignLeft" y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{bb90e421-7650-4302-927e-2f4b8e8b7c10}" keep_visual_rotation="false" text_width="-1" z="3" frame="false" Valignment="AlignTop" text_from="ElementInfo" x="5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-2.5" y="-25.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-26" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{c3cc0622-f944-4943-9e21-63c2effc9805}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{32f8f2f9-62ef-4a6d-a387-e426205d6887}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <circle y="-25.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5" antialias="false"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x1="0" y1="-26" y2="-40" end1="none" antialias="false" x2="0" length1="1.5"/>
+        <terminal y="-40" uuid="{c3cc0622-f944-4943-9e21-63c2effc9805}" name="" orientation="n" x="0" type="Generic"/>
+        <terminal y="20" uuid="{32f8f2f9-62ef-4a6d-a387-e426205d6887}" name="" orientation="s" x="0" type="Generic"/>
     </description>
 </definition>

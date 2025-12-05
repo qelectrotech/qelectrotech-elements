@@ -1,19 +1,21 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="25" hotspot_y="45">
-    <uuid uuid="{5642b1b5-87e4-9fa5-79ce-0a79fd0af251}"/>
+<definition width="50" type="element" hotspot_x="25" hotspot_y="45" link_type="simple" height="50" version="0.100.0">
+    <uuid uuid="{0317741a-6b83-446a-b82d-2bd6e76e0528}"/>
     <names>
+        <name lang="ca">Mesurador de salinitat</name>
+        <name lang="fr">Salinomètre</name>
         <name lang="cs">Měřič obsahu soli</name>
         <name lang="de">Solekonzentrationsmeßgerät</name>
         <name lang="en">Salinity meter</name>
-        <name lang="fr">Salinomètre</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{707c3b9c-797d-40f2-aef7-2bd7e86414e7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" keep_visual_rotation="false" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_from="ElementInfo" uuid="{707c3b9c-797d-40f2-aef7-2bd7e86414e7}" z="1" y="12.5" rotation="0" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-20" y="-40" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="NaCi" x="-12" y="-16" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <circle antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" y="-40" diameter="40"/>
+        <text color="#000000" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-12" y="-16" rotation="0" text="NaCi"/>
     </description>
 </definition>

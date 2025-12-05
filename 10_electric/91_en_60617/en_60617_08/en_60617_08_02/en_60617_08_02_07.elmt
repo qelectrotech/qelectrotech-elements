@@ -1,19 +1,21 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="25" hotspot_y="45">
-    <uuid uuid="{78237a9c-ae3f-ae0a-a586-3278a8b27859}"/>
+<definition version="0.100.0" type="element" width="50" link_type="simple" hotspot_x="25" hotspot_y="45" height="50">
+    <uuid uuid="{6a86c800-c9e1-4f4e-a571-26d13306ad6b}"/>
     <names>
+        <name lang="ca">Freqüímetre</name>
         <name lang="cs">Kmitoměr</name>
-        <name lang="de">Frequenzmeßgerät, anzeigend</name>
-        <name lang="en">Frequency meter</name>
+        <name lang="de">Frequenzmeßgerät, anzeigend </name>
         <name lang="fr">Fréquencemètre</name>
+        <name lang="en">Frequency meter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9fcccb78-2e39-4864-b296-868382ad66dd}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="12.5" Valignment="AlignTop" uuid="{9fcccb78-2e39-4864-b296-868382ad66dd}" rotation="0" frame="false" Halignment="AlignLeft" x="5" z="1" text_from="ElementInfo" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-20" y="-40" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="Hz" x="-8" y="-16" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <circle y="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x="-20" diameter="40"/>
+        <text font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" y="-16" rotation="0" x="-8" text="Hz"/>
     </description>
 </definition>

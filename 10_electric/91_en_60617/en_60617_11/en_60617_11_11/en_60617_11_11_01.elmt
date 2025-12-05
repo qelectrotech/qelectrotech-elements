@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="120" height="50" hotspot_x="110" hotspot_y="45">
-    <uuid uuid="{1fb22ff5-2db9-c6c4-5517-a048f0d10199}"/>
+<definition height="50" width="110" hotspot_x="104" link_type="simple" type="element" hotspot_y="45" version="0.100.0">
+    <uuid uuid="{3f9dba8d-abe4-4629-b425-070b3235ff90}"/>
     <names>
+        <name lang="ca">Conductor neutre</name>
         <name lang="cs">Střední vodič</name>
+        <name lang="fr">Conducteur neutre</name>
         <name lang="de">Neutralleiter (N),
 Mittelleite</name>
         <name lang="en">Neutral conductor</name>
-        <name lang="fr">Conducteur neutre</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="42.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{277ee8d0-2fbb-4309-ad31-ec9fed8403fb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text z="1" uuid="{277ee8d0-2fbb-4309-ad31-ec9fed8403fb}" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" text_from="ElementInfo" y="42.5" rotation="0" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-100" y1="-20" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-55" y1="0" x2="-45" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <ellipse x="-46.5" y="-40.5" width="3" height="3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <terminal uuid="{ded50df5-8c24-479c-927f-03c502d76082}" name="" x="-100" y="-20" orientation="w" type="Generic"/>
-        <terminal uuid="{59b3c8da-18f0-4d64-ae3d-606cdaedb961}" name="" x="0" y="-20" orientation="e" type="Generic"/>
+        <line x2="0" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end1="none" length2="1.5" antialias="false" x1="-100" y2="-20"/>
+        <line x2="-45" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="0" end1="none" length2="1.5" antialias="false" x1="-55" y2="-40"/>
+        <circle x="-46.5" y="-40.5" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="3" antialias="false"/>
+        <terminal uuid="{ded50df5-8c24-479c-927f-03c502d76082}" x="-100" y="-20" name="" orientation="w" type="Generic"/>
+        <terminal uuid="{59b3c8da-18f0-4d64-ae3d-606cdaedb961}" x="0" y="-20" name="" orientation="e" type="Generic"/>
     </description>
 </definition>

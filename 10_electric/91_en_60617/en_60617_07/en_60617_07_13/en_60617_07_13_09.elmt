@@ -1,26 +1,28 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="11" hotspot_y="50">
-    <uuid uuid="{822cf0b4-9d53-c259-1bbf-803dd501dfe4}"/>
+<definition width="20" link_type="simple" hotspot_x="13" type="element" hotspot_y="44" height="70" version="0.100.0">
+    <uuid uuid="{75bf1cb6-1569-4a54-a6ef-ffa26433f66b}"/>
     <names>
-        <name lang="cs">Odpínač se samočinným vypínáním</name>
-        <name lang="de">Lasttrennschalter mit selbsttätiger Auslösung</name>
-        <name lang="en">Switch-disconnector, automatic release; On-load isolating switch, automatic</name>
+        <name lang="ca">Interruptor-seccionador, alliberament automàtic; </name>
         <name lang="fr">Interrupteur-sectionneur avec ouverture
 automatique</name>
+        <name lang="en">Switch-disconnector, automatic release; On-load isolating switch, automatic</name>
+        <name lang="de">Lasttrennschalter mit selbsttätiger Auslösung</name>
+        <name lang="cs">Odpínač se samočinným vypínáním</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-24" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="-8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bb85e92c-2e44-43b0-a832-5fb55a3f043b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-24" x2="0" antialias="false" y2="-40" length2="1.5" end2="none" end1="none"/>
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x2="0" antialias="false" y2="20" length2="1.5" end2="none" end1="none"/>
+        <line x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" x2="-8" antialias="false" y2="-23" length2="1.5" end2="none" end1="none"/>
+        <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Valignment="AlignTop" z="4" Halignment="AlignLeft" text_width="-1" uuid="{bb85e92c-2e44-43b0-a832-5fb55a3f043b}" text_from="ElementInfo" keep_visual_rotation="false" x="5" y="12.5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <ellipse x="-2" y="-24" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-2" y1="-24" x2="2" y2="-24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-6" y1="-16" x2="-8" y2="-15" x3="-7" y3="-13" x4="-5" y4="-14" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal uuid="{94b16116-194e-4e50-9274-b4e397b82c74}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{666a420b-3264-4af7-b423-a3248a23cadb}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="4" x="-2" y="-24"/>
+        <line x1="-2" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-24" x2="2" antialias="false" y2="-24" length2="1.5" end2="none" end1="none"/>
+        <polygon x1="-6" x3="-7" style="line-style:normal;line-weight:normal;filling:black;color:black" y1="-16" y5="-16" y4="-14" x2="-8" x4="-5" x5="-6" antialias="false" y2="-15" y3="-13"/>
+        <terminal name="" orientation="s" type="Generic" uuid="{94b16116-194e-4e50-9274-b4e397b82c74}" x="0" y="20"/>
+        <terminal name="" orientation="n" type="Generic" uuid="{666a420b-3264-4af7-b423-a3248a23cadb}" x="0" y="-40"/>
     </description>
 </definition>

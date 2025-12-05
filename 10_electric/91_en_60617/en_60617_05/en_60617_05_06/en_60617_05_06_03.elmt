@@ -1,25 +1,27 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="70" hotspot_x="27" hotspot_y="60">
-    <uuid uuid="{0aa938a3-2d67-e24e-d1c5-89a14583ee0e}"/>
+<definition hotspot_x="27" hotspot_y="54" height="60" type="element" version="0.100.0" width="40" link_type="simple">
+    <uuid uuid="{681c9c09-6ad7-45b0-8ea6-086e6243e88d}"/>
     <names>
-        <name lang="cs">Fotoelektrický článek</name>
-        <name lang="de">Photozelle</name>
+        <name lang="ca">Cèl·lula fotovoltaica</name>
         <name lang="en">Photovoltaic cell</name>
         <name lang="fr">Cellule photovoltaïque</name>
+        <name lang="cs">Fotoelektrický článek</name>
+        <name lang="de">Photozelle</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{627184fc-879d-43d9-bdb2-4abe1e65b895}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="5" Halignment="AlignLeft" z="1" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" frame="false" rotation="0" uuid="{627184fc-879d-43d9-bdb2-4abe1e65b895}" y="2.5" text_width="-1" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-22" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-50" x2="0" y2="-28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-20" y1="-40" x2="-10" y2="-30" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <line x1="-25" y1="-35" x2="-15" y2="-25" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <line x1="-5" y1="-28" x2="5" y2="-28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-22" x2="10" y2="-22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{79418445-7be1-4862-b9a7-8e79ae1a57bd}" name="" x="0" y="-50" orientation="n" type="Generic"/>
-        <terminal uuid="{604839a2-c56d-4368-a582-3198d67e22e6}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <line length2="1.5" antialias="false" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="0" x1="0" y1="-22"/>
+        <line length2="1.5" antialias="false" y2="-28" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="0" x1="0" y1="-50"/>
+        <line length2="1.5" antialias="false" y2="-30" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" x2="-10" x1="-20" y1="-40"/>
+        <line length2="1.5" antialias="false" y2="-25" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" end1="none" length1="1.5" x2="-15" x1="-25" y1="-35"/>
+        <line length2="1.5" antialias="false" y2="-28" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="5" x1="-5" y1="-28"/>
+        <line length2="1.5" antialias="false" y2="-22" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" x2="10" x1="-10" y1="-22"/>
+        <terminal x="0" orientation="n" type="Generic" uuid="{79418445-7be1-4862-b9a7-8e79ae1a57bd}" name="" y="-50"/>
+        <terminal x="0" orientation="s" type="Generic" uuid="{604839a2-c56d-4368-a582-3198d67e22e6}" name="" y="0"/>
     </description>
 </definition>

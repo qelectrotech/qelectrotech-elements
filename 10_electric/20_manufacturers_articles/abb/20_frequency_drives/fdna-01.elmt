@@ -1,44 +1,55 @@
 <definition version="0.80" type="element" link_type="simple" width="150" height="100" hotspot_x="5" hotspot_y="2">
-    <uuid uuid="{2f21f7bd-4e42-3c80-82ca-bb092c2682e9}"/>
+    <uuid uuid="{0cb847a6-b765-c185-7ef4-cad336f2c164}"/>
     <names>
+        <name lang="ca">FDNA-01</name>
+        <name lang="ru">FDNA-01</name>
+        <name lang="pl">FDNA-01</name>
         <name lang="en">FDNA-01</name>
         <name lang="fr">FDNA-01</name>
-        <name lang="pl">FDNA-01</name>
-        <name lang="ru">FDNA-01</name>
     </names>
     <elementInformations>
-        <elementInformation show="1" name="manufacturer">ABB</elementInformation>
+        <elementInformation name="description" show="1"/>
+        <elementInformation name="label" show="1"/>
+        <elementInformation name="supplier" show="1"/>
+        <elementInformation name="designation" show="1"/>
+        <elementInformation name="unity" show="1"/>
+        <elementInformation name="comment" show="1"/>
+        <elementInformation name="manufacturer" show="1">ABB</elementInformation>
+        <elementInformation name="quantity" show="1"/>
+        <elementInformation name="plant" show="1"/>
+        <elementInformation name="machine_manufacturer_reference" show="1"/>
+        <elementInformation name="manufacturer_reference" show="1"/>
     </elementInformations>
-    <informations>Author: https://t.me/pandzmitriusz</informations>
+    <informations>Author: https://t.me/pandzmitriusz </informations>
     <description>
-        <line x1="0" y1="0" x2="0" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="140" y1="0" x2="140" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="90" x2="140" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="120" y="60" z="22" text_width="-1" Halignment="AlignHCenter" Valignment="AlignVCenter" frame="true" rotation="0" text_from="UserText" uuid="{3927919a-749d-9f5b-ffba-80d11638faef}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <line y1="0" end2="none" length1="1.5" length2="1.5" x1="0" y2="90" style="line-style:dashed;line-weight:normal;filling:none;color:black" end1="none" x2="0" antialias="false"/>
+        <line y1="0" end2="none" length1="1.5" length2="1.5" x1="140" y2="90" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="140" antialias="false"/>
+        <line y1="0" end2="none" length1="1.5" length2="1.5" x1="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="140" antialias="false"/>
+        <line y1="90" end2="none" length1="1.5" length2="1.5" x1="0" y2="90" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" x2="140" antialias="false"/>
+        <dynamic_text uuid="{3927919a-749d-9f5b-ffba-80d11638faef}" Halignment="AlignHCenter" y="60" Valignment="AlignVCenter" frame="true" z="22" rotation="0" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" x="120" text_width="-1">
             <text>X1</text>
         </dynamic_text>
-        <text text="DeviceNet" x="10" y="16" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <dynamic_text x="10" y="40" z="126" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" text_from="UserText" uuid="{8aa3c441-a974-180b-4d06-91e21c45da97}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <text text="DeviceNet" x="10" y="16" rotation="0" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000"/>
+        <dynamic_text uuid="{8aa3c441-a974-180b-4d06-91e21c45da97}" Halignment="AlignLeft" y="40" Valignment="AlignTop" frame="false" z="126" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="UserText" x="10" text_width="-1">
             <text>FDNA-01</text>
         </dynamic_text>
-        <dynamic_text x="10" y="-31" z="127" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" text_from="ElementInfo" uuid="{41b2aee8-cf0e-eebd-d6a5-6471f5e6670e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{41b2aee8-cf0e-eebd-d6a5-6471f5e6670e}" Halignment="AlignLeft" y="-31" Valignment="AlignTop" frame="false" z="127" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="10" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <dynamic_text x="92" y="88" z="128" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="true" rotation="270" text_from="UserText" uuid="{e156fe53-ffc9-68ca-f205-3ee1d2d0a2ab}" font="Liberation Sans,3,-1,5,0,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{e156fe53-ffc9-68ca-f205-3ee1d2d0a2ab}" Halignment="AlignLeft" y="88" Valignment="AlignTop" frame="true" z="128" rotation="270" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="92" text_width="-1">
             <text>5. V+</text>
         </dynamic_text>
-        <dynamic_text x="32" y="88" z="128" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="true" rotation="270" text_from="UserText" uuid="{4839f0e2-9150-2095-daf0-a42d5d3c2e95}" font="Liberation Sans,3,-1,5,0,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{4839f0e2-9150-2095-daf0-a42d5d3c2e95}" Halignment="AlignLeft" y="88" Valignment="AlignTop" frame="true" z="128" rotation="270" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="32" text_width="-1">
             <text>2. CAN_L</text>
         </dynamic_text>
-        <dynamic_text x="52" y="88" z="128" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="true" rotation="270" text_from="UserText" uuid="{eb377b64-5341-daf3-98e7-9821659ab6dc}" font="Liberation Sans,3,-1,5,0,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{eb377b64-5341-daf3-98e7-9821659ab6dc}" Halignment="AlignLeft" y="88" Valignment="AlignTop" frame="true" z="128" rotation="270" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="52" text_width="-1">
             <text>3. SHLD</text>
         </dynamic_text>
-        <dynamic_text x="12" y="88" z="128" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="true" rotation="270" text_from="UserText" uuid="{e57420b0-850d-cfed-b3b6-9f0afb7aa382}" font="Liberation Sans,3,-1,5,0,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{e57420b0-850d-cfed-b3b6-9f0afb7aa382}" Halignment="AlignLeft" y="88" Valignment="AlignTop" frame="true" z="128" rotation="270" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="12" text_width="-1">
             <text>1. V-</text>
         </dynamic_text>
-        <dynamic_text x="72" y="88" z="128" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="true" rotation="270" text_from="UserText" uuid="{830b281f-9a33-c784-1be6-f069c836594b}" font="Liberation Sans,3,-1,5,0,0,0,0,0,0,Regular">
+        <dynamic_text uuid="{830b281f-9a33-c784-1be6-f069c836594b}" Halignment="AlignLeft" y="88" Valignment="AlignTop" frame="true" z="128" rotation="270" font="Sans Serif,3,-1,5,0,0,0,0,0,0,normal" text_from="UserText" x="72" text_width="-1">
             <text>4. CAN_H</text>
         </dynamic_text>
         <terminal uuid="{b9e58a8b-9f54-45e7-8644-f9700de21b1f}" name="" x="40" y="90" orientation="s" type="Generic"/>

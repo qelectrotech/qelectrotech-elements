@@ -1,31 +1,33 @@
-<definition version="0.100.0" type="element" link_type="simple" width="90" height="60" hotspot_x="65" hotspot_y="30">
-    <uuid uuid="{4b766625-3c5a-9506-1c30-9c288d535bcf}"/>
+<definition type="element" hotspot_x="65" width="90" height="50" version="0.100.0" hotspot_y="24" link_type="simple">
+    <uuid uuid="{c8cde073-7120-4f7d-b6e8-3db708dfe2b5}"/>
     <names>
-        <name lang="cs">Ovládací ústrojí se dvěma oodělenými vinutími,
-uspořádanými v jednom celku</name>
+        <name lang="ca">Dispositiu operatiu; </name>
         <name lang="de">Antrieb mit zwei getrennten Wicklungen,
 zusammenhängende Darstellung</name>
-        <name lang="en">Operating device; Relay coil (attached representation)</name>
+        <name lang="cs">Ovládací ústrojí se dvěma oodělenými vinutími,
+uspořádanými v jednom celku</name>
         <name lang="fr">Organe de commande avec deux
 enroulements séparés, représentation
 assemblée</name>
+        <name lang="en">Operating device; Relay coil (attached representation)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-60" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7aad9168-0d8a-4a1f-ad31-be656763dc4a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <rect y="-10" x="-60" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" rx="0" height="20" ry="0" antialias="false"/>
+        <dynamic_text y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{7aad9168-0d8a-4a1f-ad31-be656763dc4a}" x="5" rotation="0" z="2" keep_visual_rotation="false" frame="false" text_from="ElementInfo" Valignment="AlignTop" text_width="-1" Halignment="AlignLeft">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-40" y1="-20" x2="-40" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-20" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-40" y1="10" x2="-40" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{fc3efe4f-f356-44a3-895d-056738482ff9}" name="" x="-40" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{4b3ffc33-7ca3-43c1-b80c-89fbdead8b83}" name="" x="-40" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{e26e74dd-7d8e-4936-a775-b9c8fab798ca}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{e059b0d9-49dc-4598-881c-8c247be7b08d}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <line x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" length2="1.5" length1="1.5" antialias="false" y1="-20" end2="none" y2="-10"/>
+        <rect y="-10" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" width="40" rx="0" height="20" ry="0" antialias="false"/>
+        <line x1="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-40" length2="1.5" length1="1.5" antialias="false" y1="10" end2="none" y2="20"/>
+        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" length1="1.5" antialias="false" y1="-20" end2="none" y2="-10"/>
+        <line x1="0" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" length1="1.5" antialias="false" y1="10" end2="none" y2="20"/>
+        <terminal y="20" uuid="{fc3efe4f-f356-44a3-895d-056738482ff9}" x="-40" orientation="s" type="Generic" name=""/>
+        <terminal y="-20" uuid="{4b3ffc33-7ca3-43c1-b80c-89fbdead8b83}" x="-40" orientation="n" type="Generic" name=""/>
+        <terminal y="20" uuid="{e26e74dd-7d8e-4936-a775-b9c8fab798ca}" x="0" orientation="s" type="Generic" name=""/>
+        <terminal y="-20" uuid="{e059b0d9-49dc-4598-881c-8c247be7b08d}" x="0" orientation="n" type="Generic" name=""/>
     </description>
 </definition>

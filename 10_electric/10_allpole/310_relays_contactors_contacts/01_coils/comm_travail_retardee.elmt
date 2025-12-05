@@ -1,39 +1,41 @@
-<definition version="0.100.0" type="element" link_type="master" width="50" height="60" hotspot_x="28" hotspot_y="32">
-    <uuid uuid="{2147e881-3148-831c-617d-41744bafc286}"/>
+<definition height="50" link_type="master" width="50" hotspot_y="24" version="0.100.0" hotspot_x="28" type="element">
+    <uuid uuid="{38dc1d69-fecc-469c-84ea-95d6db98f375}"/>
     <names>
+        <name lang="ca">Retard de funcionament del relé a l'excitació</name>
         <name lang="cs">Relé se zpožděným zapnutím</name>
-        <name lang="de">Relais ansprechverzögert</name>
-        <name lang="el">Πηνίο χρονικού, καθυστέρηση ενεργοποίησης</name>
-        <name lang="en">Relay operating delay at excitation</name>
         <name lang="es">Relé con retrazo en la exitación</name>
-        <name lang="fr">Relais à mise au travail retardée</name>
-        <name lang="hu">Meghúzás késleltetésű relé</name>
         <name lang="it">Relè ritardato alla chiusura</name>
         <name lang="nl">Relays met opkomvertraging</name>
+        <name lang="el">Πηνίο χρονικού, καθυστέρηση ενεργοποίησης</name>
+        <name lang="fr">Relais à mise au travail retardée</name>
+        <name lang="hu">Meghúzás késleltetésű relé</name>
+        <name lang="en">Relay operating delay at excitation</name>
+        <name lang="de">Relais ansprechverzögert</name>
         <name lang="pl">Przekaźnik działający ze zwłoką przy wzbudzeniu</name>
     </names>
     <kindInformations>
         <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-15" y="-10" width="30" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-22" y1="10" x2="-15" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-22" y1="-10" x2="-15" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <rect x="-22" y="-10" width="7" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="20" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-14" y="10" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{32c27a08-2931-44fc-80c5-0f28141f43ce}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <rect height="20" ry="0" width="30" x="-15" rx="0" antialias="false" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="10" x1="-22" y2="-10" end2="none" x2="-15" length2="1.5" length1="1.5" antialias="true" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-10" x1="-22" y2="10" end2="none" x2="-15" length2="1.5" length1="1.5" antialias="true" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect height="20" ry="0" width="7" x="-22" rx="0" antialias="false" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="20" x1="0" y2="10" end2="none" x2="0" length2="1.5" length1="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line y1="-20" x1="0" y2="-10" end2="none" x2="0" length2="1.5" length1="1.5" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{32c27a08-2931-44fc-80c5-0f28141f43ce}" Halignment="AlignLeft" x="-14" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" rotation="0" y="10" z="7" text_from="UserText">
             <text>A2</text>
         </dynamic_text>
-        <dynamic_text x="-14" y="-25" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{0c5554f8-3d90-4efd-ac32-56972f907fe9}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <dynamic_text frame="false" font="Sans Serif,4,-1,5,25,0,0,0,0,0" uuid="{0c5554f8-3d90-4efd-ac32-56972f907fe9}" Halignment="AlignLeft" x="-14" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" rotation="0" y="-25" z="8" text_from="UserText">
             <text>A1</text>
         </dynamic_text>
-        <dynamic_text x="16" y="-12" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{907151b7-6b4e-4d82-b208-98a7b7e26cfc}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{907151b7-6b4e-4d82-b208-98a7b7e26cfc}" Halignment="AlignLeft" x="16" keep_visual_rotation="false" text_width="-1" Valignment="AlignTop" rotation="0" y="-12" z="9" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{21568f42-a34c-4f6c-89bf-081d19b3c07f}" name="" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{7293f2b5-b9a6-4a69-86f0-97637fb734e9}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal name="" uuid="{21568f42-a34c-4f6c-89bf-081d19b3c07f}" x="0" orientation="n" y="-20" type="Generic"/>
+        <terminal name="" uuid="{7293f2b5-b9a6-4a69-86f0-97637fb734e9}" x="0" orientation="s" y="20" type="Generic"/>
     </description>
 </definition>

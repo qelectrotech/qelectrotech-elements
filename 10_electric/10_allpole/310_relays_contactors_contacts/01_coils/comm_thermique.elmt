@@ -1,35 +1,37 @@
-<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="21" hotspot_y="32">
-    <uuid uuid="{0e2db51c-cea1-0854-f1c6-2820b8b85fff}"/>
+<definition height="50" link_type="master" version="0.100.0" width="40" hotspot_y="24" type="element" hotspot_x="20">
+    <uuid uuid="{e8cb4d7e-474f-4a14-bbfd-0c7f2a9c5974}"/>
     <names>
+        <name lang="ca">Relé de sobrecàrrega tèrmica</name>
         <name lang="cs">Tepelné relé</name>
-        <name lang="de">Überstromrelais</name>
         <name lang="el">Θερμικό ρελέ υπερφόρτωσης</name>
         <name lang="en">Thermal overload relay</name>
         <name lang="es">Relé de sobrecarga termica</name>
-        <name lang="fr">Organe de commande d'un relais thermique</name>
-        <name lang="hu">Thermikus túlterhelés védelmi relé</name>
         <name lang="it">Relè termico</name>
-        <name lang="nl">Thermisch relais</name>
         <name lang="pl">Przekaźnik nadprądowy cieplny</name>
+        <name lang="nl">Thermisch relais</name>
+        <name lang="hu">Thermikus túlterhelés védelmi relé</name>
+        <name lang="fr">Organe de commande d'un relais thermique</name>
+        <name lang="de">Überstromrelais</name>
     </names>
     <kindInformations>
         <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-15" y="-10" width="30" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="0" y1="-20" x2="0" y2="-5" x3="-8" y3="-5" x4="-8" y4="4" x5="0" y5="4" x6="0" y6="20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="-14" y="10" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{c13e0def-1fe6-44ad-a19a-217541900ce6}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <rect height="20" y="-10" rx="0" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black" ry="0" x="-15" antialias="false"/>
+        <polygon y5="4" x4="-8" closed="false" x2="0" x5="0" x3="-8" x1="0" y6="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-5" x6="0" y1="-20" y4="4" y2="-5" antialias="false"/>
+        <dynamic_text Halignment="AlignLeft" uuid="{c13e0def-1fe6-44ad-a19a-217541900ce6}" y="10" z="3" text_width="-1" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-14" rotation="0">
             <text>A2</text>
         </dynamic_text>
-        <dynamic_text x="-14" y="-25" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{26a2bb5d-19cf-4baa-a31a-b24575091cfb}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <dynamic_text Halignment="AlignLeft" uuid="{26a2bb5d-19cf-4baa-a31a-b24575091cfb}" y="-25" z="4" text_width="-1" keep_visual_rotation="false" text_from="UserText" frame="false" Valignment="AlignTop" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-14" rotation="0">
             <text>A1</text>
         </dynamic_text>
-        <dynamic_text x="16" y="-12" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{fa7d78bd-ca4e-4a24-b185-53058cf68d3b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text Halignment="AlignLeft" uuid="{fa7d78bd-ca4e-4a24-b185-53058cf68d3b}" y="-12" z="5" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" frame="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="16" rotation="0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{c4b3c5af-2dd4-4043-9677-87f842b6dd5e}" name="" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{b10395bf-741d-4c40-963a-50073f0a1038}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{c4b3c5af-2dd4-4043-9677-87f842b6dd5e}" y="-20" orientation="n" name="" x="0" type="Generic"/>
+        <terminal uuid="{b10395bf-741d-4c40-963a-50073f0a1038}" y="20" orientation="s" name="" x="0" type="Generic"/>
     </description>
 </definition>

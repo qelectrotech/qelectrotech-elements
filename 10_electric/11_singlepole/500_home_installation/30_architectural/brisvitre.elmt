@@ -1,27 +1,29 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="30" hotspot_x="15" hotspot_y="15">
-    <uuid uuid="{eb58affa-2dd1-f059-f56b-2d9dd19cdcb0}"/>
+<definition type="element" width="50" hotspot_y="15" version="0.100.0" link_type="simple" height="30" hotspot_x="15">
+    <uuid uuid="{cccacb14-8f11-47e8-8a97-0339400c3209}"/>
     <names>
-        <name lang="cs">Detektor rozbití okna</name>
-        <name lang="de">Glasbruchdetektor</name>
-        <name lang="el">Ανιχνευτής θραύσης κρυστάλων</name>
-        <name lang="en">Glass break detector</name>
+        <name lang="ca">Detector de trencament de vidre</name>
         <name lang="fr">Détecteur de bris de vitre</name>
-        <name lang="it">Rilevatore rottura vetri</name>
         <name lang="pl">Czujnik zbicia szyby</name>
+        <name lang="en">Glass break detector</name>
+        <name lang="cs">Detektor rozbití okna</name>
+        <name lang="el">Ανιχνευτής θραύσης κρυστάλων</name>
+        <name lang="it">Rilevatore rottura vetri</name>
+        <name lang="de">Glasbruchdetektor</name>
     </names>
-    <informations>edited with "QET_ElementScaler"</informations>
+    <elementInformations/>
+    <informations></informations>
     <description>
-        <arc x="-10" y="-10" width="20" height="20" start="180" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-10" y="-10" width="20" height="20" start="90" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-10" y="-10" width="20" height="20" start="0" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-10" y="-10" width="20" height="20" start="270" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-10" y1="-10" x2="-10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="0" x2="30" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-45" y="-13" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{deca902f-3bd0-4373-91c5-e6d9073c7eca}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <arc antialias="true" y="-10" width="20" start="180" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-10"/>
+        <arc antialias="true" y="-10" width="20" start="90" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-10"/>
+        <arc antialias="true" y="-10" width="20" start="0" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-10"/>
+        <arc antialias="true" y="-10" width="20" start="270" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" x="-10"/>
+        <line end1="none" end2="none" antialias="false" x1="-10" x2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="10" length2="1.5" length1="1.5"/>
+        <line end1="none" end2="none" antialias="false" x1="10" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" length2="1.5" length1="1.5"/>
+        <line end1="none" end2="none" antialias="false" x1="20" x2="30" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" y2="0" length2="1.5" length1="1.5"/>
+        <dynamic_text frame="false" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" Valignment="AlignTop" y="-13" text_width="-1" uuid="{deca902f-3bd0-4373-91c5-e6d9073c7eca}" z="8" keep_visual_rotation="false" x="-45" rotation="0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{fb4680eb-90df-4803-8e5d-bd0d3fa6bf38}" name="" x="20" y="0" orientation="e" type="Generic"/>
+        <terminal orientation="e" name="" y="0" type="Generic" uuid="{fb4680eb-90df-4803-8e5d-bd0d3fa6bf38}" x="20"/>
     </description>
 </definition>

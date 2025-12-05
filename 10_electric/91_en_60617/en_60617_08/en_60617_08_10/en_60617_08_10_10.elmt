@@ -1,23 +1,25 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="35" hotspot_y="32">
-    <uuid uuid="{d9141ff0-bf4e-d504-1a39-c76653b9a3af}"/>
+<definition link_type="simple" hotspot_y="34" version="0.100.0" type="element" hotspot_x="35" height="50" width="50">
+    <uuid uuid="{a8a23d25-af9c-4423-9552-f0dde80d48c4}"/>
     <names>
+        <name lang="ca">Zumbador</name>
+        <name lang="fr">Ronfleur</name>
         <name lang="cs">bzučák</name>
         <name lang="de">Schnarre, Summer</name>
         <name lang="en">Buzzer</name>
-        <name lang="fr">Ronfleur</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e14bbc86-2ac9-445e-8571-400d372f612e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" z="1" frame="false" y="12.5" uuid="{e14bbc86-2ac9-445e-8571-400d372f612e}" Halignment="AlignLeft" x="5" rotation="0" text_width="-1" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-30" y1="-30" x2="10" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-30" y="-50" width="40" height="40" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-20" y1="-12" x2="-20" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-12" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{f53a03be-46cd-4a64-8d07-b8ee0727f51a}" name="" x="-20" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{1913f990-a2a7-4055-8890-d2195e91abee}" name="" x="0" y="10" orientation="s" type="Generic"/>
+        <line length1="1.5" length2="1.5" y2="-30" antialias="false" y1="-30" x2="10" end1="none" end2="none" x1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc start="0" antialias="true" y="-50" height="40" x="-30" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="-180"/>
+        <line length1="1.5" length2="1.5" y2="10" antialias="false" y1="-12" x2="-20" end1="none" end2="none" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line length1="1.5" length2="1.5" y2="10" antialias="false" y1="-12" x2="0" end1="none" end2="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal y="10" uuid="{f53a03be-46cd-4a64-8d07-b8ee0727f51a}" type="Generic" x="-20" name="" orientation="s"/>
+        <terminal y="10" uuid="{1913f990-a2a7-4055-8890-d2195e91abee}" type="Generic" x="0" name="" orientation="s"/>
     </description>
 </definition>

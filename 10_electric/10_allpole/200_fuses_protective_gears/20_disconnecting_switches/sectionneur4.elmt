@@ -1,43 +1,45 @@
-<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="10" hotspot_y="30">
-    <uuid uuid="{fb773d0e-c4fc-d761-c9fc-edc392365028}"/>
+<definition hotspot_x="11" type="element" width="40" hotspot_y="29" version="0.100.0" height="60" link_type="master">
+    <uuid uuid="{ff99ec9c-0cfb-4eba-94c0-4a5b4333d61a}"/>
     <names>
-        <name lang="ar">مفتاح عزل</name>
-        <name lang="cs">Odpínač 3P</name>
-        <name lang="de">Lasttrenner 3-polig</name>
-        <name lang="en">break isolator</name>
-        <name lang="es">Seccionador 3P</name>
-        <name lang="fr">Sectionneur</name>
-        <name lang="hu">Szakaszoló kapcsoló 3 pólusú</name>
-        <name lang="it">Sezionatore 3P</name>
-        <name lang="nl">Lastschakelaar</name>
+        <name lang="ca">trencar aïllador</name>
         <name lang="pl">Odłącznik</name>
-        <name lang="pt">Seccionador</name>
+        <name lang="es">Seccionador 3P</name>
+        <name lang="nl">Lastschakelaar</name>
+        <name lang="ar">مفتاح عزل</name>
+        <name lang="en">break isolator</name>
+        <name lang="cs">Odpínač 3P</name>
         <name lang="ru">Разъеденитель</name>
+        <name lang="pt">Seccionador</name>
+        <name lang="it">Sezionatore 3P</name>
+        <name lang="fr">Sectionneur</name>
+        <name lang="de">Lasttrenner 3-polig</name>
+        <name lang="hu">Szakaszoló kapcsoló 3 pólusú</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="15" y1="-10" x2="20" y2="10" x3="20" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="5" y1="-10" x2="10" y2="10" x3="10" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="22.75" y="-9.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{78a55110-701e-41ff-928a-11a2dd8b74fb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon closed="false" x3="0" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="true" y3="20" x1="-5" y1="-10"/>
+        <polygon closed="false" x3="20" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" antialias="true" y3="20" x1="15" y1="-10"/>
+        <polygon closed="false" x3="10" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" antialias="true" y3="20" x1="5" y1="-10"/>
+        <dynamic_text text_from="ElementInfo" uuid="{78a55110-701e-41ff-928a-11a2dd8b74fb}" z="4" frame="false" y="-9.5" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" x="22.75">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="2" y1="-10" x2="-2" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="-20" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="12" y1="-10" x2="8" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="-20" x2="20" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="22" y1="-10" x2="18" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{3884f98e-9294-4904-9fdb-853ab281807c}" name="" x="0" y="-21" orientation="n" type="Generic"/>
-        <terminal uuid="{d5ee1d3d-caec-4f66-a56d-32db62c164a6}" name="" x="0" y="21" orientation="s" type="Generic"/>
-        <terminal uuid="{edb9d85e-b613-4fa2-868c-e0b3264a87dc}" name="" x="20" y="-21" orientation="n" type="Generic"/>
-        <terminal uuid="{fb00de84-d5d9-4cc5-95b7-445a8f147257}" name="" x="20" y="21" orientation="s" type="Generic"/>
-        <terminal uuid="{847dc182-9aa4-4b03-b918-7aa42559f110}" name="" x="10" y="-21" orientation="n" type="Generic"/>
-        <terminal uuid="{2750377e-a38d-47e8-85c4-86680f7c37bf}" name="" x="10" y="21" orientation="s" type="Generic"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="0" antialias="false" x1="0" y1="-20"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="-2" antialias="false" x1="2" y1="-10"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="10" antialias="false" x1="10" y1="-20"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="8" antialias="false" x1="12" y1="-10"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="20" antialias="false" x1="20" y1="-20"/>
+        <line end1="none" length1="1.5" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x2="18" antialias="false" x1="22" y1="-10"/>
+        <terminal orientation="n" type="Generic" name="" uuid="{3884f98e-9294-4904-9fdb-853ab281807c}" y="-21" x="0"/>
+        <terminal orientation="s" type="Generic" name="" uuid="{d5ee1d3d-caec-4f66-a56d-32db62c164a6}" y="21" x="0"/>
+        <terminal orientation="n" type="Generic" name="" uuid="{edb9d85e-b613-4fa2-868c-e0b3264a87dc}" y="-21" x="20"/>
+        <terminal orientation="s" type="Generic" name="" uuid="{fb00de84-d5d9-4cc5-95b7-445a8f147257}" y="21" x="20"/>
+        <terminal orientation="n" type="Generic" name="" uuid="{847dc182-9aa4-4b03-b918-7aa42559f110}" y="-21" x="10"/>
+        <terminal orientation="s" type="Generic" name="" uuid="{2750377e-a38d-47e8-85c4-86680f7c37bf}" y="21" x="10"/>
     </description>
 </definition>

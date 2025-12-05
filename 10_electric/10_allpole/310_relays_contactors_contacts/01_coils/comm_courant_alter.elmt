@@ -1,39 +1,41 @@
-<definition version="0.100.0" type="element" link_type="master" width="60" height="60" hotspot_x="39" hotspot_y="32">
-    <uuid uuid="{0267a6db-9745-19bd-e3e7-5d5bcd65f54f}"/>
+<definition type="element" version="0.100.0" hotspot_x="30" link_type="master" hotspot_y="24" height="50" width="50">
+    <uuid uuid="{fec8a9bd-f2f5-43b2-93d8-9de03338f709}"/>
     <names>
-        <name lang="cs">Cívka relé pro AC napájení</name>
-        <name lang="de">Spule mit Wechselstrombetätigung</name>
+        <name lang="ca">AC Relais</name>
         <name lang="el">Πηνίο εναλλασσόμενου</name>
         <name lang="en">AC Relais</name>
-        <name lang="es">Relé de CA</name>
-        <name lang="fr">Relais à courant alternatif</name>
+        <name lang="de">Spule mit Wechselstrombetätigung</name>
         <name lang="hu">Tekercs AC</name>
         <name lang="it">Relè AC</name>
-        <name lang="nl">Relais voor wisselspanning</name>
+        <name lang="cs">Cívka relé pro AC napájení</name>
         <name lang="nl_BE">Relais AC (wisselspanning)</name>
+        <name lang="es">Relé de CA</name>
+        <name lang="fr">Relais à courant alternatif</name>
         <name lang="pl">Przekaźnik prądu przemiennego</name>
+        <name lang="nl">Relais voor wisselspanning</name>
     </names>
     <kindInformations>
         <kindInformation name="type">coil</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-25" y="-10" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="~" x="-24" y="4" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <rect x="-15" y="-10" width="30" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="20" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-14" y="10" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{c3139493-2952-4dba-8f34-fba36c03e7b5}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <rect y="-10" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" width="10" x="-25" antialias="false"/>
+        <text text="~" y="4" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" color="#000000" x="-24"/>
+        <rect y="-10" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" width="30" x="-15" antialias="false"/>
+        <line end2="none" x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" x2="0" length2="1.5" y2="10" end1="none" antialias="false"/>
+        <line end2="none" x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" x2="0" length2="1.5" y2="-10" end1="none" antialias="false"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" y="10" text_from="UserText" rotation="0" frame="false" keep_visual_rotation="false" z="6" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-14" uuid="{c3139493-2952-4dba-8f34-fba36c03e7b5}" Valignment="AlignTop">
             <text>A2</text>
         </dynamic_text>
-        <dynamic_text x="-14" y="-25" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{47714fa1-01a2-48a6-90bf-2b665077f5de}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" Halignment="AlignLeft" y="-25" text_from="UserText" rotation="0" frame="false" keep_visual_rotation="false" z="7" font="Sans Serif,4,-1,5,25,0,0,0,0,0" x="-14" uuid="{47714fa1-01a2-48a6-90bf-2b665077f5de}" Valignment="AlignTop">
             <text>A1</text>
         </dynamic_text>
-        <dynamic_text x="16" y="-12" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3313af81-cc9d-405c-9401-9705d9141466}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" Halignment="AlignLeft" y="-12" text_from="ElementInfo" rotation="0" frame="false" keep_visual_rotation="false" z="8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="16" uuid="{3313af81-cc9d-405c-9401-9705d9141466}" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{3d72ff41-629d-495d-9503-6e709739fb61}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{7f019967-de3c-49e9-91f4-40f0ec21ca2d}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal type="Generic" orientation="n" y="-20" name="A1" x="0" uuid="{3d72ff41-629d-495d-9503-6e709739fb61}"/>
+        <terminal type="Generic" orientation="s" y="20" name="A2" x="0" uuid="{7f019967-de3c-49e9-91f4-40f0ec21ca2d}"/>
     </description>
 </definition>

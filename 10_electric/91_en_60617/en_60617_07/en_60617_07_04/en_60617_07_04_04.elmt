@@ -1,24 +1,26 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="7" hotspot_y="50">
-    <uuid uuid="{f9ce8770-9863-41ac-5bea-42e9b7d109c8}"/>
+<definition width="20" height="70" hotspot_y="44" version="0.100.0" hotspot_x="6" link_type="simple" type="element">
+    <uuid uuid="{fc167fed-e2c7-4df2-b870-bb65e4f654f3}"/>
     <names>
-        <name lang="cs">Vypínací kontakt vypínající s předstihem</name>
-        <name lang="de">voreilender Öffner</name>
-        <name lang="en">Break contact, early opening</name>
+        <name lang="ca">Trencament de contacte, obertura anticipada</name>
+        <name lang="de">voreilender Öffner </name>
         <name lang="fr">Contact à ouverture anticipée</name>
+        <name lang="cs">Vypínací kontakt vypínající s předstihem</name>
+        <name lang="en">Break contact, early opening</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="-20" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9ecdb3ff-6e4a-4034-aff0-32d324cf53f2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line x1="0" x2="0" length1="1.5" y2="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" antialias="false"/>
+        <line x1="0" x2="0" length1="1.5" y2="20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" length2="1.5" antialias="false"/>
+        <line x1="0" x2="8" length1="1.5" y2="-23" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" end2="none" length2="1.5" antialias="false"/>
+        <dynamic_text y="12.5" uuid="{9ecdb3ff-6e4a-4034-aff0-32d324cf53f2}" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="4" keep_visual_rotation="false" text_width="-1" x="5" rotation="0" frame="false" text_from="ElementInfo" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-20" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="8" y1="-23" x2="10" y2="-22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{59fd6916-89e7-4f75-b485-633c04f6eac4}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{93b9d4a0-2635-49fb-9302-92fa3c20df87}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <line x1="0" x2="10" length1="1.5" y2="-20" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" end2="none" length2="1.5" antialias="false"/>
+        <line x1="8" x2="10" length1="1.5" y2="-22" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-23" end2="none" length2="1.5" antialias="false"/>
+        <terminal y="20" orientation="s" uuid="{59fd6916-89e7-4f75-b485-633c04f6eac4}" x="0" name="" type="Generic"/>
+        <terminal y="-40" orientation="n" uuid="{93b9d4a0-2635-49fb-9302-92fa3c20df87}" x="0" name="" type="Generic"/>
     </description>
 </definition>

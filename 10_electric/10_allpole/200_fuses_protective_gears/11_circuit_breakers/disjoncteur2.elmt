@@ -1,46 +1,48 @@
-<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="17" hotspot_y="30">
-    <uuid uuid="{b7c865bd-6ae6-06f9-2d42-62536bfe633e}"/>
+<definition width="40" height="50" hotspot_y="25" hotspot_x="19" type="element" version="0.100.0" link_type="master">
+    <uuid uuid="{517c5441-6af7-40f3-b8dc-eeb13eb11a67}"/>
     <names>
-        <name lang="ar">قاطع أحادي الوجه</name>
-        <name lang="cs">Dvoupólový jistič</name>
+        <name lang="ca">Interruptor</name>
+        <name lang="nl">Lastscheider 2</name>
         <name lang="de">Lastschalter 2P</name>
         <name lang="en">Circuit-breaker</name>
-        <name lang="es">Disyuntor 2P</name>
         <name lang="fr">Disjoncteur mono</name>
         <name lang="hu">Terheléskapcsoló 2 pólusú</name>
-        <name lang="it">Sezionatore 2P</name>
-        <name lang="nl">Lastscheider 2</name>
+        <name lang="cs">Dvoupólový jistič</name>
+        <name lang="ar">قاطع أحادي الوجه</name>
         <name lang="pl">Wyłącznik</name>
+        <name lang="es">Disyuntor 2P</name>
+        <name lang="it">Sezionatore 2P</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="10" y1="20" x2="10" y2="10" x3="5" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text text="2" x="-8" y="18" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="4" x="12" y="18" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="3" x="13" y="-15" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="10" y1="-20" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-10" y1="20" x2="-10" y2="10" x3="-15" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-10" y1="-20" x2="-10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="12" y1="-8" x2="8" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-8" y1="-8" x2="-12" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="12" y1="-12" x2="8" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-8" y1="-12" x2="-12" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="17" y="-3" z="12" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{2c02c319-eb41-4ed7-8ba4-b618524c40fd}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
+        <polygon x3="5" y2="10" x2="10" antialias="true" x5="5" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" x1="10" y4="-10" y5="-10" y1="20" x4="5"/>
+        <text rotation="0" text="2" x="-8" y="18" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" text="4" x="12" y="18" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <text rotation="0" text="3" x="13" y="-15" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line y2="-10" x2="10" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="10" end2="none" y1="-20" length1="1.5"/>
+        <polygon x3="-15" y2="10" x2="-10" antialias="true" x5="-15" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y3="-10" x1="-10" y4="-10" y5="-10" y1="20" x4="-15"/>
+        <line y2="-10" x2="-10" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-10" end2="none" y1="-20" length1="1.5"/>
+        <line y2="-12" x2="8" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="12" end2="none" y1="-8" length1="1.5"/>
+        <line y2="-12" x2="-12" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-8" end2="none" y1="-8" length1="1.5"/>
+        <line y2="-8" x2="8" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="12" end2="none" y1="-12" length1="1.5"/>
+        <line y2="-8" x2="-12" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x1="-8" end2="none" y1="-12" length1="1.5"/>
+        <dynamic_text text_width="-1" rotation="0" frame="false" z="12" Halignment="AlignLeft" x="17" text_from="UserText" y="-3" keep_visual_rotation="false" uuid="{2c02c319-eb41-4ed7-8ba4-b618524c40fd}" font="Sans Serif,4,-1,5,25,0,0,0,0,0" Valignment="AlignTop">
             <text>Calibre __A</text>
         </dynamic_text>
-        <dynamic_text x="16" y="-19.17" z="13" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e8d81698-0bb2-4d68-87d3-e2ada2366531}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text text_width="-1" rotation="0" frame="false" z="13" Halignment="AlignLeft" x="16" text_from="ElementInfo" y="-19.1666" keep_visual_rotation="false" uuid="{e8d81698-0bb2-4d68-87d3-e2ada2366531}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-12" y1="0" x2="7" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <text text="1" x="-8" y="-15" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <terminal uuid="{46440b2e-d7ee-41ad-8962-f2571edde3c3}" name="" x="-10" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{d2d78480-98f4-44cf-b4d2-efe7f7123e9e}" name="" x="-10" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{878390d4-f40f-4089-a8cb-3d6adc57866c}" name="" x="10" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{27a6cda3-d0ff-4405-a4db-d6b1b2020563}" name="" x="10" y="20" orientation="s" type="Generic"/>
+        <line y2="0" x2="7" end1="none" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x1="-12" end2="none" y1="0" length1="1.5"/>
+        <text rotation="0" text="1" x="-8" y="-15" color="#000000" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <terminal name="" orientation="n" type="Generic" x="-10" y="-20" uuid="{46440b2e-d7ee-41ad-8962-f2571edde3c3}"/>
+        <terminal name="" orientation="s" type="Generic" x="-10" y="20" uuid="{d2d78480-98f4-44cf-b4d2-efe7f7123e9e}"/>
+        <terminal name="" orientation="n" type="Generic" x="10" y="-20" uuid="{878390d4-f40f-4089-a8cb-3d6adc57866c}"/>
+        <terminal name="" orientation="s" type="Generic" x="10" y="20" uuid="{27a6cda3-d0ff-4405-a4db-d6b1b2020563}"/>
     </description>
 </definition>

@@ -1,30 +1,32 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="20" hotspot_y="37">
-    <uuid uuid="{0a1a7aa9-2414-33c4-41e1-0af2f4f0fe12}"/>
+<definition height="60" link_type="simple" hotspot_y="35" version="0.100.0" type="element" width="40" hotspot_x="20">
+    <uuid uuid="{3159d26d-0fca-44f2-9445-f7a628b5724b}"/>
     <names>
-        <name lang="ar">ثنائي حراري</name>
-        <name lang="cs">Snímač teploty - termočlánek</name>
+        <name lang="ca">Termoparell</name>
         <name lang="de">Thermoelement</name>
-        <name lang="el">Θερμοστοιχείο</name>
-        <name lang="en">Thermocouple</name>
-        <name lang="es">Termopar</name>
-        <name lang="fr">Thermocouple</name>
         <name lang="it">Termocoppia</name>
+        <name lang="en">Thermocouple</name>
+        <name lang="pt">Termopar</name>
+        <name lang="fr">Thermocouple</name>
+        <name lang="el">Θερμοστοιχείο</name>
         <name lang="nl">Thermo koppel</name>
         <name lang="pl">Termopara</name>
-        <name lang="pt">Termopar</name>
+        <name lang="cs">Snímač teploty - termočlánek</name>
+        <name lang="es">Termopar</name>
+        <name lang="ar">ثنائي حراري</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 08-06-01</informations>
     <description>
-        <polygon x1="-10" y1="-30" x2="-10" y2="0" x3="0" y3="20" x4="10" y4="0" x5="10" y5="-30" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <ellipse x="-1" y="19" width="2" height="2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
-        <line x1="14" y1="-15" x2="14" y2="-11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-12" y1="-13" x2="-16" y2="-13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="12" y1="-13" x2="16" y2="-13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="10" y="-12" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e059a5ba-c264-4d87-b907-21bc7a509322}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <polygon y1="-30" antialias="true" x1="-10" x2="-10" x3="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" y5="-30" y4="0" y3="20" closed="false" x4="10" x5="10"/>
+        <circle y="19" antialias="true" diameter="2" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-1"/>
+        <line length2="1.5" y1="-15" antialias="false" x1="14" x2="14" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-11"/>
+        <line length2="1.5" y1="-13" antialias="false" x1="-12" x2="-16" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-13"/>
+        <line length2="1.5" y1="-13" antialias="false" x1="12" x2="16" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-13"/>
+        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-12" z="6" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{e059a5ba-c264-4d87-b907-21bc7a509322}" x="10" keep_visual_rotation="false" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{ce0dfac9-3349-4b52-b8e5-9992f1bb1bc8}" name="1" x="10" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{f3259686-4ca8-4e5e-9718-611b663e177a}" name="2" x="-10" y="-30" orientation="n" type="Generic"/>
+        <terminal y="-30" orientation="n" name="1" type="Generic" uuid="{ce0dfac9-3349-4b52-b8e5-9992f1bb1bc8}" x="10"/>
+        <terminal y="-30" orientation="n" name="2" type="Generic" uuid="{f3259686-4ca8-4e5e-9718-611b663e177a}" x="-10"/>
     </description>
 </definition>

@@ -1,37 +1,39 @@
-<definition version="0.100.0" type="element" link_type="master" width="40" height="60" hotspot_x="21" hotspot_y="30">
-    <uuid uuid="{7b83b5d1-5d84-552c-4db1-3b2c283f37a5}"/>
+<definition width="40" hotspot_y="24" link_type="master" height="50" version="0.100.0" hotspot_x="21" type="element">
+    <uuid uuid="{70527baa-2d50-40d3-84d7-94507b5676f0}"/>
     <names>
-        <name lang="ar">مفتاح دوّار بوضعين</name>
-        <name lang="cs">Otočný spínač - 2 polohy (NC)</name>
-        <name lang="de">Drehschalter 1-polig Öffner ein/aus</name>
+        <name lang="ca">Interruptor de 2 posicions</name>
+        <name lang="nl">keuzeschakelaar 2 pos (NC)</name>
         <name lang="el">Διακόπτης 2 θέσεων</name>
         <name lang="en">Switch 2 positions</name>
+        <name lang="ar">مفتاح دوّار بوضعين</name>
         <name lang="fr">Interrupteur rotatif</name>
-        <name lang="it">Selettore a 2 posizioni stabili</name>
-        <name lang="nl">keuzeschakelaar 2 pos (NC)</name>
+        <name lang="cs">Otočný spínač - 2 polohy (NC)</name>
+        <name lang="de">Drehschalter 1-polig Öffner ein/aus</name>
         <name lang="pl">Łącznik obrotowy przełączny</name>
+        <name lang="it">Selettore a 2 posizioni stabili</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-2" y1="3" x2="2" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <text text="1" x="-9" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="-15" y1="0" x2="-5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <polygon x1="0" y1="0" x2="3" y2="0" x3="5" y3="3" x4="7" y4="0" x5="12" y5="0" closed="false" antialias="true" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line x1="-2" y1="3" x2="-6" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <polygon x1="15" y1="-10" x2="10" y2="10" x3="10" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="-18" y1="4" x2="-15" y2="4" x3="-15" y3="-4" x4="-12" y4="-4" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <line x1="10" y1="-9" x2="16" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="2" x="2" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="10" y1="-20" x2="10" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="21" y="-11" z="11" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{22d93ab5-8bcc-42a5-95c1-d8a0625fb2f4}" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular">
+        <line x1="-2" end2="none" end1="none" length2="1.5" y2="-3" y1="3" antialias="true" x2="2" style="line-style:dashed;line-weight:thin;filling:none;color:black" length1="1.5"/>
+        <text color="#000000" y="-5" x="-9" text="1" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line x1="-15" end2="none" end1="none" length2="1.5" y2="0" y1="0" antialias="false" x2="-5" style="line-style:dashed;line-weight:thin;filling:none;color:black" length1="1.5"/>
+        <polygon x1="0" y3="3" x4="7" y4="0" closed="false" x3="5" x5="12" y2="0" y1="0" antialias="true" x2="3" style="line-style:dashed;line-weight:thin;filling:none;color:black" y5="0"/>
+        <line x1="-2" end2="none" end1="none" length2="1.5" y2="-3" y1="3" antialias="true" x2="-6" style="line-style:normal;line-weight:thin;filling:none;color:black" length1="1.5"/>
+        <polygon x1="15" y3="20" closed="false" x3="10" y2="10" y1="-10" antialias="true" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="-18" y3="-4" x4="-12" y4="-4" closed="false" x3="-15" y2="4" y1="4" antialias="false" x2="-15" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line x1="10" end2="none" end1="none" length2="1.5" y2="-9" y1="-9" antialias="false" x2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <text color="#000000" y="-5" x="2" text="2" rotation="0" font="Sans Serif,4,-1,5,50,0,0,0,0,0"/>
+        <line x1="10" end2="none" end1="none" length2="1.5" y2="-9" y1="-20" antialias="false" x2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <dynamic_text text_from="ElementInfo" keep_visual_rotation="false" Valignment="AlignTop" y="-11" frame="false" x="21" rotation="0" uuid="{22d93ab5-8bcc-42a5-95c1-d8a0625fb2f4}" Halignment="AlignLeft" text_width="-1" z="11" font="Sans Serif,8,-1,5,50,0,0,0,0,0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{23e4617a-b08b-4628-934e-b49f022f03d4}" name="" x="10" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{33b782fe-a9de-4cc9-b9ae-4128dc3d0d31}" name="" x="10" y="20" orientation="s" type="Generic"/>
+        <terminal orientation="n" y="-20" type="Generic" name="" x="10" uuid="{23e4617a-b08b-4628-934e-b49f022f03d4}"/>
+        <terminal orientation="s" y="20" type="Generic" name="" x="10" uuid="{33b782fe-a9de-4cc9-b9ae-4128dc3d0d31}"/>
     </description>
 </definition>

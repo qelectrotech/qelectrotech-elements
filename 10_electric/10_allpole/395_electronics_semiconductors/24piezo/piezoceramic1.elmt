@@ -1,23 +1,25 @@
-<definition version="0.90" type="element" link_type="simple" width="50" height="80" hotspot_x="25" hotspot_y="40">
-    <uuid uuid="{c089c7bd-2b57-3bac-07ee-07ab43812c58}"/>
+<definition height="70" width="50" type="element" hotspot_y="34" version="0.90" hotspot_x="25" link_type="simple">
+    <uuid uuid="{b22576fb-987c-42dd-817a-0125242fe49d}"/>
     <names>
+        <name lang="ca">Transductor piezoceràmic</name>
         <name lang="cs">Piezokeramický měnič</name>
         <name lang="fr">Transducteur piézocéramique</name>
         <name lang="pl">Przetwornik piezoceramiczny</name>
         <name lang="ro">piezotransducer</name>
     </names>
+    <elementInformations/>
     <informations>Author:titus
 titus0818@yahoo.com</informations>
     <description>
-        <ellipse x="-20" y="-20" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-16" y="-16" width="32" height="32" style="line-style:normal;line-weight:normal;filling:blue;color:black" antialias="false"/>
-        <line x1="0" y1="8" x2="0" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-29" x2="0" y2="-18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="23" y="-35.21" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5f601bbf-4e4d-4bb1-9932-1446810e5abe}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <circle y="-20" antialias="false" diameter="40" x="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <circle y="-16" antialias="false" diameter="32" x="-16" style="line-style:normal;line-weight:normal;filling:blue;color:black"/>
+        <line x1="0" y2="28" end1="none" y1="8" length2="1.5" antialias="false" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <line x1="0" y2="-17.9615" end1="none" y1="-29.0385" length2="1.5" antialias="false" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
+        <dynamic_text rotation="0" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" z="5" uuid="{5f601bbf-4e4d-4bb1-9932-1446810e5abe}" y="-35.2054" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="23" Halignment="AlignLeft" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{fedb30c3-5180-4b48-aa50-a7a3cf9e3184}" name="" x="0" y="-30" orientation="n" type="Generic"/>
-        <terminal uuid="{612e3f9e-cf6a-4be0-944a-190108d7b778}" name="" x="0" y="30" orientation="s" type="Generic"/>
+        <terminal orientation="n" uuid="{fedb30c3-5180-4b48-aa50-a7a3cf9e3184}" type="Generic" y="-30" x="0" name=""/>
+        <terminal orientation="s" uuid="{612e3f9e-cf6a-4be0-944a-190108d7b778}" type="Generic" y="30" x="0" name=""/>
     </description>
 </definition>

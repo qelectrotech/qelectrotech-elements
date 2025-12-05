@@ -1,25 +1,27 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="12" hotspot_y="50">
-    <uuid uuid="{f6fa2ab8-d1f7-4ad7-4661-6d3a916f9799}"/>
+<definition link_type="simple" hotspot_x="12" width="40" type="element" hotspot_y="44" version="0.100.0" height="50">
+    <uuid uuid="{1bf05230-ec38-4db3-931f-21fbee8c9179}"/>
     <names>
-        <name lang="cs">Luminiscenční dioda (LED)</name>
+        <name lang="ca">Díode emissor de llum (LED), símbol general</name>
         <name lang="de">Leuchtdiode (LED)</name>
-        <name lang="en">Light emitting diode (LED), general symbol</name>
+        <name lang="cs">Luminiscenční dioda (LED)</name>
         <name lang="fr">Diode électroluminescente (LED), (symbole
 général)</name>
+        <name lang="en">Light emitting diode (LED), general symbol</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d32c0308-c6d7-4111-aa6d-13520d8036aa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text keep_visual_rotation="false" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" text_width="-1" text_from="ElementInfo" y="2.5" frame="false" Valignment="AlignTop" Halignment="AlignLeft" x="5" uuid="{d32c0308-c6d7-4111-aa6d-13520d8036aa}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-10" y1="-30" x2="10" y2="-30" x3="0" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="10" y1="-20" x2="20" y2="-30" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <line x1="15" y1="-15" x2="25" y2="-25" end1="none" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <terminal uuid="{e176ab13-fb8b-4ddc-b03f-6cd5574ebb00}" name="" x="0" y="-40" orientation="n" type="Generic"/>
-        <terminal uuid="{b8b79291-1731-47ce-b023-4935bb2eebb6}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <line x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="0" end1="none" antialias="false" x1="0" y1="-40" length1="1.5"/>
+        <line x2="10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y2="-10" end1="none" antialias="false" x1="-10" y1="-10" length1="1.5"/>
+        <polygon x2="10" y4="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="-10" y2="-30" antialias="false" x1="-10" y1="-30" closed="false" x3="0" y3="-10"/>
+        <line x2="20" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" end2="triangle" y2="-30" end1="none" antialias="false" x1="10" y1="-20" length1="1.5"/>
+        <line x2="25" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" end2="triangle" y2="-25" end1="none" antialias="false" x1="15" y1="-15" length1="1.5"/>
+        <terminal type="Generic" y="-40" orientation="n" name="" x="0" uuid="{e176ab13-fb8b-4ddc-b03f-6cd5574ebb00}"/>
+        <terminal type="Generic" y="0" orientation="s" name="" x="0" uuid="{b8b79291-1731-47ce-b023-4935bb2eebb6}"/>
     </description>
 </definition>

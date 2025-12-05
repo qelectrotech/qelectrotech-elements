@@ -1,19 +1,21 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="20" hotspot_x="25" hotspot_y="17">
-    <uuid uuid="{da41ab21-a75d-8ed4-31fc-ef3d5e18c829}"/>
+<definition width="30" hotspot_x="25" type="element" height="20" hotspot_y="17" version="0.100.0" link_type="simple">
+    <uuid uuid="{92e9d625-aeff-46d8-903d-6fc8fe4e9bd1}"/>
     <names>
-        <name lang="cs">Trojfázové vinutí spojené do neúplného trojúhelníka V (60°)</name>
+        <name lang="ca">Bobinatge trifàsic, V (60°)</name>
+        <name lang="fr">Enroulement triphasé partiel, en V (60°)</name>
         <name lang="de">Dreiphasenwicklung, V-Schaltung (60°)</name>
         <name lang="en">Three-phase winding, V (60°)</name>
-        <name lang="fr">Enroulement triphasé partiel, en V (60°)</name>
+        <name lang="cs">Trojfázové vinutí spojené do neúplného trojúhelníka V (60°)</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{30596f69-a851-4de9-a52a-7b4f9ecd2fc4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" frame="false" y="2.5" text_width="-1" keep_visual_rotation="false" Valignment="AlignTop" rotation="0" uuid="{30596f69-a851-4de9-a52a-7b4f9ecd2fc4}" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-20" y1="-15" x2="-10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="0" x2="0" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line length1="1.5" antialias="false" x2="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-20" y2="0" end1="none" y1="-15"/>
+        <line length1="1.5" antialias="false" x2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-10" y2="-15" end1="none" y1="0"/>
     </description>
 </definition>

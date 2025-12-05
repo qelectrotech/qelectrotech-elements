@@ -1,26 +1,28 @@
-<definition version="0.90" type="element" link_type="simple" width="20" height="50" hotspot_x="7" hotspot_y="30">
-    <uuid uuid="{92eedf0f-8faf-22f3-2743-c4425458091b}"/>
+<definition link_type="simple" version="0.90" width="30" height="40" hotspot_y="24" type="element" hotspot_x="11">
+    <uuid uuid="{2d942902-500e-424a-a10d-f84c71e7ff62}"/>
     <names>
-        <name lang="ar">دايود بارتباط حراري</name>
-        <name lang="cs">Teplotní dioda</name>
+        <name lang="ca">Díode sensor de temperatura</name>
         <name lang="de">Temperaturdiode</name>
+        <name lang="nl">Diode temperatuur</name>
+        <name lang="cs">Teplotní dioda</name>
+        <name lang="ar">دايود بارتباط حراري</name>
+        <name lang="it">Diodo sensibile alla temperatura</name>
         <name lang="en">Temperature sensing diode</name>
         <name lang="fr">Diode à dépendance thermique</name>
-        <name lang="it">Diodo sensibile alla temperatura</name>
-        <name lang="nl">Diode temperatuur</name>
         <name lang="pl">Dioda o zależności temperaturowej.</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617: 05-03-03</informations>
     <description>
-        <dynamic_text x="11" y="-18" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b31e7307-7bfa-4fad-a449-610adf6546b4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text z="1" text_from="ElementInfo" text_width="-1" Halignment="AlignLeft" y="-18" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" rotation="0" uuid="{b31e7307-7bfa-4fad-a449-610adf6546b4}" x="11" frame="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text text="Θ" x="6" y="-3" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="0" y1="-20" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="-5" y1="-10" x2="5" y2="-10" x3="0" y3="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-5" y1="0" x2="5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{261cdd1d-8cda-4882-868c-d1396ac2b326}" name="A" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{b3b4ed95-09b0-4121-b3cc-eea28add6101}" name="K" x="0" y="10" orientation="s" type="Generic"/>
+        <text text="Θ" color="#000000" y="-3" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0" x="6"/>
+        <line y1="-20" y2="10" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" x2="0" x1="0"/>
+        <polygon y1="-10" y2="-10" y4="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="5" y3="0" x1="-5" x3="0" x4="-5"/>
+        <line y1="0" y2="0" antialias="false" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" end1="none" x2="5" x1="-5"/>
+        <terminal y="-20" uuid="{261cdd1d-8cda-4882-868c-d1396ac2b326}" type="Generic" x="0" name="A" orientation="n"/>
+        <terminal y="10" uuid="{b3b4ed95-09b0-4121-b3cc-eea28add6101}" type="Generic" x="0" name="K" orientation="s"/>
     </description>
 </definition>

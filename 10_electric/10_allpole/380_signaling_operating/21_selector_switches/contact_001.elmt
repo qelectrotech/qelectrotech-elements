@@ -1,36 +1,38 @@
-<definition version="0.100.0" type="element" link_type="master" width="50" height="60" hotspot_x="19" hotspot_y="30">
-    <uuid uuid="{b3b95538-80f6-6055-ba48-bb39ef08ca4c}"/>
+<definition width="40" version="0.100.0" hotspot_y="24" link_type="master" type="element" hotspot_x="15" height="50">
+    <uuid uuid="{4ae5995f-19bd-4a06-a7a6-2bb88cd4815c}"/>
     <names>
         <name lang="ar">مفتاح دوّار بوضعين</name>
+        <name lang="ca">Interruptor de 2 posicions</name>
+        <name lang="el">Διακόπτης 2 θέσεων</name>
+        <name lang="pl">Łącznik obrotowy przełączny</name>
+        <name lang="en">Switch 2 positions</name>
+        <name lang="it">Selettore a 2 posizioni stabili</name>
+        <name lang="fr">Interrupteur rotatif</name>
         <name lang="cs">Otočný spínač - 2 polohy (NO)</name>
         <name lang="de">Drehschalter 1-polig Schliesser ein/aus</name>
-        <name lang="el">Διακόπτης 2 θέσεων</name>
-        <name lang="en">Switch 2 positions</name>
-        <name lang="fr">Interrupteur rotatif</name>
-        <name lang="it">Selettore a 2 posizioni stabili</name>
         <name lang="nl">keuzeschakelaar 2 pos (NO)</name>
-        <name lang="pl">Łącznik obrotowy przełączny</name>
     </names>
     <kindInformations>
         <kindInformation name="type">commutator</kindInformation>
     </kindInformations>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="3" y1="3" x2="7" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <text text="1" x="-4" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <line x1="-10" y1="0" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
-        <polygon x1="5" y1="0" x2="8" y2="0" x3="10" y3="3" x4="12" y4="0" x5="17" y5="0" closed="false" antialias="true" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line x1="3" y1="3" x2="-1" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <polygon x1="-13" y1="4" x2="-10" y2="4" x3="-10" y3="-4" x4="-7" y4="-4" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <text text="2" x="7" y="-5" rotation="0" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <polygon x1="20" y1="20" x2="20" y2="10" x3="14" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="20" y1="-20" x2="20" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="25" y="-11.5" z="10" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f33de11e-4a39-48a3-ab7a-a9821cc5517b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line length1="1.5" end1="none" y1="3" end2="none" length2="1.5" x1="3" antialias="true" x2="7" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="-3"/>
+        <text color="#000000" text="1" x="-4" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" y="-5"/>
+        <line length1="1.5" end1="none" y1="0" end2="none" length2="1.5" x1="-10" antialias="false" x2="0" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0"/>
+        <polygon y1="0" y4="0" x3="10" x4="12" y5="0" x1="5" antialias="true" x2="8" y3="3" x5="17" closed="false" style="line-style:dashed;line-weight:thin;filling:none;color:black" y2="0"/>
+        <line length1="1.5" end1="none" y1="3" end2="none" length2="1.5" x1="3" antialias="true" x2="-1" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="-3"/>
+        <polygon y1="4" y4="-4" x3="-10" x4="-7" x1="-13" antialias="false" x2="-10" y3="-4" closed="false" style="line-style:normal;line-weight:thin;filling:none;color:black" y2="4"/>
+        <text color="#000000" text="2" x="7" font="Sans Serif,4,-1,5,50,0,0,0,0,0" rotation="0" y="-5"/>
+        <polygon y1="20" x3="14" x1="20" antialias="true" x2="20" y3="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
+        <line length1="1.5" end1="none" y1="-20" end2="none" length2="1.5" x1="20" antialias="false" x2="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-9"/>
+        <dynamic_text uuid="{f33de11e-4a39-48a3-ab7a-a9821cc5517b}" x="25" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Halignment="AlignLeft" y="-11.5" text_width="-1" frame="false" keep_visual_rotation="false" Valignment="AlignTop" text_from="ElementInfo" z="10">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{05ed09b8-31d4-4f72-a3fd-1370ceab3cf3}" name="" x="20" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{51508b52-a73c-464f-b775-422d9f73bf6a}" name="" x="20" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{05ed09b8-31d4-4f72-a3fd-1370ceab3cf3}" x="20" type="Generic" y="-20" name="" orientation="n"/>
+        <terminal uuid="{51508b52-a73c-464f-b775-422d9f73bf6a}" x="20" type="Generic" y="20" name="" orientation="s"/>
     </description>
 </definition>

@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="11" hotspot_y="30">
-    <uuid uuid="{810e8dcc-9683-3a50-dd0d-c0e59032d732}"/>
+<definition height="50" version="0.100.0" hotspot_x="13" hotspot_y="24" width="40" link_type="simple" type="element">
+    <uuid uuid="{8f653eb5-a5ea-4d8b-aa08-2b6b9eaaa570}"/>
     <names>
-        <name lang="cs">Proudový transformátor, pulzní transformátor</name>
-        <name lang="de">Stromwandler, Impulswandler</name>
+        <name lang="ca">Transformador de corrent, transformador d'impulsos</name>
         <name lang="en">Current transformer, pulse transformer</name>
-        <name lang="fr">Transformateur de courant, transformateur d'impulsion</name>
+        <name lang="de">Stromwandler, Impulswandler</name>
         <name lang="it">Trasformatore di corrente o d'impulso</name>
-        <name lang="nl">Stroomtrafo</name>
+        <name lang="cs">Proudový transformátor, pulzní transformátor</name>
         <name lang="pl">Przekładnik (forma 2)</name>
+        <name lang="nl">Stroomtrafo</name>
+        <name lang="fr">Transformateur de courant, transformateur d'impulsion</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="10" y1="5" x2="15" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="6" y="-28.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b1eedfcf-0ea5-47e4-858a-09e3157e5c2d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="15" length2="1.5" x1="10" length1="1.5" end2="none" y2="-5" y1="5" antialias="true" end1="none"/>
+        <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="6" text_width="-1" z="2" rotation="0" uuid="{b1eedfcf-0ea5-47e4-858a-09e3157e5c2d}" Halignment="AlignLeft" text_from="ElementInfo" y="-28.5" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="12" y1="5" x2="17" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <ellipse x="-8" y="-8" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="8" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{dc778cea-b7d5-426d-8789-ee2e525bedbe}" name="" x="0" y="-20" orientation="n" type="Generic"/>
-        <terminal uuid="{9436370c-72db-4268-a152-9aab8415e4a4}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{16ac60b5-3e94-43f4-83f9-d5c201f98d0b}" name="" x="20" y="0" orientation="e" type="Generic"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="17" length2="1.5" x1="12" length1="1.5" end2="none" y2="-5" y1="5" antialias="true" end1="none"/>
+        <circle diameter="16" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-8" antialias="true" y="-8"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" length2="1.5" x1="0" length1="1.5" end2="none" y2="20" y1="-20" antialias="false" end1="none"/>
+        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="20" length2="1.5" x1="8" length1="1.5" end2="none" y2="0" y1="0" antialias="false" end1="none"/>
+        <terminal name="" x="0" uuid="{dc778cea-b7d5-426d-8789-ee2e525bedbe}" orientation="n" y="-20" type="Generic"/>
+        <terminal name="" x="0" uuid="{9436370c-72db-4268-a152-9aab8415e4a4}" orientation="s" y="20" type="Generic"/>
+        <terminal name="" x="20" uuid="{16ac60b5-3e94-43f4-83f9-d5c201f98d0b}" orientation="e" y="0" type="Generic"/>
     </description>
 </definition>

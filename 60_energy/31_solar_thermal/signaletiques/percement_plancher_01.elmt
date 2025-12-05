@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="40" hotspot_x="10" hotspot_y="20">
-    <uuid uuid="{6b5a07dd-e1e6-2a24-5862-4908cd60dae3}"/>
+<definition width="20" version="0.100.0" type="element" hotspot_y="14" link_type="simple" height="30" hotspot_x="10">
+    <uuid uuid="{f3f636a2-d645-46c1-bc8f-8bb173ae9e32}"/>
     <names>
-        <name lang="ar">ممر طابق</name>
-        <name lang="cs">Přechod přes strop</name>
+        <name lang="ca">Mur del pas</name>
         <name lang="de">Wanddurchgang</name>
-        <name lang="en">Passage wall</name>
-        <name lang="es">Perforación del piso 01</name>
-        <name lang="fr">Passage wall</name>
-        <name lang="it">Passaggio a muro</name>
         <name lang="nl">Doorgang Muur</name>
+        <name lang="cs">Přechod přes strop</name>
+        <name lang="es">Perforación del piso 01</name>
         <name lang="pl">Przejście przez strop</name>
+        <name lang="it">Passaggio a muro</name>
+        <name lang="en">Passage wall</name>
+        <name lang="ar">ممر طابق</name>
+        <name lang="fr">Passage wall</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" y1="10" x2="0" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-10" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-6" y="-7" width="12" height="14" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-4.24" y="-4.24" width="8.49" height="8.49" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="7" y="-1" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6e583460-8027-4f58-a75d-625579eb489b}" font="Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular">
+        <line length2="1.5" end2="none" x1="0" length1="1.5" y1="10" end1="none" x2="0" y2="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line length2="1.5" end2="none" x1="0" length1="1.5" y1="-10" end1="none" x2="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect width="12" ry="0" x="-6" rx="0" y="-7" height="14" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="-4.2426" diameter="8.48528" y="-4.2426" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" x="7" text_from="ElementInfo" y="-1" uuid="{6e583460-8027-4f58-a75d-625579eb489b}" rotation="0" frame="false" text_width="-1" z="5" font="Sans Serif,8,-1,5,50,0,0,0,0,0" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{14e4efa9-a338-43c4-b4af-01fb6fa1fe44}" name="" x="0" y="10" orientation="s" type="Generic"/>
-        <terminal uuid="{d56796fe-b71c-4c6a-8ce5-886cbed1c6bd}" name="" x="0" y="-10" orientation="n" type="Generic"/>
+        <terminal orientation="s" type="Generic" x="0" name="" y="10" uuid="{14e4efa9-a338-43c4-b4af-01fb6fa1fe44}"/>
+        <terminal orientation="n" type="Generic" x="0" name="" y="-10" uuid="{d56796fe-b71c-4c6a-8ce5-886cbed1c6bd}"/>
     </description>
 </definition>

@@ -1,34 +1,48 @@
-<definition version="0.100.0" type="element" link_type="simple" width="110" height="70" hotspot_x="37" hotspot_y="39">
-    <uuid uuid="{216f7bb8-6bf0-21b6-42e9-971852cc0069}"/>
+<definition height="60" hotspot_y="32" link_type="simple" hotspot_x="37" type="element" version="0.100.0" width="110">
+    <uuid uuid="{6cdeb4ef-b613-44c1-9fa2-15497edbf5f3}"/>
     <names>
-        <name lang="cs">Snímač průtoku</name>
-        <name lang="de">Durchfluss Impulszähler</name>
-        <name lang="el">Αισθητήρας ροής</name>
-        <name lang="en">Flow sensor pulsmeter</name>
+        <name lang="ca">Pulsòmetre del sensor de cabal</name>
+        <name lang="nl">Debiet  puls</name>
         <name lang="es">Sensor de flujo</name>
+        <name lang="cs">Snímač průtoku</name>
+        <name lang="en">Flow sensor pulsmeter</name>
         <name lang="fr">Capteur Debit</name>
         <name lang="it">Sensore di flusso</name>
-        <name lang="nl">Debiet  puls</name>
+        <name lang="de">Durchfluss Impulszähler</name>
         <name lang="pl">Czujnik przepływu</name>
+        <name lang="el">Αισθητήρας ροής</name>
     </names>
+    <elementInformations>
+        <elementInformation name="quantity" show="1"></elementInformation>
+        <elementInformation name="description" show="1"></elementInformation>
+        <elementInformation name="plant" show="1"></elementInformation>
+        <elementInformation name="comment" show="1"></elementInformation>
+        <elementInformation name="unity" show="1"></elementInformation>
+        <elementInformation name="designation" show="1"></elementInformation>
+        <elementInformation name="manufacturer" show="1"></elementInformation>
+        <elementInformation name="manufacturer-reference" show="1"></elementInformation>
+        <elementInformation name="supplier" show="1"></elementInformation>
+        <elementInformation name="label" show="1"></elementInformation>
+        <elementInformation name="machine-manufacturer-reference" show="1"></elementInformation>
+    </elementInformations>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="73" y="-30.45" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{70e08bc9-03fb-428a-a0e1-1a5e35dad0ea}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text x="73" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="1" frame="false" uuid="{70e08bc9-03fb-428a-a0e1-1a5e35dad0ea}" rotation="0" Halignment="AlignLeft" y="-30.45" text_width="-1">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-35" y="-25" width="105" height="50" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <ellipse x="-31.5" y="-8.5" width="17" height="17" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="-17" y1="0" x2="-25" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="30" y1="-28" x2="30" y2="-26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="60" y1="-28" x2="60" y2="-26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="-24" x2="-10" y2="24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-28" x2="0" y2="-26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-17" y1="0" x2="-25" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="0" y1="10" x2="9" y2="10" x3="9" y3="0" x4="11" y4="0" x5="11" y5="10" x6="19" y6="10" x7="19" y7="0" x8="21" y8="0" x9="21" y9="10" x10="29" y10="10" x11="29" y11="0" x12="31" y12="0" x13="31" y13="10" x14="39" y14="10" x15="39" y15="0" x16="41" y16="0" x17="41" y17="10" x18="49" y18="10" x19="49" y19="0" x20="51" y20="0" x21="51" y21="10" x22="58" y22="10" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
-        <terminal uuid="{981a2bd9-9252-2b39-ce07-93e498010d15}" name="" x="0" y="-28" orientation="n" type="Generic"/>
-        <terminal uuid="{e29ba20b-ed60-0324-38b5-d023562fc90e}" name="" x="30" y="-28" orientation="n" type="Generic"/>
-        <terminal uuid="{06bce264-3638-6de2-0b89-9c88bfc4032c}" name="" x="60" y="-28" orientation="n" type="Generic"/>
+        <rect height="50" rx="0" x="-35" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" width="105" y="-25" antialias="false"/>
+        <circle diameter="17" x="-31.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-8.5" antialias="true"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-17" y1="0" end1="none" y2="8" length1="1.5" x2="-25" antialias="false"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="30" y1="-28" end1="none" y2="-26" length1="1.5" x2="30" antialias="false"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="60" y1="-28" end1="none" y2="-26" length1="1.5" x2="60" antialias="false"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" y1="-24" end1="none" y2="24" length1="1.5" x2="-10" antialias="false"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" y1="-28" end1="none" y2="-26" length1="1.5" x2="0" antialias="false"/>
+        <line end2="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-17" y1="0" end1="none" y2="-8" length1="1.5" x2="-25" antialias="false"/>
+        <polygon y14="10" x19="49" x5="11" x22="58" x21="51" x16="41" x2="9" y15="0" y1="10" y3="0" y11="0" x10="29" y12="0" y2="10" y4="0" x11="29" y5="10" y19="0" style="line-style:normal;line-weight:thin;filling:none;color:black" x3="9" y6="10" y7="0" closed="false" x14="39" x6="19" y17="10" x13="31" y9="10" y13="10" y16="0" x17="41" x4="11" y21="10" y18="10" x8="21" y8="0" y22="10" x12="31" x7="19" x18="49" antialias="false" x1="0" x20="51" y20="0" y10="10" x15="39" x9="21"/>
+        <terminal x="0" type="Generic" orientation="n" uuid="{981a2bd9-9252-2b39-ce07-93e498010d15}" name="" y="-28"/>
+        <terminal x="30" type="Generic" orientation="n" uuid="{e29ba20b-ed60-0324-38b5-d023562fc90e}" name="" y="-28"/>
+        <terminal x="60" type="Generic" orientation="n" uuid="{06bce264-3638-6de2-0b89-9c88bfc4032c}" name="" y="-28"/>
     </description>
 </definition>

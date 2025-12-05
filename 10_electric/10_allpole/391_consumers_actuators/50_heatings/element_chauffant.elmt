@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="70" hotspot_x="10" hotspot_y="35">
-    <uuid uuid="{dadbe844-bfd3-cb45-9ec8-864a34045946}"/>
+<definition hotspot_x="10" width="20" hotspot_y="29" version="0.100.0" type="element" height="60" link_type="simple">
+    <uuid uuid="{5dfbe94b-4ba1-4325-8fa5-c4ec3e729260}"/>
     <names>
-        <name lang="ar">عنصر تسخين</name>
+        <name lang="ca">Element de calefacció</name>
+        <name lang="el">Θερμαντικό στοιχείο</name>
+        <name lang="it">Riscaldatore</name>
         <name lang="cs">Výkonový odpor</name>
         <name lang="de">Heizelement</name>
-        <name lang="el">Θερμαντικό στοιχείο</name>
-        <name lang="en">Heating element</name>
         <name lang="es">Elemento térmico</name>
-        <name lang="fr">Elément chauffant</name>
-        <name lang="it">Riscaldatore</name>
+        <name lang="ar">عنصر تسخين</name>
         <name lang="nl">Verwarming</name>
+        <name lang="en">Heating element</name>
         <name lang="pl">Grzejnik</name>
+        <name lang="fr">Elément chauffant</name>
     </names>
+    <elementInformations/>
     <informations>EN 60617 : 04-01-12</informations>
     <description>
-        <line x1="0" y1="-25" x2="0" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="15" x2="0" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-5" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="-16" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6f20a697-3715-4cb6-9fee-b0216c534b79}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line length1="1.5" x1="0" y2="-15" x2="0" end1="none" y1="-25" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" length2="1.5"/>
+        <line length1="1.5" x1="0" y2="25" x2="0" end1="none" y1="15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" end2="none" length2="1.5"/>
+        <rect x="-5" width="10" rx="0" ry="0" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" height="30"/>
+        <dynamic_text text_width="-1" Halignment="AlignLeft" x="5" uuid="{6f20a697-3715-4cb6-9fee-b0216c534b79}" rotation="0" keep_visual_rotation="false" Valignment="AlignTop" y="-16" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="9" frame="false" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="-5" y1="-10" x2="5" y2="-10" x3="5" y3="-5" x4="-5" y4="-5" x5="-5" y5="0" x6="5" y6="0" x7="5" y7="5" x8="-5" y8="5" x9="-5" y9="10" x10="5" y10="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal uuid="{c8d16dd7-4428-446f-bdf4-a927251e379a}" name="" x="0" y="25" orientation="s" type="Generic"/>
-        <terminal uuid="{808a60d0-8f58-451e-be70-b06ead0cdc16}" name="" x="0" y="-25" orientation="n" type="Generic"/>
+        <polygon x7="5" y8="5" y2="-10" x10="5" x2="5" y6="0" y7="5" x4="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" x9="-5" antialias="false" x1="-5" y5="0" y1="-10" y10="10" x3="5" y9="10" closed="false" y3="-5" x6="5" x5="-5" x8="-5" y4="-5"/>
+        <terminal x="0" uuid="{c8d16dd7-4428-446f-bdf4-a927251e379a}" name="" y="25" type="Generic" orientation="s"/>
+        <terminal x="0" uuid="{808a60d0-8f58-451e-be70-b06ead0cdc16}" name="" y="-25" type="Generic" orientation="n"/>
     </description>
 </definition>

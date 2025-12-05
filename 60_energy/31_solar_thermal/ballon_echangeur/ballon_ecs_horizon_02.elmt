@@ -1,37 +1,39 @@
-<definition version="0.100.0" type="element" link_type="simple" width="170" height="100" hotspot_x="82" hotspot_y="50">
-    <uuid uuid="{e1b6f9ff-a569-e5c6-5c09-48e3a90de313}"/>
+<definition type="element" hotspot_y="50" version="0.100.0" width="170" link_type="simple" height="100" hotspot_x="84">
+    <uuid uuid="{5f717f24-9ba8-4102-b6b2-2ad70a4b543b}"/>
     <names>
-        <name lang="ar">خزان ماء أفقي</name>
-        <name lang="cs">Vodorovný zásobnik ECS</name>
+        <name lang="ca">ACS horitzontal</name>
         <name lang="en">DHW horizontal</name>
-        <name lang="es">Interacumulador horizontal</name>
-        <name lang="fr">Ballon ECS horizontal</name>
-        <name lang="it">Scambiatore orizzontale ACS</name>
-        <name lang="nl">Boiler elektrisch</name>
+        <name lang="ar">خزان ماء أفقي</name>
         <name lang="pl">Zasobnik poziomy CWU</name>
+        <name lang="it">Scambiatore orizzontale ACS</name>
+        <name lang="es">Interacumulador horizontal</name>
+        <name lang="nl">Boiler elektrisch</name>
+        <name lang="fr">Ballon ECS horizontal</name>
+        <name lang="cs">Vodorovný zásobnik ECS</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text text="ACS" x="61" y="-18" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Placa" x="39" y="40" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <text text="Agua fría" x="54.62" y="18.16" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <polygon x1="73.76" y1="-22.09" x2="79.34" y2="-22.09" x3="79.34" y3="-19.36" x4="74.56" y4="-19.36" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="73.76" y1="21.57" x2="79.34" y2="21.57" x3="79.34" y3="18.84" x4="74.56" y4="18.84" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="53.82" y="33.85" width="3.19" height="6.82" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <rect x="-65.8" y="-41.2" width="3.19" height="6.82" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <rect x="-67.4" y="-34.37" width="131.59" height="68.23" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <dynamic_text x="-38" y="29" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{cb75ab31-897f-460d-ad72-6eeb2771af1c}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
+        <text x="61" text="ACS" color="#000000" y="-18" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="39" text="Placa" color="#000000" y="40" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <text x="54.62" text="Agua fría" color="#000000" y="18.1597" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <polygon x1="73.76" y3="-19.3645" y4="-19.3645" x4="74.5575" x3="79.3425" y5="-19.3645" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-22.0935" x2="79.3425" y2="-22.0935" antialias="true" x5="74.5575"/>
+        <polygon x1="73.76" y3="18.8419" y4="18.8419" x4="74.5575" x3="79.3425" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="21.571" x2="79.3425" y2="21.571" antialias="true"/>
+        <rect x="53.8225" width="3.19" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="6.82258" ry="0" antialias="true" y="33.8516"/>
+        <rect x="-65.8025" width="3.19" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="6.82258" ry="0" antialias="true" y="-41.1968"/>
+        <rect x="-67.3975" width="131.588" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="68.2258" ry="0" antialias="true" y="-34.3742"/>
+        <dynamic_text x="-38" z="9" frame="false" Halignment="AlignLeft" Valignment="AlignTop" y="29" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="ElementInfo" rotation="0" text_width="-1" uuid="{cb75ab31-897f-460d-ad72-6eeb2771af1c}" keep_visual_rotation="false">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc x="53.82" y="-34.37" width="22.33" height="68.23" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <arc x="-78.56" y="-34.37" width="22.33" height="68.23" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <text text="Placa" x="-59" y="-35" rotation="0" font="Liberation Sans,3,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
-        <polygon x1="-65" y1="-35" x2="-35" y2="30" x3="15" y3="-30" x4="55" y4="35" closed="false" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:red"/>
-        <terminal uuid="{c68ef27d-d4f2-4d73-8d8b-426d19d9d38a}" name="" x="-64" y="-41" orientation="n" type="Generic"/>
-        <terminal uuid="{28820dc3-6857-4df3-834d-b4a920eecff0}" name="" x="55" y="41" orientation="s" type="Generic"/>
-        <terminal uuid="{b0bdcd0a-cb7a-4928-b5a2-47c2e6942d73}" name="" x="79" y="-21" orientation="e" type="Generic"/>
-        <terminal uuid="{c9252fe6-eb59-4594-b0a4-d39875067ee6}" name="" x="79" y="20" orientation="e" type="Generic"/>
+        <arc x="53.8225" angle="-180" width="22.33" style="line-style:normal;line-weight:normal;filling:none;color:black" height="68.2258" antialias="true" y="-34.3742" start="90"/>
+        <arc x="-78.5625" angle="-180" width="22.33" style="line-style:normal;line-weight:normal;filling:none;color:black" height="68.2258" antialias="true" y="-34.3742" start="-90"/>
+        <text x="-59" text="Placa" color="#000000" y="-35" font="Sans Serif,3,-1,5,50,0,0,0,0,0" rotation="0"/>
+        <polygon x1="-65" y3="-30" y4="35" y6="35" x4="55" x6="55" x3="15" y5="35" closed="false" style="line-style:dashed;line-weight:normal;filling:none;color:red" y1="-35" x2="-35" y2="30" antialias="false" x5="55"/>
+        <terminal type="Generic" x="-64.2075" name="" y="-41.1968" orientation="n" uuid="{c68ef27d-d4f2-4d73-8d8b-426d19d9d38a}"/>
+        <terminal type="Generic" x="55.4175" name="" y="40.6742" orientation="s" uuid="{28820dc3-6857-4df3-834d-b4a920eecff0}"/>
+        <terminal type="Generic" x="79.3425" name="" y="-20.729" orientation="e" uuid="{b0bdcd0a-cb7a-4928-b5a2-47c2e6942d73}"/>
+        <terminal type="Generic" x="79.3425" name="" y="20.2065" orientation="e" uuid="{c9252fe6-eb59-4594-b0a4-d39875067ee6}"/>
     </description>
 </definition>

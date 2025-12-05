@@ -1,27 +1,29 @@
-<definition version="0.100.0" type="element" link_type="simple" width="70" height="60" hotspot_x="35" hotspot_y="22">
-    <uuid uuid="{1b3d451a-58f5-fea7-7ec3-1cb4df9f5b1a}"/>
+<definition type="element" link_type="simple" version="0.100.0" height="60" width="70" hotspot_y="22" hotspot_x="35">
+    <uuid uuid="{a04d10bf-c7c1-414a-ae7c-2dad88f096c5}"/>
     <names>
+        <name lang="ca">Condensador, diferencial</name>
         <name lang="cs">Kondenzátor diferenciální</name>
-        <name lang="de">Differential-Kondensator</name>
         <name lang="en">Capacitor, differential</name>
         <name lang="fr">Condensateur différentie</name>
+        <name lang="de">Differential-Kondensator</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="32.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6d838a68-d940-41e5-9404-812c559dfd75}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text z="1" text_width="-1" x="5" frame="false" text_from="ElementInfo" y="32.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" rotation="0" uuid="{6d838a68-d940-41e5-9404-812c559dfd75}">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-30" y1="10" x2="30" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-30" y1="5" x2="-10" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="10" x2="0" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-20" y1="5" x2="-20" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="10" y1="5" x2="30" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="20" y1="5" x2="20" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-10" y1="20" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <polygon x1="10" y1="2" x2="8" y2="0" x3="13" y3="-3" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal uuid="{b0faed46-8629-47e2-89e4-be02bf7af092}" name="" x="-20" y="-15" orientation="n" type="Generic"/>
-        <terminal uuid="{e7280ced-f2a2-49ae-bdd4-c555ab85a501}" name="" x="0" y="30" orientation="s" type="Generic"/>
+        <line end1="none" antialias="false" x2="30" y2="10" end2="none" x1="-30" length2="1.5" length1="1.5" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="-10" y2="5" end2="none" x1="-30" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="0" y2="30" end2="none" x1="0" length2="1.5" length1="1.5" y1="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="-20" y2="-15" end2="none" x1="-20" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="30" y2="5" end2="none" x1="10" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="20" y2="-15" end2="none" x1="20" length2="1.5" length1="1.5" y1="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line end1="none" antialias="false" x2="10" y2="0" end2="none" x1="-10" length2="1.5" length1="1.5" y1="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x4="10" antialias="false" x3="13" y3="-3" x2="8" y2="0" x1="10" y4="2" y1="2" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal type="Generic" x="-20" orientation="n" y="-15" name="" uuid="{b0faed46-8629-47e2-89e4-be02bf7af092}"/>
+        <terminal type="Generic" x="0" orientation="s" y="30" name="" uuid="{e7280ced-f2a2-49ae-bdd4-c555ab85a501}"/>
     </description>
 </definition>

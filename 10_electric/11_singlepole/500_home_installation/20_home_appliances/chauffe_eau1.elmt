@@ -1,32 +1,34 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="50" hotspot_x="15" hotspot_y="20">
-    <uuid uuid="{87ff13d1-b7ec-7229-7434-e44426f7728e}"/>
+<definition hotspot_y="18" version="0.100.0" hotspot_x="15" width="30" height="50" link_type="simple" type="element">
+    <uuid uuid="{6a938a8f-0bed-4eba-bb22-e0d61e3d122c}"/>
     <names>
+        <name lang="ca">Escalfador d'aigua</name>
+        <name lang="pl">Ogrzewacz wody</name>
+        <name lang="it">Scalda acqua</name>
+        <name lang="fr">Chauffe-eau</name>
+        <name lang="en">Water heater</name>
         <name lang="ar">سخّان ماء</name>
-        <name lang="cs">Ohřívač vody</name>
         <name lang="de">Wasserkocher</name>
         <name lang="el">Θερμοσίφωνας</name>
-        <name lang="en">Water heater</name>
-        <name lang="fr">Chauffe-eau</name>
-        <name lang="it">Scalda acqua</name>
+        <name lang="cs">Ohřívač vody</name>
         <name lang="nl">Water verwarmer</name>
-        <name lang="pl">Ogrzewacz wody</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc x="-10" y="20" width="20" height="6" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <line x1="0" y1="-13" x2="0" y2="-1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <rect x="-10" y="2" width="20" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="-10" y="-1" width="20" height="6" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
-        <rect x="-3" y="26" width="6" height="2" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="-5" y="2" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8d7dae95-aa2c-4036-ada2-cddf35268a8d}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
+        <arc width="20" height="6" antialias="true" x="-10" start="180" angle="180" y="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" end1="none" y1="-13" length2="1.5" x2="0" antialias="false" y2="-1" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect rx="0" width="20" height="20" ry="0" antialias="false" x="-10" y="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc width="20" height="6" antialias="true" x="-10" start="0" angle="180" y="-1" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect rx="0" width="6" height="2" ry="0" antialias="false" x="-3" y="26" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text rotation="0" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" x="-5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="6" frame="false" text_from="ElementInfo" uuid="{8d7dae95-aa2c-4036-ada2-cddf35268a8d}" text_width="-1" y="2">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <dynamic_text x="10" y="-22.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3285e066-423d-4c08-9f27-7b949fe4723b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <dynamic_text rotation="0" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" x="10" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="7" frame="false" text_from="ElementInfo" uuid="{3285e066-423d-4c08-9f27-7b949fe4723b}" text_width="-1" y="-22.5">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal uuid="{e5d6c6b8-6573-4f74-9f1b-b4798b0ce49e}" name="" x="0" y="-13" orientation="n" type="Generic"/>
+        <terminal x="0" name="" type="Generic" orientation="n" uuid="{e5d6c6b8-6573-4f74-9f1b-b4798b0ce49e}" y="-13"/>
     </description>
 </definition>

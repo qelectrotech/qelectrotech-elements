@@ -1,25 +1,27 @@
-<definition version="0.100.0" type="element" link_type="simple" width="30" height="40" hotspot_x="10" hotspot_y="21">
-    <uuid uuid="{a8333aa2-4b34-c4ad-f6a8-78a73d323037}"/>
+<definition type="element" link_type="simple" version="0.100.0" width="30" hotspot_x="12" hotspot_y="22" height="40">
+    <uuid uuid="{834891e5-4768-4367-b323-88753eb0a494}"/>
     <names>
-        <name lang="ar">"صمّام أمان" يمين</name>
-        <name lang="cs">Bezpečnostní uzávěr (pravý)</name>
-        <name lang="en">Safety Valve "right"</name>
-        <name lang="fr">Soupape de Sécurité "droite"</name>
-        <name lang="it">Valvola di sicurezza DX</name>
+        <name lang="ca">Vàlvula de seguretat dreta</name>
         <name lang="nl">Overdrukklep</name>
         <name lang="pl">Zawór bezpieczeństwa</name>
+        <name lang="en">Safety Valve "right"</name>
+        <name lang="it">Valvola di sicurezza DX</name>
+        <name lang="fr">Soupape de Sécurité "droite"</name>
+        <name lang="cs">Bezpečnostní uzávěr (pravý)</name>
+        <name lang="ar">"صمّام أمان" يمين</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="0" y1="0" x2="10" y2="-6" x3="10" y3="6" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon x1="0" y1="0" x2="-6" y2="10" x3="6" y3="10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="-12" y="-29" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3bb683bc-dc69-4def-9477-2fefa3b0bece}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
+        <polygon antialias="true" x1="0" y1="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="0" y3="6" x2="10" x3="10" y4="0" y2="-6"/>
+        <polygon antialias="true" x1="0" y1="0" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x4="0" y3="10" x2="-6" x3="6" y4="0" y5="0" y2="10" x5="0"/>
+        <dynamic_text rotation="0" font="Sans Serif,5,-1,5,50,0,0,0,0,0" Valignment="AlignTop" y="-29" keep_visual_rotation="false" z="3" Halignment="AlignLeft" x="-12" frame="false" text_width="-1" uuid="{3bb683bc-dc69-4def-9477-2fefa3b0bece}" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="0" y1="0" x2="0" y2="-4" x3="-3" y3="-6" x4="3" y4="-8" x5="-3" y5="-9" x6="3" y6="-11" x7="-3" y7="-12" x8="3" y8="-14" x9="0" y9="-15" x10="0" y10="-17" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal uuid="{ef302529-3303-4160-9e92-15c68d68b86d}" name="" x="10" y="0" orientation="e" type="Generic"/>
-        <terminal uuid="{21422b40-46e9-4086-adc4-d3797a921d14}" name="" x="0" y="10" orientation="s" type="Generic"/>
+        <polygon x5="-3" x9="0" x3="-3" y4="-8" x7="-3" y5="-9" closed="false" y1="0" y3="-6" x6="3" x4="3" y6="-11" y7="-12" x12="0" x1="0" antialias="true" y12="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" y9="-15" x10="0" y8="-14" x11="0" y2="-4" y10="-17" y11="-17" x2="0" x8="3"/>
+        <terminal orientation="e" y="0" type="Generic" x="10" name="" uuid="{ef302529-3303-4160-9e92-15c68d68b86d}"/>
+        <terminal orientation="s" y="10" type="Generic" x="0" name="" uuid="{21422b40-46e9-4086-adc4-d3797a921d14}"/>
     </description>
 </definition>

@@ -1,28 +1,30 @@
-<definition version="0.100.0" type="element" link_type="simple" width="50" height="80" hotspot_x="40" hotspot_y="50">
-    <uuid uuid="{6781a9e2-55aa-ddab-fdf2-801dca7e54d9}"/>
+<definition height="70" width="50" hotspot_y="44" link_type="simple" type="element" hotspot_x="41" version="0.100.0">
+    <uuid uuid="{40bd19a6-39d5-4b61-a0b8-815305a9fa54}"/>
     <names>
-        <name lang="cs">Tlačítkový spínač se zapínacím
-kontaktem a samočinným návratem</name>
-        <name lang="de">Druckschalter</name>
-        <name lang="en">Switch, manually operated, push-button, automatic return</name>
+        <name lang="ca">Interruptor, accionament manual, polsador, retorn automàtic</name>
         <name lang="fr">Interrupteur à bouton-poussoir à fermeture et à
 retour automatique</name>
+        <name lang="cs">Tlačítkový spínač se zapínacím
+kontaktem a samočinným návratem</name>
+        <name lang="en">Switch, manually operated, push-button, automatic return</name>
+        <name lang="de">Druckschalter</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-35" y1="-10" x2="-4" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="-20" x2="0" y2="-40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-35" y1="-15" x2="-35" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="0" x2="-8" y2="-23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="12.5" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e1f87d38-9be6-4930-a48f-485f8fbccbec}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line end2="none" antialias="false" length2="1.5" y1="-10" x2="-4" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="-10" x1="-35" end1="none"/>
+        <line end2="none" antialias="false" length2="1.5" y1="-20" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40" x1="0" end1="none"/>
+        <line end2="none" antialias="false" length2="1.5" y1="-15" x2="-35" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" x1="-35" end1="none"/>
+        <line end2="none" antialias="false" length2="1.5" y1="0" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" x1="0" end1="none"/>
+        <line end2="none" antialias="false" length2="1.5" y1="0" x2="-8" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-23" x1="0" end1="none"/>
+        <dynamic_text keep_visual_rotation="false" uuid="{e1f87d38-9be6-4930-a48f-485f8fbccbec}" rotation="0" frame="false" text_width="-1" y="12.5" z="6" Halignment="AlignLeft" x="5" text_from="ElementInfo" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-35" y1="-15" x2="-30" y2="-15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-30" y1="-5" x2="-35" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{98e03bd1-973d-4935-985e-cd5621845d36}" name="" x="0" y="20" orientation="s" type="Generic"/>
-        <terminal uuid="{6a28ce02-daf0-49ff-9935-008449b38fb5}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <line end2="none" antialias="false" length2="1.5" y1="-15" x2="-30" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-15" x1="-35" end1="none"/>
+        <line end2="none" antialias="false" length2="1.5" y1="-5" x2="-35" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" x1="-30" end1="none"/>
+        <terminal uuid="{98e03bd1-973d-4935-985e-cd5621845d36}" y="20" type="Generic" x="0" name="" orientation="s"/>
+        <terminal uuid="{6a28ce02-daf0-49ff-9935-008449b38fb5}" y="-40" type="Generic" x="0" name="" orientation="n"/>
     </description>
 </definition>

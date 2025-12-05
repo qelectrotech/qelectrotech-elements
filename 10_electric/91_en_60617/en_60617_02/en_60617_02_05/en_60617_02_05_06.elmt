@@ -1,21 +1,23 @@
-<definition version="0.100.0" type="element" link_type="simple" width="20" height="10" hotspot_x="6" hotspot_y="5">
-    <uuid uuid="{daeefdfc-cb06-6d4d-60fc-ad67ed658a68}"/>
+<definition type="element" hotspot_x="6" link_type="simple" width="20" height="10" hotspot_y="5" version="0.100.0">
+    <uuid uuid="{ca733698-0fd5-414a-8e8f-05349ad72533}"/>
     <names>
-        <name lang="cs">Tok energie od přípojnice</name>
-        <name lang="de">Energiefluß von der Sammelschiene weg</name>
-        <name lang="en">Energy flow from the busbars</name>
-        <name lang="es">Tránsito de energía de barras</name>
+        <name lang="ca">Flux d'energia de les barres colectores</name>
         <name lang="fr">Transit de l'énergie issue des barres</name>
+        <name lang="es">Tránsito de energía de barras</name>
+        <name lang="cs">Tok energie od přípojnice</name>
+        <name lang="en">Energy flow from the busbars</name>
+        <name lang="de">Energiefluß von der Sammelschiene weg</name>
     </names>
+    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="-3" y1="0" x2="3" y2="0" end1="none" end2="simple" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="-3" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <dynamic_text x="5" y="2.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5ef1c73f-737f-4b37-9f4a-b3dd47b52e0e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <line end1="none" y1="0" x1="-3" y2="0" end2="simple" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x2="3"/>
+        <line end1="none" y1="0" x1="-3" y2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x2="10"/>
+        <dynamic_text uuid="{5ef1c73f-737f-4b37-9f4a-b3dd47b52e0e}" x="5" z="3" rotation="0" y="2.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" Valignment="AlignTop" Halignment="AlignLeft" text_width="-1" frame="false" text_from="ElementInfo">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="-3" y1="-2" x2="-3" y2="2" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line end1="none" y1="-2" x1="-3" y2="2" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length1="1.5" length2="1.5" x2="-3"/>
     </description>
 </definition>
