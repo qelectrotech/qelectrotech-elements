@@ -1,31 +1,29 @@
-<definition hotspot_x="10" width="20" height="50" hotspot_y="24" link_type="simple" type="element" version="0.100.0">
-    <uuid uuid="{51d1c1d3-d04a-4404-bd26-e281ed80d3cd}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="10" hotspot_y="30">
+    <uuid uuid="{bee58e6f-39e7-8317-8b51-815bb0df3e1b}"/>
     <names>
-        <name lang="ca">Resistències escalfament</name>
-        <name lang="pl">Grzejnik</name>
+        <name lang="ar">مقاومة تسخين</name>
         <name lang="cs">Výkonový odpor</name>
         <name lang="de">Heizwiderstand</name>
-        <name lang="ar">مقاومة تسخين</name>
-        <name lang="en">Resistances heating</name>
         <name lang="el">Αντίσταση θέρμανσης</name>
-        <name lang="nl">Verwarmingsweerstand</name>
+        <name lang="en">Resistances heating</name>
         <name lang="es">Resistores térmicos</name>
         <name lang="fr">Resistances chauffantes</name>
         <name lang="it">Resistenza di riscaldamento</name>
+        <name lang="nl">Verwarmingsweerstand</name>
+        <name lang="pl">Grzejnik</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line y2="-20" y1="-15" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x2="0" length1="1.5" end1="none"/>
-        <line y2="20" y1="15" antialias="false" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" length2="1.5" x2="0" length1="1.5" end1="none"/>
-        <polygon x10="5" x1="-5" x6="5" x4="-5" y7="5" y5="0" x9="-5" closed="false" x5="-5" y8="5" y4="-5" y6="0" x2="5" x7="5" y10="10" y2="-10" y1="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y9="10" x8="-5" y3="-5" x3="5"/>
-        <rect ry="0" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-15" x="-5" width="10" height="30" rx="0"/>
-        <dynamic_text keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" rotation="0" z="10" text_width="-1" y="-12" x="5" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{594b082e-d158-483e-a903-1e252f5f6f1e}">
+        <line x1="0" y1="-15" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="15" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-5" y1="-10" x2="5" y2="-10" x3="5" y3="-5" x4="-5" y4="-5" x5="-5" y5="0" x6="5" y6="0" x7="5" y7="5" x8="-5" y8="5" x9="-5" y9="10" x10="5" y10="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect x="-5" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="5" y="-12" z="10" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{594b082e-d158-483e-a903-1e252f5f6f1e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="20" x="0" orientation="s" name="" type="Generic" uuid="{ebc1cad1-47ac-4bd3-a8d3-3139ce9be0e8}"/>
-        <terminal y="-20" x="0" orientation="n" name="" type="Generic" uuid="{58bc0708-dceb-4227-9ce3-8fec0987b555}"/>
+        <terminal uuid="{ebc1cad1-47ac-4bd3-a8d3-3139ce9be0e8}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{58bc0708-dceb-4227-9ce3-8fec0987b555}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

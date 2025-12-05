@@ -1,34 +1,32 @@
-<definition version="0.100.0" hotspot_x="34" type="element" hotspot_y="65" width="110" link_type="simple" height="70">
-    <uuid uuid="{61028a40-29f0-40d9-bad3-cfb28a72bec5}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="120" height="70" hotspot_x="40" hotspot_y="65">
+    <uuid uuid="{c9f37747-ea56-5ca8-4a6e-4aedebda969e}"/>
     <names>
-        <name lang="ca">Línia de retard, tipus magnetostrictiu</name>
         <name lang="cs">Magnetostrikční zpožďovací linka</name>
-        <name lang="fr">Ligne à retard de type magnétostrictif</name>
-        <name lang="en">Delay line, magnetostrictive type</name>
         <name lang="de">Verzögerungsleitung, magnetostriktiv</name>
+        <name lang="en">Delay line, magnetostrictive type</name>
+        <name lang="fr">Ligne à retard de type magnétostrictif</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x2="10" length1="1.5" end1="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" length2="1.5" end2="triangle" x1="-10" y2="-39.25" y1="-39.25" antialias="false"/>
-        <dynamic_text uuid="{c544c301-6269-422f-933d-d3ad7dc2cb41}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" x="5" z="2" text_width="-1" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="false" y="12.5" rotation="0" frame="false">
+        <line x1="-10" y1="-39.25" x2="10" y2="-39.25" end1="triangle" end2="triangle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <dynamic_text x="5" y="12.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c544c301-6269-422f-933d-d3ad7dc2cb41}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="35" y="-46.45" rotation="0" color="#000000" text="50 µs"/>
-        <text font="Sans Serif,6,-1,5,50,0,0,0,0,0" x="33" y="-6.45" rotation="0" color="#000000" text="100 µs"/>
-        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10" start="180" width="10" y="-29.25" height="10" antialias="true"/>
-        <rect rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20" ry="0" width="80" y="-60" height="60" antialias="false"/>
-        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" x="0" start="180" width="10" y="-29.25" height="10" antialias="true"/>
-        <line x2="15" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-15" y2="-50" y1="-50" antialias="false"/>
-        <line x2="15" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="15" y2="-45" y1="-55" antialias="false"/>
-        <line x2="-15" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-15" y2="-45" y1="-55" antialias="false"/>
-        <line x2="-20" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="-30" y2="-30" y1="-30" antialias="false"/>
-        <line x2="60" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="70" y2="-50" y1="-50" antialias="false"/>
-        <line x2="60" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none" x1="70" y2="-10" y1="-10" antialias="false"/>
-        <terminal orientation="e" uuid="{13a84ef2-e62f-49a7-a004-77dcee725c9a}" name="" x="70" type="Generic" y="-10"/>
-        <terminal orientation="e" uuid="{c854d004-7ba2-4637-b515-9a67c3593b25}" name="" x="70" type="Generic" y="-50"/>
-        <terminal orientation="w" uuid="{05b58d68-ce9a-4468-9694-171d8b1c7769}" name="" x="-30" type="Generic" y="-30"/>
+        <text text="50 µs" x="35" y="-46.45" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="100 µs" x="33" y="-6.45" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <arc x="-10" y="-29.25" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-20" y="-60" width="80" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="0" y="-29.25" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-15" y1="-50" x2="15" y2="-50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="15" y1="-55" x2="15" y2="-45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-15" y1="-55" x2="-15" y2="-45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-30" y1="-30" x2="-20" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="70" y1="-50" x2="60" y2="-50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="70" y1="-10" x2="60" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{13a84ef2-e62f-49a7-a004-77dcee725c9a}" name="" x="70" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{c854d004-7ba2-4637-b515-9a67c3593b25}" name="" x="70" y="-50" orientation="e" type="Generic"/>
+        <terminal uuid="{05b58d68-ce9a-4468-9694-171d8b1c7769}" name="" x="-30" y="-30" orientation="w" type="Generic"/>
     </description>
 </definition>

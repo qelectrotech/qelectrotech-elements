@@ -1,44 +1,42 @@
-<definition hotspot_x="22" width="30" version="0.100.0" hotspot_y="24" height="50" type="element" link_type="master">
-    <uuid uuid="{48f891da-9029-4ce3-96d5-41af3ea4103f}"/>
+<definition version="0.100.0" type="element" link_type="master" width="30" height="60" hotspot_x="22" hotspot_y="30">
+    <uuid uuid="{456d106b-8f91-1f8f-3ced-d6afc2a440e9}"/>
     <names>
         <name lang="ar">قاطع تفاضلي</name>
-        <name lang="ca">Interruptor residual amb sobrecàrrega</name>
         <name lang="cs">Jističochránič</name>
-        <name lang="pl">Wyłącznik różnicowoprądowy z wbudowanym zabezpieczeniem nadprądowym</name>
+        <name lang="de">Kombischalter</name>
         <name lang="en">Residual Circuit Breaker with Overload</name>
-        <name lang="ru">Дифавтомат</name>
         <name lang="es">Dispositivo diferenciale residual</name>
-        <name lang="pt">Disjunctor diferencial</name>
+        <name lang="fr">Disjoncteur différentiel</name>
         <name lang="it">Disgiuntore differenziale</name>
         <name lang="nl">Aardlekschakelaar</name>
-        <name lang="fr">Disjoncteur différentiel</name>
-        <name lang="de">Kombischalter</name>
+        <name lang="pl">Wyłącznik różnicowoprądowy z wbudowanym zabezpieczeniem nadprądowym</name>
+        <name lang="pt">Disjunctor diferencial</name>
+        <name lang="ru">Дифавтомат</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text y="9" rotation="0" x="-14" color="#000000" text="IΔ" font="Sans Serif,6,-1,5,50,0,0,0,0,0"/>
-        <line end1="none" antialias="true" x2="-2" length1="1.5" y1="-12" x1="2" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="true" x2="2" length1="1.5" y1="-12" x1="-2" y2="-8" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none"/>
-        <dynamic_text z="4" keep_visual_rotation="false" y="-12" rotation="0" text_from="ElementInfo" x="1" frame="false" text_width="-1" Halignment="AlignLeft" uuid="{615e43b4-806f-4441-8d65-7fed7b8455d7}" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0">
+        <text text="IΔ" x="-14" y="9" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="2" y1="-12" x2="-2" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-2" y1="-12" x2="2" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="1" y="-12" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{615e43b4-806f-4441-8d65-7fed7b8455d7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x3="0" antialias="true" x2="0" y3="20" y1="-10" x1="-5" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false"/>
-        <line end1="none" antialias="false" x2="0" length1="1.5" y1="-20" x1="0" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-8" length1="1.5" y1="-4" x1="-4" y2="-4" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-8" length1="1.5" y1="-4" x1="-8" y2="-8" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-8" length1="1.5" y1="-8" x1="-13" y2="-8" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-13" length1="1.5" y1="-8" x1="-13" y2="-4" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-13" length1="1.5" y1="-4" x1="-16" y2="-4" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <arc start="-180" antialias="true" y="-2.5" width="5" x="-13" style="line-style:normal;line-weight:thin;filling:none;color:black" height="7" angle="-180"/>
-        <line end1="none" antialias="false" x2="-2" length1="1.5" y1="1" x1="-8" y2="1" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <line end1="none" antialias="false" x2="-13" length1="1.5" y1="1" x1="-16" y2="1" style="line-style:normal;line-weight:thin;filling:none;color:black" length2="1.5" end2="none"/>
-        <terminal y="20" x="0" orientation="s" type="Generic" uuid="{ffbe1dd7-8057-4f24-9aa6-2eea384ae3f6}" name=""/>
-        <terminal y="-20" x="0" orientation="n" type="Generic" uuid="{471c3669-fe17-4621-89e7-88ab45682bee}" name=""/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-4" y1="-4" x2="-8" y2="-4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-8" y1="-4" x2="-8" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-13" y1="-8" x2="-8" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-13" y1="-8" x2="-13" y2="-4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-16" y1="-4" x2="-13" y2="-4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <arc x="-13" y="-2.5" width="5" height="7" start="0" angle="180" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line x1="-8" y1="1" x2="-2" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-16" y1="1" x2="-13" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{ffbe1dd7-8057-4f24-9aa6-2eea384ae3f6}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{471c3669-fe17-4621-89e7-88ab45682bee}" name="" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

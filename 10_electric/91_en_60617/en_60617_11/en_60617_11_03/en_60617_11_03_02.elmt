@@ -1,25 +1,23 @@
-<definition hotspot_x="144" width="150" type="element" hotspot_y="14" height="20" link_type="simple" version="0.100.0">
-    <uuid uuid="{3bd64003-8899-422f-8040-198279d0063d}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="160" height="20" hotspot_x="150" hotspot_y="12">
+    <uuid uuid="{10445a7d-8132-47cc-be21-266c66d65e45}"/>
     <names>
-        <name lang="ca">Línia submarina</name>
-        <name lang="fr">Ligne immergée</name>
         <name lang="cs">Vedení pod vodou</name>
-        <name lang="en">Submarine line</name>
         <name lang="de">Leiter im Gewässer,
 Seekabe</name>
+        <name lang="en">Submarine line</name>
+        <name lang="fr">Ligne immergée</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="5" Halignment="AlignLeft" y="12.5" text_from="ElementInfo" z="1" uuid="{157b3906-d2a5-45fa-b9ac-fbb38e6acd03}" keep_visual_rotation="false" text_width="-1">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{157b3906-d2a5-45fa-b9ac-fbb38e6acd03}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y2="0" x2="-140" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" end2="none" length1="1.5" antialias="false" end1="none" y1="0" length2="1.5"/>
-        <arc width="10" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" angle="-180" x="-80" antialias="true" y="-12.5"/>
-        <arc width="10" start="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="5" angle="-180" x="-70" antialias="true" y="-12.5"/>
-        <terminal name="" orientation="w" type="Generic" x="-140" y="0" uuid="{b26b1d5b-3691-4bb7-ab96-d5be117d9814}"/>
-        <terminal name="" orientation="e" type="Generic" x="0" y="0" uuid="{9fd3b5f6-8f4b-4f60-980c-0477f44512c5}"/>
+        <line x1="0" y1="0" x2="-140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-80" y="-12.5" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-70" y="-12.5" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{b26b1d5b-3691-4bb7-ab96-d5be117d9814}" name="" x="-140" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{9fd3b5f6-8f4b-4f60-980c-0477f44512c5}" name="" x="0" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

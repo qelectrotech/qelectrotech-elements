@@ -1,5 +1,5 @@
-<definition hotspot_x="15" height="40" type="element" version="0.90" width="30" hotspot_y="14" link_type="simple">
-    <uuid uuid="{8ad97457-4c62-4cf9-b419-a425911ec152}"/>
+<definition version="0.90" type="element" link_type="simple" width="30" height="40" hotspot_x="15" hotspot_y="12">
+    <uuid uuid="{c5888aa7-4c2a-9d28-d899-c7db4953c52f}"/>
     <names>
         <name lang="ar">مؤشر الضغط</name>
         <name lang="ca">Indicador de pressió</name>
@@ -26,18 +26,17 @@
         <name lang="sr">Индикатор притиска</name>
         <name lang="tr">Basınç göstergesi</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" y="-23" keep_visual_rotation="false" x="-21" rotation="0" z="1" text_width="-1" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,7,-1,5,50,0,0,0,0,0" uuid="{1fa6b1a7-6266-435b-afc7-a6a9bc9a96d2}">
+        <dynamic_text x="-21" y="-23" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1fa6b1a7-6266-435b-afc7-a6a9bc9a96d2}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y2="16" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" antialias="false" length2="1.5" x1="0" end1="none" length1="1.5" y1="10" end2="none"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y="-10" x="-10" diameter="20"/>
-        <line y2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="7" antialias="true" length2="1.5" x1="-7" end1="none" length1="1.5" y1="-7" end2="none"/>
-        <line y2="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="7" antialias="true" length2="1.5" x1="-7" end1="none" length1="1.5" y1="7" end2="none"/>
-        <terminal y="20" x="0" type="Generic" orientation="s" uuid="{d4100fab-2850-40bc-9a93-3ecce9257f77}" name=""/>
+        <line x1="0" y1="10" x2="0" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-7" y1="-7" x2="7" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-7" y1="7" x2="7" y2="-7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{d4100fab-2850-40bc-9a93-3ecce9257f77}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,34 +1,32 @@
-<definition type="element" hotspot_x="15" version="0.100.0" hotspot_y="13" link_type="simple" width="40" height="30">
-    <uuid uuid="{0443714f-036d-4b07-bc17-40854d9e7ed5}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="30" hotspot_x="20" hotspot_y="12">
+    <uuid uuid="{07654417-70cb-ac6e-f399-73b59352d25f}"/>
     <names>
-        <name lang="ca">Bomba amb vàlvula</name>
-        <name lang="it">Pompa con valvola</name>
-        <name lang="cs">Pumpa se zvratným uzávěrem</name>
-        <name lang="pl">Pompa z zaworem zwrotnym</name>
-        <name lang="el">Αντλία με βαλβίδα</name>
-        <name lang="nl">Pomp met terugslagklep</name>
-        <name lang="es">Bomba con válvula</name>
-        <name lang="en">Pump with Valve</name>
-        <name lang="de">Pumpe mit Ventil</name>
-        <name lang="fr">Pompe avec Clapet</name>
         <name lang="ar">مضخّة بصمّام</name>
+        <name lang="cs">Pumpa se zvratným uzávěrem</name>
+        <name lang="de">Pumpe mit Ventil</name>
+        <name lang="el">Αντλία με βαλβίδα</name>
+        <name lang="en">Pump with Valve</name>
+        <name lang="es">Bomba con válvula</name>
+        <name lang="fr">Pompe avec Clapet</name>
+        <name lang="it">Pompa con valvola</name>
+        <name lang="nl">Pomp met terugslagklep</name>
+        <name lang="pl">Pompa z zaworem zwrotnym</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line x1="0" end1="none" end2="none" length2="1.5" y2="11" antialias="false" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="0" y1="14"/>
-        <line x1="20" end1="none" end2="none" length2="1.5" y2="0" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="16" y1="0"/>
-        <polygon x1="11" x4="11" y4="0" y2="-4" y3="4" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="16" x3="16" y1="0"/>
-        <line x1="11" end1="none" end2="none" length2="1.5" y2="7" antialias="false" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="11" y1="-7"/>
-        <dynamic_text y="-27.5" Halignment="AlignLeft" rotation="0" keep_visual_rotation="false" x="-10" frame="false" z="5" text_from="ElementInfo" text_width="-1" uuid="{2b65026d-03e3-4795-930e-534d110cc34d}" Valignment="AlignTop" font="Sans Serif,7,-1,5,50,0,0,0,0,0">
+        <line x1="0" y1="14" x2="0" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="0" x2="16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="11" y1="0" x2="16" y2="-4" x3="16" y3="4" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="11" y1="-7" x2="11" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-10" y="-27.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2b65026d-03e3-4795-930e-534d110cc34d}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x1="8" x4="8" y4="0" y2="-7" y3="7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-4" x3="-4" y1="0"/>
-        <circle y="-10.2956" diameter="20.5913" antialias="true" x="-10.2956" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="0" name="" orientation="w" type="Generic" x="-11" uuid="{58957f20-873c-493e-94d0-f65bb4b67b17}"/>
-        <terminal y="0" name="" orientation="e" type="Generic" x="20" uuid="{447ffb34-73a1-41e7-be34-5878ed9e7bf1}"/>
-        <terminal y="10" name="" orientation="s" type="Generic" x="0" uuid="{7eda40cb-330a-4503-8f6e-cdbe93e56e27}"/>
+        <polygon x1="8" y1="0" x2="-4" y2="-7" x3="-4" y3="7" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse x="-10.3" y="-10.3" width="20.59" height="20.59" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{58957f20-873c-493e-94d0-f65bb4b67b17}" name="" x="-11" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{447ffb34-73a1-41e7-be34-5878ed9e7bf1}" name="" x="20" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{7eda40cb-330a-4503-8f6e-cdbe93e56e27}" name="" x="0" y="10" orientation="s" type="Generic"/>
     </description>
 </definition>

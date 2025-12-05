@@ -1,29 +1,27 @@
-<definition hotspot_x="20" type="element" width="40" hotspot_y="28" version="0.100.0" link_type="simple" height="50">
-    <uuid uuid="{f65c85c5-7851-43c9-ab18-41fd80fef4a4}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="60" hotspot_x="28" hotspot_y="34">
+    <uuid uuid="{f723993d-06e9-963e-200d-bcf7da6793ed}"/>
     <names>
-        <name lang="ca">Var comptador horari</name>
-        <name lang="el">Μετρητής, Βαρώρια</name>
         <name lang="ar">عدّد طاقة تفاعليّة - فارساعة متر-</name>
-        <name lang="fr">Varheuremètre</name>
         <name lang="cs">Jalový elektroměr</name>
-        <name lang="en">Var hour meter</name>
-        <name lang="pl">Licznik warogodzin</name>
-        <name lang="nl">VAr energie meter</name>
-        <name lang="it">Misuratore di varh</name>
         <name lang="de">Blindverbrauchszähler</name>
+        <name lang="el">Μετρητής, Βαρώρια</name>
+        <name lang="en">Var hour meter</name>
+        <name lang="fr">Varheuremètre</name>
+        <name lang="it">Misuratore di varh</name>
+        <name lang="nl">VAr energie meter</name>
+        <name lang="pl">Licznik warogodzin</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text Valignment="AlignTop" z="1" rotation="0" text_width="-1" Halignment="AlignLeft" uuid="{4267896a-24b7-4701-bcab-6c4c1058688e}" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="15" frame="false" keep_visual_rotation="false" y="-31">
+        <dynamic_text x="15" y="-31" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4267896a-24b7-4701-bcab-6c4c1058688e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-13" y="2.3333" color="#000000" text="Varh"/>
-        <rect width="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-11" antialias="false" height="22"/>
-        <rect width="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-15" y="-19" antialias="false" height="8"/>
-        <terminal name="" type="Generic" uuid="{da78b2e0-c227-4a9d-a7ef-dd45401917e2}" x="0" orientation="n" y="-23"/>
-        <terminal name="" type="Generic" uuid="{9d62a6e3-0235-4a35-ac2b-e30d688829e9}" x="0" orientation="s" y="15"/>
+        <text text="Varh" x="-13" y="2.33" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <rect x="-15" y="-11" width="30" height="22" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-15" y="-19" width="30" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{da78b2e0-c227-4a9d-a7ef-dd45401917e2}" name="" x="0" y="-23" orientation="n" type="Generic"/>
+        <terminal uuid="{9d62a6e3-0235-4a35-ac2b-e30d688829e9}" name="" x="0" y="15" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,5 +1,5 @@
-<definition type="element" hotspot_y="14" width="20" height="30" version="0.100.0" hotspot_x="10" link_type="simple">
-    <uuid uuid="{b34a3b1a-f7f7-4ea4-a20f-c073944dfeb0}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="40" hotspot_x="10" hotspot_y="20">
+    <uuid uuid="{bba3efe5-0efe-aec1-39cb-05497b5eff14}"/>
     <names>
         <name lang="ca">Vàlvula de peu</name>
         <name lang="de">Rückschlagventil</name>
@@ -7,32 +7,19 @@
         <name lang="es">Válvula de pie</name>
         <name lang="fr">clapet anti-retour</name>
     </names>
-    <elementInformations>
-        <elementInformation name="comment" show="1"></elementInformation>
-        <elementInformation name="machine_manufacturer_reference" show="1"></elementInformation>
-        <elementInformation name="designation" show="1"></elementInformation>
-        <elementInformation name="label" show="1"></elementInformation>
-        <elementInformation name="plant" show="1"></elementInformation>
-        <elementInformation name="supplier" show="1"></elementInformation>
-        <elementInformation name="manufacturer_reference" show="1"></elementInformation>
-        <elementInformation name="unity" show="1"></elementInformation>
-        <elementInformation name="description" show="1"></elementInformation>
-        <elementInformation name="quantity" show="1"></elementInformation>
-        <elementInformation name="manufacturer" show="1"></elementInformation>
-    </elementInformations>
     <informations>Rafael Ferrando.
 Mantenimiento de Instalaciones Térmicas</informations>
     <description>
-        <circle x="-4" antialias="true" diameter="8" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-4"/>
-        <line length1="1.5" end2="none" end1="none" antialias="false" x1="-8" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="6" length2="1.5"/>
-        <line length1="1.5" end2="none" end1="none" antialias="false" x1="7" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="6" length2="1.5"/>
-        <line length1="1.5" end2="none" end1="none" antialias="false" x1="0" y1="-4" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" length2="1.5"/>
-        <line length1="1.5" end2="none" end1="none" antialias="false" x1="0" y1="9.76" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="6.22" length2="1.5"/>
-        <dynamic_text font="Sans Serif,4,-1,5,25,0,0,0,0,0" frame="false" keep_visual_rotation="true" text_from="ElementInfo" x="-6" rotation="0" text_width="-1" Halignment="AlignLeft" uuid="{d9f21c2d-8312-42bc-8847-b7c6360c26c5}" z="6" Valignment="AlignTop" y="8.5">
+        <ellipse x="-4" y="-4" width="8" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-8" y1="0" x2="0" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="7" y1="0" x2="0" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-4" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="9.76" x2="0" y2="6.22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-6" y="8.5" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{d9f21c2d-8312-42bc-8847-b7c6360c26c5}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal name="" type="Generic" x="0" orientation="n" uuid="{1ece4ffb-fb6d-3bd1-9c1e-b88150e97a06}" y="-10"/>
-        <terminal name="" type="Generic" x="0" orientation="s" uuid="{d166b311-3d0c-87d4-1712-ef90caf5314d}" y="10"/>
+        <terminal uuid="{1ece4ffb-fb6d-3bd1-9c1e-b88150e97a06}" name="" x="0" y="-10" orientation="n" type="Generic"/>
+        <terminal uuid="{d166b311-3d0c-87d4-1712-ef90caf5314d}" name="" x="0" y="10" orientation="s" type="Generic"/>
     </description>
 </definition>

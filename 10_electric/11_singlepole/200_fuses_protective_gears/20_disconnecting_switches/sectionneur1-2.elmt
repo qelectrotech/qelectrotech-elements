@@ -1,36 +1,34 @@
-<definition hotspot_x="11" version="0.100.0" type="element" height="60" width="20" hotspot_y="29" link_type="master">
-    <uuid uuid="{1f2ec7f6-0694-4904-9b6a-75f0a2055f18}"/>
+<definition version="0.100.0" type="element" link_type="master" width="20" height="60" hotspot_x="10" hotspot_y="30">
+    <uuid uuid="{5e8977d5-43fd-2865-7688-676ab6d90640}"/>
     <names>
-        <name lang="ca">Interruptor de desconnexió</name>
-        <name lang="it">Sezionatore 1P</name>
-        <name lang="pl">Rozłącznik</name>
         <name lang="ar">مفتاح عزل</name>
-        <name lang="es">Seccionador </name>
-        <name lang="en">Disconnecting switch</name>
-        <name lang="nl">Scheidingsschakelaar</name>
-        <name lang="el">Διακόπτης φορτίου</name>
-        <name lang="pt">Seccionador </name>
         <name lang="cs">Odpínač</name>
         <name lang="de">Trennschalter 1P</name>
+        <name lang="el">Διακόπτης φορτίου</name>
+        <name lang="en">Disconnecting switch</name>
+        <name lang="es">Seccionador</name>
         <name lang="fr">Sectionneur</name>
+        <name lang="it">Sezionatore 1P</name>
+        <name lang="nl">Scheidingsschakelaar</name>
+        <name lang="pl">Rozłącznik</name>
+        <name lang="pt">Seccionador</name>
         <name lang="ru">Выключатель-разъеденитель</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="4" x="-2" y="-12"/>
-        <polygon x1="-5" antialias="true" y1="-10" x2="0" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" closed="false" y3="20"/>
-        <dynamic_text uuid="{c640c15b-23e1-402c-bef9-702652a2240c}" z="3" x="3.75" keep_visual_rotation="false" y="-9.5" rotation="0" frame="false" Valignment="AlignTop" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft">
+        <ellipse x="-2" y="-12" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="3.75" y="-9.5" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c640c15b-23e1-402c-bef9-702652a2240c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" antialias="false" y1="-20" x2="0" length1="1.5" end2="none" y2="-12" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <line x1="2" antialias="false" y1="-12" x2="-2" length1="1.5" end2="none" y2="-12" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5"/>
-        <terminal uuid="{c65ab473-54f5-4ac0-a912-b6c2ccdecb1d}" type="Generic" x="0" y="-21" orientation="n" name=""/>
-        <terminal uuid="{92a429f2-3e18-4ffc-81a5-4dc28b610d75}" type="Generic" x="0" y="21" orientation="s" name=""/>
+        <line x1="0" y1="-20" x2="0" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="2" y1="-12" x2="-2" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{c65ab473-54f5-4ac0-a912-b6c2ccdecb1d}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{92a429f2-3e18-4ffc-81a5-4dc28b610d75}" name="" x="0" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

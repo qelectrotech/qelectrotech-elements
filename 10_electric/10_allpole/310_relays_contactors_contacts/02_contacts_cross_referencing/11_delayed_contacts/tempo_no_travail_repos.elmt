@@ -1,9 +1,8 @@
-<definition link_type="slave" type="element" height="50" hotspot_y="24" width="30" hotspot_x="13" version="0.100.0">
-    <uuid uuid="{cfe71842-7a8b-429a-bd7f-53328dc20ebd}"/>
+<definition version="0.100.0" type="element" link_type="slave" width="30" height="60" hotspot_x="12" hotspot_y="30">
+    <uuid uuid="{1d37638e-e467-e506-0bda-77d53035cd4b}"/>
     <names>
-        <name lang="ca">Contacte simple (temporitzador de retard d'encesa i apagat)</name>
-        <name lang="en">Simple contact (switch-on and off delay timer)</name>
         <name lang="cs">Kontakt NO zpožděný přítah i odpad</name>
+        <name lang="en">Simple contact (switch-on and off delay timer)</name>
         <name lang="fr">Contact simple NO (tempo repos et travail)</name>
     </names>
     <kindInformations>
@@ -14,17 +13,17 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <arc x="-14" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black" width="10" y="-5" start="90" antialias="true" angle="-180"/>
-        <arc x="-4" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black" width="10" y="-5" start="270" antialias="true" angle="-180"/>
-        <polygon y3="20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" antialias="true" y1="-10" x3="10" x1="5" y2="10"/>
-        <line length1="1.5" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="7" length2="1.5" antialias="false" y1="1.5" end1="none" x1="-4" y2="1.5"/>
-        <line length1="1.5" end2="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="7" length2="1.5" antialias="false" y1="-1.5" end1="none" x1="-4" y2="-1.5"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="12.75" rotation="0" frame="false" text_width="-1" keep_visual_rotation="true" y="-8" z="5" uuid="{ba372a7c-21f3-4e1e-86bb-03e0e24bbb65}" text_from="ElementInfo" Halignment="AlignLeft" Valignment="AlignTop">
+        <arc x="-14" y="-5" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <arc x="-4" y="-5" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <polygon x1="5" y1="-10" x2="10" y2="10" x3="10" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-4" y1="1.5" x2="7" y2="1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-4" y1="-1.5" x2="7" y2="-1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="12.75" y="-8" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{ba372a7c-21f3-4e1e-86bb-03e0e24bbb65}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="10" length2="1.5" antialias="false" y1="-20" end1="none" x1="10" y2="-10"/>
-        <terminal x="10" type="Generic" name="" y="-20" uuid="{7c475a92-a5bc-440e-aecb-26f61fb1972b}" orientation="n"/>
-        <terminal x="10" type="Generic" name="" y="20" uuid="{0b82e14e-d1e7-4d99-920f-bbff73979e3b}" orientation="s"/>
+        <line x1="10" y1="-20" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{7c475a92-a5bc-440e-aecb-26f61fb1972b}" name="" x="10" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{0b82e14e-d1e7-4d99-920f-bbff73979e3b}" name="" x="10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

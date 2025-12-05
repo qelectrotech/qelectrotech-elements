@@ -1,27 +1,25 @@
-<definition hotspot_y="11" version="0.100.0" height="30" hotspot_x="44" width="90" type="element" link_type="simple">
-    <uuid uuid="{e97039fb-6d7c-409e-a3ac-4a5b934b9afd}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="100" height="30" hotspot_x="50" hotspot_y="10">
+    <uuid uuid="{f7b77b15-5ac8-38f4-1d5a-e8b06076085b}"/>
     <names>
-        <name lang="ca">Parell coaxial connectat a terminals</name>
+        <name lang="cs">Koaxiální kabel připojený ke svorkám</name>
         <name lang="de">koaxiale Leitung auf Anschlußstellen geführt</name>
         <name lang="en">Coaxial pair connected to terminals</name>
         <name lang="fr">Paire coaxiale raccordée sur bornes</name>
-        <name lang="cs">Koaxiální kabel připojený ke svorkám</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" z="1" rotation="0" y="2.5" Halignment="AlignLeft" uuid="{a14ce4dc-a558-447c-ae0b-047d0684511e}" text_width="-1" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" keep_visual_rotation="false" x="5" text_from="ElementInfo">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a14ce4dc-a558-447c-ae0b-047d0684511e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" end2="circle" antialias="false" length1="1.5" x1="-40" y1="0" end1="none" x2="40" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-5" antialias="false" diameter="10" x="-5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" antialias="false" length1="1.5" x1="-5" y1="5" end1="none" x2="0" y2="5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="none" antialias="false" length1="1.5" x1="0" y1="5" end1="none" x2="0" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" end2="circle" antialias="false" length1="1.5" x1="0" y1="10" end1="none" x2="40" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal name="" y="0" uuid="{fda1f49b-cb72-4a9f-8f5a-dbede586e9f1}" orientation="e" type="Generic" x="40"/>
-        <terminal name="" y="10" uuid="{7e21e5f8-efbf-4d28-9155-4056e915f602}" orientation="e" type="Generic" x="40"/>
-        <terminal name="" y="0" uuid="{582f8ba5-49c1-46bd-b4c9-7eec6e2045dd}" orientation="w" type="Generic" x="-40"/>
+        <line x1="-40" y1="0" x2="40" y2="0" end1="none" end2="circle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-5" y="-5" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-5" y1="5" x2="0" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="5" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="40" y2="10" end1="none" end2="circle" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{fda1f49b-cb72-4a9f-8f5a-dbede586e9f1}" name="" x="40" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{7e21e5f8-efbf-4d28-9155-4056e915f602}" name="" x="40" y="10" orientation="e" type="Generic"/>
+        <terminal uuid="{582f8ba5-49c1-46bd-b4c9-7eec6e2045dd}" name="" x="-40" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>

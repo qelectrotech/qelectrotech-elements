@@ -1,62 +1,60 @@
-<definition type="element" width="190" version="0.100.0" link_type="simple" hotspot_y="62" height="100" hotspot_x="65">
-    <uuid uuid="{882217ee-2163-4eb4-9277-e7babf951c8b}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="190" height="100" hotspot_x="65" hotspot_y="62">
+    <uuid uuid="{cf4eae99-971b-9270-2ae1-34a1013b61cf}"/>
     <names>
-        <name lang="ca">Motor monofàsic</name>
-        <name lang="cs">Jednofázový brzdový motor</name>
         <name lang="ar">محرّك ثلاثي الأوجه</name>
-        <name lang="it">Motore trifase</name>
-        <name lang="es">Motor trifásico</name>
+        <name lang="cs">Jednofázový brzdový motor</name>
         <name lang="de">Drehstrom Motor</name>
-        <name lang="nl">Draaistroommotor</name>
         <name lang="en">One-phase engine</name>
-        <name lang="pl">Silnik trójfazowy</name>
-        <name lang="ru">Однофазный эл. мотор</name>
-        <name lang="pt">Motor trifásico</name>
+        <name lang="es">Motor trifásico</name>
         <name lang="fr">Moteur triphasé</name>
+        <name lang="it">Motore trifase</name>
+        <name lang="nl">Draaistroommotor</name>
+        <name lang="pl">Silnik trójfazowy</name>
+        <name lang="pt">Motor trifásico</name>
+        <name lang="ru">Однофазный эл. мотор</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text text="Z1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-50" color="#000000" x="2" rotation="0"/>
-        <text text="PE" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-49" color="#000000" x="42" rotation="0"/>
-        <arc width="9" start="180" y="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" height="8" antialias="true" x="0"/>
-        <arc width="9" start="0" y="5" style="line-style:normal;line-weight:normal;filling:none;color:black" angle="180" height="8" antialias="true" x="-9"/>
-        <text text="M" font="Sans Serif,18,-1,5,50,0,0,0,0,0" y="2" color="#000000" x="-10.25" rotation="0"/>
-        <circle y="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" x="-30" diameter="60"/>
-        <dynamic_text frame="false" z="7" uuid="{6e9844dc-4ef7-4d45-8a6b-5c34cb2227ac}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" y="-11.5" keep_visual_rotation="true" x="-51" rotation="0" Valignment="AlignTop" text_from="ElementInfo">
+        <text text="Z1" x="2" y="-50" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="PE" x="42" y="-49" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <arc x="0" y="5" width="9" height="8" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-9" y="5" width="9" height="8" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="M" x="-10.25" y="2" rotation="0" font="Liberation Sans,18,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <ellipse x="-30" y="-30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-51" y="-11.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{6e9844dc-4ef7-4d45-8a6b-5c34cb2227ac}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x2="0" y1="-55" length2="1.5" x1="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-30" end2="none"/>
-        <line x2="-20.07" y1="-56" length2="1.5" x1="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-22.82" end2="none"/>
-        <text text="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="11" color="#000000" x="-17" rotation="0"/>
-        <text text="U1" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-50" color="#000000" x="-18" rotation="0"/>
-        <line x2="20" y1="-55" length2="1.5" x1="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-22.77" end2="none"/>
-        <line x2="20" y1="-56" length2="1.5" x1="20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-51" end2="none"/>
-        <line x2="26" y1="-22" length2="1.5" x1="40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="true" y2="-16" end2="none"/>
-        <text text="U2" font="Sans Serif,5,-1,5,50,0,0,0,0,0" y="-49.64" color="#000000" x="21.62" rotation="0"/>
-        <line x2="40" y1="-55" length2="1.5" x1="40" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-22" end2="none"/>
-        <polygon x2="40" y1="-10" y5="-10" closed="false" x3="45" x1="40" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-5" antialias="false" y2="10" y3="5" x5="40" x4="45"/>
-        <dynamic_text frame="false" z="19" uuid="{40bbd647-1335-44e7-8727-8b665b9b4805}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Halignment="AlignLeft" y="99" keep_visual_rotation="true" x="-30" rotation="0" Valignment="AlignTop" text_from="ElementInfo">
+        <line x1="0" y1="-55" x2="0" y2="-30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="-56" x2="-20.07" y2="-22.82" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="1" x="-17" y="11" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="U1" x="-18" y="-50" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="20" y1="-55" x2="20" y2="-22.77" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="-56" x2="20" y2="-51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="-22" x2="26" y2="-16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="U2" x="21.62" y="-49.64" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="40" y1="-55" x2="40" y2="-22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="40" y1="-10" x2="40" y2="10" x3="45" y3="5" x4="45" y4="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="-30" y="99" z="19" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{40bbd647-1335-44e7-8727-8b665b9b4805}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>function</info_name>
         </dynamic_text>
-        <polygon x2="60" y1="0" closed="false" x1="45" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" y2="0"/>
-        <rect width="40" ry="0" y="-10" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false" x="60"/>
-        <rect width="15" ry="0" y="-55" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="35" antialias="false" x="60"/>
-        <polygon x2="-15" y1="-50" closed="false" x3="60" x1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-45" y3="-45"/>
-        <polygon x2="25" y1="-35" y5="-30" x7="60" closed="false" x3="55" x6="60" x1="20" y6="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-30" antialias="false" y2="-30" y3="-30" x5="60" y7="-30" x4="55"/>
-        <polygon x2="105" y1="-41" y5="10" closed="false" x3="105" x1="75" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="20" antialias="false" y2="-41" y3="20" x5="80" x4="80"/>
-        <polygon x2="80" y1="-10" closed="false" x3="75" x1="80" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y2="-34" y3="-34"/>
-        <rect width="180" ry="0" y="-60" rx="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" height="95" antialias="false" x="-60"/>
-        <line x2="69" y1="-42" length2="1.5" x1="69" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-34" end2="none"/>
-        <line x2="72" y1="-38" length2="1.5" x1="69" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-38" end2="none"/>
-        <line x2="62" y1="-38" length2="1.5" x1="65" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" antialias="false" y2="-38" end2="none"/>
-        <polygon x2="65" y1="-38" closed="false" x3="65" x1="69" style="line-style:normal;line-weight:normal;filling:none;color:black" y4="-38" antialias="false" y2="-34" y3="-42" x4="69"/>
-        <terminal type="Generic" uuid="{255666a6-5742-a8b0-ce18-a7ceb2692b70}" name="" y="-55" orientation="n" x="40"/>
-        <terminal type="Generic" uuid="{606f83a3-147c-f0f6-f2a3-533b909cf756}" name="" y="-55" orientation="n" x="0"/>
-        <terminal type="Generic" uuid="{730dcd35-855c-2424-2fe0-8e10353104f9}" name="" y="-55" orientation="n" x="20"/>
-        <terminal type="Generic" uuid="{8fc8b975-b34d-b3f9-f5c5-a45c10d7242e}" name="" y="-55" orientation="n" x="-20"/>
+        <polygon x1="45" y1="0" x2="60" y2="0" closed="false" antialias="false" style="line-style:dashed;line-weight:normal;filling:none;color:black"/>
+        <rect x="60" y="-10" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="60" y="-55" width="15" height="35" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-20" y1="-50" x2="-15" y2="-45" x3="60" y3="-45" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="20" y1="-35" x2="25" y2="-30" x3="55" y3="-30" x4="60" y4="-30" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="75" y1="-41" x2="105" y2="-41" x3="105" y3="20" x4="80" y4="20" x5="80" y5="10" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="80" y1="-10" x2="80" y2="-34" x3="75" y3="-34" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <rect x="-60" y="-60" width="180" height="95" rx="0" ry="0" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="69" y1="-42" x2="69" y2="-34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="69" y1="-38" x2="72" y2="-38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="65" y1="-38" x2="62" y2="-38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="69" y1="-38" x2="65" y2="-34" x3="65" y3="-42" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{255666a6-5742-a8b0-ce18-a7ceb2692b70}" name="" x="40" y="-55" orientation="n" type="Generic"/>
+        <terminal uuid="{606f83a3-147c-f0f6-f2a3-533b909cf756}" name="" x="0" y="-55" orientation="n" type="Generic"/>
+        <terminal uuid="{730dcd35-855c-2424-2fe0-8e10353104f9}" name="" x="20" y="-55" orientation="n" type="Generic"/>
+        <terminal uuid="{8fc8b975-b34d-b3f9-f5c5-a45c10d7242e}" name="" x="-20" y="-55" orientation="n" type="Generic"/>
     </description>
 </definition>

@@ -1,31 +1,29 @@
-<definition height="50" link_type="simple" hotspot_y="24" version="0.100.0" type="element" width="30" hotspot_x="14">
-    <uuid uuid="{21bace54-9caa-45e5-80a5-2a8522322600}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{f69ab4fc-577c-bb25-9644-3d35fd1d4c60}"/>
     <names>
-        <name lang="ca">Llum</name>
-        <name lang="pt">Lâmpada</name>
+        <name lang="cs">Kontrolka</name>
         <name lang="de">Lampe, blau</name>
         <name lang="en">Light</name>
-        <name lang="fr">Lampe</name>
-        <name lang="cs">Kontrolka</name>
         <name lang="es">Lámpara azul</name>
+        <name lang="fr">Lampe</name>
+        <name lang="pt">Lâmpada</name>
         <name lang="ru">Лампа</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length2="1.5" y1="-20" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
-        <circle y="-8.5" antialias="true" diameter="17" style="line-style:normal;line-weight:normal;filling:blue;color:black" x="-8.5"/>
-        <line length2="1.5" y1="-5.33" antialias="false" x1="6.22" x2="-6.14" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5.12"/>
-        <line length2="1.5" y1="-5.33" antialias="false" x1="-6.14" x2="6.22" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5.12"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="UserText" y="-8.5" z="5" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{5e3bea5c-4602-45c1-9dca-be100942ed3f}" x="15" keep_visual_rotation="false" Valignment="AlignTop">
+        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-8.5" y="-8.5" width="17" height="17" style="line-style:normal;line-weight:normal;filling:blue;color:black" antialias="true"/>
+        <line x1="6.22" y1="-5.33" x2="-6.14" y2="5.12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-6.14" y1="-5.33" x2="6.22" y2="5.12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="15" y="-8.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{5e3bea5c-4602-45c1-9dca-be100942ed3f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
         </dynamic_text>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-5.5" z="6" Halignment="AlignLeft" frame="false" font="Sans Serif,6,-1,5,50,0,0,0,0,0" uuid="{add0969f-5504-4c50-bbc3-3f2183db4025}" x="5.5" keep_visual_rotation="false" Valignment="AlignTop">
+        <dynamic_text x="5.5" y="-5.5" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{add0969f-5504-4c50-bbc3-3f2183db4025}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="20" orientation="s" name="A2" type="Generic" uuid="{78c445e3-750a-444b-80c3-62f11922386c}" x="0"/>
-        <terminal y="-20" orientation="n" name="A1" type="Generic" uuid="{a18642fe-cb88-46c0-a178-1ec47b939b27}" x="0"/>
+        <terminal uuid="{78c445e3-750a-444b-80c3-62f11922386c}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{a18642fe-cb88-46c0-a178-1ec47b939b27}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

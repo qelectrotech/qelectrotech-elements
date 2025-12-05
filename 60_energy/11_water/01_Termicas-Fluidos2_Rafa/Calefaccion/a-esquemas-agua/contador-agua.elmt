@@ -1,24 +1,23 @@
-<definition type="element" link_type="simple" hotspot_x="14" width="40" height="20" hotspot_y="10" version="0.100.0">
-    <uuid uuid="{f52316e0-12dd-4c3e-a7ed-898206555ba0}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="20" hotspot_x="20" hotspot_y="10">
+    <uuid uuid="{e8e7aa4e-60e5-2a86-ca25-c761ad7e2a9a}"/>
     <names>
-        <name lang="ca">Comptador d'aigua</name>
+        <name lang="ca">Comtador aigua</name>
+        <name lang="en">Water meter</name>
         <name lang="es">Contador de agua</name>
         <name lang="fr">Compteur d'eau</name>
-        <name lang="en">Water meter</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="8" x3="-2.55" x4="11.94" y2="-7.1636" y4="8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true" x1="11.94" x2="-2.55" y3="7.77827"/>
-        <rect ry="0" rx="0" x="-3" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y="-8"/>
-        <line y1="0" end2="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="-9" x2="-3" length1="1.5" end1="none"/>
-        <line y1="0" end2="none" y2="0" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="13.6545" x2="18.2909" length1="1.5" end1="none"/>
-        <dynamic_text z="5" text_width="-1" rotation="0" x="-8" text_from="ElementInfo" uuid="{e374b8c2-1d22-41db-8d73-eef9b646e757}" frame="false" Valignment="AlignTop" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="-25">
+        <polygon x1="11.94" y1="8" x2="-2.55" y2="-7.16" x3="-2.55" y3="7.78" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <rect x="-3" y="-8" width="16" height="16" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-9" y1="0" x2="-3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="13.65" y1="0" x2="18.29" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-8" y="-25" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e374b8c2-1d22-41db-8d73-eef9b646e757}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal name="" type="Generic" x="-9.75" uuid="{4a166814-0345-4400-954c-dcdbd333f665}" y="0" orientation="w"/>
-        <terminal name="" type="Generic" x="20" uuid="{5d231846-21da-46cf-bd3d-2e0fc48c7956}" y="0" orientation="e"/>
+        <terminal uuid="{4a166814-0345-4400-954c-dcdbd333f665}" name="" x="-10" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{5d231846-21da-46cf-bd3d-2e0fc48c7956}" name="" x="20" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

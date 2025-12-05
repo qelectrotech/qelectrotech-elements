@@ -1,39 +1,37 @@
-<definition height="30" version="0.100.0" hotspot_x="4" width="10" link_type="terminal" type="element" hotspot_y="14">
-    <uuid uuid="{c4303d73-7c10-47cc-9412-951f5bb4d451}"/>
+<definition version="0.100.0" type="element" link_type="terminal" width="20" height="40" hotspot_x="10" hotspot_y="20">
+    <uuid uuid="{bf19dfb4-0788-4a3f-b565-fcabc5a23978}"/>
     <names>
-        <name lang="ca">Born de continuïtat</name>
-        <name lang="cs">Spojovací svorka</name>
-        <name lang="fr">Borne continuité</name>
-        <name lang="ru">Клеммное соединение</name>
-        <name lang="pt">Terminal de combinação</name>
-        <name lang="pl">Zacisk</name>
-        <name lang="es">Terminal de unión</name>
         <name lang="ar">طرف توصيل</name>
+        <name lang="cs">Spojovací svorka</name>
         <name lang="de">Klemme</name>
-        <name lang="it">Terminale di unione</name>
-        <name lang="hu">Sorkapocs</name>
         <name lang="en">Terminal block</name>
+        <name lang="es">Terminal de unión</name>
+        <name lang="fr">Borne continuité</name>
+        <name lang="hu">Sorkapocs</name>
+        <name lang="it">Terminale di unione</name>
         <name lang="nl">klem doorgang</name>
+        <name lang="pl">Zacisk</name>
+        <name lang="pt">Terminal de combinação</name>
+        <name lang="ru">Клеммное соединение</name>
     </names>
     <kindInformations>
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="-2.5" Halignment="AlignLeft" Valignment="AlignTop" z="1" font="Sans Serif,7,-1,5,50,0,0,0,0,0" uuid="{4fd10592-5123-45bd-8350-1728f89bcab3}" frame="false" text_from="UserText" x="5" text_width="-1" keep_visual_rotation="false" rotation="0">
+        <dynamic_text x="5" y="-2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{4fd10592-5123-45bd-8350-1728f89bcab3}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular">
             <text>_</text>
         </dynamic_text>
-        <dynamic_text y="-18" Halignment="AlignLeft" Valignment="AlignTop" z="2" font="Sans Serif,10,-1,5,50,0,0,0,0,0" uuid="{7c991418-29d1-42a3-af6e-bae38c949416}" frame="false" text_from="ElementInfo" x="5" text_width="-1" keep_visual_rotation="false" rotation="0">
+        <dynamic_text x="5" y="-18" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7c991418-29d1-42a3-af6e-bae38c949416}" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" x2="0" antialias="false" length1="1.5" length2="1.5" y1="10" y2="3" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none"/>
-        <line x1="0" x2="0" antialias="false" length1="1.5" length2="1.5" y1="-10" y2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" end2="none"/>
-        <circle y="-2.5" antialias="true" diameter="5" x="-2.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal y="-10" name="" orientation="n" uuid="{396041da-b0d7-480a-8c0b-5bf2b1cca6f5}" x="0" type="Generic"/>
-        <terminal y="10" name="" orientation="s" uuid="{ce25d169-cbfd-4df9-8f1a-b808b4167e9d}" x="0" type="Generic"/>
+        <line x1="0" y1="10" x2="0" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-10" x2="0" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-2.5" y="-2.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <terminal uuid="{396041da-b0d7-480a-8c0b-5bf2b1cca6f5}" name="" x="0" y="-10" orientation="n" type="Generic"/>
+        <terminal uuid="{ce25d169-cbfd-4df9-8f1a-b808b4167e9d}" name="" x="0" y="10" orientation="s" type="Generic"/>
     </description>
 </definition>

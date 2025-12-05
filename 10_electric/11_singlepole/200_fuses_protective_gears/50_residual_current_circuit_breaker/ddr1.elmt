@@ -1,40 +1,38 @@
-<definition type="element" version="0.100.0" hotspot_x="13" hotspot_y="24" width="20" height="50" link_type="master">
-    <uuid uuid="{80510119-78a2-4789-914e-d3f7da4a292b}"/>
+<definition version="0.100.0" type="element" link_type="master" width="50" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{417fc892-48ff-7fba-2f93-2ceb6fcce75d}"/>
     <names>
-        <name lang="ca">Interruptor residual amb sobrecàrrega</name>
+        <name lang="ar">قاطع تفاضلي</name>
+        <name lang="cs">Proudový chránič</name>
         <name lang="de">Fehlerstromschutzschalter 1-polig</name>
         <name lang="en">Residual Circuit Breaker with Overload</name>
-        <name lang="pl">Wyłącznik różnicowoprądowy</name>
-        <name lang="ru">Дифавтомат</name>
-        <name lang="pt">Disjunctor diferencial</name>
-        <name lang="ar">قاطع تفاضلي</name>
-        <name lang="nl">Aardlekschakelaar + automaat</name>
-        <name lang="fr">Disjoncteur différentiel</name>
         <name lang="es">Dispositivo diferenciale residual</name>
-        <name lang="cs">Proudový chránič</name>
+        <name lang="fr">Disjoncteur différentiel</name>
         <name lang="it">Interruttore differenziale</name>
+        <name lang="nl">Aardlekschakelaar + automaat</name>
+        <name lang="pl">Wyłącznik różnicowoprądowy</name>
+        <name lang="pt">Disjunctor diferencial</name>
+        <name lang="ru">Дифавтомат</name>
     </names>
     <kindInformations>
         <kindInformation name="type">protection</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" antialias="false" end1="none" length2="1.5" length1="1.5" x1="0" y2="-10" x2="0" end2="none"/>
-        <dynamic_text y="-18" x="20" frame="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" z="2" text_width="-1" uuid="{30fb21b8-91f3-475c-b1c3-3cf3844fb9e1}" Valignment="AlignTop">
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="20" y="-18" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{30fb21b8-91f3-475c-b1c3-3cf3844fb9e1}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" antialias="false" end1="none" length2="1.5" length1="1.5" x1="2" y2="-8" x2="-2" end2="none"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" antialias="false" end1="none" length2="1.5" length1="1.5" x1="-2" y2="-8" x2="2" end2="none"/>
-        <dynamic_text y="2" x="24" frame="false" Halignment="AlignLeft" font="Sans Serif,5,-1,5,50,0,0,0,0,0" text_from="UserText" rotation="0" keep_visual_rotation="false" z="5" text_width="-1" uuid="{8213dca5-945a-4bcc-9665-607a3215bd77}" Valignment="AlignTop">
+        <line x1="2" y1="-12" x2="-2" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-2" y1="-12" x2="2" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="24" y="2" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{8213dca5-945a-4bcc-9665-607a3215bd77}" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular">
             <text>___mA</text>
         </dynamic_text>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" y1="20" antialias="true" y3="-9" closed="false" x3="-7" x1="0" y2="10" x2="0"/>
-        <ellipse y="11" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-4.5" antialias="true" width="9" height="4"/>
-        <polygon style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="0" antialias="false" y3="13" closed="false" x3="-10" x4="-5" y4="13" x1="-4" y2="0" x2="-10"/>
-        <terminal orientation="n" type="Generic" y="-20" name="" x="0" uuid="{99b90a09-34ec-4593-900a-b27d049b924b}"/>
-        <terminal orientation="s" type="Generic" y="20" name="" x="0" uuid="{f9966601-d33c-44e0-af73-4665678c0966}"/>
+        <polygon x1="0" y1="20" x2="0" y2="10" x3="-7" y3="-9" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse x="-4.5" y="11" width="9" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="-4" y1="0" x2="-10" y2="0" x3="-10" y3="13" x4="-5" y4="13" closed="false" antialias="false" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
+        <terminal uuid="{99b90a09-34ec-4593-900a-b27d049b924b}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{f9966601-d33c-44e0-af73-4665678c0966}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

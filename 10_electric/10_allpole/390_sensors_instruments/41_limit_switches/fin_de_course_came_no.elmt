@@ -1,34 +1,32 @@
-<definition link_type="simple" version="0.100.0" hotspot_x="31" hotspot_y="29" type="element" width="40" height="60">
-    <uuid uuid="{5121e225-10e2-438b-a786-e8239f381af7}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{e033b8b5-4166-e9f7-9c70-c79c08374bf9}"/>
     <names>
-        <name lang="ca">Interruptor de lleves (NO)</name>
-        <name lang="el">Τερματικό, Ανοικτό</name>
-        <name lang="ru">Концевой контакт (НР)</name>
-        <name lang="es">Final de carrera</name>
-        <name lang="nl">Nokkenschakelaar (NO)</name>
-        <name lang="pt">Fim de curso (NO)</name>
-        <name lang="it">Finecorsa (NA)</name>
-        <name lang="cs">Vačkový spínač NO</name>
         <name lang="ar">مفتاح نهاية مشوار (NO)  بحدبة دورانية</name>
+        <name lang="cs">Vačkový spínač NO</name>
         <name lang="de">Schliesser Steuernocken</name>
+        <name lang="el">Τερματικό, Ανοικτό</name>
         <name lang="en">Cam switch (NO)</name>
+        <name lang="es">Final de carrera</name>
         <name lang="fr">Fin de course came (no)</name>
+        <name lang="it">Finecorsa (NA)</name>
+        <name lang="nl">Nokkenschakelaar (NO)</name>
         <name lang="pl">Zestyk zwierny łącznika krańcowego</name>
+        <name lang="pt">Fim de curso (NO)</name>
+        <name lang="ru">Концевой контакт (НР)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line end1="none" style="line-style:dashed;line-weight:thin;filling:none;color:black" x1="-19" length2="1.5" y2="-3" end2="none" y1="-3" antialias="false" length1="1.5" x2="-3"/>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" x3="-15" closed="false" x1="-20" y2="-3" y1="-7.5" antialias="false" x2="-20" y3="-3"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" x3="0" closed="false" x1="-5" y2="10" y1="-10" antialias="true" x2="0" y3="20"/>
-        <arc style="line-style:normal;line-weight:thin;filling:none;color:black" y="-7.5" start="90" antialias="true" angle="275" width="10" height="10" x="-25"/>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" rotation="0" text_from="ElementInfo" Valignment="AlignTop" uuid="{fcbe77c7-4775-45cb-9332-43866ff525f3}" y="-9.5" frame="false" keep_visual_rotation="false" x="2.75" z="5">
+        <line x1="-19" y1="-3" x2="-3" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <polygon x1="-20" y1="-7.5" x2="-20" y2="-3" x3="-15" y3="-3" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <arc x="-25" y="-7.5" width="10" height="10" start="90" angle="275" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="2.75" y="-9.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{fcbe77c7-4775-45cb-9332-43866ff525f3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="0" length2="1.5" y2="-10" end2="none" y1="-20" antialias="false" length1="1.5" x2="0"/>
-        <terminal name="" orientation="n" uuid="{d9943685-c931-4032-9f2f-234d525c3d16}" type="Generic" y="-21" x="0"/>
-        <terminal name="" orientation="s" uuid="{34611bed-3210-4657-95ff-3dcd9bc59c91}" type="Generic" y="21" x="0"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{d9943685-c931-4032-9f2f-234d525c3d16}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{34611bed-3210-4657-95ff-3dcd9bc59c91}" name="" x="0" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

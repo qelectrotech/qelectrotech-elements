@@ -1,33 +1,31 @@
-<definition type="element" hotspot_x="15" link_type="simple" hotspot_y="24" version="0.100.0" width="40" height="50">
-    <uuid uuid="{aa46cbc4-a0ec-48cd-a7dd-ba2c820552ce}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{795601d3-2e71-8523-12d2-d9fac8558531}"/>
     <names>
-        <name lang="ca">EC L2A</name>
-        <name lang="pl">EC L2A</name>
-        <name lang="fr">EC L2A</name>
-        <name lang="es">EC L2A</name>
-        <name lang="de">EC L2A</name>
-        <name lang="cs">EC L2A</name>
-        <name lang="en">EC L2A</name>
-        <name lang="nl">EC L2A</name>
         <name lang="ar">EC L2A</name>
+        <name lang="cs">EC L2A</name>
+        <name lang="de">EC L2A</name>
+        <name lang="en">EC L2A</name>
+        <name lang="es">EC L2A</name>
+        <name lang="fr">EC L2A</name>
         <name lang="it">EC L2A</name>
+        <name lang="nl">EC L2A</name>
+        <name lang="pl">EC L2A</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-7.53" y="-12.53" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="25.0599" antialias="true"/>
-        <circle x="-9.5602" y="-14.5602" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="29.1204" antialias="true"/>
-        <line y2="20" y1="4" x2="10" length2="1.5" end1="none" x1="10" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" antialias="false"/>
-        <line y2="-20" y1="-5" x2="0" length2="1.5" end1="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" antialias="false"/>
-        <line y2="20" y1="4" x2="0" length2="1.5" end1="none" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" end2="none" antialias="false"/>
-        <dynamic_text Valignment="AlignTop" rotation="0" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" text_width="-1" x="22.5" y="-8.16667" z="9" keep_visual_rotation="false" text_from="ElementInfo" Halignment="AlignLeft" uuid="{4d89bf79-3a8a-45de-8c4d-5b049f9c3cc3}">
+        <ellipse x="-7.53" y="-12.53" width="25.06" height="25.06" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-9.56" y="-14.56" width="29.12" height="29.12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="10" y1="4" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-5" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="4" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="22.5" y="-8.17" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4d89bf79-3a8a-45de-8c4d-5b049f9c3cc3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x3="10" y2="-5" y3="-5" y1="3" x2="0" closed="false" x1="3" x4="13" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" y4="3"/>
-        <terminal type="Generic" orientation="n" x="0" y="-20" name="1" uuid="{e5f6ffa0-afdc-464d-ac87-577e93d5f718}"/>
-        <terminal type="Generic" orientation="s" x="0" y="20" name="2" uuid="{78736581-a0db-4aee-a1fe-b2a790e54015}"/>
-        <terminal type="Generic" orientation="s" x="10" y="20" name="3" uuid="{2ebe733e-c260-4a7e-80e0-c688d725929c}"/>
+        <polygon x1="3" y1="3" x2="0" y2="-5" x3="10" y3="-5" x4="13" y4="3" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{e5f6ffa0-afdc-464d-ac87-577e93d5f718}" name="1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{78736581-a0db-4aee-a1fe-b2a790e54015}" name="2" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{2ebe733e-c260-4a7e-80e0-c688d725929c}" name="3" x="10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

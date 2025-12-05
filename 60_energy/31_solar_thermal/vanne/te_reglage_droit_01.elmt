@@ -1,31 +1,29 @@
-<definition width="30" link_type="simple" hotspot_y="10" version="0.100.0" type="element" hotspot_x="14" height="20">
-    <uuid uuid="{024c3dab-7807-46b9-aef5-9b05c6da57a6}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="20" hotspot_x="20" hotspot_y="10">
+    <uuid uuid="{e9b89d19-1730-94e7-be5b-3725238aafc6}"/>
     <names>
-        <name lang="ca">Conjunt de camiseta de colze</name>
-        <name lang="cs">Regulační uzávěr (prostý)</name>
-        <name lang="nl">Elleboog</name>
-        <name lang="fr">Té de régalge "droit"</name>
-        <name lang="pl">Zawór (prosty)</name>
-        <name lang="en">Elbow Tee Set </name>
-        <name lang="it">Raccordo</name>
         <name lang="ar">رابط بتعديل "مستقيم "</name>
-        <name lang="es">T de salida "derecha" </name>
+        <name lang="cs">Regulační uzávěr (prostý)</name>
+        <name lang="en">Elbow Tee Set</name>
+        <name lang="es">T de salida "derecha"</name>
+        <name lang="fr">Té de régalge "droit"</name>
+        <name lang="it">Raccordo</name>
+        <name lang="nl">Elleboog</name>
+        <name lang="pl">Zawór (prosty)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle y="-2.2361" antialias="true" x="-2.2361" diameter="4.47214" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle y="-1" antialias="true" x="-1" diameter="2" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y4="1" antialias="true" y3="5" x3="-8" y1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-5" x2="-8" x1="-2" x4="-2"/>
-        <polygon y4="1" antialias="true" y3="5" x3="8" y1="-1" style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" y2="-5" x2="8" x1="2" x4="2"/>
-        <line length2="1.5" antialias="false" length1="1.5" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x2="-9" x1="-10" end1="none"/>
-        <line length2="1.5" antialias="false" length1="1.5" end2="none" y1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x2="8" x1="10" end1="none"/>
-        <dynamic_text y="5" frame="false" text_from="ElementInfo" x="-5" font="Sans Serif,6,-1,5,50,0,0,0,0,0" z="7" text_width="-1" uuid="{b3c9d712-3f7f-45ae-b22b-1c24c3b7d492}" Valignment="AlignTop" rotation="0" keep_visual_rotation="false" Halignment="AlignLeft">
+        <ellipse x="-2.24" y="-2.24" width="4.47" height="4.47" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-1" y="-1" width="2" height="2" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <polygon x1="-2" y1="-1" x2="-8" y2="-5" x3="-8" y3="5" x4="-2" y4="1" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="2" y1="-1" x2="8" y2="-5" x3="8" y3="5" x4="2" y4="1" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="-10" y1="0" x2="-9" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="0" x2="8" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-5" y="5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b3c9d712-3f7f-45ae-b22b-1c24c3b7d492}" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="0" x="-10" name="" type="Generic" uuid="{39308108-37ce-4ebd-a3c3-c09bcc6a7ee3}" orientation="w"/>
-        <terminal y="0" x="10" name="" type="Generic" uuid="{b745d85c-b31a-4d10-b608-adb2b5635434}" orientation="e"/>
+        <terminal uuid="{39308108-37ce-4ebd-a3c3-c09bcc6a7ee3}" name="" x="-10" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{b745d85c-b31a-4d10-b608-adb2b5635434}" name="" x="10" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

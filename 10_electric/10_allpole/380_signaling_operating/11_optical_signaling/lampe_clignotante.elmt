@@ -1,35 +1,33 @@
-<definition height="50" link_type="simple" hotspot_y="24" version="0.100.0" type="element" width="30" hotspot_x="13">
-    <uuid uuid="{37aa83ee-f787-49d5-8f46-613af8171811}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="13" hotspot_y="30">
+    <uuid uuid="{4050a19c-b40c-edd4-7925-ca179a35aa28}"/>
     <names>
-        <name lang="ca">Llum intermitent</name>
-        <name lang="pt">Luz intermitente</name>
+        <name lang="ar">مصباح رفّاف</name>
+        <name lang="cs">Blikající světlo</name>
         <name lang="de">Blinkleuchte</name>
-        <name lang="en">Flashing light</name>
-        <name lang="it">Luce intermittente</name>
-        <name lang="fr">Lampe clignotante</name>
         <name lang="el">Λυχνία με παλλόμενο φως</name>
+        <name lang="en">Flashing light</name>
+        <name lang="es">Luz intermitente</name>
+        <name lang="fr">Lampe clignotante</name>
+        <name lang="it">Luce intermittente</name>
         <name lang="nl">Knipperlamp</name>
         <name lang="pl">Lampa sygnalizacyjna o świetle migowym</name>
-        <name lang="cs">Blikající světlo</name>
-        <name lang="es">Luz intermitente</name>
-        <name lang="ar">مصباح رفّاف</name>
+        <name lang="pt">Luz intermitente</name>
         <name lang="ru">Проблесковый маяк</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon y1="20" x6="14" antialias="false" x1="5" x2="7" x3="7" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" y5="20" y6="20" y4="15" y3="15" closed="false" x4="12" x5="12"/>
-        <circle y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="7.03" x2="-7.03" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="-7.03" x2="7.03" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-20" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
-        <line length2="1.5" y1="10" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-9.5" z="7" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{80776b1d-b05a-45df-a036-9c2a5f62e3fa}" x="15" keep_visual_rotation="false" Valignment="AlignTop">
+        <polygon x1="5" y1="20" x2="7" y2="20" x3="7" y3="15" x4="12" y4="15" x5="12" y5="20" x6="14" y6="20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="7" y1="-7" x2="-7" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-7" y1="-7" x2="7" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="15" y="-9.5" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{80776b1d-b05a-45df-a036-9c2a5f62e3fa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="-20" orientation="n" name="A1" type="Generic" uuid="{213d43e9-fb31-4a79-8a69-359e6da294a5}" x="0"/>
-        <terminal y="20" orientation="s" name="A2" type="Generic" uuid="{cfa2ea9f-9cd0-4824-83e1-2401302b2efc}" x="0"/>
+        <terminal uuid="{213d43e9-fb31-4a79-8a69-359e6da294a5}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{cfa2ea9f-9cd0-4824-83e1-2401302b2efc}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,46 +1,35 @@
-<definition hotspot_x="49" type="element" height="50" link_type="simple" width="110" version="0.100.0" hotspot_y="30">
-    <uuid uuid="{71f55054-3d4b-4f46-8a3e-240da466c326}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="110" height="50" hotspot_x="49" hotspot_y="27">
+    <uuid uuid="{80305610-c061-f81a-1305-51e3b86963a8}"/>
     <names>
-        <name lang="ca">Canviador de nivell I2C</name>
-        <name lang="en">I2C Level Shifter</name>
         <name lang="cs">Převodník úrovně I2C</name>
+        <name lang="en">I2C Level Shifter</name>
     </names>
     <elementInformations>
-        <elementInformation show="1" name="manufacturer_reference"></elementInformation>
-        <elementInformation show="1" name="label"></elementInformation>
-        <elementInformation show="1" name="machine_manufacturer_reference"></elementInformation>
-        <elementInformation show="1" name="supplier"></elementInformation>
-        <elementInformation show="1" name="comment"></elementInformation>
         <elementInformation show="1" name="manufacturer">Arduino</elementInformation>
-        <elementInformation show="1" name="quantity"></elementInformation>
-        <elementInformation show="1" name="description"></elementInformation>
-        <elementInformation show="1" name="designation"></elementInformation>
-        <elementInformation show="1" name="plant"></elementInformation>
-        <elementInformation show="1" name="unity"></elementInformation>
     </elementInformations>
-    <informations></informations>
+    <informations>edited with "QET_ElementScaler"</informations>
     <description>
-        <text y="-16" rotation="0" text="BVCC" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="-34"/>
-        <text y="-6" rotation="0" text="BSCL" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="-34"/>
-        <text y="4" rotation="0" text="BSDA" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="-34"/>
-        <text y="14" rotation="0" text="BGND" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="-34"/>
-        <text y="-16" rotation="0" text="AVCC" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="19"/>
-        <text y="-6" rotation="0" text="ASCL" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="19"/>
-        <text y="4" rotation="0" text="ASDA" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="18"/>
-        <text y="14" rotation="0" text="AGND" font="Sans Serif,7,-1,5,50,0,0,0,0,0" color="#000000" x="17"/>
-        <dynamic_text uuid="{e8e5ef34-1584-4062-a83a-d8e6abc9700a}" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" keep_visual_rotation="true" y="31" rotation="-1" z="9" font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="-24.19" frame="false" Valignment="AlignTop">
+        <text text="BVCC" x="-34" y="-16" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="BSCL" x="-34" y="-6" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="BSDA" x="-34" y="4" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="BGND" x="-34" y="14" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="AVCC" x="19" y="-16" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="ASCL" x="19" y="-6" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="ASDA" x="18" y="4" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="AGND" x="17" y="14" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="-24.19" y="31" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="-1" keep_visual_rotation="true" text_from="ElementInfo" uuid="{e8e5ef34-1584-4062-a83a-d8e6abc9700a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="41" y="-25" ry="0" width="101" antialias="false" x="-45"/>
-        <text y="-20" rotation="90" text="I2C Level&#xa;shifter" font="Sans Serif,5,-1,5,50,0,0,0,0,0" color="#000000" x="7"/>
-        <terminal uuid="{e0decf22-47bf-42d6-8647-5302ac4734bc}" type="Generic" orientation="w" y="10" name="" x="-40"/>
-        <terminal uuid="{28dfbd15-0536-3d29-0f93-84aca61f7f5c}" type="Generic" orientation="w" y="0" name="" x="-40"/>
-        <terminal uuid="{bc572054-6672-fc15-562d-3c8d94581a30}" type="Generic" orientation="w" y="-10" name="" x="-40"/>
-        <terminal uuid="{97ab2ab1-d7b5-e792-9bc5-dbfd4c78427d}" type="Generic" orientation="w" y="-20" name="" x="-40"/>
-        <terminal uuid="{dac9d3a7-4e71-4047-78e6-7ebf966c4733}" type="Generic" orientation="e" y="10" name="" x="50"/>
-        <terminal uuid="{48ce601a-0d83-b87e-9fef-de0e59122c6c}" type="Generic" orientation="e" y="-20" name="" x="50"/>
-        <terminal uuid="{8b0d2305-878e-4cc2-f485-a157a321388f}" type="Generic" orientation="e" y="-10" name="" x="50"/>
-        <terminal uuid="{c673d218-0dfa-90f7-44b9-dd69e7d67174}" type="Generic" orientation="e" y="0" name="" x="50"/>
+        <rect x="-45" y="-25" width="101" height="41" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="I2C Level&#10;shifter" x="7" y="-20" rotation="90" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{e0decf22-47bf-42d6-8647-5302ac4734bc}" name="" x="-40" y="10" orientation="w" type="Generic"/>
+        <terminal uuid="{28dfbd15-0536-3d29-0f93-84aca61f7f5c}" name="" x="-40" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{bc572054-6672-fc15-562d-3c8d94581a30}" name="" x="-40" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{97ab2ab1-d7b5-e792-9bc5-dbfd4c78427d}" name="" x="-40" y="-20" orientation="w" type="Generic"/>
+        <terminal uuid="{dac9d3a7-4e71-4047-78e6-7ebf966c4733}" name="" x="50" y="10" orientation="e" type="Generic"/>
+        <terminal uuid="{48ce601a-0d83-b87e-9fef-de0e59122c6c}" name="" x="50" y="-20" orientation="e" type="Generic"/>
+        <terminal uuid="{8b0d2305-878e-4cc2-f485-a157a321388f}" name="" x="50" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{c673d218-0dfa-90f7-44b9-dd69e7d67174}" name="" x="50" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

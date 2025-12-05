@@ -1,34 +1,32 @@
-<definition width="50" version="0.100.0" height="50" type="element" hotspot_y="24" hotspot_x="36" link_type="simple">
-    <uuid uuid="{11cf6945-1236-44f5-b84c-805158da7416}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="60" hotspot_x="46" hotspot_y="30">
+    <uuid uuid="{14b461f5-724f-b3b7-1738-564ef7dcbda1}"/>
     <names>
-        <name lang="ca">Aïllament de guàrdia</name>
-        <name lang="pt">Dispositivo de guarda de isolamento</name>
-        <name lang="fr">CPI</name>
-        <name lang="pl">UKSI</name>
-        <name lang="de">Isolationsüberwachung (ICC)</name>
         <name lang="ar">مراقب دائم للعزل</name>
-        <name lang="nl">Isolatiebewaking</name>
         <name lang="cs">Kontrola izolačního stavu</name>
-        <name lang="ru">Контроль изоляции</name>
+        <name lang="de">Isolationsüberwachung (ICC)</name>
         <name lang="en">Guard isolation</name>
         <name lang="es">Aparato de vigilencia de aislamiento</name>
+        <name lang="fr">CPI</name>
         <name lang="it">Controllo isolamento</name>
+        <name lang="nl">Isolatiebewaking</name>
+        <name lang="pl">UKSI</name>
+        <name lang="pt">Dispositivo de guarda de isolamento</name>
+        <name lang="ru">Контроль изоляции</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x3="0" x1="3" y1="0" x2="5" y2="-5" antialias="true" y3="-3" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <dynamic_text Valignment="AlignTop" text_from="ElementInfo" uuid="{d4b4ff03-d2f0-4d99-9dee-7f5bee1fc470}" z="2" y="-6.95" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" frame="false" text_width="-1" x="13" Halignment="AlignLeft" keep_visual_rotation="false">
+        <polygon x1="3" y1="0" x2="5" y2="-5" x3="0" y3="-3" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <dynamic_text x="13" y="-6.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d4b4ff03-d2f0-4d99-9dee-7f5bee1fc470}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle diameter="18" y="-9" x="-9" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="-5" y1="5" x2="4" length2="1.5" y2="-4" length1="1.5" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <text color="#000000" y="4.75" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" x="-31.5" text="CPI"/>
-        <line x1="0" y1="9.5" x2="0" length2="1.5" y2="20" length1="1.5" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x1="0" y1="-20" x2="0" length2="1.5" y2="-9.5" length1="1.5" end2="none" antialias="false" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="s" uuid="{b94d18f8-9ad7-4c6a-a10c-1edd09d97b4f}" type="Generic" name="2" y="20" x="0"/>
-        <terminal orientation="n" uuid="{fdc849e2-24c2-4da0-8749-c89aab1818c9}" type="Generic" name="1" y="-20" x="0"/>
+        <ellipse x="-9" y="-9" width="18" height="18" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-5" y1="5" x2="4" y2="-4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="CPI" x="-31.5" y="4.75" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="0" y1="9.5" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-9.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{b94d18f8-9ad7-4c6a-a10c-1edd09d97b4f}" name="2" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{fdc849e2-24c2-4da0-8749-c89aab1818c9}" name="1" x="0" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

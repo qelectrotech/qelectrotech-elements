@@ -1,24 +1,22 @@
-<definition hotspot_x="15" hotspot_y="24" height="50" width="30" type="element" version="0.100.0" link_type="simple">
-    <uuid uuid="{dce41272-8246-4bc2-8071-c99389b61f5c}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="29">
+    <uuid uuid="{9c329792-4442-1d5d-b23b-4e864e171938}"/>
     <names>
-        <name lang="ca">Font de tensió ideal</name>
         <name lang="cs">Ideální zdroj napětí</name>
-        <name lang="es">Fuente de voltaje ideal</name>
         <name lang="de">ideale Spannungsquelle</name>
         <name lang="en">Ideal voltage source</name>
+        <name lang="es">Fuente de voltaje ideal</name>
         <name lang="fr">Source idéale de tension</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_from="ElementInfo" rotation="0" keep_visual_rotation="false" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" Valignment="AlignTop" y="2.5" z="1" x="5" uuid="{43357143-4432-421d-bccf-f95d35f008a0}" frame="false">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{43357143-4432-421d-bccf-f95d35f008a0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle diameter="20" y="-10" x="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line end1="none" y1="-20" x1="0" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0" y2="20" antialias="false"/>
-        <terminal y="20" x="0" name="" uuid="{279d029c-1357-4a67-92d9-b78ea42f104c}" orientation="s" type="Generic"/>
-        <terminal y="-19" x="0" name="" uuid="{03839b7a-4200-4d41-8750-e94a20b45b47}" orientation="n" type="Generic"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{279d029c-1357-4a67-92d9-b78ea42f104c}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{03839b7a-4200-4d41-8750-e94a20b45b47}" name="" x="0" y="-19" orientation="n" type="Generic"/>
     </description>
 </definition>

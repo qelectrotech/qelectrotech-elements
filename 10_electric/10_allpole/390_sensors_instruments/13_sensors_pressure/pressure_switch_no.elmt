@@ -1,43 +1,41 @@
-<definition height="60" link_type="simple" type="element" version="0.100.0" hotspot_x="15" hotspot_y="30" width="70">
-    <uuid uuid="{ac72f25e-b575-4236-a5ec-2f9dd7b142ce}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="60" hotspot_x="15" hotspot_y="31">
+    <uuid uuid="{f299f528-87b6-8775-40aa-d0733d8dbc52}"/>
     <names>
         <name lang="ar">راصد ضغط (برسوستات) - NO</name>
-        <name lang="ca">Pressostat (NO)</name>
-        <name lang="es">Presóstato NA</name>
-        <name lang="pl">Presostat (zestyk zwierny)</name>
-        <name lang="it">Presostato (NO)</name>
-        <name lang="fr">Pressostat (NO)</name>
-        <name lang="de">Druckschalter Schliesser</name>
-        <name lang="nl">Pressostaat 2 (NO)</name>
         <name lang="cs">Tlakový spínač NO</name>
+        <name lang="de">Druckschalter Schliesser</name>
         <name lang="en">Pressure switch (NO)</name>
+        <name lang="es">Presóstato NA</name>
+        <name lang="fr">Pressostat (NO)</name>
+        <name lang="it">Presostato (NO)</name>
+        <name lang="nl">Pressostaat 2 (NO)</name>
+        <name lang="pl">Presostat (zestyk zwierny)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text y="-9" text="PE" rotation="0" x="35" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <text y="-9" text="4" rotation="0" x="-2" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <text y="-9" text="3" rotation="0" x="18" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <circle y="-22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="5" x="17.5"/>
-        <circle y="-22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="5" x="37.5"/>
-        <rect y="8" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" rx="0" x="6" width="10" ry="0"/>
-        <text y="16" text="P" rotation="0" x="8" font="Sans Serif,6,-1,5,50,0,0,0,0,0" color="#000000"/>
-        <dynamic_text frame="false" y="-27.5" keep_visual_rotation="false" text_width="-1" uuid="{efa71f04-818c-4879-89ab-c025888be50d}" rotation="0" x="-40" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="8" Valignment="AlignTop" Halignment="AlignLeft" text_from="ElementInfo">
+        <text text="PE" x="35" y="-9" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="4" x="-2" y="-9" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="3" x="18" y="-9" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <ellipse x="17.5" y="-22.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="37.5" y="-22.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="6" y="8" width="10" height="10" rx="0" ry="0" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <text text="P" x="8" y="16" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="-40" y="-27.5" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{efa71f04-818c-4879-89ab-c025888be50d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle y="-22.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" diameter="5" x="-2.5"/>
-        <line y2="16" x2="30" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" length2="1.5" y1="4" x1="30" end2="none" end1="none"/>
-        <polygon y2="10" x2="40" x3="40" y5="-6" closed="false" style="line-style:dashdotted;line-weight:thin;filling:none;color:black" antialias="false" y3="-6" y1="10" y4="-6" x5="40" x1="30" x4="40"/>
-        <polygon y2="0" x2="0" x3="3" y5="0" closed="false" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" y3="0" y1="-6" y4="0" x5="3" x1="0" x4="3"/>
-        <polygon y2="0" x2="20" x3="18" y5="4" closed="false" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false" y3="0" y1="-6" x6="4" y4="4" x5="4" y6="4" x1="20" x4="4"/>
-        <line y2="2" x2="11" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false" length2="1.5" y1="8" x1="11" end2="none" end1="none"/>
-        <polygon x6="43" y4="25" y2="-20" y1="-20" x1="-3" y6="-20" x5="50" x3="-10" x8="43" y8="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" x7="43" x2="-10" y7="-20" x4="50" y3="25" antialias="false" closed="false" y5="-20"/>
-        <line y2="-20" x2="17" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="-20" x1="3" end2="none" end1="none"/>
-        <line y2="-20" x2="37" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" length2="1.5" y1="-20" x1="23" end2="none" end1="none"/>
-        <terminal y="-23" type="Generic" uuid="{443e1675-1388-493d-ae5c-f4e45aa06937}" orientation="n" x="40" name=""/>
-        <terminal y="-23" type="Generic" uuid="{c285719f-2855-4137-b39d-ce48598fe05f}" orientation="n" x="0" name=""/>
-        <terminal y="-23" type="Generic" uuid="{c44f247b-3642-476f-a077-e6e58649b49e}" orientation="n" x="20" name=""/>
+        <ellipse x="-2.5" y="-22.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="30" y1="4" x2="30" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <polygon x1="30" y1="10" x2="40" y2="10" x3="40" y3="-6" closed="false" antialias="false" style="line-style:dashdotted;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="0" y1="-6" x2="0" y2="0" x3="3" y3="0" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <polygon x1="20" y1="-6" x2="20" y2="0" x3="18" y3="0" x4="4" y4="4" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <line x1="11" y1="8" x2="11" y2="2" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <polygon x1="-3" y1="-20" x2="-10" y2="-20" x3="-10" y3="25" x4="50" y4="25" x5="50" y5="-20" x6="43" y6="-20" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="3" y1="-20" x2="17" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="23" y1="-20" x2="37" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{443e1675-1388-493d-ae5c-f4e45aa06937}" name="" x="40" y="-23" orientation="n" type="Generic"/>
+        <terminal uuid="{c285719f-2855-4137-b39d-ce48598fe05f}" name="" x="0" y="-23" orientation="n" type="Generic"/>
+        <terminal uuid="{c44f247b-3642-476f-a077-e6e58649b49e}" name="" x="20" y="-23" orientation="n" type="Generic"/>
     </description>
 </definition>

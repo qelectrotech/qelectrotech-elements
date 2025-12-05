@@ -1,32 +1,30 @@
-<definition link_type="terminal" version="0.100.0" type="element" hotspot_y="14" hotspot_x="4" width="10" height="30">
-    <uuid uuid="{175c2166-202d-42b8-a5b9-5524ab2deaf4}"/>
+<definition version="0.100.0" type="element" link_type="terminal" width="20" height="30" hotspot_x="10" hotspot_y="15">
+    <uuid uuid="{0ea10a55-b2b2-357a-cccf-8c49d7f071d7}"/>
     <names>
-        <name lang="ca">Saltar</name>
-        <name lang="hu">Átugrás összekötés nélkül</name>
-        <name lang="fr">Saut</name>
-        <name lang="de">Sprung</name>
-        <name lang="cs">Skok</name>
-        <name lang="pl">Brak połączenia</name>
         <name lang="ar">قفز</name>
-        <name lang="ru">Перемычка</name>
-        <name lang="it">Salto</name>
-        <name lang="es">Puente</name>
+        <name lang="cs">Skok</name>
+        <name lang="de">Sprung</name>
         <name lang="en">Jump</name>
+        <name lang="es">Puente</name>
+        <name lang="fr">Saut</name>
+        <name lang="hu">Átugrás összekötés nélkül</name>
+        <name lang="it">Salto</name>
+        <name lang="pl">Brak połączenia</name>
+        <name lang="ru">Перемычка</name>
     </names>
     <kindInformations>
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
-    <elementInformations/>
-    <informations></informations>
+    <informations>edited with "QET_ElementScaler"</informations>
     <description>
-        <arc angle="-180" style="line-style:normal;line-weight:normal;filling:none;color:black" start="90" antialias="true" y="-3" x="-3" width="6" height="6"/>
-        <dynamic_text font="Sans Serif,1,-1,5,0,0,0,0,0,0,normal" frame="false" z="2" Halignment="AlignLeft" y="-11.45" text_from="UserText" Valignment="AlignTop" x="1.5" keep_visual_rotation="true" rotation="0" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" text_width="-1">
+        <arc x="-3" y="-3" width="6" height="6" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="1.5" y="-11.45" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="UserText" uuid="{1a3e4d91-15cc-424b-99d0-25930d779fb6}" font="Liberation Sans,1,-1,5,0,0,0,0,0,0,Regular">
             <text>_</text>
         </dynamic_text>
-        <line y1="-7" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="-3" x2="0" end1="none" end2="none"/>
-        <line y1="3" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" antialias="false" y2="7" x2="0" end1="none" end2="none"/>
-        <terminal orientation="n" name="1" type="Generic" y="-7" x="0" uuid="{0e526923-265b-4fca-902c-1c1ad8e47de5}"/>
-        <terminal orientation="s" name="2" type="Generic" y="7" x="0" uuid="{946e7afb-d591-4d8f-9cd7-dbc06a3734de}"/>
+        <line x1="0" y1="-7" x2="0" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="3" x2="0" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{0e526923-265b-4fca-902c-1c1ad8e47de5}" name="1" x="0" y="-7" orientation="n" type="Generic"/>
+        <terminal uuid="{946e7afb-d591-4d8f-9cd7-dbc06a3734de}" name="2" x="0" y="7" orientation="s" type="Generic"/>
     </description>
 </definition>

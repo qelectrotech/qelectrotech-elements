@@ -1,18 +1,17 @@
-<definition version="0.100.0" type="element" hotspot_y="24" width="30" hotspot_x="24" height="50" link_type="slave">
-    <uuid uuid="{5f172d2d-4dfa-447f-bb36-af59f6c3913f}"/>
+<definition version="0.100.0" type="element" link_type="slave" width="40" height="60" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{2de0fe69-bdf1-051f-4d0b-35950c937ee7}"/>
     <names>
-        <name lang="ca">Contacte senzill</name>
-        <name lang="de">Wechsler</name>
-        <name lang="ru">Проктой контакт (НР)</name>
-        <name lang="el">Απλή μεταγωγική επαφή</name>
         <name lang="ar">مُلامس NO-NC</name>
         <name lang="cs">Přepínací kontakt</name>
-        <name lang="nl">enkel contact (NC/NO)</name>
-        <name lang="es">Contacto simple</name>
+        <name lang="de">Wechsler</name>
+        <name lang="el">Απλή μεταγωγική επαφή</name>
         <name lang="en">Simple contact</name>
-        <name lang="it">Contatto semplice (NC/NO)</name>
-        <name lang="pl">Zestyk przełączny przerwowy</name>
+        <name lang="es">Contacto simple</name>
         <name lang="fr">Contact NO - NC</name>
+        <name lang="it">Contatto semplice (NC/NO)</name>
+        <name lang="nl">enkel contact (NC/NO)</name>
+        <name lang="pl">Zestyk przełączny przerwowy</name>
+        <name lang="ru">Проктой контакт (НР)</name>
     </names>
     <kindInformations>
         <kindInformation name="type">simple</kindInformation>
@@ -22,15 +21,15 @@
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-15" antialias="true" y3="20" y1="-10" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" x3="0" y2="10"/>
-        <dynamic_text z="2" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="13" uuid="{e766279e-cb99-4d71-af02-0703dafac73d}" text_width="-1" keep_visual_rotation="false" text_from="ElementInfo" y="-15.5" rotation="0" Halignment="AlignLeft" frame="false">
+        <polygon x1="-15" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="13" y="-15.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e766279e-cb99-4d71-af02-0703dafac73d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" end1="none" antialias="false" y1="-20" length1="1.5" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-10" length2="1.5"/>
-        <polygon x1="-20" antialias="false" y3="-8" y1="-20" closed="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-20" x3="-12" y2="-8"/>
-        <terminal orientation="n" x="0" type="Generic" uuid="{69c4792e-5b2e-4c9e-8d01-eff45bc26593}" name="" y="-20"/>
-        <terminal orientation="s" x="0" type="Generic" uuid="{f149fc7c-a2ce-4407-afe4-02f03d29f571}" name="" y="20"/>
-        <terminal orientation="n" x="-20" type="Generic" uuid="{4c5fcd5c-fb7a-4e66-a115-017554a9bead}" name="" y="-20"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-20" y1="-20" x2="-20" y2="-8" x3="-12" y3="-8" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{69c4792e-5b2e-4c9e-8d01-eff45bc26593}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{f149fc7c-a2ce-4407-afe4-02f03d29f571}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{4c5fcd5c-fb7a-4e66-a115-017554a9bead}" name="" x="-20" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

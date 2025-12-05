@@ -1,29 +1,27 @@
-<definition type="element" width="50" version="0.100.0" link_type="simple" hotspot_y="65" height="70" hotspot_x="25">
-    <uuid uuid="{b08c002d-6316-4531-99f3-551af50ee0d0}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="70" hotspot_x="25" hotspot_y="65">
+    <uuid uuid="{cc7e2a7e-37a4-9774-dcb8-3806a60d528b}"/>
     <names>
-        <name lang="ca">Comptador de watt-hora, comptant en ambdues direccions de flux d'energia</name>
+        <name lang="cs">Watthodinový měřič pro energii v obou směrech</name>
         <name lang="de">Wattstundenzähler, der die Energie in beiden
 Energieflußrichtungen zählt (zur und von der
 Sammelschiene</name>
         <name lang="en">Watt-hour meter, counting in both energy flow directions</name>
         <name lang="fr">Compteur d'énergie échangée (en liaison avec
 le jeu de barres)</name>
-        <name lang="cs">Watthodinový měřič pro energii v obou směrech</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text text_width="-1" x="5" z="1" text_from="ElementInfo" y="12.5" keep_visual_rotation="false" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{11850ff5-6f3a-4c3c-88a8-257b2b1d4be7}" frame="false" rotation="0" Halignment="AlignLeft">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{11850ff5-6f3a-4c3c-88a8-257b2b1d4be7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-20" antialias="false" y="-40" ry="0" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" height="40" rx="0"/>
-        <text text="Wh" x="-8" y="-16" font="Sans Serif,9,-1,5,50,0,0,0,0,0" color="#000000" rotation="0"/>
-        <rect x="-20" antialias="false" y="-60" ry="0" width="40" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" rx="0"/>
-        <line x2="15" length1="1.5" end1="none" antialias="false" y1="-50" end2="none" x1="-15" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-50"/>
-        <line x2="-16" length1="1.5" end1="none" antialias="false" y1="-52" end2="none" x1="-16" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-48"/>
-        <polygon x2="-4" antialias="false" y1="-48" x1="-4" x3="-12" x4="-4" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-52" y3="-50" y4="-48"/>
-        <polygon x2="4" antialias="false" y1="-48" x1="4" x3="12" x4="4" style="line-style:normal;line-weight:normal;filling:black;color:black" y2="-52" y3="-50" y4="-48"/>
+        <rect x="-20" y="-40" width="40" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="Wh" x="-8" y="-16" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <rect x="-20" y="-60" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-15" y1="-50" x2="15" y2="-50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-16" y1="-52" x2="-16" y2="-48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-4" y1="-48" x2="-4" y2="-52" x3="-12" y3="-50" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <polygon x1="4" y1="-48" x2="4" y2="-52" x3="12" y3="-50" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
     </description>
 </definition>

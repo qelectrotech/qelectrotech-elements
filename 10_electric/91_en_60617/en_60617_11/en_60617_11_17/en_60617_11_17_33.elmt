@@ -1,32 +1,30 @@
-<definition version="0.100.0" width="100" link_type="simple" hotspot_y="18" height="40" type="element" hotspot_x="44">
-    <uuid uuid="{730dbfe1-0ad9-489f-b5a9-3aa8aed95eb5}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="110" height="40" hotspot_x="50" hotspot_y="17">
+    <uuid uuid="{4cfd1b09-6e1d-f33e-a956-7ff45ca3c36d}"/>
     <names>
-        <name lang="ca">Secció recta formada per dos sistemes de cablejat</name>
-        <name lang="en">Straight section consisting of two wiring systems</name>
-        <name lang="fr">Élément droit comprenant deux systèmes de
-canalisations A et B</name>
+        <name lang="cs">Přímý díl se systémy A a B</name>
         <name lang="de">Gerader Elektro-Installationskanal, bestehend
 aus zwei Verdrahtungskanal-Systemen, A und
 B</name>
-        <name lang="cs">Přímý díl se systémy A a B</name>
+        <name lang="en">Straight section consisting of two wiring systems</name>
+        <name lang="fr">Élément droit comprenant deux systèmes de
+canalisations A et B</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <text rotation="0" color="#000000" x="12.5" y="3.55" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="A"/>
-        <dynamic_text rotation="0" text_width="-1" Valignment="AlignTop" x="55" keep_visual_rotation="false" y="12.5" text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{f5bf5e44-0fa9-416f-9ce7-9660ee22fc15}" z="2" frame="false">
+        <text text="A" x="12.5" y="3.55" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <dynamic_text x="55" y="12.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f5bf5e44-0fa9-416f-9ce7-9660ee22fc15}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line antialias="false" x2="-40" x1="50" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-10" length1="1.5" end1="none" y2="-10"/>
-        <text rotation="0" color="#000000" x="12.5" y="13.55" font="Sans Serif,6,-1,5,50,0,0,0,0,0" text="B"/>
-        <line antialias="false" x2="-40" x1="-40" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-15" length1="1.5" end1="none" y2="-5"/>
-        <line antialias="false" x2="50" x1="50" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-15" length1="1.5" end1="none" y2="-5"/>
-        <line antialias="false" x2="-10" x1="5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="-15" length1="1.5" end1="none" y2="10"/>
-        <line antialias="false" x2="10" x1="-10" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="10" length1="1.5" end1="none" y2="10"/>
-        <line antialias="false" x2="10" x1="-4" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="0" length1="1.5" end1="none" y2="0"/>
-        <terminal name="" x="50" y="-10" orientation="e" uuid="{e46d14cc-5d2c-4299-9425-69973d3f8c28}" type="Generic"/>
-        <terminal name="" x="-40" y="-10" orientation="w" uuid="{e7c37133-a90c-4333-ac14-06c6eacca8f4}" type="Generic"/>
+        <line x1="50" y1="-10" x2="-40" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="B" x="12.5" y="13.55" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <line x1="-40" y1="-15" x2="-40" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="50" y1="-15" x2="50" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="5" y1="-15" x2="-10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="10" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-4" y1="0" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{e46d14cc-5d2c-4299-9425-69973d3f8c28}" name="" x="50" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{e7c37133-a90c-4333-ac14-06c6eacca8f4}" name="" x="-40" y="-10" orientation="w" type="Generic"/>
     </description>
 </definition>

@@ -1,26 +1,24 @@
-<definition width="70" version="0.100.0" type="element" link_type="simple" height="70" hotspot_x="65" hotspot_y="44">
-    <uuid uuid="{773e01d3-8c2d-436e-8e88-563d3bcc120c}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="70" height="80" hotspot_x="65" hotspot_y="50">
+    <uuid uuid="{27646ef7-b758-c98f-f7a8-e1656fe05768}"/>
     <names>
-        <name lang="ca">Mesurador de pols</name>
-        <name lang="de">Impulszähler, elektrisch betätigt</name>
         <name lang="cs">Počítač impulzů</name>
+        <name lang="de">Impulszähler, elektrisch betätigt</name>
         <name lang="en">Pulse meter</name>
         <name lang="fr">Compteur d'impulsions électriques</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" y="12.5" z="1" frame="false" Halignment="AlignLeft" text_from="ElementInfo" uuid="{087cdbc8-0113-4f55-8ca0-c9273c4c33b4}" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" keep_visual_rotation="false" Valignment="AlignTop">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{087cdbc8-0113-4f55-8ca0-c9273c4c33b4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <rect x="-20" width="20" y="-20" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false"/>
-        <circle x="-15" y="-15" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="10" antialias="false"/>
-        <rect x="-60" width="40" y="-20" ry="0" rx="0" style="line-style:normal;line-weight:normal;filling:none;color:black" height="20" antialias="false"/>
-        <line x2="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-20" length2="1.5" length1="1.5" antialias="false" y1="-40" end2="none" x1="-40"/>
-        <line x2="-40" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" length2="1.5" length1="1.5" antialias="false" y1="0" end2="none" x1="-40"/>
-        <terminal x="-40" orientation="n" y="-40" name="" uuid="{d9422f1c-cfbb-426d-b39b-06704f746be0}" type="Generic"/>
-        <terminal x="-40" orientation="s" y="20" name="" uuid="{d13eeb1a-4375-45c7-be07-f96352f2db88}" type="Generic"/>
+        <rect x="-20" y="-20" width="20" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-15" y="-15" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-60" y="-20" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-40" y1="-40" x2="-40" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-40" y1="0" x2="-40" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{d9422f1c-cfbb-426d-b39b-06704f746be0}" name="" x="-40" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{d13eeb1a-4375-45c7-be07-f96352f2db88}" name="" x="-40" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

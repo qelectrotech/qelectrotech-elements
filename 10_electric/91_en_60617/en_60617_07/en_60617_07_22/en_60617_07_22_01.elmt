@@ -1,25 +1,23 @@
-<definition hotspot_x="4" type="element" width="10" height="50" hotspot_y="24" version="0.100.0" link_type="simple">
-    <uuid uuid="{91eb3dc8-8479-44c3-a967-141ac0336e58}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="10" hotspot_y="30">
+    <uuid uuid="{9f1c10de-a3a1-6dc1-5367-0e7622b51aa1}"/>
     <names>
-        <name lang="ca">Espurna</name>
-        <name lang="en">Spark gap</name>
         <name lang="cs">Jiskřiště</name>
         <name lang="de">Funkenstrecke</name>
+        <name lang="en">Spark gap</name>
         <name lang="fr">Éclateur</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" x="5" z="1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" frame="false" uuid="{ceca9e9f-5a40-4c0f-adcb-9fd1ebdd30c7}" text_width="-1" text_from="ElementInfo" rotation="0" keep_visual_rotation="false" Valignment="AlignTop">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ceca9e9f-5a40-4c0f-adcb-9fd1ebdd30c7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x2="0" x1="0" y1="-20" y2="-5" antialias="false" end2="none"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" length1="1.5" length2="1.5" x2="0" x1="0" y1="5" y2="20" antialias="false" end2="none"/>
-        <polygon x3="0" x4="-2" y4="-8" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="2" x1="-2" y1="-8" y2="-8" y3="-2" antialias="false"/>
-        <polygon x3="2" x4="-2" y4="8" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="0" x1="-2" y1="8" y2="2" y3="8" antialias="false"/>
-        <terminal y="-20" x="0" name="" orientation="n" type="Generic" uuid="{f39d884c-b835-4197-9b4a-f4906806a0a0}"/>
-        <terminal y="20" x="0" name="" orientation="s" type="Generic" uuid="{014ab67a-80e1-4647-959d-986c5c2cafaf}"/>
+        <line x1="0" y1="-20" x2="0" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="5" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-2" y1="-8" x2="2" y2="-8" x3="0" y3="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <polygon x1="-2" y1="8" x2="0" y2="2" x3="2" y3="8" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <terminal uuid="{f39d884c-b835-4197-9b4a-f4906806a0a0}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{014ab67a-80e1-4647-959d-986c5c2cafaf}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

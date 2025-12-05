@@ -1,39 +1,37 @@
-<definition hotspot_x="28" type="element" hotspot_y="24" height="50" version="0.100.0" width="50" link_type="master">
-    <uuid uuid="{6dfbb4a5-4c11-4518-8433-80960b279146}"/>
+<definition version="0.100.0" type="element" link_type="master" width="50" height="60" hotspot_x="28" hotspot_y="32">
+    <uuid uuid="{fd154f6c-470f-1005-171d-7087324b3df5}"/>
     <names>
-        <name lang="ca">Relleu de remanència</name>
-        <name lang="nl">remanent relais</name>
-        <name lang="en">Remanence relay</name>
+        <name lang="cs">Bistabilní remanentní relé</name>
         <name lang="de">Remanenzrelais</name>
+        <name lang="en">Remanence relay</name>
+        <name lang="es">Relé de remanencia</name>
+        <name lang="fr">Relais à rémanence</name>
         <name lang="hu">Remanencia relé</name>
         <name lang="it">Relè</name>
-        <name lang="fr">Relais à rémanence</name>
+        <name lang="nl">remanent relais</name>
         <name lang="pl">Przekaźnik remanencyjny</name>
-        <name lang="cs">Bistabilní remanentní relé</name>
-        <name lang="es">Relé de remanencia</name>
     </names>
     <kindInformations>
         <kindInformation name="type">coil</kindInformation>
     </kindInformations>
-    <elementInformations/>
     <informations>License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect x="-15" y="-10" antialias="false" ry="0" height="20" rx="0" width="30" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="-15" y1="10" end1="none" antialias="true" length1="1.5" length2="1.5" x1="-22" end2="none" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect x="-22" y="-10" antialias="false" ry="0" height="20" rx="0" width="7" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="0" y1="20" end1="none" antialias="false" length1="1.5" length2="1.5" x1="0" end2="none" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line x2="0" y1="-20" end1="none" antialias="false" length1="1.5" length2="1.5" x1="0" end2="none" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text x="-14" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="10" uuid="{c6267aef-253c-4f13-80ed-10b1135bf94a}" rotation="0" text_width="-1" frame="false" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop" z="6">
+        <rect x="-15" y="-10" width="30" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-22" y1="10" x2="-15" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-22" y="-10" width="7" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="0" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-14" y="10" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{c6267aef-253c-4f13-80ed-10b1135bf94a}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>A2</text>
         </dynamic_text>
-        <dynamic_text x="-14" font="Sans Serif,4,-1,5,25,0,0,0,0,0" y="-25" uuid="{d4c2ebc0-6fdb-4618-a2bd-02129e994985}" rotation="0" text_width="-1" frame="false" Halignment="AlignLeft" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop" z="7">
+        <dynamic_text x="-14" y="-25" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{d4c2ebc0-6fdb-4618-a2bd-02129e994985}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>A1</text>
         </dynamic_text>
-        <dynamic_text x="16" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-12" uuid="{8523a069-101e-4449-bd76-27b6f47caa17}" rotation="0" text_width="-1" frame="false" Halignment="AlignLeft" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop" z="8">
+        <dynamic_text x="16" y="-12" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8523a069-101e-4449-bd76-27b6f47caa17}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal x="0" y="-20" uuid="{b845b6b7-43ae-4536-a2fb-8bc09829b740}" orientation="n" type="Generic" name=""/>
-        <terminal x="0" y="20" uuid="{c95633f2-7445-4bea-96ef-8e9c6b4e5edd}" orientation="s" type="Generic" name=""/>
+        <terminal uuid="{b845b6b7-43ae-4536-a2fb-8bc09829b740}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{c95633f2-7445-4bea-96ef-8e9c6b4e5edd}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

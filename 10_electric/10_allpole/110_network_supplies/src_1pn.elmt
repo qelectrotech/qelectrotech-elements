@@ -1,34 +1,32 @@
-<definition height="40" link_type="simple" hotspot_y="20" version="0.100.0" type="element" width="30" hotspot_x="15">
-    <uuid uuid="{a6eaf760-953c-4276-98a6-4df62d74192e}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="40" hotspot_x="21" hotspot_y="18">
+    <uuid uuid="{651fb75f-f645-6d0d-2b65-6ecfb3a72726}"/>
     <names>
-        <name lang="ca">Font unipolar + neutre</name>
-        <name lang="en">Single-pole source + neutral</name>
+        <name lang="ar">مصدر وحيد القطبية + محايد N</name>
+        <name lang="cs">Přípojnice 1f+N</name>
         <name lang="de">Wechselstrom L + N</name>
-        <name lang="pt">Fonte unipolar + neutro</name>
-        <name lang="it">Sorgente unipolare + neutro</name>
-        <name lang="fr">Source unipolaire + neutre</name>
         <name lang="el">Μονοφασικό + Ουδέτερος</name>
+        <name lang="en">Single-pole source + neutral</name>
+        <name lang="es">Fuente unipolo + neutro</name>
+        <name lang="fr">Source unipolaire + neutre</name>
+        <name lang="hu">F + N</name>
+        <name lang="it">Sorgente unipolare + neutro</name>
         <name lang="nl">Wisselspanning L + nul N</name>
         <name lang="pl">Linia jednofazowa (dwuprzewodowa)</name>
-        <name lang="hu">F + N</name>
-        <name lang="cs">Přípojnice 1f+N</name>
-        <name lang="es">Fuente unipolo + neutro</name>
+        <name lang="pt">Fonte unipolar + neutro</name>
         <name lang="ru">Однополюсный + нейтраль</name>
-        <name lang="ar">مصدر وحيد القطبية + محايد N</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-37.95" z="1" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{0299e777-d64a-454c-9d71-3cd926dfafde}" x="-5" keep_visual_rotation="false" Valignment="AlignTop">
+        <dynamic_text x="-5" y="-37.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0299e777-d64a-454c-9d71-3cd926dfafde}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" y1="-10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
-        <line length2="1.5" y1="10" antialias="false" x1="0" x2="10" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="10"/>
-        <text rotation="0" text="N" y="13" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
-        <text rotation="0" text="L" y="-7" font="Sans Serif,5,-1,5,50,0,0,0,0,0" x="-12" color="#000000"/>
-        <terminal y="-10" orientation="e" name="L" type="Generic" uuid="{d0cbef7a-4588-4641-9727-e601c0a646ed}" x="10"/>
-        <terminal y="10" orientation="e" name="N" type="Generic" uuid="{3b036ac7-3dd0-4f87-8054-e80140a36823}" x="10"/>
+        <line x1="0" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="N" x="-12" y="13" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <text text="L" x="-12" y="-7" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <terminal uuid="{d0cbef7a-4588-4641-9727-e601c0a646ed}" name="L" x="10" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{3b036ac7-3dd0-4f87-8054-e80140a36823}" name="N" x="10" y="10" orientation="e" type="Generic"/>
     </description>
 </definition>

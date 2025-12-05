@@ -1,33 +1,31 @@
-<definition height="90" hotspot_y="44" hotspot_x="20" version="0.100.0" type="element" width="40" link_type="simple">
-    <uuid uuid="{a4ffde56-e3a3-4110-aff7-5fc549e979e6}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="100" hotspot_x="20" hotspot_y="50">
+    <uuid uuid="{6c536afe-2d00-b772-c191-97b785990ea6}"/>
     <names>
-        <name lang="ca">Transductor monofàsic</name>
-        <name lang="it">Trasformatore monofase</name>
-        <name lang="fr">Transformateur monophasé</name>
-        <name lang="nl">wisselspanning transformator</name>
-        <name lang="pt">Transformador monofásico</name>
-        <name lang="pl">Transformator jednofazowy</name>
         <name lang="ar">محوّل أحادي الوجه</name>
         <name lang="cs">Jednofázový transformátor</name>
+        <name lang="de">Transformator einphasig</name>
+        <name lang="el">Μονοφασικός μετασχηματιστής</name>
         <name lang="en">Single phase transducer</name>
         <name lang="es">Transformador monofásico</name>
-        <name lang="el">Μονοφασικός μετασχηματιστής</name>
+        <name lang="fr">Transformateur monophasé</name>
+        <name lang="it">Trasformatore monofase</name>
+        <name lang="nl">wisselspanning transformator</name>
+        <name lang="pl">Transformator jednofazowy</name>
+        <name lang="pt">Transformador monofásico</name>
         <name lang="ru">Однофазный трансформатор</name>
-        <name lang="de">Transformator einphasig</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-15" diameter="30" y="-25" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <circle x="-15" diameter="30" y="-5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length2="1.5" x1="0" length1="1.5" end1="none" end2="none" x2="0" y1="-40" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-25"/>
-        <line length2="1.5" x1="0" length1="1.5" end1="none" end2="none" x2="0" y1="25" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="40"/>
-        <dynamic_text text_width="-1" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" x="17" uuid="{b9f7982a-24fb-4dc2-8c10-089db95ea09a}" frame="false" y="-12.5" keep_visual_rotation="false" rotation="0" z="5" Valignment="AlignTop">
+        <ellipse x="-15" y="-25" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-15" y="-5" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0" y1="-40" x2="0" y2="-25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="25" x2="0" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="17" y="-12.5" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b9f7982a-24fb-4dc2-8c10-089db95ea09a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal orientation="n" x="0" uuid="{e3365d10-83f7-4512-9ac2-9d0f32bb13c7}" type="Generic" name="" y="-40"/>
-        <terminal orientation="s" x="0" uuid="{525549c0-5ac7-4257-a401-42f97b2bbe71}" type="Generic" name="" y="40"/>
+        <terminal uuid="{e3365d10-83f7-4512-9ac2-9d0f32bb13c7}" name="" x="0" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{525549c0-5ac7-4257-a401-42f97b2bbe71}" name="" x="0" y="40" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,26 +1,24 @@
-<definition height="40" width="150" hotspot_x="144" hotspot_y="34" link_type="simple" type="element" version="0.100.0">
-    <uuid uuid="{07a6c22c-2bb0-414a-8b4d-37a7219be723}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="160" height="40" hotspot_x="150" hotspot_y="32">
+    <uuid uuid="{4f93b212-21be-b7e3-8dd1-7e6f0afa20e0}"/>
     <names>
-        <name lang="ca">Línia dins d'un conducte, línia dins d'una canonada</name>
         <name lang="cs">Vedení v kabelovém kanálu nebo v trubce</name>
-        <name lang="nl_BE">Elektrische leiding in een buis</name>
-        <name lang="fr">Ligne dans un conduit,
-Ligne dans un fourreau</name>
-        <name lang="en">Line within a duct, line within a pipe</name>
         <name lang="de">Leiter in einem Kabelkanal,
 Leiter in einer Trasse</name>
+        <name lang="en">Line within a duct, line within a pipe</name>
+        <name lang="fr">Ligne dans un conduit,
+Ligne dans un fourreau</name>
+        <name lang="nl_BE">Elektrische leiding in een buis</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text frame="false" rotation="0" x="5" z="1" uuid="{4226ce6b-4f90-4f66-a5ee-e4a9a84b62d2}" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="13.5" Halignment="AlignLeft" Valignment="AlignTop" text_from="ElementInfo" keep_visual_rotation="true">
+        <dynamic_text x="5" y="13.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="true" text_from="ElementInfo" uuid="{4226ce6b-4f90-4f66-a5ee-e4a9a84b62d2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" x2="-140" length1="1.5" antialias="false" x1="0" y1="0" end1="none" y2="0" length2="1.5" end2="none"/>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="20" x="-80" antialias="false" y="-30"/>
-        <terminal x="-140" orientation="w" uuid="{57a5aa2d-0ce8-f772-7899-170abb9c9b45}" name="" type="Generic" y="0"/>
-        <terminal x="0" orientation="e" uuid="{961b990a-2f50-ce7e-6430-96cd14e0b3ef}" name="" type="Generic" y="0"/>
+        <line x1="0" y1="0" x2="-140" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="-80" y="-30" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{57a5aa2d-0ce8-f772-7899-170abb9c9b45}" name="" x="-140" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{961b990a-2f50-ce7e-6430-96cd14e0b3ef}" name="" x="0" y="0" orientation="e" type="Generic"/>
     </description>
 </definition>

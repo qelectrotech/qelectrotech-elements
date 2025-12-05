@@ -1,32 +1,30 @@
-<definition height="60" type="element" hotspot_x="13" hotspot_y="29" version="0.100.0" link_type="simple" width="20">
-    <uuid uuid="{ace65cb0-ef44-4c15-ae99-8d4c844e1582}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="60" hotspot_x="12" hotspot_y="30">
+    <uuid uuid="{820d9760-2e4e-4588-2902-f8ad344b20b9}"/>
     <names>
-        <name lang="ca">Interruptor de límit (NO)</name>
-        <name lang="pl">Zestyk zwierny łącznika krańcowego</name>
         <name lang="ar">مفتاح نهاية مشوار (NO)</name>
-        <name lang="pt">Fim de curso (NO)</name>
-        <name lang="ru">Концевой контакт (НР)</name>
-        <name lang="it">Finecorsa (NA)</name>
-        <name lang="es">Final de carrera</name>
-        <name lang="fr">Fin de course</name>
-        <name lang="en">Limitswitch (NO)</name>
-        <name lang="nl">Eindschakelaar (NO)</name>
+        <name lang="cs">Koncový spínač NO</name>
         <name lang="de">Schliesser mechanisch</name>
         <name lang="el">Τερματικό, Ανοικτό</name>
-        <name lang="cs">Koncový spínač NO</name>
+        <name lang="en">Limitswitch (NO)</name>
+        <name lang="es">Final de carrera</name>
+        <name lang="fr">Fin de course</name>
+        <name lang="it">Finecorsa (NA)</name>
+        <name lang="nl">Eindschakelaar (NO)</name>
+        <name lang="pl">Zestyk zwierny łącznika krańcowego</name>
+        <name lang="pt">Fim de curso (NO)</name>
+        <name lang="ru">Концевой контакт (НР)</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <polygon x1="-5" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="10" y3="20" y1="-10" x3="0"/>
-        <dynamic_text y="-9.5" uuid="{0ae1e1d2-ebd8-4473-845f-f8ca95767896}" keep_visual_rotation="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" z="2" rotation="0" x="2.75" Halignment="AlignLeft" text_from="ElementInfo" Valignment="AlignTop" frame="false" text_width="-1">
+        <polygon x1="-5" y1="-10" x2="0" y2="10" x3="0" y3="20" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="2.75" y="-9.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0ae1e1d2-ebd8-4473-845f-f8ca95767896}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line x1="0" end1="none" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x2="0" y2="-10" length1="1.5" length2="1.5" y1="-20" end2="none"/>
-        <polygon x1="-4" closed="false" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" x2="-9" y2="-4" y3="6.5" y1="-6" x3="-1"/>
-        <terminal y="-21" type="Generic" uuid="{a9bdca54-fa34-422a-81d9-004da34268e9}" orientation="n" x="0" name=""/>
-        <terminal y="21" type="Generic" uuid="{5bb36cc1-2b1a-433b-a0e4-277ef9ce6f5d}" orientation="s" x="0" name=""/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-4" y1="-6" x2="-9" y2="-4" x3="-1" y3="6.5" closed="false" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal uuid="{a9bdca54-fa34-422a-81d9-004da34268e9}" name="" x="0" y="-21" orientation="n" type="Generic"/>
+        <terminal uuid="{5bb36cc1-2b1a-433b-a0e4-277ef9ce6f5d}" name="" x="0" y="21" orientation="s" type="Generic"/>
     </description>
 </definition>

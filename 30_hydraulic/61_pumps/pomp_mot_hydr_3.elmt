@@ -1,35 +1,33 @@
-<definition hotspot_x="7" height="60" hotspot_y="34" link_type="simple" width="50" version="0.100.0" type="element">
-    <uuid uuid="{435fcd73-c712-441a-80ea-9f3249352181}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="70" hotspot_x="7" hotspot_y="40">
+    <uuid uuid="{1b4974c6-c78e-5fa8-d583-b1d6728268d8}"/>
     <names>
-        <name lang="ca">Motor hidràulic de la bomba 3</name>
-        <name lang="nl">Pomp motor 3</name>
-        <name lang="pl">Pompa-silnik hydrauliczny o jednym kierunku przepływu, o stałej objętości roboczej i o jednym kierunku obrotów</name>
         <name lang="ar">مضخّة محرّكة هيدروليكية 3</name>
+        <name lang="cs">Čerpadlo - vodní motor 3</name>
+        <name lang="en">Pump hydraulic motor 3</name>
         <name lang="es">Motor de bomba hidráulica, flujo unidireccional, flujo constante, giro unidirecional</name>
         <name lang="fr">Pompe-moteur hydraulique 3</name>
         <name lang="it">Pompa idraulica motore 3</name>
-        <name lang="cs">Čerpadlo - vodní motor 3</name>
-        <name lang="en">Pump hydraulic motor 3</name>
+        <name lang="nl">Pomp motor 3</name>
+        <name lang="pl">Pompa-silnik hydrauliczny o jednym kierunku przepływu, o stałej objętości roboczej i o jednym kierunku obrotów</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle x="-5" diameter="30" y="-20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text Halignment="AlignLeft" rotation="0" text_width="-1" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" uuid="{17f405cc-67b6-45a1-8980-6160b7e2610b}" x="-17" y="-41.95" keep_visual_rotation="false" z="2" text_from="ElementInfo" Valignment="AlignTop">
+        <ellipse x="-5" y="-20" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-17" y="-41.95" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{17f405cc-67b6-45a1-8980-6160b7e2610b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon x2="14" x4="6" y3="-20" y4="-12" x1="6" x3="10" y1="-12" antialias="true" y2="-12" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <polygon x2="14" x4="6" y3="2" y4="9" x1="6" x3="10" y1="9" antialias="true" y2="9" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <polygon x2="37" x4="34" y3="9" y4="6" x1="34" x3="40" y1="6" antialias="true" y2="3" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <polygon x2="37" x4="34" y3="-19" y4="-16" x1="34" x3="40" y1="-16" antialias="true" y2="-13" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
-        <arc angle="-90" height="30" start="-135" x="32" width="30" y="-20" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" x2="10" end2="none" x1="10" end1="none" length2="1.5" y1="10" antialias="false" y2="20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" x2="40" end2="none" x1="25" end1="none" length2="1.5" y1="-4" antialias="false" y2="-4" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" x2="40" end2="none" x1="25" end1="none" length2="1.5" y1="-6" antialias="false" y2="-6" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line length1="1.5" x2="10" end2="none" x1="10" end1="none" length2="1.5" y1="-30" antialias="false" y2="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal orientation="n" uuid="{225cc302-1c58-4254-a4df-4f19fa12fa9f}" x="10" type="Generic" y="-30" name=""/>
-        <terminal orientation="s" uuid="{4520da72-88df-4a48-8961-656ebb93f9c2}" x="10" type="Generic" y="20" name=""/>
+        <polygon x1="6" y1="-12" x2="14" y2="-12" x3="10" y3="-20" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <polygon x1="6" y1="9" x2="14" y2="9" x3="10" y3="2" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
+        <polygon x1="34" y1="6" x2="37" y2="3" x3="40" y3="9" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <polygon x1="34" y1="-16" x2="37" y2="-13" x3="40" y3="-19" antialias="true" style="line-style:normal;line-weight:thin;filling:black;color:black"/>
+        <arc x="32" y="-20" width="30" height="30" start="135" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="10" y1="10" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="-4" x2="40" y2="-4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="-6" x2="40" y2="-6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="-30" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{225cc302-1c58-4254-a4df-4f19fa12fa9f}" name="" x="10" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{4520da72-88df-4a48-8961-656ebb93f9c2}" name="" x="10" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -1,24 +1,22 @@
-<definition hotspot_y="44" height="50" width="30" type="element" link_type="simple" hotspot_x="15" version="0.100.0">
-    <uuid uuid="{1267c156-61d4-4606-9546-dcb264077613}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="30" height="60" hotspot_x="15" hotspot_y="50">
+    <uuid uuid="{1b1c7544-3277-eece-dcc1-ada9a9648a4b}"/>
     <names>
-        <name lang="ca">Díode sensor de temperatura</name>
         <name lang="cs">Dioda s teplotní závislostí</name>
+        <name lang="de">Halbleiterdiode, allgemein</name>
         <name lang="en">Temperature sensing diode</name>
         <name lang="fr">Diode à semiconducteur (symbole général)</name>
-        <name lang="de">Halbleiterdiode, allgemein</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text x="5" frame="false" text_width="-1" z="1" keep_visual_rotation="false" Halignment="AlignLeft" Valignment="AlignTop" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" uuid="{7ecda9b1-41a7-4c86-b871-46312753a584}" y="2.5" text_from="ElementInfo">
+        <dynamic_text x="5" y="2.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7ecda9b1-41a7-4c86-b871-46312753a584}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y1="-40" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="0" x1="0" antialias="false" x2="0" length1="1.5" length2="1.5" end2="none" end1="none"/>
-        <line y1="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10" x1="-10" antialias="false" x2="10" length1="1.5" length2="1.5" end2="none" end1="none"/>
-        <polygon x4="-10" y1="-30" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-30" x1="-10" antialias="false" x2="10" closed="false" x3="0" y3="-10" y4="-30"/>
-        <terminal x="0" uuid="{3793def3-eba6-4d3a-8db2-26133d17fe47}" type="Generic" orientation="s" y="0" name=""/>
-        <terminal x="0" uuid="{34046af2-1059-42a6-a3b5-27595770adff}" type="Generic" orientation="n" y="-40" name=""/>
+        <line x1="0" y1="-40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="-10" x2="10" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="-10" y1="-30" x2="10" y2="-30" x3="0" y3="-10" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <terminal uuid="{3793def3-eba6-4d3a-8db2-26133d17fe47}" name="" x="0" y="0" orientation="s" type="Generic"/>
+        <terminal uuid="{34046af2-1059-42a6-a3b5-27595770adff}" name="" x="0" y="-40" orientation="n" type="Generic"/>
     </description>
 </definition>

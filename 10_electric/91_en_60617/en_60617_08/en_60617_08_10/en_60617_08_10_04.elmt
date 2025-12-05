@@ -1,28 +1,26 @@
-<definition type="element" height="70" link_type="simple" version="0.100.0" width="30" hotspot_x="14" hotspot_y="44">
-    <uuid uuid="{074a0fbb-9e8b-4531-adf7-00048a4ce222}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="80" hotspot_x="20" hotspot_y="50">
+    <uuid uuid="{723c59dd-05ef-2caa-46c9-1a0e5a835a41}"/>
     <names>
-        <name lang="ca">Indicador electromecànic de posició</name>
-        <name lang="fr">Indicateur électromécanique de position</name>
-        <name lang="de">Stellungsanzeiger, elektromechanisch</name>
-        <name lang="en">Electromechanical position indicator</name>
         <name lang="cs">Elektromechanocký indikátor polohy
 s jednou vypnutou a dvěma pracovními polohami</name>
+        <name lang="de">Stellungsanzeiger, elektromechanisch</name>
+        <name lang="en">Electromechanical position indicator</name>
+        <name lang="fr">Indicateur électromécanique de position</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text uuid="{c163fe9a-139f-477c-8915-5dcfbf4e64eb}" z="1" rotation="0" frame="false" text_from="ElementInfo" Valignment="AlignTop" x="5" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_width="-1" y="12.5" keep_visual_rotation="false">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c163fe9a-139f-477c-8915-5dcfbf4e64eb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle x="-10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y="-20" antialias="false"/>
-        <line x2="7" y2="-3" length1="1.5" end2="none" x1="-7" end1="none" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" y1="-17" antialias="false"/>
-        <polygon closed="false" x2="-10" y2="-20" x3="-10" y3="-40" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-15" antialias="false"/>
-        <polygon closed="false" x2="10" y2="-20" x3="10" y3="-40" x1="7" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-17" antialias="false"/>
-        <line x2="0" y2="20" length1="1.5" end2="none" x1="0" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="0" antialias="false"/>
-        <terminal type="Generic" uuid="{250f3a01-14bf-471c-b3d6-ed23066c59ab}" name="" x="-10" orientation="n" y="-40"/>
-        <terminal type="Generic" uuid="{fe99f75a-8742-4877-b7ff-08633191034b}" name="" x="10" orientation="n" y="-40"/>
-        <terminal type="Generic" uuid="{3e89cce6-c56f-4a1b-af9c-3f732d1c235c}" name="" x="0" orientation="s" y="20"/>
+        <ellipse x="-10" y="-20" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-7" y1="-17" x2="7" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false"/>
+        <polygon x1="-5" y1="-15" x2="-10" y2="-20" x3="-10" y3="-40" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <polygon x1="7" y1="-17" x2="10" y2="-20" x3="10" y3="-40" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="0" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{250f3a01-14bf-471c-b3d6-ed23066c59ab}" name="" x="-10" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{fe99f75a-8742-4877-b7ff-08633191034b}" name="" x="10" y="-40" orientation="n" type="Generic"/>
+        <terminal uuid="{3e89cce6-c56f-4a1b-af9c-3f732d1c235c}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

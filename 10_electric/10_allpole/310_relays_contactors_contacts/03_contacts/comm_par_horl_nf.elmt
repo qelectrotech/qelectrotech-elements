@@ -1,38 +1,36 @@
-<definition height="50" hotspot_y="24" hotspot_x="26" width="40" link_type="simple" type="element" version="0.100.0">
-    <uuid uuid="{be6109b0-06ed-4a7f-a909-42331a53844d}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="26" hotspot_y="31">
+    <uuid uuid="{0aa56b4a-82e0-6e67-9115-5f606ed77ac3}"/>
     <names>
-        <name lang="ca">Contacte amb rellotge controlat per NC</name>
-        <name lang="pl">Zestyk rozwierny sterowany zegarem</name>
-        <name lang="de">Öffner zeitgesteuert</name>
-        <name lang="it">Contatto NC comandato da orologio</name>
-        <name lang="es">Contacto NC controlado por reloj</name>
-        <name lang="el">Κλειστή επαφή χρονοδιακόπτη</name>
         <name lang="cs">Kontakt NC řízený elektrickými hodinami</name>
-        <name lang="nl">Klok contact (NC)</name>
+        <name lang="de">Öffner zeitgesteuert</name>
+        <name lang="el">Κλειστή επαφή χρονοδιακόπτη</name>
         <name lang="en">Contact NC-controlled clock</name>
+        <name lang="es">Contacto NC controlado por reloj</name>
         <name lang="fr">Commande par horloge électrique NF</name>
+        <name lang="it">Contatto NC comandato da orologio</name>
+        <name lang="nl">Klok contact (NC)</name>
+        <name lang="pl">Zestyk rozwierny sterowany zegarem</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <circle style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="10" x="-20" antialias="true" y="-5"/>
-        <line style="line-style:dashed;line-weight:thin;filling:none;color:black" length2="1.5" x2="3" y1="0" end2="none" antialias="false" x1="-10" length1="1.5" end1="none" y2="0"/>
-        <dynamic_text text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" rotation="0" Halignment="AlignLeft" uuid="{6c35c9d1-d766-45cb-88e6-02fbc6c24a86}" x="-10" frame="false" Valignment="AlignTop" text_width="-1" z="3" keep_visual_rotation="false" y="8">
+        <ellipse x="-20" y="-5" width="10" height="10" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <line x1="-10" y1="0" x2="3" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="-10" y="8" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{6c35c9d1-d766-45cb-88e6-02fbc6c24a86}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>2</text>
         </dynamic_text>
-        <dynamic_text text_from="UserText" font="Sans Serif,4,-1,5,25,0,0,0,0,0" rotation="0" Halignment="AlignLeft" uuid="{2a81e0d4-8e7e-450a-aa57-f7f9b0491645}" x="-10" frame="false" Valignment="AlignTop" text_width="-1" z="4" keep_visual_rotation="false" y="-24">
+        <dynamic_text x="-10" y="-24" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{2a81e0d4-8e7e-450a-aa57-f7f9b0491645}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>1</text>
         </dynamic_text>
-        <polygon style="line-style:normal;line-weight:normal;filling:none;color:black" closed="false" x3="6" x2="0" y1="20" antialias="true" x1="0" y3="-10" y2="10"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="7" y1="-9" end2="none" antialias="false" x1="0" length1="1.5" end1="none" y2="-9"/>
-        <line style="line-style:normal;line-weight:normal;filling:none;color:black" length2="1.5" x2="0" y1="-20" end2="none" antialias="false" x1="0" length1="1.5" end1="none" y2="-9"/>
-        <dynamic_text text_from="ElementInfo" font="Sans Serif,9,-1,5,50,0,0,0,0,0" rotation="0" Halignment="AlignLeft" uuid="{4cb7c6b4-3edf-4f28-8aa6-1b5b8534ec9a}" x="8" frame="false" Valignment="AlignTop" text_width="-1" z="8" keep_visual_rotation="false" y="-12">
+        <polygon x1="0" y1="20" x2="0" y2="10" x3="6" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <line x1="0" y1="-9" x2="7" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="8" y="-12" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4cb7c6b4-3edf-4f28-8aa6-1b5b8534ec9a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <polygon style="line-style:normal;line-weight:thin;filling:none;color:black" closed="false" x3="-15" x2="-15" y1="0" antialias="false" x1="-19" y3="-4" y2="0"/>
-        <terminal name="" uuid="{5f3f6195-b355-443f-a846-70ba3a949a2a}" x="0" orientation="n" type="Generic" y="-20"/>
-        <terminal name="" uuid="{191fa773-eeac-43e0-8005-63c9a7ad54e7}" x="0" orientation="s" type="Generic" y="20"/>
+        <polygon x1="-19" y1="0" x2="-15" y2="0" x3="-15" y3="-4" closed="false" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:black"/>
+        <terminal uuid="{5f3f6195-b355-443f-a846-70ba3a949a2a}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{191fa773-eeac-43e0-8005-63c9a7ad54e7}" name="" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

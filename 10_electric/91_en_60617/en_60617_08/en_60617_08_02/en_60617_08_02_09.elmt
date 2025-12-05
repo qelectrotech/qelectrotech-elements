@@ -1,24 +1,22 @@
-<definition hotspot_x="25" link_type="simple" version="0.100.0" hotspot_y="45" height="50" type="element" width="50">
-    <uuid uuid="{8ae0eb3d-318a-4915-b6ea-efd06a086052}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="50" hotspot_x="25" hotspot_y="45">
+    <uuid uuid="{f813f25b-e61a-bcac-3251-60f27ff09dd3}"/>
     <names>
-        <name lang="ca">Ondemetre</name>
-        <name lang="en">Wavemeter</name>
-        <name lang="de">Wellenlängemeßgerät, anzeigend</name>
-        <name lang="fr">Ondemètre</name>
         <name lang="cs">Vlnoměr</name>
+        <name lang="de">Wellenlängemeßgerät, anzeigend</name>
+        <name lang="en">Wavemeter</name>
+        <name lang="fr">Ondemètre</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" x="5" uuid="{02d58ebc-ffb7-41e5-be15-fcf48e3d36ed}" rotation="0" frame="false" text_from="ElementInfo" keep_visual_rotation="false" Halignment="AlignLeft" y="12.5" z="1" text_width="-1" Valignment="AlignTop">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{02d58ebc-ffb7-41e5-be15-fcf48e3d36ed}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="40" antialias="false" x="-20" y="-40"/>
-        <arc style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="true" x="-14" angle="90" start="0" height="6" y="-30" width="12"/>
-        <arc style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="true" x="4" angle="90" start="180" height="4" y="-14" width="8"/>
-        <line length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" end2="none" y1="-27" x2="4" antialias="false" x1="-2" end1="none" y2="-12" length2="1.5"/>
-        <line length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" end2="none" y1="-20" x2="-7" antialias="false" x1="0" end1="none" y2="-10" length2="1.5"/>
+        <ellipse x="-20" y="-40" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-14" y="-30" width="12" height="6" start="0" angle="90" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="true"/>
+        <arc x="4" y="-14" width="8" height="4" start="180" angle="90" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="true"/>
+        <line x1="-2" y1="-27" x2="4" y2="-12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="-7" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false"/>
     </description>
 </definition>

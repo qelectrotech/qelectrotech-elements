@@ -1,34 +1,32 @@
-<definition height="50" link_type="simple" hotspot_y="24" version="0.100.0" type="element" width="40" hotspot_x="15">
-    <uuid uuid="{dce81a55-c06e-44db-9704-afe3f257cc71}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="60" hotspot_x="15" hotspot_y="30">
+    <uuid uuid="{0782aef6-6603-3a90-702e-a3054e1db79e}"/>
     <names>
-        <name lang="ca">LED d'un polsador il·luminat</name>
-        <name lang="en">LED of an illuminated push-button</name>
-        <name lang="it">Spia luminosa a LED</name>
-        <name lang="de">Meldeleuchte eines Drucktasters</name>
-        <name lang="fr">Voyant d'un bouton poussoir lumineux</name>
-        <name lang="el">Μπουτόν, φωτειζόμενο με LED</name>
-        <name lang="nl">lamp van drukknop </name>
-        <name lang="pl">Łącznik przyciskowy podświetlony</name>
-        <name lang="cs">Prosvětlené tlačítko</name>
-        <name lang="es">LED en un pulsador iluminado</name>
         <name lang="ar">مُؤشّر ضوئي لمفتاح ضاغط</name>
+        <name lang="cs">Prosvětlené tlačítko</name>
+        <name lang="de">Meldeleuchte eines Drucktasters</name>
+        <name lang="el">Μπουτόν, φωτειζόμενο με LED</name>
+        <name lang="en">LED of an illuminated push-button</name>
+        <name lang="es">LED en un pulsador iluminado</name>
+        <name lang="fr">Voyant d'un bouton poussoir lumineux</name>
+        <name lang="it">Spia luminosa a LED</name>
+        <name lang="nl">lamp van drukknop</name>
+        <name lang="pl">Łącznik przyciskowy podświetlony</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <line length2="1.5" y1="0" antialias="false" x1="10" x2="20" end1="none" end2="none" length1="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" y2="0"/>
-        <polygon y1="5" antialias="false" x1="17" x2="20" x3="20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" y4="-5" y3="-5" closed="false" x4="17"/>
-        <circle y="-10" antialias="true" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="7.03" x2="-7.03" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-7.03" antialias="false" x1="-7.03" x2="7.03" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="7.03"/>
-        <line length2="1.5" y1="-20" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-10"/>
-        <line length2="1.5" y1="10" antialias="false" x1="0" x2="0" end1="none" end2="none" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
-        <dynamic_text rotation="0" text_width="-1" text_from="ElementInfo" y="-14" z="8" Halignment="AlignLeft" frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" uuid="{ba5c633e-c043-4b9d-be35-71cd32da760b}" x="23" keep_visual_rotation="false" Valignment="AlignTop">
+        <line x1="10" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="17" y1="5" x2="20" y2="5" x3="20" y3="-5" x4="17" y4="-5" closed="false" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="7" y1="-7" x2="-7" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-7" y1="-7" x2="7" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="0" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="23" y="-14" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ba5c633e-c043-4b9d-be35-71cd32da760b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <terminal y="-20" orientation="n" name="A1" type="Generic" uuid="{17d1e2ac-7673-48fc-804b-7b3b714033c6}" x="0"/>
-        <terminal y="20" orientation="s" name="A2" type="Generic" uuid="{98128eb1-9f91-4229-904a-7727f8bb9556}" x="0"/>
+        <terminal uuid="{17d1e2ac-7673-48fc-804b-7b3b714033c6}" name="A1" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{98128eb1-9f91-4229-904a-7727f8bb9556}" name="A2" x="0" y="20" orientation="s" type="Generic"/>
     </description>
 </definition>

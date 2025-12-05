@@ -1,26 +1,24 @@
-<definition hotspot_x="10" type="element" width="20" height="70" version="0.100.0" hotspot_y="34" link_type="simple">
-    <uuid uuid="{129b143a-52da-4bfa-8a29-d9428389d140}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="80" hotspot_x="10" hotspot_y="40">
+    <uuid uuid="{75fe60e6-b676-92be-57e3-4d108f0b8149}"/>
     <names>
-        <name lang="ca">Fusible</name>
+        <name lang="cs">Tavná pojistka, u níž strana
+zůstávající živou, je znázorněna tlustiou čarou</name>
         <name lang="de">Sicherung, der Anschluss unter Spannung
 gekennzeichnet</name>
         <name lang="en">Fuse</name>
-        <name lang="cs">Tavná pojistka, u níž strana
-zůstávající živou, je znázorněna tlustiou čarou</name>
         <name lang="fr">Fusible, extrémité restant sous tension</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text y="12.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{2872a55f-ef11-4bda-969d-f07eead33cfb}" text_from="ElementInfo" z="1" keep_visual_rotation="false" Halignment="AlignLeft" x="5" frame="false" text_width="-1" rotation="0">
+        <dynamic_text x="5" y="12.5" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2872a55f-ef11-4bda-969d-f07eead33cfb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line length2="1.5" antialias="false" length1="1.5" end1="none" end2="none" x2="0" y1="-30" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="30"/>
-        <rect y="-15" rx="0" antialias="false" width="10" height="30" x="-5" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <rect y="-15" rx="0" antialias="false" width="10" height="5" x="-5" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black"/>
-        <terminal y="-30" name="" type="Generic" uuid="{a6d5f16b-b513-4388-81ef-c01aff1f78a6}" x="0" orientation="n"/>
-        <terminal y="30" name="" type="Generic" uuid="{a798e211-3aeb-4c03-b280-8ea20cd5833a}" x="0" orientation="s"/>
+        <line x1="0" y1="-30" x2="0" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-5" y="-15" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="-5" y="-15" width="10" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <terminal uuid="{a6d5f16b-b513-4388-81ef-c01aff1f78a6}" name="" x="0" y="-30" orientation="n" type="Generic"/>
+        <terminal uuid="{a798e211-3aeb-4c03-b280-8ea20cd5833a}" name="" x="0" y="30" orientation="s" type="Generic"/>
     </description>
 </definition>

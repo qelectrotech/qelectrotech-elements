@@ -1,43 +1,41 @@
-<definition hotspot_x="34" type="element" version="0.100.0" link_type="simple" height="50" width="40" hotspot_y="24">
-    <uuid uuid="{53da0a32-11c2-4012-a2f9-400e12a50b55}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="50" height="60" hotspot_x="39" hotspot_y="31">
+    <uuid uuid="{0ae43678-b696-c9ab-5e5c-39a0e8ad8190}"/>
     <names>
-        <name lang="ca">Actuat pel flux d'un fluid NC/NO</name>
-        <name lang="de">Durchflussschalter Wechsler</name>
-        <name lang="fr">Actionné par le débit d'un fluide NF/NO</name>
-        <name lang="pl">Zestyk przełączny sterowany przepływem cieczy</name>
-        <name lang="nl">Vloeistofstroom (NC)/(NO)</name>
-        <name lang="el">Αισθητήρας ροής υγρού, μεταγωγική επαφή</name>
-        <name lang="it">Azionato dal flusso di un fluido (NC/NO)</name>
-        <name lang="es">Accionado por el flujo de un fluido NC/NA</name>
         <name lang="cs">Průtokový spínač kapaliny NC/NO</name>
+        <name lang="de">Durchflussschalter Wechsler</name>
+        <name lang="el">Αισθητήρας ροής υγρού, μεταγωγική επαφή</name>
         <name lang="en">Actuated by the flow of a fluid NC/NO</name>
+        <name lang="es">Accionado por el flujo de un fluido NC/NA</name>
+        <name lang="fr">Actionné par le débit d'un fluide NF/NO</name>
+        <name lang="it">Azionato dal flusso di un fluido (NC/NO)</name>
+        <name lang="nl">Vloeistofstroom (NC)/(NO)</name>
+        <name lang="pl">Zestyk przełączny sterowany przepływem cieczy</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <rect ry="0" antialias="false" x="-30" rx="0" height="10" y="-5" width="10" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="0" end2="none" length2="1.5" antialias="false" y2="0" x1="-20" end1="none" x2="-5" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black"/>
-        <line y1="-9" end2="none" length2="1.5" antialias="false" y2="-9" x1="-20" end1="none" x2="-7" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <polygon y1="20" closed="false" antialias="true" y2="10" x1="0" y3="-10" x3="-10" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" frame="false" rotation="0" text_width="-1" uuid="{380c34e9-74fe-4924-aac6-3d6681d0b18f}" keep_visual_rotation="false" x="-10" z="5" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" y="8">
+        <rect x="-30" y="-5" width="10" height="10" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="0" x2="-5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="-9" x2="-7" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="0" y1="20" x2="0" y2="10" x3="-10" y3="-10" closed="false" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <dynamic_text x="-10" y="8" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{380c34e9-74fe-4924-aac6-3d6681d0b18f}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>3</text>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" frame="false" rotation="0" text_width="-1" uuid="{cabf4667-1d61-4275-a195-4a7bad6b01cb}" keep_visual_rotation="false" x="-30" z="6" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" y="-24">
+        <dynamic_text x="-30" y="-24" z="6" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{cabf4667-1d61-4275-a195-4a7bad6b01cb}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>1</text>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" frame="false" rotation="0" text_width="-1" uuid="{feb1c410-5286-4fef-ae89-19327877ef1b}" keep_visual_rotation="false" x="-10" z="7" font="Sans Serif,4,-1,5,25,0,0,0,0,0" text_from="UserText" y="-24">
+        <dynamic_text x="-10" y="-24" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="UserText" uuid="{feb1c410-5286-4fef-ae89-19327877ef1b}" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular">
             <text>2</text>
         </dynamic_text>
-        <dynamic_text Valignment="AlignTop" Halignment="AlignLeft" frame="false" rotation="0" text_width="-1" uuid="{af5ed754-17ab-414e-bb70-928b7e0427f8}" keep_visual_rotation="false" x="1" z="8" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-12">
+        <dynamic_text x="1" y="-12" z="8" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{af5ed754-17ab-414e-bb70-928b7e0427f8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <line y1="-20" end2="none" length2="1.5" antialias="false" y2="-9" x1="-20" end1="none" x2="-20" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-20" end2="none" length2="1.5" antialias="false" y2="-10" x1="0" end1="none" x2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <line y1="-5" end2="none" length2="1.5" antialias="false" y2="-5" x1="-20" end1="none" x2="-17" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
-        <terminal name="" orientation="s" type="Generic" uuid="{14bf291b-2872-4580-87e8-a48980d6af5d}" x="0" y="20"/>
-        <terminal name="" orientation="n" type="Generic" uuid="{85684190-feda-4ca6-a9ae-c6d96a881c86}" x="0" y="-20"/>
-        <terminal name="" orientation="n" type="Generic" uuid="{caf16282-3994-4ff0-9675-8d9579cd1c1f}" x="-20" y="-20"/>
+        <line x1="-20" y1="-20" x2="-20" y2="-9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-20" x2="0" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="-5" x2="-17" y2="-5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{14bf291b-2872-4580-87e8-a48980d6af5d}" name="" x="0" y="20" orientation="s" type="Generic"/>
+        <terminal uuid="{85684190-feda-4ca6-a9ae-c6d96a881c86}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{caf16282-3994-4ff0-9675-8d9579cd1c1f}" name="" x="-20" y="-20" orientation="n" type="Generic"/>
     </description>
 </definition>

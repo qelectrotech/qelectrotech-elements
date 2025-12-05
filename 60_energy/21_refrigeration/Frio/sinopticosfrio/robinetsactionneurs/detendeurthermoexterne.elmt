@@ -1,32 +1,30 @@
-<definition type="element" link_type="simple" version="0.100.0" hotspot_y="28" hotspot_x="19" width="40" height="40">
-    <uuid uuid="{52f462e8-f5cd-44c0-8d84-2dd479984dfb}"/>
+<definition version="0.100.0" type="element" link_type="simple" width="40" height="40" hotspot_x="20" hotspot_y="30">
+    <uuid uuid="{7c217f8d-bb9c-8e44-8c4c-4be4031526ad}"/>
     <names>
-        <name lang="ca">TXV extern</name>
-        <name lang="nl">Expansieventiel extern</name>
         <name lang="ar">مُخفّض ضغط بتعديل حراري خارجي</name>
         <name lang="cs">Vnější termostatický ventil</name>
-        <name lang="it">Sonda termostatica esterna</name>
-        <name lang="pl">Zawór termostatyczny zewnętrzny</name>
         <name lang="en">TXV external</name>
         <name lang="fr">Détendeur thermostatique externe</name>
+        <name lang="it">Sonda termostatica esterna</name>
+        <name lang="nl">Expansieventiel extern</name>
+        <name lang="pl">Zawór termostatyczny zewnętrzny</name>
     </names>
-    <elementInformations/>
     <informations>Author: The QElectroTech team
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <dynamic_text z="1" keep_visual_rotation="false" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" uuid="{3ce9e145-2aad-4668-b5e5-8a2508fd3935}" text_from="ElementInfo" y="-11.95" x="-7" font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" rotation="0">
+        <dynamic_text x="-7" y="-11.95" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3ce9e145-2aad-4668-b5e5-8a2508fd3935}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <circle antialias="true" diameter="11.6619" y="-17.831" style="line-style:normal;line-weight:normal;filling:white;color:black" x="-5.83095"/>
-        <line x1="0" y2="-20" antialias="false" length2="1.5" end2="none" end1="none" y1="-18" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <text color="#000000" text="TC" y="-9.66667" x="-5" font="Sans Serif,5,-1,5,50,0,0,0,0,0" rotation="0"/>
-        <polygon style="line-style:normal;line-weight:normal;filling:white;color:black" x4="-10" x6="10" x7="10" x9="0" y2="3" x3="-2" y8="1" y3="1" x8="-2" y7="-5" y1="1" y4="5" y10="0" x10="0" y5="-5" antialias="false" x1="2" y6="5" y9="0" x5="-10" x2="0"/>
-        <line x1="0" y2="-6" antialias="false" length2="1.5" end2="none" end1="none" y1="0" x2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x1="10" y2="0" antialias="false" length2="1.5" end2="none" end1="none" y1="0" x2="11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <line x1="-10" y2="0" antialias="false" length2="1.5" end2="none" end1="none" y1="0" x2="-11" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5"/>
-        <terminal type="Generic" name="" uuid="{25bbd344-e138-4c76-b727-96fbb06522f7}" orientation="n" y="-20" x="0"/>
-        <terminal type="Generic" name="" uuid="{cd9ca5ec-d7f9-4ea2-a05e-18930658b9e1}" orientation="e" y="0" x="11"/>
-        <terminal type="Generic" name="" uuid="{baab3ca8-bc1a-492a-b113-63e6484bac62}" orientation="w" y="0" x="-11"/>
+        <ellipse x="-5.83" y="-17.83" width="11.66" height="11.66" style="line-style:normal;line-weight:normal;filling:white;color:black" antialias="true"/>
+        <line x1="0" y1="-18" x2="0" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="TC" x="-5" y="-9.67" rotation="0" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" color="#000000"/>
+        <polygon x1="2" y1="1" x2="0" y2="3" x3="-2" y3="1" x4="-10" y4="5" x5="-10" y5="-5" x6="10" y6="5" x7="10" y7="-5" x8="-2" y8="1" x9="0" y9="0" antialias="false" style="line-style:normal;line-weight:normal;filling:white;color:black"/>
+        <line x1="0" y1="0" x2="0" y2="-6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="0" x2="11" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-10" y1="0" x2="-11" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{25bbd344-e138-4c76-b727-96fbb06522f7}" name="" x="0" y="-20" orientation="n" type="Generic"/>
+        <terminal uuid="{cd9ca5ec-d7f9-4ea2-a05e-18930658b9e1}" name="" x="11" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{baab3ca8-bc1a-492a-b113-63e6484bac62}" name="" x="-11" y="0" orientation="w" type="Generic"/>
     </description>
 </definition>
