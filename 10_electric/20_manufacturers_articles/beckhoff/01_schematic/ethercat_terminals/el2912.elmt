@@ -1,5 +1,5 @@
 <definition type="element" link_type="simple" hotspot_x="364" hotspot_y="54" width="730" height="110" version="0.100.0">
-    <uuid uuid="{e091dffe-5351-4272-ae11-ab53e3d58ee5}"/>
+    <uuid uuid="{85a37bb2-6871-4038-8ee5-46425fd5ef07}"/>
     <names>
         <name lang="ca">EL2912</name>
         <name lang="cs">EL2912</name>
@@ -14,7 +14,7 @@
     </elementInformations>
     <description>
         <text x="250" y="-33" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="TS Address:"/>
-        <text x="-260" y="-33" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="EL2564"/>
+        <text x="-260" y="-33" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="EL2912"/>
         <text x="42" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="GND"/>
         <text x="282" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="GND2"/>
         <text x="122" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="GND"/>
@@ -36,6 +36,10 @@
         <text x="-355" y="9" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="Power contact 0V"/>
         <text x="-118" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="+24V"/>
         <circle x="-42.5" y="47.5" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="5"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="-350" y="-80" z="23" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{0e6ab19a-128f-44b8-8f7f-89c519806c5e}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
         <circle x="-122.5" y="47.5" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="5"/>
         <circle x="-202.5" y="47.5" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="5"/>
         <circle x="-282.5" y="47.5" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" diameter="5"/>
@@ -46,10 +50,6 @@
         <line end1="none" end2="none" y1="10" antialias="false" y2="10" style="line-style:normal;line-weight:thin;filling:white;color:black" x1="-360" length1="1.5" x2="360" length2="1.5"/>
         <line end1="none" end2="none" y1="-10" antialias="false" y2="-10" style="line-style:normal;line-weight:thin;filling:white;color:black" x1="-360" length1="1.5" x2="360" length2="1.5"/>
         <text x="-350" y="-33" font="Liberation Sans,9,-1,5,75,0,0,0,0,0,Bold" rotation="0" color="#000000" text="BECKHOFF"/>
-        <dynamic_text frame="false" Halignment="AlignLeft" x="219" y="-42.5" z="23" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{0e6ab19a-128f-44b8-8f7f-89c519806c5e}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-            <text></text>
-            <info_name>label</info_name>
-        </dynamic_text>
         <text x="-198" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="GND1"/>
         <text x="-278" y="46" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="O1"/>
         <text x="-278" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="1"/>
@@ -58,6 +58,9 @@
         <text x="-37" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="6"/>
         <text x="43" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="3"/>
         <text x="123" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="7"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="316" y="-48" z="42" rotation="0" font="Liberation Sans,9,-1,5,75,0,0,0,0,0,Bold" text_width="-1" uuid="{3a247234-89c9-4646-8f02-cde09024e478}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignBottom">
+            <text>0x001</text>
+        </dynamic_text>
         <text x="203" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="4"/>
         <text x="283" y="58" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="8"/>
         <text x="-200" y="-33" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="EtherCAT Terminal, 2-channel digital output, 24 V DC, 2 A, TwinSAFE Logic"/>
@@ -66,9 +69,6 @@
         <polygon closed="false" y1="10" antialias="false" y2="10" style="line-style:normal;line-weight:hight;filling:white;color:black" x1="-362" x2="-356"/>
         <arc x="360" y="7.5" antialias="true" style="line-style:normal;line-weight:normal;filling:white;color:black" start="90" width="5" height="5" angle="180"/>
         <circle x="279" y="9" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" diameter="2"/>
-        <dynamic_text frame="false" Halignment="AlignLeft" x="316" y="-48" z="42" rotation="0" font="Liberation Sans,9,-1,5,75,0,0,0,0,0,Bold" text_width="-1" uuid="{3a247234-89c9-4646-8f02-cde09024e478}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignBottom">
-            <text>0x001</text>
-        </dynamic_text>
         <terminal type="Generic" x="360" y="-10" name="Pow.L.Out" uuid="{8d734b1a-229c-4af5-acad-125fc6483fbd}" orientation="e"/>
         <terminal type="Generic" x="360" y="10" name="Pow.N.Out" uuid="{17743685-ef47-4f24-be28-56633b938c10}" orientation="e"/>
         <terminal type="Generic" x="200" y="50" name="4" uuid="{2e3ef0c9-ce2c-42ee-8680-8df7aa50d846}" orientation="s"/>
