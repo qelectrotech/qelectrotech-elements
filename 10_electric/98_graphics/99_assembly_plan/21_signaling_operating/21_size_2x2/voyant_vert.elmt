@@ -1,27 +1,28 @@
-<definition version="0.80" type="element" link_type="thumbnail" width="30" height="30" hotspot_x="15" hotspot_y="15">
-    <uuid uuid="{263892ec-aaf6-9fa6-7bc2-26b63ad2b6ea}"/>
+<definition type="element" link_type="thumbnail" hotspot_x="15" hotspot_y="15" width="30" height="30" version="0.100.1">
+    <uuid uuid="{ebfb9310-fb4a-4216-91ef-2c8701d592b6}"/>
     <names>
         <name lang="ar">مُؤشر ضوئي</name>
         <name lang="ca">Llum</name>
         <name lang="cs">Kontrolka</name>
-        <name lang="de">Meldeleuchte</name>
+        <name lang="de">Meldeleuchte grün</name>
         <name lang="el">Λάμπα</name>
-        <name lang="en">Light</name>
+        <name lang="en">Light green</name>
         <name lang="fr">Voyant vert</name>
-        <name lang="it">Lampada spia</name>
+        <name lang="it">Lampada spia verde</name>
         <name lang="nl">Lamp</name>
         <name lang="pl">Lampka sygnalizacyjna</name>
         <name lang="zh">绿色指示灯</name>
     </names>
-    <informations>Author: The QElectroTech team
+    <elementInformations/>
+    <informations>Author: The QElectroTech team&#xd;
 License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
     <description>
-        <ellipse x="-11" y="-11" width="22" height="22" style="line-style:normal;line-weight:normal;filling:green;color:black" antialias="true"/>
-        <dynamic_text x="-7" y="-35.45" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" text_from="ElementInfo" uuid="{7c438efe-40e0-4a15-accf-50ff83b690a0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+        <circle x="-11" y="-11" antialias="true" style="line-style:normal;line-weight:normal;filling:green;color:black" diameter="22"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="-7" y="-35.45" z="2" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{7c438efe-40e0-4a15-accf-50ff83b690a0}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
             <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <arc x="-7" y="-7" width="14" height="14" start="90" angle="270" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
-        <ellipse x="-10" y="-10" width="20" height="20" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true"/>
+        <arc x="-7" y="-7" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" start="90" width="14" height="14" angle="270"/>
+        <circle x="-10" y="-10" antialias="true" style="line-style:normal;line-weight:thin;filling:none;color:black" diameter="20"/>
     </description>
 </definition>
