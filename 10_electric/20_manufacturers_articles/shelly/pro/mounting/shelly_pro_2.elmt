@@ -12,6 +12,7 @@
         <elementInformation name="description" show="1">2-phase, 2-channel relay with potential-free outputs (dry contacts), supporting a total device maximum of 25A for professional lights and appliance automation .</elementInformation>
         <elementInformation name="quantity" show="1">1</elementInformation>
         <elementInformation name="supplier" show="1">https://shelly.com</elementInformation>
+        <elementInformation show="1" name="comment" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -58,6 +59,12 @@
         <line x2="-6" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-6" y1="-13" antialias="false" y2="-1" end2="none" />
         <circle x="7" diameter="10" y="-11.95" style="line-style:normal;line-weight:thin;filling:none;color:black" antialias="true" />
         <line x2="6" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="6" y1="-13" antialias="false" y2="-1" end2="none" />
+        <text x="-1" y="-200" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <text x="-1" y="-188" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="33" y="-188" z="47" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1646eedd-fece-4dd3-9ff1-7b480d5f5599}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>comment</info_name>
+        </dynamic_text>
         <dynamic_text frame="false" z="46" x="21" rotation="0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" y="-200" Valignment="AlignTop" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
             <text />
             <info_name>label</info_name>

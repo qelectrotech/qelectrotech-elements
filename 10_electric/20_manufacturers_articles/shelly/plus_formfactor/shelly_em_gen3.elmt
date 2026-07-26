@@ -13,6 +13,7 @@
         <elementInformation name="designation" show="1">Shelly EM Gen3</elementInformation>
         <elementInformation name="manufacturer" show="1">Shelly Europe Ltd.</elementInformation>
         <elementInformation name="manufacturer_reference" show="1">Shelly EM Gen3</elementInformation>
+        <elementInformation show="1" name="comment" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -21,6 +22,12 @@
         <circle x="15" antialias="false" diameter="10" y="-57" style="line-style:normal;line-weight:thin;filling:none;color:black" />
         <line antialias="false" x1="28" length2="1.5" y2="-71" end1="none" end2="none" length1="1.5" style="line-style:dashed;line-weight:thin;filling:none;color:black" y1="-71" x2="0" />
         <circle x="-5" antialias="false" diameter="10" y="-70" style="line-style:dashed;line-weight:thin;filling:none;color:black" />
+        <text x="28" y="-100" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <text x="28" y="-88" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="62" y="-88" z="7" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{14d4b13b-a6e3-4505-aaf2-babf6bcc20f9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>comment</info_name>
+        </dynamic_text>
         <dynamic_text x="50" Valignment="AlignTop" uuid="{135dddd3-6b6e-4ac2-99ab-1c6b957099ae}" rotation="0" frame="false" keep_visual_rotation="false" y="-100" z="6" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" text_from="ElementInfo">
             <text />
             <info_name>label</info_name>

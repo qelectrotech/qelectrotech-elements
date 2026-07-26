@@ -12,6 +12,7 @@
         <elementInformation name="description" show="1">1-phase, 1-channel relay with potential-free outputs (dry contacts), supporting up to 16A for professional lights and appliance automation for residential or commercial use.</elementInformation>
         <elementInformation name="quantity" show="1">1</elementInformation>
         <elementInformation name="supplier" show="1">https://shelly.com</elementInformation>
+        <elementInformation show="1" name="comment" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -70,6 +71,12 @@
         <line x2="2" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-2" y1="-8.95" antialias="false" y2="-4.95" end2="none" />
         <line x2="0" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="0" y1="-8.95" antialias="false" y2="-4.95" end2="none" />
         <line x2="2" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-2" y1="-6.95" antialias="false" y2="-6.95" end2="none" />
+        <text x="-2" y="-185" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <text x="-2" y="-173" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="32" y="-173" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{83e0cc13-7968-4409-aeb7-ba2f708ad0fe}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>comment</info_name>
+        </dynamic_text>
         <dynamic_text frame="false" z="63" x="20" rotation="0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" y="-185" Valignment="AlignTop" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
             <text />
             <info_name>label</info_name>
