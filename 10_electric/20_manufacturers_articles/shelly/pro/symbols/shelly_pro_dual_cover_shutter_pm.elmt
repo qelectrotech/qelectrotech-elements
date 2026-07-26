@@ -13,21 +13,13 @@
         <elementInformation name="description" show="1">Dual-cover smart controller with integrated precise power meters - control and monitor the consumption of each cover separately. Perfect for automation of roller shutters, curtains, gates, etc.</elementInformation>
         <elementInformation name="supplier" show="1">https://shelly.com</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
         <text x="27" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" y="-8" rotation="0" text="L" color="#000000" />
         <rect width="80" x="-40" y="-175" style="line-style:normal;line-weight:thin;filling:HTMLWhiteWhite;color:HTMLGrayBlack" height="175" ry="0" rx="0" antialias="false" />
-        <text x="20" y="-172" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="20" y="-160" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="54" y="-160" z="4" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{312ef040-8e59-4f2c-ba8b-c6383b529f2f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text frame="false" x="42" z="3" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" keep_visual_rotation="false" Halignment="AlignLeft" y="-172" rotation="0" text_from="ElementInfo" text_width="-1" Valignment="AlignTop">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <rect width="80" x="-40" y="-130" style="line-style:normal;line-weight:thin;filling:HTMLWhiteWhite;color:HTMLGrayBlack" height="85" ry="0" rx="0" antialias="false" />
         <text x="-15" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" y="-90" rotation="0" text="Shelly Pro&#10;Dual Cover / &#10;ShutterPM" color="#000000" />
         <line end1="none" x2="39" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-23" y2="-23" length2="1.5" x1="-39" length1="1.5" antialias="false" />
@@ -48,6 +40,20 @@
         <text x="-13" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" y="-6" rotation="0" text="N  S4 S3  S2 S1" color="#000000" />
         <text x="-28" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" y="-162" rotation="0" text="O2" color="#000000" />
         <text x="-2" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" y="-162" rotation="0" text="L" color="#000000" />
+        <dynamic_text x="-40" y="-205" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-40" y="-195" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-12" y="-195" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{312ef040-8e59-4f2c-ba8b-c6383b529f2f}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-40" y="-185" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-22" y="-185" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1c5bec7c-1e0d-4dd1-a10d-bd2da3102b79}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal type="Generic" x="30" uuid="{b6d2e93c-f71b-4c09-a406-e7d9134f7d67}" y="0" orientation="s" name="L" />
         <terminal type="Generic" x="-15" uuid="{a491df37-2459-42fb-825c-52aae5a86110}" y="-175" orientation="n" name="O2" />
         <terminal type="Generic" x="0" uuid="{9ab01371-9fe2-4a4b-bb01-66e4f0feb784}" y="-175" orientation="n" name="L" />

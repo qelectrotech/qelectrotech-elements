@@ -5,19 +5,11 @@
     </names>
     <elementInformations>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations />
     <description>
-        <text x="63" y="-43" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="63" y="-31" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="97" y="-31" z="17" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{97939d21-b461-4c6b-bc38-ab5c211a37c8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text x="81" y="-43" z="16" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{813df7ff-7087-40c1-8ec3-a6572fa7d816}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <arc width="10" start="0" height="10" x="-60" antialias="true" angle="90" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:red" />
         <text color="#000000" text="GND" x="-84" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" y="8" />
         <text color="#000000" text="Data" x="-83" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" y="-2" />
@@ -33,6 +25,20 @@
         <text color="#000000" text="DS18B20" x="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" rotation="0" y="20" />
         <dynamic_text Valignment="AlignTop" text_width="-1" x="60" keep_visual_rotation="false" z="15" frame="false" rotation="0" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,normal" uuid="{3ba53ef4-cd49-4222-9335-e713f1d3a642}" y="-30" Halignment="AlignLeft" text_from="ElementInfo">
             <text />
+        </dynamic_text>
+        <dynamic_text x="-85" y="-82" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{813df7ff-7087-40c1-8ec3-a6572fa7d816}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-85" y="-72" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-57" y="-72" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{97939d21-b461-4c6b-bc38-ab5c211a37c8}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-85" y="-62" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-67" y="-62" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c5947c98-1611-4431-8685-3b6bc786380d}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
         </dynamic_text>
         <terminal x="-85" orientation="w" name="+5V" type="Generic" uuid="{7e57db4b-3b82-41ce-8de9-694a6e70b02e}" y="-10" />
         <terminal x="-85" orientation="w" name="GND" type="Generic" uuid="{ca6d2028-601c-42e0-b8a8-4aa0f7fc4819}" y="10" />

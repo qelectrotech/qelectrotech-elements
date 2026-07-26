@@ -10,6 +10,8 @@
         <elementInformation show="1" name="manufacturer">NEO</elementInformation>
         <elementInformation show="1" name="supplier">Shelly</elementInformation>
         <elementInformation show="1" name="comment">Neo Smart Water Valve NAS-WV02W</elementInformation>
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -48,15 +50,19 @@
         <line end2="none" end1="none" length2="1.5" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="16" x2="16" y2="-8" y1="-10" antialias="false" />
         <line end2="none" end1="none" length2="1.5" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="14" x2="-14" y2="-6" y1="-6" antialias="false" />
         <line end2="none" end1="none" length2="1.5" length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-16" x2="-16" y2="-12" y1="-8" antialias="false" />
-        <text x="-27" y="-65" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="-27" y="-53" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="7" y="-53" z="38" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{399485be-6042-4dd3-a67c-9dc0ffdaac0f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text frame="false" text_from="ElementInfo" x="-5" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" z="37" y="-65" rotation="0" Halignment="AlignLeft" text_width="-1" uuid="{fce4d936-99e0-4c82-be57-c68557c4b759}" keep_visual_rotation="false">
+        <dynamic_text x="-90" y="-66" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{fce4d936-99e0-4c82-be57-c68557c4b759}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
             <text />
             <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-90" y="-56" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-62" y="-56" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{399485be-6042-4dd3-a67c-9dc0ffdaac0f}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-90" y="-46" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-72" y="-46" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{23eb2374-0aab-476e-b510-9d013d506b82}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
         </dynamic_text>
         <terminal type="Generic" x="78" name="5VDC" y="-22" uuid="{f20f2219-317a-4aa5-9056-f5296da3121e}" orientation="e" />
         <terminal type="Generic" x="-90" name="Water In" y="0" uuid="{2156ef8e-6064-47ba-a389-5d164212a408}" orientation="w" />

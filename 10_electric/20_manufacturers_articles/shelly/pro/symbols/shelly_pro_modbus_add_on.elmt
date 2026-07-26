@@ -13,22 +13,14 @@
         <elementInformation show="1" name="manufacturer">Shelly Europe Ltd.</elementInformation>
         <elementInformation show="1" name="quantity">1</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
         <text color="#000000" y="-16.5" x="-11" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text="T" rotation="180" />
         <rect style="line-style:normal;line-weight:thin;filling:none;color:black" rx="0" ry="0" y="-135.5" x="-19" width="5" antialias="false" height="20" />
         <text color="#000000" y="-15.5" x="-11" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text="T" rotation="180" />
-        <text x="-2" y="-176" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="-2" y="-164" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="32" y="-164" z="5" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{40f03f2d-4eda-42aa-9dfd-e1ca39a342ec}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text z="4" Halignment="AlignLeft" Valignment="AlignTop" text_width="-1" y="-176" frame="false" x="20" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" keep_visual_rotation="false" rotation="0" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <rect style="line-style:normal;line-weight:thin;filling:HTMLWhiteWhite;color:HTMLGrayBlack" rx="0" ry="0" y="-175" x="-19" width="40" antialias="false" height="175" />
         <text color="#000000" y="-7.5" x="-4" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text="A" rotation="0" />
         <text color="#000000" y="-7.5" x="10" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text="B" rotation="0" />
@@ -40,6 +32,20 @@
         <line style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" x1="-18" x2="20" y2="-155" antialias="false" end1="none" length2="1.5" length1="1.5" y1="-155" />
         <rect style="line-style:normal;line-weight:thin;filling:none;color:black" rx="0" ry="0" y="-120" x="-19" width="5" antialias="false" height="20" />
         <text color="#000000" y="-15.5" x="-11" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text="T" rotation="180" />
+        <dynamic_text x="-19" y="-205" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-19" y="-195" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="9" y="-195" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{40f03f2d-4eda-42aa-9dfd-e1ca39a342ec}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-19" y="-185" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-1" y="-185" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{99b30d1e-ac82-41c7-8910-28801821a335}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal type="Generic" orientation="s" y="-0.5" name="B" x="14" uuid="{d6789e47-aea7-4ca3-8e7a-1139497b3567}" />
         <terminal type="Generic" orientation="s" y="-0.5" name="T" x="-14" uuid="{2bed306d-aca7-4175-afd8-33adea8489d6}" />
         <terminal type="Generic" orientation="s" y="-0.5" name="A" x="0" uuid="{d34afa87-508a-4ef0-8ef4-7befed6937aa}" />

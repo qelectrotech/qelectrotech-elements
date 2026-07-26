@@ -12,19 +12,11 @@
         <elementInformation show="1" name="description">Shelly Pill</elementInformation>
         <elementInformation show="1" name="quantity">1</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations />
     <description>
-        <text x="40" y="-59" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="40" y="-47" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="74" y="-47" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4aa219fe-d3d5-4fc2-9dde-047bfdfa8908}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text x="58" y="-59" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{216b6be2-574b-4616-92fd-88c24a735277}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <arc height="40" width="40" y="0" x="-30" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="-180" />
         <arc height="40" width="40" y="-40" x="-30" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="90" />
         <arc height="40" width="40" y="-40" x="-10" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" start="0" />
@@ -36,6 +28,20 @@
         <line length1="1.5" length2="1.5" y1="-40" x2="10" end1="none" x1="-10" y2="-40" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
         <line length1="1.5" length2="1.5" y1="20" x2="30" end1="none" x1="30" y2="-20" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
         <text font="Liberation Sans,7,-1,5,50,0,0,0,0,0" y="35" color="#000000" x="-12" rotation="0" text="USB-C" />
+        <dynamic_text x="-30" y="-70" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{216b6be2-574b-4616-92fd-88c24a735277}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-30" y="-60" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-2" y="-60" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4aa219fe-d3d5-4fc2-9dde-047bfdfa8908}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-30" y="-50" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-12" y="-50" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8b49bf92-7850-4f5f-adad-3e1479c32522}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal type="Generic" name="Add-on interface" y="-40" x="0" orientation="n" uuid="{570650d9-d6db-4548-b0f9-51062b1eb304}" />
         <terminal type="Generic" name="USB-C" y="40" x="0" orientation="s" uuid="{e34ad0e9-49cb-461f-a290-fae103442504}" />
     </description>

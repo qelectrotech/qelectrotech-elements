@@ -5,19 +5,11 @@
     </names>
     <elementInformations>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
-        <text x="86" y="-120" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="86" y="-108" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="120" y="-108" z="3" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9dd40713-110a-4830-95e2-68a922b5889d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text x="104" y="-120" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b6678a5c-f240-4ab6-a725-3ca1c3b86ce9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <dynamic_text frame="false" z="1" Valignment="AlignTop" text_width="-1" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,normal" rotation="0" x="75" y="-120" Halignment="AlignLeft" keep_visual_rotation="false" uuid="{b70e52fe-9a0f-469f-8e01-13b915d8cb63}" text_from="UserText">
             <text>_</text>
         </dynamic_text>
@@ -131,6 +123,20 @@
         <line antialias="false" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="71" y2="0" end2="none" x2="-71" y1="0" length1="1.5" />
         <line antialias="false" end1="none" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-75" y2="-95" end2="none" x2="-75" y1="-4" length1="1.5" />
         <text color="#000000" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" text="COM" rotation="90" x="-67" y="-66" />
+        <dynamic_text x="-75" y="-130" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b6678a5c-f240-4ab6-a725-3ca1c3b86ce9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-75" y="-120" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-47" y="-120" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9dd40713-110a-4830-95e2-68a922b5889d}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-75" y="-110" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-57" y="-110" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3bfc49bb-83e5-4825-ba5f-c2d76c970eea}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal orientation="e" x="75" y="-20" name="L1" type="Generic" uuid="{8d66e32f-0de9-4246-9ec5-f602aedd26b1}" />
         <terminal orientation="e" x="75" y="-80" name="N" type="Generic" uuid="{105c6cd2-b9cb-4e09-b35b-199f821fe357}" />
         <terminal orientation="w" x="-75" y="-40" name="S1" type="Generic" uuid="{c2acb653-3e90-4fcc-a441-81a21046b66d}" />
