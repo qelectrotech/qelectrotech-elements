@@ -13,19 +13,11 @@
         <elementInformation name="description" show="1">2 channel circuit breaker</elementInformation>
         <elementInformation name="manufacturer" show="1">Shelly Europe</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
-        <text x="90" y="-54" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="90" y="-42" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="124" y="-42" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3b73ba6e-8a9e-4a3a-ada4-09e731065e06}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text x="108" y="-54" z="1" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b430af9b-aef2-487c-8494-64b898b8ac03}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <rect style="line-style:normal;line-weight:normal;filling:none;color:black" y="-34" x="40" ry="0" rx="0" height="200" antialias="false" width="40" />
         <text y="74" x="-38" font="Liberation Sans,3,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="Reset" />
         <rect style="line-style:normal;line-weight:normal;filling:white;color:black" y="-34" x="-40" ry="0" rx="0" height="200" antialias="false" width="120" />
@@ -101,6 +93,20 @@
         <rect style="line-style:normal;line-weight:thin;filling:black;color:white" y="-34" x="-37" ry="0" rx="0" height="12" antialias="false" width="12" />
         <text y="100" x="-30" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="Shelly" />
         <text y="74.3082" x="-38.6164" font="Liberation Sans,3,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="Reset" />
+        <dynamic_text x="-40" y="-64" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{59304463-4dac-4457-9cd2-7a9a63da3513}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-40" y="-54" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-12" y="-54" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{eabb830c-1ea4-47cf-9f71-aa271c567f5b}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-40" y="-44" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-22" y="-44" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{98418eba-3460-47c4-a601-f55560707ae7}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal y="166" type="Generic" x="22" uuid="{ad7fb3d6-8e84-4446-8217-cd4efdc9d222}" name="2" orientation="s" />
         <terminal y="-30" type="Outer" x="-31" uuid="{afba80f5-4456-4956-8d99-f38f0df348ec}" name="+12" orientation="n" />
         <terminal y="-34" type="Generic" x="61" uuid="{c48a8b3c-78f0-41ca-afe5-6fe319242c9f}" name="3" orientation="n" />

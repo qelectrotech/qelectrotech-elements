@@ -13,6 +13,8 @@
         <elementInformation name="quantity" show="1">1</elementInformation>
         <elementInformation name="designation" show="1">Shelly Pro Sensor Add-on</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -42,16 +44,6 @@
         <rect y="-149.95" x="-20" style="line-style:normal;line-weight:thin;filling:none;color:white" width="40" ry="0" rx="0" height="100" antialias="false" />
         <line length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:black" end1="none" y2="-188" end2="none" length2="1.5" y1="-188" x2="20" x1="-20" antialias="false" />
         <rect y="-149" x="-19" style="line-style:normal;line-weight:thin;filling:none;color:white" width="38" ry="1" rx="1" height="98" antialias="false" />
-        <text x="-1" y="-200" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="-1" y="-188" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="33" y="-188" z="28" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e3e5c969-91d0-41a6-b27c-9e97b8784ce2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text y="-200" rotation="0" x="21" Valignment="AlignTop" keep_visual_rotation="false" Halignment="AlignLeft" frame="false" z="27" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" text_width="-1">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <line length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:white" end1="none" y2="-15" end2="none" length2="1.5" y1="-15" x2="20" x1="-20" antialias="false" />
         <line length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:white" end1="none" y2="-186" end2="none" length2="1.5" y1="-186" x2="20" x1="-20" antialias="false" />
         <line length1="1.5" style="line-style:normal;line-weight:thin;filling:none;color:white" end1="none" y2="-170" end2="none" length2="1.5" y1="-170" x2="20" x1="-20" antialias="false" />
@@ -59,6 +51,20 @@
         <text y="-45" text="Shelly" rotation="0" x="-7" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" color="#ffffff" />
         <rect y="-148" x="-5" style="line-style:normal;line-weight:thin;filling:none;color:white" width="10" ry="0" rx="0" height="90" antialias="false" />
         <text y="-144" text="GND" rotation="0" x="-14" font="Liberation Sans,2,-1,5,50,0,0,0,0,0" color="#ffffff" />
+        <dynamic_text x="-20" y="-229.95" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ba6ee99e-cee6-4e4b-975f-4166c20ca10a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-20" y="-219.95" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="8" y="-219.95" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{51e09c1f-ec9b-48ae-b0e3-71d1dd27f7f2}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-20" y="-209.95" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-2" y="-209.95" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ed6ae6cd-7e26-46af-a709-1f1e565f0acf}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal y="-103" orientation="e" name="AIN 0" x="2" uuid="{eaff80ec-9b3a-491a-87ae-032ff4d3df7c}" type="Generic" />
         <terminal y="-131" orientation="e" name="DATA 1" x="2" uuid="{2b4b1b75-a812-458b-bfb1-f3828a769bad}" type="Generic" />
         <terminal y="-110" orientation="e" name="VREF" x="2" uuid="{3356ba66-ce91-4d1d-a8e1-a203cc16cec1}" type="Generic" />

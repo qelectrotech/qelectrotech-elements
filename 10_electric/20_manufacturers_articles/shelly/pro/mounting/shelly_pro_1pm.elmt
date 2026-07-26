@@ -13,6 +13,8 @@
         <elementInformation name="quantity" show="1">1</elementInformation>
         <elementInformation name="supplier" show="1">https://shelly.com</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -71,22 +73,26 @@
         <line x2="2" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-2" y1="-8.95" antialias="false" y2="-4.95" end2="none" />
         <line x2="0" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="0" y1="-8.95" antialias="false" y2="-4.95" end2="none" />
         <line x2="2" length2="1.5" length1="1.5" end1="none" style="line-style:normal;line-weight:thin;filling:none;color:black" x1="-2" y1="-6.95" antialias="false" y2="-6.95" end2="none" />
-        <text x="-2" y="-185" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="-2" y="-173" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="32" y="-173" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{87b1a265-4d66-48de-a210-e44607a21b4f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text frame="false" z="63" x="20" rotation="0" text_width="-1" keep_visual_rotation="false" Halignment="AlignLeft" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" y="-185" Valignment="AlignTop" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo">
+        <dynamic_text x="-20" y="-230" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{aede16f5-d66b-4d14-ae4e-107fccb812c4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
             <text />
             <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-20" y="-220" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="8" y="-220" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1a867de6-3448-458e-bc5c-5bf5e8b51fc7}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-20" y="-210" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-2" y="-210" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{01295d60-c5e6-4d3d-bf56-f3840545876c}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
         </dynamic_text>
         <terminal orientation="n" x="16" name="I" uuid="{4f0434ed-9c07-4882-9249-3f047dc68936}" type="Outer" y="-200" />
         <terminal orientation="s" x="4" name="N" uuid="{9e69969a-ed4d-4f52-af63-69ff5edf5858}" type="Outer" y="-18" />
         <terminal orientation="s" x="-4" name="N" uuid="{fa25f9c7-41cf-445a-9f9f-27dc51ba348c}" type="Outer" y="-1" />
         <terminal orientation="s" x="8" name="+12" uuid="{61b11481-d940-43fd-b097-c6f207cf1623}" type="Outer" y="-1" />
         <terminal orientation="n" x="-8" name="O" uuid="{c939d531-928a-4733-9e0b-e42c939b2c95}" type="Outer" y="-200" />
-        <terminal orientation="s" x="12" name="+12" uuid="{fa0aac32-7347-4cc6-9746-a2ad3709d219}" type="Outer" y="-8" />
+        <terminal orientation="s" x="12" name="LAN" uuid="{fa0aac32-7347-4cc6-9746-a2ad3709d219}" type="Outer" y="-8" />
         <terminal orientation="s" x="16" name="+12" uuid="{866b7e47-684f-4b9b-9f47-34245dfa8091}" type="Outer" y="-18" />
     </description>
 </definition>

@@ -13,6 +13,8 @@
         <elementInformation show="1" name="manufacturer">Shelly Europe</elementInformation>
         <elementInformation show="1" name="designation">Shelly Pro 4PM</elementInformation>
         <elementInformation show="1" name="comment" />
+        <elementInformation show="1" name="mac" />
+        <elementInformation show="1" name="ip" />
     </elementInformations>
     <informations>Shelly Europe Ltd.</informations>
     <description>
@@ -22,16 +24,6 @@
         <rect y="-149.05" width="118" x="-59" height="98" ry="1" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:white" rx="1" />
         <line y1="-40" y2="-40" length2="1.5" x2="60" x1="-60" end2="none" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:white" end1="none" />
         <line y1="-160" y2="-160" length2="1.5" x2="60" x1="-60" end2="none" length1="1.5" antialias="false" style="line-style:normal;line-weight:thin;filling:none;color:white" end1="none" />
-        <text x="-2" y="-200" text="IP:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <text x="-2" y="-188" text="MAC:" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="32" y="-188" z="9" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8fedb13e-2f34-44e4-a2f9-db85ff929e75}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>comment</info_name>
-        </dynamic_text>
-        <dynamic_text rotation="0" y="-200" x="20" text_width="-1" Halignment="AlignLeft" text_from="ElementInfo" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" uuid="{0dc27683-ebd8-4a71-8b0a-20383148eb2f}" keep_visual_rotation="false" frame="false" z="8">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
         <text rotation="270" y="-75" x="-41" text="Shelly" color="#9a9996" font="Liberation Sans,13,-1,5,50,0,0,0,0,0" />
         <text rotation="270" y="-118" x="-49" text="TM" color="#9a9996" font="Liberation Sans,2,-1,5,50,0,0,0,0,0" />
         <text rotation="0" y="-190" x="20" text="O2" color="#9a9996" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" />
@@ -106,6 +98,20 @@
         <text rotation="0" y="-64" x="-13" text="^" color="#77767b" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" />
         <text rotation="0" y="-190" x="-30" text="O3" color="#9a9996" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" />
         <text rotation="0" y="-190" x="-55" text="O4" color="#9a9996" font="Liberation Sans,4,-1,5,50,0,0,0,0,0" />
+        <dynamic_text x="-60" y="-230.05" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{16e62d24-6c65-4e4f-a82a-81c841b81c89}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+        <text x="-60" y="-220.05" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-32" y="-220.05" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{526bb8a0-fb3c-447e-9375-7a9661d003a2}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>mac</info_name>
+        </dynamic_text>
+        <text x="-60" y="-210.05" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
+        <dynamic_text x="-42" y="-210.05" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d14ddfa4-0b08-484b-97b0-7da6e8dde965}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
+            <text />
+            <info_name>ip</info_name>
+        </dynamic_text>
         <terminal y="-1" type="Outer" x="9" orientation="s" uuid="{0e63ea4d-36be-42b3-8e49-84b8b71b3a64}" name="+12" />
         <terminal y="-1" type="Outer" x="45" orientation="s" uuid="{7f0161a8-2a41-404f-a642-78de328e3142}" name="+12" />
         <terminal y="-1" type="Outer" x="33" orientation="s" uuid="{93cafbba-773c-48d1-af12-31b10eaeddc7}" name="+12" />
