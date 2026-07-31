@@ -1,35 +1,20 @@
-<definition version="0.100.1" width="150" hotspot_y="10" link_type="simple" type="element" height="30" hotspot_x="65">
-    <uuid uuid="{fe13807a-929e-48ed-87f0-f19734cd8cfb}" />
+<definition type="element" link_type="simple" hotspot_x="65" hotspot_y="10" width="150" height="30" version="0.100.1">
+    <uuid uuid="{bc5ae2e7-c293-4e20-97f0-6826f1085ee4}"/>
     <names>
         <name lang="en">USB-C Power Supply</name>
     </names>
-    <elementInformations>
-        <elementInformation show="1" name="comment" />
-        <elementInformation show="1" name="mac" />
-        <elementInformation show="1" name="ip" />
-    </elementInformations>
-    <informations />
+    <elementInformations/>
     <description>
-        <polygon antialias="false" y6="0" x6="80" x7="70" y9="-5" y5="10" x8="70" x1="40" y2="15" y3="15" x3="70" x5="80" x4="70" x2="40" y1="5" y4="10" x9="40" style="line-style:normal;line-weight:normal;filling:black;color:black" y8="-5" y7="0" />
-        <line length2="1.5" x2="-40" y2="5" length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" end2="none" y1="5" antialias="false" x1="40" end1="none" />
-        <line length2="1.5" x2="-60" y2="0" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:red" end2="none" y1="5" antialias="false" x1="-40" end1="none" />
-        <line length2="1.5" x2="-60" y2="10" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end2="none" y1="5" antialias="false" x1="-40" end1="none" />
-        <dynamic_text x="-61" y="-30" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e241cebf-8cd5-4b38-8ac1-63bbba712724}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
+        <polygon x6="80" x7="70" x8="70" x9="40" y1="5" y2="15" y3="15" y4="10" y5="10" y6="0" x1="40" y7="0" style="line-style:normal;line-weight:normal;filling:black;color:black" x2="40" y8="-5" antialias="false" x3="70" y9="-5" x4="70" x5="80"/>
+        <line end1="none" end2="none" y1="5" antialias="false" y2="5" style="line-style:normal;line-weight:hight;filling:none;color:black" x1="40" length1="1.5" x2="-40" length2="1.5"/>
+        <line end1="none" end2="none" y1="5" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:red" x1="-40" length1="1.5" x2="-60" length2="1.5"/>
+        <line end1="none" end2="none" y1="5" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-40" length1="1.5" x2="-60" length2="1.5"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="50" y="-30" z="5" rotation="0" font="Liberation Sans,9,-1,0,50,0,0,0,0,0,Regular" text_width="-1" uuid="{876ddb10-e181-4864-b9fa-a97985decaff}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
             <info_name>label</info_name>
         </dynamic_text>
-        <text x="-61" y="-20" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="-33" y="-20" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8c3588f5-e4ed-4521-8b80-8defc501a975}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>mac</info_name>
-        </dynamic_text>
-        <text x="-61" y="-10" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="-43" y="-10" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7c5a9284-b46c-475c-bebb-47297adcd5e3}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>ip</info_name>
-        </dynamic_text>
-        <terminal orientation="w" y="10" type="Generic" uuid="{2fc994c4-b198-4d16-a82a-30b6793225ff}" x="-61" name="GND" />
-        <terminal orientation="w" y="0" type="Generic" uuid="{7074f71f-ba8f-488d-886e-8de25be7af86}" x="-61" name="+5V" />
-        <terminal orientation="e" y="5" type="Generic" uuid="{8d3fd3db-f47f-4f48-9304-15f175b29817}" x="80" name="USB-C" />
+        <terminal type="Generic" x="-61" y="0" name="+5V" uuid="{7074f71f-ba8f-488d-886e-8de25be7af86}" orientation="w"/>
+        <terminal type="Generic" x="80" y="5" name="USB-C" uuid="{8d3fd3db-f47f-4f48-9304-15f175b29817}" orientation="e"/>
+        <terminal type="Generic" x="-61" y="10" name="GND" uuid="{2fc994c4-b198-4d16-a82a-30b6793225ff}" orientation="w"/>
     </description>
 </definition>

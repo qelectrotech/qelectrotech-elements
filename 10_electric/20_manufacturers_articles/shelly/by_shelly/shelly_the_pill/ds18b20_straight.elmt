@@ -1,47 +1,28 @@
-<definition width="150" height="60" link_type="simple" type="element" hotspot_y="28" version="0.100.1" hotspot_x="92">
-    <uuid uuid="{89d95ca9-dcab-4cc6-9802-58decc69098a}" />
+<definition type="element" link_type="simple" hotspot_x="93" hotspot_y="14" width="150" height="30" version="0.100.1">
+    <uuid uuid="{f38fb275-60ec-4043-8e7b-54f5d53da2df}"/>
     <names>
         <name lang="en">DS18B20</name>
     </names>
-    <elementInformations>
-        <elementInformation show="1" name="comment" />
-        <elementInformation show="1" name="mac" />
-        <elementInformation show="1" name="ip" />
-    </elementInformations>
-    <informations />
+    <elementInformations/>
     <description>
-        <arc width="10" start="0" height="10" x="-60" antialias="true" angle="90" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:red" />
-        <text color="#000000" text="GND" x="-84" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" y="8" />
-        <text color="#000000" text="Data" x="-83" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" y="-2" />
-        <line y2="-5" end2="none" x1="-50" y1="0" length2="1.5" antialias="false" x2="-50" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:red" end1="none" />
-        <line y2="-1.98952e-13" end2="none" x1="-50" y1="5" length2="1.5" antialias="false" x2="-50" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" />
-        <rect width="50" height="10" x="1" ry="0" rx="0" antialias="false" y="-5" style="line-style:normal;line-weight:normal;filling:gray;color:black" />
-        <line y2="0" end2="none" x1="0" y1="0" length2="1.5" antialias="false" x2="-50" length1="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" end1="none" />
-        <line y2="10" end2="none" x1="-55" y1="10" length2="1.5" antialias="false" x2="-85" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" end1="none" />
-        <line y2="-8.52651e-14" end2="none" x1="-50" y1="0" length2="1.5" antialias="false" x2="-85" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:yellow" end1="none" />
-        <line y2="-10" end2="none" x1="-55" y1="-10" length2="1.5" antialias="false" x2="-85" length1="1.5" style="line-style:normal;line-weight:normal;filling:none;color:red" end1="none" />
-        <arc width="10" start="270" height="10" x="-60" antialias="true" angle="90" y="0" style="line-style:normal;line-weight:normal;filling:none;color:black" />
-        <text color="#000000" text="+5V" x="-83" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" y="-12" />
-        <text color="#000000" text="DS18B20" x="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" rotation="0" y="20" />
-        <dynamic_text Valignment="AlignTop" text_width="-1" x="60" keep_visual_rotation="false" z="15" frame="false" rotation="0" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,normal" uuid="{3ba53ef4-cd49-4222-9335-e713f1d3a642}" y="-30" Halignment="AlignLeft" text_from="ElementInfo">
-            <text />
+        <arc x="-60" y="-10" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:red" start="0" width="10" height="10" angle="90"/>
+        <text x="-84" y="8" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="GND"/>
+        <text x="-83" y="-2" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="Data"/>
+        <line end1="none" end2="none" y1="0" antialias="false" y2="-5" style="line-style:normal;line-weight:normal;filling:none;color:red" x1="-50" length1="1.5" x2="-50" length2="1.5"/>
+        <line end1="none" end2="none" y1="5" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-50" length1="1.5" x2="-50" length2="1.5"/>
+        <rect ry="0" x="1" y="-5" antialias="false" style="line-style:normal;line-weight:normal;filling:gray;color:black" width="50" height="10" rx="0"/>
+        <line end1="none" end2="none" y1="0" antialias="false" y2="0" style="line-style:normal;line-weight:hight;filling:none;color:black" x1="0" length1="1.5" x2="-50" length2="1.5"/>
+        <line end1="none" end2="none" y1="10" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-55" length1="1.5" x2="-85" length2="1.5"/>
+        <line end1="none" end2="none" y1="0" antialias="false" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:yellow" x1="-50" length1="1.5" x2="-85" length2="1.5"/>
+        <line end1="none" end2="none" y1="-10" antialias="false" y2="-10" style="line-style:normal;line-weight:normal;filling:none;color:red" x1="-55" length1="1.5" x2="-85" length2="1.5"/>
+        <arc x="-60" y="0" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" start="270" width="10" height="10" angle="90"/>
+        <text x="-83" y="-12" font="Liberation Sans,5,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="+5V"/>
+        <text x="0" y="20" font="Liberation Sans,9,-1,5,50,0,0,0,0,0" rotation="0" color="#000000" text="DS18B20"/>
+        <dynamic_text frame="false" Halignment="AlignLeft" x="60" y="-30" z="15" rotation="0" font="Liberation Sans,9,-1,5,0,0,0,0,0,0,normal" text_width="-1" uuid="{3ba53ef4-cd49-4222-9335-e713f1d3a642}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+            <text></text>
         </dynamic_text>
-        <dynamic_text x="-85" y="-82" z="63" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{813df7ff-7087-40c1-8ec3-a6572fa7d816}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>label</info_name>
-        </dynamic_text>
-        <text x="-85" y="-72" text="MAC:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="-57" y="-72" z="64" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{97939d21-b461-4c6b-bc38-ab5c211a37c8}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>mac</info_name>
-        </dynamic_text>
-        <text x="-85" y="-62" text="IP:" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0" color="#000000" />
-        <dynamic_text x="-67" y="-62" z="65" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c5947c98-1611-4431-8685-3b6bc786380d}" font="Liberation Sans,7,-1,5,50,0,0,0,0,0">
-            <text />
-            <info_name>ip</info_name>
-        </dynamic_text>
-        <terminal x="-85" orientation="w" name="+5V" type="Generic" uuid="{7e57db4b-3b82-41ce-8de9-694a6e70b02e}" y="-10" />
-        <terminal x="-85" orientation="w" name="GND" type="Generic" uuid="{ca6d2028-601c-42e0-b8a8-4aa0f7fc4819}" y="10" />
-        <terminal x="-85" orientation="w" name="Data" type="Generic" uuid="{fd7ad6fc-1d46-4f9e-a673-17441f7ae49a}" y="0" />
+        <terminal type="Generic" x="-85" y="-10" name="+5V" uuid="{7e57db4b-3b82-41ce-8de9-694a6e70b02e}" orientation="w"/>
+        <terminal type="Generic" x="-85" y="0" name="Data" uuid="{fd7ad6fc-1d46-4f9e-a673-17441f7ae49a}" orientation="w"/>
+        <terminal type="Generic" x="-85" y="10" name="GND" uuid="{ca6d2028-601c-42e0-b8a8-4aa0f7fc4819}" orientation="w"/>
     </description>
 </definition>
