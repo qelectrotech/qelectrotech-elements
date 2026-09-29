@@ -1,5 +1,5 @@
 <definition type="element" link_type="simple" hotspot_x="70" hotspot_y="70" width="140" height="90" version="0.100.0">
-    <uuid uuid="{c76b4332-59c8-40ff-846d-206337cd111a}"/>
+    <uuid uuid="{3da9b9a2-9c42-4422-9a7f-62e892fa7b27}"/>
     <names>
         <name lang="ca">Mòdul de 4 relés</name>
         <name lang="cs">Reléový modul (4 relé)</name>
@@ -12,8 +12,14 @@
     <elementInformations>
         <elementInformation name="manufacturer" show="1">Aliexpress Sources</elementInformation>
     </elementInformations>
-    <informations>Yachal Upson
-October 2026</informations>
+    <informations>Credit: Charles Ferrand, 2 Relay Module Novembre 2013
+
+Yachal Upson, October 2026
+Including Pin names and jumper detail
+
+Vcc_CTRL and Vcc_JUMPER are permanently connected by the PCB.
+The removable jumper between Vcc_JUMPER and JD-Vcc is normally fitted.
+Internal connection and jumper graphics are explanatory only.</informations>
     <description>
         <text x="31" y="-18" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="JD-Vcc"/>
         <text x="41" y="-8" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="Vcc"/>
@@ -69,25 +75,31 @@ October 2026</informations>
         <text x="34" y="-36" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#000000" text="R4"/>
         <text x="-33" y="-6" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="90" color="#000000" text="In3"/>
         <text x="-23" y="-6" font="Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular" rotation="90" color="#000000" text="In4"/>
-        <terminal type="Generic" x="-40" y="10" name="In2" uuid="{297fc42e-7fc7-60bd-71c5-27651fd37223}" orientation="s"/>
-        <terminal type="Generic" x="-10" y="10" name="Vcc" uuid="{e3e54b44-70cb-d1e8-8303-46a3f9319067}" orientation="s"/>
-        <terminal type="Generic" x="-60" y="-60" name="R1_NC" uuid="{9399213f-b7ed-6d91-ec93-430075f42d88}" orientation="n"/>
-        <terminal type="Generic" x="-50" y="-60" name="R1_COM" uuid="{12b86be7-8de5-f3c9-8f82-776359d42107}" orientation="n"/>
-        <terminal type="Generic" x="-30" y="-60" name="R2_NC" uuid="{e9805797-f5cf-1b99-2154-a2ec6638bb89}" orientation="n"/>
-        <terminal type="Generic" x="60" y="-10" name="Vcc" uuid="{ee3b6f1f-f04d-bcc7-ee5e-c99f389c9558}" orientation="e"/>
-        <terminal type="Generic" x="10" y="-60" name="R3_COM" uuid="{1f1759c0-6180-4dbb-bcc6-a5cee2cb54d6}" orientation="n"/>
-        <terminal type="Generic" x="0" y="-60" name="R3_NC" uuid="{fe87e6b5-2fb8-47d1-b685-1d654fafbd8c}" orientation="n"/>
-        <terminal type="Generic" x="-40" y="-60" name="R1_NO" uuid="{9395b316-61c4-7fe4-e7fd-49566e606090}" orientation="n"/>
-        <terminal type="Generic" x="40" y="-60" name="R4_COM" uuid="{1d1d55bf-c11f-481a-b6e3-5a65322a55a8}" orientation="n"/>
-        <terminal type="Generic" x="50" y="-60" name="R4_NO" uuid="{ac75717a-8412-4f6e-80b7-b6f40f31aef7}" orientation="n"/>
+        <line end1="none" end2="none" y1="10" antialias="false" y2="7" style="line-style:normal;line-weight:normal;filling:none;color:black" x1="-10" length1="1.5" x2="-10" length2="1.5"/>
+        <line end1="none" end2="none" y1="10" antialias="false" y2="10" style="line-style:normal;line-weight:normal;filling:none;color:HTMLGrayDarkGray" x1="-10" length1="1.5" x2="60" length2="1.5"/>
+        <line end1="none" end2="none" y1="10" antialias="false" y2="-8.5" style="line-style:normal;line-weight:normal;filling:none;color:HTMLGrayDarkGray" x1="60" length1="1.5" x2="60" length2="1.5"/>
+        <circle x="58.5" y="-21.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3"/>
+        <circle x="58.5" y="-11.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" diameter="3"/>
+        <text x="20" y="8" font="Liberation Sans,4,-1,5,50,0,0,0,0,0,Regular" rotation="0" color="#a9a9a9" text="PCB  link"/>
         <terminal type="Generic" x="-60" y="10" name="GND" uuid="{8af8df40-9480-823a-670a-e30128bf0443}" orientation="s"/>
         <terminal type="Generic" x="-10" y="-60" name="R2_NO" uuid="{6eafabe6-a3ab-909a-40e5-0253ee44c8a5}" orientation="n"/>
-        <terminal type="Generic" x="30" y="-60" name="R4_NC" uuid="{ab959829-d88d-4a11-9e36-6688d7761920}" orientation="n"/>
-        <terminal type="Generic" x="-20" y="-60" name="R2_COM" uuid="{fdbfcd8e-41f5-cd95-2178-980c0385e646}" orientation="n"/>
-        <terminal type="Generic" x="-50" y="10" name="In1" uuid="{ac82cc23-4076-957a-58d1-418b134263ae}" orientation="s"/>
-        <terminal type="Generic" x="20" y="-60" name="R3_NO" uuid="{ea924b02-fa47-4f2b-ae0c-2935cec30126}" orientation="n"/>
-        <terminal type="Generic" x="60" y="-20" name="JD-Vcc" uuid="{df0ae052-0956-5b21-e9fd-65cfd1f65bc5}" orientation="e"/>
+        <terminal type="Generic" x="0" y="-60" name="R3_NC" uuid="{fe87e6b5-2fb8-47d1-b685-1d654fafbd8c}" orientation="n"/>
+        <terminal type="Generic" x="-40" y="-60" name="R1_NO" uuid="{9395b316-61c4-7fe4-e7fd-49566e606090}" orientation="n"/>
+        <terminal type="Generic" x="-30" y="-60" name="R2_NC" uuid="{e9805797-f5cf-1b99-2154-a2ec6638bb89}" orientation="n"/>
         <terminal type="Generic" x="-30" y="10" name="In3" uuid="{898bdd99-d53f-4ea5-8def-086cff731eb5}" orientation="s"/>
+        <terminal type="Generic" x="30" y="-60" name="R4_NC" uuid="{ab959829-d88d-4a11-9e36-6688d7761920}" orientation="n"/>
+        <terminal type="Generic" x="-40" y="10" name="In2" uuid="{297fc42e-7fc7-60bd-71c5-27651fd37223}" orientation="s"/>
+        <terminal type="Generic" x="50" y="-60" name="R4_NO" uuid="{ac75717a-8412-4f6e-80b7-b6f40f31aef7}" orientation="n"/>
+        <terminal type="Generic" x="-10" y="10" name="Vcc_CTRL" uuid="{e3e54b44-70cb-d1e8-8303-46a3f9319067}" orientation="s"/>
+        <terminal type="Generic" x="-50" y="10" name="In1" uuid="{ac82cc23-4076-957a-58d1-418b134263ae}" orientation="s"/>
         <terminal type="Generic" x="-20" y="10" name="In4" uuid="{7faa1192-7b74-489e-a954-06afadd897cd}" orientation="s"/>
+        <terminal type="Generic" x="20" y="-60" name="R3_NO" uuid="{ea924b02-fa47-4f2b-ae0c-2935cec30126}" orientation="n"/>
+        <terminal type="Generic" x="-50" y="-60" name="R1_COM" uuid="{12b86be7-8de5-f3c9-8f82-776359d42107}" orientation="n"/>
+        <terminal type="Generic" x="60" y="-20" name="JD-Vcc" uuid="{df0ae052-0956-5b21-e9fd-65cfd1f65bc5}" orientation="e"/>
+        <terminal type="Generic" x="-20" y="-60" name="R2_COM" uuid="{fdbfcd8e-41f5-cd95-2178-980c0385e646}" orientation="n"/>
+        <terminal type="Generic" x="40" y="-60" name="R4_COM" uuid="{1d1d55bf-c11f-481a-b6e3-5a65322a55a8}" orientation="n"/>
+        <terminal type="Generic" x="60" y="-10" name="Vcc_JUMPER" uuid="{ee3b6f1f-f04d-bcc7-ee5e-c99f389c9558}" orientation="e"/>
+        <terminal type="Generic" x="10" y="-60" name="R3_COM" uuid="{1f1759c0-6180-4dbb-bcc6-a5cee2cb54d6}" orientation="n"/>
+        <terminal type="Generic" x="-60" y="-60" name="R1_NC" uuid="{9399213f-b7ed-6d91-ec93-430075f42d88}" orientation="n"/>
     </description>
 </definition>
